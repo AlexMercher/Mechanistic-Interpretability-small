@@ -1,0 +1,3 @@
+canonical_id,source_prompt_id,domain,subdomain,source_model,source_file,prompt,duplicate_group
+DNA_000457,DNA_004_146,DNA,Mutations_Repair,ChatGPT,DNA_by_category/DNA_BY_CATEGORY/Contextual Understanding/ChatGPT.md,How does OGG1 recognize and excise 8-oxoguanine paired with cytosine?,e820d62ce42b
+DNA_001292,DNA_004_157,DNA,Mutations_Repair,Claude,DNA_by_category/DNA_BY_CATEGORY/Contextual Understanding/Claude.md,How does OGG1 recognize and excise 8-oxoguanine paired with cytosine?,e820d62ce42b

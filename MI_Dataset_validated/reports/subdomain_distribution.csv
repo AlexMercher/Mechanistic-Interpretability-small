@@ -1,0 +1,16 @@
+domain,subdomain,count
+DNA,Inheritance_Genomics,1000
+DNA,Mutations_Repair,1000
+DNA,Replication,1000
+DNA,Structure,1000
+DNA,Transcription_Translation,1000
+EMOTIONS,Basic_Complex_Emotions,1000
+EMOTIONS,Emotional_Expression_Communication,1000
+EMOTIONS,Emotional_Recognition_Interpretation,1000
+EMOTIONS,Emotional_Regulation_Coping,1000
+EMOTIONS,Empathy_Social_Emotions,1000
+HINDI,Grammar,1000
+HINDI,Pragmatics,1000
+HINDI,Semantics,1000
+HINDI,Syntax,1000
+HINDI,Vocabulary,1000

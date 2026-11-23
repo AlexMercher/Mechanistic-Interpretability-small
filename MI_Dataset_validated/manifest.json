@@ -1,0 +1,24 @@
+{
+  "dataset_name": "MI_Dataset",
+  "dataset_version": "1.0-normalized",
+  "source_archive": "MI_Dataset.zip",
+  "source_archive_sha256": "0eafed2dda9d80e12eba7f257f295f00a09b34db34d5beb213827fd62dd51ab7",
+  "record_count": 15000,
+  "domains": [
+    "DNA",
+    "EMOTIONS",
+    "HINDI"
+  ],
+  "domain_counts": {
+    "DNA": 5000,
+    "EMOTIONS": 5000,
+    "HINDI": 5000
+  },
+  "prompt_text_modified": false,
+  "scientific_expert_validation": "not_certified",
+  "files": [
+    "datasets/jsonl/dna.jsonl",
+    "datasets/jsonl/emotions.jsonl",
+    "datasets/jsonl/hindi.jsonl"
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mechanistic Interpretability Prompt Record",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "prompt_id",
+    "source_prompt_id",
+    "domain",
+    "subdomain",
+    "category",
+    "prompt",
+    "source_model",
+    "source_file",
+    "prompt_sha256",
+    "split",
+    "validation_status"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "prompt_id": {
+      "type": "string"
+    },
+    "source_prompt_id": {
+      "type": "string"
+    },
+    "domain": {
+      "enum": [
+        "DNA",
+        "EMOTIONS",
+        "HINDI"
+      ]
+    },
+    "subdomain": {
+      "type": "string"
+    },
+    "domain_class": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "category": {
+      "type": "string"
+    },
+    "source_category": {
+      "type": "string"
+    },
+    "prompt": {
+      "type": "string"
+    },
+    "language": {
+      "type": "string"
+    },
+    "script": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_script_label": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_model": {
+      "type": "string"
+    },
+    "source_file": {
+      "type": "string"
+    },
+    "prompt_sha256": {
+      "type": "string"
+    },
+    "split": {
+      "enum": [
+        "train",
+        "validation",
+        "test"
+      ]
+    },
+    "validation_status": {
+      "type": "string"
+    }
+  }
+}
