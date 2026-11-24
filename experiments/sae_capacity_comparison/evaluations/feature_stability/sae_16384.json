@@ -1,0 +1,113 @@
+{
+  "dictionary_width": 16384,
+  "seeds_compared": [
+    0,
+    1,
+    2
+  ],
+  "match_threshold": 0.3,
+  "activation_sample_n": 8192,
+  "pairwise": {
+    "seed0_vs_seed1": {
+      "decoder_n_matched": 2545,
+      "decoder_match_rate": 0.15533447265625,
+      "decoder_similarity_distribution": {
+        "mean": 0.7537887203084462,
+        "median": 0.8207674026489258,
+        "p10": 0.39741899967193606,
+        "p90": 0.9880855083465576,
+        "min": 0.30005741119384766,
+        "max": 0.9999129176139832
+      },
+      "activation_n_matched": 5709,
+      "activation_match_rate": 0.34844970703125,
+      "activation_similarity_distribution": {
+        "mean": 0.6467233201442196,
+        "median": 0.6165367364883423,
+        "p10": 0.3558811366558075,
+        "p90": 0.974369740486145,
+        "min": 0.3000237047672272,
+        "max": 0.9999998807907104
+      },
+      "decoder_matched_pairs_activation_similarity": {
+        "mean": 0.7346959114074707,
+        "median": 0.8603177070617676,
+        "p10": 0.247862309217453,
+        "p90": 0.9916673302650452,
+        "min": 0.0,
+        "max": 0.9999998807907104
+      },
+      "unmatched_decoder_fraction": 0.84466552734375,
+      "unmatched_activation_fraction": 0.65155029296875
+    },
+    "seed0_vs_seed2": {
+      "decoder_n_matched": 2547,
+      "decoder_match_rate": 0.15545654296875,
+      "decoder_similarity_distribution": {
+        "mean": 0.7445895550037581,
+        "median": 0.8048548698425293,
+        "p10": 0.38766345977783206,
+        "p90": 0.9863775610923767,
+        "min": 0.3006095886230469,
+        "max": 0.9999135136604309
+      },
+      "activation_n_matched": 5769,
+      "activation_match_rate": 0.35211181640625,
+      "activation_similarity_distribution": {
+        "mean": 0.6417965909899118,
+        "median": 0.6135284900665283,
+        "p10": 0.35247974991798403,
+        "p90": 0.9708754539489746,
+        "min": 0.3000950217247009,
+        "max": 1.0
+      },
+      "decoder_matched_pairs_activation_similarity": {
+        "mean": 0.7270597815513611,
+        "median": 0.8414186239242554,
+        "p10": 0.23354099690914154,
+        "p90": 0.9908604621887207,
+        "min": 0.0,
+        "max": 1.0
+      },
+      "unmatched_decoder_fraction": 0.84454345703125,
+      "unmatched_activation_fraction": 0.64788818359375
+    },
+    "seed1_vs_seed2": {
+      "decoder_n_matched": 2598,
+      "decoder_match_rate": 0.1585693359375,
+      "decoder_similarity_distribution": {
+        "mean": 0.750130501914887,
+        "median": 0.8078513145446777,
+        "p10": 0.39569108486175536,
+        "p90": 0.987186336517334,
+        "min": 0.3000844120979309,
+        "max": 0.9999121427536011
+      },
+      "activation_n_matched": 5693,
+      "activation_match_rate": 0.34747314453125,
+      "activation_similarity_distribution": {
+        "mean": 0.6481834999626725,
+        "median": 0.6175941824913025,
+        "p10": 0.3561789095401764,
+        "p90": 0.974763548374176,
+        "min": 0.30005770921707153,
+        "max": 0.9999999403953552
+      },
+      "decoder_matched_pairs_activation_similarity": {
+        "mean": 0.7306489944458008,
+        "median": 0.8480439186096191,
+        "p10": 0.25007832050323486,
+        "p90": 0.9909407496452332,
+        "min": 0.0,
+        "max": 0.9999999403953552
+      },
+      "unmatched_decoder_fraction": 0.8414306640625,
+      "unmatched_activation_fraction": 0.65252685546875
+    }
+  },
+  "summary": {
+    "mean_decoder_match_rate": 0.15645345052083334,
+    "mean_activation_match_rate": 0.3493448893229167
+  },
+  "note": "Feature indices are NOT aligned across independently trained SAEs -- matches above come from explicit greedy cosine-similarity matching, not index correspondence."
+}

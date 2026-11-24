@@ -1,0 +1,3640 @@
+{
+  "dictionary_width": 8192,
+  "seed": 0,
+  "checkpoint": "best_val",
+  "selection_method": "10 highest-frequency + 10 median-frequency + 10 lowest-nonzero-frequency alive features",
+  "n_features_inspected": 30,
+  "features": {
+    "795": {
+      "activation_frequency": 0.005377880278384391,
+      "n_firing_tokens_in_validation": 527,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 130,
+        "DNA": 55,
+        "GANDHI": 149,
+        "HINDI": 83,
+        "SCIENCE": 110
+      },
+      "top_activating_examples": [
+        {
+          "activation": 2.6782424449920654,
+          "prompt_id": "GANDHI_002697",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Bihar violence",
+          "token_position": 6,
+          "prompt_text": "Summarize the established historical information about Bihar violence that illuminates participant experience."
+        },
+        {
+          "activation": 2.6782424449920654,
+          "prompt_id": "GANDHI_002716",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Public symbolism",
+          "token_position": 6,
+          "prompt_text": "Summarize the established historical information about Public symbolism that illuminates participant experience."
+        },
+        {
+          "activation": 2.6782424449920654,
+          "prompt_id": "GANDHI_002724",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Media strategy",
+          "token_position": 6,
+          "prompt_text": "Summarize the established historical information about Media strategy that illuminates participant experience."
+        },
+        {
+          "activation": 2.6782424449920654,
+          "prompt_id": "GANDHI_002740",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — International encounters",
+          "token_position": 6,
+          "prompt_text": "Summarize the established historical information about International encounters that illuminates participant experience."
+        },
+        {
+          "activation": 2.6782424449920654,
+          "prompt_id": "GANDHI_002746",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Legacy abroad",
+          "token_position": 6,
+          "prompt_text": "Summarize the established historical information about Legacy abroad that illuminates participant experience."
+        },
+        {
+          "activation": 2.6762590408325195,
+          "prompt_id": "GANDHI_002713",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Criticism of Gandhi",
+          "token_position": 6,
+          "prompt_text": "Summarize the established historical information about Criticism of Gandhi that illuminates participant experience."
+        },
+        {
+          "activation": 2.6762590408325195,
+          "prompt_id": "GANDHI_002671",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Khan Abdul Ghaffar Khan",
+          "token_position": 6,
+          "prompt_text": "Summarize the established historical information about Khan Abdul Ghaffar Khan that illuminates participant experience."
+        },
+        {
+          "activation": 2.6762590408325195,
+          "prompt_id": "GANDHI_002677",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Lahore Congress 1929",
+          "token_position": 6,
+          "prompt_text": "Summarize the established historical information about Lahore Congress 1929 that illuminates participant experience."
+        },
+        {
+          "activation": 2.670952081680298,
+          "prompt_id": "GANDHI_002646",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Constructive programme",
+          "token_position": 6,
+          "prompt_text": "Summarize the established historical information about Constructive programme that illuminates participant experience."
+        },
+        {
+          "activation": 2.670952081680298,
+          "prompt_id": "GANDHI_002650",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Communal unity",
+          "token_position": 6,
+          "prompt_text": "Summarize the established historical information about Communal unity that illuminates participant experience."
+        },
+        {
+          "activation": 0.6590275764465332,
+          "prompt_id": "DNA_002797",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 24,
+          "prompt_text": "How do 16S rRNA amplicon sequencing and shotgun metagenomics differ in the taxonomic and functional information they provide about microbial communities?"
+        },
+        {
+          "activation": 0.5879429578781128,
+          "prompt_id": "EMOTIONS_004399",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 8,
+          "prompt_text": "Someone cries at a wedding. What additional information would be needed to decide whether the tears reflect joy, sadness, or relief? Reason step by step."
+        },
+        {
+          "activation": 0.477117121219635,
+          "prompt_id": "EMOTIONS_003292",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 15,
+          "prompt_text": "Scenario: Someone is left out of a shared joke because they lack the background information. Task: Propose a respectful, practical interpersonal response that preserves the other person's agency. Do not infer a person's internal state with certainty from a single behavior; state relevant uncertainty and avoid stereotypes."
+        },
+        {
+          "activation": 0.4752733111381531,
+          "prompt_id": "EMOTIONS_000292",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 15,
+          "prompt_text": "Scenario: Someone is left out of a shared joke because they lack the background information. Task: Interpret the social and emotional context while acknowledging what remains uncertain. Do not infer a person's internal state with certainty from a single behavior; state relevant uncertainty and avoid stereotypes."
+        },
+        {
+          "activation": 0.3956836462020874,
+          "prompt_id": "GANDHI_002677",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Lahore Congress 1929",
+          "token_position": 15,
+          "prompt_text": "Summarize the established historical information about Lahore Congress 1929 that illuminates participant experience."
+        },
+        {
+          "activation": 0.3907124996185303,
+          "prompt_id": "GANDHI_002713",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Criticism of Gandhi",
+          "token_position": 7,
+          "prompt_text": "Summarize the established historical information about Criticism of Gandhi that illuminates participant experience."
+        },
+        {
+          "activation": 0.3907124996185303,
+          "prompt_id": "GANDHI_002671",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Khan Abdul Ghaffar Khan",
+          "token_position": 7,
+          "prompt_text": "Summarize the established historical information about Khan Abdul Ghaffar Khan that illuminates participant experience."
+        },
+        {
+          "activation": 0.3907124996185303,
+          "prompt_id": "GANDHI_002677",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Lahore Congress 1929",
+          "token_position": 7,
+          "prompt_text": "Summarize the established historical information about Lahore Congress 1929 that illuminates participant experience."
+        },
+        {
+          "activation": 0.3899346590042114,
+          "prompt_id": "HINDI_000291",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 44,
+          "prompt_text": "यहाँ वक्ता की सामाजिक भूमिका और संबंध साझा ज्ञान की व्याख्या को कैसे प्रभावित करते हैं? बातचीत का संदर्भ: एक व्यक्ति निमंत्रण के उत्तर में कहता है, “कोशिश करूँगा।”"
+        },
+        {
+          "activation": 0.386211097240448,
+          "prompt_id": "GANDHI_002697",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Bihar violence",
+          "token_position": 7,
+          "prompt_text": "Summarize the established historical information about Bihar violence that illuminates participant experience."
+        }
+      ]
+    },
+    "963": {
+      "activation_frequency": 0.005377880278384391,
+      "n_firing_tokens_in_validation": 527,
+      "domain_distribution_of_firing_tokens": {
+        "DNA": 104,
+        "EMOTIONS": 151,
+        "HINDI": 141,
+        "GANDHI": 68,
+        "SCIENCE": 63
+      },
+      "top_activating_examples": [
+        {
+          "activation": 2.171257734298706,
+          "prompt_id": "GANDHI_000195",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Harijan publications",
+          "token_position": 13,
+          "prompt_text": "A historian examines Harijan publications through political context. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.136780261993408,
+          "prompt_id": "GANDHI_000286",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Means and ends",
+          "token_position": 13,
+          "prompt_text": "A historian examines Means and ends through political context. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.128365993499756,
+          "prompt_id": "GANDHI_000194",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Untouchability",
+          "token_position": 13,
+          "prompt_text": "A historian examines Untouchability through political context. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.1243364810943604,
+          "prompt_id": "GANDHI_000179",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Khilafat alliance",
+          "token_position": 15,
+          "prompt_text": "A historian examines Khilafat alliance through political context. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.1187620162963867,
+          "prompt_id": "GANDHI_000234",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Civil disobedience renewal",
+          "token_position": 14,
+          "prompt_text": "A historian examines Civil disobedience renewal through political context. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.1157593727111816,
+          "prompt_id": "GANDHI_000155",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — England and legal study",
+          "token_position": 14,
+          "prompt_text": "A historian examines England and legal study through political context. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.112863779067993,
+          "prompt_id": "GANDHI_000247",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Assassination",
+          "token_position": 12,
+          "prompt_text": "A historian examines Assassination through political context. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.1078555583953857,
+          "prompt_id": "GANDHI_000205",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Sanitation",
+          "token_position": 12,
+          "prompt_text": "A historian examines Sanitation through political context. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.099961280822754,
+          "prompt_id": "GANDHI_000191",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Ahimsa",
+          "token_position": 13,
+          "prompt_text": "A historian examines Ahimsa through political context. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.0930049419403076,
+          "prompt_id": "GANDHI_000249",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Global influence",
+          "token_position": 12,
+          "prompt_text": "A historian examines Global influence through political context. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.087188482284546,
+          "prompt_id": "GANDHI_000210",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Religious influences",
+          "token_position": 12,
+          "prompt_text": "A historian examines Religious influences through political context. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.0731000900268555,
+          "prompt_id": "GANDHI_000228",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Salt satyagraha nationwide",
+          "token_position": 16,
+          "prompt_text": "A historian examines Salt satyagraha nationwide through political context. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.070111036300659,
+          "prompt_id": "GANDHI_000164",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Transvaal registration laws",
+          "token_position": 15,
+          "prompt_text": "A historian examines Transvaal registration laws through political context. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.060743570327759,
+          "prompt_id": "GANDHI_000952",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Communal unity",
+          "token_position": 13,
+          "prompt_text": "A historian examines Communal unity through documentary evidence. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.047175645828247,
+          "prompt_id": "GANDHI_000270",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Colonial legal context",
+          "token_position": 13,
+          "prompt_text": "A historian examines Colonial legal context through political context. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.045233964920044,
+          "prompt_id": "GANDHI_000980",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Salt law",
+          "token_position": 12,
+          "prompt_text": "A historian examines Salt law through documentary evidence. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.0311760902404785,
+          "prompt_id": "GANDHI_000955",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Women in movement",
+          "token_position": 13,
+          "prompt_text": "A historian examines Women in movement through documentary evidence. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.0244860649108887,
+          "prompt_id": "GANDHI_000963",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Brahmacharya",
+          "token_position": 14,
+          "prompt_text": "A historian examines Brahmacharya through documentary evidence. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.023710012435913,
+          "prompt_id": "GANDHI_000215",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Gokhale",
+          "token_position": 14,
+          "prompt_text": "A historian examines Gokhale through political context. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.0177314281463623,
+          "prompt_id": "GANDHI_000977",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Subhas Chandra Bose",
+          "token_position": 15,
+          "prompt_text": "A historian examines Subhas Chandra Bose through documentary evidence. What contextual factors are essential to a careful explanation?"
+        }
+      ]
+    },
+    "972": {
+      "activation_frequency": 0.9741412739555483,
+      "n_firing_tokens_in_validation": 95460,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 15607,
+        "DNA": 10636,
+        "GANDHI": 11062,
+        "HINDI": 36878,
+        "SCIENCE": 21277
+      },
+      "top_activating_examples": [
+        {
+          "activation": 6.629857063293457,
+          "prompt_id": "SCIENCE_000719",
+          "domain": "SCIENCE",
+          "subdomain": "Electromagnetism",
+          "token_position": 46,
+          "prompt_text": "Interpret the observation that a solenoid produces a field when current flows using the governing concepts of Electromagnetism. Identify the mechanisms that explain the observation and the assumptions that matter. And identify the assumptions needed for the interpretation to hold."
+        },
+        {
+          "activation": 6.612795829772949,
+          "prompt_id": "SCIENCE_000432",
+          "domain": "SCIENCE",
+          "subdomain": "Electrochemistry",
+          "token_position": 26,
+          "prompt_text": "Interpret the observation that a metal corrodes in saline water using the governing concepts of Electrochemistry. Identify the mechanisms that explain the observation and the assumptions that matter. And identify the assumptions needed for the interpretation to hold."
+        },
+        {
+          "activation": 6.611908912658691,
+          "prompt_id": "EMOTIONS_000884",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 22,
+          "prompt_text": "After an emergency room nurse finishes a chaotic twelve-hour shift, she spends fifteen minutes sitting quietly in her parked car listening to instrumental music before walking into her house. What function does this transition ritual serve?"
+        },
+        {
+          "activation": 6.605250358581543,
+          "prompt_id": "EMOTIONS_000884",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 18,
+          "prompt_text": "After an emergency room nurse finishes a chaotic twelve-hour shift, she spends fifteen minutes sitting quietly in her parked car listening to instrumental music before walking into her house. What function does this transition ritual serve?"
+        },
+        {
+          "activation": 6.603856086730957,
+          "prompt_id": "GANDHI_001045",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Poona Pact",
+          "token_position": 20,
+          "prompt_text": "Compare Poona Pact and Sabarmati Ashram in terms of historical chronology; identify a meaningful similarity and a historically grounded difference."
+        },
+        {
+          "activation": 6.6020708084106445,
+          "prompt_id": "HINDI_004960",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 90,
+          "prompt_text": "एक शिक्षक छात्र से पूछता है, 'क्या तुम्हें लगता है कि यह उत्तर सही है?' इस प्रश्न के माध्यम से शिक्षक छात्र को सीधे गलत बताने के बजाय आत्म-मूल्यांकन के लिए कैसे प्रेरित करता है?"
+        },
+        {
+          "activation": 6.595128059387207,
+          "prompt_id": "DNA_004496",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 12,
+          "prompt_text": "What distinguishes somatic mosaicism from germline mosaicism in terms of phenotypic distribution within an individual and recurrence risk in offspring?"
+        },
+        {
+          "activation": 6.593783378601074,
+          "prompt_id": "SCIENCE_000025",
+          "domain": "SCIENCE",
+          "subdomain": "Optics",
+          "token_position": 42,
+          "prompt_text": "Interpret the observation that a diffraction pattern reveals a narrow aperture using the governing concepts of Optics. Identify the mechanisms that explain the observation and the assumptions that matter. And identify the assumptions needed for the interpretation to hold."
+        },
+        {
+          "activation": 6.588350296020508,
+          "prompt_id": "GANDHI_001026",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Jallianwala Bagh",
+          "token_position": 26,
+          "prompt_text": "Compare Jallianwala Bagh and Satyagraha in South Africa in terms of historical chronology; identify a meaningful similarity and a historically grounded difference."
+        },
+        {
+          "activation": 6.583555221557617,
+          "prompt_id": "EMOTIONS_002077",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 32,
+          "prompt_text": "In an everyday interaction, a friend discusses a cancelled plan; their words and apparent reaction seem mixed. Assess whether the evidence suggests a single emotion, a mixed state, or ambiguity. List the emotional cues present and classify them as explicit or inferred."
+        },
+        {
+          "activation": 6.583205699920654,
+          "prompt_id": "GANDHI_000445",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Chronology 1869–1948",
+          "token_position": 32,
+          "prompt_text": "Place Chronology 1869–1948 within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+        },
+        {
+          "activation": 6.58126163482666,
+          "prompt_id": "DNA_004940",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 27,
+          "prompt_text": "What would be expected to happen to strand-specific mutation patterns if the leading-strand polymerase had lower proofreading efficiency than the lagging-strand polymerase?"
+        },
+        {
+          "activation": 6.581150054931641,
+          "prompt_id": "SCIENCE_000432",
+          "domain": "SCIENCE",
+          "subdomain": "Electrochemistry",
+          "token_position": 41,
+          "prompt_text": "Interpret the observation that a metal corrodes in saline water using the governing concepts of Electrochemistry. Identify the mechanisms that explain the observation and the assumptions that matter. And identify the assumptions needed for the interpretation to hold."
+        },
+        {
+          "activation": 6.579958915710449,
+          "prompt_id": "GANDHI_000317",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Smuts negotiations",
+          "token_position": 17,
+          "prompt_text": "Place Smuts negotiations within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+        },
+        {
+          "activation": 6.577911376953125,
+          "prompt_id": "HINDI_001254",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 172,
+          "prompt_text": "इस प्रसंग में सीधे कथन और अप्रत्यक्ष कथन की तुलना विनम्र सुझाव के दृष्टिकोण से कीजिए। स्थिति: दो परिचित पहली बार मिलने पर औपचारिक भाषा का उपयोग करते हैं। इस कथन के शाब्दिक अर्थ और संभावित आशय में अंतर पर ध्यान दें।"
+        },
+        {
+          "activation": 6.5729265213012695,
+          "prompt_id": "SCIENCE_001478",
+          "domain": "SCIENCE",
+          "subdomain": "Genetics",
+          "token_position": 27,
+          "prompt_text": "Evaluate the relative strengths and limitations of a genotype does not predict phenotype perfectly and a population allele frequency changes across generations for explaining or measuring the same kind of phenomenon. Considering the relevant conservation laws and measurable variables."
+        },
+        {
+          "activation": 6.572748184204102,
+          "prompt_id": "GANDHI_001132",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Agriculture",
+          "token_position": 20,
+          "prompt_text": "Compare Agriculture and 1919 hartal in terms of historical chronology; identify a meaningful similarity and a historically grounded difference."
+        },
+        {
+          "activation": 6.570121765136719,
+          "prompt_id": "SCIENCE_001006",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 17,
+          "prompt_text": "Compare a spring-mass system oscillates after damping is introduced and a rotating ice skater speeds up as their arms move inward with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. Using a qualitative model before introducing any quantitative estimates."
+        },
+        {
+          "activation": 6.566005706787109,
+          "prompt_id": "GANDHI_001118",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Mass participation",
+          "token_position": 20,
+          "prompt_text": "Compare Mass participation and 1930 arrests in terms of historical chronology; identify a meaningful similarity and a historically grounded difference."
+        },
+        {
+          "activation": 6.5599164962768555,
+          "prompt_id": "SCIENCE_001645",
+          "domain": "SCIENCE",
+          "subdomain": "Environmental science",
+          "token_position": 29,
+          "prompt_text": "Compare a pesticide runoff event affects aquatic organisms and a contaminated site requires risk assessment with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. With a focus on causal mechanisms rather than descriptive labels."
+        }
+      ]
+    },
+    "1876": {
+      "activation_frequency": 0.05556462640569831,
+      "n_firing_tokens_in_validation": 5445,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 679,
+        "DNA": 1038,
+        "GANDHI": 943,
+        "HINDI": 2034,
+        "SCIENCE": 751
+      },
+      "top_activating_examples": [
+        {
+          "activation": 1.0178143978118896,
+          "prompt_id": "DNA_001184",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 5,
+          "prompt_text": "How do 4E-binding proteins regulate eIF4E under mTOR control?"
+        },
+        {
+          "activation": 0.9601367712020874,
+          "prompt_id": "SCIENCE_004509",
+          "domain": "SCIENCE",
+          "subdomain": "Neuroscience",
+          "token_position": 4,
+          "prompt_text": "Reason through a stimulus activates a brain region using Neuroscience. Specify the assumptions, intermediate steps, and evidence needed to support the conclusion. Considering the timescale over which the process unfolds."
+        },
+        {
+          "activation": 0.8195594549179077,
+          "prompt_id": "DNA_001061",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 6,
+          "prompt_text": "How is the CTD phosphorylated at Ser5 and Ser2 during the transcription cycle?"
+        },
+        {
+          "activation": 0.6482003927230835,
+          "prompt_id": "SCIENCE_004075",
+          "domain": "SCIENCE",
+          "subdomain": "Physical chemistry",
+          "token_position": 4,
+          "prompt_text": "Reason through a molecule absorbs energy into a vibrational mode using Physical chemistry. Specify the assumptions, intermediate steps, and evidence needed to support the conclusion. And identify the assumptions needed for the interpretation to hold."
+        },
+        {
+          "activation": 0.6094493865966797,
+          "prompt_id": "DNA_001268",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 5,
+          "prompt_text": "How does ATR become activated at stretches of RPA-coated single-stranded DNA?"
+        },
+        {
+          "activation": 0.6005204916000366,
+          "prompt_id": "DNA_002725",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 4,
+          "prompt_text": "How do EXO1-dependent and EXO1-independent mismatch repair pathways differ?"
+        },
+        {
+          "activation": 0.5766378045082092,
+          "prompt_id": "DNA_000824",
+          "domain": "DNA",
+          "subdomain": "Structure",
+          "token_position": 4,
+          "prompt_text": "How are bases extruded at B–Z junctions?"
+        },
+        {
+          "activation": 0.5682689547538757,
+          "prompt_id": "DNA_000988",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 9,
+          "prompt_text": "How is the role of RPA in flap processing related to Dna2 recruitment?"
+        },
+        {
+          "activation": 0.5639016032218933,
+          "prompt_id": "DNA_003255",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 11,
+          "prompt_text": "What is the role of XRN2 in the torpedo mechanism of eukaryotic transcription termination?"
+        },
+        {
+          "activation": 0.5560038089752197,
+          "prompt_id": "DNA_001268",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 4,
+          "prompt_text": "How does ATR become activated at stretches of RPA-coated single-stranded DNA?"
+        },
+        {
+          "activation": 0.5549549460411072,
+          "prompt_id": "DNA_001356",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 5,
+          "prompt_text": "How is RPA-coated single-stranded DNA replaced by RAD51 during homologous recombination?"
+        },
+        {
+          "activation": 0.5505359172821045,
+          "prompt_id": "DNA_000233",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 7,
+          "prompt_text": "How does a proofreading-deficient DNA polymerase influence mutation accumulation during successive rounds of DNA replication?"
+        },
+        {
+          "activation": 0.5412041544914246,
+          "prompt_id": "SCIENCE_004664",
+          "domain": "SCIENCE",
+          "subdomain": "Animal behavior",
+          "token_position": 4,
+          "prompt_text": "Reason through a predator employs camouflage using Animal behavior. Specify the assumptions, intermediate steps, and evidence needed to support the conclusion. Including how the system's boundary conditions influence the outcome."
+        },
+        {
+          "activation": 0.5347744822502136,
+          "prompt_id": "SCIENCE_001392",
+          "domain": "SCIENCE",
+          "subdomain": "Fluid mechanics",
+          "token_position": 4,
+          "prompt_text": "Contrast a wing produces lift as air flows around it with capillary rise occurs in a narrow tube, focusing on the shared scientific basis and the key distinction that determines their behavior. And identify the assumptions needed for the interpretation to hold."
+        },
+        {
+          "activation": 0.5023825168609619,
+          "prompt_id": "DNA_001371",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 9,
+          "prompt_text": "How is TLS regulated by deubiquitinases such as USP1, and why is PCNA ubiquitination reversible?"
+        },
+        {
+          "activation": 0.49637115001678467,
+          "prompt_id": "DNA_000824",
+          "domain": "DNA",
+          "subdomain": "Structure",
+          "token_position": 5,
+          "prompt_text": "How are bases extruded at B–Z junctions?"
+        },
+        {
+          "activation": 0.49095654487609863,
+          "prompt_id": "GANDHI_001910",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — England and legal study",
+          "token_position": 6,
+          "prompt_text": "How does England and legal study differ from 1922 trial regarding documentary evidence? Explain why the distinction matters historically."
+        },
+        {
+          "activation": 0.48694658279418945,
+          "prompt_id": "GANDHI_001967",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Tolstoy influence",
+          "token_position": 9,
+          "prompt_text": "How does Tolstoy influence differ from Agriculture regarding documentary evidence? Explain why the distinction matters historically."
+        },
+        {
+          "activation": 0.4799771308898926,
+          "prompt_id": "GANDHI_001914",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Pietermaritzburg incident",
+          "token_position": 7,
+          "prompt_text": "How does Pietermaritzburg incident differ from Thoreau and civil disobedience regarding documentary evidence? Explain why the distinction matters historically."
+        },
+        {
+          "activation": 0.47886621952056885,
+          "prompt_id": "DNA_002263",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 7,
+          "prompt_text": "How does the X:autosome ratio determine somatic sex in Drosophila melanogaster compared to the dominant SRY-driven mechanism in mammals?"
+        }
+      ]
+    },
+    "2154": {
+      "activation_frequency": 1.0204706410596567e-05,
+      "n_firing_tokens_in_validation": 1,
+      "domain_distribution_of_firing_tokens": {
+        "HINDI": 1
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.08226758986711502,
+          "prompt_id": "HINDI_001994",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 0,
+          "prompt_text": "Stranger woman ko 'Behen ji' address karne aur 'Madam' address karne ke social context aur register mein kya difference hai?"
+        }
+      ]
+    },
+    "2155": {
+      "activation_frequency": 1.0204706410596567e-05,
+      "n_firing_tokens_in_validation": 1,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 1
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.008880861103534698,
+          "prompt_id": "EMOTIONS_000703",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 11,
+          "prompt_text": "After hearing that her flight was canceled due to severe weather outside anyone's control, Evelyn feels let down about missing the first day of her vacation, though she does not blame the airline staff. Why is disappointment more accurate than anger here?"
+        }
+      ]
+    },
+    "2327": {
+      "activation_frequency": 1.0204706410596567e-05,
+      "n_firing_tokens_in_validation": 1,
+      "domain_distribution_of_firing_tokens": {
+        "HINDI": 1
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.0014935079962015152,
+          "prompt_id": "HINDI_004160",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 0,
+          "prompt_text": "‘Koi bhi darwaza khula nahi’ mein negation aur quantifier ka relation batayein."
+        }
+      ]
+    },
+    "2728": {
+      "activation_frequency": 0.055064595791579074,
+      "n_firing_tokens_in_validation": 5396,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 204,
+        "GANDHI": 38,
+        "HINDI": 5049,
+        "DNA": 6,
+        "SCIENCE": 99
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.5103409290313721,
+          "prompt_id": "HINDI_001881",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 92,
+          "prompt_text": "वाक्यों 'उसने कहा कि मैं आऊंगा।' और 'उसने अपने आने की बात कही।' में पूरक उपवाक्य बनाम संज्ञा पदबंध की संरचना की तुलना कीजिए।"
+        },
+        {
+          "activation": 0.456323504447937,
+          "prompt_id": "HINDI_000750",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 111,
+          "prompt_text": "\"राम ने रावण को बाण से मारा।\" इस वाक्य में कर्ता, कर्म और करण कारक के परसर्गों की उपस्थिति और क्रिया के लिंग-वचन पर उनके प्रभाव को स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 0.4485355019569397,
+          "prompt_id": "HINDI_003899",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 133,
+          "prompt_text": "स्वास्थ्य सलाह: 'भोजन करने के तुरंत बाद ठंडा पानी पीने से बचना चाहिए।' इस वाक्य में 'बचना चाहिए' क्रिया के साथ अपादान कारकीय क्रियार्थक संज्ञा पदबंध की पहचान कीजिए।"
+        },
+        {
+          "activation": 0.4338403344154358,
+          "prompt_id": "HINDI_001881",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 91,
+          "prompt_text": "वाक्यों 'उसने कहा कि मैं आऊंगा।' और 'उसने अपने आने की बात कही।' में पूरक उपवाक्य बनाम संज्ञा पदबंध की संरचना की तुलना कीजिए।"
+        },
+        {
+          "activation": 0.42177557945251465,
+          "prompt_id": "HINDI_003870",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 133,
+          "prompt_text": "दवा की शीशी पर लिखा निर्देश: 'बच्चों की पहुंच से दूर रखें तथा प्रयोग से पहले अच्छी तरह हिलाएं।' इस निर्देश में प्रयुक्त दो उपवाक्यों की क्रिया संरचना और योजक का विश्लेषण कीजिए।"
+        },
+        {
+          "activation": 0.42155489325523376,
+          "prompt_id": "HINDI_000888",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 101,
+          "prompt_text": "वाक्य 'तुम जहां जाओगे, मैं भी वहीं चलूंगा।' में स्थानवाचक संबंधवाचक उपवाक्य की संरचना और उसके सहसंबंधी पद की पहचान कीजिए।"
+        },
+        {
+          "activation": 0.4214347004890442,
+          "prompt_id": "HINDI_000219",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 100,
+          "prompt_text": "'जिस व्यक्ति से मैं मिला वह डॉक्टर है' को देखकर निषेध संरचना का वाक्य में स्थान और उससे जुड़े पदों का संबंध समझाइए।"
+        },
+        {
+          "activation": 0.42071473598480225,
+          "prompt_id": "HINDI_003899",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 132,
+          "prompt_text": "स्वास्थ्य सलाह: 'भोजन करने के तुरंत बाद ठंडा पानी पीने से बचना चाहिए।' इस वाक्य में 'बचना चाहिए' क्रिया के साथ अपादान कारकीय क्रियार्थक संज्ञा पदबंध की पहचान कीजिए।"
+        },
+        {
+          "activation": 0.4112953245639801,
+          "prompt_id": "HINDI_004102",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 76,
+          "prompt_text": "“मेरे द्वारा गलती हुई” और “मुझसे गलती हुई” में संरचना तथा स्वाभाविकता का अंतर तर्क सहित बताइए।"
+        },
+        {
+          "activation": 0.403187096118927,
+          "prompt_id": "HINDI_001278",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 43,
+          "prompt_text": "इस प्रसंग में सीधे कथन और अप्रत्यक्ष कथन की तुलना प्रश्न के पीछे का उद्देश्य के दृष्टिकोण से कीजिए। स्थिति: किसी वरिष्ठ को संबोधित करते समय वक्ता “आप” का प्रयोग करता है।"
+        },
+        {
+          "activation": 0.39718717336654663,
+          "prompt_id": "HINDI_003870",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 142,
+          "prompt_text": "दवा की शीशी पर लिखा निर्देश: 'बच्चों की पहुंच से दूर रखें तथा प्रयोग से पहले अच्छी तरह हिलाएं।' इस निर्देश में प्रयुक्त दो उपवाक्यों की क्रिया संरचना और योजक का विश्लेषण कीजिए।"
+        },
+        {
+          "activation": 0.39700978994369507,
+          "prompt_id": "HINDI_000750",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 102,
+          "prompt_text": "\"राम ने रावण को बाण से मारा।\" इस वाक्य में कर्ता, कर्म और करण कारक के परसर्गों की उपस्थिति और क्रिया के लिंग-वचन पर उनके प्रभाव को स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 0.39344778656959534,
+          "prompt_id": "HINDI_001611",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 105,
+          "prompt_text": "\"मैंने उसे कहा\" और \"मैंने उससे कहा\" — मानक हिंदी में कौन-सी संरचना मानी जाती है, और \"कहना\" क्रिया के साथ परसर्ग-चयन का संरचनात्मक आधार क्या है?"
+        },
+        {
+          "activation": 0.3916611969470978,
+          "prompt_id": "HINDI_001766",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 108,
+          "prompt_text": "\"दरवाज़ा खुला है।\" और \"दरवाज़ा खोला गया है।\"—इन दोनों संरचनाओं में स्थितिवाचक विशेषण/क्रिया और कर्मवाच्य के बीच व्याकरणिक अंतर स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 0.38043883442878723,
+          "prompt_id": "HINDI_001881",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 100,
+          "prompt_text": "वाक्यों 'उसने कहा कि मैं आऊंगा।' और 'उसने अपने आने की बात कही।' में पूरक उपवाक्य बनाम संज्ञा पदबंध की संरचना की तुलना कीजिए।"
+        },
+        {
+          "activation": 0.375013530254364,
+          "prompt_id": "HINDI_003907",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 156,
+          "prompt_text": "सामुदायिक नियम: 'सोसाइटी परिसर में रात दस बजे के बाद तेज़ संगीत बजाने की अनुमति नहीं है।' इस वाक्य में मुख्य संज्ञा पदबंध 'अनुमति' का विस्तार करने वाले संबंध कारक पदबंध को रेखांकित कीजिए।"
+        },
+        {
+          "activation": 0.3734103739261627,
+          "prompt_id": "HINDI_000748",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 83,
+          "prompt_text": "\"मरीज़ से अब चला भी नहीं जाता।\" इस वाक्य में प्रयुक्त वाच्य और क्रिया की संरचना का संदर्भगत विश्लेषण कीजिए।"
+        },
+        {
+          "activation": 0.367008775472641,
+          "prompt_id": "HINDI_003888",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 127,
+          "prompt_text": "परीक्षा निर्देश: 'प्रश्नों के उत्तर केवल नीले या काले पेन से ही लिखें।' इस वाक्य में 'केवल... ही' निपात किस कारकीय पदबंध के क्षेत्र को नियंत्रित कर रहे हैं?"
+        },
+        {
+          "activation": 0.3653959035873413,
+          "prompt_id": "HINDI_003967",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 113,
+          "prompt_text": "किसी व्यावसायिक साझेदारी के प्रस्ताव को अस्वीकार करते समय भविष्य के संबंधों को सुरक्षित रखने के लिए हिंदी में कैसा उत्तर लिखना चाहिए?"
+        },
+        {
+          "activation": 0.36231672763824463,
+          "prompt_id": "HINDI_002772",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 103,
+          "prompt_text": "हिंदी में कर्मवाच्य और भाववाच्य की संरचना में 'से' या 'के द्वारा' के प्रयोग तथा क्रिया के एकवचन पुल्लिंग रूप रहने की शर्तें क्या हैं?"
+        }
+      ]
+    },
+    "2922": {
+      "activation_frequency": 0.04789068718492969,
+      "n_firing_tokens_in_validation": 4693,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 730,
+        "DNA": 2159,
+        "GANDHI": 393,
+        "HINDI": 667,
+        "SCIENCE": 744
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.6944424510002136,
+          "prompt_id": "DNA_001652",
+          "domain": "DNA",
+          "subdomain": "Structure",
+          "token_position": 3,
+          "prompt_text": "How does strand polarity affect the topology of a single-stranded DNA hairpin loop?"
+        },
+        {
+          "activation": 0.6676009297370911,
+          "prompt_id": "DNA_001464",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 3,
+          "prompt_text": "How do chromosome territories in the interphase nucleus influence the frequency of specific translocations?"
+        },
+        {
+          "activation": 0.65854412317276,
+          "prompt_id": "DNA_002036",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 3,
+          "prompt_text": "How do iron regulatory proteins (IRP1 and IRP2) bind to iron-responsive elements (IREs) in the 5' UTR of ferritin mRNA to repress translation?"
+        },
+        {
+          "activation": 0.6506693959236145,
+          "prompt_id": "DNA_001139",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 4,
+          "prompt_text": "How does RNase P function as a ribozyme in tRNA 5′ end maturation?"
+        },
+        {
+          "activation": 0.6164781451225281,
+          "prompt_id": "DNA_003868",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 7,
+          "prompt_text": "What is the role of non-B DNA structures such as G-quadruplexes and hairpins in endogenous DNA damage?"
+        },
+        {
+          "activation": 0.616119384765625,
+          "prompt_id": "DNA_001281",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 3,
+          "prompt_text": "How are DNA damage-induced transcriptional programs regulated by NF-κB?"
+        },
+        {
+          "activation": 0.6158455014228821,
+          "prompt_id": "DNA_001194",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 3,
+          "prompt_text": "How does EF-G catalyze translocation, and how is GTP hydrolysis coupled to this movement?"
+        },
+        {
+          "activation": 0.6141056418418884,
+          "prompt_id": "DNA_004793",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 3,
+          "prompt_text": "How is replication fidelity measured using lacZ forward mutation assays or whole-genome sequencing of mutation accumulation lines?"
+        },
+        {
+          "activation": 0.6121642589569092,
+          "prompt_id": "DNA_001282",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 3,
+          "prompt_text": "How does DNA damage trigger senescence, and what is the role of the senescence-associated secretory phenotype?"
+        },
+        {
+          "activation": 0.6044529676437378,
+          "prompt_id": "DNA_003359",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 4,
+          "prompt_text": "What types of DNA damage can arise from spontaneous alkylation reactions involving cellular metabolites?"
+        },
+        {
+          "activation": 0.6005889177322388,
+          "prompt_id": "DNA_001529",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 3,
+          "prompt_text": "How are satellite DNA, minisatellites, and microsatellites distinguished in terms of repeat unit size, genomic location, and mutational behavior?"
+        },
+        {
+          "activation": 0.5982962250709534,
+          "prompt_id": "DNA_002176",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 3,
+          "prompt_text": "How do structural variants and EPCAM deletions cause epigenetic silencing of the downstream MSH2 gene in Lynch syndrome?"
+        },
+        {
+          "activation": 0.5906485319137573,
+          "prompt_id": "DNA_000322",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 3,
+          "prompt_text": "How do snoRNP complexes guide site-specific modifications of ribosomal RNA?"
+        },
+        {
+          "activation": 0.5893718600273132,
+          "prompt_id": "DNA_003837",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 6,
+          "prompt_text": "What are the roles of polysome formation and ribosome spacing in translation efficiency?"
+        },
+        {
+          "activation": 0.5808486342430115,
+          "prompt_id": "DNA_000630",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 5,
+          "prompt_text": "How can recombination hotspots influence local patterns of genetic variation?"
+        },
+        {
+          "activation": 0.5783498883247375,
+          "prompt_id": "DNA_003107",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 5,
+          "prompt_text": "What is an origin of replication, and why is it essential for initiating DNA replication?"
+        },
+        {
+          "activation": 0.5721943974494934,
+          "prompt_id": "DNA_003295",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 4,
+          "prompt_text": "What is codon context, and how can neighbouring nucleotides influence decoding efficiency?"
+        },
+        {
+          "activation": 0.5693584680557251,
+          "prompt_id": "DNA_000630",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 4,
+          "prompt_text": "How can recombination hotspots influence local patterns of genetic variation?"
+        },
+        {
+          "activation": 0.5667780637741089,
+          "prompt_id": "DNA_001972",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 4,
+          "prompt_text": "How does the nuclear pore complex selectively export mature, properly processed mRNPs via the NXF1-NXT1 heterodimer?"
+        },
+        {
+          "activation": 0.5646560788154602,
+          "prompt_id": "DNA_003331",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 3,
+          "prompt_text": "What is polysome formation, and what can polysome abundance reveal about translation?"
+        }
+      ]
+    },
+    "2924": {
+      "activation_frequency": 1.0204706410596567e-05,
+      "n_firing_tokens_in_validation": 1,
+      "domain_distribution_of_firing_tokens": {
+        "HINDI": 1
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.021791784092783928,
+          "prompt_id": "HINDI_003668",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 27,
+          "prompt_text": "एक मित्र ने आपको अपनी लिखी कविता दिखाई जो आपको ख़ास अच्छी नहीं लगी। ईमानदार पर उत्साहवर्धक हिंदी प्रतिक्रिया लिखिए।"
+        }
+      ]
+    },
+    "2974": {
+      "activation_frequency": 0.048615221340082046,
+      "n_firing_tokens_in_validation": 4764,
+      "domain_distribution_of_firing_tokens": {
+        "DNA": 84,
+        "EMOTIONS": 184,
+        "HINDI": 4412,
+        "GANDHI": 8,
+        "SCIENCE": 76
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.6372054219245911,
+          "prompt_id": "HINDI_000767",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 82,
+          "prompt_text": "\"उसे बुखार आ गया है, इसलिए वह स्कूल नहीं जा पाएगा।\" इस वाक्य में 'जा पाएगा' सहायक क्रिया संयोजन से किस व्याकरणिक अर्थ-पक्ष का बोध होता है?"
+        },
+        {
+          "activation": 0.6226564049720764,
+          "prompt_id": "HINDI_000767",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 85,
+          "prompt_text": "\"उसे बुखार आ गया है, इसलिए वह स्कूल नहीं जा पाएगा।\" इस वाक्य में 'जा पाएगा' सहायक क्रिया संयोजन से किस व्याकरणिक अर्थ-पक्ष का बोध होता है?"
+        },
+        {
+          "activation": 0.6199107766151428,
+          "prompt_id": "HINDI_000888",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 66,
+          "prompt_text": "वाक्य 'तुम जहां जाओगे, मैं भी वहीं चलूंगा।' में स्थानवाचक संबंधवाचक उपवाक्य की संरचना और उसके सहसंबंधी पद की पहचान कीजिए।"
+        },
+        {
+          "activation": 0.6101095676422119,
+          "prompt_id": "HINDI_004746",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 75,
+          "prompt_text": "\"पिताजी बाज़ार गए हैं\" वाक्य में 'पिताजी' एकवचन संज्ञा होने के बावजूद क्रिया बहुवचन ('गए हैं') में क्यों प्रयुक्त हुई है? हिंदी व्याकरण के इस सिद्धांत को स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 0.6021270751953125,
+          "prompt_id": "HINDI_000767",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 74,
+          "prompt_text": "\"उसे बुखार आ गया है, इसलिए वह स्कूल नहीं जा पाएगा।\" इस वाक्य में 'जा पाएगा' सहायक क्रिया संयोजन से किस व्याकरणिक अर्थ-पक्ष का बोध होता है?"
+        },
+        {
+          "activation": 0.5857019424438477,
+          "prompt_id": "HINDI_000446",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 78,
+          "prompt_text": "एक सूचना-पट्ट पर लिखा है: \"यहाँ धूम्रपान करना मना है।\" इस वाक्य में \"करना\" क्रियार्थक संज्ञा के रूप में कैसे काम कर रहा है, और वाक्य का उद्देश्य क्या है?"
+        },
+        {
+          "activation": 0.575178325176239,
+          "prompt_id": "HINDI_000888",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 65,
+          "prompt_text": "वाक्य 'तुम जहां जाओगे, मैं भी वहीं चलूंगा।' में स्थानवाचक संबंधवाचक उपवाक्य की संरचना और उसके सहसंबंधी पद की पहचान कीजिए।"
+        },
+        {
+          "activation": 0.56931471824646,
+          "prompt_id": "HINDI_000248",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 51,
+          "prompt_text": "दिए गए example 'वह गाना गाकर बाहर चला गया' में कारक चिह्न और भूमिका किस प्रकार sentence structure को प्रभावित करता है?"
+        },
+        {
+          "activation": 0.5640698671340942,
+          "prompt_id": "HINDI_000767",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 83,
+          "prompt_text": "\"उसे बुखार आ गया है, इसलिए वह स्कूल नहीं जा पाएगा।\" इस वाक्य में 'जा पाएगा' सहायक क्रिया संयोजन से किस व्याकरणिक अर्थ-पक्ष का बोध होता है?"
+        },
+        {
+          "activation": 0.5579997301101685,
+          "prompt_id": "HINDI_004600",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 86,
+          "prompt_text": "\"मैंने रोटी और दाल खाई\" में क्रिया स्त्रीलिंग है, पर \"मैंने दाल और चावल खाए\" में पुल्लिंग बहुवचन। निकटवर्ती संयोजक अन्वय (closest conjunct agreement) का तर्क दीजिए।"
+        },
+        {
+          "activation": 0.5502212643623352,
+          "prompt_id": "HINDI_000888",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 56,
+          "prompt_text": "वाक्य 'तुम जहां जाओगे, मैं भी वहीं चलूंगा।' में स्थानवाचक संबंधवाचक उपवाक्य की संरचना और उसके सहसंबंधी पद की पहचान कीजिए।"
+        },
+        {
+          "activation": 0.5478515625,
+          "prompt_id": "HINDI_000888",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 62,
+          "prompt_text": "वाक्य 'तुम जहां जाओगे, मैं भी वहीं चलूंगा।' में स्थानवाचक संबंधवाचक उपवाक्य की संरचना और उसके सहसंबंधी पद की पहचान कीजिए।"
+        },
+        {
+          "activation": 0.5458428859710693,
+          "prompt_id": "HINDI_004204",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 55,
+          "prompt_text": "यदि 'उसने काम पूरा करने के बाद विश्राम किया' में कारक चिह्न और भूमिका को बदल दिया जाए, तो वाक्य की संरचना पर क्या प्रभाव पड़ेगा? कारण सहित बताइए।"
+        },
+        {
+          "activation": 0.5395628213882446,
+          "prompt_id": "HINDI_001766",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 77,
+          "prompt_text": "\"दरवाज़ा खुला है।\" और \"दरवाज़ा खोला गया है।\"—इन दोनों संरचनाओं में स्थितिवाचक विशेषण/क्रिया और कर्मवाच्य के बीच व्याकरणिक अंतर स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 0.5378856062889099,
+          "prompt_id": "HINDI_004204",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 46,
+          "prompt_text": "यदि 'उसने काम पूरा करने के बाद विश्राम किया' में कारक चिह्न और भूमिका को बदल दिया जाए, तो वाक्य की संरचना पर क्या प्रभाव पड़ेगा? कारण सहित बताइए।"
+        },
+        {
+          "activation": 0.5356764793395996,
+          "prompt_id": "HINDI_000767",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 103,
+          "prompt_text": "\"उसे बुखार आ गया है, इसलिए वह स्कूल नहीं जा पाएगा।\" इस वाक्य में 'जा पाएगा' सहायक क्रिया संयोजन से किस व्याकरणिक अर्थ-पक्ष का बोध होता है?"
+        },
+        {
+          "activation": 0.5335807800292969,
+          "prompt_id": "HINDI_000248",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 42,
+          "prompt_text": "दिए गए example 'वह गाना गाकर बाहर चला गया' में कारक चिह्न और भूमिका किस प्रकार sentence structure को प्रभावित करता है?"
+        },
+        {
+          "activation": 0.5288909077644348,
+          "prompt_id": "HINDI_001408",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 31,
+          "prompt_text": "'से' विभक्ति करण कारक और अपादान कारक में कैसे अलग-अलग अर्थ देती है?"
+        },
+        {
+          "activation": 0.5288643836975098,
+          "prompt_id": "HINDI_000784",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 65,
+          "prompt_text": "\"वह घर जाते-जाते रुक गया।\" इस वाक्य में 'जाते-जाते' पद का व्याकरणिक प्रकार्य (grammatical function) क्या है?"
+        },
+        {
+          "activation": 0.5279102325439453,
+          "prompt_id": "HINDI_000767",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 94,
+          "prompt_text": "\"उसे बुखार आ गया है, इसलिए वह स्कूल नहीं जा पाएगा।\" इस वाक्य में 'जा पाएगा' सहायक क्रिया संयोजन से किस व्याकरणिक अर्थ-पक्ष का बोध होता है?"
+        }
+      ]
+    },
+    "3087": {
+      "activation_frequency": 1.0204706410596567e-05,
+      "n_firing_tokens_in_validation": 1,
+      "domain_distribution_of_firing_tokens": {
+        "HINDI": 1
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.006925063207745552,
+          "prompt_id": "HINDI_001994",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 0,
+          "prompt_text": "Stranger woman ko 'Behen ji' address karne aur 'Madam' address karne ke social context aur register mein kya difference hai?"
+        }
+      ]
+    },
+    "3149": {
+      "activation_frequency": 1.0204706410596567e-05,
+      "n_firing_tokens_in_validation": 1,
+      "domain_distribution_of_firing_tokens": {
+        "HINDI": 1
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.014766450971364975,
+          "prompt_id": "HINDI_001994",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 0,
+          "prompt_text": "Stranger woman ko 'Behen ji' address karne aur 'Madam' address karne ke social context aur register mein kya difference hai?"
+        }
+      ]
+    },
+    "3160": {
+      "activation_frequency": 0.047339633038757475,
+      "n_firing_tokens_in_validation": 4639,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 1135,
+        "DNA": 253,
+        "GANDHI": 234,
+        "HINDI": 2535,
+        "SCIENCE": 482
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.40948423743247986,
+          "prompt_id": "EMOTIONS_003499",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 12,
+          "prompt_text": "Write a birthday card message for a grandparent that expresses affection in a way suited to a formal, reserved relationship."
+        },
+        {
+          "activation": 0.3971019685268402,
+          "prompt_id": "EMOTIONS_000703",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 42,
+          "prompt_text": "After hearing that her flight was canceled due to severe weather outside anyone's control, Evelyn feels let down about missing the first day of her vacation, though she does not blame the airline staff. Why is disappointment more accurate than anger here?"
+        },
+        {
+          "activation": 0.37282347679138184,
+          "prompt_id": "HINDI_001650",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 24,
+          "prompt_text": "\"Chal nikal\" aur \"Ab aap jaa sakte hain\" — kisi ko jaane ke liye kehne ke dono tareekon ki tulna kijiye."
+        },
+        {
+          "activation": 0.34555885195732117,
+          "prompt_id": "EMOTIONS_000046",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 7,
+          "prompt_text": "In a short scene where pessimism follows an unexpected outcome, identify which details support that interpretation. Do not infer a person's private state from a single cue."
+        },
+        {
+          "activation": 0.34511157870292664,
+          "prompt_id": "HINDI_004019",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 26,
+          "prompt_text": "‘इस योजना का impact व्यापक है’—impact के अर्थ को वाक्य के संकेतों से समझाइए।"
+        },
+        {
+          "activation": 0.34452348947525024,
+          "prompt_id": "EMOTIONS_003028",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 9,
+          "prompt_text": "Suggest a reflection prompt that helps distinguish surprise from the event that preceded it. Keep the situation culturally non-specific unless context is supplied."
+        },
+        {
+          "activation": 0.33509209752082825,
+          "prompt_id": "EMOTIONS_003894",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 20,
+          "prompt_text": "How can couples or roommates agree in advance on \"time-out\" signals during heated disagreements so pauses feel supportive rather than like abandonment?"
+        },
+        {
+          "activation": 0.315660685300827,
+          "prompt_id": "EMOTIONS_001008",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 22,
+          "prompt_text": "Compare the social meaning of openly expressing vulnerability with expressing calm in the same setting. Focus on the distinction between feeling, thought, and action."
+        },
+        {
+          "activation": 0.3142753541469574,
+          "prompt_id": "HINDI_001102",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 56,
+          "prompt_text": "“वह काम कर सकता है” और “वह काम कर पाया” में क्षमता तथा अवसर के अर्थ का अंतर बताइए।"
+        },
+        {
+          "activation": 0.31255853176116943,
+          "prompt_id": "EMOTIONS_001030",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 8,
+          "prompt_text": "Explain why labeling the scenario as respect rather than protectiveness changes the interpretation, if at all. Focus on the distinction between feeling, thought, and action."
+        },
+        {
+          "activation": 0.30912017822265625,
+          "prompt_id": "HINDI_003329",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 16,
+          "prompt_text": "सोशल मीडिया के शब्दों 'पोस्ट', 'लाइक' और 'शेयर' के लिए मानक हिंदी पर्याय किन परिस्थितियों में उपयोगी होंगे?"
+        },
+        {
+          "activation": 0.3080958127975464,
+          "prompt_id": "EMOTIONS_004063",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 12,
+          "prompt_text": "Assess which additional fact would most help determine whether relief is the best interpretation of the scenario. Keep the interpretation tentative when the evidence is incomplete."
+        },
+        {
+          "activation": 0.3058707118034363,
+          "prompt_id": "EMOTIONS_001013",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 3,
+          "prompt_text": "Distinguish pity from joy in a case where outward behavior looks similar. Use neutral wording and avoid moral judgment."
+        },
+        {
+          "activation": 0.304028183221817,
+          "prompt_id": "HINDI_004019",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 31,
+          "prompt_text": "‘इस योजना का impact व्यापक है’—impact के अर्थ को वाक्य के संकेतों से समझाइए।"
+        },
+        {
+          "activation": 0.30063411593437195,
+          "prompt_id": "EMOTIONS_001499",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 3,
+          "prompt_text": "Compare a hug and a handshake as nonverbal expressions when greeting someone at a reunion."
+        },
+        {
+          "activation": 0.3002784550189972,
+          "prompt_id": "EMOTIONS_002377",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 18,
+          "prompt_text": "What is \"affect labeling,\" and what has research suggested about the effect of putting feelings into words?"
+        },
+        {
+          "activation": 0.2955968379974365,
+          "prompt_id": "EMOTIONS_002349",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 3,
+          "prompt_text": "How is compassion described in psychology influenced by Buddhist traditions, and what has research on compassion training tried to measure?"
+        },
+        {
+          "activation": 0.29242968559265137,
+          "prompt_id": "EMOTIONS_001635",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 2,
+          "prompt_text": "Compare gratitude expressed privately with gratitude expressed publicly, in terms of its social effects."
+        },
+        {
+          "activation": 0.28695520758628845,
+          "prompt_id": "EMOTIONS_000146",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 17,
+          "prompt_text": "Consider this communication situation: a person shares an achievement with a group, while expressing pride without diminishing others. Show how the same emotional intention could be expressed differently in this context than in a casual one."
+        },
+        {
+          "activation": 0.28434911370277405,
+          "prompt_id": "EMOTIONS_001938",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 2,
+          "prompt_text": "Compare envy (wanting an advantage or achievement someone else possesses) with jealousy (fearing the loss of a valued relationship or bond to a rival)."
+        }
+      ]
+    },
+    "3494": {
+      "activation_frequency": 0.005388084984794987,
+      "n_firing_tokens_in_validation": 528,
+      "domain_distribution_of_firing_tokens": {
+        "DNA": 182,
+        "EMOTIONS": 104,
+        "GANDHI": 18,
+        "HINDI": 143,
+        "SCIENCE": 81
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.38188135623931885,
+          "prompt_id": "DNA_003921",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 10,
+          "prompt_text": "What is the role of NER in repairing cisplatin intrastrand crosslinks?"
+        },
+        {
+          "activation": 0.2984515130519867,
+          "prompt_id": "DNA_003799",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 4,
+          "prompt_text": "What is the genetic code, and why is it described as a triplet code?"
+        },
+        {
+          "activation": 0.2742364704608917,
+          "prompt_id": "DNA_001150",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 4,
+          "prompt_text": "How is the genetic code organized to minimize the impact of point mutations?"
+        },
+        {
+          "activation": 0.25236937403678894,
+          "prompt_id": "SCIENCE_001907",
+          "domain": "SCIENCE",
+          "subdomain": "Geology",
+          "token_position": 14,
+          "prompt_text": "Evaluate the relative strengths and limitations of a rock's isotope ratio indicates age and a basin subsides over time for explaining or measuring the same kind of phenomenon. While accounting for measurement uncertainty and possible confounding factors."
+        },
+        {
+          "activation": 0.23964428901672363,
+          "prompt_id": "DNA_002176",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 14,
+          "prompt_text": "How do structural variants and EPCAM deletions cause epigenetic silencing of the downstream MSH2 gene in Lynch syndrome?"
+        },
+        {
+          "activation": 0.23817816376686096,
+          "prompt_id": "DNA_003964",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 18,
+          "prompt_text": "What role does the XIST RNA play in the initiation and spread of X-chromosome inactivation in mammals?"
+        },
+        {
+          "activation": 0.22497187554836273,
+          "prompt_id": "DNA_002111",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 13,
+          "prompt_text": "How does the ATM-mediated phosphorylation of KAP1 promote heterochromatin relaxation for double-strand break repair?"
+        },
+        {
+          "activation": 0.21795344352722168,
+          "prompt_id": "DNA_001282",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 20,
+          "prompt_text": "How does DNA damage trigger senescence, and what is the role of the senescence-associated secretory phenotype?"
+        },
+        {
+          "activation": 0.21757981181144714,
+          "prompt_id": "DNA_002111",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 14,
+          "prompt_text": "How does the ATM-mediated phosphorylation of KAP1 promote heterochromatin relaxation for double-strand break repair?"
+        },
+        {
+          "activation": 0.21571871638298035,
+          "prompt_id": "SCIENCE_001660",
+          "domain": "SCIENCE",
+          "subdomain": "Plant physiology",
+          "token_position": 14,
+          "prompt_text": "Compare a plant acclimates to shade and a nutrient deficiency alters leaf pigmentation with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. While accounting for measurement uncertainty and possible confounding factors."
+        },
+        {
+          "activation": 0.19677987694740295,
+          "prompt_id": "GANDHI_002497",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Harijan publications",
+          "token_position": 8,
+          "prompt_text": "Describe the central factual elements of Harijan publications, focusing on organizational method."
+        },
+        {
+          "activation": 0.1845083087682724,
+          "prompt_id": "SCIENCE_004654",
+          "domain": "SCIENCE",
+          "subdomain": "Plant physiology",
+          "token_position": 7,
+          "prompt_text": "Reason through a nutrient deficiency alters leaf pigmentation using Plant physiology. Specify the assumptions, intermediate steps, and evidence needed to support the conclusion. Including how the system's boundary conditions influence the outcome."
+        },
+        {
+          "activation": 0.18278822302818298,
+          "prompt_id": "DNA_004424",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 38,
+          "prompt_text": "What is the role of the UV-DDB complex (DDB1-DDB2) in detecting cyclobutane pyrimidine dimers in chromatin and handing them off to XPC?"
+        },
+        {
+          "activation": 0.17521405220031738,
+          "prompt_id": "GANDHI_000799",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Harijan publications",
+          "token_position": 5,
+          "prompt_text": "Explain how Harijan publications shaped the broader context of public response, using the documented circumstances and distinguishing evidence from interpretation."
+        },
+        {
+          "activation": 0.1694178730249405,
+          "prompt_id": "EMOTIONS_000156",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 39,
+          "prompt_text": "Consider this communication situation: a speaker delivers a serious announcement in a noisy room, where vocal emphasis and pacing matter. Draft a brief example of wording suited to this context, and explain how its tone fits the situation."
+        },
+        {
+          "activation": 0.15672768652439117,
+          "prompt_id": "SCIENCE_003218",
+          "domain": "SCIENCE",
+          "subdomain": "Oceanography",
+          "token_position": 14,
+          "prompt_text": "How could knowledge of Oceanography be applied to reduce or manage marine particles sink and export carbon? Outline the mechanism and trade-offs of the proposed solution. With a focus on causal mechanisms rather than descriptive labels."
+        },
+        {
+          "activation": 0.1502646952867508,
+          "prompt_id": "HINDI_003997",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 1,
+          "prompt_text": "Job interview mein salary negotiation karte samay candidate ko Hindi mein apni expectations politely aur professionally kaise rakhni chahiye?"
+        },
+        {
+          "activation": 0.14212843775749207,
+          "prompt_id": "SCIENCE_001092",
+          "domain": "SCIENCE",
+          "subdomain": "Chemical kinetics",
+          "token_position": 13,
+          "prompt_text": "How do a catalyst changes the reaction pathway and a reaction's half-life varies with concentration differ in their underlying assumptions and explanatory power? Give a scientifically grounded comparison. Considering the timescale over which the process unfolds."
+        },
+        {
+          "activation": 0.14078876376152039,
+          "prompt_id": "EMOTIONS_000192",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 42,
+          "prompt_text": "Consider this communication situation: a friend responds to a vulnerable disclosure, and wants their words to convey attentiveness without claiming identical experience. Draft a brief example of wording suited to this context, and explain how its tone fits the situation."
+        },
+        {
+          "activation": 0.13971760869026184,
+          "prompt_id": "EMOTIONS_001473",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 3,
+          "prompt_text": "Compare \"I miss you\" with \"It's not the same without you\" as ways of expressing longing."
+        }
+      ]
+    },
+    "3938": {
+      "activation_frequency": 0.00540849439761618,
+      "n_firing_tokens_in_validation": 530,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 149,
+        "GANDHI": 38,
+        "DNA": 43,
+        "HINDI": 31,
+        "SCIENCE": 269
+      },
+      "top_activating_examples": [
+        {
+          "activation": 2.96308970451355,
+          "prompt_id": "SCIENCE_004101",
+          "domain": "SCIENCE",
+          "subdomain": "Cell biology",
+          "token_position": 16,
+          "prompt_text": "Given the observation that cells swell in a hypotonic solution, formulate a hypothesis grounded in Cell biology and outline a sequence of tests that could discriminate it from an alternative. Considering the relevant conservation laws and measurable variables."
+        },
+        {
+          "activation": 2.8494322299957275,
+          "prompt_id": "SCIENCE_004555",
+          "domain": "SCIENCE",
+          "subdomain": "Geology",
+          "token_position": 13,
+          "prompt_text": "Given the observation that groundwater moves through fractured rock, formulate a hypothesis grounded in Geology and outline a sequence of tests that could discriminate it from an alternative. With a focus on causal mechanisms rather than descriptive labels."
+        },
+        {
+          "activation": 2.840811014175415,
+          "prompt_id": "SCIENCE_004744",
+          "domain": "SCIENCE",
+          "subdomain": "Fluid mechanics",
+          "token_position": 17,
+          "prompt_text": "Given the observation that a buoyant object floats at a stable level, formulate a hypothesis grounded in Fluid mechanics and outline a sequence of tests that could discriminate it from an alternative. And identify which evidence would distinguish the proposed explanation from alternatives."
+        },
+        {
+          "activation": 2.838709592819214,
+          "prompt_id": "SCIENCE_004106",
+          "domain": "SCIENCE",
+          "subdomain": "Cell biology",
+          "token_position": 14,
+          "prompt_text": "Given the observation that a cell cycle checkpoint arrests division, formulate a hypothesis grounded in Cell biology and outline a sequence of tests that could discriminate it from an alternative. Using a qualitative model before introducing any quantitative estimates."
+        },
+        {
+          "activation": 2.837717294692993,
+          "prompt_id": "SCIENCE_004425",
+          "domain": "SCIENCE",
+          "subdomain": "Physical chemistry",
+          "token_position": 17,
+          "prompt_text": "Given the observation that a molecule absorbs energy into a vibrational mode, formulate a hypothesis grounded in Physical chemistry and outline a sequence of tests that could discriminate it from an alternative. With a focus on causal mechanisms rather than descriptive labels."
+        },
+        {
+          "activation": 2.8350818157196045,
+          "prompt_id": "SCIENCE_004515",
+          "domain": "SCIENCE",
+          "subdomain": "Immunology",
+          "token_position": 14,
+          "prompt_text": "Given the observation that inflammation persists after pathogen clearance, formulate a hypothesis grounded in Immunology and outline a sequence of tests that could discriminate it from an alternative. With a focus on causal mechanisms rather than descriptive labels."
+        },
+        {
+          "activation": 2.8318698406219482,
+          "prompt_id": "SCIENCE_004734",
+          "domain": "SCIENCE",
+          "subdomain": "Thermodynamics",
+          "token_position": 17,
+          "prompt_text": "Given the observation that a gas cools during expansion under specified conditions, formulate a hypothesis grounded in Thermodynamics and outline a sequence of tests that could discriminate it from an alternative. And identify which evidence would distinguish the proposed explanation from alternatives."
+        },
+        {
+          "activation": 2.811492443084717,
+          "prompt_id": "SCIENCE_004415",
+          "domain": "SCIENCE",
+          "subdomain": "Organic chemistry",
+          "token_position": 15,
+          "prompt_text": "Given the observation that a reaction rate depends on solvent polarity, formulate a hypothesis grounded in Organic chemistry and outline a sequence of tests that could discriminate it from an alternative. With a focus on causal mechanisms rather than descriptive labels."
+        },
+        {
+          "activation": 2.8062026500701904,
+          "prompt_id": "SCIENCE_004331",
+          "domain": "SCIENCE",
+          "subdomain": "Scientific instrumentation",
+          "token_position": 13,
+          "prompt_text": "Given the observation that a spectrometer requires calibration, formulate a hypothesis grounded in Scientific instrumentation and outline a sequence of tests that could discriminate it from an alternative. Considering the relevant conservation laws and measurable variables."
+        },
+        {
+          "activation": 2.80338978767395,
+          "prompt_id": "SCIENCE_004420",
+          "domain": "SCIENCE",
+          "subdomain": "Organic chemistry",
+          "token_position": 14,
+          "prompt_text": "Given the observation that a reaction competes with elimination, formulate a hypothesis grounded in Organic chemistry and outline a sequence of tests that could discriminate it from an alternative. While accounting for measurement uncertainty and possible confounding factors."
+        },
+        {
+          "activation": 2.8006794452667236,
+          "prompt_id": "SCIENCE_004560",
+          "domain": "SCIENCE",
+          "subdomain": "Geology",
+          "token_position": 14,
+          "prompt_text": "Given the observation that a basin subsides over time, formulate a hypothesis grounded in Geology and outline a sequence of tests that could discriminate it from an alternative. While accounting for measurement uncertainty and possible confounding factors."
+        },
+        {
+          "activation": 2.797131299972534,
+          "prompt_id": "SCIENCE_004006",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 19,
+          "prompt_text": "Given the observation that a spring-mass system oscillates after damping is introduced, formulate a hypothesis grounded in Mechanics and outline a sequence of tests that could discriminate it from an alternative. Using a qualitative model before introducing any quantitative estimates."
+        },
+        {
+          "activation": 2.7851555347442627,
+          "prompt_id": "SCIENCE_004470",
+          "domain": "SCIENCE",
+          "subdomain": "Molecular biology",
+          "token_position": 18,
+          "prompt_text": "Given the observation that a plasmid is expressed in a host cell, formulate a hypothesis grounded in Molecular biology and outline a sequence of tests that could discriminate it from an alternative. While accounting for measurement uncertainty and possible confounding factors."
+        },
+        {
+          "activation": 2.7702481746673584,
+          "prompt_id": "SCIENCE_004306",
+          "domain": "SCIENCE",
+          "subdomain": "Plant physiology",
+          "token_position": 14,
+          "prompt_text": "Given the observation that seed germination depends on temperature, formulate a hypothesis grounded in Plant physiology and outline a sequence of tests that could discriminate it from an alternative. Using a qualitative model before introducing any quantitative estimates."
+        },
+        {
+          "activation": 2.757251501083374,
+          "prompt_id": "SCIENCE_004859",
+          "domain": "SCIENCE",
+          "subdomain": "Neuroscience",
+          "token_position": 14,
+          "prompt_text": "Given the observation that a stimulus activates a brain region, formulate a hypothesis grounded in Neuroscience and outline a sequence of tests that could discriminate it from an alternative. And identify the assumptions needed for the interpretation to hold."
+        },
+        {
+          "activation": 2.751629114151001,
+          "prompt_id": "SCIENCE_004525",
+          "domain": "SCIENCE",
+          "subdomain": "Microbiology",
+          "token_position": 12,
+          "prompt_text": "Given the observation that a culture becomes contaminated, formulate a hypothesis grounded in Microbiology and outline a sequence of tests that could discriminate it from an alternative. With a focus on causal mechanisms rather than descriptive labels."
+        },
+        {
+          "activation": 2.7450168132781982,
+          "prompt_id": "SCIENCE_004899",
+          "domain": "SCIENCE",
+          "subdomain": "Biotechnology",
+          "token_position": 16,
+          "prompt_text": "Given the observation that a bioreactor oxygen transfer becomes limiting, formulate a hypothesis grounded in Biotechnology and outline a sequence of tests that could discriminate it from an alternative. And identify the assumptions needed for the interpretation to hold."
+        },
+        {
+          "activation": 2.7292964458465576,
+          "prompt_id": "SCIENCE_004146",
+          "domain": "SCIENCE",
+          "subdomain": "Ecology",
+          "token_position": 13,
+          "prompt_text": "Given the observation that a forest succession follows disturbance, formulate a hypothesis grounded in Ecology and outline a sequence of tests that could discriminate it from an alternative. Using a qualitative model before introducing any quantitative estimates."
+        },
+        {
+          "activation": 2.7133774757385254,
+          "prompt_id": "SCIENCE_004041",
+          "domain": "SCIENCE",
+          "subdomain": "Fluid mechanics",
+          "token_position": 15,
+          "prompt_text": "Given the observation that pressure increases with depth in a reservoir, formulate a hypothesis grounded in Fluid mechanics and outline a sequence of tests that could discriminate it from an alternative. Considering the relevant conservation laws and measurable variables."
+        },
+        {
+          "activation": 2.6903223991394043,
+          "prompt_id": "SCIENCE_004989",
+          "domain": "SCIENCE",
+          "subdomain": "Planetary science",
+          "token_position": 14,
+          "prompt_text": "Given the observation that a planet's rotation affects circulation, formulate a hypothesis grounded in Planetary science and outline a sequence of tests that could discriminate it from an alternative. And identify the assumptions needed for the interpretation to hold."
+        }
+      ]
+    },
+    "4589": {
+      "activation_frequency": 1.0204706410596567e-05,
+      "n_firing_tokens_in_validation": 1,
+      "domain_distribution_of_firing_tokens": {
+        "HINDI": 1
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.12084627151489258,
+          "prompt_id": "HINDI_001994",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 0,
+          "prompt_text": "Stranger woman ko 'Behen ji' address karne aur 'Madam' address karne ke social context aur register mein kya difference hai?"
+        }
+      ]
+    },
+    "4816": {
+      "activation_frequency": 0.049533644917035734,
+      "n_firing_tokens_in_validation": 4854,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 1300,
+        "DNA": 1293,
+        "GANDHI": 316,
+        "HINDI": 991,
+        "SCIENCE": 954
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.6115461587905884,
+          "prompt_id": "DNA_003165",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 8,
+          "prompt_text": "What role does DNA ligase play in joining adjacent Okazaki fragments?"
+        },
+        {
+          "activation": 0.5858213901519775,
+          "prompt_id": "EMOTIONS_002729",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 8,
+          "prompt_text": "How does self-compassion incorporate kindness toward oneself alongside recognition of shared human fallibility?"
+        },
+        {
+          "activation": 0.5370854139328003,
+          "prompt_id": "DNA_004066",
+          "domain": "DNA",
+          "subdomain": "Structure",
+          "token_position": 16,
+          "prompt_text": "By convention, in which direction are single-stranded DNA sequences always written from left to right?"
+        },
+        {
+          "activation": 0.5207653045654297,
+          "prompt_id": "EMOTIONS_002946",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 14,
+          "prompt_text": "How does compassion differ from sympathy in terms of active motivation to alleviate suffering versus passive sorrow for another's misfortune?"
+        },
+        {
+          "activation": 0.5121777653694153,
+          "prompt_id": "DNA_003591",
+          "domain": "DNA",
+          "subdomain": "Structure",
+          "token_position": 19,
+          "prompt_text": "What is the role of counterions such as Na+, K+, and Mg2+ in neutralizing the backbone charge?"
+        },
+        {
+          "activation": 0.5118507146835327,
+          "prompt_id": "EMOTIONS_002963",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 7,
+          "prompt_text": "How does theory of mind—attributing distinct beliefs, intentions, and knowledge states to others—serve as a cognitive prerequisite for perspective-taking?"
+        },
+        {
+          "activation": 0.5096111297607422,
+          "prompt_id": "EMOTIONS_002729",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 7,
+          "prompt_text": "How does self-compassion incorporate kindness toward oneself alongside recognition of shared human fallibility?"
+        },
+        {
+          "activation": 0.5045813322067261,
+          "prompt_id": "SCIENCE_001727",
+          "domain": "SCIENCE",
+          "subdomain": "Optics",
+          "token_position": 12,
+          "prompt_text": "Evaluate the relative strengths and limitations of a laser beam remains highly directional and a prism separates wavelengths for explaining or measuring the same kind of phenomenon. While accounting for measurement uncertainty and possible confounding factors."
+        },
+        {
+          "activation": 0.4994717836380005,
+          "prompt_id": "EMOTIONS_002705",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 10,
+          "prompt_text": "How is survivor guilt characterized as a specific form of guilt involving perceived unfairness after escaping harm that others suffered?"
+        },
+        {
+          "activation": 0.4981057643890381,
+          "prompt_id": "DNA_003886",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 13,
+          "prompt_text": "What is the role of the cGAS-STING pathway in sensing cytosolic DNA arising from damage?"
+        },
+        {
+          "activation": 0.4842819571495056,
+          "prompt_id": "DNA_004801",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 10,
+          "prompt_text": "What is the Ames test, and how does it detect the mutagenic potential of chemical compounds?"
+        },
+        {
+          "activation": 0.47380903363227844,
+          "prompt_id": "DNA_001529",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 18,
+          "prompt_text": "How are satellite DNA, minisatellites, and microsatellites distinguished in terms of repeat unit size, genomic location, and mutational behavior?"
+        },
+        {
+          "activation": 0.46884655952453613,
+          "prompt_id": "HINDI_004011",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 26,
+          "prompt_text": "‘विश्वसनीय’ शब्द का अर्थ किसी व्यक्ति के व्यवहार से कैसे अनुमानित किया जा सकता है?"
+        },
+        {
+          "activation": 0.4659571945667267,
+          "prompt_id": "DNA_004267",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 13,
+          "prompt_text": "What is the role of topoisomerase I and II in relieving positive supercoiling ahead of and negative supercoiling behind the elongation complex?"
+        },
+        {
+          "activation": 0.4622439742088318,
+          "prompt_id": "EMOTIONS_002963",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 6,
+          "prompt_text": "How does theory of mind—attributing distinct beliefs, intentions, and knowledge states to others—serve as a cognitive prerequisite for perspective-taking?"
+        },
+        {
+          "activation": 0.4610333740711212,
+          "prompt_id": "DNA_003517",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 13,
+          "prompt_text": "What is a pangenome, and how does it represent genetic diversity beyond a single reference genome?"
+        },
+        {
+          "activation": 0.4489309787750244,
+          "prompt_id": "EMOTIONS_004921",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 8,
+          "prompt_text": "How does practicing gratitude during difficult circumstances shift attentional focus without denying the reality of ongoing challenges?"
+        },
+        {
+          "activation": 0.4373648762702942,
+          "prompt_id": "DNA_001529",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 21,
+          "prompt_text": "How are satellite DNA, minisatellites, and microsatellites distinguished in terms of repeat unit size, genomic location, and mutational behavior?"
+        },
+        {
+          "activation": 0.4330946207046509,
+          "prompt_id": "EMOTIONS_002504",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 18,
+          "prompt_text": "What is Brown and Levinson's politeness theory, and how does it relate to the ways people phrase disappointment or criticism?"
+        },
+        {
+          "activation": 0.4293612539768219,
+          "prompt_id": "DNA_001127",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 9,
+          "prompt_text": "How does alternative polyadenylation generate mRNA isoforms with distinct 3′ untranslated regions?"
+        }
+      ]
+    },
+    "5193": {
+      "activation_frequency": 0.005388084984794987,
+      "n_firing_tokens_in_validation": 528,
+      "domain_distribution_of_firing_tokens": {
+        "DNA": 98,
+        "GANDHI": 23,
+        "EMOTIONS": 117,
+        "HINDI": 253,
+        "SCIENCE": 37
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.4996827244758606,
+          "prompt_id": "HINDI_000503",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 7,
+          "prompt_text": "\"अनाथ बच्चों की हालत देखकर मेरा दिल भर आया।\" इस वाक्य में \"दिल भर आना\" का भाव क्या है?"
+        },
+        {
+          "activation": 0.4789472222328186,
+          "prompt_id": "HINDI_000969",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 29,
+          "prompt_text": "दुकानदार ने कहा, 'यह आखिरी पीस बचा है।' ग्राहक पर इस कथन का क्या मनोवैज्ञानिक और व्यावहारिक प्रभाव पड़ता है?"
+        },
+        {
+          "activation": 0.45868492126464844,
+          "prompt_id": "HINDI_003947",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 45,
+          "prompt_text": "एक विद्यालय के प्रधानाचार्य द्वारा अभिभावकों को बच्चे की कम उपस्थिति के बारे में सूचित करने वाले पत्र में किस प्रकार का औपचारिक और सहयोगात्मक लहजा होना चाहिए?"
+        },
+        {
+          "activation": 0.4537768065929413,
+          "prompt_id": "HINDI_003870",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 28,
+          "prompt_text": "दवा की शीशी पर लिखा निर्देश: 'बच्चों की पहुंच से दूर रखें तथा प्रयोग से पहले अच्छी तरह हिलाएं।' इस निर्देश में प्रयुक्त दो उपवाक्यों की क्रिया संरचना और योजक का विश्लेषण कीजिए।"
+        },
+        {
+          "activation": 0.42401689291000366,
+          "prompt_id": "EMOTIONS_003188",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 38,
+          "prompt_text": "Consider this communication situation: a participant asks a group to recognize a quiet contribution, while expressing respect rather than resentment. Describe one concrete adjustment to the communication channel or delivery that would help the message land as intended."
+        },
+        {
+          "activation": 0.407332181930542,
+          "prompt_id": "EMOTIONS_003143",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 37,
+          "prompt_text": "Consider this communication situation: a person declines an invitation they genuinely appreciate, while conveying warmth and a clear boundary. Describe one concrete adjustment to the communication channel or delivery that would help the message land as intended."
+        },
+        {
+          "activation": 0.40543729066848755,
+          "prompt_id": "EMOTIONS_003179",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 38,
+          "prompt_text": "Consider this communication situation: a colleague shares concern about workload distribution, in a way that remains focused on shared responsibilities. Describe one concrete adjustment to the communication channel or delivery that would help the message land as intended."
+        },
+        {
+          "activation": 0.38770735263824463,
+          "prompt_id": "HINDI_002203",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 2,
+          "prompt_text": "'बच्चे मैदान में खेल रहे हैं' के आधार पर क्रिया-श्रृंखला का मूल नियम बताइए।"
+        },
+        {
+          "activation": 0.38619160652160645,
+          "prompt_id": "EMOTIONS_003149",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 38,
+          "prompt_text": "Consider this communication situation: a speaker thanks an audience after a difficult performance, with wording that communicates relief and appreciation. Describe one concrete adjustment to the communication channel or delivery that would help the message land as intended."
+        },
+        {
+          "activation": 0.3683699071407318,
+          "prompt_id": "HINDI_000538",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 39,
+          "prompt_text": "\"बेटा, अब तुम बड़े हो गए हो।\" यह वाक्य बच्चे की लंबाई देखकर कहा जाए और किसी गलती पर समझाते हुए कहा जाए — दोनों संदर्भों में \"बड़ा होना\" का अर्थ कैसे बदलता है?"
+        },
+        {
+          "activation": 0.3648347854614258,
+          "prompt_id": "HINDI_001513",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 2,
+          "prompt_text": "\"बच्चा रो पड़ा\" और \"बच्चा रोने लगा\" में अर्थ का क्या अंतर है?"
+        },
+        {
+          "activation": 0.3532829284667969,
+          "prompt_id": "HINDI_001513",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 20,
+          "prompt_text": "\"बच्चा रो पड़ा\" और \"बच्चा रोने लगा\" में अर्थ का क्या अंतर है?"
+        },
+        {
+          "activation": 0.3286625146865845,
+          "prompt_id": "EMOTIONS_003292",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 4,
+          "prompt_text": "Scenario: Someone is left out of a shared joke because they lack the background information. Task: Propose a respectful, practical interpersonal response that preserves the other person's agency. Do not infer a person's internal state with certainty from a single behavior; state relevant uncertainty and avoid stereotypes."
+        },
+        {
+          "activation": 0.3270781636238098,
+          "prompt_id": "EMOTIONS_000292",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 4,
+          "prompt_text": "Scenario: Someone is left out of a shared joke because they lack the background information. Task: Interpret the social and emotional context while acknowledging what remains uncertain. Do not infer a person's internal state with certainty from a single behavior; state relevant uncertainty and avoid stereotypes."
+        },
+        {
+          "activation": 0.31026390194892883,
+          "prompt_id": "HINDI_003899",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 52,
+          "prompt_text": "स्वास्थ्य सलाह: 'भोजन करने के तुरंत बाद ठंडा पानी पीने से बचना चाहिए।' इस वाक्य में 'बचना चाहिए' क्रिया के साथ अपादान कारकीय क्रियार्थक संज्ञा पदबंध की पहचान कीजिए।"
+        },
+        {
+          "activation": 0.3053598403930664,
+          "prompt_id": "HINDI_003899",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 77,
+          "prompt_text": "स्वास्थ्य सलाह: 'भोजन करने के तुरंत बाद ठंडा पानी पीने से बचना चाहिए।' इस वाक्य में 'बचना चाहिए' क्रिया के साथ अपादान कारकीय क्रियार्थक संज्ञा पदबंध की पहचान कीजिए।"
+        },
+        {
+          "activation": 0.2320041060447693,
+          "prompt_id": "HINDI_004541",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 71,
+          "prompt_text": "\"प्रधानाचार्य ने यह नहीं कहा कि शिक्षक कल आएँगे।\" क्या इससे यह निष्कर्ष निकलता है कि शिक्षक कल नहीं आएँगे? नकार के क्षेत्र के आधार पर बताइए।"
+        },
+        {
+          "activation": 0.2296975553035736,
+          "prompt_id": "HINDI_004999",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 31,
+          "prompt_text": "Customer support mein angry client ko 'aapki problem bilkul genuine hai, hum abhi dekhte hain' kehne se de-escalation kaise hota hai?"
+        },
+        {
+          "activation": 0.21996229887008667,
+          "prompt_id": "HINDI_000648",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 22,
+          "prompt_text": "बेटे ने माँ से कहा, \"माँ, सब दोस्त इस बार गोवा जा रहे हैं।\" इस कथन का अप्रत्यक्ष उद्देश्य क्या हो सकता है?"
+        },
+        {
+          "activation": 0.21952322125434875,
+          "prompt_id": "EMOTIONS_003628",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 4,
+          "prompt_text": "A grandparent feels left out of family decisions. Suggest ways family members could include them."
+        }
+      ]
+    },
+    "5207": {
+      "activation_frequency": 1.0204706410596567e-05,
+      "n_firing_tokens_in_validation": 1,
+      "domain_distribution_of_firing_tokens": {
+        "HINDI": 1
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.0010369978845119476,
+          "prompt_id": "HINDI_004160",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 0,
+          "prompt_text": "‘Koi bhi darwaza khula nahi’ mein negation aur quantifier ka relation batayein."
+        }
+      ]
+    },
+    "5497": {
+      "activation_frequency": 0.005398289691205584,
+      "n_firing_tokens_in_validation": 529,
+      "domain_distribution_of_firing_tokens": {
+        "DNA": 48,
+        "EMOTIONS": 113,
+        "HINDI": 337,
+        "GANDHI": 2,
+        "SCIENCE": 29
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.4551825225353241,
+          "prompt_id": "HINDI_004292",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 18,
+          "prompt_text": "वक्ता के इस कथन के पीछे संभावित बातचीत में निहित संकेत का अनुमान लगाइए और अपने अनुमान के आधार बताइए। स्थिति: एक व्यक्ति मदद मिलने पर कहता है, “आपने परेशानी की।”"
+        },
+        {
+          "activation": 0.3789689540863037,
+          "prompt_id": "HINDI_002293",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 20,
+          "prompt_text": "इस प्रसंग में प्रश्न के पीछे का उद्देश्य का संप्रेषणात्मक कार्य क्या हो सकता है? स्थिति: किसी दुकान पर ग्राहक कहता है, “थोड़ा कम हो जाएगा?”"
+        },
+        {
+          "activation": 0.3519148528575897,
+          "prompt_id": "HINDI_000287",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 44,
+          "prompt_text": "इस प्रसंग में वक्ता के शब्दों से कौन-सा प्रश्न के पीछे का उद्देश्य प्रकट हो सकता है? संदर्भ के आधार पर समझाइए। उदाहरण: एक विद्यार्थी अपने अध्यापक से कहता है, “क्या आप इसे फिर से समझा देंगे?”"
+        },
+        {
+          "activation": 0.3058803677558899,
+          "prompt_id": "HINDI_001278",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 51,
+          "prompt_text": "इस प्रसंग में सीधे कथन और अप्रत्यक्ष कथन की तुलना प्रश्न के पीछे का उद्देश्य के दृष्टिकोण से कीजिए। स्थिति: किसी वरिष्ठ को संबोधित करते समय वक्ता “आप” का प्रयोग करता है।"
+        },
+        {
+          "activation": 0.280394971370697,
+          "prompt_id": "HINDI_003629",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 89,
+          "prompt_text": "दुकान पर मोल-भाव करते समय शालीनता से कीमत कम करवाने के लिए हिंदी में तीन वाक्य लिखिए, और प्रत्येक के पीछे की व्यावहारिक रणनीति समझाइए।"
+        },
+        {
+          "activation": 0.18668627738952637,
+          "prompt_id": "HINDI_004681",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 43,
+          "prompt_text": "Meeting mein ek vyakti ne kaha, \"Mera sujhaav sirf ek sujhaav hai, aap log jo theek samjhein.\" Is kathan ke peechhe kaun-si vyavaharik ranneeti ho sakti hai?"
+        },
+        {
+          "activation": 0.16327913105487823,
+          "prompt_id": "HINDI_003600",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 130,
+          "prompt_text": "विद्यार्थी के निबंध के इस वाक्य को सुधारिए और कारण बताइए: \"मेरे दादाजी जो बहुत अनुभवी हैं और जिन्होंने सेना में काम किया और वे हमें कहानियाँ सुनाते हैं।\""
+        },
+        {
+          "activation": 0.14455094933509827,
+          "prompt_id": "DNA_002036",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 28,
+          "prompt_text": "How do iron regulatory proteins (IRP1 and IRP2) bind to iron-responsive elements (IREs) in the 5' UTR of ferritin mRNA to repress translation?"
+        },
+        {
+          "activation": 0.1377161741256714,
+          "prompt_id": "HINDI_002192",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 21,
+          "prompt_text": "'वह गाना गाकर बाहर चला गया' के आधार पर कर्म-क्रिया अन्विति का मूल नियम बताइए।"
+        },
+        {
+          "activation": 0.12921729683876038,
+          "prompt_id": "HINDI_001429",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 4,
+          "prompt_text": "\"Tum\", \"tu\" aur \"aap\" ke saath kriya ke roop kaise badalte hain? Teeno ke saath vyakaranik aur aadar-sambandhi antar batayiye."
+        },
+        {
+          "activation": 0.12591443955898285,
+          "prompt_id": "HINDI_000870",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 53,
+          "prompt_text": "वाक्य 'मेरा मानना है कि बारिश रुकने के बाद ही यात्रा शुरू करनी चाहिए।' में मुख्य उपवाक्य और आश्रित उपवाक्यों की सीमाएं निर्धारित कीजिए।"
+        },
+        {
+          "activation": 0.12308277189731598,
+          "prompt_id": "EMOTIONS_000223",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 18,
+          "prompt_text": "Consider this emotional regulation situation: A friend feels worried about a loved one who has not checked in. Explain how the person's circumstances and emotional triggers shape the situation. Include the role of context rather than treating the emotion as inherently wrong."
+        },
+        {
+          "activation": 0.12172019481658936,
+          "prompt_id": "HINDI_000219",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 86,
+          "prompt_text": "'जिस व्यक्ति से मैं मिला वह डॉक्टर है' को देखकर निषेध संरचना का वाक्य में स्थान और उससे जुड़े पदों का संबंध समझाइए।"
+        },
+        {
+          "activation": 0.1213977038860321,
+          "prompt_id": "HINDI_004124",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 10,
+          "prompt_text": "‘She managed to finish’ kya finish hone ko entail karta hai? Explain karein."
+        },
+        {
+          "activation": 0.12040318548679352,
+          "prompt_id": "EMOTIONS_002223",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 18,
+          "prompt_text": "Consider this emotional regulation situation: A friend feels worried about a loved one who has not checked in. Identify a relevant regulation concept, strategy, or observable cue. Avoid assuming that one strategy works for everyone."
+        },
+        {
+          "activation": 0.11920882761478424,
+          "prompt_id": "HINDI_000219",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 87,
+          "prompt_text": "'जिस व्यक्ति से मैं मिला वह डॉक्टर है' को देखकर निषेध संरचना का वाक्य में स्थान और उससे जुड़े पदों का संबंध समझाइए।"
+        },
+        {
+          "activation": 0.11842933297157288,
+          "prompt_id": "HINDI_004292",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 19,
+          "prompt_text": "वक्ता के इस कथन के पीछे संभावित बातचीत में निहित संकेत का अनुमान लगाइए और अपने अनुमान के आधार बताइए। स्थिति: एक व्यक्ति मदद मिलने पर कहता है, “आपने परेशानी की।”"
+        },
+        {
+          "activation": 0.11652611196041107,
+          "prompt_id": "HINDI_000915",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 16,
+          "prompt_text": "Vakya 'Mez par rakhi hui laal kitaab meri hai' mein sangya padbandh ka mukhya shabd (head) kaun-sa hai?"
+        },
+        {
+          "activation": 0.11578714847564697,
+          "prompt_id": "SCIENCE_001973",
+          "domain": "SCIENCE",
+          "subdomain": "Astrophysics",
+          "token_position": 5,
+          "prompt_text": "Distinguish a supernova remnant expands from a black hole accretion disk emits radiation by identifying how each predicts an outcome when a relevant variable is changed. And explain what changes if the dominant limiting factor is removed."
+        },
+        {
+          "activation": 0.11559747159481049,
+          "prompt_id": "HINDI_000248",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 28,
+          "prompt_text": "दिए गए example 'वह गाना गाकर बाहर चला गया' में कारक चिह्न और भूमिका किस प्रकार sentence structure को प्रभावित करता है?"
+        }
+      ]
+    },
+    "5558": {
+      "activation_frequency": 0.05073780027348613,
+      "n_firing_tokens_in_validation": 4972,
+      "domain_distribution_of_firing_tokens": {
+        "DNA": 2057,
+        "EMOTIONS": 829,
+        "GANDHI": 310,
+        "HINDI": 298,
+        "SCIENCE": 1478
+      },
+      "top_activating_examples": [
+        {
+          "activation": 1.0026278495788574,
+          "prompt_id": "DNA_000663",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 11,
+          "prompt_text": "How can population stratification produce spurious associations in genome-wide association studies?"
+        },
+        {
+          "activation": 0.9628682136535645,
+          "prompt_id": "DNA_003977",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 10,
+          "prompt_text": "What are the key design considerations for a genome-wide association study, including sample size, quality control, genome-wide significance threshold, and genomic inflation?"
+        },
+        {
+          "activation": 0.9495517015457153,
+          "prompt_id": "DNA_004847",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 19,
+          "prompt_text": "How are genetic linkage maps and Hi-C contact data used to order and orient scaffolds in genome assembly?"
+        },
+        {
+          "activation": 0.9421057105064392,
+          "prompt_id": "DNA_000663",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 10,
+          "prompt_text": "How can population stratification produce spurious associations in genome-wide association studies?"
+        },
+        {
+          "activation": 0.9410573840141296,
+          "prompt_id": "DNA_000663",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 12,
+          "prompt_text": "How can population stratification produce spurious associations in genome-wide association studies?"
+        },
+        {
+          "activation": 0.8613466620445251,
+          "prompt_id": "DNA_003977",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 9,
+          "prompt_text": "What are the key design considerations for a genome-wide association study, including sample size, quality control, genome-wide significance threshold, and genomic inflation?"
+        },
+        {
+          "activation": 0.8495308756828308,
+          "prompt_id": "DNA_004847",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 4,
+          "prompt_text": "How are genetic linkage maps and Hi-C contact data used to order and orient scaffolds in genome assembly?"
+        },
+        {
+          "activation": 0.8475601077079773,
+          "prompt_id": "DNA_002797",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 15,
+          "prompt_text": "How do 16S rRNA amplicon sequencing and shotgun metagenomics differ in the taxonomic and functional information they provide about microbial communities?"
+        },
+        {
+          "activation": 0.8214760422706604,
+          "prompt_id": "DNA_004773",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 9,
+          "prompt_text": "What is the purpose of adapter trimming in short-read sequencing analysis?"
+        },
+        {
+          "activation": 0.8149622082710266,
+          "prompt_id": "DNA_002797",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 21,
+          "prompt_text": "How do 16S rRNA amplicon sequencing and shotgun metagenomics differ in the taxonomic and functional information they provide about microbial communities?"
+        },
+        {
+          "activation": 0.8028423190116882,
+          "prompt_id": "DNA_004795",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 5,
+          "prompt_text": "How can ChIP-seq be used to map RNA polymerase occupancy across the genome?"
+        },
+        {
+          "activation": 0.7652394771575928,
+          "prompt_id": "DNA_002552",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 9,
+          "prompt_text": "How can expression quantitative trait loci connect genetic variants with gene-expression differences?"
+        },
+        {
+          "activation": 0.7612440586090088,
+          "prompt_id": "DNA_002975",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 23,
+          "prompt_text": "What is the difference between a quantitative trait locus (QTL) identified in an experimental F2 cross and a GWAS locus identified in an outbred population?"
+        },
+        {
+          "activation": 0.7547045350074768,
+          "prompt_id": "DNA_002987",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 4,
+          "prompt_text": "How does synteny analysis compare conserved gene order across divergent species to reconstruct ancestral chromosomes and identify lineage-specific rearrangements?"
+        },
+        {
+          "activation": 0.7392129302024841,
+          "prompt_id": "DNA_004774",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 9,
+          "prompt_text": "How can contamination be detected in a whole-genome sequencing dataset?"
+        },
+        {
+          "activation": 0.7389647364616394,
+          "prompt_id": "DNA_002797",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 11,
+          "prompt_text": "How do 16S rRNA amplicon sequencing and shotgun metagenomics differ in the taxonomic and functional information they provide about microbial communities?"
+        },
+        {
+          "activation": 0.7324287295341492,
+          "prompt_id": "DNA_004774",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 10,
+          "prompt_text": "How can contamination be detected in a whole-genome sequencing dataset?"
+        },
+        {
+          "activation": 0.7162799835205078,
+          "prompt_id": "DNA_004795",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 4,
+          "prompt_text": "How can ChIP-seq be used to map RNA polymerase occupancy across the genome?"
+        },
+        {
+          "activation": 0.6994324326515198,
+          "prompt_id": "DNA_004847",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 15,
+          "prompt_text": "How are genetic linkage maps and Hi-C contact data used to order and orient scaffolds in genome assembly?"
+        },
+        {
+          "activation": 0.6962946057319641,
+          "prompt_id": "DNA_004804",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 5,
+          "prompt_text": "How can whole-genome sequencing of parent-offspring trios be used to identify de novo mutations?"
+        }
+      ]
+    },
+    "6271": {
+      "activation_frequency": 0.061952772618731757,
+      "n_firing_tokens_in_validation": 6071,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 283,
+        "DNA": 278,
+        "GANDHI": 243,
+        "HINDI": 4758,
+        "SCIENCE": 509
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.5819680094718933,
+          "prompt_id": "HINDI_000073",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 17,
+          "prompt_text": "Sandarbh mein 'woh' aur 've' ka prayog vyakti-vachan aur aadar ko kaise darshata hai?"
+        },
+        {
+          "activation": 0.580437421798706,
+          "prompt_id": "HINDI_004820",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 69,
+          "prompt_text": "वाक्य: \"उसने मुझे हँसते हुए देखा।\" इस वाक्य के दो अलग-अलग अर्थ कौन-कौन हँस रहा था—के आधार पर स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 0.5588843822479248,
+          "prompt_id": "HINDI_000029",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 41,
+          "prompt_text": "‘समाधान अस्थायी था’—‘अस्थायी’ का अर्थ वाक्य के आधार पर बताइए।"
+        },
+        {
+          "activation": 0.5567101240158081,
+          "prompt_id": "HINDI_001170",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 26,
+          "prompt_text": "‘कठोर’ और ‘सख्त’ का अर्थ नियम तथा पदार्थ के संदर्भ में तुलना करें।"
+        },
+        {
+          "activation": 0.5241695642471313,
+          "prompt_id": "SCIENCE_003956",
+          "domain": "SCIENCE",
+          "subdomain": "Materials science",
+          "token_position": 15,
+          "prompt_text": "How could knowledge of Materials science be applied to reduce or manage grain size changes strength? Outline the mechanism and trade-offs of the proposed solution. Considering the timescale over which the process unfolds."
+        },
+        {
+          "activation": 0.5197021961212158,
+          "prompt_id": "HINDI_002565",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 23,
+          "prompt_text": "हिंदी में क्रिया का अन्वय कर्ता से कब होता है, कर्म से कब, और कब क्रिया डिफ़ॉल्ट पुल्लिंग एकवचन रूप लेती है? संरचनात्मक नियम बताइए।"
+        },
+        {
+          "activation": 0.5008774399757385,
+          "prompt_id": "HINDI_000750",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 56,
+          "prompt_text": "\"राम ने रावण को बाण से मारा।\" इस वाक्य में कर्ता, कर्म और करण कारक के परसर्गों की उपस्थिति और क्रिया के लिंग-वचन पर उनके प्रभाव को स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 0.49759161472320557,
+          "prompt_id": "HINDI_000750",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 57,
+          "prompt_text": "\"राम ने रावण को बाण से मारा।\" इस वाक्य में कर्ता, कर्म और करण कारक के परसर्गों की उपस्थिति और क्रिया के लिंग-वचन पर उनके प्रभाव को स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 0.49653565883636475,
+          "prompt_id": "HINDI_002946",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 27,
+          "prompt_text": "व्यक्तिवाचक, स्थानवाचक और कालवाचक निर्देशक शब्दों (deixis) का हिंदी संवाद में संदर्भ के बिना अर्थ क्यों अधूरा रहता है?"
+        },
+        {
+          "activation": 0.46237263083457947,
+          "prompt_id": "SCIENCE_004947",
+          "domain": "SCIENCE",
+          "subdomain": "Hydrology",
+          "token_position": 10,
+          "prompt_text": "A dataset or observation indicates snowmelt timing changes streamflow. Explain the inference using Hydrology, note a possible confounder, and suggest how to control it. While accounting for measurement uncertainty and possible confounding factors."
+        },
+        {
+          "activation": 0.45622390508651733,
+          "prompt_id": "HINDI_002133",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 20,
+          "prompt_text": "‘अवज्ञा’ शब्द व्यवहार के किस अर्थ को व्यक्त करता है?"
+        },
+        {
+          "activation": 0.4541443884372711,
+          "prompt_id": "SCIENCE_001148",
+          "domain": "SCIENCE",
+          "subdomain": "Ecology",
+          "token_position": 14,
+          "prompt_text": "Contrast a wetland filters nutrients from runoff with pollinator abundance changes plant reproduction, focusing on the shared scientific basis and the key distinction that determines their behavior. With a focus on causal mechanisms rather than descriptive labels."
+        },
+        {
+          "activation": 0.4431998133659363,
+          "prompt_id": "HINDI_002056",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 13,
+          "prompt_text": "‘Sahitya’ mein ‘alankar’ shabd kis bhashik ya rachnatmak visheshta ko kehta hai?"
+        },
+        {
+          "activation": 0.4430636763572693,
+          "prompt_id": "HINDI_002915",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 22,
+          "prompt_text": "Hindi mein prasarg (postposition) aane par sangya ka mool roop tiryak roop (oblique case) mein kaise badalta hai?"
+        },
+        {
+          "activation": 0.4250187873840332,
+          "prompt_id": "HINDI_004820",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 70,
+          "prompt_text": "वाक्य: \"उसने मुझे हँसते हुए देखा।\" इस वाक्य के दो अलग-अलग अर्थ कौन-कौन हँस रहा था—के आधार पर स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 0.4239262342453003,
+          "prompt_id": "HINDI_003329",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 58,
+          "prompt_text": "सोशल मीडिया के शब्दों 'पोस्ट', 'लाइक' और 'शेयर' के लिए मानक हिंदी पर्याय किन परिस्थितियों में उपयोगी होंगे?"
+        },
+        {
+          "activation": 0.4222436547279358,
+          "prompt_id": "HINDI_000130",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 47,
+          "prompt_text": "‘माँ ने घर को संभाल लिया’ में ‘संभालना’ का अर्थ संदर्भ से स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 0.4018893837928772,
+          "prompt_id": "SCIENCE_004962",
+          "domain": "SCIENCE",
+          "subdomain": "Nanotechnology",
+          "token_position": 9,
+          "prompt_text": "A dataset or observation indicates surface area changes catalytic activity. Explain the inference using Nanotechnology, note a possible confounder, and suggest how to control it. With a focus on causal mechanisms rather than descriptive labels."
+        },
+        {
+          "activation": 0.4017641544342041,
+          "prompt_id": "HINDI_000571",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 40,
+          "prompt_text": "\"दरवाज़ा किसने खोला?\" इस प्रश्न में \"किसने\" किस घटक का स्थान ले रहा है, और उसका कारक क्या है?"
+        },
+        {
+          "activation": 0.39147675037384033,
+          "prompt_id": "HINDI_000287",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 58,
+          "prompt_text": "इस प्रसंग में वक्ता के शब्दों से कौन-सा प्रश्न के पीछे का उद्देश्य प्रकट हो सकता है? संदर्भ के आधार पर समझाइए। उदाहरण: एक विद्यार्थी अपने अध्यापक से कहता है, “क्या आप इसे फिर से समझा देंगे?”"
+        }
+      ]
+    },
+    "6529": {
+      "activation_frequency": 1.0204706410596567e-05,
+      "n_firing_tokens_in_validation": 1,
+      "domain_distribution_of_firing_tokens": {
+        "DNA": 1
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.004945102613419294,
+          "prompt_id": "DNA_001747",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 25,
+          "prompt_text": "How does the viral initiator protein Large T-antigen in SV40 bypass the need for host ORC, Cdc6, Cdt1, and Mcm2-7 during viral origin initiation?"
+        }
+      ]
+    },
+    "6921": {
+      "activation_frequency": 0.005377880278384391,
+      "n_firing_tokens_in_validation": 527,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 320,
+        "DNA": 60,
+        "GANDHI": 84,
+        "HINDI": 38,
+        "SCIENCE": 25
+      },
+      "top_activating_examples": [
+        {
+          "activation": 2.565199375152588,
+          "prompt_id": "GANDHI_003976",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Patel",
+          "token_position": 17,
+          "prompt_text": "How could a civic organization draw a historically responsible lesson from Patel about documentary evidence, without treating history as a simple recipe?"
+        },
+        {
+          "activation": 2.5551536083221436,
+          "prompt_id": "GANDHI_003993",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Mahadev Desai",
+          "token_position": 21,
+          "prompt_text": "How could a civic organization draw a historically responsible lesson from Mahadev Desai about documentary evidence, without treating history as a simple recipe?"
+        },
+        {
+          "activation": 2.5471391677856445,
+          "prompt_id": "GANDHI_003297",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Peacebuilding",
+          "token_position": 18,
+          "prompt_text": "How could a civic organization draw a historically responsible lesson from Peacebuilding about political context, without treating history as a simple recipe?"
+        },
+        {
+          "activation": 2.5448739528656006,
+          "prompt_id": "GANDHI_003275",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Nationalism",
+          "token_position": 18,
+          "prompt_text": "How could a civic organization draw a historically responsible lesson from Nationalism about political context, without treating history as a simple recipe?"
+        },
+        {
+          "activation": 2.5422706604003906,
+          "prompt_id": "GANDHI_003970",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Gokhale",
+          "token_position": 20,
+          "prompt_text": "How could a civic organization draw a historically responsible lesson from Gokhale about documentary evidence, without treating history as a simple recipe?"
+        },
+        {
+          "activation": 2.5378401279449463,
+          "prompt_id": "GANDHI_003216",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Dadabhai Naoroji",
+          "token_position": 22,
+          "prompt_text": "How could a civic organization draw a historically responsible lesson from Dadabhai Naoroji about political context, without treating history as a simple recipe?"
+        },
+        {
+          "activation": 2.536527395248413,
+          "prompt_id": "GANDHI_003919",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Transvaal registration laws",
+          "token_position": 21,
+          "prompt_text": "How could a civic organization draw a historically responsible lesson from Transvaal registration laws about documentary evidence, without treating history as a simple recipe?"
+        },
+        {
+          "activation": 2.5358831882476807,
+          "prompt_id": "GANDHI_003217",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Tagore",
+          "token_position": 18,
+          "prompt_text": "How could a civic organization draw a historically responsible lesson from Tagore about political context, without treating history as a simple recipe?"
+        },
+        {
+          "activation": 2.5315568447113037,
+          "prompt_id": "GANDHI_003279",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Methods of protest",
+          "token_position": 19,
+          "prompt_text": "How could a civic organization draw a historically responsible lesson from Methods of protest about political context, without treating history as a simple recipe?"
+        },
+        {
+          "activation": 2.5280988216400146,
+          "prompt_id": "GANDHI_003210",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Religious influences",
+          "token_position": 18,
+          "prompt_text": "How could a civic organization draw a historically responsible lesson from Religious influences about political context, without treating history as a simple recipe?"
+        },
+        {
+          "activation": 2.5254523754119873,
+          "prompt_id": "GANDHI_003194",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Untouchability",
+          "token_position": 19,
+          "prompt_text": "How could a civic organization draw a historically responsible lesson from Untouchability about political context, without treating history as a simple recipe?"
+        },
+        {
+          "activation": 2.5225508213043213,
+          "prompt_id": "GANDHI_003184",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Foreign cloth boycott",
+          "token_position": 19,
+          "prompt_text": "How could a civic organization draw a historically responsible lesson from Foreign cloth boycott about political context, without treating history as a simple recipe?"
+        },
+        {
+          "activation": 2.518958330154419,
+          "prompt_id": "GANDHI_003928",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Ahmedabad mill dispute",
+          "token_position": 20,
+          "prompt_text": "How could a civic organization draw a historically responsible lesson from Ahmedabad mill dispute about documentary evidence, without treating history as a simple recipe?"
+        },
+        {
+          "activation": 2.516650915145874,
+          "prompt_id": "GANDHI_003185",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Chauri Chaura",
+          "token_position": 21,
+          "prompt_text": "How could a civic organization draw a historically responsible lesson from Chauri Chaura about political context, without treating history as a simple recipe?"
+        },
+        {
+          "activation": 2.5154612064361572,
+          "prompt_id": "GANDHI_003183",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Charkha",
+          "token_position": 19,
+          "prompt_text": "How could a civic organization draw a historically responsible lesson from Charkha about political context, without treating history as a simple recipe?"
+        },
+        {
+          "activation": 2.513489246368408,
+          "prompt_id": "GANDHI_003174",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Kheda",
+          "token_position": 18,
+          "prompt_text": "How could a civic organization draw a historically responsible lesson from Kheda about political context, without treating history as a simple recipe?"
+        },
+        {
+          "activation": 2.508450746536255,
+          "prompt_id": "GANDHI_003190",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Truth",
+          "token_position": 17,
+          "prompt_text": "How could a civic organization draw a historically responsible lesson from Truth about political context, without treating history as a simple recipe?"
+        },
+        {
+          "activation": 2.5041277408599854,
+          "prompt_id": "GANDHI_003198",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Hindu-Muslim relations",
+          "token_position": 19,
+          "prompt_text": "How could a civic organization draw a historically responsible lesson from Hindu-Muslim relations about political context, without treating history as a simple recipe?"
+        },
+        {
+          "activation": 2.5006520748138428,
+          "prompt_id": "GANDHI_003182",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Khadi",
+          "token_position": 18,
+          "prompt_text": "How could a civic organization draw a historically responsible lesson from Khadi about political context, without treating history as a simple recipe?"
+        },
+        {
+          "activation": 2.4992711544036865,
+          "prompt_id": "GANDHI_003236",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Quit India",
+          "token_position": 18,
+          "prompt_text": "How could a civic organization draw a historically responsible lesson from Quit India about political context, without treating history as a simple recipe?"
+        }
+      ]
+    },
+    "7210": {
+      "activation_frequency": 0.16008122946302836,
+      "n_firing_tokens_in_validation": 15687,
+      "domain_distribution_of_firing_tokens": {
+        "DNA": 1443,
+        "EMOTIONS": 3500,
+        "GANDHI": 704,
+        "HINDI": 8119,
+        "SCIENCE": 1921
+      },
+      "top_activating_examples": [
+        {
+          "activation": 2.125399589538574,
+          "prompt_id": "GANDHI_000976",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Patel",
+          "token_position": 2,
+          "prompt_text": "A historian examines Patel through documentary evidence. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.125399589538574,
+          "prompt_id": "GANDHI_000205",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Sanitation",
+          "token_position": 2,
+          "prompt_text": "A historian examines Sanitation through political context. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.125399589538574,
+          "prompt_id": "GANDHI_000210",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Religious influences",
+          "token_position": 2,
+          "prompt_text": "A historian examines Religious influences through political context. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.125399589538574,
+          "prompt_id": "GANDHI_000247",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Assassination",
+          "token_position": 2,
+          "prompt_text": "A historian examines Assassination through political context. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.125399589538574,
+          "prompt_id": "GANDHI_000249",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Global influence",
+          "token_position": 2,
+          "prompt_text": "A historian examines Global influence through political context. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.125399589538574,
+          "prompt_id": "GANDHI_000954",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Fasting",
+          "token_position": 2,
+          "prompt_text": "A historian examines Fasting through documentary evidence. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.125399589538574,
+          "prompt_id": "GANDHI_000980",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Salt law",
+          "token_position": 2,
+          "prompt_text": "A historian examines Salt law through documentary evidence. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.125399589538574,
+          "prompt_id": "GANDHI_000191",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Ahimsa",
+          "token_position": 2,
+          "prompt_text": "A historian examines Ahimsa through political context. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.125399589538574,
+          "prompt_id": "GANDHI_000194",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Untouchability",
+          "token_position": 2,
+          "prompt_text": "A historian examines Untouchability through political context. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.125399589538574,
+          "prompt_id": "GANDHI_000195",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Harijan publications",
+          "token_position": 2,
+          "prompt_text": "A historian examines Harijan publications through political context. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.125399589538574,
+          "prompt_id": "GANDHI_000270",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Colonial legal context",
+          "token_position": 2,
+          "prompt_text": "A historian examines Colonial legal context through political context. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.125399589538574,
+          "prompt_id": "GANDHI_000286",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Means and ends",
+          "token_position": 2,
+          "prompt_text": "A historian examines Means and ends through political context. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.125399589538574,
+          "prompt_id": "GANDHI_000951",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Poona Pact",
+          "token_position": 2,
+          "prompt_text": "A historian examines Poona Pact through documentary evidence. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.125399589538574,
+          "prompt_id": "GANDHI_000952",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Communal unity",
+          "token_position": 2,
+          "prompt_text": "A historian examines Communal unity through documentary evidence. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.125399589538574,
+          "prompt_id": "GANDHI_000955",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Women in movement",
+          "token_position": 2,
+          "prompt_text": "A historian examines Women in movement through documentary evidence. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.125399589538574,
+          "prompt_id": "GANDHI_000986",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Round Table Conference",
+          "token_position": 2,
+          "prompt_text": "A historian examines Round Table Conference through documentary evidence. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.125399589538574,
+          "prompt_id": "GANDHI_000155",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — England and legal study",
+          "token_position": 2,
+          "prompt_text": "A historian examines England and legal study through political context. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.125399589538574,
+          "prompt_id": "GANDHI_000215",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Gokhale",
+          "token_position": 2,
+          "prompt_text": "A historian examines Gokhale through political context. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.125399589538574,
+          "prompt_id": "GANDHI_000234",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Civil disobedience renewal",
+          "token_position": 2,
+          "prompt_text": "A historian examines Civil disobedience renewal through political context. What contextual factors are essential to a careful explanation?"
+        },
+        {
+          "activation": 2.125399589538574,
+          "prompt_id": "GANDHI_000963",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Brahmacharya",
+          "token_position": 2,
+          "prompt_text": "A historian examines Brahmacharya through documentary evidence. What contextual factors are essential to a careful explanation?"
+        }
+      ]
+    },
+    "7277": {
+      "activation_frequency": 0.005398289691205584,
+      "n_firing_tokens_in_validation": 529,
+      "domain_distribution_of_firing_tokens": {
+        "DNA": 156,
+        "HINDI": 63,
+        "EMOTIONS": 81,
+        "GANDHI": 24,
+        "SCIENCE": 205
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.557873010635376,
+          "prompt_id": "GANDHI_000544",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Partition",
+          "token_position": 9,
+          "prompt_text": "How does understanding organizational method change the interpretation of Partition? Support the explanation with historical evidence."
+        },
+        {
+          "activation": 0.5290541648864746,
+          "prompt_id": "GANDHI_001767",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Tolstoy Farm",
+          "token_position": 6,
+          "prompt_text": "Compare Tolstoy Farm and Partition in terms of public response; identify a meaningful similarity and a historically grounded difference."
+        },
+        {
+          "activation": 0.45061853528022766,
+          "prompt_id": "SCIENCE_000025",
+          "domain": "SCIENCE",
+          "subdomain": "Optics",
+          "token_position": 8,
+          "prompt_text": "Interpret the observation that a diffraction pattern reveals a narrow aperture using the governing concepts of Optics. Identify the mechanisms that explain the observation and the assumptions that matter. And identify the assumptions needed for the interpretation to hold."
+        },
+        {
+          "activation": 0.30135947465896606,
+          "prompt_id": "SCIENCE_003371",
+          "domain": "SCIENCE",
+          "subdomain": "Optics",
+          "token_position": 11,
+          "prompt_text": "Design a practical approach to address a lens forms a blurred image when the object moves beyond its focal range using principles of Optics. Include constraints and a measurable success criterion. With attention to the distinction between an ideal model and real observations."
+        },
+        {
+          "activation": 0.2904132306575775,
+          "prompt_id": "DNA_004847",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 4,
+          "prompt_text": "How are genetic linkage maps and Hi-C contact data used to order and orient scaffolds in genome assembly?"
+        },
+        {
+          "activation": 0.2812359035015106,
+          "prompt_id": "DNA_000643",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 4,
+          "prompt_text": "How do recombination maps help identify genomic regions under selection?"
+        },
+        {
+          "activation": 0.27953293919563293,
+          "prompt_id": "DNA_001529",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 12,
+          "prompt_text": "How are satellite DNA, minisatellites, and microsatellites distinguished in terms of repeat unit size, genomic location, and mutational behavior?"
+        },
+        {
+          "activation": 0.2648850083351135,
+          "prompt_id": "SCIENCE_003058",
+          "domain": "SCIENCE",
+          "subdomain": "Analytical chemistry",
+          "token_position": 16,
+          "prompt_text": "How could knowledge of Analytical chemistry be applied to reduce or manage an absorbance spectrum contains a broad baseline? Outline the mechanism and trade-offs of the proposed solution. With a focus on causal mechanisms rather than descriptive labels."
+        },
+        {
+          "activation": 0.26048630475997925,
+          "prompt_id": "DNA_002236",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 23,
+          "prompt_text": "How does duplicate recessive epistasis (complementary gene action) produce a 9:7 phenotypic ratio in the F2 generation of a dihybrid cross?"
+        },
+        {
+          "activation": 0.2558382451534271,
+          "prompt_id": "SCIENCE_001149",
+          "domain": "SCIENCE",
+          "subdomain": "Ecology",
+          "token_position": 17,
+          "prompt_text": "Evaluate the relative strengths and limitations of a population overshoots carrying capacity and a food web loses a top predator for explaining or measuring the same kind of phenomenon. And explain what changes if the dominant limiting factor is removed."
+        },
+        {
+          "activation": 0.25197702646255493,
+          "prompt_id": "SCIENCE_001973",
+          "domain": "SCIENCE",
+          "subdomain": "Astrophysics",
+          "token_position": 4,
+          "prompt_text": "Distinguish a supernova remnant expands from a black hole accretion disk emits radiation by identifying how each predicts an outcome when a relevant variable is changed. And explain what changes if the dominant limiting factor is removed."
+        },
+        {
+          "activation": 0.24989283084869385,
+          "prompt_id": "SCIENCE_001845",
+          "domain": "SCIENCE",
+          "subdomain": "Ecology",
+          "token_position": 4,
+          "prompt_text": "How do a food web loses a top predator and a predator population declines after prey scarcity differ in their underlying assumptions and explanatory power? Give a scientifically grounded comparison. Considering the relevant conservation laws and measurable variables."
+        },
+        {
+          "activation": 0.24489355087280273,
+          "prompt_id": "SCIENCE_003359",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 10,
+          "prompt_text": "Develop an implementation concept for a projectile follows a curved path despite horizontal motion based on Mechanics, explaining why it is suitable under the stated conditions. Considering the timescale over which the process unfolds."
+        },
+        {
+          "activation": 0.2439061999320984,
+          "prompt_id": "SCIENCE_001849",
+          "domain": "SCIENCE",
+          "subdomain": "Ecology",
+          "token_position": 11,
+          "prompt_text": "Compare a population overshoots carrying capacity and a food web loses a top predator with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. And identify the assumptions needed for the interpretation to hold."
+        },
+        {
+          "activation": 0.2376098930835724,
+          "prompt_id": "DNA_003618",
+          "domain": "DNA",
+          "subdomain": "Structure",
+          "token_position": 13,
+          "prompt_text": "What are the major and minor grooves of the DNA double helix, and how do they arise?"
+        },
+        {
+          "activation": 0.2289857566356659,
+          "prompt_id": "DNA_000534",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 11,
+          "prompt_text": "How does epistasis modify the classical phenotypic ratios of Mendelian dihybrid crosses?"
+        },
+        {
+          "activation": 0.22367438673973083,
+          "prompt_id": "DNA_004752",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 10,
+          "prompt_text": "What sample-size limitations can make a Mendelian segregation ratio difficult to detect experimentally?"
+        },
+        {
+          "activation": 0.21293005347251892,
+          "prompt_id": "SCIENCE_000408",
+          "domain": "SCIENCE",
+          "subdomain": "Analytical chemistry",
+          "token_position": 8,
+          "prompt_text": "Interpret the observation that an absorbance spectrum contains a broad baseline using the governing concepts of Analytical chemistry. Identify the mechanisms that explain the observation and the assumptions that matter. Considering the relevant conservation laws and measurable variables."
+        },
+        {
+          "activation": 0.20460200309753418,
+          "prompt_id": "DNA_001488",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 21,
+          "prompt_text": "How did Benzer's analysis of rII mutants in bacteriophage T4 establish the fine-structure map of a gene?"
+        },
+        {
+          "activation": 0.2041274905204773,
+          "prompt_id": "EMOTIONS_003343",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 17,
+          "prompt_text": "How could a writer show, rather than tell, a character's nostalgia in a short story scene? Outline an example passage."
+        }
+      ]
+    },
+    "7326": {
+      "activation_frequency": 0.005388084984794987,
+      "n_firing_tokens_in_validation": 528,
+      "domain_distribution_of_firing_tokens": {
+        "DNA": 155,
+        "EMOTIONS": 145,
+        "GANDHI": 6,
+        "HINDI": 64,
+        "SCIENCE": 158
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.35041385889053345,
+          "prompt_id": "DNA_004931",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 8,
+          "prompt_text": "What would happen to chromosome content if DNA replication occurred after rather than before cell division?"
+        },
+        {
+          "activation": 0.30628278851509094,
+          "prompt_id": "DNA_004103",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 18,
+          "prompt_text": "What banding pattern would Meselson and Stahl have observed in the first generation if DNA replication had been conservative?"
+        },
+        {
+          "activation": 0.24422498047351837,
+          "prompt_id": "DNA_004111",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 5,
+          "prompt_text": "What distinguishes nuclear DNA replication from organelle DNA replication in eukaryotic cells regarding enzyme composition and cell cycle coupling?"
+        },
+        {
+          "activation": 0.23480741679668427,
+          "prompt_id": "DNA_003107",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 15,
+          "prompt_text": "What is an origin of replication, and why is it essential for initiating DNA replication?"
+        },
+        {
+          "activation": 0.21848265826702118,
+          "prompt_id": "SCIENCE_003033",
+          "domain": "SCIENCE",
+          "subdomain": "Thermodynamics",
+          "token_position": 15,
+          "prompt_text": "How could knowledge of Thermodynamics be applied to reduce or manage a refrigerator transfers heat from a colder compartment? Outline the mechanism and trade-offs of the proposed solution. While accounting for measurement uncertainty and possible confounding factors."
+        },
+        {
+          "activation": 0.1970909684896469,
+          "prompt_id": "EMOTIONS_002187",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 9,
+          "prompt_text": "Consider this communication situation: a person describes a moment of awe during a trip, using language that conveys scale and wonder. Name the communication features that can carry the intended emotional tone."
+        },
+        {
+          "activation": 0.19676776230335236,
+          "prompt_id": "SCIENCE_004657",
+          "domain": "SCIENCE",
+          "subdomain": "Plant physiology",
+          "token_position": 6,
+          "prompt_text": "Analyze a plant transports sugars from source to sink: identify plausible causes using Plant physiology, rank them based on evidence, and propose the next experiment or measurement. And identify which evidence would distinguish the proposed explanation from alternatives."
+        },
+        {
+          "activation": 0.1889842003583908,
+          "prompt_id": "DNA_003133",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 3,
+          "prompt_text": "What structural changes occur at the replication fork as helicase advances along the parental DNA molecule?"
+        },
+        {
+          "activation": 0.18217220902442932,
+          "prompt_id": "DNA_004931",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 9,
+          "prompt_text": "What would happen to chromosome content if DNA replication occurred after rather than before cell division?"
+        },
+        {
+          "activation": 0.17020989954471588,
+          "prompt_id": "SCIENCE_001385",
+          "domain": "SCIENCE",
+          "subdomain": "Thermodynamics",
+          "token_position": 4,
+          "prompt_text": "Compare a phase change occurs while temperature remains constant and entropy changes during mixing with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. With a focus on causal mechanisms rather than descriptive labels."
+        },
+        {
+          "activation": 0.16424591839313507,
+          "prompt_id": "DNA_001781",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 23,
+          "prompt_text": "How does Metal A lower the pKa of the primer 3'-hydroxyl group to facilitate nucleophilic attack on the alpha-phosphate of the incoming dNTP?"
+        },
+        {
+          "activation": 0.16034796833992004,
+          "prompt_id": "SCIENCE_003062",
+          "domain": "SCIENCE",
+          "subdomain": "Organic chemistry",
+          "token_position": 9,
+          "prompt_text": "Design a practical approach to address a nucleophile attacks an electrophilic carbonyl carbon using principles of Organic chemistry. Include constraints and a measurable success criterion. Considering the timescale over which the process unfolds."
+        },
+        {
+          "activation": 0.16025052964687347,
+          "prompt_id": "DNA_003368",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 3,
+          "prompt_text": "What molecular changes occur when aflatoxin B1 metabolites form covalent adducts with DNA bases?"
+        },
+        {
+          "activation": 0.15817993879318237,
+          "prompt_id": "EMOTIONS_002732",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 6,
+          "prompt_text": "What characterizes yearning or longing as a complex emotion blending desire, hope, and sadness over absence?"
+        },
+        {
+          "activation": 0.15422223508358002,
+          "prompt_id": "SCIENCE_000385",
+          "domain": "SCIENCE",
+          "subdomain": "Thermodynamics",
+          "token_position": 7,
+          "prompt_text": "An investigation reports that a phase change occurs while temperature remains constant. Explain how Thermodynamics accounts for the result, and identify one additional measurement that would strengthen the interpretation. With a focus on causal mechanisms rather than descriptive labels."
+        },
+        {
+          "activation": 0.14628206193447113,
+          "prompt_id": "SCIENCE_001657",
+          "domain": "SCIENCE",
+          "subdomain": "Plant physiology",
+          "token_position": 6,
+          "prompt_text": "Contrast a plant transports sugars from source to sink with a plant wilts despite moist soil, focusing on the shared scientific basis and the key distinction that determines their behavior. And identify which evidence would distinguish the proposed explanation from alternatives."
+        },
+        {
+          "activation": 0.13950194418430328,
+          "prompt_id": "SCIENCE_001228",
+          "domain": "SCIENCE",
+          "subdomain": "Atmospheric science",
+          "token_position": 5,
+          "prompt_text": "Contrast a lightning discharge occurs in a storm with a storm intensifies over warm ocean water, focusing on the shared scientific basis and the key distinction that determines their behavior. With a focus on causal mechanisms rather than descriptive labels."
+        },
+        {
+          "activation": 0.138040229678154,
+          "prompt_id": "SCIENCE_000307",
+          "domain": "SCIENCE",
+          "subdomain": "Plant physiology",
+          "token_position": 8,
+          "prompt_text": "Interpret the observation that a plant transports sugars from source to sink using the governing concepts of Plant physiology. Identify the mechanisms that explain the observation and the assumptions that matter. Including how the system's boundary conditions influence the outcome."
+        },
+        {
+          "activation": 0.13625659048557281,
+          "prompt_id": "EMOTIONS_000793",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 32,
+          "prompt_text": "A runner crosses the finish line of her first marathon, bends over with her hands on her knees gasping for air, and breaks into a wide grin while tears run down her cheeks. What combination of physical and emotional signals is occurring?"
+        },
+        {
+          "activation": 0.13246463239192963,
+          "prompt_id": "SCIENCE_004860",
+          "domain": "SCIENCE",
+          "subdomain": "Neuroscience",
+          "token_position": 13,
+          "prompt_text": "Use Neuroscience to predict what would happen if a key condition in a reflex occurs without conscious processing changed. Show the reasoning and identify a testable prediction. Using a qualitative model before introducing any quantitative estimates."
+        }
+      ]
+    },
+    "7848": {
+      "activation_frequency": 1.0204706410596567e-05,
+      "n_firing_tokens_in_validation": 1,
+      "domain_distribution_of_firing_tokens": {
+        "HINDI": 1
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.03189463913440704,
+          "prompt_id": "HINDI_001994",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 0,
+          "prompt_text": "Stranger woman ko 'Behen ji' address karne aur 'Madam' address karne ke social context aur register mein kya difference hai?"
+        }
+      ]
+    },
+    "7906": {
+      "activation_frequency": 0.005388084984794987,
+      "n_firing_tokens_in_validation": 528,
+      "domain_distribution_of_firing_tokens": {
+        "DNA": 35,
+        "EMOTIONS": 110,
+        "GANDHI": 13,
+        "HINDI": 363,
+        "SCIENCE": 7
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.48222753405570984,
+          "prompt_id": "HINDI_003478",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 77,
+          "prompt_text": "हिंदी व्याकरण के एक ऑनलाइन पाठ्यक्रम के अंतिम मॉड्यूल के लिए 10 प्रश्नों का मिश्रित पुनरावृत्ति-प्रश्नपत्र बनाइए, जिसमें कारक, वाच्य, समास, संधि और अन्वय — सभी से प्रश्न हों।"
+        },
+        {
+          "activation": 0.42261797189712524,
+          "prompt_id": "HINDI_003646",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 49,
+          "prompt_text": "एक विद्यार्थी को अपने शिक्षक से उत्तर-पुस्तिका के पुनर्मूल्यांकन का अनुरोध करना है। हिंदी में एक ईमेल लिखिए जिसमें आदर, स्पष्टता और तर्क तीनों हों।"
+        },
+        {
+          "activation": 0.3945182263851166,
+          "prompt_id": "HINDI_003152",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 21,
+          "prompt_text": "‘बैठक स्थगित नहीं, पुनर्निर्धारित हुई है’ दोनों अर्थों का अंतर स्पष्ट करें।"
+        },
+        {
+          "activation": 0.33041810989379883,
+          "prompt_id": "HINDI_003646",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 50,
+          "prompt_text": "एक विद्यार्थी को अपने शिक्षक से उत्तर-पुस्तिका के पुनर्मूल्यांकन का अनुरोध करना है। हिंदी में एक ईमेल लिखिए जिसमें आदर, स्पष्टता और तर्क तीनों हों।"
+        },
+        {
+          "activation": 0.30993661284446716,
+          "prompt_id": "HINDI_003152",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 22,
+          "prompt_text": "‘बैठक स्थगित नहीं, पुनर्निर्धारित हुई है’ दोनों अर्थों का अंतर स्पष्ट करें।"
+        },
+        {
+          "activation": 0.29005420207977295,
+          "prompt_id": "HINDI_000561",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 100,
+          "prompt_text": "\"वह किताब, जो तुमने मुझे दी थी, बहुत रोचक है।\" इस वाक्य में सापेक्ष उपवाक्य मुख्य उपवाक्य के भीतर कहाँ अंतःस्थापित है?"
+        },
+        {
+          "activation": 0.26059362292289734,
+          "prompt_id": "HINDI_004880",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 135,
+          "prompt_text": "वाक्य 'कल जो लड़का आया था, उसने यह पत्र दिया।' को यदि 'उसने यह पत्र दिया जो लड़का कल आया था।' के रूप में लिखा जाए, तो यह वाक्य-संरचनात्मक दृष्टि से असहज या अस्वीकार्य क्यों माना जाता है?"
+        },
+        {
+          "activation": 0.2500627040863037,
+          "prompt_id": "HINDI_000289",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 124,
+          "prompt_text": "इस बातचीत में शाब्दिक कथन और संभावित संवाद में बारी लेना के बीच संबंध स्पष्ट कीजिए। स्थिति: सहकर्मी किसी प्रस्ताव पर कहता है, “यह एक अलग दृष्टिकोण है।”"
+        },
+        {
+          "activation": 0.24815097451210022,
+          "prompt_id": "HINDI_002511",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 78,
+          "prompt_text": "\"भाई\" शब्द का प्रयोग सगे संबंध के अलावा किन-किन अर्थों में होता है? अर्थ-विस्तार की दृष्टि से विश्लेषण कीजिए।"
+        },
+        {
+          "activation": 0.2447926551103592,
+          "prompt_id": "HINDI_002119",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 16,
+          "prompt_text": "“Chalte-chalte” jaise roop mein kriya ki punarukti ka vyaakaranik ya arthik kaam batayein."
+        },
+        {
+          "activation": 0.23800057172775269,
+          "prompt_id": "HINDI_001254",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 59,
+          "prompt_text": "इस प्रसंग में सीधे कथन और अप्रत्यक्ष कथन की तुलना विनम्र सुझाव के दृष्टिकोण से कीजिए। स्थिति: दो परिचित पहली बार मिलने पर औपचारिक भाषा का उपयोग करते हैं। इस कथन के शाब्दिक अर्थ और संभावित आशय में अंतर पर ध्यान दें।"
+        },
+        {
+          "activation": 0.23779934644699097,
+          "prompt_id": "HINDI_002065",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 43,
+          "prompt_text": "'मैं पढ़ रहा हूँ' में क्रिया के काल, पक्ष और पुरुष की पहचान कीजिए।"
+        },
+        {
+          "activation": 0.22624188661575317,
+          "prompt_id": "HINDI_003646",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 48,
+          "prompt_text": "एक विद्यार्थी को अपने शिक्षक से उत्तर-पुस्तिका के पुनर्मूल्यांकन का अनुरोध करना है। हिंदी में एक ईमेल लिखिए जिसमें आदर, स्पष्टता और तर्क तीनों हों।"
+        },
+        {
+          "activation": 0.2105359435081482,
+          "prompt_id": "HINDI_002203",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 48,
+          "prompt_text": "'बच्चे मैदान में खेल रहे हैं' के आधार पर क्रिया-श्रृंखला का मूल नियम बताइए।"
+        },
+        {
+          "activation": 0.20491251349449158,
+          "prompt_id": "HINDI_001465",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 85,
+          "prompt_text": "द्विकर्मक क्रिया और प्रेरणार्थक क्रिया में क्या अंतर है? \"मैंने उसे गणित पढ़ाया\" को दोनों दृष्टियों से विश्लेषित कीजिए।"
+        },
+        {
+          "activation": 0.1999373733997345,
+          "prompt_id": "HINDI_001278",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 70,
+          "prompt_text": "इस प्रसंग में सीधे कथन और अप्रत्यक्ष कथन की तुलना प्रश्न के पीछे का उद्देश्य के दृष्टिकोण से कीजिए। स्थिति: किसी वरिष्ठ को संबोधित करते समय वक्ता “आप” का प्रयोग करता है।"
+        },
+        {
+          "activation": 0.19641003012657166,
+          "prompt_id": "HINDI_004880",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 134,
+          "prompt_text": "वाक्य 'कल जो लड़का आया था, उसने यह पत्र दिया।' को यदि 'उसने यह पत्र दिया जो लड़का कल आया था।' के रूप में लिखा जाए, तो यह वाक्य-संरचनात्मक दृष्टि से असहज या अस्वीकार्य क्यों माना जाता है?"
+        },
+        {
+          "activation": 0.19631120562553406,
+          "prompt_id": "HINDI_001572",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 34,
+          "prompt_text": "सहसंबंधी रचना (\"जो आया, वह...\") और अंतःस्थापित सापेक्ष उपवाक्य (\"वह लड़का, जो आया, ...\") में संरचनात्मक अंतर स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 0.18967272341251373,
+          "prompt_id": "HINDI_003478",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 76,
+          "prompt_text": "हिंदी व्याकरण के एक ऑनलाइन पाठ्यक्रम के अंतिम मॉड्यूल के लिए 10 प्रश्नों का मिश्रित पुनरावृत्ति-प्रश्नपत्र बनाइए, जिसमें कारक, वाच्य, समास, संधि और अन्वय — सभी से प्रश्न हों।"
+        },
+        {
+          "activation": 0.18963539600372314,
+          "prompt_id": "HINDI_000289",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 123,
+          "prompt_text": "इस बातचीत में शाब्दिक कथन और संभावित संवाद में बारी लेना के बीच संबंध स्पष्ट कीजिए। स्थिति: सहकर्मी किसी प्रस्ताव पर कहता है, “यह एक अलग दृष्टिकोण है।”"
+        }
+      ]
+    }
+  },
+  "note": "Automated statistics only. No semantic label is auto-generated here -- see sae_<width>_reviewed.json for the separate human/teacher-reviewed interpretation pass."
+}

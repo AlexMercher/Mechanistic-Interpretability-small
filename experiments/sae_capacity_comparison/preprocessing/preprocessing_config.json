@@ -1,0 +1,13 @@
+{
+  "method": "global_scalar_normalization_with_centering",
+  "mu_vector_file": "mu_vector.pt",
+  "scale": 0.01966113982393835,
+  "computed_from": "train split only (experiments/activation_extraction_qwen3_1_7b/activations/train)",
+  "n_train_tokens_used": 895502,
+  "input_dim": 2048,
+  "rationale": "Per-dimension whitening was rejected: it would inflate the lowest-variance dims (min per-dim variance observed here) to the same scale as 'massive activation' outlier dims (max per-dim variance observed here), destroying the magnitude structure a dictionary is supposed to discover. A single global scalar scale (after centering) preserves relative direction/magnitude structure while putting ||x|| on a scale where a chosen sparsity coefficient and reconstruction loss are numerically comparable across widths.",
+  "reused_split_source": "experiments/activation_extraction_qwen3_1_7b (Milestone 4), seed 1337, val_fraction 0.1, prompt-level",
+  "n_train_prompts": 22467,
+  "n_validation_prompts": 2533,
+  "no_new_split_created": true
+}

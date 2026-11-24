@@ -1,0 +1,47 @@
+{
+  "experiment_id": "SAE-4096",
+  "dictionary_width": 4096,
+  "seed": 2,
+  "checkpoint": "best_val",
+  "n_validation_rows": 97994,
+  "evaluation_space": "preprocessed (centered+scaled) SAE input space -- numerically equal to raw-space ratio, see module docstring",
+  "mean_squared_reconstruction_error_per_vector": 1.9056701762283164,
+  "explained_variance_overall": 0.999096599221755,
+  "explained_variance_denominator": "sum(||x||^2) over all validation vectors, in SAE input space",
+  "reconstruction_error_percentiles_per_vector": {
+    "10": 0.5231853127479553,
+    "25": 1.0022502541542053,
+    "50": 1.6597689986228943,
+    "75": 2.5900464057922363,
+    "90": 3.617278814315796,
+    "95": 4.280193042755122,
+    "99": 5.68231546878814
+  },
+  "explained_variance_per_domain": {
+    "DNA": {
+      "n_rows": 11133,
+      "mse_per_vector": 2.744430296438237,
+      "explained_variance": 0.9991949248351092
+    },
+    "EMOTIONS": {
+      "n_rows": 16129,
+      "mse_per_vector": 2.5282733782410336,
+      "explained_variance": 0.9990478654654724
+    },
+    "GANDHI": {
+      "n_rows": 11569,
+      "mse_per_vector": 1.1245506600639334,
+      "explained_variance": 0.9996844429840647
+    },
+    "HINDI": {
+      "n_rows": 37345,
+      "mse_per_vector": 1.9354907497912266,
+      "explained_variance": 0.9981893521294414
+    },
+    "SCIENCE": {
+      "n_rows": 21818,
+      "mse_per_vector": 1.3805642498940371,
+      "explained_variance": 0.999327415758079
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "milestone": "Milestone 5: Controlled SAE Training -- Dictionary Capacity Comparison",
+  "source_activation_experiment": "experiments/activation_extraction_qwen3_1_7b",
+  "source_model": "Qwen/Qwen3-1.7B",
+  "source_model_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "selected_layer_index": 14,
+  "input_dim": 2048,
+  "widths_trained": [4096, 8192, 16384],
+  "seeds_per_width": [0, 1, 2],
+  "frozen_hyperparameters": {
+    "lr": 0.0003,
+    "batch_size": 4096,
+    "sparsity_coefficient": 0.2,
+    "total_steps": 15000,
+    "optimizer": "adam_no_weight_decay",
+    "decoder_constraint": "unit_norm_columns_renormalized_every_step"
+  },
+  "preprocessing": "global_scalar_normalization (train-only mu + scale, see preprocessing/preprocessing_config.json)",
+  "excluded_by_task_instruction": [32768, 131072],
+  "frozen_prior_experiments_untouched": [
+    "raw/", "normalized/", "processed/",
+    "experiments/duplicate_language_embedding/",
+    "experiments/semantic_topology_25k/",
+    "experiments/activation_extraction_qwen3_1_7b/"
+  ]
+}

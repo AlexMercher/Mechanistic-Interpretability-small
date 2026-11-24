@@ -1,0 +1,3862 @@
+{
+  "dictionary_width": 4096,
+  "seed": 0,
+  "checkpoint": "best_val",
+  "selection_method": "10 highest-frequency + 10 median-frequency + 10 lowest-nonzero-frequency alive features",
+  "n_features_inspected": 30,
+  "features": {
+    "64": {
+      "activation_frequency": 0.057156560605751375,
+      "n_firing_tokens_in_validation": 5601,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 2277,
+        "DNA": 789,
+        "GANDHI": 446,
+        "HINDI": 1447,
+        "SCIENCE": 642
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.7426762580871582,
+          "prompt_id": "EMOTIONS_002946",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 12,
+          "prompt_text": "How does compassion differ from sympathy in terms of active motivation to alleviate suffering versus passive sorrow for another's misfortune?"
+        },
+        {
+          "activation": 0.7242471575737,
+          "prompt_id": "EMOTIONS_001937",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 12,
+          "prompt_text": "Contrast empathic concern (other-oriented warmth and desire to help) with personal distress (self-oriented anxiety and urge to escape when witnessing suffering)."
+        },
+        {
+          "activation": 0.7015866637229919,
+          "prompt_id": "EMOTIONS_002730",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 23,
+          "prompt_text": "Why do some taxonomies classify boredom as a low-arousal negative affective state related to frustration and lack of meaningful engagement?"
+        },
+        {
+          "activation": 0.6737590432167053,
+          "prompt_id": "EMOTIONS_002730",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 24,
+          "prompt_text": "Why do some taxonomies classify boredom as a low-arousal negative affective state related to frustration and lack of meaningful engagement?"
+        },
+        {
+          "activation": 0.6438531279563904,
+          "prompt_id": "EMOTIONS_001938",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 6,
+          "prompt_text": "Compare envy (wanting an advantage or achievement someone else possesses) with jealousy (fearing the loss of a valued relationship or bond to a rival)."
+        },
+        {
+          "activation": 0.642425537109375,
+          "prompt_id": "EMOTIONS_002963",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 7,
+          "prompt_text": "How does theory of mind—attributing distinct beliefs, intentions, and knowledge states to others—serve as a cognitive prerequisite for perspective-taking?"
+        },
+        {
+          "activation": 0.6214337348937988,
+          "prompt_id": "EMOTIONS_002946",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 13,
+          "prompt_text": "How does compassion differ from sympathy in terms of active motivation to alleviate suffering versus passive sorrow for another's misfortune?"
+        },
+        {
+          "activation": 0.6009650826454163,
+          "prompt_id": "EMOTIONS_002963",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 9,
+          "prompt_text": "How does theory of mind—attributing distinct beliefs, intentions, and knowledge states to others—serve as a cognitive prerequisite for perspective-taking?"
+        },
+        {
+          "activation": 0.5916936993598938,
+          "prompt_id": "EMOTIONS_002963",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 15,
+          "prompt_text": "How does theory of mind—attributing distinct beliefs, intentions, and knowledge states to others—serve as a cognitive prerequisite for perspective-taking?"
+        },
+        {
+          "activation": 0.5729604363441467,
+          "prompt_id": "EMOTIONS_002730",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 22,
+          "prompt_text": "Why do some taxonomies classify boredom as a low-arousal negative affective state related to frustration and lack of meaningful engagement?"
+        },
+        {
+          "activation": 0.5656669735908508,
+          "prompt_id": "EMOTIONS_004975",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 13,
+          "prompt_text": "Why can chronic loneliness heighten hypervigilance toward social threats, making neutral social interactions feel unwelcoming?"
+        },
+        {
+          "activation": 0.5629438757896423,
+          "prompt_id": "EMOTIONS_002732",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 12,
+          "prompt_text": "What characterizes yearning or longing as a complex emotion blending desire, hope, and sadness over absence?"
+        },
+        {
+          "activation": 0.5379297137260437,
+          "prompt_id": "EMOTIONS_002940",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 30,
+          "prompt_text": "How does Jessica Tracy's research differentiate authentic pride (grounded in specific effort and accomplishment) from hubristic pride (grounded in global claims of superiority)?"
+        },
+        {
+          "activation": 0.5366136431694031,
+          "prompt_id": "EMOTIONS_002963",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 17,
+          "prompt_text": "How does theory of mind—attributing distinct beliefs, intentions, and knowledge states to others—serve as a cognitive prerequisite for perspective-taking?"
+        },
+        {
+          "activation": 0.5297313332557678,
+          "prompt_id": "EMOTIONS_002963",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 14,
+          "prompt_text": "How does theory of mind—attributing distinct beliefs, intentions, and knowledge states to others—serve as a cognitive prerequisite for perspective-taking?"
+        },
+        {
+          "activation": 0.5288832187652588,
+          "prompt_id": "EMOTIONS_002963",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 16,
+          "prompt_text": "How does theory of mind—attributing distinct beliefs, intentions, and knowledge states to others—serve as a cognitive prerequisite for perspective-taking?"
+        },
+        {
+          "activation": 0.5284363627433777,
+          "prompt_id": "EMOTIONS_002729",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 16,
+          "prompt_text": "How does self-compassion incorporate kindness toward oneself alongside recognition of shared human fallibility?"
+        },
+        {
+          "activation": 0.5240004658699036,
+          "prompt_id": "EMOTIONS_002879",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 28,
+          "prompt_text": "What is self-distancing (taking an observer or third-person perspective) in emotion regulation research, and how does it affect reflection on distressing events?"
+        },
+        {
+          "activation": 0.5184105038642883,
+          "prompt_id": "EMOTIONS_002940",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 16,
+          "prompt_text": "How does Jessica Tracy's research differentiate authentic pride (grounded in specific effort and accomplishment) from hubristic pride (grounded in global claims of superiority)?"
+        },
+        {
+          "activation": 0.5181791186332703,
+          "prompt_id": "EMOTIONS_001937",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 11,
+          "prompt_text": "Contrast empathic concern (other-oriented warmth and desire to help) with personal distress (self-oriented anxiety and urge to escape when witnessing suffering)."
+        }
+      ]
+    },
+    "76": {
+      "activation_frequency": 0.017725575035206238,
+      "n_firing_tokens_in_validation": 1737,
+      "domain_distribution_of_firing_tokens": {
+        "DNA": 232,
+        "EMOTIONS": 768,
+        "HINDI": 412,
+        "GANDHI": 141,
+        "SCIENCE": 184
+      },
+      "top_activating_examples": [
+        {
+          "activation": 2.015761613845825,
+          "prompt_id": "GANDHI_000372",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Patel",
+          "token_position": 15,
+          "prompt_text": "Place Patel within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+        },
+        {
+          "activation": 2.0067434310913086,
+          "prompt_id": "GANDHI_000317",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Smuts negotiations",
+          "token_position": 17,
+          "prompt_text": "Place Smuts negotiations within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+        },
+        {
+          "activation": 2.006016492843628,
+          "prompt_id": "GANDHI_000450",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Self-presentation",
+          "token_position": 17,
+          "prompt_text": "Place Self-presentation within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+        },
+        {
+          "activation": 1.9951101541519165,
+          "prompt_id": "GANDHI_000310",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Pietermaritzburg incident",
+          "token_position": 20,
+          "prompt_text": "Place Pietermaritzburg incident within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+        },
+        {
+          "activation": 1.9938844442367554,
+          "prompt_id": "GANDHI_000323",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Champaran",
+          "token_position": 16,
+          "prompt_text": "Place Champaran within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+        },
+        {
+          "activation": 1.9914191961288452,
+          "prompt_id": "GANDHI_000394",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Noakhali",
+          "token_position": 17,
+          "prompt_text": "Place Noakhali within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+        },
+        {
+          "activation": 1.9875298738479614,
+          "prompt_id": "GANDHI_000349",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Hindu-Muslim relations",
+          "token_position": 17,
+          "prompt_text": "Place Hindu-Muslim relations within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+        },
+        {
+          "activation": 1.9861676692962646,
+          "prompt_id": "GANDHI_000325",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Kheda",
+          "token_position": 16,
+          "prompt_text": "Place Kheda within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+        },
+        {
+          "activation": 1.9819835424423218,
+          "prompt_id": "GANDHI_000415",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Personal experiments",
+          "token_position": 16,
+          "prompt_text": "Place Personal experiments within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+        },
+        {
+          "activation": 1.971989393234253,
+          "prompt_id": "GANDHI_000373",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Subhas Chandra Bose",
+          "token_position": 19,
+          "prompt_text": "Place Subhas Chandra Bose within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+        },
+        {
+          "activation": 1.9602924585342407,
+          "prompt_id": "GANDHI_000439",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Imprisonment chronology",
+          "token_position": 20,
+          "prompt_text": "Place Imprisonment chronology within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+        },
+        {
+          "activation": 1.9388947486877441,
+          "prompt_id": "GANDHI_000430",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Methods of protest",
+          "token_position": 17,
+          "prompt_text": "Place Methods of protest within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+        },
+        {
+          "activation": 1.9123443365097046,
+          "prompt_id": "GANDHI_000321",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Kochrab Ashram",
+          "token_position": 18,
+          "prompt_text": "Place Kochrab Ashram within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+        },
+        {
+          "activation": 1.908501386642456,
+          "prompt_id": "GANDHI_000445",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Chronology 1869–1948",
+          "token_position": 26,
+          "prompt_text": "Place Chronology 1869–1948 within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+        },
+        {
+          "activation": 1.8750594854354858,
+          "prompt_id": "GANDHI_000383",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — London 1931",
+          "token_position": 20,
+          "prompt_text": "Place London 1931 within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+        },
+        {
+          "activation": 1.0967941284179688,
+          "prompt_id": "EMOTIONS_000931",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 17,
+          "prompt_text": "When a family discussion about holiday travel becomes tense, one sibling suggests taking a break to make tea and look at old family photo albums before deciding on dates. How does shifting shared attention lower interpersonal arousal?"
+        },
+        {
+          "activation": 1.0754941701889038,
+          "prompt_id": "DNA_002623",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 9,
+          "prompt_text": "What are the key differences in genome organization that make bacterial replication simpler to regulate than eukaryotic replication?"
+        },
+        {
+          "activation": 1.0528218746185303,
+          "prompt_id": "DNA_001258",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 9,
+          "prompt_text": "How do fragile sites arise, and what features make them prone to breakage under replication stress?"
+        },
+        {
+          "activation": 1.0366255044937134,
+          "prompt_id": "EMOTIONS_003131",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 47,
+          "prompt_text": "In an everyday interaction, a friend responds to a compliment; the response may reflect several possible emotions. Assess whether the evidence suggests a single emotion, a mixed state, or ambiguity. Describe a fair, practical interpretation an observer could use without making assumptions."
+        },
+        {
+          "activation": 1.0308096408843994,
+          "prompt_id": "EMOTIONS_003071",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 45,
+          "prompt_text": "In an everyday interaction, a person receives unexpected praise; their response is quieter than expected. Assess whether the evidence suggests a single emotion, a mixed state, or ambiguity. Describe a fair, practical interpretation an observer could use without making assumptions."
+        }
+      ]
+    },
+    "221": {
+      "activation_frequency": 0.017725575035206238,
+      "n_firing_tokens_in_validation": 1737,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 421,
+        "DNA": 482,
+        "GANDHI": 202,
+        "HINDI": 304,
+        "SCIENCE": 328
+      },
+      "top_activating_examples": [
+        {
+          "activation": 1.9933205842971802,
+          "prompt_id": "GANDHI_001923",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Indian Relief Act",
+          "token_position": 5,
+          "prompt_text": "How does Indian Relief Act differ from Rhetoric and speeches regarding documentary evidence? Explain why the distinction matters historically."
+        },
+        {
+          "activation": 1.988909125328064,
+          "prompt_id": "DNA_002422",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 6,
+          "prompt_text": "How does RNA polymerase II differ from RNA polymerase I in the types of genes it transcribes?"
+        },
+        {
+          "activation": 1.9883582592010498,
+          "prompt_id": "EMOTIONS_001374",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 3,
+          "prompt_text": "How does frustration differ from disappointment?"
+        },
+        {
+          "activation": 1.983604073524475,
+          "prompt_id": "GANDHI_001930",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Rowlatt Act",
+          "token_position": 6,
+          "prompt_text": "How does Rowlatt Act differ from 1919 hartal regarding documentary evidence? Explain why the distinction matters historically."
+        },
+        {
+          "activation": 1.9811469316482544,
+          "prompt_id": "GANDHI_001944",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Satyagraha in South Africa",
+          "token_position": 9,
+          "prompt_text": "How does Satyagraha in South Africa differ from Nonviolence under repression regarding documentary evidence? Explain why the distinction matters historically."
+        },
+        {
+          "activation": 1.973502278327942,
+          "prompt_id": "GANDHI_001225",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Salt law",
+          "token_position": 4,
+          "prompt_text": "How does Salt law differ from Congress regarding political context? Explain why the distinction matters historically."
+        },
+        {
+          "activation": 1.9573920965194702,
+          "prompt_id": "DNA_002456",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 6,
+          "prompt_text": "How do bacterial DNA damage checkpoints differ from the ATM- and ATR-mediated signaling networks of eukaryotic cells?"
+        },
+        {
+          "activation": 1.9489548206329346,
+          "prompt_id": "GANDHI_001919",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Transvaal registration laws",
+          "token_position": 7,
+          "prompt_text": "How does Transvaal registration laws differ from Global influence regarding documentary evidence? Explain why the distinction matters historically."
+        },
+        {
+          "activation": 1.9453610181808472,
+          "prompt_id": "GANDHI_001914",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Pietermaritzburg incident",
+          "token_position": 8,
+          "prompt_text": "How does Pietermaritzburg incident differ from Thoreau and civil disobedience regarding documentary evidence? Explain why the distinction matters historically."
+        },
+        {
+          "activation": 1.9432369470596313,
+          "prompt_id": "GANDHI_001290",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Religious pluralism",
+          "token_position": 5,
+          "prompt_text": "How does Religious pluralism differ from Salt law regarding political context? Explain why the distinction matters historically."
+        },
+        {
+          "activation": 1.9303255081176758,
+          "prompt_id": "GANDHI_001908",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Rajkot schooling",
+          "token_position": 6,
+          "prompt_text": "How does Rajkot schooling differ from Champaran regarding documentary evidence? Explain why the distinction matters historically."
+        },
+        {
+          "activation": 1.9283734560012817,
+          "prompt_id": "DNA_002538",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 6,
+          "prompt_text": "How do DNA transposons differ from retrotransposons in their movement mechanisms?"
+        },
+        {
+          "activation": 1.9209591150283813,
+          "prompt_id": "GANDHI_001959",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Rural development",
+          "token_position": 4,
+          "prompt_text": "How does Rural development differ from Dandi regarding documentary evidence? Explain why the distinction matters historically."
+        },
+        {
+          "activation": 1.9087406396865845,
+          "prompt_id": "DNA_002953",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 7,
+          "prompt_text": "How does an X-linked dominant trait differ from an autosomal dominant trait in its transmission from an affected father to his sons and daughters?"
+        },
+        {
+          "activation": 1.90709388256073,
+          "prompt_id": "DNA_002450",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 7,
+          "prompt_text": "How do double-strand DNA breaks differ structurally and biologically from single-strand breaks?"
+        },
+        {
+          "activation": 1.900847315788269,
+          "prompt_id": "EMOTIONS_002823",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 11,
+          "prompt_text": "How do asynchronous communication channels (like email or letters) differ from synchronous channels (like phone calls) in allowing communicators to edit and calibrate emotional expression?"
+        },
+        {
+          "activation": 1.8961564302444458,
+          "prompt_id": "DNA_002494",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 6,
+          "prompt_text": "How does homozygosity differ from heterozygosity at a genetic locus?"
+        },
+        {
+          "activation": 1.8765136003494263,
+          "prompt_id": "GANDHI_001231",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Round Table Conference",
+          "token_position": 5,
+          "prompt_text": "How does Round Table Conference differ from Gandhi Jayanti regarding political context? Explain why the distinction matters historically."
+        },
+        {
+          "activation": 1.8708142042160034,
+          "prompt_id": "GANDHI_001205",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Sanitation",
+          "token_position": 4,
+          "prompt_text": "How does Sanitation differ from Civil disobedience renewal regarding political context? Explain why the distinction matters historically."
+        },
+        {
+          "activation": 1.8698325157165527,
+          "prompt_id": "GANDHI_001255",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Environmental relevance",
+          "token_position": 4,
+          "prompt_text": "How does Environmental relevance differ from Labor regarding political context? Explain why the distinction matters historically."
+        }
+      ]
+    },
+    "328": {
+      "activation_frequency": 0.0734228626242423,
+      "n_firing_tokens_in_validation": 7195,
+      "domain_distribution_of_firing_tokens": {
+        "DNA": 387,
+        "EMOTIONS": 1153,
+        "GANDHI": 81,
+        "HINDI": 5273,
+        "SCIENCE": 301
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.3375137448310852,
+          "prompt_id": "HINDI_004960",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 133,
+          "prompt_text": "एक शिक्षक छात्र से पूछता है, 'क्या तुम्हें लगता है कि यह उत्तर सही है?' इस प्रश्न के माध्यम से शिक्षक छात्र को सीधे गलत बताने के बजाय आत्म-मूल्यांकन के लिए कैसे प्रेरित करता है?"
+        },
+        {
+          "activation": 0.3306138813495636,
+          "prompt_id": "HINDI_004682",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 64,
+          "prompt_text": "दादी ने कहा, \"मेरा चश्मा कहीं दिख नहीं रहा।\" पोते ने कहा, \"आपके सिर पर है।\" दादी के कथन का व्यावहारिक कार्य क्या था, और पोते का उत्तर उसके अनुरूप कैसे था?"
+        },
+        {
+          "activation": 0.3122791647911072,
+          "prompt_id": "HINDI_003896",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 76,
+          "prompt_text": "सरकारी विज्ञप्ति: 'योग्य उम्मीदवारों से अनुरोध है कि वे निर्धारित तिथि से पूर्व ऑनलाइन आवेदन करें।' इस वाक्य में 'वे' सर्वनाम किस पदबंध के लिए प्रयुक्त हुआ है?"
+        },
+        {
+          "activation": 0.2918814718723297,
+          "prompt_id": "HINDI_004974",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 78,
+          "prompt_text": "किसी औपचारिक सभा में मुख्य अतिथि के आगमन पर 'कृपया अपना स्थान ग्रहण करें' कहना 'बैठ जाइए' कहने की तुलना में वातावरण की गरिमा को कैसे बढ़ाता है?"
+        },
+        {
+          "activation": 0.2866365313529968,
+          "prompt_id": "HINDI_003896",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 77,
+          "prompt_text": "सरकारी विज्ञप्ति: 'योग्य उम्मीदवारों से अनुरोध है कि वे निर्धारित तिथि से पूर्व ऑनलाइन आवेदन करें।' इस वाक्य में 'वे' सर्वनाम किस पदबंध के लिए प्रयुक्त हुआ है?"
+        },
+        {
+          "activation": 0.28479424118995667,
+          "prompt_id": "HINDI_003882",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 58,
+          "prompt_text": "यातायात नियम: 'लाल बत्ती होने पर वाहन रोकें और हरी बत्ती होने पर ही आगे बढ़ें।' इस संयुक्त वाक्य के दोनों भागों में प्रयुक्त कालवाचक पदबंधों की संरचना बताइए।"
+        },
+        {
+          "activation": 0.2838587462902069,
+          "prompt_id": "EMOTIONS_000953",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 39,
+          "prompt_text": "When a coworker stays quiet and keeps her arms crossed during a brainstorming session, a colleague initially assumes she is angry, but asks gently afterward and learns she was concentrating on taking detailed notes while fighting a headache. What lesson about interpreting behavior does this illustrate?"
+        },
+        {
+          "activation": 0.28090471029281616,
+          "prompt_id": "HINDI_003637",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 71,
+          "prompt_text": "किसी सरकारी दफ़्तर में अपना रुका हुआ काम जल्दी करवाने के लिए संबंधित कर्मचारी से शिष्ट पर प्रभावी हिंदी में बात करने का एक संवाद लिखिए।"
+        },
+        {
+          "activation": 0.27844667434692383,
+          "prompt_id": "HINDI_003629",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 53,
+          "prompt_text": "दुकान पर मोल-भाव करते समय शालीनता से कीमत कम करवाने के लिए हिंदी में तीन वाक्य लिखिए, और प्रत्येक के पीछे की व्यावहारिक रणनीति समझाइए।"
+        },
+        {
+          "activation": 0.2746179401874542,
+          "prompt_id": "HINDI_000954",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 59,
+          "prompt_text": "शिक्षक ने शोर मचाती कक्षा से कहा, 'मुझे लगता है कि कुछ लोगों को बाहर जाकर बात करनी चाहिए।' इस कथन का वास्तविक उद्देश्य क्या है?"
+        },
+        {
+          "activation": 0.2742934226989746,
+          "prompt_id": "HINDI_002283",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 132,
+          "prompt_text": "इस प्रसंग के आधार पर औपचारिकता का स्तर की परिभाषा और उसकी भूमिका स्पष्ट कीजिए। बातचीत का संदर्भ: बैठक में कोई व्यक्ति दूसरे की बात पूरी होने से पहले बोलने लगता है।"
+        },
+        {
+          "activation": 0.27112799882888794,
+          "prompt_id": "HINDI_004935",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 144,
+          "prompt_text": "एक कर्मचारी अपने वरिष्ठ अधिकारी से छुट्टी मांगना चाहता है। यदि वह 'मुझे कल छुट्टी चाहिए' के बजाय 'अगर कल काम का ज्यादा दबाव न हो, तो क्या मैं एक दिन की छुट्टी ले सकता हूँ?' कहता है, तो यह बदलाव अधिकारी की प्रतिक्रिया को कैसे प्रभावित करेगा?"
+        },
+        {
+          "activation": 0.27041903138160706,
+          "prompt_id": "HINDI_000538",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 70,
+          "prompt_text": "\"बेटा, अब तुम बड़े हो गए हो।\" यह वाक्य बच्चे की लंबाई देखकर कहा जाए और किसी गलती पर समझाते हुए कहा जाए — दोनों संदर्भों में \"बड़ा होना\" का अर्थ कैसे बदलता है?"
+        },
+        {
+          "activation": 0.2672487795352936,
+          "prompt_id": "HINDI_003821",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 82,
+          "prompt_text": "बस के अंदर लिखा वाक्य: \"महिलाओं के लिए आरक्षित सीट।\" यदि कोई पुरुष इस सीट पर बैठा है और कोई महिला यात्री आती है, तो इस सूचना के अर्थ के अनुसार क्या अपेक्षित है?"
+        },
+        {
+          "activation": 0.2645716369152069,
+          "prompt_id": "HINDI_000663",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 62,
+          "prompt_text": "मीटिंग में एक व्यक्ति बोल रहा था कि दूसरे ने कहा, \"बस एक सेकंड, मैं इसमें एक बात जोड़ना चाहूँगा।\" बारी लेने की इस रणनीति का विश्लेषण कीजिए।"
+        },
+        {
+          "activation": 0.26452985405921936,
+          "prompt_id": "HINDI_004999",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 30,
+          "prompt_text": "Customer support mein angry client ko 'aapki problem bilkul genuine hai, hum abhi dekhte hain' kehne se de-escalation kaise hota hai?"
+        },
+        {
+          "activation": 0.2643422782421112,
+          "prompt_id": "DNA_001868",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 39,
+          "prompt_text": "How does leading-strand synthesis at a blunt linear chromosome end also require 5'-end resection by nucleases such as Apollo and Exo1 to generate a 3' telomeric overhang?"
+        },
+        {
+          "activation": 0.2641115188598633,
+          "prompt_id": "HINDI_003813",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 90,
+          "prompt_text": "बातचीत का अंश: ग्राहक: \"भैया, यह आम मीठे तो हैं न?\" दुकानदार: \"जी, शक्कर की डली हैं, न निकलें तो वापस ले आना।\" दुकानदार के उत्तर का लाक्षणिक अर्थ क्या है?"
+        },
+        {
+          "activation": 0.2637745440006256,
+          "prompt_id": "HINDI_002283",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 134,
+          "prompt_text": "इस प्रसंग के आधार पर औपचारिकता का स्तर की परिभाषा और उसकी भूमिका स्पष्ट कीजिए। बातचीत का संदर्भ: बैठक में कोई व्यक्ति दूसरे की बात पूरी होने से पहले बोलने लगता है।"
+        },
+        {
+          "activation": 0.2620828449726105,
+          "prompt_id": "HINDI_004935",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 131,
+          "prompt_text": "एक कर्मचारी अपने वरिष्ठ अधिकारी से छुट्टी मांगना चाहता है। यदि वह 'मुझे कल छुट्टी चाहिए' के बजाय 'अगर कल काम का ज्यादा दबाव न हो, तो क्या मैं एक दिन की छुट्टी ले सकता हूँ?' कहता है, तो यह बदलाव अधिकारी की प्रतिक्रिया को कैसे प्रभावित करेगा?"
+        }
+      ]
+    },
+    "454": {
+      "activation_frequency": 0.017705165622385045,
+      "n_firing_tokens_in_validation": 1735,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 915,
+        "DNA": 205,
+        "GANDHI": 76,
+        "HINDI": 394,
+        "SCIENCE": 145
+      },
+      "top_activating_examples": [
+        {
+          "activation": 1.9598711729049683,
+          "prompt_id": "EMOTIONS_004130",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 42,
+          "prompt_text": "In an everyday interaction, a friend responds to a compliment; the response may reflect several possible emotions. Explain what additional cue would help distinguish similar emotional states. Infer a tentative emotional interpretation from the evidence and justify it cautiously."
+        },
+        {
+          "activation": 1.9266268014907837,
+          "prompt_id": "EMOTIONS_004081",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 33,
+          "prompt_text": "In an everyday interaction, a colleague gives brief feedback; the speaker's tone differs from the literal wording. Identify which contextual detail most strongly shapes the interpretation. Infer a tentative emotional interpretation from the evidence and justify it cautiously."
+        },
+        {
+          "activation": 1.895864725112915,
+          "prompt_id": "EMOTIONS_004081",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 42,
+          "prompt_text": "In an everyday interaction, a colleague gives brief feedback; the speaker's tone differs from the literal wording. Identify which contextual detail most strongly shapes the interpretation. Infer a tentative emotional interpretation from the evidence and justify it cautiously."
+        },
+        {
+          "activation": 1.8943212032318115,
+          "prompt_id": "EMOTIONS_004092",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 35,
+          "prompt_text": "In an everyday interaction, a family member recalls an old event; the emotional significance is not stated directly. Account for at least two plausible interpretations rather than assuming certainty. Infer a tentative emotional interpretation from the evidence and justify it cautiously."
+        },
+        {
+          "activation": 1.872773289680481,
+          "prompt_id": "EMOTIONS_004108",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 42,
+          "prompt_text": "In an everyday interaction, a guest attends a gathering; they display several cues that may conflict. Separate the person's stated feeling from an observer's interpretation. Infer a tentative emotional interpretation from the evidence and justify it cautiously."
+        },
+        {
+          "activation": 1.853864073753357,
+          "prompt_id": "EMOTIONS_004120",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 34,
+          "prompt_text": "In an everyday interaction, a person reads an ambiguous message; the sender's emotional intent is unclear. Separate the person's stated feeling from an observer's interpretation. Infer a tentative emotional interpretation from the evidence and justify it cautiously."
+        },
+        {
+          "activation": 1.8325432538986206,
+          "prompt_id": "EMOTIONS_004108",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 33,
+          "prompt_text": "In an everyday interaction, a guest attends a gathering; they display several cues that may conflict. Separate the person's stated feeling from an observer's interpretation. Infer a tentative emotional interpretation from the evidence and justify it cautiously."
+        },
+        {
+          "activation": 1.8314152956008911,
+          "prompt_id": "EMOTIONS_004126",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 36,
+          "prompt_text": "In an everyday interaction, a speaker recounts a difficult achievement; their reaction appears to contain more than one feeling. Separate the person's stated feeling from an observer's interpretation. Infer a tentative emotional interpretation from the evidence and justify it cautiously."
+        },
+        {
+          "activation": 1.8272526264190674,
+          "prompt_id": "EMOTIONS_004089",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 46,
+          "prompt_text": "In an everyday interaction, a student answers a personal question; the surrounding social context is unfamiliar. Assess whether the evidence suggests a single emotion, a mixed state, or ambiguity. Infer a tentative emotional interpretation from the evidence and justify it cautiously."
+        },
+        {
+          "activation": 1.8260860443115234,
+          "prompt_id": "EMOTIONS_004092",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 44,
+          "prompt_text": "In an everyday interaction, a family member recalls an old event; the emotional significance is not stated directly. Account for at least two plausible interpretations rather than assuming certainty. Infer a tentative emotional interpretation from the evidence and justify it cautiously."
+        },
+        {
+          "activation": 1.821475863456726,
+          "prompt_id": "EMOTIONS_004089",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 37,
+          "prompt_text": "In an everyday interaction, a student answers a personal question; the surrounding social context is unfamiliar. Assess whether the evidence suggests a single emotion, a mixed state, or ambiguity. Infer a tentative emotional interpretation from the evidence and justify it cautiously."
+        },
+        {
+          "activation": 1.8210374116897583,
+          "prompt_id": "EMOTIONS_004126",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 45,
+          "prompt_text": "In an everyday interaction, a speaker recounts a difficult achievement; their reaction appears to contain more than one feeling. Separate the person's stated feeling from an observer's interpretation. Infer a tentative emotional interpretation from the evidence and justify it cautiously."
+        },
+        {
+          "activation": 1.777381181716919,
+          "prompt_id": "EMOTIONS_004120",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 43,
+          "prompt_text": "In an everyday interaction, a person reads an ambiguous message; the sender's emotional intent is unclear. Separate the person's stated feeling from an observer's interpretation. Infer a tentative emotional interpretation from the evidence and justify it cautiously."
+        },
+        {
+          "activation": 1.7018711566925049,
+          "prompt_id": "EMOTIONS_004130",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 33,
+          "prompt_text": "In an everyday interaction, a friend responds to a compliment; the response may reflect several possible emotions. Explain what additional cue would help distinguish similar emotional states. Infer a tentative emotional interpretation from the evidence and justify it cautiously."
+        },
+        {
+          "activation": 1.4783992767333984,
+          "prompt_id": "EMOTIONS_001026",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 20,
+          "prompt_text": "Compare the self-directed and other-directed forms of apprehension and anticipation, if applicable. Keep the interpretation tentative when the evidence is incomplete."
+        },
+        {
+          "activation": 1.4765816926956177,
+          "prompt_id": "EMOTIONS_004052",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 19,
+          "prompt_text": "Explain how changing one detail of the scenario could weaken the inference of shame. Keep the interpretation tentative when the evidence is incomplete."
+        },
+        {
+          "activation": 1.461369514465332,
+          "prompt_id": "EMOTIONS_004063",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 22,
+          "prompt_text": "Assess which additional fact would most help determine whether relief is the best interpretation of the scenario. Keep the interpretation tentative when the evidence is incomplete."
+        },
+        {
+          "activation": 1.4592620134353638,
+          "prompt_id": "EMOTIONS_002027",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 23,
+          "prompt_text": "Explain why the label tenderness may not capture the full complexity of a person's emotional experience. Keep the interpretation tentative when the evidence is incomplete."
+        },
+        {
+          "activation": 1.380398154258728,
+          "prompt_id": "EMOTIONS_001048",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 20,
+          "prompt_text": "Distinguish a direct expression of hope from a statement that could mask it with boredom. Keep the interpretation tentative when the evidence is incomplete."
+        },
+        {
+          "activation": 1.3454536199569702,
+          "prompt_id": "EMOTIONS_004030",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 20,
+          "prompt_text": "Identify the missing premise in an argument that claims the event must cause yearning. Keep the interpretation tentative when the evidence is incomplete."
+        }
+      ]
+    },
+    "486": {
+      "activation_frequency": 1.0204706410596567e-05,
+      "n_firing_tokens_in_validation": 1,
+      "domain_distribution_of_firing_tokens": {
+        "HINDI": 1
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.040359415113925934,
+          "prompt_id": "HINDI_004396",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 0,
+          "prompt_text": "'Dayalu' aur 'kripalu' ke beech ke antar ko shabdon ki banawat se kaise samjha ja sakta hai?"
+        }
+      ]
+    },
+    "611": {
+      "activation_frequency": 0.06425903626752659,
+      "n_firing_tokens_in_validation": 6297,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 395,
+        "DNA": 294,
+        "GANDHI": 373,
+        "HINDI": 4413,
+        "SCIENCE": 822
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.7251458764076233,
+          "prompt_id": "SCIENCE_003956",
+          "domain": "SCIENCE",
+          "subdomain": "Materials science",
+          "token_position": 15,
+          "prompt_text": "How could knowledge of Materials science be applied to reduce or manage grain size changes strength? Outline the mechanism and trade-offs of the proposed solution. Considering the timescale over which the process unfolds."
+        },
+        {
+          "activation": 0.6962261199951172,
+          "prompt_id": "SCIENCE_001148",
+          "domain": "SCIENCE",
+          "subdomain": "Ecology",
+          "token_position": 14,
+          "prompt_text": "Contrast a wetland filters nutrients from runoff with pollinator abundance changes plant reproduction, focusing on the shared scientific basis and the key distinction that determines their behavior. With a focus on causal mechanisms rather than descriptive labels."
+        },
+        {
+          "activation": 0.6569353342056274,
+          "prompt_id": "SCIENCE_004947",
+          "domain": "SCIENCE",
+          "subdomain": "Hydrology",
+          "token_position": 10,
+          "prompt_text": "A dataset or observation indicates snowmelt timing changes streamflow. Explain the inference using Hydrology, note a possible confounder, and suggest how to control it. While accounting for measurement uncertainty and possible confounding factors."
+        },
+        {
+          "activation": 0.5827663540840149,
+          "prompt_id": "HINDI_000029",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 41,
+          "prompt_text": "‘समाधान अस्थायी था’—‘अस्थायी’ का अर्थ वाक्य के आधार पर बताइए।"
+        },
+        {
+          "activation": 0.5762669444084167,
+          "prompt_id": "SCIENCE_004787",
+          "domain": "SCIENCE",
+          "subdomain": "Electrochemistry",
+          "token_position": 10,
+          "prompt_text": "A dataset or observation indicates a redox mediator changes reaction kinetics. Explain the inference using Electrochemistry, note a possible confounder, and suggest how to control it. While accounting for measurement uncertainty and possible confounding factors."
+        },
+        {
+          "activation": 0.5555983185768127,
+          "prompt_id": "HINDI_002565",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 23,
+          "prompt_text": "हिंदी में क्रिया का अन्वय कर्ता से कब होता है, कर्म से कब, और कब क्रिया डिफ़ॉल्ट पुल्लिंग एकवचन रूप लेती है? संरचनात्मक नियम बताइए।"
+        },
+        {
+          "activation": 0.5499487519264221,
+          "prompt_id": "SCIENCE_004962",
+          "domain": "SCIENCE",
+          "subdomain": "Nanotechnology",
+          "token_position": 9,
+          "prompt_text": "A dataset or observation indicates surface area changes catalytic activity. Explain the inference using Nanotechnology, note a possible confounder, and suggest how to control it. With a focus on causal mechanisms rather than descriptive labels."
+        },
+        {
+          "activation": 0.5437600016593933,
+          "prompt_id": "SCIENCE_004947",
+          "domain": "SCIENCE",
+          "subdomain": "Hydrology",
+          "token_position": 11,
+          "prompt_text": "A dataset or observation indicates snowmelt timing changes streamflow. Explain the inference using Hydrology, note a possible confounder, and suggest how to control it. While accounting for measurement uncertainty and possible confounding factors."
+        },
+        {
+          "activation": 0.5293418765068054,
+          "prompt_id": "SCIENCE_001848",
+          "domain": "SCIENCE",
+          "subdomain": "Ecology",
+          "token_position": 14,
+          "prompt_text": "Distinguish a wetland filters nutrients from runoff from pollinator abundance changes plant reproduction by identifying how each predicts an outcome when a relevant variable is changed. With attention to the distinction between an ideal model and real observations."
+        },
+        {
+          "activation": 0.5143317580223083,
+          "prompt_id": "HINDI_002133",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 20,
+          "prompt_text": "‘अवज्ञा’ शब्द व्यवहार के किस अर्थ को व्यक्त करता है?"
+        },
+        {
+          "activation": 0.5097021460533142,
+          "prompt_id": "HINDI_001170",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 26,
+          "prompt_text": "‘कठोर’ और ‘सख्त’ का अर्थ नियम तथा पदार्थ के संदर्भ में तुलना करें।"
+        },
+        {
+          "activation": 0.49950549006462097,
+          "prompt_id": "HINDI_000073",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 17,
+          "prompt_text": "Sandarbh mein 'woh' aur 've' ka prayog vyakti-vachan aur aadar ko kaise darshata hai?"
+        },
+        {
+          "activation": 0.4992099702358246,
+          "prompt_id": "EMOTIONS_001867",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 4,
+          "prompt_text": "Contrast expressing uncertainty candidly (\"I don't know the answer yet, and I'll find out by tomorrow\") with masking uncertainty behind defensive jargon."
+        },
+        {
+          "activation": 0.4910518527030945,
+          "prompt_id": "HINDI_000750",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 57,
+          "prompt_text": "\"राम ने रावण को बाण से मारा।\" इस वाक्य में कर्ता, कर्म और करण कारक के परसर्गों की उपस्थिति और क्रिया के लिंग-वचन पर उनके प्रभाव को स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 0.47566887736320496,
+          "prompt_id": "SCIENCE_001263",
+          "domain": "SCIENCE",
+          "subdomain": "Nanotechnology",
+          "token_position": 15,
+          "prompt_text": "Contrast a nanoscale sensor detects low concentration with surface area changes catalytic activity, focusing on the shared scientific basis and the key distinction that determines their behavior. While accounting for measurement uncertainty and possible confounding factors."
+        },
+        {
+          "activation": 0.4693829119205475,
+          "prompt_id": "SCIENCE_003144",
+          "domain": "SCIENCE",
+          "subdomain": "Ecology",
+          "token_position": 11,
+          "prompt_text": "An engineer or practitioner must respond to pollinator abundance changes plant reproduction. Recommend an approach informed by Ecology, including one risk and one validation step. With attention to the distinction between an ideal model and real observations."
+        },
+        {
+          "activation": 0.456197053194046,
+          "prompt_id": "SCIENCE_004962",
+          "domain": "SCIENCE",
+          "subdomain": "Nanotechnology",
+          "token_position": 10,
+          "prompt_text": "A dataset or observation indicates surface area changes catalytic activity. Explain the inference using Nanotechnology, note a possible confounder, and suggest how to control it. With a focus on causal mechanisms rather than descriptive labels."
+        },
+        {
+          "activation": 0.44214189052581787,
+          "prompt_id": "SCIENCE_001225",
+          "domain": "SCIENCE",
+          "subdomain": "Atmospheric science",
+          "token_position": 12,
+          "prompt_text": "Distinguish precipitation forms in a cloud from a greenhouse gas changes radiative balance by identifying how each predicts an outcome when a relevant variable is changed. And identify the assumptions needed for the interpretation to hold."
+        },
+        {
+          "activation": 0.4417780041694641,
+          "prompt_id": "HINDI_000291",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 36,
+          "prompt_text": "यहाँ वक्ता की सामाजिक भूमिका और संबंध साझा ज्ञान की व्याख्या को कैसे प्रभावित करते हैं? बातचीत का संदर्भ: एक व्यक्ति निमंत्रण के उत्तर में कहता है, “कोशिश करूँगा।”"
+        },
+        {
+          "activation": 0.44068294763565063,
+          "prompt_id": "SCIENCE_003975",
+          "domain": "SCIENCE",
+          "subdomain": "Astrophysics",
+          "token_position": 9,
+          "prompt_text": "Design a practical approach to address stellar fusion changes energy output using principles of Astrophysics. Include constraints and a measurable success criterion. Considering the relevant conservation laws and measurable variables."
+        }
+      ]
+    },
+    "836": {
+      "activation_frequency": 0.017684756209563852,
+      "n_firing_tokens_in_validation": 1733,
+      "domain_distribution_of_firing_tokens": {
+        "DNA": 159,
+        "EMOTIONS": 847,
+        "GANDHI": 35,
+        "HINDI": 523,
+        "SCIENCE": 169
+      },
+      "top_activating_examples": [
+        {
+          "activation": 1.7904466390609741,
+          "prompt_id": "EMOTIONS_000480",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 6,
+          "prompt_text": "A child leaves a note for her parents: \"Sorry I broke the vase. I love you.\" How does adding \"I love you\" affect the way the apology comes across?"
+        },
+        {
+          "activation": 1.6807087659835815,
+          "prompt_id": "EMOTIONS_000793",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 7,
+          "prompt_text": "A runner crosses the finish line of her first marathon, bends over with her hands on her knees gasping for air, and breaks into a wide grin while tears run down her cheeks. What combination of physical and emotional signals is occurring?"
+        },
+        {
+          "activation": 1.5544875860214233,
+          "prompt_id": "EMOTIONS_000953",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 8,
+          "prompt_text": "When a coworker stays quiet and keeps her arms crossed during a brainstorming session, a colleague initially assumes she is angry, but asks gently afterward and learns she was concentrating on taking detailed notes while fighting a headache. What lesson about interpreting behavior does this illustrate?"
+        },
+        {
+          "activation": 1.5511099100112915,
+          "prompt_id": "EMOTIONS_000667",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 9,
+          "prompt_text": "In a novel, a character refuses help from her neighbors after a flood, insisting she can manage on her own. What might her refusal reveal about pride and other social emotions?"
+        },
+        {
+          "activation": 1.52885901927948,
+          "prompt_id": "EMOTIONS_000509",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 4,
+          "prompt_text": "A student writes in her journal, \"Today was... a day.\" How does the vague wording express emotion while withholding detail?"
+        },
+        {
+          "activation": 1.487256407737732,
+          "prompt_id": "EMOTIONS_000678",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 3,
+          "prompt_text": "While packing up his childhood bedroom, David finds an old board game he used to play with his grandfather and smiles softly while feeling a pang of longing for those afternoons. Which emotion is evoked by this object?"
+        },
+        {
+          "activation": 1.4740246534347534,
+          "prompt_id": "EMOTIONS_000430",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 9,
+          "prompt_text": "A coworker leaves a meeting abruptly right after her idea is rejected. What are plausible emotional interpretations, and what non-emotional explanations exist?"
+        },
+        {
+          "activation": 1.4216786623001099,
+          "prompt_id": "EMOTIONS_000703",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 3,
+          "prompt_text": "After hearing that her flight was canceled due to severe weather outside anyone's control, Evelyn feels let down about missing the first day of her vacation, though she does not blame the airline staff. Why is disappointment more accurate than anger here?"
+        },
+        {
+          "activation": 1.420418381690979,
+          "prompt_id": "EMOTIONS_000389",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 7,
+          "prompt_text": "A teenager is caught lying, and her parents respond with quiet disappointment rather than anger. Why might this produce more shame than shouting would?"
+        },
+        {
+          "activation": 1.3941770792007446,
+          "prompt_id": "EMOTIONS_000642",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 3,
+          "prompt_text": "A child sees his mother crying and asks, \"Are you sad because of me?\" What does the question reveal about how children reason about others' emotions?"
+        },
+        {
+          "activation": 1.3889328241348267,
+          "prompt_id": "EMOTIONS_000689",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 4,
+          "prompt_text": "On the night before his first international flight alone, Omar lies awake checking his passport and boarding pass repeatedly while imagining missed connections. Which emotion best describes his anticipatory state?"
+        },
+        {
+          "activation": 1.376663327217102,
+          "prompt_id": "EMOTIONS_000841",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 24,
+          "prompt_text": "In a novel, a character packs a suitcase by folding each shirt with slow, deliberate precision while giving one-word answers to her partner. How does describing physical pacing communicate emotional restraint in narrative prose?"
+        },
+        {
+          "activation": 1.3389559984207153,
+          "prompt_id": "EMOTIONS_000884",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 29,
+          "prompt_text": "After an emergency room nurse finishes a chaotic twelve-hour shift, she spends fifteen minutes sitting quietly in her parked car listening to instrumental music before walking into her house. What function does this transition ritual serve?"
+        },
+        {
+          "activation": 1.320519208908081,
+          "prompt_id": "EMOTIONS_000805",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 21,
+          "prompt_text": "In a video conference, Marcus says, \"That's an interesting approach,\" while leaning back, slowly rubbing his chin, and pausing for three seconds before continuing. How do his nonverbal timing and vocal pacing shape the message received by the presenter?"
+        },
+        {
+          "activation": 1.2941399812698364,
+          "prompt_id": "EMOTIONS_000637",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 10,
+          "prompt_text": "On a train, a grandmother proudly shows photos of her grandchild to strangers. Some smile; others look away. What does this suggest about social norms surrounding the expression of pride?"
+        },
+        {
+          "activation": 1.2619980573654175,
+          "prompt_id": "EMOTIONS_000884",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 19,
+          "prompt_text": "After an emergency room nurse finishes a chaotic twelve-hour shift, she spends fifteen minutes sitting quietly in her parked car listening to instrumental music before walking into her house. What function does this transition ritual serve?"
+        },
+        {
+          "activation": 1.2478660345077515,
+          "prompt_id": "EMOTIONS_004619",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 13,
+          "prompt_text": "A fan who has never played professionally says \"We won!\" after her national team's victory. Using social identity theory, reason about why her pride feels personal and what it says about her sense of belonging."
+        },
+        {
+          "activation": 1.2086795568466187,
+          "prompt_id": "EMOTIONS_003609",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 12,
+          "prompt_text": "Write a short message to a friend who did not get into their first-choice university, expressing empathy."
+        },
+        {
+          "activation": 1.1809674501419067,
+          "prompt_id": "EMOTIONS_000793",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 14,
+          "prompt_text": "A runner crosses the finish line of her first marathon, bends over with her hands on her knees gasping for air, and breaks into a wide grin while tears run down her cheeks. What combination of physical and emotional signals is occurring?"
+        },
+        {
+          "activation": 1.167744517326355,
+          "prompt_id": "EMOTIONS_003599",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 11,
+          "prompt_text": "A tenant feels angry and helpless about a decision made by their landlord. Suggest coping strategies, including practical actions they could take."
+        }
+      ]
+    },
+    "978": {
+      "activation_frequency": 0.057809661816029555,
+      "n_firing_tokens_in_validation": 5665,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 2737,
+        "DNA": 212,
+        "GANDHI": 296,
+        "HINDI": 1952,
+        "SCIENCE": 468
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.6012542843818665,
+          "prompt_id": "EMOTIONS_001899",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 9,
+          "prompt_text": "Contrast constructive anger regulation (pausing, identifying the violated boundary, and addressing it calmly) with cathartic venting (shouting or hitting objects to \"let it out\")."
+        },
+        {
+          "activation": 0.5628536343574524,
+          "prompt_id": "EMOTIONS_004205",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 18,
+          "prompt_text": "Consider this emotional regulation situation: A friend feels hurt by a delayed reply and begins imagining negative explanations. Reason through likely consequences of different responses and the trade-offs involved. Make the reasoning explicit and distinguish immediate relief from longer-term effects."
+        },
+        {
+          "activation": 0.5531915426254272,
+          "prompt_id": "EMOTIONS_004893",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 10,
+          "prompt_text": "How does breaking an overwhelming, anxiety-inducing goal into small, immediate actions restore a sense of agency and reduce emotional paralysis?"
+        },
+        {
+          "activation": 0.5488185286521912,
+          "prompt_id": "EMOTIONS_001587",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 5,
+          "prompt_text": "Compare reframing a failure as a learning experience with blaming it entirely on external factors."
+        },
+        {
+          "activation": 0.5021733641624451,
+          "prompt_id": "EMOTIONS_004810",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 9,
+          "prompt_text": "In workplace communication, why does framing frustration around specific workflow impacts (\"When deadlines shift without notice, testing gets compressed\") elicit more constructive dialogue than global accusations?"
+        },
+        {
+          "activation": 0.49353471398353577,
+          "prompt_id": "EMOTIONS_004205",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 16,
+          "prompt_text": "Consider this emotional regulation situation: A friend feels hurt by a delayed reply and begins imagining negative explanations. Reason through likely consequences of different responses and the trade-offs involved. Make the reasoning explicit and distinguish immediate relief from longer-term effects."
+        },
+        {
+          "activation": 0.48763933777809143,
+          "prompt_id": "EMOTIONS_004892",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 13,
+          "prompt_text": "Why can humor serve as an effective coping tool when used to share perspective on a stressor, yet become maladaptive when used exclusively to deflect serious interpersonal issues?"
+        },
+        {
+          "activation": 0.48360738158226013,
+          "prompt_id": "EMOTIONS_002377",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 19,
+          "prompt_text": "What is \"affect labeling,\" and what has research suggested about the effect of putting feelings into words?"
+        },
+        {
+          "activation": 0.4834425747394562,
+          "prompt_id": "EMOTIONS_004964",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 16,
+          "prompt_text": "How does vicarious embarrassment demonstrate that social emotions rely on simulating another person's perspective even when one is not personally at fault?"
+        },
+        {
+          "activation": 0.4830569326877594,
+          "prompt_id": "EMOTIONS_004810",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 8,
+          "prompt_text": "In workplace communication, why does framing frustration around specific workflow impacts (\"When deadlines shift without notice, testing gets compressed\") elicit more constructive dialogue than global accusations?"
+        },
+        {
+          "activation": 0.45920830965042114,
+          "prompt_id": "EMOTIONS_004765",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 8,
+          "prompt_text": "How does identifying whether a threat is immediate or uncertain help an observer differentiate fear from anxiety in a speaker's descriptions?"
+        },
+        {
+          "activation": 0.457948237657547,
+          "prompt_id": "EMOTIONS_004908",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 15,
+          "prompt_text": "Why can sensory grounding techniques (such as cold water on the face or focusing on tactile textures) succeed when verbal reasoning temporarily fails during acute overwhelm?"
+        },
+        {
+          "activation": 0.45303478837013245,
+          "prompt_id": "EMOTIONS_004923",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 19,
+          "prompt_text": "How can perfectionistic standards turn minor everyday mistakes into intense shame triggers, and how does flexible reappraisal soften that reaction?"
+        },
+        {
+          "activation": 0.44770148396492004,
+          "prompt_id": "EMOTIONS_003682",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 17,
+          "prompt_text": "In parenting and early childhood education, how does labeling a child's feelings—such as distinguishing frustration from anger—support emotional regulation?"
+        },
+        {
+          "activation": 0.4456333816051483,
+          "prompt_id": "EMOTIONS_004893",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 11,
+          "prompt_text": "How does breaking an overwhelming, anxiety-inducing goal into small, immediate actions restore a sense of agency and reduce emotional paralysis?"
+        },
+        {
+          "activation": 0.4333213269710541,
+          "prompt_id": "EMOTIONS_002377",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 18,
+          "prompt_text": "What is \"affect labeling,\" and what has research suggested about the effect of putting feelings into words?"
+        },
+        {
+          "activation": 0.4329570233821869,
+          "prompt_id": "EMOTIONS_003876",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 16,
+          "prompt_text": "How can parents and caregivers use emotional scaffolding—modeling calm breathing and affect labeling—to help young children build independent self-regulation skills?"
+        },
+        {
+          "activation": 0.4303595721721649,
+          "prompt_id": "EMOTIONS_003682",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 19,
+          "prompt_text": "In parenting and early childhood education, how does labeling a child's feelings—such as distinguishing frustration from anger—support emotional regulation?"
+        },
+        {
+          "activation": 0.4279402792453766,
+          "prompt_id": "EMOTIONS_001899",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 10,
+          "prompt_text": "Contrast constructive anger regulation (pausing, identifying the violated boundary, and addressing it calmly) with cathartic venting (shouting or hitting objects to \"let it out\")."
+        },
+        {
+          "activation": 0.425341933965683,
+          "prompt_id": "EMOTIONS_001301",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 9,
+          "prompt_text": "Scenario: A friend interprets a delayed response as evidence of rejection. Task: Compare two possible interpretations or responses and explain how context could favor either. Do not infer a person's internal state with certainty from a single behavior; state relevant uncertainty and avoid stereotypes."
+        }
+      ]
+    },
+    "1055": {
+      "activation_frequency": 0.05883013245708921,
+      "n_firing_tokens_in_validation": 5765,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 1430,
+        "DNA": 1341,
+        "GANDHI": 429,
+        "HINDI": 1740,
+        "SCIENCE": 825
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.4484798312187195,
+          "prompt_id": "EMOTIONS_000399",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 12,
+          "prompt_text": "In a team meeting, Ananya answers every question with \"Sure, whatever works.\" Earlier that morning she had argued against the plan. What emotions might her responses suggest, and which alternative interpretations should remain open?"
+        },
+        {
+          "activation": 0.3905152678489685,
+          "prompt_id": "EMOTIONS_001899",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 6,
+          "prompt_text": "Contrast constructive anger regulation (pausing, identifying the violated boundary, and addressing it calmly) with cathartic venting (shouting or hitting objects to \"let it out\")."
+        },
+        {
+          "activation": 0.37671443819999695,
+          "prompt_id": "DNA_000364",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 11,
+          "prompt_text": "How does the 40S subunit scan a eukaryotic mRNA to locate an initiation codon?"
+        },
+        {
+          "activation": 0.37447819113731384,
+          "prompt_id": "HINDI_002723",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 55,
+          "prompt_text": "'किंवदंती' शब्द का क्या अर्थ है, और इसे English में किस एक शब्द या phrase से समझाया जा सकता है?"
+        },
+        {
+          "activation": 0.366382896900177,
+          "prompt_id": "HINDI_000232",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 2,
+          "prompt_text": "die gae udaharana 'jaba varsha hui taba hama ghara laute' men padabndha ki snrachana kisa prakara vakya ki snrachana ko prabhavita karata hai?"
+        },
+        {
+          "activation": 0.36461079120635986,
+          "prompt_id": "EMOTIONS_003984",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 7,
+          "prompt_text": "In crisis-response teams, how do peer debriefings and shared rituals help responders process moral distress and sustain mutual trust?"
+        },
+        {
+          "activation": 0.35929930210113525,
+          "prompt_id": "GANDHI_001948",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Constructive programme",
+          "token_position": 4,
+          "prompt_text": "How does Constructive programme differ from Accountability regarding documentary evidence? Explain why the distinction matters historically."
+        },
+        {
+          "activation": 0.3485218286514282,
+          "prompt_id": "DNA_002213",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 13,
+          "prompt_text": "Why do consanguineous matings significantly increase the incidence of rare autosomal recessive phenotypes in human pedigrees?"
+        },
+        {
+          "activation": 0.34222880005836487,
+          "prompt_id": "EMOTIONS_000805",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 25,
+          "prompt_text": "In a video conference, Marcus says, \"That's an interesting approach,\" while leaning back, slowly rubbing his chin, and pausing for three seconds before continuing. How do his nonverbal timing and vocal pacing shape the message received by the presenter?"
+        },
+        {
+          "activation": 0.338029682636261,
+          "prompt_id": "DNA_000928",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 8,
+          "prompt_text": "How does T7 DNA polymerase use thioredoxin as a processivity factor?"
+        },
+        {
+          "activation": 0.3329041600227356,
+          "prompt_id": "DNA_002683",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 12,
+          "prompt_text": "How do exon definition and intron definition differ as models of splice site recognition?"
+        },
+        {
+          "activation": 0.3296470046043396,
+          "prompt_id": "HINDI_003852",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 36,
+          "prompt_text": "Baatcheet: Maa: \"Khana kha lo, thanda ho raha hai.\" Beta: \"Bas paanch minute mein aaya.\" Yahan 'paanch minute' ka vyavaharik arth kya hai—theek 300 second ya thodi der mein?"
+        },
+        {
+          "activation": 0.3261427581310272,
+          "prompt_id": "SCIENCE_001542",
+          "domain": "SCIENCE",
+          "subdomain": "Biotechnology",
+          "token_position": 18,
+          "prompt_text": "Contrast a fermentation process scales from flask to bioreactor with an enzyme immobilization improves reuse, focusing on the shared scientific basis and the key distinction that determines their behavior. And identify the assumptions needed for the interpretation to hold."
+        },
+        {
+          "activation": 0.3202623426914215,
+          "prompt_id": "HINDI_000414",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 3,
+          "prompt_text": "'Mujhe jaana hai' vakya mein 'mujhe' aur 'jaana hai' ke beech kya vyakaranik sambandh hai?"
+        },
+        {
+          "activation": 0.3187205493450165,
+          "prompt_id": "DNA_004031",
+          "domain": "DNA",
+          "subdomain": "Structure",
+          "token_position": 16,
+          "prompt_text": "What is a wobble base pair, and how does a G-T wobble pair distort the local sugar-phosphate backbone?"
+        },
+        {
+          "activation": 0.3180121183395386,
+          "prompt_id": "SCIENCE_001564",
+          "domain": "SCIENCE",
+          "subdomain": "Oceanography",
+          "token_position": 6,
+          "prompt_text": "Distinguish a coral reef experiences bleaching from marine particles sink and export carbon by identifying how each predicts an outcome when a relevant variable is changed. Including how the system's boundary conditions influence the outcome."
+        },
+        {
+          "activation": 0.31724417209625244,
+          "prompt_id": "EMOTIONS_000432",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 27,
+          "prompt_text": "When you announce your engagement, a friend says \"Oh! When did this happen?\" and pauses before congratulating you. What might the pause signal?"
+        },
+        {
+          "activation": 0.3107718825340271,
+          "prompt_id": "DNA_001778",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 9,
+          "prompt_text": "How do cellular ribonucleotide levels and rNTP incorporation affect the torsional properties and fragility of newly unwound DNA behind the fork?"
+        },
+        {
+          "activation": 0.3071650266647339,
+          "prompt_id": "DNA_001198",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 21,
+          "prompt_text": "How do antibiotics such as chloramphenicol, tetracycline, erythromycin, and puromycin inhibit elongation?"
+        },
+        {
+          "activation": 0.30685606598854065,
+          "prompt_id": "DNA_001787",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 28,
+          "prompt_text": "How does the AAA+ ATPase clamp loader complex (gamma/tau complex in E. coli; Replication Factor C [RFC] in eukaryotes) recognize a 3' primer-template junction?"
+        }
+      ]
+    },
+    "1065": {
+      "activation_frequency": 0.05762597710063881,
+      "n_firing_tokens_in_validation": 5647,
+      "domain_distribution_of_firing_tokens": {
+        "DNA": 552,
+        "EMOTIONS": 799,
+        "GANDHI": 220,
+        "HINDI": 3058,
+        "SCIENCE": 1018
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.45641010999679565,
+          "prompt_id": "HINDI_004335",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 28,
+          "prompt_text": "'Rail' aur 'gaadi' se bane 'railgaadi' jaise shabdon ko dekhkar mishrit shabd banane ke bare mein kya nishkarsh nikalta hai?"
+        },
+        {
+          "activation": 0.4301798939704895,
+          "prompt_id": "HINDI_000248",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 66,
+          "prompt_text": "दिए गए example 'वह गाना गाकर बाहर चला गया' में कारक चिह्न और भूमिका किस प्रकार sentence structure को प्रभावित करता है?"
+        },
+        {
+          "activation": 0.40726691484451294,
+          "prompt_id": "HINDI_000874",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 73,
+          "prompt_text": "वाक्य 'उसने हंसते-हंसते सारी बात कह डाली।' में 'हंसते-हंसते' और 'कह डाली' की वाक्यगत संरचनात्मक भूमिका स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 0.39146918058395386,
+          "prompt_id": "HINDI_001865",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 21,
+          "prompt_text": "'विवाद' aur 'संवाद' shabdon ke meanings mein interaction ke nature ka kya difference hai?"
+        },
+        {
+          "activation": 0.38595277070999146,
+          "prompt_id": "HINDI_000832",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 78,
+          "prompt_text": "वाक्य: \"कठिन समय में ही इंसान के असली सोने की परख होती है।\" इस वाक्य में 'असली सोना' किस मानवीय गुण का रूपक है?"
+        },
+        {
+          "activation": 0.3823831081390381,
+          "prompt_id": "HINDI_004820",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 70,
+          "prompt_text": "वाक्य: \"उसने मुझे हँसते हुए देखा।\" इस वाक्य के दो अलग-अलग अर्थ कौन-कौन हँस रहा था—के आधार पर स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 0.3760432004928589,
+          "prompt_id": "HINDI_002520",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 40,
+          "prompt_text": "\"मीठी बोली\" और \"मीठा दर्द\" में \"मीठा\" का स्वाद से अलग अर्थ किस प्रकार के इंद्रिय-अर्थ-अंतरण का उदाहरण है?"
+        },
+        {
+          "activation": 0.36583438515663147,
+          "prompt_id": "HINDI_000829",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 71,
+          "prompt_text": "वाक्य: \"उसने अपनी सारी जमा-पूँजी एक डूबते हुए जहाज़ में लगा दी।\" व्यापारिक संदर्भ में 'डूबता हुआ जहाज़' किसे कहा गया है?"
+        },
+        {
+          "activation": 0.36578816175460815,
+          "prompt_id": "HINDI_004820",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 71,
+          "prompt_text": "वाक्य: \"उसने मुझे हँसते हुए देखा।\" इस वाक्य के दो अलग-अलग अर्थ कौन-कौन हँस रहा था—के आधार पर स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 0.3634585738182068,
+          "prompt_id": "HINDI_003947",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 47,
+          "prompt_text": "एक विद्यालय के प्रधानाचार्य द्वारा अभिभावकों को बच्चे की कम उपस्थिति के बारे में सूचित करने वाले पत्र में किस प्रकार का औपचारिक और सहयोगात्मक लहजा होना चाहिए?"
+        },
+        {
+          "activation": 0.3606756925582886,
+          "prompt_id": "HINDI_004820",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 77,
+          "prompt_text": "वाक्य: \"उसने मुझे हँसते हुए देखा।\" इस वाक्य के दो अलग-अलग अर्थ कौन-कौन हँस रहा था—के आधार पर स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 0.3520857095718384,
+          "prompt_id": "HINDI_004880",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 119,
+          "prompt_text": "वाक्य 'कल जो लड़का आया था, उसने यह पत्र दिया।' को यदि 'उसने यह पत्र दिया जो लड़का कल आया था।' के रूप में लिखा जाए, तो यह वाक्य-संरचनात्मक दृष्टि से असहज या अस्वीकार्य क्यों माना जाता है?"
+        },
+        {
+          "activation": 0.350227952003479,
+          "prompt_id": "HINDI_004974",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 72,
+          "prompt_text": "किसी औपचारिक सभा में मुख्य अतिथि के आगमन पर 'कृपया अपना स्थान ग्रहण करें' कहना 'बैठ जाइए' कहने की तुलना में वातावरण की गरिमा को कैसे बढ़ाता है?"
+        },
+        {
+          "activation": 0.3473893702030182,
+          "prompt_id": "SCIENCE_001228",
+          "domain": "SCIENCE",
+          "subdomain": "Atmospheric science",
+          "token_position": 11,
+          "prompt_text": "Contrast a lightning discharge occurs in a storm with a storm intensifies over warm ocean water, focusing on the shared scientific basis and the key distinction that determines their behavior. With a focus on causal mechanisms rather than descriptive labels."
+        },
+        {
+          "activation": 0.34482598304748535,
+          "prompt_id": "HINDI_004813",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 70,
+          "prompt_text": "कथन: \"राजेश ने सोचा कि उसकी ट्रेन छूट गई है।\" पिछले वाक्य की तुलना में यहाँ ट्रेन छूटने की घटना की सत्यता के बारे में क्या निश्चित रूप से कहा जा सकता है?"
+        },
+        {
+          "activation": 0.34403449296951294,
+          "prompt_id": "HINDI_004820",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 74,
+          "prompt_text": "वाक्य: \"उसने मुझे हँसते हुए देखा।\" इस वाक्य के दो अलग-अलग अर्थ कौन-कौन हँस रहा था—के आधार पर स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 0.34361088275909424,
+          "prompt_id": "HINDI_001080",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 36,
+          "prompt_text": "'मैं meeting में था' और 'मैं meeting पर था' में postposition choice से location/participation का अर्थ कैसे बदलता है?"
+        },
+        {
+          "activation": 0.3435419797897339,
+          "prompt_id": "HINDI_003263",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 54,
+          "prompt_text": "इस परिस्थिति में उचित हिंदी प्रतिक्रिया तैयार करने के लिए संवाद का आरंभ और समापन का ध्यान कैसे रखेंगे? उदाहरण: किसी अधिकारी से अनुरोध करते समय कर्मचारी नरम भाषा चुनता है।"
+        },
+        {
+          "activation": 0.3410158157348633,
+          "prompt_id": "SCIENCE_001602",
+          "domain": "SCIENCE",
+          "subdomain": "Materials science",
+          "token_position": 14,
+          "prompt_text": "Contrast a ceramic cracks under thermal shock with a material fracture surface reveals failure mode, focusing on the shared scientific basis and the key distinction that determines their behavior. And identify the assumptions needed for the interpretation to hold."
+        },
+        {
+          "activation": 0.34011322259902954,
+          "prompt_id": "SCIENCE_000610",
+          "domain": "SCIENCE",
+          "subdomain": "Materials science",
+          "token_position": 7,
+          "prompt_text": "Researchers encounter a material fracture surface reveals failure mode. Analyze the context through Materials science, including the likely boundary conditions and limitations of the explanation. While accounting for measurement uncertainty and possible confounding factors."
+        }
+      ]
+    },
+    "1384": {
+      "activation_frequency": 0.01777659856725922,
+      "n_firing_tokens_in_validation": 1742,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 391,
+        "DNA": 207,
+        "GANDHI": 274,
+        "HINDI": 607,
+        "SCIENCE": 263
+      },
+      "top_activating_examples": [
+        {
+          "activation": 1.4790854454040527,
+          "prompt_id": "GANDHI_004236",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Quit India",
+          "token_position": 14,
+          "prompt_text": "If a key condition in Quit India had differed, what plausible consequences might follow for political context? Distinguish evidence-based inference from speculation."
+        },
+        {
+          "activation": 1.426005482673645,
+          "prompt_id": "GANDHI_004186",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — 1922 trial",
+          "token_position": 18,
+          "prompt_text": "If a key condition in 1922 trial had differed, what plausible consequences might follow for political context? Distinguish evidence-based inference from speculation."
+        },
+        {
+          "activation": 1.4024399518966675,
+          "prompt_id": "GANDHI_004238",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Mahadev Desai",
+          "token_position": 17,
+          "prompt_text": "If a key condition in Mahadev Desai had differed, what plausible consequences might follow for political context? Distinguish evidence-based inference from speculation."
+        },
+        {
+          "activation": 1.4008859395980835,
+          "prompt_id": "GANDHI_004187",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Autobiography",
+          "token_position": 15,
+          "prompt_text": "If a key condition in Autobiography had differed, what plausible consequences might follow for political context? Distinguish evidence-based inference from speculation."
+        },
+        {
+          "activation": 1.4008351564407349,
+          "prompt_id": "GANDHI_004206",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Health writings",
+          "token_position": 14,
+          "prompt_text": "If a key condition in Health writings had differed, what plausible consequences might follow for political context? Distinguish evidence-based inference from speculation."
+        },
+        {
+          "activation": 1.3977084159851074,
+          "prompt_id": "GANDHI_004292",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Legacy in India",
+          "token_position": 15,
+          "prompt_text": "If a key condition in Legacy in India had differed, what plausible consequences might follow for political context? Distinguish evidence-based inference from speculation."
+        },
+        {
+          "activation": 1.3818618059158325,
+          "prompt_id": "GANDHI_004165",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — South African satyagraha",
+          "token_position": 18,
+          "prompt_text": "If a key condition in South African satyagraha had differed, what plausible consequences might follow for political context? Distinguish evidence-based inference from speculation."
+        },
+        {
+          "activation": 1.3752617835998535,
+          "prompt_id": "GANDHI_004259",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Historiography",
+          "token_position": 15,
+          "prompt_text": "If a key condition in Historiography had differed, what plausible consequences might follow for political context? Distinguish evidence-based inference from speculation."
+        },
+        {
+          "activation": 1.3733664751052856,
+          "prompt_id": "GANDHI_004215",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Gokhale",
+          "token_position": 16,
+          "prompt_text": "If a key condition in Gokhale had differed, what plausible consequences might follow for political context? Distinguish evidence-based inference from speculation."
+        },
+        {
+          "activation": 1.3602148294448853,
+          "prompt_id": "GANDHI_004227",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Dandi",
+          "token_position": 14,
+          "prompt_text": "If a key condition in Dandi had differed, what plausible consequences might follow for political context? Distinguish evidence-based inference from speculation."
+        },
+        {
+          "activation": 1.3551727533340454,
+          "prompt_id": "GANDHI_004280",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Political outcomes",
+          "token_position": 14,
+          "prompt_text": "If a key condition in Political outcomes had differed, what plausible consequences might follow for political context? Distinguish evidence-based inference from speculation."
+        },
+        {
+          "activation": 1.3487229347229004,
+          "prompt_id": "GANDHI_004184",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Foreign cloth boycott",
+          "token_position": 15,
+          "prompt_text": "If a key condition in Foreign cloth boycott had differed, what plausible consequences might follow for political context? Distinguish evidence-based inference from speculation."
+        },
+        {
+          "activation": 1.3443759679794312,
+          "prompt_id": "GANDHI_004299",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Self-presentation",
+          "token_position": 15,
+          "prompt_text": "If a key condition in Self-presentation had differed, what plausible consequences might follow for political context? Distinguish evidence-based inference from speculation."
+        },
+        {
+          "activation": 1.3414326906204224,
+          "prompt_id": "GANDHI_004152",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Porbandar and childhood",
+          "token_position": 17,
+          "prompt_text": "If a key condition in Porbandar and childhood had differed, what plausible consequences might follow for political context? Distinguish evidence-based inference from speculation."
+        },
+        {
+          "activation": 1.3414326906204224,
+          "prompt_id": "GANDHI_004907",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Porbandar and childhood",
+          "token_position": 17,
+          "prompt_text": "If a key condition in Porbandar and childhood had differed, what plausible consequences might follow for documentary evidence? Distinguish evidence-based inference from speculation."
+        },
+        {
+          "activation": 1.3337312936782837,
+          "prompt_id": "GANDHI_004957",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Wardha scheme",
+          "token_position": 15,
+          "prompt_text": "If a key condition in Wardha scheme had differed, what plausible consequences might follow for documentary evidence? Distinguish evidence-based inference from speculation."
+        },
+        {
+          "activation": 1.3285824060440063,
+          "prompt_id": "GANDHI_004300",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Public rituals",
+          "token_position": 14,
+          "prompt_text": "If a key condition in Public rituals had differed, what plausible consequences might follow for political context? Distinguish evidence-based inference from speculation."
+        },
+        {
+          "activation": 1.31890869140625,
+          "prompt_id": "GANDHI_004206",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Health writings",
+          "token_position": 15,
+          "prompt_text": "If a key condition in Health writings had differed, what plausible consequences might follow for political context? Distinguish evidence-based inference from speculation."
+        },
+        {
+          "activation": 1.3186768293380737,
+          "prompt_id": "GANDHI_004247",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Assassination",
+          "token_position": 14,
+          "prompt_text": "If a key condition in Assassination had differed, what plausible consequences might follow for political context? Distinguish evidence-based inference from speculation."
+        },
+        {
+          "activation": 1.3062677383422852,
+          "prompt_id": "GANDHI_004186",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — 1922 trial",
+          "token_position": 19,
+          "prompt_text": "If a key condition in 1922 trial had differed, what plausible consequences might follow for political context? Distinguish evidence-based inference from speculation."
+        }
+      ]
+    },
+    "1692": {
+      "activation_frequency": 0.017735779741616834,
+      "n_firing_tokens_in_validation": 1738,
+      "domain_distribution_of_firing_tokens": {
+        "DNA": 132,
+        "EMOTIONS": 195,
+        "HINDI": 1289,
+        "GANDHI": 31,
+        "SCIENCE": 91
+      },
+      "top_activating_examples": [
+        {
+          "activation": 1.6007723808288574,
+          "prompt_id": "HINDI_003197",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 52,
+          "prompt_text": "हिंदी पाठ संपादन में निषेध संरचना की त्रुटि पहचानने के लिए एक जाँच-नियम बनाइए और उदाहरण दीजिए।"
+        },
+        {
+          "activation": 1.566282868385315,
+          "prompt_id": "HINDI_003478",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 17,
+          "prompt_text": "हिंदी व्याकरण के एक ऑनलाइन पाठ्यक्रम के अंतिम मॉड्यूल के लिए 10 प्रश्नों का मिश्रित पुनरावृत्ति-प्रश्नपत्र बनाइए, जिसमें कारक, वाच्य, समास, संधि और अन्वय — सभी से प्रश्न हों।"
+        },
+        {
+          "activation": 1.5571486949920654,
+          "prompt_id": "HINDI_003437",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 12,
+          "prompt_text": "विज्ञापन की एक पंक्ति लिखनी है जिसमें \"ही\", \"भी\" और \"तो\" जैसे निपातों का उपयोग असर पैदा करे। इनके व्याकरणिक उपयोग को ध्यान में रखते हुए तीन उदाहरण-पंक्तियाँ बनाइए।"
+        },
+        {
+          "activation": 1.4778826236724854,
+          "prompt_id": "HINDI_003008",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 51,
+          "prompt_text": "किसी पुस्तक की समीक्षा में ‘प्रभावशाली’ शब्द का प्रयोग करके एक वाक्य बनाइए।"
+        },
+        {
+          "activation": 1.4700933694839478,
+          "prompt_id": "HINDI_003651",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 6,
+          "prompt_text": "आपकी एक मित्र के परिवार में किसी का निधन हुआ है। फ़ोन पर संवेदना प्रकट करते समय हिंदी में क्या कहें और क्या न कहें? व्यावहारिक सुझाव दीजिए।"
+        },
+        {
+          "activation": 1.4660923480987549,
+          "prompt_id": "HINDI_003642",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 107,
+          "prompt_text": "विवाह-समारोह में मंच-संचालक के रूप में अतिथियों को भोजन के लिए आमंत्रित करने और कार्यक्रम का क्रम बताने के लिए हिंदी में एक औपचारिक पर आत्मीय घोषणा लिखिए।"
+        },
+        {
+          "activation": 1.4486243724822998,
+          "prompt_id": "HINDI_000635",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 11,
+          "prompt_text": "मीटिंग में एक नए कर्मचारी के प्रस्ताव पर प्रबंधक ने कहा, \"यह विचार दिलचस्प है, पर शायद अभी इसका सही समय नहीं है।\" इस उत्तर का व्यावहारिक अर्थ क्या है?"
+        },
+        {
+          "activation": 1.4486243724822998,
+          "prompt_id": "HINDI_000663",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 11,
+          "prompt_text": "मीटिंग में एक व्यक्ति बोल रहा था कि दूसरे ने कहा, \"बस एक सेकंड, मैं इसमें एक बात जोड़ना चाहूँगा।\" बारी लेने की इस रणनीति का विश्लेषण कीजिए।"
+        },
+        {
+          "activation": 1.4471054077148438,
+          "prompt_id": "HINDI_004966",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 26,
+          "prompt_text": "दो मित्रों के बीच बातचीत में एक व्यक्ति बिना किसी पूर्व संदर्भ के कहता है, 'वह कल फिर नहीं आया।' यहाँ 'वह' सर्वनाम के अर्थ को समझने के लिए साझा ज्ञान (shared background knowledge) क्यों अनिवार्य है?"
+        },
+        {
+          "activation": 1.4303712844848633,
+          "prompt_id": "HINDI_003252",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 36,
+          "prompt_text": "Hindi parser के लिए कर्तृवाच्य-objectवाच्य identifyने वाला एक सरल rule प्रस्तावित करें और example से जाँचें।"
+        },
+        {
+          "activation": 1.4170498847961426,
+          "prompt_id": "HINDI_002421",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 49,
+          "prompt_text": "हिंदी में संज्ञा के कितने भेद होते हैं? प्रत्येक भेद का एक उदाहरण देते हुए उनके बीच का अंतर बताइए।"
+        },
+        {
+          "activation": 1.4153540134429932,
+          "prompt_id": "HINDI_003637",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 106,
+          "prompt_text": "किसी सरकारी दफ़्तर में अपना रुका हुआ काम जल्दी करवाने के लिए संबंधित कर्मचारी से शिष्ट पर प्रभावी हिंदी में बात करने का एक संवाद लिखिए।"
+        },
+        {
+          "activation": 1.3965167999267578,
+          "prompt_id": "HINDI_002285",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 91,
+          "prompt_text": "इस प्रकार के संवाद में विनम्र अस्वीकृति पहचानने के लिए कौन-से भाषिक संकेत उपयोगी होते हैं? उदाहरण: एक वक्ता कहता है, “फिर वही बात!” और बातचीत में झुंझलाहट दिखाता है।"
+        },
+        {
+          "activation": 1.390998125076294,
+          "prompt_id": "HINDI_003638",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 3,
+          "prompt_text": "Main एक Hindi voice assistant design कर रहा हूँ। User के rude commands, जैसे \"जल्दी बता!\", पर assistant को politely कैसे respond करना चाहिए? Examples दीजिए।"
+        },
+        {
+          "activation": 1.379350185394287,
+          "prompt_id": "HINDI_000287",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 102,
+          "prompt_text": "इस प्रसंग में वक्ता के शब्दों से कौन-सा प्रश्न के पीछे का उद्देश्य प्रकट हो सकता है? संदर्भ के आधार पर समझाइए। उदाहरण: एक विद्यार्थी अपने अध्यापक से कहता है, “क्या आप इसे फिर से समझा देंगे?”"
+        },
+        {
+          "activation": 1.3666894435882568,
+          "prompt_id": "HINDI_002267",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 102,
+          "prompt_text": "इस प्रकार के संवाद में प्रसंग के अनुसार अर्थ-व्याख्या पहचानने के लिए कौन-से भाषिक संकेत उपयोगी होते हैं? उदाहरण: एक मित्र देर से आने पर कहता है, “बस रास्ते में हूँ।”"
+        },
+        {
+          "activation": 1.3626259565353394,
+          "prompt_id": "HINDI_002772",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 78,
+          "prompt_text": "हिंदी में कर्मवाच्य और भाववाच्य की संरचना में 'से' या 'के द्वारा' के प्रयोग तथा क्रिया के एकवचन पुल्लिंग रूप रहने की शर्तें क्या हैं?"
+        },
+        {
+          "activation": 1.3484165668487549,
+          "prompt_id": "HINDI_002051",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 43,
+          "prompt_text": "‘शुचिता’ शब्द का अर्थ बताइए और इसके प्रयोग का एक सामान्य संदर्भ पहचानिए।"
+        },
+        {
+          "activation": 1.345511555671692,
+          "prompt_id": "HINDI_000367",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 15,
+          "prompt_text": "‘सभा में सभी ने एकमत से प्रस्ताव का अनुमोदन किया।’ इस वाक्य में ‘अनुमोदन’ शब्द का क्या अर्थ है?"
+        },
+        {
+          "activation": 1.344464898109436,
+          "prompt_id": "HINDI_002224",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 47,
+          "prompt_text": "सहायक क्रिया क्रम में मुख्य घटक कौन-कौन से होते हैं? एक हिंदी उदाहरण सहित समझाइए।"
+        }
+      ]
+    },
+    "1740": {
+      "activation_frequency": 0.07509643447558013,
+      "n_firing_tokens_in_validation": 7359,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 1728,
+        "DNA": 472,
+        "GANDHI": 179,
+        "HINDI": 4688,
+        "SCIENCE": 292
+      },
+      "top_activating_examples": [
+        {
+          "activation": 1.015262246131897,
+          "prompt_id": "EMOTIONS_000399",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 15,
+          "prompt_text": "In a team meeting, Ananya answers every question with \"Sure, whatever works.\" Earlier that morning she had argued against the plan. What emotions might her responses suggest, and which alternative interpretations should remain open?"
+        },
+        {
+          "activation": 0.9675619602203369,
+          "prompt_id": "EMOTIONS_004533",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 21,
+          "prompt_text": "Why might a chatbot that uses heavily emotional phrases such as \"I'm so sorry you're going through this!\" be perceived as either comforting or hollow?"
+        },
+        {
+          "activation": 0.9654651880264282,
+          "prompt_id": "EMOTIONS_004533",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 20,
+          "prompt_text": "Why might a chatbot that uses heavily emotional phrases such as \"I'm so sorry you're going through this!\" be perceived as either comforting or hollow?"
+        },
+        {
+          "activation": 0.8859245181083679,
+          "prompt_id": "EMOTIONS_000399",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 14,
+          "prompt_text": "In a team meeting, Ananya answers every question with \"Sure, whatever works.\" Earlier that morning she had argued against the plan. What emotions might her responses suggest, and which alternative interpretations should remain open?"
+        },
+        {
+          "activation": 0.865054726600647,
+          "prompt_id": "EMOTIONS_001836",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 22,
+          "prompt_text": "Compare the emotional subtext of using a person's name warmly in conversation (\"I'm really glad you brought that up, Sam\") versus using their name sharply during a reprimand."
+        },
+        {
+          "activation": 0.8544198274612427,
+          "prompt_id": "EMOTIONS_001836",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 21,
+          "prompt_text": "Compare the emotional subtext of using a person's name warmly in conversation (\"I'm really glad you brought that up, Sam\") versus using their name sharply during a reprimand."
+        },
+        {
+          "activation": 0.8349332809448242,
+          "prompt_id": "EMOTIONS_004533",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 17,
+          "prompt_text": "Why might a chatbot that uses heavily emotional phrases such as \"I'm so sorry you're going through this!\" be perceived as either comforting or hollow?"
+        },
+        {
+          "activation": 0.8062447309494019,
+          "prompt_id": "EMOTIONS_001818",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 36,
+          "prompt_text": "Compare the emotional tone of hedged requests (\"I was just wondering if maybe you might have a second...\") versus clear, courteous requests (\"Do you have five minutes to review this section?\")."
+        },
+        {
+          "activation": 0.8050386309623718,
+          "prompt_id": "EMOTIONS_004504",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 23,
+          "prompt_text": "How does \"Thanks, I owe you one\" express a different emotional relationship from \"Thank you so much, this means a lot\"?"
+        },
+        {
+          "activation": 0.8012784719467163,
+          "prompt_id": "EMOTIONS_001818",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 35,
+          "prompt_text": "Compare the emotional tone of hedged requests (\"I was just wondering if maybe you might have a second...\") versus clear, courteous requests (\"Do you have five minutes to review this section?\")."
+        },
+        {
+          "activation": 0.7424299716949463,
+          "prompt_id": "EMOTIONS_001836",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 20,
+          "prompt_text": "Compare the emotional subtext of using a person's name warmly in conversation (\"I'm really glad you brought that up, Sam\") versus using their name sharply during a reprimand."
+        },
+        {
+          "activation": 0.7359095811843872,
+          "prompt_id": "EMOTIONS_001525",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 16,
+          "prompt_text": "Compare sincere praise with a backhanded compliment such as \"You look great for your age.\""
+        },
+        {
+          "activation": 0.7349494695663452,
+          "prompt_id": "EMOTIONS_004533",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 19,
+          "prompt_text": "Why might a chatbot that uses heavily emotional phrases such as \"I'm so sorry you're going through this!\" be perceived as either comforting or hollow?"
+        },
+        {
+          "activation": 0.7275412678718567,
+          "prompt_id": "EMOTIONS_004533",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 18,
+          "prompt_text": "Why might a chatbot that uses heavily emotional phrases such as \"I'm so sorry you're going through this!\" be perceived as either comforting or hollow?"
+        },
+        {
+          "activation": 0.7206121683120728,
+          "prompt_id": "EMOTIONS_001525",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 15,
+          "prompt_text": "Compare sincere praise with a backhanded compliment such as \"You look great for your age.\""
+        },
+        {
+          "activation": 0.719902515411377,
+          "prompt_id": "EMOTIONS_000883",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 45,
+          "prompt_text": "Preparing for a difficult salary negotiation, Jordan rehearses calm responses using an \"if-then\" plan: \"If the manager pushes back on my number, then I will pause, nod, and ask what metrics would justify that tier.\" How does this preparation aid emotional control?"
+        },
+        {
+          "activation": 0.7080793976783752,
+          "prompt_id": "EMOTIONS_001569",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 22,
+          "prompt_text": "Compare the self-talk \"I can't handle this\" with \"This is hard, but I've handled hard things before.\""
+        },
+        {
+          "activation": 0.702940821647644,
+          "prompt_id": "EMOTIONS_004840",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 27,
+          "prompt_text": "Why does pairing an emotional boundary (\"I can't take on extra shifts this week\") with a warm relational affirmation (\"I really value working with this team\") protect rapport?"
+        },
+        {
+          "activation": 0.6766462922096252,
+          "prompt_id": "EMOTIONS_000883",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 43,
+          "prompt_text": "Preparing for a difficult salary negotiation, Jordan rehearses calm responses using an \"if-then\" plan: \"If the manager pushes back on my number, then I will pause, nod, and ask what metrics would justify that tier.\" How does this preparation aid emotional control?"
+        },
+        {
+          "activation": 0.6644563674926758,
+          "prompt_id": "EMOTIONS_000883",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 41,
+          "prompt_text": "Preparing for a difficult salary negotiation, Jordan rehearses calm responses using an \"if-then\" plan: \"If the manager pushes back on my number, then I will pause, nod, and ask what metrics would justify that tier.\" How does this preparation aid emotional control?"
+        }
+      ]
+    },
+    "1784": {
+      "activation_frequency": 1.0204706410596567e-05,
+      "n_firing_tokens_in_validation": 1,
+      "domain_distribution_of_firing_tokens": {
+        "HINDI": 1
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.04797433689236641,
+          "prompt_id": "HINDI_000656",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 0,
+          "prompt_text": "Restaurant mein waiter ne kaha, \"Sir, aaj ka special try kijiye, bahut log pasand kar rahe hain.\" Is kathan ki vaak-kriya aur uske peechhe ki ranneeti kya hai?"
+        }
+      ]
+    },
+    "1892": {
+      "activation_frequency": 1.0204706410596567e-05,
+      "n_firing_tokens_in_validation": 1,
+      "domain_distribution_of_firing_tokens": {
+        "HINDI": 1
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.007256348617374897,
+          "prompt_id": "HINDI_000656",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 0,
+          "prompt_text": "Restaurant mein waiter ne kaha, \"Sir, aaj ka special try kijiye, bahut log pasand kar rahe hain.\" Is kathan ki vaak-kriya aur uske peechhe ki ranneeti kya hai?"
+        }
+      ]
+    },
+    "2038": {
+      "activation_frequency": 8.163765128477254e-05,
+      "n_firing_tokens_in_validation": 8,
+      "domain_distribution_of_firing_tokens": {
+        "HINDI": 5,
+        "EMOTIONS": 3
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.08003346621990204,
+          "prompt_id": "HINDI_004396",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 0,
+          "prompt_text": "'Dayalu' aur 'kripalu' ke beech ke antar ko shabdon ki banawat se kaise samjha ja sakta hai?"
+        },
+        {
+          "activation": 0.07280199229717255,
+          "prompt_id": "HINDI_001354",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 0,
+          "prompt_text": "'Maafi' aur 'kshama' ke prayog mein kya fark dikhta hai?"
+        },
+        {
+          "activation": 0.07167904078960419,
+          "prompt_id": "HINDI_001376",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 0,
+          "prompt_text": "'Mitrata' aur 'parichay' shabdon ka prayog kab alag-alag sandarbhon mein hota hai?"
+        },
+        {
+          "activation": 0.07104389369487762,
+          "prompt_id": "HINDI_000414",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 0,
+          "prompt_text": "'Mujhe jaana hai' vakya mein 'mujhe' aur 'jaana hai' ke beech kya vyakaranik sambandh hai?"
+        },
+        {
+          "activation": 0.07104389369487762,
+          "prompt_id": "HINDI_001074",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 0,
+          "prompt_text": "'Mujhe uski baat samajh aayi' aur 'Main uski baat samjha' mein experiencer aur agent roles ka contrast batayein."
+        },
+        {
+          "activation": 0.0009836424142122269,
+          "prompt_id": "EMOTIONS_000755",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 0,
+          "prompt_text": "After finally submitting a thesis she worked on for two years, Nadia tells a friend, 'I thought I'd be jumping for joy, but I mostly just feel hollow and tired.' How should her emotional state be interpreted?"
+        },
+        {
+          "activation": 0.0009836424142122269,
+          "prompt_id": "EMOTIONS_000703",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 0,
+          "prompt_text": "After hearing that her flight was canceled due to severe weather outside anyone's control, Evelyn feels let down about missing the first day of her vacation, though she does not blame the airline staff. Why is disappointment more accurate than anger here?"
+        },
+        {
+          "activation": 9.83942300081253e-05,
+          "prompt_id": "EMOTIONS_000591",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 0,
+          "prompt_text": "After an earthquake, a family sits down together to create an emergency plan. How might this collective action reduce fear?"
+        }
+      ]
+    },
+    "2140": {
+      "activation_frequency": 2.0409412821193134e-05,
+      "n_firing_tokens_in_validation": 2,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 1,
+        "HINDI": 1
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.0841776579618454,
+          "prompt_id": "EMOTIONS_004399",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 0,
+          "prompt_text": "Someone cries at a wedding. What additional information would be needed to decide whether the tears reflect joy, sadness, or relief? Reason step by step."
+        },
+        {
+          "activation": 0.00044743530452251434,
+          "prompt_id": "HINDI_003563",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 0,
+          "prompt_text": "Company के Hindi product manual में sentences बहुत complex हैं। Relative clauses को simple sentences में break करने के 4 examples दीजिए।"
+        }
+      ]
+    },
+    "2622": {
+      "activation_frequency": 0.01771537032879564,
+      "n_firing_tokens_in_validation": 1736,
+      "domain_distribution_of_firing_tokens": {
+        "DNA": 286,
+        "EMOTIONS": 425,
+        "GANDHI": 126,
+        "HINDI": 719,
+        "SCIENCE": 180
+      },
+      "top_activating_examples": [
+        {
+          "activation": 1.181848168373108,
+          "prompt_id": "GANDHI_000748",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Strategic choices",
+          "token_position": 3,
+          "prompt_text": "Analyze Strategic choices in the context of participant experience, noting what the sources establish and what remains uncertain."
+        },
+        {
+          "activation": 1.1318674087524414,
+          "prompt_id": "GANDHI_004446",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Strategic choices",
+          "token_position": 6,
+          "prompt_text": "Assess competing explanations of Strategic choices in relation to ethical argument; identify what evidence would strengthen each."
+        },
+        {
+          "activation": 1.1132255792617798,
+          "prompt_id": "GANDHI_002597",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Strategic choices",
+          "token_position": 7,
+          "prompt_text": "Describe the central factual elements of Strategic choices, focusing on organizational method."
+        },
+        {
+          "activation": 1.0370069742202759,
+          "prompt_id": "EMOTIONS_000816",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 31,
+          "prompt_text": "When an employee receives a critical email late Friday afternoon, they wait until Monday morning to reply with a calm, structured message rather than responding immediately. How does choosing asynchronous delay change the emotional tone communicated?"
+        },
+        {
+          "activation": 1.0170373916625977,
+          "prompt_id": "EMOTIONS_004916",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 5,
+          "prompt_text": "Why might a person intentionally choose to listen to sad music when feeling down, and how can that serve as a validating form of mood regulation?"
+        },
+        {
+          "activation": 0.9993590116500854,
+          "prompt_id": "EMOTIONS_002818",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 4,
+          "prompt_text": "How do syntactic choices, such as short clipped sentences versus flowing elaboration, alter the perceived emotional urgency of a written message?"
+        },
+        {
+          "activation": 0.98316490650177,
+          "prompt_id": "HINDI_001080",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 33,
+          "prompt_text": "'मैं meeting में था' और 'मैं meeting पर था' में postposition choice से location/participation का अर्थ कैसे बदलता है?"
+        },
+        {
+          "activation": 0.9774621725082397,
+          "prompt_id": "HINDI_000271",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 124,
+          "prompt_text": "इस बातचीत में शाब्दिक कथन और संभावित सामाजिक दूरी के बीच संबंध स्पष्ट कीजिए। स्थिति: किसी अधिकारी से अनुरोध करते समय कर्मचारी नरम भाषा चुनता है।"
+        },
+        {
+          "activation": 0.974846601486206,
+          "prompt_id": "HINDI_003263",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 147,
+          "prompt_text": "इस परिस्थिति में उचित हिंदी प्रतिक्रिया तैयार करने के लिए संवाद का आरंभ और समापन का ध्यान कैसे रखेंगे? उदाहरण: किसी अधिकारी से अनुरोध करते समय कर्मचारी नरम भाषा चुनता है।"
+        },
+        {
+          "activation": 0.9707920551300049,
+          "prompt_id": "HINDI_001274",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 159,
+          "prompt_text": "हिंदी और अंग्रेज़ी में इस प्रसंग के प्रसंग के अनुसार अर्थ-व्याख्या को व्यक्त करने के तरीकों की तुलना कीजिए। बातचीत का संदर्भ: किसी अधिकारी से अनुरोध करते समय कर्मचारी नरम भाषा चुनता है।"
+        },
+        {
+          "activation": 0.907105565071106,
+          "prompt_id": "EMOTIONS_004150",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 29,
+          "prompt_text": "Consider this communication situation: a person asks for more time to consider an important decision, while making their hesitation understandable. Explain which phrasing or delivery choice is most likely to preserve the intended meaning, and why."
+        },
+        {
+          "activation": 0.9047465324401855,
+          "prompt_id": "EMOTIONS_001310",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 9,
+          "prompt_text": "Scenario: A friend expresses compassion toward someone whose choices they disagree with. Task: Compare two possible interpretations or responses and explain how context could favor either. Do not infer a person's internal state with certainty from a single behavior; state relevant uncertainty and avoid stereotypes."
+        },
+        {
+          "activation": 0.9047465324401855,
+          "prompt_id": "EMOTIONS_004310",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 9,
+          "prompt_text": "Scenario: A friend expresses compassion toward someone whose choices they disagree with. Task: Reason about plausible perspectives, motives, or consequences without treating assumptions as facts. Do not infer a person's internal state with certainty from a single behavior; state relevant uncertainty and avoid stereotypes."
+        },
+        {
+          "activation": 0.9047465324401855,
+          "prompt_id": "EMOTIONS_003310",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 9,
+          "prompt_text": "Scenario: A friend expresses compassion toward someone whose choices they disagree with. Task: Propose a respectful, practical interpersonal response that preserves the other person's agency. Do not infer a person's internal state with certainty from a single behavior; state relevant uncertainty and avoid stereotypes."
+        },
+        {
+          "activation": 0.9007139205932617,
+          "prompt_id": "EMOTIONS_002885",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 13,
+          "prompt_text": "What is emotional granularity, and how does high granularity assist individuals in selecting targeted coping responses?"
+        },
+        {
+          "activation": 0.8913908004760742,
+          "prompt_id": "DNA_004826",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 19,
+          "prompt_text": "How are CRISPR-Cas9-induced double-strand breaks repaired, and how can pathway choice be manipulated?"
+        },
+        {
+          "activation": 0.8876356482505798,
+          "prompt_id": "EMOTIONS_004824",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 4,
+          "prompt_text": "Why might a person choose an asynchronous medium like a handwritten letter or email rather than a live conversation to express deep gratitude or remorse?"
+        },
+        {
+          "activation": 0.8784990310668945,
+          "prompt_id": "EMOTIONS_002805",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 8,
+          "prompt_text": "In written communication, how do typographical choices such as ellipses, exclamation marks, and all-caps formatting substitute for vocal and facial cues?"
+        },
+        {
+          "activation": 0.8636717200279236,
+          "prompt_id": "EMOTIONS_004473",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 3,
+          "prompt_text": "Why might people choose humor to express difficult emotions, and what might be lost in doing so?"
+        },
+        {
+          "activation": 0.8564299941062927,
+          "prompt_id": "EMOTIONS_002798",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 10,
+          "prompt_text": "In written narratives, how do sensory details and pacing choices indicate whether a narrator is recounting a memory with warmth, detachment, or lingering pain?"
+        }
+      ]
+    },
+    "2693": {
+      "activation_frequency": 1.0204706410596567e-05,
+      "n_firing_tokens_in_validation": 1,
+      "domain_distribution_of_firing_tokens": {
+        "HINDI": 1
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.0486866794526577,
+          "prompt_id": "HINDI_000656",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 0,
+          "prompt_text": "Restaurant mein waiter ne kaha, \"Sir, aaj ka special try kijiye, bahut log pasand kar rahe hain.\" Is kathan ki vaak-kriya aur uske peechhe ki ranneeti kya hai?"
+        }
+      ]
+    },
+    "2982": {
+      "activation_frequency": 0.06085066432638733,
+      "n_firing_tokens_in_validation": 5963,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 462,
+        "DNA": 411,
+        "GANDHI": 691,
+        "HINDI": 3672,
+        "SCIENCE": 727
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.6299102306365967,
+          "prompt_id": "HINDI_002680",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 17,
+          "prompt_text": "Deixis aur anaphora में फ़र्क क्या है? \"वह किताब मुझे दो\" (इशारा करते हुए) aur \"मैंने एक किताब खरीदी, वह बहुत अच्छी है\" से compare कीजिए।"
+        },
+        {
+          "activation": 0.5808453559875488,
+          "prompt_id": "HINDI_000073",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 24,
+          "prompt_text": "Sandarbh mein 'woh' aur 've' ka prayog vyakti-vachan aur aadar ko kaise darshata hai?"
+        },
+        {
+          "activation": 0.5318503975868225,
+          "prompt_id": "HINDI_002104",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 18,
+          "prompt_text": "“कमरे के भीतर” पदबंध में “के” और “भीतर” की व्याकरणिक भूमिका स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 0.506844162940979,
+          "prompt_id": "HINDI_001513",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 9,
+          "prompt_text": "\"बच्चा रो पड़ा\" और \"बच्चा रोने लगा\" में अर्थ का क्या अंतर है?"
+        },
+        {
+          "activation": 0.4977533519268036,
+          "prompt_id": "HINDI_004923",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 25,
+          "prompt_text": "Vakya 'Mujhe do kitaabein aur ek kalam chahiye' mein alag-alag ling aur vachan ke karm hone par bhi 'chahiye' mein badlav kyun nahi hota?"
+        },
+        {
+          "activation": 0.4964619576931,
+          "prompt_id": "DNA_001078",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 10,
+          "prompt_text": "How do nuclear receptors bind response elements and regulate initiation in response to ligand?"
+        },
+        {
+          "activation": 0.4937026798725128,
+          "prompt_id": "HINDI_003642",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 118,
+          "prompt_text": "विवाह-समारोह में मंच-संचालक के रूप में अतिथियों को भोजन के लिए आमंत्रित करने और कार्यक्रम का क्रम बताने के लिए हिंदी में एक औपचारिक पर आत्मीय घोषणा लिखिए।"
+        },
+        {
+          "activation": 0.4910242259502411,
+          "prompt_id": "GANDHI_001959",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Rural development",
+          "token_position": 8,
+          "prompt_text": "How does Rural development differ from Dandi regarding documentary evidence? Explain why the distinction matters historically."
+        },
+        {
+          "activation": 0.48914816975593567,
+          "prompt_id": "HINDI_003637",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 80,
+          "prompt_text": "किसी सरकारी दफ़्तर में अपना रुका हुआ काम जल्दी करवाने के लिए संबंधित कर्मचारी से शिष्ट पर प्रभावी हिंदी में बात करने का एक संवाद लिखिए।"
+        },
+        {
+          "activation": 0.4873216152191162,
+          "prompt_id": "HINDI_000808",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 94,
+          "prompt_text": "वाक्य: \"लगातार तीन हार के बाद टीम का मनोबल पूरी तरह टूट चुका था, लेकिन कोच के शब्दों ने उनमें नई जान फूँक दी।\" 'नई जान फूँकना' का इस संदर्भ में क्या अभिप्राय है?"
+        },
+        {
+          "activation": 0.4710506498813629,
+          "prompt_id": "HINDI_001952",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 75,
+          "prompt_text": "हिंदी में 'चाय पिएंगे?' और 'चाय तो पिएंगे ही न?' प्रश्नों के माध्यम से वक्ता की अपेक्षा और आग्रह के स्तर में क्या अंतर दिखता है?"
+        },
+        {
+          "activation": 0.4651498794555664,
+          "prompt_id": "HINDI_001650",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 24,
+          "prompt_text": "\"Chal nikal\" aur \"Ab aap jaa sakte hain\" — kisi ko jaane ke liye kehne ke dono tareekon ki tulna kijiye."
+        },
+        {
+          "activation": 0.4562608301639557,
+          "prompt_id": "GANDHI_001246",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Delhi fast 1948",
+          "token_position": 4,
+          "prompt_text": "How does Delhi fast 1948 differ from Sarojini Naidu regarding political context? Explain why the distinction matters historically."
+        },
+        {
+          "activation": 0.4535547196865082,
+          "prompt_id": "HINDI_003959",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 79,
+          "prompt_text": "एक ग्राहक द्वारा रेस्तरां में गलत ऑर्डर आने की शिकायत करने पर वेटर को किस प्रकार की विनम्र क्षमा याचना और त्वरित सुधार की भाषा बोलनी चाहिए?"
+        },
+        {
+          "activation": 0.4483514130115509,
+          "prompt_id": "HINDI_004464",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 45,
+          "prompt_text": "\"सूर्योदय\" और \"सूर्यग्रहण\" — इनमें से किसमें संधि और समास दोनों हैं, और किसमें केवल समास? चरणबद्ध विश्लेषण कीजिए।"
+        },
+        {
+          "activation": 0.44424566626548767,
+          "prompt_id": "GANDHI_001278",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Memoir source criticism",
+          "token_position": 9,
+          "prompt_text": "How does Memoir source criticism differ from Legacy in India regarding political context? Explain why the distinction matters historically."
+        },
+        {
+          "activation": 0.44242528080940247,
+          "prompt_id": "GANDHI_001255",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Environmental relevance",
+          "token_position": 7,
+          "prompt_text": "How does Environmental relevance differ from Labor regarding political context? Explain why the distinction matters historically."
+        },
+        {
+          "activation": 0.4336925148963928,
+          "prompt_id": "HINDI_001919",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 34,
+          "prompt_text": "Vakyon 'Baccha soya' aur 'Maa ne bacche ko sulaya' mein prernarthak kriya banne par karta aur karm ki sanrachna mein kya antar aaya hai?"
+        },
+        {
+          "activation": 0.4334287941455841,
+          "prompt_id": "GANDHI_001967",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Tolstoy influence",
+          "token_position": 9,
+          "prompt_text": "How does Tolstoy influence differ from Agriculture regarding documentary evidence? Explain why the distinction matters historically."
+        },
+        {
+          "activation": 0.4284115135669708,
+          "prompt_id": "HINDI_001408",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 15,
+          "prompt_text": "'से' विभक्ति करण कारक और अपादान कारक में कैसे अलग-अलग अर्थ देती है?"
+        }
+      ]
+    },
+    "3036": {
+      "activation_frequency": 0.017756189154438027,
+      "n_firing_tokens_in_validation": 1740,
+      "domain_distribution_of_firing_tokens": {
+        "DNA": 254,
+        "EMOTIONS": 490,
+        "GANDHI": 115,
+        "HINDI": 384,
+        "SCIENCE": 497
+      },
+      "top_activating_examples": [
+        {
+          "activation": 2.527433156967163,
+          "prompt_id": "SCIENCE_001909",
+          "domain": "SCIENCE",
+          "subdomain": "Geology",
+          "token_position": 31,
+          "prompt_text": "Compare a mineral crystallizes from cooling magma and mineral grains reveal metamorphic conditions with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. And identify the assumptions needed for the interpretation to hold."
+        },
+        {
+          "activation": 2.4863576889038086,
+          "prompt_id": "SCIENCE_001385",
+          "domain": "SCIENCE",
+          "subdomain": "Thermodynamics",
+          "token_position": 30,
+          "prompt_text": "Compare a phase change occurs while temperature remains constant and entropy changes during mixing with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. With a focus on causal mechanisms rather than descriptive labels."
+        },
+        {
+          "activation": 2.4620256423950195,
+          "prompt_id": "SCIENCE_001695",
+          "domain": "SCIENCE",
+          "subdomain": "Biochemistry",
+          "token_position": 33,
+          "prompt_text": "Compare a metabolic pathway is regulated by feedback and ATP hydrolysis drives a coupled reaction with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. With a focus on causal mechanisms rather than descriptive labels."
+        },
+        {
+          "activation": 2.4612913131713867,
+          "prompt_id": "SCIENCE_001660",
+          "domain": "SCIENCE",
+          "subdomain": "Plant physiology",
+          "token_position": 32,
+          "prompt_text": "Compare a plant acclimates to shade and a nutrient deficiency alters leaf pigmentation with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. While accounting for measurement uncertainty and possible confounding factors."
+        },
+        {
+          "activation": 2.4455864429473877,
+          "prompt_id": "SCIENCE_001949",
+          "domain": "SCIENCE",
+          "subdomain": "Hydrology",
+          "token_position": 35,
+          "prompt_text": "Compare a river meanders across its floodplain and a contaminant plume moves through aquifer with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. And identify the assumptions needed for the interpretation to hold."
+        },
+        {
+          "activation": 2.421154022216797,
+          "prompt_id": "SCIENCE_001231",
+          "domain": "SCIENCE",
+          "subdomain": "Climate science",
+          "token_position": 30,
+          "prompt_text": "Compare a glacier retreats during sustained warming and feedback alters polar amplification with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. Considering the relevant conservation laws and measurable variables."
+        },
+        {
+          "activation": 2.3823537826538086,
+          "prompt_id": "SCIENCE_001645",
+          "domain": "SCIENCE",
+          "subdomain": "Environmental science",
+          "token_position": 31,
+          "prompt_text": "Compare a pesticide runoff event affects aquatic organisms and a contaminated site requires risk assessment with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. With a focus on causal mechanisms rather than descriptive labels."
+        },
+        {
+          "activation": 2.3818869590759277,
+          "prompt_id": "SCIENCE_001869",
+          "domain": "SCIENCE",
+          "subdomain": "Immunology",
+          "token_position": 31,
+          "prompt_text": "Compare a viral infection changes cytokine signaling and immune tolerance prevents self-reactivity with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. And identify the assumptions needed for the interpretation to hold."
+        },
+        {
+          "activation": 2.3704280853271484,
+          "prompt_id": "SCIENCE_001849",
+          "domain": "SCIENCE",
+          "subdomain": "Ecology",
+          "token_position": 32,
+          "prompt_text": "Compare a population overshoots carrying capacity and a food web loses a top predator with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. And identify the assumptions needed for the interpretation to hold."
+        },
+        {
+          "activation": 2.342259645462036,
+          "prompt_id": "SCIENCE_001704",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 40,
+          "prompt_text": "Compare a bridge vibrates when wind gusts match its natural frequency and a rolling ball loses speed on a rough incline with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. And identify which evidence would distinguish the proposed explanation from alternatives."
+        },
+        {
+          "activation": 2.3078763484954834,
+          "prompt_id": "SCIENCE_001006",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 41,
+          "prompt_text": "Compare a spring-mass system oscillates after damping is introduced and a rotating ice skater speeds up as their arms move inward with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. Using a qualitative model before introducing any quantitative estimates."
+        },
+        {
+          "activation": 2.3077938556671143,
+          "prompt_id": "SCIENCE_001774",
+          "domain": "SCIENCE",
+          "subdomain": "Physical chemistry",
+          "token_position": 34,
+          "prompt_text": "Compare a gas deviates from ideal behavior at high pressure and a reaction rate increases with temperature with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. And identify which evidence would distinguish the proposed explanation from alternatives."
+        },
+        {
+          "activation": 2.3011653423309326,
+          "prompt_id": "SCIENCE_001281",
+          "domain": "SCIENCE",
+          "subdomain": "Planetary science",
+          "token_position": 29,
+          "prompt_text": "Compare a planet's atmosphere retains heat and a moon exhibits tidal heating with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. Considering the relevant conservation laws and measurable variables."
+        },
+        {
+          "activation": 2.2740731239318848,
+          "prompt_id": "SCIENCE_001016",
+          "domain": "SCIENCE",
+          "subdomain": "Electromagnetism",
+          "token_position": 32,
+          "prompt_text": "Compare a motor's torque changes with current and a transmission line loses energy over distance with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. Using a qualitative model before introducing any quantitative estimates."
+        },
+        {
+          "activation": 2.243636131286621,
+          "prompt_id": "SCIENCE_001719",
+          "domain": "SCIENCE",
+          "subdomain": "Electromagnetism",
+          "token_position": 34,
+          "prompt_text": "Compare a solenoid produces a field when current flows and a transformer heats under heavy load with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. And identify the assumptions needed for the interpretation to hold."
+        },
+        {
+          "activation": 2.204073190689087,
+          "prompt_id": "SCIENCE_001001",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 40,
+          "prompt_text": "Compare a cyclist brakes on wet pavement and the stopping distance increases and a pendulum's period changes after its length is doubled with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. Considering the relevant conservation laws and measurable variables."
+        },
+        {
+          "activation": 2.1041574478149414,
+          "prompt_id": "SCIENCE_001999",
+          "domain": "SCIENCE",
+          "subdomain": "Environmental science",
+          "token_position": 33,
+          "prompt_text": "Compare an ecosystem services valuation depends on indicators and air quality worsens near a traffic corridor with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. And identify the assumptions needed for the interpretation to hold."
+        },
+        {
+          "activation": 2.103544235229492,
+          "prompt_id": "SCIENCE_001685",
+          "domain": "SCIENCE",
+          "subdomain": "Scientific instrumentation",
+          "token_position": 29,
+          "prompt_text": "Compare a chromatograph separates mixture components and a microscope has limited resolution with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. With a focus on causal mechanisms rather than descriptive labels."
+        },
+        {
+          "activation": 1.9589920043945312,
+          "prompt_id": "SCIENCE_001690",
+          "domain": "SCIENCE",
+          "subdomain": "Scientific instrumentation",
+          "token_position": 32,
+          "prompt_text": "Compare a measurement uncertainty must be reported and a measurement is traceable to a standard with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. While accounting for measurement uncertainty and possible confounding factors."
+        },
+        {
+          "activation": 1.8583706617355347,
+          "prompt_id": "SCIENCE_001051",
+          "domain": "SCIENCE",
+          "subdomain": "Analytical chemistry",
+          "token_position": 34,
+          "prompt_text": "Compare a calibration curve is nonlinear near the instrument's upper range and replicate measurements show systematic bias with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. Considering the relevant conservation laws and measurable variables."
+        }
+      ]
+    },
+    "3041": {
+      "activation_frequency": 0.06392228095597689,
+      "n_firing_tokens_in_validation": 6264,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 743,
+        "DNA": 421,
+        "GANDHI": 73,
+        "HINDI": 4890,
+        "SCIENCE": 137
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.6687202453613281,
+          "prompt_id": "HINDI_000829",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 58,
+          "prompt_text": "वाक्य: \"उसने अपनी सारी जमा-पूँजी एक डूबते हुए जहाज़ में लगा दी।\" व्यापारिक संदर्भ में 'डूबता हुआ जहाज़' किसे कहा गया है?"
+        },
+        {
+          "activation": 0.6032208204269409,
+          "prompt_id": "HINDI_000829",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 61,
+          "prompt_text": "वाक्य: \"उसने अपनी सारी जमा-पूँजी एक डूबते हुए जहाज़ में लगा दी।\" व्यापारिक संदर्भ में 'डूबता हुआ जहाज़' किसे कहा गया है?"
+        },
+        {
+          "activation": 0.5539869666099548,
+          "prompt_id": "HINDI_004820",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 27,
+          "prompt_text": "वाक्य: \"उसने मुझे हँसते हुए देखा।\" इस वाक्य के दो अलग-अलग अर्थ कौन-कौन हँस रहा था—के आधार पर स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 0.5437941551208496,
+          "prompt_id": "HINDI_000899",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 44,
+          "prompt_text": "वाक्य 'सीमा ने रीना को अपनी किताब पढ़ने के लिए दी।' में उद्देश्यवाचक पदबंध कौन-सा है और उसका रूप तिर्यक क्यों है?"
+        },
+        {
+          "activation": 0.5058675408363342,
+          "prompt_id": "HINDI_000829",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 60,
+          "prompt_text": "वाक्य: \"उसने अपनी सारी जमा-पूँजी एक डूबते हुए जहाज़ में लगा दी।\" व्यापारिक संदर्भ में 'डूबता हुआ जहाज़' किसे कहा गया है?"
+        },
+        {
+          "activation": 0.4927123486995697,
+          "prompt_id": "HINDI_000899",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 43,
+          "prompt_text": "वाक्य 'सीमा ने रीना को अपनी किताब पढ़ने के लिए दी।' में उद्देश्यवाचक पदबंध कौन-सा है और उसका रूप तिर्यक क्यों है?"
+        },
+        {
+          "activation": 0.4884093105792999,
+          "prompt_id": "HINDI_004820",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 26,
+          "prompt_text": "वाक्य: \"उसने मुझे हँसते हुए देखा।\" इस वाक्य के दो अलग-अलग अर्थ कौन-कौन हँस रहा था—के आधार पर स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 0.4871496260166168,
+          "prompt_id": "HINDI_000829",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 56,
+          "prompt_text": "वाक्य: \"उसने अपनी सारी जमा-पूँजी एक डूबते हुए जहाज़ में लगा दी।\" व्यापारिक संदर्भ में 'डूबता हुआ जहाज़' किसे कहा गया है?"
+        },
+        {
+          "activation": 0.47186291217803955,
+          "prompt_id": "HINDI_004820",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 25,
+          "prompt_text": "वाक्य: \"उसने मुझे हँसते हुए देखा।\" इस वाक्य के दो अलग-अलग अर्थ कौन-कौन हँस रहा था—के आधार पर स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 0.46518176794052124,
+          "prompt_id": "HINDI_000829",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 54,
+          "prompt_text": "वाक्य: \"उसने अपनी सारी जमा-पूँजी एक डूबते हुए जहाज़ में लगा दी।\" व्यापारिक संदर्भ में 'डूबता हुआ जहाज़' किसे कहा गया है?"
+        },
+        {
+          "activation": 0.46359360218048096,
+          "prompt_id": "HINDI_002680",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 38,
+          "prompt_text": "Deixis aur anaphora में फ़र्क क्या है? \"वह किताब मुझे दो\" (इशारा करते हुए) aur \"मैंने एक किताब खरीदी, वह बहुत अच्छी है\" से compare कीजिए।"
+        },
+        {
+          "activation": 0.46247321367263794,
+          "prompt_id": "HINDI_000189",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 20,
+          "prompt_text": "वाक्य 'किताब मेज़ पर रखी हुई है' में परसर्गीय पदबंध की पहचान करके उसके घटकों को अलग-अलग बताइए।"
+        },
+        {
+          "activation": 0.4567876160144806,
+          "prompt_id": "HINDI_000829",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 59,
+          "prompt_text": "वाक्य: \"उसने अपनी सारी जमा-पूँजी एक डूबते हुए जहाज़ में लगा दी।\" व्यापारिक संदर्भ में 'डूबता हुआ जहाज़' किसे कहा गया है?"
+        },
+        {
+          "activation": 0.4551638662815094,
+          "prompt_id": "HINDI_004880",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 40,
+          "prompt_text": "वाक्य 'कल जो लड़का आया था, उसने यह पत्र दिया।' को यदि 'उसने यह पत्र दिया जो लड़का कल आया था।' के रूप में लिखा जाए, तो यह वाक्य-संरचनात्मक दृष्टि से असहज या अस्वीकार्य क्यों माना जाता है?"
+        },
+        {
+          "activation": 0.4398030638694763,
+          "prompt_id": "HINDI_003600",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 131,
+          "prompt_text": "विद्यार्थी के निबंध के इस वाक्य को सुधारिए और कारण बताइए: \"मेरे दादाजी जो बहुत अनुभवी हैं और जिन्होंने सेना में काम किया और वे हमें कहानियाँ सुनाते हैं।\""
+        },
+        {
+          "activation": 0.42383459210395813,
+          "prompt_id": "HINDI_000248",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 28,
+          "prompt_text": "दिए गए example 'वह गाना गाकर बाहर चला गया' में कारक चिह्न और भूमिका किस प्रकार sentence structure को प्रभावित करता है?"
+        },
+        {
+          "activation": 0.4193173944950104,
+          "prompt_id": "HINDI_000961",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 71,
+          "prompt_text": "एक व्यक्ति ने अपने दोस्त से कहा, 'तुमने तो अपनी नई गाड़ी की पार्टी भी नहीं दी।' इस कथन का सामाजिक उद्देश्य क्या है?"
+        },
+        {
+          "activation": 0.4157269597053528,
+          "prompt_id": "HINDI_000717",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 30,
+          "prompt_text": "Vakya: \"Chhatron ko padhai ke saath-saath pathyetar gatividhiyon mein bhi bhag lena chahiye.\" Yahan 'pathyetar' ka kya matlab hai?"
+        },
+        {
+          "activation": 0.4131823480129242,
+          "prompt_id": "HINDI_004668",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 54,
+          "prompt_text": "बेटे ने कहा, \"पापा, मैंने गाड़ी पर बस थोड़ा-सा खरोंच लगा दिया है।\" \"बस थोड़ा-सा\" के प्रयोग का व्यावहारिक उद्देश्य क्या है, और पिता इसे कैसे व्याख्यायित कर सकते हैं?"
+        },
+        {
+          "activation": 0.4079672396183014,
+          "prompt_id": "HINDI_000561",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 23,
+          "prompt_text": "\"वह किताब, जो तुमने मुझे दी थी, बहुत रोचक है।\" इस वाक्य में सापेक्ष उपवाक्य मुख्य उपवाक्य के भीतर कहाँ अंतःस्थापित है?"
+        }
+      ]
+    },
+    "3249": {
+      "activation_frequency": 2.0409412821193134e-05,
+      "n_firing_tokens_in_validation": 2,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 1,
+        "HINDI": 1
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.02024778537452221,
+          "prompt_id": "EMOTIONS_003749",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 7,
+          "prompt_text": "When mediating a neighborhood or workplace dispute, how can an observer identify whether a party's legalistic, formal language masks deep personal hurt?"
+        },
+        {
+          "activation": 0.004555196035653353,
+          "prompt_id": "HINDI_000367",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 17,
+          "prompt_text": "‘सभा में सभी ने एकमत से प्रस्ताव का अनुमोदन किया।’ इस वाक्य में ‘अनुमोदन’ शब्द का क्या अर्थ है?"
+        }
+      ]
+    },
+    "3265": {
+      "activation_frequency": 1.0204706410596567e-05,
+      "n_firing_tokens_in_validation": 1,
+      "domain_distribution_of_firing_tokens": {
+        "HINDI": 1
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.01602231338620186,
+          "prompt_id": "HINDI_000656",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 0,
+          "prompt_text": "Restaurant mein waiter ne kaha, \"Sir, aaj ka special try kijiye, bahut log pasand kar rahe hain.\" Is kathan ki vaak-kriya aur uske peechhe ki ranneeti kya hai?"
+        }
+      ]
+    },
+    "3306": {
+      "activation_frequency": 0.01771537032879564,
+      "n_firing_tokens_in_validation": 1736,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 432,
+        "DNA": 53,
+        "GANDHI": 607,
+        "HINDI": 112,
+        "SCIENCE": 532
+      },
+      "top_activating_examples": [
+        {
+          "activation": 1.4989941120147705,
+          "prompt_id": "GANDHI_002515",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Ruskin influence",
+          "token_position": 10,
+          "prompt_text": "Describe the central factual elements of Ruskin influence, focusing on organizational method."
+        },
+        {
+          "activation": 1.4928780794143677,
+          "prompt_id": "GANDHI_002497",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Harijan publications",
+          "token_position": 10,
+          "prompt_text": "Describe the central factual elements of Harijan publications, focusing on organizational method."
+        },
+        {
+          "activation": 1.4881281852722168,
+          "prompt_id": "GANDHI_002533",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Round Table Conference",
+          "token_position": 10,
+          "prompt_text": "Describe the central factual elements of Round Table Conference, focusing on organizational method."
+        },
+        {
+          "activation": 1.4704047441482544,
+          "prompt_id": "GANDHI_002595",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Legacy abroad",
+          "token_position": 9,
+          "prompt_text": "Describe the central factual elements of Legacy abroad, focusing on organizational method."
+        },
+        {
+          "activation": 1.4673610925674438,
+          "prompt_id": "GANDHI_002476",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Kheda",
+          "token_position": 9,
+          "prompt_text": "Describe the central factual elements of Kheda, focusing on organizational method."
+        },
+        {
+          "activation": 1.464880108833313,
+          "prompt_id": "GANDHI_002566",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Personal experiments",
+          "token_position": 9,
+          "prompt_text": "Describe the central factual elements of Personal experiments, focusing on organizational method."
+        },
+        {
+          "activation": 1.4517332315444946,
+          "prompt_id": "GANDHI_002587",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Community experiments",
+          "token_position": 9,
+          "prompt_text": "Describe the central factual elements of Community experiments, focusing on organizational method."
+        },
+        {
+          "activation": 1.45108163356781,
+          "prompt_id": "GANDHI_002570",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Swaraj",
+          "token_position": 10,
+          "prompt_text": "Describe the central factual elements of Swaraj, focusing on organizational method."
+        },
+        {
+          "activation": 1.44368577003479,
+          "prompt_id": "GANDHI_002463",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Indian Opinion",
+          "token_position": 9,
+          "prompt_text": "Describe the central factual elements of Indian Opinion, focusing on organizational method."
+        },
+        {
+          "activation": 1.437934160232544,
+          "prompt_id": "GANDHI_002564",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Movement discipline",
+          "token_position": 9,
+          "prompt_text": "Describe the central factual elements of Movement discipline, focusing on organizational method."
+        },
+        {
+          "activation": 1.4340622425079346,
+          "prompt_id": "GANDHI_002602",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Public rituals",
+          "token_position": 9,
+          "prompt_text": "Describe the central factual elements of Public rituals, focusing on organizational method."
+        },
+        {
+          "activation": 1.425328254699707,
+          "prompt_id": "GANDHI_002506",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Rural development",
+          "token_position": 9,
+          "prompt_text": "Describe the central factual elements of Rural development, focusing on organizational method."
+        },
+        {
+          "activation": 1.4208908081054688,
+          "prompt_id": "GANDHI_002458",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — London vegetarianism",
+          "token_position": 10,
+          "prompt_text": "Describe the central factual elements of London vegetarianism, focusing on organizational method."
+        },
+        {
+          "activation": 1.4192723035812378,
+          "prompt_id": "GANDHI_002519",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Tagore",
+          "token_position": 9,
+          "prompt_text": "Describe the central factual elements of Tagore, focusing on organizational method."
+        },
+        {
+          "activation": 1.4140669107437134,
+          "prompt_id": "GANDHI_002532",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Gandhi-Irwin Pact",
+          "token_position": 12,
+          "prompt_text": "Describe the central factual elements of Gandhi-Irwin Pact, focusing on organizational method."
+        },
+        {
+          "activation": 1.393621802330017,
+          "prompt_id": "GANDHI_002513",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Bhagavad Gita",
+          "token_position": 12,
+          "prompt_text": "Describe the central factual elements of Bhagavad Gita, focusing on organizational method."
+        },
+        {
+          "activation": 1.380775809288025,
+          "prompt_id": "GANDHI_002560",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Archival interpretation",
+          "token_position": 10,
+          "prompt_text": "Describe the central factual elements of Archival interpretation, focusing on organizational method."
+        },
+        {
+          "activation": 1.3473817110061646,
+          "prompt_id": "GANDHI_002597",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Strategic choices",
+          "token_position": 9,
+          "prompt_text": "Describe the central factual elements of Strategic choices, focusing on organizational method."
+        },
+        {
+          "activation": 1.3457528352737427,
+          "prompt_id": "GANDHI_002459",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Early legal practice",
+          "token_position": 10,
+          "prompt_text": "Describe the central factual elements of Early legal practice, focusing on organizational method."
+        },
+        {
+          "activation": 1.3337746858596802,
+          "prompt_id": "SCIENCE_001921",
+          "domain": "SCIENCE",
+          "subdomain": "Atmospheric science",
+          "token_position": 14,
+          "prompt_text": "Contrast a temperature inversion traps pollutants with a jet stream meanders, focusing on the shared scientific basis and the key distinction that determines their behavior. Including how the system's boundary conditions influence the outcome."
+        }
+      ]
+    },
+    "3650": {
+      "activation_frequency": 0.00011225177051656224,
+      "n_firing_tokens_in_validation": 11,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 9,
+        "HINDI": 2
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.05943668633699417,
+          "prompt_id": "EMOTIONS_004399",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 0,
+          "prompt_text": "Someone cries at a wedding. What additional information would be needed to decide whether the tears reflect joy, sadness, or relief? Reason step by step."
+        },
+        {
+          "activation": 0.037675030529499054,
+          "prompt_id": "HINDI_004396",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 0,
+          "prompt_text": "'Dayalu' aur 'kripalu' ke beech ke antar ko shabdon ki banawat se kaise samjha ja sakta hai?"
+        },
+        {
+          "activation": 0.023410925641655922,
+          "prompt_id": "HINDI_000073",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 0,
+          "prompt_text": "Sandarbh mein 'woh' aur 've' ka prayog vyakti-vachan aur aadar ko kaise darshata hai?"
+        },
+        {
+          "activation": 0.019937166944146156,
+          "prompt_id": "EMOTIONS_000755",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 0,
+          "prompt_text": "After finally submitting a thesis she worked on for two years, Nadia tells a friend, 'I thought I'd be jumping for joy, but I mostly just feel hollow and tired.' How should her emotional state be interpreted?"
+        },
+        {
+          "activation": 0.019937166944146156,
+          "prompt_id": "EMOTIONS_000703",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 0,
+          "prompt_text": "After hearing that her flight was canceled due to severe weather outside anyone's control, Evelyn feels let down about missing the first day of her vacation, though she does not blame the airline staff. Why is disappointment more accurate than anger here?"
+        },
+        {
+          "activation": 0.019178519025444984,
+          "prompt_id": "EMOTIONS_000884",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 0,
+          "prompt_text": "After an emergency room nurse finishes a chaotic twelve-hour shift, she spends fifteen minutes sitting quietly in her parked car listening to instrumental music before walking into her house. What function does this transition ritual serve?"
+        },
+        {
+          "activation": 0.019178519025444984,
+          "prompt_id": "EMOTIONS_000942",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 0,
+          "prompt_text": "After a neighbor quietly shovels snow from Arthur's driveway while Arthur is recovering from surgery, Arthur leaves a handwritten note thanking him for noticing the need without being asked. How does this interaction illustrate gratitude?"
+        },
+        {
+          "activation": 0.017680535092949867,
+          "prompt_id": "EMOTIONS_000591",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 0,
+          "prompt_text": "After an earthquake, a family sits down together to create an emergency plan. How might this collective action reduce fear?"
+        },
+        {
+          "activation": 0.016659388318657875,
+          "prompt_id": "EMOTIONS_000530",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 0,
+          "prompt_text": "After a serious data breach, a company posts an apology on social media using casual language and emoji. How might this tone be received?"
+        },
+        {
+          "activation": 0.016659388318657875,
+          "prompt_id": "EMOTIONS_000557",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 0,
+          "prompt_text": "After an argument, a couple agrees to a time-out and returns to the issue the next day. How might this help both partners regulate their emotions?"
+        },
+        {
+          "activation": 0.016659388318657875,
+          "prompt_id": "EMOTIONS_000567",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 0,
+          "prompt_text": "After a car accident, a driver describes the event to several friends over the following week. How might sharing help, and when might it intensify distress?"
+        }
+      ]
+    },
+    "3804": {
+      "activation_frequency": 9.18423576953691e-05,
+      "n_firing_tokens_in_validation": 9,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 2,
+        "DNA": 2,
+        "SCIENCE": 5
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.028146861121058464,
+          "prompt_id": "DNA_002033",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 10,
+          "prompt_text": "How does the assembly of eukaryotic ribosomes proceed across the nucleolus, nucleoplasm, and cytoplasm with the help of over 200 assembly factors?"
+        },
+        {
+          "activation": 0.014449471607804298,
+          "prompt_id": "SCIENCE_004356",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 15,
+          "prompt_text": "Use Mechanics to predict what would happen if a key condition in a spring-mass system oscillates after damping is introduced changed. Show the reasoning and identify a testable prediction. And explain what changes if the dominant limiting factor is removed."
+        },
+        {
+          "activation": 0.014046194031834602,
+          "prompt_id": "EMOTIONS_002893",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 11,
+          "prompt_text": "What are secondary emotional responses (such as feeling ashamed about feeling anxious), and how do they complicate emotional regulation?"
+        },
+        {
+          "activation": 0.013242894783616066,
+          "prompt_id": "SCIENCE_001632",
+          "domain": "SCIENCE",
+          "subdomain": "Planetary science",
+          "token_position": 7,
+          "prompt_text": "Contrast an impact crater preserves geological history with a rover detects mineral evidence of water, focusing on the shared scientific basis and the key distinction that determines their behavior. And identify the assumptions needed for the interpretation to hold."
+        },
+        {
+          "activation": 0.011651715263724327,
+          "prompt_id": "SCIENCE_001690",
+          "domain": "SCIENCE",
+          "subdomain": "Scientific instrumentation",
+          "token_position": 6,
+          "prompt_text": "Compare a measurement uncertainty must be reported and a measurement is traceable to a standard with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. While accounting for measurement uncertainty and possible confounding factors."
+        },
+        {
+          "activation": 0.010768961161375046,
+          "prompt_id": "DNA_003591",
+          "domain": "DNA",
+          "subdomain": "Structure",
+          "token_position": 12,
+          "prompt_text": "What is the role of counterions such as Na+, K+, and Mg2+ in neutralizing the backbone charge?"
+        },
+        {
+          "activation": 0.00870710052549839,
+          "prompt_id": "SCIENCE_003033",
+          "domain": "SCIENCE",
+          "subdomain": "Thermodynamics",
+          "token_position": 16,
+          "prompt_text": "How could knowledge of Thermodynamics be applied to reduce or manage a refrigerator transfers heat from a colder compartment? Outline the mechanism and trade-offs of the proposed solution. While accounting for measurement uncertainty and possible confounding factors."
+        },
+        {
+          "activation": 0.008092168718576431,
+          "prompt_id": "SCIENCE_003767",
+          "domain": "SCIENCE",
+          "subdomain": "Organic chemistry",
+          "token_position": 12,
+          "prompt_text": "An engineer or practitioner must respond to a product mixture contains enantiomers. Recommend an approach informed by Organic chemistry, including one risk and one validation step. While accounting for measurement uncertainty and possible confounding factors."
+        },
+        {
+          "activation": 0.005103837698698044,
+          "prompt_id": "EMOTIONS_002044",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 18,
+          "prompt_text": "Identify a common everyday phrase that could express wonder indirectly. Keep the situation culturally non-specific unless context is supplied."
+        }
+      ]
+    },
+    "3902": {
+      "activation_frequency": 0.9741412739555483,
+      "n_firing_tokens_in_validation": 95460,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 15607,
+        "DNA": 10636,
+        "GANDHI": 11062,
+        "HINDI": 36878,
+        "SCIENCE": 21277
+      },
+      "top_activating_examples": [
+        {
+          "activation": 6.071989059448242,
+          "prompt_id": "HINDI_000750",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 110,
+          "prompt_text": "\"राम ने रावण को बाण से मारा।\" इस वाक्य में कर्ता, कर्म और करण कारक के परसर्गों की उपस्थिति और क्रिया के लिंग-वचन पर उनके प्रभाव को स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 6.054128170013428,
+          "prompt_id": "HINDI_002279",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 143,
+          "prompt_text": "इस प्रकार के संवाद में सहमति का संकेत पहचानने के लिए कौन-से भाषिक संकेत उपयोगी होते हैं? उदाहरण: दो मित्र एक-दूसरे से अनौपचारिक संबोधन और संक्षिप्त वाक्य प्रयोग करते हैं।"
+        },
+        {
+          "activation": 6.033324718475342,
+          "prompt_id": "SCIENCE_002305",
+          "domain": "SCIENCE",
+          "subdomain": "Plant physiology",
+          "token_position": 27,
+          "prompt_text": "What established evidence or measurement is commonly used to characterize Plant physiology, and what does it reveal? Anchor your answer in the established scientific concept, not an illustrative analogy."
+        },
+        {
+          "activation": 6.032196998596191,
+          "prompt_id": "HINDI_004006",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 79,
+          "prompt_text": "‘क्षणिक’ और ‘स्थायी’ विपरीत अर्थ देते हैं। किसी अनुभव के वर्णन में दोनों का प्रयोग करके अंतर स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 6.026663780212402,
+          "prompt_id": "SCIENCE_002180",
+          "domain": "SCIENCE",
+          "subdomain": "Microbiology",
+          "token_position": 27,
+          "prompt_text": "What established evidence or measurement is commonly used to characterize Microbiology, and what does it reveal? Anchor your answer in the established scientific concept, not an illustrative analogy."
+        },
+        {
+          "activation": 6.024421215057373,
+          "prompt_id": "SCIENCE_002428",
+          "domain": "SCIENCE",
+          "subdomain": "Physical chemistry",
+          "token_position": 26,
+          "prompt_text": "Identify the essential components of Physical chemistry and explain the role of each in the phenomenon. Anchor your answer in the established scientific concept, not an illustrative analogy."
+        },
+        {
+          "activation": 6.024421215057373,
+          "prompt_id": "SCIENCE_002772",
+          "domain": "SCIENCE",
+          "subdomain": "Physical chemistry",
+          "token_position": 26,
+          "prompt_text": "Identify the essential components of Physical chemistry and explain the role of each in the phenomenon. Anchor your answer in the established scientific concept, not an illustrative analogy."
+        },
+        {
+          "activation": 6.02327823638916,
+          "prompt_id": "SCIENCE_002090",
+          "domain": "SCIENCE",
+          "subdomain": "Electrochemistry",
+          "token_position": 27,
+          "prompt_text": "What established evidence or measurement is commonly used to characterize Electrochemistry, and what does it reveal? Anchor your answer in the established scientific concept, not an illustrative analogy."
+        },
+        {
+          "activation": 6.02327823638916,
+          "prompt_id": "SCIENCE_002783",
+          "domain": "SCIENCE",
+          "subdomain": "Electrochemistry",
+          "token_position": 27,
+          "prompt_text": "What established evidence or measurement is commonly used to characterize Electrochemistry, and what does it reveal? Anchor your answer in the established scientific concept, not an illustrative analogy."
+        },
+        {
+          "activation": 6.021237373352051,
+          "prompt_id": "SCIENCE_002684",
+          "domain": "SCIENCE",
+          "subdomain": "Scientific instrumentation",
+          "token_position": 27,
+          "prompt_text": "What established evidence or measurement is commonly used to characterize Scientific instrumentation, and what does it reveal? Anchor your answer in the established scientific concept, not an illustrative analogy."
+        },
+        {
+          "activation": 6.019721031188965,
+          "prompt_id": "SCIENCE_002383",
+          "domain": "SCIENCE",
+          "subdomain": "Thermodynamics",
+          "token_position": 26,
+          "prompt_text": "Identify the essential components of Thermodynamics and explain the role of each in the phenomenon. Anchor your answer in the established scientific concept, not an illustrative analogy."
+        },
+        {
+          "activation": 6.0195441246032715,
+          "prompt_id": "SCIENCE_002284",
+          "domain": "SCIENCE",
+          "subdomain": "Planetary science",
+          "token_position": 27,
+          "prompt_text": "Identify the essential components of Planetary science and explain the role of each in the phenomenon. Anchor your answer in the established scientific concept, not an illustrative analogy."
+        },
+        {
+          "activation": 6.019514560699463,
+          "prompt_id": "SCIENCE_002271",
+          "domain": "SCIENCE",
+          "subdomain": "Astrophysics",
+          "token_position": 28,
+          "prompt_text": "What is the defining mechanism or principle underlying Astrophysics, and what key observable feature follows from it? Anchor your answer in the established scientific concept, not an illustrative analogy."
+        },
+        {
+          "activation": 6.019374370574951,
+          "prompt_id": "SCIENCE_002150",
+          "domain": "SCIENCE",
+          "subdomain": "Ecology",
+          "token_position": 26,
+          "prompt_text": "What established evidence or measurement is commonly used to characterize Ecology, and what does it reveal? Anchor your answer in the established scientific concept, not an illustrative analogy."
+        },
+        {
+          "activation": 6.018710613250732,
+          "prompt_id": "SCIENCE_002913",
+          "domain": "SCIENCE",
+          "subdomain": "Oceanography",
+          "token_position": 27,
+          "prompt_text": "What established evidence or measurement is commonly used to characterize Oceanography, and what does it reveal? Anchor your answer in the established scientific concept, not an illustrative analogy."
+        },
+        {
+          "activation": 6.0181355476379395,
+          "prompt_id": "SCIENCE_002632",
+          "domain": "SCIENCE",
+          "subdomain": "Planetary science",
+          "token_position": 29,
+          "prompt_text": "Which structural, functional, or physical property characterizes Planetary science, and how is that property established? Anchor your answer in the established scientific concept, not an illustrative analogy."
+        },
+        {
+          "activation": 6.017938137054443,
+          "prompt_id": "SCIENCE_002509",
+          "domain": "SCIENCE",
+          "subdomain": "Neuroscience",
+          "token_position": 26,
+          "prompt_text": "What established evidence or measurement is commonly used to characterize Neuroscience, and what does it reveal? Anchor your answer in the established scientific concept, not an illustrative analogy."
+        },
+        {
+          "activation": 6.0176825523376465,
+          "prompt_id": "SCIENCE_002898",
+          "domain": "SCIENCE",
+          "subdomain": "Biotechnology",
+          "token_position": 27,
+          "prompt_text": "What established evidence or measurement is commonly used to characterize Biotechnology, and what does it reveal? Anchor your answer in the established scientific concept, not an illustrative analogy."
+        },
+        {
+          "activation": 6.016592979431152,
+          "prompt_id": "SCIENCE_002635",
+          "domain": "SCIENCE",
+          "subdomain": "Planetary science",
+          "token_position": 29,
+          "prompt_text": "What is the defining mechanism or principle underlying Planetary science, and what key observable feature follows from it? Anchor your answer in the established scientific concept, not an illustrative analogy."
+        },
+        {
+          "activation": 6.015111923217773,
+          "prompt_id": "SCIENCE_002094",
+          "domain": "SCIENCE",
+          "subdomain": "Chemical kinetics",
+          "token_position": 26,
+          "prompt_text": "Identify the essential components of Chemical kinetics and explain the role of each in the phenomenon. Anchor your answer in the established scientific concept, not an illustrative analogy."
+        }
+      ]
+    },
+    "4037": {
+      "activation_frequency": 0.017705165622385045,
+      "n_firing_tokens_in_validation": 1735,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 546,
+        "DNA": 254,
+        "GANDHI": 148,
+        "HINDI": 589,
+        "SCIENCE": 198
+      },
+      "top_activating_examples": [
+        {
+          "activation": 1.6236662864685059,
+          "prompt_id": "EMOTIONS_002094",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 6,
+          "prompt_text": "In an everyday interaction, a family member recalls an old event; the emotional significance is not stated directly. Explain what additional cue would help distinguish similar emotional states. List the emotional cues present and classify them as explicit or inferred."
+        },
+        {
+          "activation": 1.6236662864685059,
+          "prompt_id": "EMOTIONS_001092",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 6,
+          "prompt_text": "In an everyday interaction, a family member recalls an old event; the emotional significance is not stated directly. Account for at least two plausible interpretations rather than assuming certainty. Compare two plausible emotional readings and identify the cue that separates them."
+        },
+        {
+          "activation": 1.6236662864685059,
+          "prompt_id": "EMOTIONS_004092",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 6,
+          "prompt_text": "In an everyday interaction, a family member recalls an old event; the emotional significance is not stated directly. Account for at least two plausible interpretations rather than assuming certainty. Infer a tentative emotional interpretation from the evidence and justify it cautiously."
+        },
+        {
+          "activation": 1.6236662864685059,
+          "prompt_id": "EMOTIONS_000094",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 6,
+          "prompt_text": "In an everyday interaction, a family member recalls an old event; the emotional significance is not stated directly. Explain what additional cue would help distinguish similar emotional states. Interpret the possible emotional meaning in context and explain the role of the situation."
+        },
+        {
+          "activation": 1.5968143939971924,
+          "prompt_id": "EMOTIONS_000295",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 3,
+          "prompt_text": "Scenario: A family member interprets a practical suggestion as a lack of emotional support. Task: Interpret the social and emotional context while acknowledging what remains uncertain. Do not infer a person's internal state with certainty from a single behavior; state relevant uncertainty and avoid stereotypes."
+        },
+        {
+          "activation": 1.5968143939971924,
+          "prompt_id": "EMOTIONS_002295",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 3,
+          "prompt_text": "Scenario: A family member interprets a practical suggestion as a lack of emotional support. Task: Identify a relevant concept or distinction about empathy or social emotion. Do not infer a person's internal state with certainty from a single behavior; state relevant uncertainty and avoid stereotypes."
+        },
+        {
+          "activation": 1.5968143939971924,
+          "prompt_id": "EMOTIONS_001295",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 3,
+          "prompt_text": "Scenario: A family member interprets a practical suggestion as a lack of emotional support. Task: Compare two possible interpretations or responses and explain how context could favor either. Do not infer a person's internal state with certainty from a single behavior; state relevant uncertainty and avoid stereotypes."
+        },
+        {
+          "activation": 1.4900226593017578,
+          "prompt_id": "EMOTIONS_000148",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 6,
+          "prompt_text": "Consider this communication situation: a family member describes a bittersweet memory, and wants the mixed emotional quality to remain apparent. Describe how the audience and setting should shape the emotional register of the message."
+        },
+        {
+          "activation": 1.4089264869689941,
+          "prompt_id": "EMOTIONS_000931",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 2,
+          "prompt_text": "When a family discussion about holiday travel becomes tense, one sibling suggests taking a break to make tea and look at old family photo albums before deciding on dates. How does shifting shared attention lower interpersonal arousal?"
+        },
+        {
+          "activation": 1.405275583267212,
+          "prompt_id": "EMOTIONS_003361",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 4,
+          "prompt_text": "Suggest ways a family could build traditions that are likely to become warm memories for children later in life."
+        },
+        {
+          "activation": 1.2611647844314575,
+          "prompt_id": "EMOTIONS_000591",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 5,
+          "prompt_text": "After an earthquake, a family sits down together to create an emergency plan. How might this collective action reduce fear?"
+        },
+        {
+          "activation": 1.2568349838256836,
+          "prompt_id": "EMOTIONS_001802",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 15,
+          "prompt_text": "How do cues of bittersweet gratitude differ from unmixed celebration when a family gathers to honor a retiring mentor?"
+        },
+        {
+          "activation": 1.1554665565490723,
+          "prompt_id": "EMOTIONS_000396",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 2,
+          "prompt_text": "In some families, people rarely say \"I love you,\" but cooking someone's favorite meal is understood as affection. How does context shape how love is expressed and recognized?"
+        },
+        {
+          "activation": 1.1371599435806274,
+          "prompt_id": "HINDI_003651",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 18,
+          "prompt_text": "आपकी एक मित्र के परिवार में किसी का निधन हुआ है। फ़ोन पर संवेदना प्रकट करते समय हिंदी में क्या कहें और क्या न कहें? व्यावहारिक सुझाव दीजिए।"
+        },
+        {
+          "activation": 1.1207976341247559,
+          "prompt_id": "EMOTIONS_000624",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 13,
+          "prompt_text": "A doctor delivering bad news keeps a calm, steady tone. The family later says she seemed \"cold.\" How might empathy have been present yet perceived differently?"
+        },
+        {
+          "activation": 1.1050366163253784,
+          "prompt_id": "EMOTIONS_001425",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 19,
+          "prompt_text": "Compare how emotional cues are read in a formal workplace meeting with how they are read at a relaxed family gathering."
+        },
+        {
+          "activation": 1.0856566429138184,
+          "prompt_id": "EMOTIONS_000481",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 3,
+          "prompt_text": "Before giving the family any medical details, a nurse says \"I'm so sorry\" quietly and stays silent for a moment. What does the silence communicate?"
+        },
+        {
+          "activation": 1.083777666091919,
+          "prompt_id": "EMOTIONS_000931",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 23,
+          "prompt_text": "When a family discussion about holiday travel becomes tense, one sibling suggests taking a break to make tea and look at old family photo albums before deciding on dates. How does shifting shared attention lower interpersonal arousal?"
+        },
+        {
+          "activation": 1.0812435150146484,
+          "prompt_id": "HINDI_003999",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 6,
+          "prompt_text": "Hospital reception par stressed patients ke family members se baat karte samay staff ko kaisi reassuring aur respectful Hindi bhasha use karni chahiye?"
+        },
+        {
+          "activation": 1.042288064956665,
+          "prompt_id": "EMOTIONS_003628",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 7,
+          "prompt_text": "A grandparent feels left out of family decisions. Suggest ways family members could include them."
+        }
+      ]
+    }
+  },
+  "note": "Automated statistics only. No semantic label is auto-generated here -- see sae_<width>_reviewed.json for the separate human/teacher-reviewed interpretation pass."
+}

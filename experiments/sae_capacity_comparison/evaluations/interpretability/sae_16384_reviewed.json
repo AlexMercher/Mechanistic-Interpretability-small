@@ -1,0 +1,133 @@
+{
+  "dictionary_width": 16384,
+  "reviewer": "opus_teacher_model_pass",
+  "features": {
+    "102": {
+      "label": "template_driven",
+      "justification": "Despite a 42% EMOTIONS firing count, the top 20 are the identical SCIENCE template 'Analyze a X: identify plausible causes using Y, rank them based on evidence, and propose the next experiment or measurement.' with only the phenomenon slot changing. Keys on the recurring analysis frame."
+    },
+    "133": {
+      "label": "domain_or_script_marker",
+      "justification": "35% DNA and every top example is a DNA molecular-biology prompt (replication, transcription, structure), but subtopics vary broadly. Tracks the DNA domain rather than a specific concept."
+    },
+    "306": {
+      "label": "domain_or_script_marker",
+      "justification": "81% HINDI; top examples are uniformly Hindi grammar/semantics/pragmatics. A Hindi-script marker."
+    },
+    "460": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Activations fall off quickly (0.30 to <0.07) across SCIENCE physics/planetary prompts and scattered EMOTIONS prompts with no shared template or concept. Essentially noise."
+    },
+    "792": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Dead feature: single DNA firing at activation ~0.01."
+    },
+    "1657": {
+      "label": "domain_or_script_marker",
+      "justification": "79% HINDI; top examples are consistently Hindi syntax/semantics/pragmatics. A Hindi-script marker."
+    },
+    "1713": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Dead feature: single Hindi firing at activation ~0.05."
+    },
+    "2022": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Dead feature: single DNA firing at activation ~0.01."
+    },
+    "2468": {
+      "label": "domain_or_script_marker",
+      "justification": "45% DNA; the top examples are overwhelmingly DNA molecular-biology 'How does X...' questions at token position 2, spanning many subtopics (replication, transcription, mismatch repair). The unifying element is the DNA domain at a fixed early position, not a specific concept."
+    },
+    "3453": {
+      "label": "template_driven",
+      "justification": "The top activations are repeats of the same EMOTIONS prompt 'In an everyday interaction, a friend responds to a compliment...' at fixed token positions 13-14. The feature keys on a specific recurring template/position rather than a generalizable concept."
+    },
+    "4068": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Ubiquitous 'always-on' feature firing on 97% of tokens (activation ~7.2) uniformly across all domains. Not concept-specific."
+    },
+    "4105": {
+      "label": "domain_or_script_marker",
+      "justification": "94% HINDI; top examples are uniformly Hindi syntax/grammar. A Hindi-script marker."
+    },
+    "4831": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Dead feature: single Hindi firing at activation ~0.01."
+    },
+    "5101": {
+      "label": "template_driven",
+      "justification": "Top activations are the identical EMOTIONS template 'Consider this emotional regulation situation: A person feels X...' at fixed token positions (~21-26), varying only the named emotion. Keys on the boilerplate scenario frame."
+    },
+    "5969": {
+      "label": "template_driven",
+      "justification": "Top examples are the same 'Consider this emotional regulation situation: A person feels X' template (at positions ~35-41) plus the 'Describe a commonly recognized cognitive or situational component of Y' frame. Both are recurring EMOTIONS scaffolds; the feature keys on phrasing/position, a positional sibling of feature 5101."
+    },
+    "6352": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Very low activations (0.15 down to 0.07) spread across SCIENCE 'Contrast X with Y', genetics, and EMOTIONS prompts. Too weak and heterogeneous to interpret."
+    },
+    "6518": {
+      "label": "domain_or_script_marker",
+      "justification": "83% HINDI; top examples are uniformly Hindi vocabulary/semantics/pragmatics. A Hindi-script marker."
+    },
+    "6531": {
+      "label": "coherent_semantic",
+      "justification": "The strongest-activating examples are specifically about DNA alkylation-damage base-excision repair (alkyladenine DNA glycosylase/AAG/MPG removing alkylated purines), a narrow and consistent concept well below the level of the DNA domain. Activations are weak and the tail drifts into other DNA-structure content, so this is a cautious call, but the top stimuli share real meaning."
+    },
+    "6556": {
+      "label": "coherent_semantic",
+      "justification": "57% SCIENCE and every top example is classical-mechanics content (spring-mass oscillation, pendulum, projectile, rotating ice skater, satellite orbit) across Compare/Given/Use/Develop templates. A specific physics concept (classical mechanics of motion) that holds across varied phrasings."
+    },
+    "6667": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Dead feature: single DNA firing at activation ~0.02."
+    },
+    "6915": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Dead feature: single Hindi firing at activation ~0.04."
+    },
+    "6932": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Dead feature: single GANDHI firing at activation near zero."
+    },
+    "7003": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Dead feature: single Hindi firing at activation near zero (duplicate stimulus of other dead units)."
+    },
+    "10452": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Low activations (0.25 down) spread across GANDHI '1930 arrests' history, SCIENCE microbiology, and EMOTIONS prompts. No shared concept."
+    },
+    "10754": {
+      "label": "template_driven",
+      "justification": "Top 20 are the identical SCIENCE template 'How do a X and a Y differ in their underlying assumptions...' at high (2.1-2.26) activation, varying only the paired phenomena. Keys on the comparison frame."
+    },
+    "12191": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Dead feature: single Hindi firing at activation ~0.05."
+    },
+    "12405": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Dead feature: single Hindi firing at activation ~0.01."
+    },
+    "13597": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "52% DNA with weak activations leaning toward DNA repair (USP7/CSB/UVSSA deubiquitination) but interleaved with SCIENCE immunology and other content. Too weak and noisy to call a clean concept."
+    },
+    "15175": {
+      "label": "coherent_semantic",
+      "justification": "55% DNA and the top examples are tightly about lagging-strand replication / Okazaki-fragment processing (primase recruitment, RNA primer removal, ligation lag, strand displacement) across many question templates. A specific, meaning-level concept narrower than the DNA domain."
+    },
+    "15234": {
+      "label": "domain_or_script_marker",
+      "justification": "72% EMOTIONS; top examples are varied emotion concepts (humor as coping, affective forecasting, grief, jealousy, loneliness, survivor guilt, empathy). They share the EMOTIONS domain but no single specific concept."
+    }
+  },
+  "summary": {
+    "template_driven_count": 5,
+    "domain_or_script_marker_count": 7,
+    "coherent_semantic_count": 3,
+    "uninterpretable_or_mixed_count": 15,
+    "overall_note": "3 of 30 sampled features are convincingly semantic (6556 classical mechanics, 15175 lagging-strand/Okazaki replication, 6531 DNA alkylation repair), and notably these are crisper, single-subtopic concepts than most of 4096's semantic hits. Even so, the semantic fraction (3/30) is no higher than at 4096, and the high-frequency band is again dominated by Science/Emotion slot-filling templates plus the ubiquitous always-on unit (4068), while the rarest 'alive' band is mostly dead single-token features. Wider capacity here bought sharper individual concepts but not more of them in this sample."
+  }
+}

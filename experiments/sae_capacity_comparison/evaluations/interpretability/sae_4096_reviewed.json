@@ -1,0 +1,133 @@
+{
+  "dictionary_width": 4096,
+  "reviewer": "opus_teacher_model_pass",
+  "features": {
+    "64": {
+      "label": "domain_or_script_marker",
+      "justification": "All top-20 examples are EMOTIONS-domain prompts, but the concepts within them vary widely (compassion vs. sympathy, envy, boredom, theory of mind, pride, loneliness). The unifying element is 'emotion/social-cognition vocabulary,' i.e. the EMOTIONS domain, not any single specific concept."
+    },
+    "76": {
+      "label": "template_driven",
+      "justification": "The top 15 are the identical GANDHI template 'Place X within ethical argument; explain the sequence, actors and constraints...' at ~2.0 activation, with only the slot-filler changing. Activation collapses to ~1.0 for everything else, so the feature keys on the recurring phrasing/position, not meaning."
+    },
+    "221": {
+      "label": "template_driven",
+      "justification": "Fires on the comparative construction 'How does X differ from Y...' across GANDHI, DNA and EMOTIONS indiscriminately, at the 'differ' token. The shared element is the contrast template/token, not a concept, since the compared topics are unrelated across domains."
+    },
+    "328": {
+      "label": "domain_or_script_marker",
+      "justification": "73% of firings are HINDI and every top example is Devanagari/Hindi pragmatics or syntax content. Tracks Hindi-script content rather than any specific meaning."
+    },
+    "454": {
+      "label": "template_driven",
+      "justification": "Top examples are the repeated EMOTIONS scaffold 'In an everyday interaction, a [person]...; Infer a tentative emotional interpretation... Keep the interpretation tentative when the evidence is incomplete,' with interchangeable scenario slots. The feature keys on the boilerplate instruction phrasing."
+    },
+    "486": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Dead/near-dead: a single firing token on one romanized Hindi vocabulary prompt at activation 0.04. No evidence to support any interpretation."
+    },
+    "611": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "70% HINDI by firing count, yet the top activations interleave SCIENCE 'A dataset indicates X changes Y' causal templates with unrelated Hindi vocabulary/semantics prompts. No single coherent template, script, or concept unifies the top examples."
+    },
+    "836": {
+      "label": "domain_or_script_marker",
+      "justification": "Top examples are all EMOTIONS narrative vignettes (child's apology note, runner at finish line, coworker with crossed arms), firing at low token positions. They share only the EMOTIONS scenario-narrative domain, with no consistent specific concept."
+    },
+    "978": {
+      "label": "coherent_semantic",
+      "justification": "Top examples consistently concern emotion-regulation/coping strategies (constructive anger regulation, reframing failure, affect labeling, sensory grounding, breaking goals into steps) across varied templates (Contrast/Consider/How does/Why can). This is a specific, meaning-level theme rather than mere surface phrasing, though it stays within the EMOTIONS domain."
+    },
+    "1055": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Low activations (~0.45 down) spread across emotion recognition, DNA translation, Hindi vocabulary, and science biotech with no shared template or concept. Too heterogeneous to support a single story."
+    },
+    "1065": {
+      "label": "domain_or_script_marker",
+      "justification": "54% HINDI and the top examples are Hindi semantics/syntax (compound words, metaphor interpretation). Tracks Hindi-script content rather than a specific concept."
+    },
+    "1384": {
+      "label": "template_driven",
+      "justification": "Top 20 are the identical GANDHI counterfactual template 'If a key condition in X had differed, what plausible consequences might follow for political context?' with only the slot-filler changing. Keys on the recurring phrasing."
+    },
+    "1692": {
+      "label": "domain_or_script_marker",
+      "justification": "74% HINDI; top examples are uniformly Hindi grammar/pragmatics prompts. A Hindi-script/domain marker."
+    },
+    "1740": {
+      "label": "coherent_semantic",
+      "justification": "Despite 64% of firings being HINDI, the strongest activations are all EMOTIONS prompts about the emotional subtext/tone of specific phrasings (chatbot emotional phrases, backhanded compliments, hedged requests, warm name use). The preferred stimulus is a genuine concept — emotional connotation of word choice — holding across Compare/Why/How templates."
+    },
+    "1784": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Dead feature: one firing on a single romanized Hindi prompt at activation 0.05. No basis for interpretation."
+    },
+    "1892": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Dead feature: one firing token on a single Hindi prompt at activation 0.01."
+    },
+    "2038": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Near-dead: 8 firings, mostly at token position 0 of romanized Hindi vocabulary prompts, with tiny activations (<=0.08). No coherent pattern beyond firing weakly on prompt-initial tokens."
+    },
+    "2140": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Near-dead: only 2 firings at token position 0 with negligible activations. Nothing to interpret."
+    },
+    "2622": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Spread across GANDHI, EMOTIONS and HINDI with a weak lexical thread around the word 'choice/choices' (strategic choices, syntactic choices, CRISPR pathway choice, choosing a medium). The shared element is a surface lexeme whose meanings diverge wildly, so there is no coherent concept."
+    },
+    "2693": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Dead feature: a single Hindi firing at activation 0.05."
+    },
+    "2982": {
+      "label": "domain_or_script_marker",
+      "justification": "62% HINDI; top examples are consistently Hindi grammar/pragmatics/semantics. Tracks Hindi-script content."
+    },
+    "3036": {
+      "label": "template_driven",
+      "justification": "Top 20 are the identical SCIENCE template 'Compare a X and a Y with respect to mechanism, observable outcomes...' at high (2.0-2.5) activation, with only the paired science phenomena changing. Keys on the comparison template."
+    },
+    "3041": {
+      "label": "domain_or_script_marker",
+      "justification": "78% HINDI; top examples are Hindi semantics/syntax, with several repeats of the same Devanagari prompts. A Hindi-script marker."
+    },
+    "3249": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Near-dead: 2 firings at token position 0 with activations near zero."
+    },
+    "3265": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Dead feature: single Hindi firing at activation ~0.02."
+    },
+    "3306": {
+      "label": "template_driven",
+      "justification": "Top examples are the identical GANDHI template 'Describe the central factual elements of X, focusing on organizational method.' at ~1.4 activation, varying only the slot-filler. Keys on the recurring phrasing."
+    },
+    "3650": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Near-dead: 11 firings, almost all at token position 0 with tiny activations (<=0.06), mostly on prompt-initial tokens of assorted prompts. No interpretable pattern."
+    },
+    "3804": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Near-dead: 9 firings with negligible activations spread across DNA, SCIENCE and EMOTIONS. Nothing coherent."
+    },
+    "3902": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Ubiquitous 'always-on' feature firing on 97% of validation tokens (activation ~6) across all five domains uniformly. Such a near-constant feature is not concept-specific and supports no single interpretation."
+    },
+    "4037": {
+      "label": "coherent_semantic",
+      "justification": "Top examples concentrate on familial/kinship emotional context (family member recalling an event, interpreting a suggestion as lack of support, bittersweet family memories, family traditions) and the theme even carries into a Hindi condolence prompt, crossing script. The shared element is the meaning 'family/relational emotional context,' holding across recall/interpret/compare templates."
+    }
+  },
+  "summary": {
+    "template_driven_count": 6,
+    "domain_or_script_marker_count": 7,
+    "coherent_semantic_count": 3,
+    "uninterpretable_or_mixed_count": 14,
+    "overall_note": "Only 3 of 30 sampled features (978 emotion-regulation, 1740 emotional-subtext-of-phrasing, 4037 familial-emotional-context) look genuinely semantic, and even those are largely confined to the EMOTIONS domain. The high-frequency band is dominated by Gandhi/Science/Hindi slot-filling templates and Hindi-script markers, the median band mixes templates with domain markers, and almost all of the rarest 'alive' features are effectively dead singletons or the one ubiquitous always-on unit (3902). Genuine concepts are the exception, not the rule, at this width."
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "experiment_id": "SAE-4096",
+  "dictionary_width": 4096,
+  "expansion_factor": 2,
+  "role": "lower_capacity_comparison",
+  "extends": "common_config.json"
+}

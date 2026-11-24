@@ -36,3 +36,19 @@ MONISHA_SCIENCE_AND_gANDHI_1000_PROMPTS(1)/*
 experiments/activation_extraction_qwen3_1_7b/metadata/prompt_token_metadata.jsonl
 experiments/duplicate_language_embedding/embeddings/prompt_embeddings.npy
 experiments/duplicate_language_embedding/annotations/language_script_annotations.jsonl
+
+# Milestone 5 (SAE capacity comparison): never commit trained SAE weights/checkpoints
+# or residual-stream activation tensors -- only findings, configs, and evaluation
+# outputs are tracked. Checkpoints (*.pt) are already covered by the global *.pt rule
+# above; these directory-level rules are belt-and-suspenders against any non-.pt binary
+# landing in the same places, and explicitly exclude scratch/debug-run byproducts.
+experiments/sae_capacity_comparison/checkpoints/
+experiments/sae_capacity_comparison/checkpoints_pilot/
+experiments/sae_capacity_comparison/models/
+experiments/sae_capacity_comparison/**/_aborted_full_run/
+experiments/sae_capacity_comparison/**/_scratch_timing_tests/
+experiments/sae_capacity_comparison/**/_legacy_overwritten_no_seed_suffix/
+# Exception: the frozen preprocessing mu vector is tiny (~9KB, 2048 floats) and is an
+# essential reproducibility artifact (every SAE's input transform depends on it) --
+# unlike model weights, it is small, deterministic, and needed to reproduce results.
+!experiments/sae_capacity_comparison/preprocessing/mu_vector.pt

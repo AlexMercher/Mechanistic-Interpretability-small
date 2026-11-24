@@ -1,0 +1,3638 @@
+{
+  "dictionary_width": 16384,
+  "seed": 0,
+  "checkpoint": "best_val",
+  "selection_method": "10 highest-frequency + 10 median-frequency + 10 lowest-nonzero-frequency alive features",
+  "n_features_inspected": 30,
+  "features": {
+    "102": {
+      "activation_frequency": 0.00273486131803988,
+      "n_firing_tokens_in_validation": 268,
+      "domain_distribution_of_firing_tokens": {
+        "DNA": 34,
+        "EMOTIONS": 112,
+        "GANDHI": 6,
+        "HINDI": 20,
+        "SCIENCE": 96
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.5760835409164429,
+          "prompt_id": "SCIENCE_004657",
+          "domain": "SCIENCE",
+          "subdomain": "Plant physiology",
+          "token_position": 25,
+          "prompt_text": "Analyze a plant transports sugars from source to sink: identify plausible causes using Plant physiology, rank them based on evidence, and propose the next experiment or measurement. And identify which evidence would distinguish the proposed explanation from alternatives."
+        },
+        {
+          "activation": 0.5522861480712891,
+          "prompt_id": "SCIENCE_004537",
+          "domain": "SCIENCE",
+          "subdomain": "Physiology",
+          "token_position": 22,
+          "prompt_text": "Analyze digestive enzyme activity changes with pH: identify plausible causes using Physiology, rank them based on evidence, and propose the next experiment or measurement. And identify which evidence would distinguish the proposed explanation from alternatives."
+        },
+        {
+          "activation": 0.5455262064933777,
+          "prompt_id": "SCIENCE_004572",
+          "domain": "SCIENCE",
+          "subdomain": "Atmospheric science",
+          "token_position": 22,
+          "prompt_text": "Analyze cloud formation follows air cooling: identify plausible causes using Atmospheric science, rank them based on evidence, and propose the next experiment or measurement. And identify the assumptions needed for the interpretation to hold."
+        },
+        {
+          "activation": 0.5374801754951477,
+          "prompt_id": "SCIENCE_004343",
+          "domain": "SCIENCE",
+          "subdomain": "Biochemistry",
+          "token_position": 25,
+          "prompt_text": "Analyze ATP hydrolysis drives a coupled reaction: identify plausible causes using Biochemistry, rank them based on evidence, and propose the next experiment or measurement. While accounting for measurement uncertainty and possible confounding factors."
+        },
+        {
+          "activation": 0.5325515270233154,
+          "prompt_id": "SCIENCE_004223",
+          "domain": "SCIENCE",
+          "subdomain": "Atmospheric science",
+          "token_position": 25,
+          "prompt_text": "Analyze a storm intensifies over warm ocean water: identify plausible causes using Atmospheric science, rank them based on evidence, and propose the next experiment or measurement. While accounting for measurement uncertainty and possible confounding factors."
+        },
+        {
+          "activation": 0.5319192409515381,
+          "prompt_id": "SCIENCE_004278",
+          "domain": "SCIENCE",
+          "subdomain": "Astrophysics",
+          "token_position": 24,
+          "prompt_text": "Analyze a star evolves off the main sequence: identify plausible causes using Astrophysics, rank them based on evidence, and propose the next experiment or measurement. With a focus on causal mechanisms rather than descriptive labels."
+        },
+        {
+          "activation": 0.5294004082679749,
+          "prompt_id": "SCIENCE_004771",
+          "domain": "SCIENCE",
+          "subdomain": "Physical chemistry",
+          "token_position": 23,
+          "prompt_text": "Analyze reaction equilibrium shifts after pressure changes: identify plausible causes using Physical chemistry, rank them based on evidence, and propose the next experiment or measurement. Including how the system's boundary conditions influence the outcome."
+        },
+        {
+          "activation": 0.5291126370429993,
+          "prompt_id": "SCIENCE_004348",
+          "domain": "SCIENCE",
+          "subdomain": "Biochemistry",
+          "token_position": 23,
+          "prompt_text": "Analyze a biochemical assay measures reaction rate: identify plausible causes using Biochemistry, rank them based on evidence, and propose the next experiment or measurement. With a focus on causal mechanisms rather than descriptive labels."
+        },
+        {
+          "activation": 0.527522087097168,
+          "prompt_id": "SCIENCE_004856",
+          "domain": "SCIENCE",
+          "subdomain": "Neuroscience",
+          "token_position": 25,
+          "prompt_text": "Analyze a neurotransmitter is reuptaken after signaling: identify plausible causes using Neuroscience, rank them based on evidence, and propose the next experiment or measurement. Considering the timescale over which the process unfolds."
+        },
+        {
+          "activation": 0.5238819122314453,
+          "prompt_id": "SCIENCE_004512",
+          "domain": "SCIENCE",
+          "subdomain": "Immunology",
+          "token_position": 25,
+          "prompt_text": "Analyze an innate immune response precedes adaptive activation: identify plausible causes using Immunology, rank them based on evidence, and propose the next experiment or measurement. And identify the assumptions needed for the interpretation to hold."
+        },
+        {
+          "activation": 0.5238595604896545,
+          "prompt_id": "SCIENCE_004816",
+          "domain": "SCIENCE",
+          "subdomain": "Molecular biology",
+          "token_position": 22,
+          "prompt_text": "Analyze gene expression differs between tissues: identify plausible causes using Molecular biology, rank them based on evidence, and propose the next experiment or measurement. Considering the timescale over which the process unfolds."
+        },
+        {
+          "activation": 0.5163172483444214,
+          "prompt_id": "SCIENCE_004283",
+          "domain": "SCIENCE",
+          "subdomain": "Planetary science",
+          "token_position": 23,
+          "prompt_text": "Analyze a moon exhibits tidal heating: identify plausible causes using Planetary science, rank them based on evidence, and propose the next experiment or measurement. While accounting for measurement uncertainty and possible confounding factors."
+        },
+        {
+          "activation": 0.513871431350708,
+          "prompt_id": "SCIENCE_004083",
+          "domain": "SCIENCE",
+          "subdomain": "Electrochemistry",
+          "token_position": 24,
+          "prompt_text": "Analyze an electrode potential depends on ion concentration: identify plausible causes using Electrochemistry, rank them based on evidence, and propose the next experiment or measurement. While accounting for measurement uncertainty and possible confounding factors."
+        },
+        {
+          "activation": 0.5099782943725586,
+          "prompt_id": "SCIENCE_004367",
+          "domain": "SCIENCE",
+          "subdomain": "Electromagnetism",
+          "token_position": 23,
+          "prompt_text": "Analyze electromagnetic shielding reduces interference: identify plausible causes using Electromagnetism, rank them based on evidence, and propose the next experiment or measurement. And identify which evidence would distinguish the proposed explanation from alternatives."
+        },
+        {
+          "activation": 0.5071114301681519,
+          "prompt_id": "SCIENCE_004148",
+          "domain": "SCIENCE",
+          "subdomain": "Ecology",
+          "token_position": 23,
+          "prompt_text": "Analyze a wetland filters nutrients from runoff: identify plausible causes using Ecology, rank them based on evidence, and propose the next experiment or measurement. With a focus on causal mechanisms rather than descriptive labels."
+        },
+        {
+          "activation": 0.5036659240722656,
+          "prompt_id": "SCIENCE_004118",
+          "domain": "SCIENCE",
+          "subdomain": "Molecular biology",
+          "token_position": 22,
+          "prompt_text": "Analyze a mutation alters protein abundance: identify plausible causes using Molecular biology, rank them based on evidence, and propose the next experiment or measurement. With a focus on causal mechanisms rather than descriptive labels."
+        },
+        {
+          "activation": 0.5021287798881531,
+          "prompt_id": "SCIENCE_004362",
+          "domain": "SCIENCE",
+          "subdomain": "Electromagnetism",
+          "token_position": 27,
+          "prompt_text": "Analyze a wire's resistance changes as temperature rises: identify plausible causes using Electromagnetism, rank them based on evidence, and propose the next experiment or measurement. And identify the assumptions needed for the interpretation to hold."
+        },
+        {
+          "activation": 0.5010252594947815,
+          "prompt_id": "SCIENCE_004003",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 25,
+          "prompt_text": "Analyze a satellite maintains orbit while continually falling toward Earth: identify plausible causes using Mechanics, rank them based on evidence, and propose the next experiment or measurement. While accounting for measurement uncertainty and possible confounding factors."
+        },
+        {
+          "activation": 0.4981450140476227,
+          "prompt_id": "SCIENCE_004437",
+          "domain": "SCIENCE",
+          "subdomain": "Electrochemistry",
+          "token_position": 24,
+          "prompt_text": "Analyze a redox mediator changes reaction kinetics: identify plausible causes using Electrochemistry, rank them based on evidence, and propose the next experiment or measurement. And identify which evidence would distinguish the proposed explanation from alternatives."
+        },
+        {
+          "activation": 0.49122655391693115,
+          "prompt_id": "SCIENCE_004821",
+          "domain": "SCIENCE",
+          "subdomain": "Genetics",
+          "token_position": 26,
+          "prompt_text": "Analyze a recessive trait appears in siblings of unaffected parents: identify plausible causes using Genetics, rank them based on evidence, and propose the next experiment or measurement. Including how the system's boundary conditions influence the outcome."
+        }
+      ]
+    },
+    "133": {
+      "activation_frequency": 0.04797232483621446,
+      "n_firing_tokens_in_validation": 4701,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 948,
+        "DNA": 1657,
+        "GANDHI": 522,
+        "HINDI": 640,
+        "SCIENCE": 934
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.9296408891677856,
+          "prompt_id": "DNA_003835",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 18,
+          "prompt_text": "What are the roles of class I release factors RF1 and RF2 in stop codon recognition?"
+        },
+        {
+          "activation": 0.8993203639984131,
+          "prompt_id": "DNA_001868",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 5,
+          "prompt_text": "How does leading-strand synthesis at a blunt linear chromosome end also require 5'-end resection by nucleases such as Apollo and Exo1 to generate a 3' telomeric overhang?"
+        },
+        {
+          "activation": 0.8946061730384827,
+          "prompt_id": "DNA_000834",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 4,
+          "prompt_text": "How does complementary base pairing provide the structural basis for accurate templated copying of DNA?"
+        },
+        {
+          "activation": 0.8913455009460449,
+          "prompt_id": "DNA_001033",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 8,
+          "prompt_text": "How do rates of ribonucleotide incorporation by replicative polymerases affect genome integrity?"
+        },
+        {
+          "activation": 0.8882167339324951,
+          "prompt_id": "SCIENCE_004463",
+          "domain": "SCIENCE",
+          "subdomain": "Molecular biology",
+          "token_position": 7,
+          "prompt_text": "A dataset or observation indicates RNA splicing removes an intron. Explain the inference using Molecular biology, note a possible confounder, and suggest how to control it. Using a qualitative model before introducing any quantitative estimates."
+        },
+        {
+          "activation": 0.8750007152557373,
+          "prompt_id": "DNA_004996",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 6,
+          "prompt_text": "What happens to fertility and chromosome segregation when two geographically isolated populations fixed for different chromosomal inversions hybridize?"
+        },
+        {
+          "activation": 0.867830753326416,
+          "prompt_id": "DNA_002404",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 18,
+          "prompt_text": "How does the end-replication problem in linear eukaryotic chromosomes differ from replication termination in circular bacterial chromosomes?"
+        },
+        {
+          "activation": 0.8587883710861206,
+          "prompt_id": "DNA_001143",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 7,
+          "prompt_text": "How does cotranscriptional splicing couple to RNA polymerase II elongation?"
+        },
+        {
+          "activation": 0.8583441376686096,
+          "prompt_id": "DNA_003331",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 4,
+          "prompt_text": "What is polysome formation, and what can polysome abundance reveal about translation?"
+        },
+        {
+          "activation": 0.8557386994361877,
+          "prompt_id": "DNA_001778",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 12,
+          "prompt_text": "How do cellular ribonucleotide levels and rNTP incorporation affect the torsional properties and fragility of newly unwound DNA behind the fork?"
+        },
+        {
+          "activation": 0.8501377701759338,
+          "prompt_id": "DNA_003837",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 7,
+          "prompt_text": "What are the roles of polysome formation and ribosome spacing in translation efficiency?"
+        },
+        {
+          "activation": 0.8472652435302734,
+          "prompt_id": "DNA_001853",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 28,
+          "prompt_text": "How does Aprataxin (APTX) resolve abortive 5'-AMP-DNA intermediates generated during defective Okazaki fragment ligation?"
+        },
+        {
+          "activation": 0.8389790058135986,
+          "prompt_id": "DNA_000365",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 3,
+          "prompt_text": "How does base pairing between initiator tRNA and AUG establish the reading frame in eukaryotic translation?"
+        },
+        {
+          "activation": 0.838505744934082,
+          "prompt_id": "DNA_000157",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 12,
+          "prompt_text": "How does the induced-fit mechanism improve the accuracy of nucleotide incorporation by DNA polymerases?"
+        },
+        {
+          "activation": 0.8279709815979004,
+          "prompt_id": "DNA_003614",
+          "domain": "DNA",
+          "subdomain": "Structure",
+          "token_position": 14,
+          "prompt_text": "What is a T-loop at telomeres, and how does strand invasion arrange the strands within it?"
+        },
+        {
+          "activation": 0.8213342428207397,
+          "prompt_id": "DNA_001952",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 18,
+          "prompt_text": "How does DNA methylation within gene bodies affect RNA polymerase II elongation kinetics and exon inclusion?"
+        },
+        {
+          "activation": 0.819808840751648,
+          "prompt_id": "DNA_003743",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 4,
+          "prompt_text": "What is transcriptional bursting, and how does it generate cell-to-cell variability in gene expression?"
+        },
+        {
+          "activation": 0.8145626187324524,
+          "prompt_id": "DNA_003964",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 18,
+          "prompt_text": "What role does the XIST RNA play in the initiation and spread of X-chromosome inactivation in mammals?"
+        },
+        {
+          "activation": 0.811537504196167,
+          "prompt_id": "DNA_001581",
+          "domain": "DNA",
+          "subdomain": "Structure",
+          "token_position": 9,
+          "prompt_text": "How does negative supercoiling facilitate local strand separation in double-helical DNA?"
+        },
+        {
+          "activation": 0.8106335401535034,
+          "prompt_id": "DNA_001127",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 5,
+          "prompt_text": "How does alternative polyadenylation generate mRNA isoforms with distinct 3′ untranslated regions?"
+        }
+      ]
+    },
+    "306": {
+      "activation_frequency": 0.04967651080678409,
+      "n_firing_tokens_in_validation": 4868,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 254,
+        "DNA": 158,
+        "GANDHI": 225,
+        "HINDI": 3940,
+        "SCIENCE": 291
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.6505304574966431,
+          "prompt_id": "HINDI_000808",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 94,
+          "prompt_text": "वाक्य: \"लगातार तीन हार के बाद टीम का मनोबल पूरी तरह टूट चुका था, लेकिन कोच के शब्दों ने उनमें नई जान फूँक दी।\" 'नई जान फूँकना' का इस संदर्भ में क्या अभिप्राय है?"
+        },
+        {
+          "activation": 0.5933307409286499,
+          "prompt_id": "HINDI_002965",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 48,
+          "prompt_text": "हिंदी में 'भगवान भला करे' या 'खुश रहो' जैसे आशीर्वाद वचनों का प्रयोग धन्यवाद के उत्तर में किस प्रकार किया जाता है?"
+        },
+        {
+          "activation": 0.5911880731582642,
+          "prompt_id": "HINDI_004414",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 27,
+          "prompt_text": "'Ladkiyan gaana gaa rahi hain' mein 'rahi hain' mein ling-vachan ka mel kaise baitha?"
+        },
+        {
+          "activation": 0.5581075549125671,
+          "prompt_id": "HINDI_001214",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 38,
+          "prompt_text": "हिंदी और अंग्रेज़ी में कर्म-क्रिया अन्विति की संरचना की तुलना कीजिए; हिंदी के उदाहरण से मुख्य अंतर स्पष्ट करें।"
+        },
+        {
+          "activation": 0.5490642786026001,
+          "prompt_id": "HINDI_001677",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 48,
+          "prompt_text": "\"Mere paas time nahi hai\" aur \"Is hafte to mushkil hai, agle hafte dekhein?\" — dono inkaar mein bhavishya ki sambhavna ki tulna kijiye."
+        },
+        {
+          "activation": 0.5145992040634155,
+          "prompt_id": "HINDI_003959",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 79,
+          "prompt_text": "एक ग्राहक द्वारा रेस्तरां में गलत ऑर्डर आने की शिकायत करने पर वेटर को किस प्रकार की विनम्र क्षमा याचना और त्वरित सुधार की भाषा बोलनी चाहिए?"
+        },
+        {
+          "activation": 0.5104677081108093,
+          "prompt_id": "HINDI_003437",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 61,
+          "prompt_text": "विज्ञापन की एक पंक्ति लिखनी है जिसमें \"ही\", \"भी\" और \"तो\" जैसे निपातों का उपयोग असर पैदा करे। इनके व्याकरणिक उपयोग को ध्यान में रखते हुए तीन उदाहरण-पंक्तियाँ बनाइए।"
+        },
+        {
+          "activation": 0.508590579032898,
+          "prompt_id": "HINDI_003468",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 70,
+          "prompt_text": "Mujhe अपने दादाजी के लिए WhatsApp पर Hindi में birthday wishes लिखनी हैं। \"आप\" के साथ आदरसूचक verb agreement aur आशीर्वाद वाले subjunctive (\"आप स्वस्थ रहें\") का सही use कैसे करूँ?"
+        },
+        {
+          "activation": 0.5074567198753357,
+          "prompt_id": "HINDI_000119",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 66,
+          "prompt_text": "“घर लौटते समय उसने दुकान से दूध लिया” में समय और स्रोत बताने वाले पदबंध अलग कीजिए।"
+        },
+        {
+          "activation": 0.5028851628303528,
+          "prompt_id": "HINDI_001650",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 42,
+          "prompt_text": "\"Chal nikal\" aur \"Ab aap jaa sakte hain\" — kisi ko jaane ke liye kehne ke dono tareekon ki tulna kijiye."
+        },
+        {
+          "activation": 0.5019345879554749,
+          "prompt_id": "HINDI_000899",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 68,
+          "prompt_text": "वाक्य 'सीमा ने रीना को अपनी किताब पढ़ने के लिए दी।' में उद्देश्यवाचक पदबंध कौन-सा है और उसका रूप तिर्यक क्यों है?"
+        },
+        {
+          "activation": 0.4935823380947113,
+          "prompt_id": "HINDI_004923",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 25,
+          "prompt_text": "Vakya 'Mujhe do kitaabein aur ek kalam chahiye' mein alag-alag ling aur vachan ke karm hone par bhi 'chahiye' mein badlav kyun nahi hota?"
+        },
+        {
+          "activation": 0.4903441369533539,
+          "prompt_id": "HINDI_002104",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 18,
+          "prompt_text": "“कमरे के भीतर” पदबंध में “के” और “भीतर” की व्याकरणिक भूमिका स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 0.4886496961116791,
+          "prompt_id": "HINDI_000491",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 56,
+          "prompt_text": "\"नई नौकरी में उसके पैर जमने में छह महीने लगे।\" यहाँ \"पैर जमना\" का अर्थ क्या है?"
+        },
+        {
+          "activation": 0.4873685836791992,
+          "prompt_id": "HINDI_000808",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 100,
+          "prompt_text": "वाक्य: \"लगातार तीन हार के बाद टीम का मनोबल पूरी तरह टूट चुका था, लेकिन कोच के शब्दों ने उनमें नई जान फूँक दी।\" 'नई जान फूँकना' का इस संदर्भ में क्या अभिप्राय है?"
+        },
+        {
+          "activation": 0.4833068251609802,
+          "prompt_id": "HINDI_003896",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 125,
+          "prompt_text": "सरकारी विज्ञप्ति: 'योग्य उम्मीदवारों से अनुरोध है कि वे निर्धारित तिथि से पूर्व ऑनलाइन आवेदन करें।' इस वाक्य में 'वे' सर्वनाम किस पदबंध के लिए प्रयुक्त हुआ है?"
+        },
+        {
+          "activation": 0.479947566986084,
+          "prompt_id": "HINDI_000289",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 46,
+          "prompt_text": "इस बातचीत में शाब्दिक कथन और संभावित संवाद में बारी लेना के बीच संबंध स्पष्ट कीजिए। स्थिति: सहकर्मी किसी प्रस्ताव पर कहता है, “यह एक अलग दृष्टिकोण है।”"
+        },
+        {
+          "activation": 0.4746023118495941,
+          "prompt_id": "HINDI_000073",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 17,
+          "prompt_text": "Sandarbh mein 'woh' aur 've' ka prayog vyakti-vachan aur aadar ko kaise darshata hai?"
+        },
+        {
+          "activation": 0.4674226641654968,
+          "prompt_id": "HINDI_002680",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 17,
+          "prompt_text": "Deixis aur anaphora में फ़र्क क्या है? \"वह किताब मुझे दो\" (इशारा करते हुए) aur \"मैंने एक किताब खरीदी, वह बहुत अच्छी है\" से compare कीजिए।"
+        },
+        {
+          "activation": 0.46586835384368896,
+          "prompt_id": "HINDI_001988",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 36,
+          "prompt_text": "Doston ke beech 'Chalte hain' aur bado ke saamne 'Achha, ab aagya dijiye' kehne ke vidai shishtachar mein kya antar hai?"
+        }
+      ]
+    },
+    "460": {
+      "activation_frequency": 0.00273486131803988,
+      "n_firing_tokens_in_validation": 268,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 88,
+        "DNA": 20,
+        "GANDHI": 8,
+        "HINDI": 109,
+        "SCIENCE": 43
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.3013473451137543,
+          "prompt_id": "SCIENCE_001285",
+          "domain": "SCIENCE",
+          "subdomain": "Planetary science",
+          "token_position": 5,
+          "prompt_text": "Distinguish a planet's magnetic field protects its atmosphere from a planetary orbit exhibits resonance by identifying how each predicts an outcome when a relevant variable is changed. And identify the assumptions needed for the interpretation to hold."
+        },
+        {
+          "activation": 0.1600566804409027,
+          "prompt_id": "SCIENCE_004713",
+          "domain": "SCIENCE",
+          "subdomain": "Electromagnetism",
+          "token_position": 9,
+          "prompt_text": "Reason through a charged particle curves in a uniform magnetic field using Electromagnetism. Specify the assumptions, intermediate steps, and evidence needed to support the conclusion. And explain what changes if the dominant limiting factor is removed."
+        },
+        {
+          "activation": 0.10793904215097427,
+          "prompt_id": "SCIENCE_000077",
+          "domain": "SCIENCE",
+          "subdomain": "Physical chemistry",
+          "token_position": 7,
+          "prompt_text": "Researchers encounter a free-energy change predicts spontaneity under conditions. Analyze the context through Physical chemistry, including the likely boundary conditions and limitations of the explanation. Including how the system's boundary conditions influence the outcome."
+        },
+        {
+          "activation": 0.09042719751596451,
+          "prompt_id": "SCIENCE_003972",
+          "domain": "SCIENCE",
+          "subdomain": "Astrophysics",
+          "token_position": 10,
+          "prompt_text": "An engineer or practitioner must respond to a binary star orbit reveals mass. Recommend an approach informed by Astrophysics, including one risk and one validation step. With a focus on causal mechanisms rather than descriptive labels."
+        },
+        {
+          "activation": 0.08754751831293106,
+          "prompt_id": "SCIENCE_003077",
+          "domain": "SCIENCE",
+          "subdomain": "Physical chemistry",
+          "token_position": 11,
+          "prompt_text": "Design a practical approach to address a free-energy change predicts spontaneity under conditions using principles of Physical chemistry. Include constraints and a measurable success criterion. Including how the system's boundary conditions influence the outcome."
+        },
+        {
+          "activation": 0.08449312299489975,
+          "prompt_id": "SCIENCE_004003",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 5,
+          "prompt_text": "Analyze a satellite maintains orbit while continually falling toward Earth: identify plausible causes using Mechanics, rank them based on evidence, and propose the next experiment or measurement. While accounting for measurement uncertainty and possible confounding factors."
+        },
+        {
+          "activation": 0.08442535996437073,
+          "prompt_id": "SCIENCE_004989",
+          "domain": "SCIENCE",
+          "subdomain": "Planetary science",
+          "token_position": 7,
+          "prompt_text": "Given the observation that a planet's rotation affects circulation, formulate a hypothesis grounded in Planetary science and outline a sequence of tests that could discriminate it from an alternative. And identify the assumptions needed for the interpretation to hold."
+        },
+        {
+          "activation": 0.0823385939002037,
+          "prompt_id": "EMOTIONS_000432",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 4,
+          "prompt_text": "When you announce your engagement, a friend says \"Oh! When did this happen?\" and pauses before congratulating you. What might the pause signal?"
+        },
+        {
+          "activation": 0.0812758356332779,
+          "prompt_id": "SCIENCE_000703",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 7,
+          "prompt_text": "Within the setting of a satellite maintains orbit while continually falling toward Earth, trace the relevant causal chain involving Mechanics; distinguish direct evidence from inference. And explain what changes if the dominant limiting factor is removed."
+        },
+        {
+          "activation": 0.08093737810850143,
+          "prompt_id": "SCIENCE_001079",
+          "domain": "SCIENCE",
+          "subdomain": "Physical chemistry",
+          "token_position": 22,
+          "prompt_text": "Evaluate the relative strengths and limitations of a surface tension changes with surfactant concentration and a free-energy change predicts spontaneity under conditions for explaining or measuring the same kind of phenomenon. And explain what changes if the dominant limiting factor is removed."
+        },
+        {
+          "activation": 0.07910490036010742,
+          "prompt_id": "EMOTIONS_003143",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 9,
+          "prompt_text": "Consider this communication situation: a person declines an invitation they genuinely appreciate, while conveying warmth and a clear boundary. Describe one concrete adjustment to the communication channel or delivery that would help the message land as intended."
+        },
+        {
+          "activation": 0.07874314486980438,
+          "prompt_id": "EMOTIONS_000332",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 16,
+          "prompt_text": "At his father's funeral, a man laughs loudly when a cousin recalls a funny story about the deceased. What mixed emotions might be present, and why would it be a mistake to assume he is not grieving?"
+        },
+        {
+          "activation": 0.07582516968250275,
+          "prompt_id": "SCIENCE_004077",
+          "domain": "SCIENCE",
+          "subdomain": "Physical chemistry",
+          "token_position": 18,
+          "prompt_text": "Use Physical chemistry to predict what would happen if a key condition in a free-energy change predicts spontaneity under conditions changed. Show the reasoning and identify a testable prediction. Including how the system's boundary conditions influence the outcome."
+        },
+        {
+          "activation": 0.07405944913625717,
+          "prompt_id": "SCIENCE_000143",
+          "domain": "SCIENCE",
+          "subdomain": "Ecology",
+          "token_position": 9,
+          "prompt_text": "Researchers encounter an invasive species expands into a new habitat. Analyze the context through Ecology, including the likely boundary conditions and limitations of the explanation. While accounting for measurement uncertainty and possible confounding factors."
+        },
+        {
+          "activation": 0.06890595704317093,
+          "prompt_id": "EMOTIONS_000676",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 7,
+          "prompt_text": "Standing at the rim of a massive canyon at sunrise, a hiker falls silent, feeling small against the scale of the landscape and deeply moved by its beauty. Which complex emotion captures this state?"
+        },
+        {
+          "activation": 0.06608663499355316,
+          "prompt_id": "SCIENCE_000996",
+          "domain": "SCIENCE",
+          "subdomain": "Environmental science",
+          "token_position": 6,
+          "prompt_text": "An investigation reports that a recycling process has energy trade-offs. Explain how Environmental science accounts for the result, and identify one additional measurement that would strengthen the interpretation. Considering the timescale over which the process unfolds."
+        },
+        {
+          "activation": 0.06581737101078033,
+          "prompt_id": "EMOTIONS_004786",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 6,
+          "prompt_text": "Why can nostalgia be mistaken for simple regret if an interpreter overlooks the positive warmth and identity affirmation embedded in the speaker's reminiscence?"
+        },
+        {
+          "activation": 0.06574052572250366,
+          "prompt_id": "HINDI_004453",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 33,
+          "prompt_text": "\"उसने अपना काम किया\" और \"उसने उसका काम किया\" — दोनों वाक्यों में अर्थ-भेद क्यों है? निजवाचक सर्वनाम \"अपना\" के प्रयोग-नियम के आधार पर तर्क कीजिए।"
+        },
+        {
+          "activation": 0.06446346640586853,
+          "prompt_id": "EMOTIONS_000711",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 4,
+          "prompt_text": "A person declines an invitation to a close friend's wedding to attend a work conference, and years later frequently remarks that missing the wedding was one of their biggest mistakes. Which emotion persists in their reflection?"
+        },
+        {
+          "activation": 0.062051206827163696,
+          "prompt_id": "DNA_002145",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 15,
+          "prompt_text": "How does bacterial UvrC catalyze sequential 3' and 5' incisions around a lesion following UvrA dissociation?"
+        }
+      ]
+    },
+    "792": {
+      "activation_frequency": 1.0204706410596567e-05,
+      "n_firing_tokens_in_validation": 1,
+      "domain_distribution_of_firing_tokens": {
+        "DNA": 1
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.005123910494148731,
+          "prompt_id": "DNA_004178",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 34,
+          "prompt_text": "What role does the chi-psi subcomplex of the E. coli clamp loader play in bridging the lagging-strand polymerase to SSB-coated single-stranded DNA?"
+        }
+      ]
+    },
+    "1657": {
+      "activation_frequency": 0.04824785190930057,
+      "n_firing_tokens_in_validation": 4728,
+      "domain_distribution_of_firing_tokens": {
+        "DNA": 509,
+        "EMOTIONS": 283,
+        "GANDHI": 101,
+        "HINDI": 3726,
+        "SCIENCE": 109
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.5755932331085205,
+          "prompt_id": "HINDI_001572",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 50,
+          "prompt_text": "सहसंबंधी रचना (\"जो आया, वह...\") और अंतःस्थापित सापेक्ष उपवाक्य (\"वह लड़का, जो आया, ...\") में संरचनात्मक अंतर स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 0.5639817714691162,
+          "prompt_id": "HINDI_003947",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 125,
+          "prompt_text": "एक विद्यालय के प्रधानाचार्य द्वारा अभिभावकों को बच्चे की कम उपस्थिति के बारे में सूचित करने वाले पत्र में किस प्रकार का औपचारिक और सहयोगात्मक लहजा होना चाहिए?"
+        },
+        {
+          "activation": 0.5350655317306519,
+          "prompt_id": "HINDI_002276",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 33,
+          "prompt_text": "हिंदी के सामाजिक संवाद में अप्रत्यक्ष अनुरोध और सीधे कथन के बीच मुख्य अंतर क्या है? उदाहरण: एक विद्यार्थी अपने अध्यापक से कहता है, “क्या आप इसे फिर से समझा देंगे?” इस कथन के शाब्दिक अर्थ और संभावित आशय में अंतर पर ध्यान दें।"
+        },
+        {
+          "activation": 0.5313637256622314,
+          "prompt_id": "HINDI_002089",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 23,
+          "prompt_text": "संधि और समास में मूलभूत अंतर क्या है? हिंदी के उदाहरणों से समझाइए।"
+        },
+        {
+          "activation": 0.5194432735443115,
+          "prompt_id": "HINDI_002276",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 34,
+          "prompt_text": "हिंदी के सामाजिक संवाद में अप्रत्यक्ष अनुरोध और सीधे कथन के बीच मुख्य अंतर क्या है? उदाहरण: एक विद्यार्थी अपने अध्यापक से कहता है, “क्या आप इसे फिर से समझा देंगे?” इस कथन के शाब्दिक अर्थ और संभावित आशय में अंतर पर ध्यान दें।"
+        },
+        {
+          "activation": 0.5033909678459167,
+          "prompt_id": "HINDI_003211",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 90,
+          "prompt_text": "किसी हिंदी भाषा-शिक्षार्थी को 'राधा चाहती है कि मोहन आए' में परसर्गीय पदबंध समझाने के लिए चरणबद्ध syntactic अभ्यास तैयार कीजिए।"
+        },
+        {
+          "activation": 0.4977266192436218,
+          "prompt_id": "HINDI_002515",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 86,
+          "prompt_text": "\"जिसका कोई शत्रु न हो — अजातशत्रु\" जैसे शब्द अपने घटकों के अर्थ से कैसे बनते हैं? संघटनात्मक अर्थ (compositional meaning) के सिद्धांत से समझाइए।"
+        },
+        {
+          "activation": 0.49749547243118286,
+          "prompt_id": "HINDI_000809",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 105,
+          "prompt_text": "वाक्य: \"वह आदमी ऊपर से जितना मीठा दिखता है, अंदर से उतना ही कड़वा है।\" इस कथन में 'मीठा' और 'कड़वा' किन चारित्रिक विशेषताओं के अर्थ दे रहे हैं?"
+        },
+        {
+          "activation": 0.49215012788772583,
+          "prompt_id": "HINDI_001289",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 51,
+          "prompt_text": "इस प्रसंग में शाब्दिक अर्थ और संदर्भ-आधारित संदर्भसूचक शब्द की तुलना कीजिए। बातचीत का संदर्भ: वक्ता किसी स्थान की ओर इशारा करके “यहाँ” और “वहाँ” कहता है।"
+        },
+        {
+          "activation": 0.4884589612483978,
+          "prompt_id": "HINDI_000870",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 73,
+          "prompt_text": "वाक्य 'मेरा मानना है कि बारिश रुकने के बाद ही यात्रा शुरू करनी चाहिए।' में मुख्य उपवाक्य और आश्रित उपवाक्यों की सीमाएं निर्धारित कीजिए।"
+        },
+        {
+          "activation": 0.4835207164287567,
+          "prompt_id": "HINDI_001572",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 43,
+          "prompt_text": "सहसंबंधी रचना (\"जो आया, वह...\") और अंतःस्थापित सापेक्ष उपवाक्य (\"वह लड़का, जो आया, ...\") में संरचनात्मक अंतर स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 0.48098865151405334,
+          "prompt_id": "HINDI_000767",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 103,
+          "prompt_text": "\"उसे बुखार आ गया है, इसलिए वह स्कूल नहीं जा पाएगा।\" इस वाक्य में 'जा पाएगा' सहायक क्रिया संयोजन से किस व्याकरणिक अर्थ-पक्ष का बोध होता है?"
+        },
+        {
+          "activation": 0.47004109621047974,
+          "prompt_id": "HINDI_000870",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 90,
+          "prompt_text": "वाक्य 'मेरा मानना है कि बारिश रुकने के बाद ही यात्रा शुरू करनी चाहिए।' में मुख्य उपवाक्य और आश्रित उपवाक्यों की सीमाएं निर्धारित कीजिए।"
+        },
+        {
+          "activation": 0.4676716923713684,
+          "prompt_id": "HINDI_003723",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 95,
+          "prompt_text": "किसी सरकारी कार्यालय को सूचना के अधिकार (RTI) के तहत आवेदन लिखते समय बोलचाल की भाषा के स्थान पर किन प्रशासनिक हिंदी शब्दों का प्रयोग अधिक प्रभावी होगा?"
+        },
+        {
+          "activation": 0.4675379991531372,
+          "prompt_id": "HINDI_000809",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 108,
+          "prompt_text": "वाक्य: \"वह आदमी ऊपर से जितना मीठा दिखता है, अंदर से उतना ही कड़वा है।\" इस कथन में 'मीठा' और 'कड़वा' किन चारित्रिक विशेषताओं के अर्थ दे रहे हैं?"
+        },
+        {
+          "activation": 0.46697843074798584,
+          "prompt_id": "HINDI_000561",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 77,
+          "prompt_text": "\"वह किताब, जो तुमने मुझे दी थी, बहुत रोचक है।\" इस वाक्य में सापेक्ष उपवाक्य मुख्य उपवाक्य के भीतर कहाँ अंतःस्थापित है?"
+        },
+        {
+          "activation": 0.46252068877220154,
+          "prompt_id": "HINDI_004006",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 27,
+          "prompt_text": "‘क्षणिक’ और ‘स्थायी’ विपरीत अर्थ देते हैं। किसी अनुभव के वर्णन में दोनों का प्रयोग करके अंतर स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 0.4613882303237915,
+          "prompt_id": "HINDI_002276",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 35,
+          "prompt_text": "हिंदी के सामाजिक संवाद में अप्रत्यक्ष अनुरोध और सीधे कथन के बीच मुख्य अंतर क्या है? उदाहरण: एक विद्यार्थी अपने अध्यापक से कहता है, “क्या आप इसे फिर से समझा देंगे?” इस कथन के शाब्दिक अर्थ और संभावित आशय में अंतर पर ध्यान दें।"
+        },
+        {
+          "activation": 0.45852357149124146,
+          "prompt_id": "HINDI_003723",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 100,
+          "prompt_text": "किसी सरकारी कार्यालय को सूचना के अधिकार (RTI) के तहत आवेदन लिखते समय बोलचाल की भाषा के स्थान पर किन प्रशासनिक हिंदी शब्दों का प्रयोग अधिक प्रभावी होगा?"
+        },
+        {
+          "activation": 0.4580492377281189,
+          "prompt_id": "HINDI_002285",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 61,
+          "prompt_text": "इस प्रकार के संवाद में विनम्र अस्वीकृति पहचानने के लिए कौन-से भाषिक संकेत उपयोगी होते हैं? उदाहरण: एक वक्ता कहता है, “फिर वही बात!” और बातचीत में झुंझलाहट दिखाता है।"
+        }
+      ]
+    },
+    "1713": {
+      "activation_frequency": 1.0204706410596567e-05,
+      "n_firing_tokens_in_validation": 1,
+      "domain_distribution_of_firing_tokens": {
+        "HINDI": 1
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.054733723402023315,
+          "prompt_id": "HINDI_000073",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 0,
+          "prompt_text": "Sandarbh mein 'woh' aur 've' ka prayog vyakti-vachan aur aadar ko kaise darshata hai?"
+        }
+      ]
+    },
+    "2022": {
+      "activation_frequency": 1.0204706410596567e-05,
+      "n_firing_tokens_in_validation": 1,
+      "domain_distribution_of_firing_tokens": {
+        "DNA": 1
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.012114892713725567,
+          "prompt_id": "DNA_000663",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 12,
+          "prompt_text": "How can population stratification produce spurious associations in genome-wide association studies?"
+        }
+      ]
+    },
+    "2468": {
+      "activation_frequency": 0.055033981672347285,
+      "n_firing_tokens_in_validation": 5393,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 1161,
+        "DNA": 2450,
+        "GANDHI": 644,
+        "HINDI": 496,
+        "SCIENCE": 642
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.9338545203208923,
+          "prompt_id": "DNA_004793",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 2,
+          "prompt_text": "How is replication fidelity measured using lacZ forward mutation assays or whole-genome sequencing of mutation accumulation lines?"
+        },
+        {
+          "activation": 0.8138200044631958,
+          "prompt_id": "EMOTIONS_002815",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 2,
+          "prompt_text": "How does register shifting—moving between casual, colloquial language and stiff, formal phrasing—communicate changes in emotional closeness or tension?"
+        },
+        {
+          "activation": 0.80592942237854,
+          "prompt_id": "DNA_001089",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 3,
+          "prompt_text": "How does elongation rate influence alternative splicing through kinetic coupling?"
+        },
+        {
+          "activation": 0.7451121807098389,
+          "prompt_id": "DNA_000387",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 2,
+          "prompt_text": "How does translation termination begin when a stop codon enters the ribosomal A site?"
+        },
+        {
+          "activation": 0.7424558997154236,
+          "prompt_id": "DNA_002165",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 2,
+          "prompt_text": "How does ATP binding convert MutS/MutSalpha from a mismatch-recognition state into a sliding clamp that diffuses along the DNA contour?"
+        },
+        {
+          "activation": 0.7411922812461853,
+          "prompt_id": "DNA_000877",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 2,
+          "prompt_text": "How does recruitment of Cdc45 and the GINS complex convert the MCM double hexamer into the active CMG helicase?"
+        },
+        {
+          "activation": 0.7357247471809387,
+          "prompt_id": "EMOTIONS_001374",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 2,
+          "prompt_text": "How does frustration differ from disappointment?"
+        },
+        {
+          "activation": 0.731502115726471,
+          "prompt_id": "DNA_004266",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 2,
+          "prompt_text": "What is transcription-coupled nucleotide excision repair, and how does a stalled RNA polymerase II recruit CSB and CSA?"
+        },
+        {
+          "activation": 0.7299659848213196,
+          "prompt_id": "DNA_003743",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 2,
+          "prompt_text": "What is transcriptional bursting, and how does it generate cell-to-cell variability in gene expression?"
+        },
+        {
+          "activation": 0.7285061478614807,
+          "prompt_id": "DNA_003216",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 2,
+          "prompt_text": "What is transcriptional interference, and how can one transcription unit affect another?"
+        },
+        {
+          "activation": 0.7285061478614807,
+          "prompt_id": "DNA_003782",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 2,
+          "prompt_text": "What is transcriptional read-through, and what are its consequences for downstream genes?"
+        },
+        {
+          "activation": 0.7266979813575745,
+          "prompt_id": "DNA_002468",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 2,
+          "prompt_text": "How does mismatch repair distinguish newly introduced mismatched bases from correctly paired nucleotides in DNA?"
+        },
+        {
+          "activation": 0.7259225249290466,
+          "prompt_id": "DNA_001337",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 2,
+          "prompt_text": "How does mismatch repair improve replication fidelity by roughly two orders of magnitude?"
+        },
+        {
+          "activation": 0.7226724028587341,
+          "prompt_id": "DNA_002672",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 2,
+          "prompt_text": "How does σ54-dependent initiation differ mechanistically from σ70-dependent initiation, including the need for bacterial enhancer-binding proteins?"
+        },
+        {
+          "activation": 0.7213224768638611,
+          "prompt_id": "DNA_001097",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 2,
+          "prompt_text": "How does transcriptional attenuation in the trp operon couple ribosome position to terminator formation?"
+        },
+        {
+          "activation": 0.7190141081809998,
+          "prompt_id": "DNA_003855",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 2,
+          "prompt_text": "What is adaptive mutation or stress-induced mutagenesis in bacteria, and why has it been controversial?"
+        },
+        {
+          "activation": 0.7169700264930725,
+          "prompt_id": "DNA_002044",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 2,
+          "prompt_text": "How do splice-site mutations at the canonical GT-AG dinucleotide boundaries alter mRNA processing?"
+        },
+        {
+          "activation": 0.7148537039756775,
+          "prompt_id": "DNA_001380",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 3,
+          "prompt_text": "How does recessive epistasis explain coat color inheritance in Labrador retrievers?"
+        },
+        {
+          "activation": 0.7121890783309937,
+          "prompt_id": "DNA_004364",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 3,
+          "prompt_text": "What role does error-prone DNA polymerase beta play in generating somatic hypermutation patterns?"
+        },
+        {
+          "activation": 0.7079214453697205,
+          "prompt_id": "DNA_002695",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 3,
+          "prompt_text": "How do reversion mutations and suppressor mutations differ in restoring a wild-type phenotype?"
+        }
+      ]
+    },
+    "3453": {
+      "activation_frequency": 0.00273486131803988,
+      "n_firing_tokens_in_validation": 268,
+      "domain_distribution_of_firing_tokens": {
+        "DNA": 62,
+        "EMOTIONS": 138,
+        "GANDHI": 6,
+        "HINDI": 29,
+        "SCIENCE": 33
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.5352881550788879,
+          "prompt_id": "EMOTIONS_001130",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 13,
+          "prompt_text": "In an everyday interaction, a friend responds to a compliment; the response may reflect several possible emotions. Explain what additional cue would help distinguish similar emotional states. Compare two plausible emotional readings and identify the cue that separates them."
+        },
+        {
+          "activation": 0.5352881550788879,
+          "prompt_id": "EMOTIONS_002130",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 13,
+          "prompt_text": "In an everyday interaction, a friend responds to a compliment; the response may reflect several possible emotions. Explain what additional cue would help distinguish similar emotional states. List the emotional cues present and classify them as explicit or inferred."
+        },
+        {
+          "activation": 0.5352881550788879,
+          "prompt_id": "EMOTIONS_004130",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 13,
+          "prompt_text": "In an everyday interaction, a friend responds to a compliment; the response may reflect several possible emotions. Explain what additional cue would help distinguish similar emotional states. Infer a tentative emotional interpretation from the evidence and justify it cautiously."
+        },
+        {
+          "activation": 0.5349949598312378,
+          "prompt_id": "EMOTIONS_003131",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 13,
+          "prompt_text": "In an everyday interaction, a friend responds to a compliment; the response may reflect several possible emotions. Assess whether the evidence suggests a single emotion, a mixed state, or ambiguity. Describe a fair, practical interpretation an observer could use without making assumptions."
+        },
+        {
+          "activation": 0.2584288418292999,
+          "prompt_id": "EMOTIONS_000471",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 3,
+          "prompt_text": "At a farewell party, a colleague smiles and says, \"It won't be the same without you.\" What mixed emotional message is being expressed?"
+        },
+        {
+          "activation": 0.21243496239185333,
+          "prompt_id": "EMOTIONS_000342",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 9,
+          "prompt_text": "A traveler stands at the edge of the Grand Canyon and feels small, quiet, and moved. What emotion best fits this experience, and what features of the situation evoke it?"
+        },
+        {
+          "activation": 0.19723136723041534,
+          "prompt_id": "EMOTIONS_003131",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 14,
+          "prompt_text": "In an everyday interaction, a friend responds to a compliment; the response may reflect several possible emotions. Assess whether the evidence suggests a single emotion, a mixed state, or ambiguity. Describe a fair, practical interpretation an observer could use without making assumptions."
+        },
+        {
+          "activation": 0.19588258862495422,
+          "prompt_id": "EMOTIONS_001130",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 14,
+          "prompt_text": "In an everyday interaction, a friend responds to a compliment; the response may reflect several possible emotions. Explain what additional cue would help distinguish similar emotional states. Compare two plausible emotional readings and identify the cue that separates them."
+        },
+        {
+          "activation": 0.19588258862495422,
+          "prompt_id": "EMOTIONS_002130",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 14,
+          "prompt_text": "In an everyday interaction, a friend responds to a compliment; the response may reflect several possible emotions. Explain what additional cue would help distinguish similar emotional states. List the emotional cues present and classify them as explicit or inferred."
+        },
+        {
+          "activation": 0.19588258862495422,
+          "prompt_id": "EMOTIONS_004130",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 14,
+          "prompt_text": "In an everyday interaction, a friend responds to a compliment; the response may reflect several possible emotions. Explain what additional cue would help distinguish similar emotional states. Infer a tentative emotional interpretation from the evidence and justify it cautiously."
+        },
+        {
+          "activation": 0.18632079660892487,
+          "prompt_id": "HINDI_000720",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 1,
+          "prompt_text": "Sentence: \"Is delicate matter par kisi bhi tarah ki jaldbaazi situation ko aur jatil bana sakti hai.\" Yahan 'jatil' ka kya sense hai?"
+        },
+        {
+          "activation": 0.18536464869976044,
+          "prompt_id": "HINDI_000865",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 1,
+          "prompt_text": "Sentence: \"Usne apne career mein कई utaar-chadhav dekhe hain, par kabhi raasta nahi badla.\" Yahan 'utaar-chadhav' aur 'raasta badalna' ke contextual meanings kya hain?"
+        },
+        {
+          "activation": 0.16200339794158936,
+          "prompt_id": "EMOTIONS_000386",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 2,
+          "prompt_text": "At a party, someone hears guests praising a novel they secretly ghostwrote for a friend whose name is on the cover. What emotions might they feel?"
+        },
+        {
+          "activation": 0.15017151832580566,
+          "prompt_id": "DNA_002044",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 12,
+          "prompt_text": "How do splice-site mutations at the canonical GT-AG dinucleotide boundaries alter mRNA processing?"
+        },
+        {
+          "activation": 0.12940551340579987,
+          "prompt_id": "SCIENCE_001774",
+          "domain": "SCIENCE",
+          "subdomain": "Physical chemistry",
+          "token_position": 10,
+          "prompt_text": "Compare a gas deviates from ideal behavior at high pressure and a reaction rate increases with temperature with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. And identify which evidence would distinguish the proposed explanation from alternatives."
+        },
+        {
+          "activation": 0.12897889316082,
+          "prompt_id": "EMOTIONS_000152",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 37,
+          "prompt_text": "Consider this communication situation: a friend explains why a joke felt hurtful, without assigning motives to the person who made it. Show how the same emotional intention could be expressed differently in this context than in a casual one."
+        },
+        {
+          "activation": 0.12672847509384155,
+          "prompt_id": "SCIENCE_000691",
+          "domain": "SCIENCE",
+          "subdomain": "Biochemistry",
+          "token_position": 11,
+          "prompt_text": "An investigation reports that an enzyme's activity changes with substrate concentration. Explain how Biochemistry accounts for the result, and identify one additional measurement that would strengthen the interpretation. With attention to the distinction between an ideal model and real observations."
+        },
+        {
+          "activation": 0.1250852346420288,
+          "prompt_id": "EMOTIONS_000793",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 12,
+          "prompt_text": "A runner crosses the finish line of her first marathon, bends over with her hands on her knees gasping for air, and breaks into a wide grin while tears run down her cheeks. What combination of physical and emotional signals is occurring?"
+        },
+        {
+          "activation": 0.1113596111536026,
+          "prompt_id": "EMOTIONS_000676",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 9,
+          "prompt_text": "Standing at the rim of a massive canyon at sunrise, a hiker falls silent, feeling small against the scale of the landscape and deeply moved by its beauty. Which complex emotion captures this state?"
+        },
+        {
+          "activation": 0.10573650896549225,
+          "prompt_id": "EMOTIONS_000678",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 5,
+          "prompt_text": "While packing up his childhood bedroom, David finds an old board game he used to play with his grandfather and smiles softly while feeling a pang of longing for those afternoons. Which emotion is evoked by this object?"
+        }
+      ]
+    },
+    "4068": {
+      "activation_frequency": 0.9741412739555483,
+      "n_firing_tokens_in_validation": 95460,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 15607,
+        "DNA": 10636,
+        "GANDHI": 11062,
+        "HINDI": 36878,
+        "SCIENCE": 21277
+      },
+      "top_activating_examples": [
+        {
+          "activation": 7.319448471069336,
+          "prompt_id": "HINDI_002279",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 143,
+          "prompt_text": "इस प्रकार के संवाद में सहमति का संकेत पहचानने के लिए कौन-से भाषिक संकेत उपयोगी होते हैं? उदाहरण: दो मित्र एक-दूसरे से अनौपचारिक संबोधन और संक्षिप्त वाक्य प्रयोग करते हैं।"
+        },
+        {
+          "activation": 7.245344161987305,
+          "prompt_id": "HINDI_004602",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 101,
+          "prompt_text": "\"किताब पढ़ने वाला लड़का\" और \"लड़का जो किताब पढ़ रहा है\" — किस संरचना में काल और पक्ष की जानकारी अधिक स्पष्ट है? संरचना के आधार पर तर्क कीजिए।"
+        },
+        {
+          "activation": 7.230734825134277,
+          "prompt_id": "EMOTIONS_001125",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 34,
+          "prompt_text": "In an everyday interaction, a speaker recounts a difficult achievement; their reaction appears to contain more than one feeling. Assess whether the evidence suggests a single emotion, a mixed state, or ambiguity. Compare two plausible emotional readings and identify the cue that separates them."
+        },
+        {
+          "activation": 7.227646827697754,
+          "prompt_id": "HINDI_004204",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 87,
+          "prompt_text": "यदि 'उसने काम पूरा करने के बाद विश्राम किया' में कारक चिह्न और भूमिका को बदल दिया जाए, तो वाक्य की संरचना पर क्या प्रभाव पड़ेगा? कारण सहित बताइए।"
+        },
+        {
+          "activation": 7.225716590881348,
+          "prompt_id": "HINDI_004047",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 72,
+          "prompt_text": "‘प्रभाव’ और ‘परिणाम’ को एक-दूसरे के स्थान पर रखने से अर्थ में क्या बदलाव आ सकता है?"
+        },
+        {
+          "activation": 7.2236833572387695,
+          "prompt_id": "HINDI_002109",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 57,
+          "prompt_text": "हिंदी में अपूर्ण वर्तमान और सामान्य वर्तमान के अर्थगत प्रयोगों का परिचय दीजिए।"
+        },
+        {
+          "activation": 7.222158908843994,
+          "prompt_id": "HINDI_004813",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 53,
+          "prompt_text": "कथन: \"राजेश ने सोचा कि उसकी ट्रेन छूट गई है।\" पिछले वाक्य की तुलना में यहाँ ट्रेन छूटने की घटना की सत्यता के बारे में क्या निश्चित रूप से कहा जा सकता है?"
+        },
+        {
+          "activation": 7.218497276306152,
+          "prompt_id": "GANDHI_001423",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Negotiation strategy",
+          "token_position": 13,
+          "prompt_text": "Contrast the approaches represented by Negotiation strategy and Martin Luther King Jr., considering ethical argument and the limits of the comparison."
+        },
+        {
+          "activation": 7.21511173248291,
+          "prompt_id": "HINDI_001414",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 59,
+          "prompt_text": "निश्चयवाचक सर्वनाम 'यह', 'वह' और अनिश्चयवाचक सर्वनाम 'कोई', 'कुछ' में क्या अंतर है?"
+        },
+        {
+          "activation": 7.214300155639648,
+          "prompt_id": "HINDI_004600",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 125,
+          "prompt_text": "\"मैंने रोटी और दाल खाई\" में क्रिया स्त्रीलिंग है, पर \"मैंने दाल और चावल खाए\" में पुल्लिंग बहुवचन। निकटवर्ती संयोजक अन्वय (closest conjunct agreement) का तर्क दीजिए।"
+        },
+        {
+          "activation": 7.214043617248535,
+          "prompt_id": "HINDI_001254",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 172,
+          "prompt_text": "इस प्रसंग में सीधे कथन और अप्रत्यक्ष कथन की तुलना विनम्र सुझाव के दृष्टिकोण से कीजिए। स्थिति: दो परिचित पहली बार मिलने पर औपचारिक भाषा का उपयोग करते हैं। इस कथन के शाब्दिक अर्थ और संभावित आशय में अंतर पर ध्यान दें।"
+        },
+        {
+          "activation": 7.213802814483643,
+          "prompt_id": "HINDI_002648",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 127,
+          "prompt_text": "हिंदी में मना करने के कौन-से अप्रत्यक्ष तरीके आम हैं, जैसे \"देखते हैं\", \"सोचकर बताऊँगा\" या \"अभी थोड़ा मुश्किल है\"? इनका व्यावहारिक कार्य बताइए।"
+        },
+        {
+          "activation": 7.210086345672607,
+          "prompt_id": "EMOTIONS_002077",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 32,
+          "prompt_text": "In an everyday interaction, a friend discusses a cancelled plan; their words and apparent reaction seem mixed. Assess whether the evidence suggests a single emotion, a mixed state, or ambiguity. List the emotional cues present and classify them as explicit or inferred."
+        },
+        {
+          "activation": 7.209538459777832,
+          "prompt_id": "HINDI_004960",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 90,
+          "prompt_text": "एक शिक्षक छात्र से पूछता है, 'क्या तुम्हें लगता है कि यह उत्तर सही है?' इस प्रश्न के माध्यम से शिक्षक छात्र को सीधे गलत बताने के बजाय आत्म-मूल्यांकन के लिए कैसे प्रेरित करता है?"
+        },
+        {
+          "activation": 7.205814838409424,
+          "prompt_id": "HINDI_000538",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 90,
+          "prompt_text": "\"बेटा, अब तुम बड़े हो गए हो।\" यह वाक्य बच्चे की लंबाई देखकर कहा जाए और किसी गलती पर समझाते हुए कहा जाए — दोनों संदर्भों में \"बड़ा होना\" का अर्थ कैसे बदलता है?"
+        },
+        {
+          "activation": 7.205318450927734,
+          "prompt_id": "HINDI_000248",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 58,
+          "prompt_text": "दिए गए example 'वह गाना गाकर बाहर चला गया' में कारक चिह्न और भूमिका किस प्रकार sentence structure को प्रभावित करता है?"
+        },
+        {
+          "activation": 7.202171325683594,
+          "prompt_id": "HINDI_002276",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 168,
+          "prompt_text": "हिंदी के सामाजिक संवाद में अप्रत्यक्ष अनुरोध और सीधे कथन के बीच मुख्य अंतर क्या है? उदाहरण: एक विद्यार्थी अपने अध्यापक से कहता है, “क्या आप इसे फिर से समझा देंगे?” इस कथन के शाब्दिक अर्थ और संभावित आशय में अंतर पर ध्यान दें।"
+        },
+        {
+          "activation": 7.201401710510254,
+          "prompt_id": "DNA_000803",
+          "domain": "DNA",
+          "subdomain": "Structure",
+          "token_position": 14,
+          "prompt_text": "How can the four base-pair orientations A–T, T–A, G–C, and C–G be distinguished from the major groove?"
+        },
+        {
+          "activation": 7.200158596038818,
+          "prompt_id": "DNA_002033",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 25,
+          "prompt_text": "How does the assembly of eukaryotic ribosomes proceed across the nucleolus, nucleoplasm, and cytoplasm with the help of over 200 assembly factors?"
+        },
+        {
+          "activation": 7.198599815368652,
+          "prompt_id": "HINDI_004602",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 88,
+          "prompt_text": "\"किताब पढ़ने वाला लड़का\" और \"लड़का जो किताब पढ़ रहा है\" — किस संरचना में काल और पक्ष की जानकारी अधिक स्पष्ट है? संरचना के आधार पर तर्क कीजिए।"
+        }
+      ]
+    },
+    "4105": {
+      "activation_frequency": 0.052421576831234565,
+      "n_firing_tokens_in_validation": 5137,
+      "domain_distribution_of_firing_tokens": {
+        "DNA": 27,
+        "HINDI": 4840,
+        "EMOTIONS": 167,
+        "GANDHI": 5,
+        "SCIENCE": 98
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.4701845049858093,
+          "prompt_id": "HINDI_000767",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 115,
+          "prompt_text": "\"उसे बुखार आ गया है, इसलिए वह स्कूल नहीं जा पाएगा।\" इस वाक्य में 'जा पाएगा' सहायक क्रिया संयोजन से किस व्याकरणिक अर्थ-पक्ष का बोध होता है?"
+        },
+        {
+          "activation": 0.4300954043865204,
+          "prompt_id": "HINDI_000750",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 111,
+          "prompt_text": "\"राम ने रावण को बाण से मारा।\" इस वाक्य में कर्ता, कर्म और करण कारक के परसर्गों की उपस्थिति और क्रिया के लिंग-वचन पर उनके प्रभाव को स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 0.4264964461326599,
+          "prompt_id": "HINDI_003907",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 156,
+          "prompt_text": "सामुदायिक नियम: 'सोसाइटी परिसर में रात दस बजे के बाद तेज़ संगीत बजाने की अनुमति नहीं है।' इस वाक्य में मुख्य संज्ञा पदबंध 'अनुमति' का विस्तार करने वाले संबंध कारक पदबंध को रेखांकित कीजिए।"
+        },
+        {
+          "activation": 0.4247082471847534,
+          "prompt_id": "HINDI_001881",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 92,
+          "prompt_text": "वाक्यों 'उसने कहा कि मैं आऊंगा।' और 'उसने अपने आने की बात कही।' में पूरक उपवाक्य बनाम संज्ञा पदबंध की संरचना की तुलना कीजिए।"
+        },
+        {
+          "activation": 0.41860687732696533,
+          "prompt_id": "HINDI_000219",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 100,
+          "prompt_text": "'जिस व्यक्ति से मैं मिला वह डॉक्टर है' को देखकर निषेध संरचना का वाक्य में स्थान और उससे जुड़े पदों का संबंध समझाइए।"
+        },
+        {
+          "activation": 0.4152413606643677,
+          "prompt_id": "HINDI_001905",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 122,
+          "prompt_text": "वाक्यों 'उसे घर जाना पड़ा।' और 'उसने घर जाना चाहा।' में 'पड़ना' और 'चाहना' रंजक/सहायक क्रियाओं के कारण कर्ता के परसर्ग ('को' बनाम 'ने') में अंतर क्यों आता है?"
+        },
+        {
+          "activation": 0.40241020917892456,
+          "prompt_id": "HINDI_000767",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 114,
+          "prompt_text": "\"उसे बुखार आ गया है, इसलिए वह स्कूल नहीं जा पाएगा।\" इस वाक्य में 'जा पाएगा' सहायक क्रिया संयोजन से किस व्याकरणिक अर्थ-पक्ष का बोध होता है?"
+        },
+        {
+          "activation": 0.39733850955963135,
+          "prompt_id": "HINDI_000675",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 135,
+          "prompt_text": "सड़क पर किसी ने पूछा, \"भाई साहब, स्टेशन किधर है?\" उत्तर मिला, \"सीधे जाकर उस लाल बिल्डिंग से बाएँ।\" इस उत्तर में \"उस\" और \"बाएँ\" का अर्थ किस संदर्भ पर निर्भर है?"
+        },
+        {
+          "activation": 0.38917264342308044,
+          "prompt_id": "HINDI_003888",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 115,
+          "prompt_text": "परीक्षा निर्देश: 'प्रश्नों के उत्तर केवल नीले या काले पेन से ही लिखें।' इस वाक्य में 'केवल... ही' निपात किस कारकीय पदबंध के क्षेत्र को नियंत्रित कर रहे हैं?"
+        },
+        {
+          "activation": 0.3863390386104584,
+          "prompt_id": "HINDI_001905",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 125,
+          "prompt_text": "वाक्यों 'उसे घर जाना पड़ा।' और 'उसने घर जाना चाहा।' में 'पड़ना' और 'चाहना' रंजक/सहायक क्रियाओं के कारण कर्ता के परसर्ग ('को' बनाम 'ने') में अंतर क्यों आता है?"
+        },
+        {
+          "activation": 0.38464781641960144,
+          "prompt_id": "HINDI_003907",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 155,
+          "prompt_text": "सामुदायिक नियम: 'सोसाइटी परिसर में रात दस बजे के बाद तेज़ संगीत बजाने की अनुमति नहीं है।' इस वाक्य में मुख्य संज्ञा पदबंध 'अनुमति' का विस्तार करने वाले संबंध कारक पदबंध को रेखांकित कीजिए।"
+        },
+        {
+          "activation": 0.3829808533191681,
+          "prompt_id": "HINDI_000219",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 96,
+          "prompt_text": "'जिस व्यक्ति से मैं मिला वह डॉक्टर है' को देखकर निषेध संरचना का वाक्य में स्थान और उससे जुड़े पदों का संबंध समझाइए।"
+        },
+        {
+          "activation": 0.3829481899738312,
+          "prompt_id": "HINDI_000675",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 134,
+          "prompt_text": "सड़क पर किसी ने पूछा, \"भाई साहब, स्टेशन किधर है?\" उत्तर मिला, \"सीधे जाकर उस लाल बिल्डिंग से बाएँ।\" इस उत्तर में \"उस\" और \"बाएँ\" का अर्थ किस संदर्भ पर निर्भर है?"
+        },
+        {
+          "activation": 0.3746528923511505,
+          "prompt_id": "HINDI_000561",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 88,
+          "prompt_text": "\"वह किताब, जो तुमने मुझे दी थी, बहुत रोचक है।\" इस वाक्य में सापेक्ष उपवाक्य मुख्य उपवाक्य के भीतर कहाँ अंतःस्थापित है?"
+        },
+        {
+          "activation": 0.37422141432762146,
+          "prompt_id": "HINDI_001611",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 105,
+          "prompt_text": "\"मैंने उसे कहा\" और \"मैंने उससे कहा\" — मानक हिंदी में कौन-सी संरचना मानी जाती है, और \"कहना\" क्रिया के साथ परसर्ग-चयन का संरचनात्मक आधार क्या है?"
+        },
+        {
+          "activation": 0.3671562373638153,
+          "prompt_id": "HINDI_001905",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 124,
+          "prompt_text": "वाक्यों 'उसे घर जाना पड़ा।' और 'उसने घर जाना चाहा।' में 'पड़ना' और 'चाहना' रंजक/सहायक क्रियाओं के कारण कर्ता के परसर्ग ('को' बनाम 'ने') में अंतर क्यों आता है?"
+        },
+        {
+          "activation": 0.36686646938323975,
+          "prompt_id": "HINDI_000248",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 70,
+          "prompt_text": "दिए गए example 'वह गाना गाकर बाहर चला गया' में कारक चिह्न और भूमिका किस प्रकार sentence structure को प्रभावित करता है?"
+        },
+        {
+          "activation": 0.3544749915599823,
+          "prompt_id": "HINDI_000201",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 53,
+          "prompt_text": "वाक्य 'जो छात्र समय पर आया वह बैठ गया' में सहायक क्रिया क्रम की पहचान करके उसके घटकों को अलग-अलग बताइए।"
+        },
+        {
+          "activation": 0.35391688346862793,
+          "prompt_id": "HINDI_001548",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 97,
+          "prompt_text": "हिंदी के SOV और अंग्रेज़ी के SVO शब्द-क्रम की तुलना कीजिए: \"राम ने आम खाया\" और \"Ram ate a mango\" में घटकों की स्थिति कैसे भिन्न है?"
+        },
+        {
+          "activation": 0.3495178520679474,
+          "prompt_id": "HINDI_004602",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 81,
+          "prompt_text": "\"किताब पढ़ने वाला लड़का\" और \"लड़का जो किताब पढ़ रहा है\" — किस संरचना में काल और पक्ष की जानकारी अधिक स्पष्ट है? संरचना के आधार पर तर्क कीजिए।"
+        }
+      ]
+    },
+    "4831": {
+      "activation_frequency": 1.0204706410596567e-05,
+      "n_firing_tokens_in_validation": 1,
+      "domain_distribution_of_firing_tokens": {
+        "HINDI": 1
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.012258999049663544,
+          "prompt_id": "HINDI_000073",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 0,
+          "prompt_text": "Sandarbh mein 'woh' aur 've' ka prayog vyakti-vachan aur aadar ko kaise darshata hai?"
+        }
+      ]
+    },
+    "5101": {
+      "activation_frequency": 0.00273486131803988,
+      "n_firing_tokens_in_validation": 268,
+      "domain_distribution_of_firing_tokens": {
+        "DNA": 23,
+        "EMOTIONS": 186,
+        "GANDHI": 10,
+        "HINDI": 19,
+        "SCIENCE": 30
+      },
+      "top_activating_examples": [
+        {
+          "activation": 2.2844111919403076,
+          "prompt_id": "EMOTIONS_004253",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 24,
+          "prompt_text": "Consider this emotional regulation situation: A caregiver feels frustration when a recovery process is slower than hoped. Reason through likely consequences of different responses and the trade-offs involved. Make the reasoning explicit and distinguish immediate relief from longer-term effects."
+        },
+        {
+          "activation": 2.2404356002807617,
+          "prompt_id": "EMOTIONS_004260",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 23,
+          "prompt_text": "Consider this emotional regulation situation: A person feels disappointed in themselves after abandoning a personal goal. Reason through likely consequences of different responses and the trade-offs involved. Make the reasoning explicit and distinguish immediate relief from longer-term effects."
+        },
+        {
+          "activation": 2.237833261489868,
+          "prompt_id": "EMOTIONS_004234",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 22,
+          "prompt_text": "Consider this emotional regulation situation: A person feels nervous about reconnecting after a conflict. Reason through likely consequences of different responses and the trade-offs involved. Make the reasoning explicit and distinguish immediate relief from longer-term effects."
+        },
+        {
+          "activation": 2.2201483249664307,
+          "prompt_id": "EMOTIONS_004217",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 21,
+          "prompt_text": "Consider this emotional regulation situation: A person feels guilty after forgetting an important commitment. Reason through likely consequences of different responses and the trade-offs involved. Make the reasoning explicit and distinguish immediate relief from longer-term effects."
+        },
+        {
+          "activation": 2.212526559829712,
+          "prompt_id": "EMOTIONS_004205",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 25,
+          "prompt_text": "Consider this emotional regulation situation: A friend feels hurt by a delayed reply and begins imagining negative explanations. Reason through likely consequences of different responses and the trade-offs involved. Make the reasoning explicit and distinguish immediate relief from longer-term effects."
+        },
+        {
+          "activation": 2.2035820484161377,
+          "prompt_id": "EMOTIONS_004214",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 24,
+          "prompt_text": "Consider this emotional regulation situation: A student feels restless while preparing for a long, demanding assignment. Reason through likely consequences of different responses and the trade-offs involved. Make the reasoning explicit and distinguish immediate relief from longer-term effects."
+        },
+        {
+          "activation": 0.6892171502113342,
+          "prompt_id": "EMOTIONS_004260",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 24,
+          "prompt_text": "Consider this emotional regulation situation: A person feels disappointed in themselves after abandoning a personal goal. Reason through likely consequences of different responses and the trade-offs involved. Make the reasoning explicit and distinguish immediate relief from longer-term effects."
+        },
+        {
+          "activation": 0.6773620247840881,
+          "prompt_id": "EMOTIONS_001930",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 24,
+          "prompt_text": "Compare how acoustic environment changes (stepping into a quiet park vs. a bustling café) affect emotional down-regulation for different individuals."
+        },
+        {
+          "activation": 0.6534403562545776,
+          "prompt_id": "EMOTIONS_004234",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 23,
+          "prompt_text": "Consider this emotional regulation situation: A person feels nervous about reconnecting after a conflict. Reason through likely consequences of different responses and the trade-offs involved. Make the reasoning explicit and distinguish immediate relief from longer-term effects."
+        },
+        {
+          "activation": 0.6415665745735168,
+          "prompt_id": "EMOTIONS_004253",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 25,
+          "prompt_text": "Consider this emotional regulation situation: A caregiver feels frustration when a recovery process is slower than hoped. Reason through likely consequences of different responses and the trade-offs involved. Make the reasoning explicit and distinguish immediate relief from longer-term effects."
+        },
+        {
+          "activation": 0.6217204928398132,
+          "prompt_id": "EMOTIONS_004217",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 22,
+          "prompt_text": "Consider this emotional regulation situation: A person feels guilty after forgetting an important commitment. Reason through likely consequences of different responses and the trade-offs involved. Make the reasoning explicit and distinguish immediate relief from longer-term effects."
+        },
+        {
+          "activation": 0.6026315093040466,
+          "prompt_id": "EMOTIONS_004214",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 25,
+          "prompt_text": "Consider this emotional regulation situation: A student feels restless while preparing for a long, demanding assignment. Reason through likely consequences of different responses and the trade-offs involved. Make the reasoning explicit and distinguish immediate relief from longer-term effects."
+        },
+        {
+          "activation": 0.5467303395271301,
+          "prompt_id": "EMOTIONS_004205",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 26,
+          "prompt_text": "Consider this emotional regulation situation: A friend feels hurt by a delayed reply and begins imagining negative explanations. Reason through likely consequences of different responses and the trade-offs involved. Make the reasoning explicit and distinguish immediate relief from longer-term effects."
+        },
+        {
+          "activation": 0.38212043046951294,
+          "prompt_id": "EMOTIONS_004214",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 23,
+          "prompt_text": "Consider this emotional regulation situation: A student feels restless while preparing for a long, demanding assignment. Reason through likely consequences of different responses and the trade-offs involved. Make the reasoning explicit and distinguish immediate relief from longer-term effects."
+        },
+        {
+          "activation": 0.37648946046829224,
+          "prompt_id": "EMOTIONS_004253",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 23,
+          "prompt_text": "Consider this emotional regulation situation: A caregiver feels frustration when a recovery process is slower than hoped. Reason through likely consequences of different responses and the trade-offs involved. Make the reasoning explicit and distinguish immediate relief from longer-term effects."
+        },
+        {
+          "activation": 0.3616456091403961,
+          "prompt_id": "EMOTIONS_000057",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 14,
+          "prompt_text": "Explain how a listener could misread an expression of sadness because of different expectations. Do not infer a person's private state from a single cue."
+        },
+        {
+          "activation": 0.31676357984542847,
+          "prompt_id": "EMOTIONS_004234",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 21,
+          "prompt_text": "Consider this emotional regulation situation: A person feels nervous about reconnecting after a conflict. Reason through likely consequences of different responses and the trade-offs involved. Make the reasoning explicit and distinguish immediate relief from longer-term effects."
+        },
+        {
+          "activation": 0.309367299079895,
+          "prompt_id": "EMOTIONS_004205",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 24,
+          "prompt_text": "Consider this emotional regulation situation: A friend feels hurt by a delayed reply and begins imagining negative explanations. Reason through likely consequences of different responses and the trade-offs involved. Make the reasoning explicit and distinguish immediate relief from longer-term effects."
+        },
+        {
+          "activation": 0.2891969084739685,
+          "prompt_id": "EMOTIONS_004260",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 22,
+          "prompt_text": "Consider this emotional regulation situation: A person feels disappointed in themselves after abandoning a personal goal. Reason through likely consequences of different responses and the trade-offs involved. Make the reasoning explicit and distinguish immediate relief from longer-term effects."
+        },
+        {
+          "activation": 0.28335684537887573,
+          "prompt_id": "EMOTIONS_004217",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 23,
+          "prompt_text": "Consider this emotional regulation situation: A person feels guilty after forgetting an important commitment. Reason through likely consequences of different responses and the trade-offs involved. Make the reasoning explicit and distinguish immediate relief from longer-term effects."
+        }
+      ]
+    },
+    "5969": {
+      "activation_frequency": 0.00273486131803988,
+      "n_firing_tokens_in_validation": 268,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 218,
+        "DNA": 10,
+        "HINDI": 22,
+        "SCIENCE": 18
+      },
+      "top_activating_examples": [
+        {
+          "activation": 2.3254263401031494,
+          "prompt_id": "EMOTIONS_002254",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 36,
+          "prompt_text": "Consider this emotional regulation situation: A person feels fear when entering an unfamiliar social setting. Identify a relevant regulation concept, strategy, or observable cue. Avoid assuming that one strategy works for everyone."
+        },
+        {
+          "activation": 2.315324068069458,
+          "prompt_id": "EMOTIONS_002258",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 41,
+          "prompt_text": "Consider this emotional regulation situation: A person feels anxious after making a small mistake in a high-stakes setting. Identify a relevant regulation concept, strategy, or observable cue. Avoid assuming that one strategy works for everyone."
+        },
+        {
+          "activation": 2.3000736236572266,
+          "prompt_id": "EMOTIONS_002217",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 35,
+          "prompt_text": "Consider this emotional regulation situation: A person feels guilty after forgetting an important commitment. Identify a relevant regulation concept, strategy, or observable cue. Avoid assuming that one strategy works for everyone."
+        },
+        {
+          "activation": 2.299989938735962,
+          "prompt_id": "EMOTIONS_002204",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 36,
+          "prompt_text": "Consider this emotional regulation situation: A speaker experiences stage fright moments before addressing an audience. Identify a relevant regulation concept, strategy, or observable cue. Avoid assuming that one strategy works for everyone."
+        },
+        {
+          "activation": 2.2924959659576416,
+          "prompt_id": "EMOTIONS_002242",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 37,
+          "prompt_text": "Consider this emotional regulation situation: A person feels overwhelmed when several small problems arrive at once. Identify a relevant regulation concept, strategy, or observable cue. Avoid assuming that one strategy works for everyone."
+        },
+        {
+          "activation": 2.2860944271087646,
+          "prompt_id": "EMOTIONS_002223",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 39,
+          "prompt_text": "Consider this emotional regulation situation: A friend feels worried about a loved one who has not checked in. Identify a relevant regulation concept, strategy, or observable cue. Avoid assuming that one strategy works for everyone."
+        },
+        {
+          "activation": 2.2487268447875977,
+          "prompt_id": "EMOTIONS_002241",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 39,
+          "prompt_text": "Consider this emotional regulation situation: A team member feels anxious after receiving an ambiguous message from a supervisor. Identify a relevant regulation concept, strategy, or observable cue. Avoid assuming that one strategy works for everyone."
+        },
+        {
+          "activation": 0.8689146041870117,
+          "prompt_id": "EMOTIONS_002002",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 18,
+          "prompt_text": "Describe a commonly recognized cognitive or situational component of sadness, without claiming it occurs in every person. Consider how social expectations may affect the situation."
+        },
+        {
+          "activation": 0.7663799524307251,
+          "prompt_id": "EMOTIONS_002062",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 20,
+          "prompt_text": "Describe a commonly recognized cognitive or situational component of self-consciousness, without claiming it occurs in every person. Consider whether more than one emotion can be present."
+        },
+        {
+          "activation": 0.7604215145111084,
+          "prompt_id": "EMOTIONS_002002",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 17,
+          "prompt_text": "Describe a commonly recognized cognitive or situational component of sadness, without claiming it occurs in every person. Consider how social expectations may affect the situation."
+        },
+        {
+          "activation": 0.7408883571624756,
+          "prompt_id": "EMOTIONS_002047",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 18,
+          "prompt_text": "Describe a commonly recognized cognitive or situational component of amusement, without claiming it occurs in every person. Use neutral wording and avoid moral judgment."
+        },
+        {
+          "activation": 0.7107632756233215,
+          "prompt_id": "EMOTIONS_002062",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 19,
+          "prompt_text": "Describe a commonly recognized cognitive or situational component of self-consciousness, without claiming it occurs in every person. Consider whether more than one emotion can be present."
+        },
+        {
+          "activation": 0.6759722232818604,
+          "prompt_id": "EMOTIONS_002047",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 17,
+          "prompt_text": "Describe a commonly recognized cognitive or situational component of amusement, without claiming it occurs in every person. Use neutral wording and avoid moral judgment."
+        },
+        {
+          "activation": 0.5142800807952881,
+          "prompt_id": "EMOTIONS_001930",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 25,
+          "prompt_text": "Compare how acoustic environment changes (stepping into a quiet park vs. a bustling café) affect emotional down-regulation for different individuals."
+        },
+        {
+          "activation": 0.4055711627006531,
+          "prompt_id": "EMOTIONS_003431",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 8,
+          "prompt_text": "A manager receives a resignation email that thanks everyone warmly but is only two sentences long. What emotions might it reflect?"
+        },
+        {
+          "activation": 0.3723577857017517,
+          "prompt_id": "EMOTIONS_000181",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 17,
+          "prompt_text": "Consider this communication situation: a participant communicates that a discussion has become uncomfortable, without embarrassing anyone publicly. Describe how the audience and setting should shape the emotional register of the message."
+        },
+        {
+          "activation": 0.2854386568069458,
+          "prompt_id": "EMOTIONS_003558",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 13,
+          "prompt_text": "Write a reflection exercise that helps someone notice which coping strategies work for them in which situations."
+        },
+        {
+          "activation": 0.2821478843688965,
+          "prompt_id": "SCIENCE_000381",
+          "domain": "SCIENCE",
+          "subdomain": "Thermodynamics",
+          "token_position": 8,
+          "prompt_text": "A system exhibits a heat engine cannot convert all absorbed heat into work. Explain which principles of Thermodynamics are most relevant and how changing one condition could alter the outcome. With attention to the distinction between an ideal model and real observations."
+        },
+        {
+          "activation": 0.2508677542209625,
+          "prompt_id": "EMOTIONS_002963",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 17,
+          "prompt_text": "How does theory of mind—attributing distinct beliefs, intentions, and knowledge states to others—serve as a cognitive prerequisite for perspective-taking?"
+        },
+        {
+          "activation": 0.2487214058637619,
+          "prompt_id": "EMOTIONS_001239",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 14,
+          "prompt_text": "Consider this emotional regulation situation: A friend feels sadness while trying to support someone else's good news. Compare two plausible coping responses, noting how their effects may differ. Explain when each approach might be useful or unhelpful."
+        }
+      ]
+    },
+    "6352": {
+      "activation_frequency": 0.0027246566116292835,
+      "n_firing_tokens_in_validation": 267,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 106,
+        "DNA": 75,
+        "GANDHI": 4,
+        "HINDI": 43,
+        "SCIENCE": 39
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.15262630581855774,
+          "prompt_id": "SCIENCE_001392",
+          "domain": "SCIENCE",
+          "subdomain": "Fluid mechanics",
+          "token_position": 9,
+          "prompt_text": "Contrast a wing produces lift as air flows around it with capillary rise occurs in a narrow tube, focusing on the shared scientific basis and the key distinction that determines their behavior. And identify the assumptions needed for the interpretation to hold."
+        },
+        {
+          "activation": 0.13055945932865143,
+          "prompt_id": "SCIENCE_001527",
+          "domain": "SCIENCE",
+          "subdomain": "Microbiology",
+          "token_position": 12,
+          "prompt_text": "Contrast antibiotic susceptibility varies among isolates with a microorganism survives extreme salinity, focusing on the shared scientific basis and the key distinction that determines their behavior. And identify which evidence would distinguish the proposed explanation from alternatives."
+        },
+        {
+          "activation": 0.12384212762117386,
+          "prompt_id": "SCIENCE_003760",
+          "domain": "SCIENCE",
+          "subdomain": "Analytical chemistry",
+          "token_position": 12,
+          "prompt_text": "Design a practical approach to address a sample loses analyte during preparation using principles of Analytical chemistry. Include constraints and a measurable success criterion. Using a qualitative model before introducing any quantitative estimates."
+        },
+        {
+          "activation": 0.1131909042596817,
+          "prompt_id": "SCIENCE_001125",
+          "domain": "SCIENCE",
+          "subdomain": "Genetics",
+          "token_position": 14,
+          "prompt_text": "Distinguish a linkage analysis reveals co-inheritance from a pedigree suggests an inheritance pattern by identifying how each predicts an outcome when a relevant variable is changed. And identify the assumptions needed for the interpretation to hold."
+        },
+        {
+          "activation": 0.09088240563869476,
+          "prompt_id": "HINDI_003870",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 76,
+          "prompt_text": "दवा की शीशी पर लिखा निर्देश: 'बच्चों की पहुंच से दूर रखें तथा प्रयोग से पहले अच्छी तरह हिलाएं।' इस निर्देश में प्रयुक्त दो उपवाक्यों की क्रिया संरचना और योजक का विश्लेषण कीजिए।"
+        },
+        {
+          "activation": 0.09072533994913101,
+          "prompt_id": "EMOTIONS_000883",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 50,
+          "prompt_text": "Preparing for a difficult salary negotiation, Jordan rehearses calm responses using an \"if-then\" plan: \"If the manager pushes back on my number, then I will pause, nod, and ask what metrics would justify that tier.\" How does this preparation aid emotional control?"
+        },
+        {
+          "activation": 0.08919810503721237,
+          "prompt_id": "EMOTIONS_004817",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 22,
+          "prompt_text": "Why does shifting from casual contractions (\"I'm,\" \"don't\") to uncontracted forms (\"I am,\" \"do not\") in written messages often signal heightened seriousness or frustration?"
+        },
+        {
+          "activation": 0.08912060409784317,
+          "prompt_id": "SCIENCE_000129",
+          "domain": "SCIENCE",
+          "subdomain": "Genetics",
+          "token_position": 9,
+          "prompt_text": "Within the setting of a pedigree suggests an inheritance pattern, trace the relevant causal chain involving Genetics; distinguish direct evidence from inference. And explain what changes if the dominant limiting factor is removed."
+        },
+        {
+          "activation": 0.08215939998626709,
+          "prompt_id": "EMOTIONS_001478",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 10,
+          "prompt_text": "Contrast \"I'm sorry\" with \"I apologize\" in tone and formality."
+        },
+        {
+          "activation": 0.08180525153875351,
+          "prompt_id": "HINDI_004358",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 11,
+          "prompt_text": "'Technology' ke liye 'taknik' aur 'praudyogiki' dono shabd milte hain; in dono mein vocabulary ke star par kya tark se alag kiya ja sakta hai?"
+        },
+        {
+          "activation": 0.08030205965042114,
+          "prompt_id": "DNA_004924",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 28,
+          "prompt_text": "What quality control metrics—such as Phred quality scores, duplication rates, GC bias, and Ti/Tv ratios—diagnose library preparation and variant calling failures?"
+        },
+        {
+          "activation": 0.08016478270292282,
+          "prompt_id": "SCIENCE_003742",
+          "domain": "SCIENCE",
+          "subdomain": "Fluid mechanics",
+          "token_position": 14,
+          "prompt_text": "An engineer or practitioner must respond to a wing produces lift as air flows around it. Recommend an approach informed by Fluid mechanics, including one risk and one validation step. With a focus on causal mechanisms rather than descriptive labels."
+        },
+        {
+          "activation": 0.07996119558811188,
+          "prompt_id": "SCIENCE_000129",
+          "domain": "SCIENCE",
+          "subdomain": "Genetics",
+          "token_position": 8,
+          "prompt_text": "Within the setting of a pedigree suggests an inheritance pattern, trace the relevant causal chain involving Genetics; distinguish direct evidence from inference. And explain what changes if the dominant limiting factor is removed."
+        },
+        {
+          "activation": 0.07860074192285538,
+          "prompt_id": "DNA_001747",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 10,
+          "prompt_text": "How does the viral initiator protein Large T-antigen in SV40 bypass the need for host ORC, Cdc6, Cdt1, and Mcm2-7 during viral origin initiation?"
+        },
+        {
+          "activation": 0.07804998755455017,
+          "prompt_id": "HINDI_003999",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 15,
+          "prompt_text": "Hospital reception par stressed patients ke family members se baat karte samay staff ko kaisi reassuring aur respectful Hindi bhasha use karni chahiye?"
+        },
+        {
+          "activation": 0.07493843883275986,
+          "prompt_id": "SCIENCE_001125",
+          "domain": "SCIENCE",
+          "subdomain": "Genetics",
+          "token_position": 15,
+          "prompt_text": "Distinguish a linkage analysis reveals co-inheritance from a pedigree suggests an inheritance pattern by identifying how each predicts an outcome when a relevant variable is changed. And identify the assumptions needed for the interpretation to hold."
+        },
+        {
+          "activation": 0.07429032027721405,
+          "prompt_id": "SCIENCE_001973",
+          "domain": "SCIENCE",
+          "subdomain": "Astrophysics",
+          "token_position": 17,
+          "prompt_text": "Distinguish a supernova remnant expands from a black hole accretion disk emits radiation by identifying how each predicts an outcome when a relevant variable is changed. And explain what changes if the dominant limiting factor is removed."
+        },
+        {
+          "activation": 0.06750723719596863,
+          "prompt_id": "HINDI_000750",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 47,
+          "prompt_text": "\"राम ने रावण को बाण से मारा।\" इस वाक्य में कर्ता, कर्म और करण कारक के परसर्गों की उपस्थिति और क्रिया के लिंग-वचन पर उनके प्रभाव को स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 0.06748757511377335,
+          "prompt_id": "DNA_002258",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 29,
+          "prompt_text": "How does Robertsonian translocation between chromosomes 14 and 21 lead to familial Down syndrome with a 46-chromosome karyotype?"
+        },
+        {
+          "activation": 0.06700140982866287,
+          "prompt_id": "SCIENCE_001909",
+          "domain": "SCIENCE",
+          "subdomain": "Geology",
+          "token_position": 25,
+          "prompt_text": "Compare a mineral crystallizes from cooling magma and mineral grains reveal metamorphic conditions with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. And identify the assumptions needed for the interpretation to hold."
+        }
+      ]
+    },
+    "6518": {
+      "activation_frequency": 0.047135538910545546,
+      "n_firing_tokens_in_validation": 4619,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 168,
+        "DNA": 173,
+        "GANDHI": 127,
+        "HINDI": 3838,
+        "SCIENCE": 313
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.7224916219711304,
+          "prompt_id": "HINDI_000029",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 41,
+          "prompt_text": "‘समाधान अस्थायी था’—‘अस्थायी’ का अर्थ वाक्य के आधार पर बताइए।"
+        },
+        {
+          "activation": 0.5370056629180908,
+          "prompt_id": "HINDI_004574",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 76,
+          "prompt_text": "\"राम ने सोचा कि श्याम अपने आप को होशियार समझता है।\" यहाँ \"अपने आप\" का पूर्ववर्ती राम हो सकता है या केवल श्याम? उपवाक्य-सीमा के आधार पर तर्क दीजिए।"
+        },
+        {
+          "activation": 0.526703417301178,
+          "prompt_id": "HINDI_002133",
+          "domain": "HINDI",
+          "subdomain": "Semantics",
+          "token_position": 20,
+          "prompt_text": "‘अवज्ञा’ शब्द व्यवहार के किस अर्थ को व्यक्त करता है?"
+        },
+        {
+          "activation": 0.525297999382019,
+          "prompt_id": "HINDI_004960",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 13,
+          "prompt_text": "एक शिक्षक छात्र से पूछता है, 'क्या तुम्हें लगता है कि यह उत्तर सही है?' इस प्रश्न के माध्यम से शिक्षक छात्र को सीधे गलत बताने के बजाय आत्म-मूल्यांकन के लिए कैसे प्रेरित करता है?"
+        },
+        {
+          "activation": 0.5035127401351929,
+          "prompt_id": "HINDI_000029",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 43,
+          "prompt_text": "‘समाधान अस्थायी था’—‘अस्थायी’ का अर्थ वाक्य के आधार पर बताइए।"
+        },
+        {
+          "activation": 0.4742438495159149,
+          "prompt_id": "HINDI_004973",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 63,
+          "prompt_text": "हिंदी बातचीत में 'अरे नहीं-नहीं, ऐसी कोई बात नहीं है' का प्रयोग श्रोता के संकोच या गलतफहमी को दूर करने के लिए कैसे किया जाता है?"
+        },
+        {
+          "activation": 0.47205817699432373,
+          "prompt_id": "HINDI_004052",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 26,
+          "prompt_text": "‘आशंका’ और ‘अपेक्षा’ भविष्य से जुड़ी भावनाएँ हैं; इनके भावात्मक दिशा-भेद को स्पष्ट कीजिए।"
+        },
+        {
+          "activation": 0.4696621000766754,
+          "prompt_id": "SCIENCE_003956",
+          "domain": "SCIENCE",
+          "subdomain": "Materials science",
+          "token_position": 15,
+          "prompt_text": "How could knowledge of Materials science be applied to reduce or manage grain size changes strength? Outline the mechanism and trade-offs of the proposed solution. Considering the timescale over which the process unfolds."
+        },
+        {
+          "activation": 0.46257415413856506,
+          "prompt_id": "HINDI_001278",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 45,
+          "prompt_text": "इस प्रसंग में सीधे कथन और अप्रत्यक्ष कथन की तुलना प्रश्न के पीछे का उद्देश्य के दृष्टिकोण से कीजिए। स्थिति: किसी वरिष्ठ को संबोधित करते समय वक्ता “आप” का प्रयोग करता है।"
+        },
+        {
+          "activation": 0.452311635017395,
+          "prompt_id": "SCIENCE_004947",
+          "domain": "SCIENCE",
+          "subdomain": "Hydrology",
+          "token_position": 11,
+          "prompt_text": "A dataset or observation indicates snowmelt timing changes streamflow. Explain the inference using Hydrology, note a possible confounder, and suggest how to control it. While accounting for measurement uncertainty and possible confounding factors."
+        },
+        {
+          "activation": 0.44405385851860046,
+          "prompt_id": "SCIENCE_004947",
+          "domain": "SCIENCE",
+          "subdomain": "Hydrology",
+          "token_position": 10,
+          "prompt_text": "A dataset or observation indicates snowmelt timing changes streamflow. Explain the inference using Hydrology, note a possible confounder, and suggest how to control it. While accounting for measurement uncertainty and possible confounding factors."
+        },
+        {
+          "activation": 0.4426162540912628,
+          "prompt_id": "HINDI_000561",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 76,
+          "prompt_text": "\"वह किताब, जो तुमने मुझे दी थी, बहुत रोचक है।\" इस वाक्य में सापेक्ष उपवाक्य मुख्य उपवाक्य के भीतर कहाँ अंतःस्थापित है?"
+        },
+        {
+          "activation": 0.4373526871204376,
+          "prompt_id": "HINDI_004685",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 84,
+          "prompt_text": "‘सुगंध’ और ‘दुर्गंध’ शब्दों की संरचना के आधार पर स्पष्ट कीजिए कि ‘सु’ और ‘दुर्’ उपसर्ग मूल शब्द के अर्थ की दिशा को कैसे बदलते हैं।"
+        },
+        {
+          "activation": 0.4301671087741852,
+          "prompt_id": "HINDI_004973",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 62,
+          "prompt_text": "हिंदी बातचीत में 'अरे नहीं-नहीं, ऐसी कोई बात नहीं है' का प्रयोग श्रोता के संकोच या गलतफहमी को दूर करने के लिए कैसे किया जाता है?"
+        },
+        {
+          "activation": 0.4297606348991394,
+          "prompt_id": "HINDI_000248",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 66,
+          "prompt_text": "दिए गए example 'वह गाना गाकर बाहर चला गया' में कारक चिह्न और भूमिका किस प्रकार sentence structure को प्रभावित करता है?"
+        },
+        {
+          "activation": 0.42188790440559387,
+          "prompt_id": "HINDI_001254",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 43,
+          "prompt_text": "इस प्रसंग में सीधे कथन और अप्रत्यक्ष कथन की तुलना विनम्र सुझाव के दृष्टिकोण से कीजिए। स्थिति: दो परिचित पहली बार मिलने पर औपचारिक भाषा का उपयोग करते हैं। इस कथन के शाब्दिक अर्थ और संभावित आशय में अंतर पर ध्यान दें।"
+        },
+        {
+          "activation": 0.4164455235004425,
+          "prompt_id": "SCIENCE_004962",
+          "domain": "SCIENCE",
+          "subdomain": "Nanotechnology",
+          "token_position": 9,
+          "prompt_text": "A dataset or observation indicates surface area changes catalytic activity. Explain the inference using Nanotechnology, note a possible confounder, and suggest how to control it. With a focus on causal mechanisms rather than descriptive labels."
+        },
+        {
+          "activation": 0.4111170470714569,
+          "prompt_id": "HINDI_002562",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 53,
+          "prompt_text": "हिंदी में प्रश्नवाचक शब्द (क्या, कौन, कहाँ) सामान्यतः वाक्य में किस स्थान पर आते हैं? क्या हिंदी में इन्हें वाक्य के आरंभ में ले जाना अनिवार्य है?"
+        },
+        {
+          "activation": 0.40996792912483215,
+          "prompt_id": "HINDI_003947",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 48,
+          "prompt_text": "एक विद्यालय के प्रधानाचार्य द्वारा अभिभावकों को बच्चे की कम उपस्थिति के बारे में सूचित करने वाले पत्र में किस प्रकार का औपचारिक और सहयोगात्मक लहजा होना चाहिए?"
+        },
+        {
+          "activation": 0.40697747468948364,
+          "prompt_id": "HINDI_004030",
+          "domain": "HINDI",
+          "subdomain": "Vocabulary",
+          "token_position": 20,
+          "prompt_text": "‘संगत’ शब्द का चयन किसी कथन के मूल्यांकन में क्यों उचित हो सकता है?"
+        }
+      ]
+    },
+    "6531": {
+      "activation_frequency": 0.00273486131803988,
+      "n_firing_tokens_in_validation": 268,
+      "domain_distribution_of_firing_tokens": {
+        "DNA": 140,
+        "EMOTIONS": 30,
+        "GANDHI": 3,
+        "HINDI": 57,
+        "SCIENCE": 38
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.18459028005599976,
+          "prompt_id": "DNA_003399",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 15,
+          "prompt_text": "What molecular mechanisms allow alkyladenine DNA glycosylase to remove alkylated purines from genomic DNA?"
+        },
+        {
+          "activation": 0.1814294159412384,
+          "prompt_id": "DNA_004411",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 26,
+          "prompt_text": "What is the structural mechanism by which alkyladenine DNA glycosylase (AAG/MPG) accommodates diverse alkylated purines in its active site?"
+        },
+        {
+          "activation": 0.12140163034200668,
+          "prompt_id": "DNA_002176",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 12,
+          "prompt_text": "How do structural variants and EPCAM deletions cause epigenetic silencing of the downstream MSH2 gene in Lynch syndrome?"
+        },
+        {
+          "activation": 0.10359282791614532,
+          "prompt_id": "EMOTIONS_003791",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 10,
+          "prompt_text": "In audiobook narration and speech synthesis evaluation, what acoustic cues determine whether listeners perceive a neutral sentence as wistful, sarcastic, or matter-of-fact?"
+        },
+        {
+          "activation": 0.10202305763959885,
+          "prompt_id": "DNA_000918",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 25,
+          "prompt_text": "How does DNA polymerase α–primase synthesize RNA–DNA hybrid primers, and what are the roles of its catalytic and accessory subunits?"
+        },
+        {
+          "activation": 0.09975180774927139,
+          "prompt_id": "DNA_004411",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 7,
+          "prompt_text": "What is the structural mechanism by which alkyladenine DNA glycosylase (AAG/MPG) accommodates diverse alkylated purines in its active site?"
+        },
+        {
+          "activation": 0.09395019710063934,
+          "prompt_id": "DNA_000845",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 21,
+          "prompt_text": "How are parental histones segregated between the two daughter strands during replication, and why does this matter for epigenetic inheritance?"
+        },
+        {
+          "activation": 0.0939282476902008,
+          "prompt_id": "DNA_000918",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 26,
+          "prompt_text": "How does DNA polymerase α–primase synthesize RNA–DNA hybrid primers, and what are the roles of its catalytic and accessory subunits?"
+        },
+        {
+          "activation": 0.08709780126810074,
+          "prompt_id": "EMOTIONS_002750",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 9,
+          "prompt_text": "In emotion perception research, what is the fundamental attribution error as it applies to interpreting another person's irritable or withdrawn behavior?"
+        },
+        {
+          "activation": 0.08413883298635483,
+          "prompt_id": "HINDI_003294",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 54,
+          "prompt_text": "hindee snvada-prashikshana men isa prasnga ka upayoga karake prashna ke peechhe ka uddeshya sikhane ka eka abhyasa sujhaie। batacheeta ka sndarbha: eka vyakti madada milane para kahata hai, “aapane pareshanee kee।”"
+        },
+        {
+          "activation": 0.0828123688697815,
+          "prompt_id": "DNA_003497",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 5,
+          "prompt_text": "What is the inbreeding coefficient, and how is it interpreted in population genetics?"
+        },
+        {
+          "activation": 0.07460581511259079,
+          "prompt_id": "DNA_002123",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 24,
+          "prompt_text": "How do NEIL1, NEIL2, and NEIL3 glycosylases preferentially act on oxidized bases within single-stranded DNA bubbles, replication forks, or G-quadruplexes?"
+        },
+        {
+          "activation": 0.07438191026449203,
+          "prompt_id": "DNA_002318",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 4,
+          "prompt_text": "How does inbreeding depression arise mechanistically from increased homozygosity of deleterious recessive alleles in small or isolated populations?"
+        },
+        {
+          "activation": 0.0738150104880333,
+          "prompt_id": "DNA_003399",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 4,
+          "prompt_text": "What molecular mechanisms allow alkyladenine DNA glycosylase to remove alkylated purines from genomic DNA?"
+        },
+        {
+          "activation": 0.07252974808216095,
+          "prompt_id": "DNA_002070",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 12,
+          "prompt_text": "How does ultraviolet-B radiation induce the formation of cyclobutane pyrimidine dimers between adjacent thymine bases?"
+        },
+        {
+          "activation": 0.06991077214479446,
+          "prompt_id": "DNA_003643",
+          "domain": "DNA",
+          "subdomain": "Structure",
+          "token_position": 19,
+          "prompt_text": "What did the first single-crystal structure of a Z-DNA hexamer reveal about its conformation?"
+        },
+        {
+          "activation": 0.06984279304742813,
+          "prompt_id": "DNA_003591",
+          "domain": "DNA",
+          "subdomain": "Structure",
+          "token_position": 21,
+          "prompt_text": "What is the role of counterions such as Na+, K+, and Mg2+ in neutralizing the backbone charge?"
+        },
+        {
+          "activation": 0.06683804094791412,
+          "prompt_id": "DNA_001972",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 24,
+          "prompt_text": "How does the nuclear pore complex selectively export mature, properly processed mRNPs via the NXF1-NXT1 heterodimer?"
+        },
+        {
+          "activation": 0.06677830219268799,
+          "prompt_id": "DNA_004424",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 22,
+          "prompt_text": "What is the role of the UV-DDB complex (DDB1-DDB2) in detecting cyclobutane pyrimidine dimers in chromatin and handing them off to XPC?"
+        },
+        {
+          "activation": 0.06661929935216904,
+          "prompt_id": "SCIENCE_003062",
+          "domain": "SCIENCE",
+          "subdomain": "Organic chemistry",
+          "token_position": 11,
+          "prompt_text": "Design a practical approach to address a nucleophile attacks an electrophilic carbonyl carbon using principles of Organic chemistry. Include constraints and a measurable success criterion. Considering the timescale over which the process unfolds."
+        }
+      ]
+    },
+    "6556": {
+      "activation_frequency": 0.05255423801457232,
+      "n_firing_tokens_in_validation": 5150,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 530,
+        "DNA": 993,
+        "GANDHI": 97,
+        "HINDI": 575,
+        "SCIENCE": 2955
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.8765349388122559,
+          "prompt_id": "SCIENCE_001356",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 7,
+          "prompt_text": "How do a spring-mass system oscillates after damping is introduced and a rotating ice skater speeds up as their arms move inward differ in their underlying assumptions and explanatory power? Give a scientifically grounded comparison. And explain what changes if the dominant limiting factor is removed."
+        },
+        {
+          "activation": 0.8756492733955383,
+          "prompt_id": "SCIENCE_001006",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 6,
+          "prompt_text": "Compare a spring-mass system oscillates after damping is introduced and a rotating ice skater speeds up as their arms move inward with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. Using a qualitative model before introducing any quantitative estimates."
+        },
+        {
+          "activation": 0.803941011428833,
+          "prompt_id": "SCIENCE_001006",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 5,
+          "prompt_text": "Compare a spring-mass system oscillates after damping is introduced and a rotating ice skater speeds up as their arms move inward with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. Using a qualitative model before introducing any quantitative estimates."
+        },
+        {
+          "activation": 0.7922630310058594,
+          "prompt_id": "SCIENCE_004006",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 8,
+          "prompt_text": "Given the observation that a spring-mass system oscillates after damping is introduced, formulate a hypothesis grounded in Mechanics and outline a sequence of tests that could discriminate it from an alternative. Using a qualitative model before introducing any quantitative estimates."
+        },
+        {
+          "activation": 0.7767535448074341,
+          "prompt_id": "SCIENCE_004356",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 17,
+          "prompt_text": "Use Mechanics to predict what would happen if a key condition in a spring-mass system oscillates after damping is introduced changed. Show the reasoning and identify a testable prediction. And explain what changes if the dominant limiting factor is removed."
+        },
+        {
+          "activation": 0.769443154335022,
+          "prompt_id": "SCIENCE_001356",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 6,
+          "prompt_text": "How do a spring-mass system oscillates after damping is introduced and a rotating ice skater speeds up as their arms move inward differ in their underlying assumptions and explanatory power? Give a scientifically grounded comparison. And explain what changes if the dominant limiting factor is removed."
+        },
+        {
+          "activation": 0.7692720890045166,
+          "prompt_id": "SCIENCE_001356",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 5,
+          "prompt_text": "How do a spring-mass system oscillates after damping is introduced and a rotating ice skater speeds up as their arms move inward differ in their underlying assumptions and explanatory power? Give a scientifically grounded comparison. And explain what changes if the dominant limiting factor is removed."
+        },
+        {
+          "activation": 0.7537968158721924,
+          "prompt_id": "SCIENCE_004006",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 9,
+          "prompt_text": "Given the observation that a spring-mass system oscillates after damping is introduced, formulate a hypothesis grounded in Mechanics and outline a sequence of tests that could discriminate it from an alternative. Using a qualitative model before introducing any quantitative estimates."
+        },
+        {
+          "activation": 0.7536660432815552,
+          "prompt_id": "SCIENCE_000009",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 5,
+          "prompt_text": "Within the setting of a projectile follows a curved path despite horizontal motion, trace the relevant causal chain involving Mechanics; distinguish direct evidence from inference. And explain what changes if the dominant limiting factor is removed."
+        },
+        {
+          "activation": 0.7499259114265442,
+          "prompt_id": "SCIENCE_003359",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 6,
+          "prompt_text": "Develop an implementation concept for a projectile follows a curved path despite horizontal motion based on Mechanics, explaining why it is suitable under the stated conditions. Considering the timescale over which the process unfolds."
+        },
+        {
+          "activation": 0.7407119274139404,
+          "prompt_id": "SCIENCE_001006",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 4,
+          "prompt_text": "Compare a spring-mass system oscillates after damping is introduced and a rotating ice skater speeds up as their arms move inward with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. Using a qualitative model before introducing any quantitative estimates."
+        },
+        {
+          "activation": 0.725700855255127,
+          "prompt_id": "SCIENCE_001006",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 9,
+          "prompt_text": "Compare a spring-mass system oscillates after damping is introduced and a rotating ice skater speeds up as their arms move inward with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. Using a qualitative model before introducing any quantitative estimates."
+        },
+        {
+          "activation": 0.7113504409790039,
+          "prompt_id": "SCIENCE_001002",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 3,
+          "prompt_text": "How do a pendulum's period changes after its length is doubled and a satellite maintains orbit while continually falling toward Earth differ in their underlying assumptions and explanatory power? Give a scientifically grounded comparison. Considering the timescale over which the process unfolds."
+        },
+        {
+          "activation": 0.698192834854126,
+          "prompt_id": "SCIENCE_001356",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 10,
+          "prompt_text": "How do a spring-mass system oscillates after damping is introduced and a rotating ice skater speeds up as their arms move inward differ in their underlying assumptions and explanatory power? Give a scientifically grounded comparison. And explain what changes if the dominant limiting factor is removed."
+        },
+        {
+          "activation": 0.6787942051887512,
+          "prompt_id": "SCIENCE_001002",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 6,
+          "prompt_text": "How do a pendulum's period changes after its length is doubled and a satellite maintains orbit while continually falling toward Earth differ in their underlying assumptions and explanatory power? Give a scientifically grounded comparison. Considering the timescale over which the process unfolds."
+        },
+        {
+          "activation": 0.6773747205734253,
+          "prompt_id": "SCIENCE_003359",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 10,
+          "prompt_text": "Develop an implementation concept for a projectile follows a curved path despite horizontal motion based on Mechanics, explaining why it is suitable under the stated conditions. Considering the timescale over which the process unfolds."
+        },
+        {
+          "activation": 0.6509395837783813,
+          "prompt_id": "SCIENCE_004356",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 15,
+          "prompt_text": "Use Mechanics to predict what would happen if a key condition in a spring-mass system oscillates after damping is introduced changed. Show the reasoning and identify a testable prediction. And explain what changes if the dominant limiting factor is removed."
+        },
+        {
+          "activation": 0.6387572288513184,
+          "prompt_id": "SCIENCE_001043",
+          "domain": "SCIENCE",
+          "subdomain": "Fluid mechanics",
+          "token_position": 5,
+          "prompt_text": "Contrast a pipe's flow rate drops after narrowing with a pump changes the pressure head, focusing on the shared scientific basis and the key distinction that determines their behavior. While accounting for measurement uncertainty and possible confounding factors."
+        },
+        {
+          "activation": 0.6281360387802124,
+          "prompt_id": "SCIENCE_000009",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 9,
+          "prompt_text": "Within the setting of a projectile follows a curved path despite horizontal motion, trace the relevant causal chain involving Mechanics; distinguish direct evidence from inference. And explain what changes if the dominant limiting factor is removed."
+        },
+        {
+          "activation": 0.6203125715255737,
+          "prompt_id": "SCIENCE_001001",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 10,
+          "prompt_text": "Compare a cyclist brakes on wet pavement and the stopping distance increases and a pendulum's period changes after its length is doubled with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. Considering the relevant conservation laws and measurable variables."
+        }
+      ]
+    },
+    "6667": {
+      "activation_frequency": 1.0204706410596567e-05,
+      "n_firing_tokens_in_validation": 1,
+      "domain_distribution_of_firing_tokens": {
+        "DNA": 1
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.016726991161704063,
+          "prompt_id": "DNA_003165",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 12,
+          "prompt_text": "What role does DNA ligase play in joining adjacent Okazaki fragments?"
+        }
+      ]
+    },
+    "6915": {
+      "activation_frequency": 1.0204706410596567e-05,
+      "n_firing_tokens_in_validation": 1,
+      "domain_distribution_of_firing_tokens": {
+        "HINDI": 1
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.042746808379888535,
+          "prompt_id": "HINDI_000073",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 0,
+          "prompt_text": "Sandarbh mein 'woh' aur 've' ka prayog vyakti-vachan aur aadar ko kaise darshata hai?"
+        }
+      ]
+    },
+    "6932": {
+      "activation_frequency": 1.0204706410596567e-05,
+      "n_firing_tokens_in_validation": 1,
+      "domain_distribution_of_firing_tokens": {
+        "GANDHI": 1
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.0008769109845161438,
+          "prompt_id": "GANDHI_004815",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Bhagavad Gita",
+          "token_position": 11,
+          "prompt_text": "Using historical evidence, reason through the significance of Bhagavad Gita for public response; state the inference and its limitations."
+        }
+      ]
+    },
+    "7003": {
+      "activation_frequency": 1.0204706410596567e-05,
+      "n_firing_tokens_in_validation": 1,
+      "domain_distribution_of_firing_tokens": {
+        "HINDI": 1
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.0017067939043045044,
+          "prompt_id": "HINDI_000073",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 0,
+          "prompt_text": "Sandarbh mein 'woh' aur 've' ka prayog vyakti-vachan aur aadar ko kaise darshata hai?"
+        }
+      ]
+    },
+    "10452": {
+      "activation_frequency": 0.00273486131803988,
+      "n_firing_tokens_in_validation": 268,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 57,
+        "DNA": 103,
+        "GANDHI": 15,
+        "HINDI": 54,
+        "SCIENCE": 39
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.2455463707447052,
+          "prompt_id": "GANDHI_004833",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — 1930 arrests",
+          "token_position": 13,
+          "prompt_text": "Using historical evidence, reason through the significance of 1930 arrests for public response; state the inference and its limitations."
+        },
+        {
+          "activation": 0.22476395964622498,
+          "prompt_id": "GANDHI_001118",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Mass participation",
+          "token_position": 8,
+          "prompt_text": "Compare Mass participation and 1930 arrests in terms of historical chronology; identify a meaningful similarity and a historically grounded difference."
+        },
+        {
+          "activation": 0.22262872755527496,
+          "prompt_id": "SCIENCE_001527",
+          "domain": "SCIENCE",
+          "subdomain": "Microbiology",
+          "token_position": 14,
+          "prompt_text": "Contrast antibiotic susceptibility varies among isolates with a microorganism survives extreme salinity, focusing on the shared scientific basis and the key distinction that determines their behavior. And identify which evidence would distinguish the proposed explanation from alternatives."
+        },
+        {
+          "activation": 0.21879082918167114,
+          "prompt_id": "GANDHI_003078",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — 1930 arrests",
+          "token_position": 15,
+          "prompt_text": "Design a classroom, museum or public-history activity that uses 1930 arrests to teach historical chronology; specify evidence and a learning outcome."
+        },
+        {
+          "activation": 0.20893609523773193,
+          "prompt_id": "GANDHI_001571",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — Mass participation",
+          "token_position": 8,
+          "prompt_text": "Evaluate Mass participation alongside 1930 arrests through organizational method, avoiding anachronistic assumptions."
+        },
+        {
+          "activation": 0.19965602457523346,
+          "prompt_id": "GANDHI_000531",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — 1930 arrests",
+          "token_position": 13,
+          "prompt_text": "How does understanding organizational method change the interpretation of 1930 arrests? Support the explanation with historical evidence."
+        },
+        {
+          "activation": 0.18749886751174927,
+          "prompt_id": "GANDHI_000078",
+          "domain": "GANDHI",
+          "subdomain": "Gandhi studies — 1930 arrests",
+          "token_position": 7,
+          "prompt_text": "Explain how 1930 arrests shaped the broader context of historical chronology, using the documented circumstances and distinguishing evidence from interpretation."
+        },
+        {
+          "activation": 0.1845455765724182,
+          "prompt_id": "SCIENCE_004526",
+          "domain": "SCIENCE",
+          "subdomain": "Microbiology",
+          "token_position": 18,
+          "prompt_text": "Use Microbiology to predict what would happen if a key condition in a microorganism survives extreme salinity changed. Show the reasoning and identify a testable prediction. And explain what changes if the dominant limiting factor is removed."
+        },
+        {
+          "activation": 0.13229767978191376,
+          "prompt_id": "SCIENCE_003956",
+          "domain": "SCIENCE",
+          "subdomain": "Materials science",
+          "token_position": 15,
+          "prompt_text": "How could knowledge of Materials science be applied to reduce or manage grain size changes strength? Outline the mechanism and trade-offs of the proposed solution. Considering the timescale over which the process unfolds."
+        },
+        {
+          "activation": 0.12760001420974731,
+          "prompt_id": "SCIENCE_001001",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 9,
+          "prompt_text": "Compare a cyclist brakes on wet pavement and the stopping distance increases and a pendulum's period changes after its length is doubled with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. Considering the relevant conservation laws and measurable variables."
+        },
+        {
+          "activation": 0.12503975629806519,
+          "prompt_id": "HINDI_003475",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 7,
+          "prompt_text": "कक्षा 10 की बोर्ड-परीक्षा के लिए \"रचना के आधार पर वाक्य-रूपांतरण\" (सरल, मिश्र और संयुक्त) पर छह प्रश्न बनाइए, जिनमें हर प्रश्न में अलग समुच्चयबोधक का प्रयोग अपेक्षित हो।"
+        },
+        {
+          "activation": 0.11622881144285202,
+          "prompt_id": "EMOTIONS_004063",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 13,
+          "prompt_text": "Assess which additional fact would most help determine whether relief is the best interpretation of the scenario. Keep the interpretation tentative when the evidence is incomplete."
+        },
+        {
+          "activation": 0.1132063940167427,
+          "prompt_id": "DNA_002325",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 22,
+          "prompt_text": "How do ancient DNA (aDNA) time-series datasets allow direct measurement of allele frequency trajectories and selection coefficients over millennia?"
+        },
+        {
+          "activation": 0.10735674947500229,
+          "prompt_id": "EMOTIONS_003678",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 10,
+          "prompt_text": "Why do public health campaigns that rely heavily on inducing extreme fear or disgust sometimes backfire by causing audience avoidance rather than behavior change?"
+        },
+        {
+          "activation": 0.10106053203344345,
+          "prompt_id": "DNA_002325",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 19,
+          "prompt_text": "How do ancient DNA (aDNA) time-series datasets allow direct measurement of allele frequency trajectories and selection coefficients over millennia?"
+        },
+        {
+          "activation": 0.10083285719156265,
+          "prompt_id": "DNA_004535",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 6,
+          "prompt_text": "What genomic evidence demonstrates archaic introgression from Neanderthals and Denisovans into modern non-African human populations?"
+        },
+        {
+          "activation": 0.09517521411180496,
+          "prompt_id": "DNA_004479",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 17,
+          "prompt_text": "In breeding experiments, what defines an isogenic line, and why is it essential for isolating the Mendelian effects of a single introduced allele?"
+        },
+        {
+          "activation": 0.09484971314668655,
+          "prompt_id": "DNA_004535",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 10,
+          "prompt_text": "What genomic evidence demonstrates archaic introgression from Neanderthals and Denisovans into modern non-African human populations?"
+        },
+        {
+          "activation": 0.09300894290208817,
+          "prompt_id": "DNA_003868",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 15,
+          "prompt_text": "What is the role of non-B DNA structures such as G-quadruplexes and hairpins in endogenous DNA damage?"
+        },
+        {
+          "activation": 0.0870627835392952,
+          "prompt_id": "DNA_002975",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 22,
+          "prompt_text": "What is the difference between a quantitative trait locus (QTL) identified in an experimental F2 cross and a GWAS locus identified in an outbred population?"
+        }
+      ]
+    },
+    "10754": {
+      "activation_frequency": 0.00273486131803988,
+      "n_firing_tokens_in_validation": 268,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 57,
+        "DNA": 50,
+        "GANDHI": 22,
+        "SCIENCE": 90,
+        "HINDI": 49
+      },
+      "top_activating_examples": [
+        {
+          "activation": 2.2645392417907715,
+          "prompt_id": "SCIENCE_001257",
+          "domain": "SCIENCE",
+          "subdomain": "Materials science",
+          "token_position": 21,
+          "prompt_text": "How do a material undergoes phase transformation and a coating resists corrosion differ in their underlying assumptions and explanatory power? Give a scientifically grounded comparison. Including how the system's boundary conditions influence the outcome."
+        },
+        {
+          "activation": 2.2484192848205566,
+          "prompt_id": "SCIENCE_001955",
+          "domain": "SCIENCE",
+          "subdomain": "Materials science",
+          "token_position": 22,
+          "prompt_text": "How do a coating resists corrosion and a polymer creeps under constant stress differ in their underlying assumptions and explanatory power? Give a scientifically grounded comparison. Considering the relevant conservation laws and measurable variables."
+        },
+        {
+          "activation": 2.2424137592315674,
+          "prompt_id": "SCIENCE_001601",
+          "domain": "SCIENCE",
+          "subdomain": "Materials science",
+          "token_position": 23,
+          "prompt_text": "How do a metal fails by fatigue after cyclic loading and a weld develops residual stress differ in their underlying assumptions and explanatory power? Give a scientifically grounded comparison. With attention to the distinction between an ideal model and real observations."
+        },
+        {
+          "activation": 2.2206215858459473,
+          "prompt_id": "SCIENCE_001875",
+          "domain": "SCIENCE",
+          "subdomain": "Microbiology",
+          "token_position": 18,
+          "prompt_text": "How do a culture becomes contaminated and microbial fermentation changes pH differ in their underlying assumptions and explanatory power? Give a scientifically grounded comparison. Considering the relevant conservation laws and measurable variables."
+        },
+        {
+          "activation": 2.212644100189209,
+          "prompt_id": "SCIENCE_001277",
+          "domain": "SCIENCE",
+          "subdomain": "Astrophysics",
+          "token_position": 23,
+          "prompt_text": "How do a pulsar emits periodic signals and a star evolves off the main sequence differ in their underlying assumptions and explanatory power? Give a scientifically grounded comparison. Including how the system's boundary conditions influence the outcome."
+        },
+        {
+          "activation": 2.212371349334717,
+          "prompt_id": "SCIENCE_001356",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 33,
+          "prompt_text": "How do a spring-mass system oscillates after damping is introduced and a rotating ice skater speeds up as their arms move inward differ in their underlying assumptions and explanatory power? Give a scientifically grounded comparison. And explain what changes if the dominant limiting factor is removed."
+        },
+        {
+          "activation": 2.2041945457458496,
+          "prompt_id": "SCIENCE_001935",
+          "domain": "SCIENCE",
+          "subdomain": "Climate science",
+          "token_position": 22,
+          "prompt_text": "How do a drought persists across seasons and a glacier retreats during sustained warming differ in their underlying assumptions and explanatory power? Give a scientifically grounded comparison. Considering the relevant conservation laws and measurable variables."
+        },
+        {
+          "activation": 2.203993320465088,
+          "prompt_id": "SCIENCE_001007",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 32,
+          "prompt_text": "How do a rotating ice skater speeds up as their arms move inward and a vehicle's traction changes on a sloped road differ in their underlying assumptions and explanatory power? Give a scientifically grounded comparison. Including how the system's boundary conditions influence the outcome."
+        },
+        {
+          "activation": 2.200958728790283,
+          "prompt_id": "SCIENCE_001167",
+          "domain": "SCIENCE",
+          "subdomain": "Immunology",
+          "token_position": 22,
+          "prompt_text": "How do immune tolerance prevents self-reactivity and inflammation persists after pathogen clearance differ in their underlying assumptions and explanatory power? Give a scientifically grounded comparison. Including how the system's boundary conditions influence the outcome."
+        },
+        {
+          "activation": 2.197962522506714,
+          "prompt_id": "SCIENCE_001735",
+          "domain": "SCIENCE",
+          "subdomain": "Thermodynamics",
+          "token_position": 22,
+          "prompt_text": "How do a phase change occurs while temperature remains constant and entropy changes during mixing differ in their underlying assumptions and explanatory power? Give a scientifically grounded comparison. Considering the relevant conservation laws and measurable variables."
+        },
+        {
+          "activation": 2.1956443786621094,
+          "prompt_id": "SCIENCE_001845",
+          "domain": "SCIENCE",
+          "subdomain": "Ecology",
+          "token_position": 24,
+          "prompt_text": "How do a food web loses a top predator and a predator population declines after prey scarcity differ in their underlying assumptions and explanatory power? Give a scientifically grounded comparison. Considering the relevant conservation laws and measurable variables."
+        },
+        {
+          "activation": 2.1867666244506836,
+          "prompt_id": "SCIENCE_001596",
+          "domain": "SCIENCE",
+          "subdomain": "Hydrology",
+          "token_position": 27,
+          "prompt_text": "How do a contaminant plume moves through aquifer and a floodplain stores water during a flood differ in their underlying assumptions and explanatory power? Give a scientifically grounded comparison. And explain what changes if the dominant limiting factor is removed."
+        },
+        {
+          "activation": 2.186091423034668,
+          "prompt_id": "SCIENCE_001626",
+          "domain": "SCIENCE",
+          "subdomain": "Astrophysics",
+          "token_position": 23,
+          "prompt_text": "How do a galaxy rotation curve suggests unseen mass and a pulsar emits periodic signals differ in their underlying assumptions and explanatory power? Give a scientifically grounded comparison. And explain what changes if the dominant limiting factor is removed."
+        },
+        {
+          "activation": 2.178316831588745,
+          "prompt_id": "SCIENCE_001092",
+          "domain": "SCIENCE",
+          "subdomain": "Chemical kinetics",
+          "token_position": 24,
+          "prompt_text": "How do a catalyst changes the reaction pathway and a reaction's half-life varies with concentration differ in their underlying assumptions and explanatory power? Give a scientifically grounded comparison. Considering the timescale over which the process unfolds."
+        },
+        {
+          "activation": 2.17579984664917,
+          "prompt_id": "SCIENCE_001002",
+          "domain": "SCIENCE",
+          "subdomain": "Mechanics",
+          "token_position": 30,
+          "prompt_text": "How do a pendulum's period changes after its length is doubled and a satellite maintains orbit while continually falling toward Earth differ in their underlying assumptions and explanatory power? Give a scientifically grounded comparison. Considering the timescale over which the process unfolds."
+        },
+        {
+          "activation": 2.1568679809570312,
+          "prompt_id": "SCIENCE_001082",
+          "domain": "SCIENCE",
+          "subdomain": "Electrochemistry",
+          "token_position": 23,
+          "prompt_text": "How do a metal corrodes in saline water and a battery voltage falls under load differ in their underlying assumptions and explanatory power? Give a scientifically grounded comparison. Considering the timescale over which the process unfolds."
+        },
+        {
+          "activation": 2.1409058570861816,
+          "prompt_id": "SCIENCE_001446",
+          "domain": "SCIENCE",
+          "subdomain": "Chemical kinetics",
+          "token_position": 21,
+          "prompt_text": "How do two competing pathways yield different products and a reaction displays induction time differ in their underlying assumptions and explanatory power? Give a scientifically grounded comparison. And explain what changes if the dominant limiting factor is removed."
+        },
+        {
+          "activation": 2.121396541595459,
+          "prompt_id": "SCIENCE_001501",
+          "domain": "SCIENCE",
+          "subdomain": "Neuroscience",
+          "token_position": 28,
+          "prompt_text": "How do a neuron fires after threshold depolarization and a neural circuit integrates inhibitory and excitatory inputs differ in their underlying assumptions and explanatory power? Give a scientifically grounded comparison. With attention to the distinction between an ideal model and real observations."
+        },
+        {
+          "activation": 2.0983293056488037,
+          "prompt_id": "SCIENCE_001755",
+          "domain": "SCIENCE",
+          "subdomain": "Analytical chemistry",
+          "token_position": 30,
+          "prompt_text": "How do a titration endpoint differs from its equivalence point and a calibration curve is nonlinear near the instrument's upper range differ in their underlying assumptions and explanatory power? Give a scientifically grounded comparison. Considering the relevant conservation laws and measurable variables."
+        },
+        {
+          "activation": 2.098130226135254,
+          "prompt_id": "SCIENCE_001147",
+          "domain": "SCIENCE",
+          "subdomain": "Ecology",
+          "token_position": 25,
+          "prompt_text": "How do species richness changes along an elevation gradient and an invasive species expands into a new habitat differ in their underlying assumptions and explanatory power? Give a scientifically grounded comparison. Including how the system's boundary conditions influence the outcome."
+        }
+      ]
+    },
+    "12191": {
+      "activation_frequency": 1.0204706410596567e-05,
+      "n_firing_tokens_in_validation": 1,
+      "domain_distribution_of_firing_tokens": {
+        "HINDI": 1
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.04903624579310417,
+          "prompt_id": "HINDI_000073",
+          "domain": "HINDI",
+          "subdomain": "Grammar",
+          "token_position": 0,
+          "prompt_text": "Sandarbh mein 'woh' aur 've' ka prayog vyakti-vachan aur aadar ko kaise darshata hai?"
+        }
+      ]
+    },
+    "12405": {
+      "activation_frequency": 1.0204706410596567e-05,
+      "n_firing_tokens_in_validation": 1,
+      "domain_distribution_of_firing_tokens": {
+        "HINDI": 1
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.00963926687836647,
+          "prompt_id": "HINDI_003563",
+          "domain": "HINDI",
+          "subdomain": "Syntax",
+          "token_position": 0,
+          "prompt_text": "Company के Hindi product manual में sentences बहुत complex हैं। Relative clauses को simple sentences में break करने के 4 examples दीजिए।"
+        }
+      ]
+    },
+    "13597": {
+      "activation_frequency": 0.0027246566116292835,
+      "n_firing_tokens_in_validation": 267,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 28,
+        "DNA": 138,
+        "HINDI": 74,
+        "SCIENCE": 27
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.23379626870155334,
+          "prompt_id": "DNA_002149",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 21,
+          "prompt_text": "How does USP7 deubiquitinate CSB and UVSSA to protect them from proteasomal degradation during transcription-coupled NER?"
+        },
+        {
+          "activation": 0.21168754994869232,
+          "prompt_id": "DNA_002149",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 22,
+          "prompt_text": "How does USP7 deubiquitinate CSB and UVSSA to protect them from proteasomal degradation during transcription-coupled NER?"
+        },
+        {
+          "activation": 0.1671096235513687,
+          "prompt_id": "HINDI_003307",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 2,
+          "prompt_text": "isa vastavika sthiti men galataphahamee se bachane ke lie snvada ka aarnbha aura samapana ko spashta karane vala vakya likhie। sthiti: kisee adhikaree se anurodha karate samaya karmacharee narama bhasha chunata hai।"
+        },
+        {
+          "activation": 0.16248856484889984,
+          "prompt_id": "DNA_003750",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 16,
+          "prompt_text": "What is the evolutionary relationship between the multi-subunit RNA polymerases of bacteria, archaea, and eukaryotes?"
+        },
+        {
+          "activation": 0.13485553860664368,
+          "prompt_id": "HINDI_001677",
+          "domain": "HINDI",
+          "subdomain": "Pragmatics",
+          "token_position": 24,
+          "prompt_text": "\"Mere paas time nahi hai\" aur \"Is hafte to mushkil hai, agle hafte dekhein?\" — dono inkaar mein bhavishya ki sambhavna ki tulna kijiye."
+        },
+        {
+          "activation": 0.116294264793396,
+          "prompt_id": "DNA_000452",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 8,
+          "prompt_text": "How does the ubiquitin-proteasome system regulate the stability of DNA damage response proteins?"
+        },
+        {
+          "activation": 0.1143498569726944,
+          "prompt_id": "DNA_001953",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 16,
+          "prompt_text": "How does the elongation factor SPT6 maintain chromatin integrity by chaperoning histones in the wake of RNA polymerase II?"
+        },
+        {
+          "activation": 0.11282585561275482,
+          "prompt_id": "DNA_000452",
+          "domain": "DNA",
+          "subdomain": "Mutations_Repair",
+          "token_position": 7,
+          "prompt_text": "How does the ubiquitin-proteasome system regulate the stability of DNA damage response proteins?"
+        },
+        {
+          "activation": 0.10921993106603622,
+          "prompt_id": "SCIENCE_004170",
+          "domain": "SCIENCE",
+          "subdomain": "Immunology",
+          "token_position": 7,
+          "prompt_text": "Reason through a booster dose increases antibody response using Immunology. Specify the assumptions, intermediate steps, and evidence needed to support the conclusion. And identify which evidence would distinguish the proposed explanation from alternatives."
+        },
+        {
+          "activation": 0.08622336387634277,
+          "prompt_id": "SCIENCE_003870",
+          "domain": "SCIENCE",
+          "subdomain": "Immunology",
+          "token_position": 11,
+          "prompt_text": "Design a practical approach to address a booster dose increases antibody response using principles of Immunology. Include constraints and a measurable success criterion. Using a qualitative model before introducing any quantitative estimates."
+        },
+        {
+          "activation": 0.08479416370391846,
+          "prompt_id": "SCIENCE_004170",
+          "domain": "SCIENCE",
+          "subdomain": "Immunology",
+          "token_position": 6,
+          "prompt_text": "Reason through a booster dose increases antibody response using Immunology. Specify the assumptions, intermediate steps, and evidence needed to support the conclusion. And identify which evidence would distinguish the proposed explanation from alternatives."
+        },
+        {
+          "activation": 0.08451087772846222,
+          "prompt_id": "DNA_003750",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 17,
+          "prompt_text": "What is the evolutionary relationship between the multi-subunit RNA polymerases of bacteria, archaea, and eukaryotes?"
+        },
+        {
+          "activation": 0.08194621652364731,
+          "prompt_id": "SCIENCE_003870",
+          "domain": "SCIENCE",
+          "subdomain": "Immunology",
+          "token_position": 10,
+          "prompt_text": "Design a practical approach to address a booster dose increases antibody response using principles of Immunology. Include constraints and a measurable success criterion. Using a qualitative model before introducing any quantitative estimates."
+        },
+        {
+          "activation": 0.08014582097530365,
+          "prompt_id": "EMOTIONS_002316",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 13,
+          "prompt_text": "Scenario: A colleague interprets direct communication as hostility while the speaker intended clarity. Task: Identify a relevant concept or distinction about empathy or social emotion. Do not infer a person's internal state with certainty from a single behavior; state relevant uncertainty and avoid stereotypes."
+        },
+        {
+          "activation": 0.07957856357097626,
+          "prompt_id": "DNA_002332",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 34,
+          "prompt_text": "How do LINE-1 (L1) non-LTR retrotransposons mobilize via target-primed reverse transcription, and how do Alu SINE elements parasitize L1 machinery?"
+        },
+        {
+          "activation": 0.07945457100868225,
+          "prompt_id": "DNA_000233",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 14,
+          "prompt_text": "How does a proofreading-deficient DNA polymerase influence mutation accumulation during successive rounds of DNA replication?"
+        },
+        {
+          "activation": 0.07756900787353516,
+          "prompt_id": "DNA_003295",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 9,
+          "prompt_text": "What is codon context, and how can neighbouring nucleotides influence decoding efficiency?"
+        },
+        {
+          "activation": 0.07576043903827667,
+          "prompt_id": "SCIENCE_001281",
+          "domain": "SCIENCE",
+          "subdomain": "Planetary science",
+          "token_position": 9,
+          "prompt_text": "Compare a planet's atmosphere retains heat and a moon exhibits tidal heating with respect to mechanism, observable outcomes, and the conditions under which each is most applicable. Considering the relevant conservation laws and measurable variables."
+        },
+        {
+          "activation": 0.07377904653549194,
+          "prompt_id": "EMOTIONS_001760",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Recognition_Interpretation",
+          "token_position": 17,
+          "prompt_text": "Compare the cues of nervous excitement before a performance with those of debilitating stage fright when both involve trembling and rapid speech."
+        },
+        {
+          "activation": 0.071723572909832,
+          "prompt_id": "DNA_004996",
+          "domain": "DNA",
+          "subdomain": "Inheritance_Genomics",
+          "token_position": 14,
+          "prompt_text": "What happens to fertility and chromosome segregation when two geographically isolated populations fixed for different chromosomal inversions hybridize?"
+        }
+      ]
+    },
+    "15175": {
+      "activation_frequency": 0.0499418331734596,
+      "n_firing_tokens_in_validation": 4894,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 398,
+        "DNA": 2674,
+        "GANDHI": 178,
+        "HINDI": 240,
+        "SCIENCE": 1404
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.8412302732467651,
+          "prompt_id": "DNA_000946",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 9,
+          "prompt_text": "How frequently is primase recruited to the lagging strand, and how is priming frequency regulated?"
+        },
+        {
+          "activation": 0.8407535552978516,
+          "prompt_id": "DNA_004957",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 16,
+          "prompt_text": "What would be the consequence for replication if RNA primers were not removed from lagging strand products?"
+        },
+        {
+          "activation": 0.8023108243942261,
+          "prompt_id": "DNA_001832",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 13,
+          "prompt_text": "Why is there a temporal lag between the synthesis of an Okazaki fragment and its complete ligation into a continuous DNA strand?"
+        },
+        {
+          "activation": 0.7874854803085327,
+          "prompt_id": "DNA_001804",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 4,
+          "prompt_text": "Why is DNA synthesis continuous on the leading strand and discontinuous on the lagging strand at a single replication fork?"
+        },
+        {
+          "activation": 0.7654126286506653,
+          "prompt_id": "DNA_004197",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 25,
+          "prompt_text": "What is the \"end-replication problem\" that arises at the linear termini of eukaryotic chromosomes during lagging-strand synthesis?"
+        },
+        {
+          "activation": 0.7276074886322021,
+          "prompt_id": "DNA_004957",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 10,
+          "prompt_text": "What would be the consequence for replication if RNA primers were not removed from lagging strand products?"
+        },
+        {
+          "activation": 0.7113218307495117,
+          "prompt_id": "DNA_001832",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 14,
+          "prompt_text": "Why is there a temporal lag between the synthesis of an Okazaki fragment and its complete ligation into a continuous DNA strand?"
+        },
+        {
+          "activation": 0.7096341252326965,
+          "prompt_id": "DNA_003165",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 12,
+          "prompt_text": "What role does DNA ligase play in joining adjacent Okazaki fragments?"
+        },
+        {
+          "activation": 0.7065268754959106,
+          "prompt_id": "DNA_000189",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 14,
+          "prompt_text": "How does strand displacement contribute to the processing of RNA primers during lagging-strand synthesis?"
+        },
+        {
+          "activation": 0.679826021194458,
+          "prompt_id": "DNA_002663",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 5,
+          "prompt_text": "Why can RNA polymerase initiate synthesis de novo without a primer, unlike DNA polymerases?"
+        },
+        {
+          "activation": 0.6525107622146606,
+          "prompt_id": "DNA_000184",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 13,
+          "prompt_text": "How does DNA polymerase I participate in the processing of Okazaki fragments in bacteria?"
+        },
+        {
+          "activation": 0.646620512008667,
+          "prompt_id": "DNA_004178",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 22,
+          "prompt_text": "What role does the chi-psi subcomplex of the E. coli clamp loader play in bridging the lagging-strand polymerase to SSB-coated single-stranded DNA?"
+        },
+        {
+          "activation": 0.6427754759788513,
+          "prompt_id": "DNA_000946",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 11,
+          "prompt_text": "How frequently is primase recruited to the lagging strand, and how is priming frequency regulated?"
+        },
+        {
+          "activation": 0.6391160488128662,
+          "prompt_id": "DNA_001832",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 15,
+          "prompt_text": "Why is there a temporal lag between the synthesis of an Okazaki fragment and its complete ligation into a continuous DNA strand?"
+        },
+        {
+          "activation": 0.6173651218414307,
+          "prompt_id": "DNA_000974",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 16,
+          "prompt_text": "How does the stability of RNA primer–template hybrids influence primer use by the lagging strand polymerase?"
+        },
+        {
+          "activation": 0.6084488034248352,
+          "prompt_id": "DNA_000960",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 20,
+          "prompt_text": "How do Mcm2 and polymerase α mediate the transfer of parental histones to the lagging strand?"
+        },
+        {
+          "activation": 0.6074577569961548,
+          "prompt_id": "DNA_001804",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 10,
+          "prompt_text": "Why is DNA synthesis continuous on the leading strand and discontinuous on the lagging strand at a single replication fork?"
+        },
+        {
+          "activation": 0.5920506715774536,
+          "prompt_id": "DNA_002663",
+          "domain": "DNA",
+          "subdomain": "Transcription_Translation",
+          "token_position": 6,
+          "prompt_text": "Why can RNA polymerase initiate synthesis de novo without a primer, unlike DNA polymerases?"
+        },
+        {
+          "activation": 0.5818362236022949,
+          "prompt_id": "DNA_001832",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 25,
+          "prompt_text": "Why is there a temporal lag between the synthesis of an Okazaki fragment and its complete ligation into a continuous DNA strand?"
+        },
+        {
+          "activation": 0.5797902941703796,
+          "prompt_id": "DNA_001804",
+          "domain": "DNA",
+          "subdomain": "Replication",
+          "token_position": 7,
+          "prompt_text": "Why is DNA synthesis continuous on the leading strand and discontinuous on the lagging strand at a single replication fork?"
+        }
+      ]
+    },
+    "15234": {
+      "activation_frequency": 0.05129905912606894,
+      "n_firing_tokens_in_validation": 5027,
+      "domain_distribution_of_firing_tokens": {
+        "EMOTIONS": 3621,
+        "DNA": 617,
+        "GANDHI": 383,
+        "HINDI": 278,
+        "SCIENCE": 128
+      },
+      "top_activating_examples": [
+        {
+          "activation": 0.6846773624420166,
+          "prompt_id": "EMOTIONS_004892",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 8,
+          "prompt_text": "Why can humor serve as an effective coping tool when used to share perspective on a stressor, yet become maladaptive when used exclusively to deflect serious interpersonal issues?"
+        },
+        {
+          "activation": 0.6209409236907959,
+          "prompt_id": "EMOTIONS_002367",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 16,
+          "prompt_text": "What does \"affective forecasting\" refer to, and what common errors do people make when predicting their future emotions?"
+        },
+        {
+          "activation": 0.6204222440719604,
+          "prompt_id": "EMOTIONS_004923",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 13,
+          "prompt_text": "How can perfectionistic standards turn minor everyday mistakes into intense shame triggers, and how does flexible reappraisal soften that reaction?"
+        },
+        {
+          "activation": 0.5978606939315796,
+          "prompt_id": "EMOTIONS_004612",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 7,
+          "prompt_text": "Why might jealousy in a friendship be harder to talk about openly than jealousy in a romantic relationship?"
+        },
+        {
+          "activation": 0.584587812423706,
+          "prompt_id": "EMOTIONS_004892",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 6,
+          "prompt_text": "Why can humor serve as an effective coping tool when used to share perspective on a stressor, yet become maladaptive when used exclusively to deflect serious interpersonal issues?"
+        },
+        {
+          "activation": 0.5726180076599121,
+          "prompt_id": "EMOTIONS_003678",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 16,
+          "prompt_text": "Why do public health campaigns that rely heavily on inducing extreme fear or disgust sometimes backfire by causing audience avoidance rather than behavior change?"
+        },
+        {
+          "activation": 0.5574809312820435,
+          "prompt_id": "EMOTIONS_004975",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 14,
+          "prompt_text": "Why can chronic loneliness heighten hypervigilance toward social threats, making neutral social interactions feel unwelcoming?"
+        },
+        {
+          "activation": 0.55696702003479,
+          "prompt_id": "EMOTIONS_002365",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 4,
+          "prompt_text": "How is grief commonly described, and why have stage models of grief been criticized?"
+        },
+        {
+          "activation": 0.5454157590866089,
+          "prompt_id": "EMOTIONS_003678",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 14,
+          "prompt_text": "Why do public health campaigns that rely heavily on inducing extreme fear or disgust sometimes backfire by causing audience avoidance rather than behavior change?"
+        },
+        {
+          "activation": 0.5384103655815125,
+          "prompt_id": "EMOTIONS_004383",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 19,
+          "prompt_text": "Why might people feel more anger at a friend's betrayal than at the same action by a stranger?"
+        },
+        {
+          "activation": 0.5353643298149109,
+          "prompt_id": "EMOTIONS_004495",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 11,
+          "prompt_text": "Why might people use metaphors instead of direct emotion words when expressing intense feelings?"
+        },
+        {
+          "activation": 0.5338091254234314,
+          "prompt_id": "EMOTIONS_004955",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 8,
+          "prompt_text": "Why does moral elevation inspire prosocial action more reliably than moral lecturing or guilt-tripping?"
+        },
+        {
+          "activation": 0.5334421396255493,
+          "prompt_id": "EMOTIONS_004923",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 5,
+          "prompt_text": "How can perfectionistic standards turn minor everyday mistakes into intense shame triggers, and how does flexible reappraisal soften that reaction?"
+        },
+        {
+          "activation": 0.5331902503967285,
+          "prompt_id": "EMOTIONS_004892",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 10,
+          "prompt_text": "Why can humor serve as an effective coping tool when used to share perspective on a stressor, yet become maladaptive when used exclusively to deflect serious interpersonal issues?"
+        },
+        {
+          "activation": 0.5281271934509277,
+          "prompt_id": "EMOTIONS_002928",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Regulation_Coping",
+          "token_position": 6,
+          "prompt_text": "How does downward social comparison sometimes serve as an emotion-focused coping mechanism to restore self-esteem after failure?"
+        },
+        {
+          "activation": 0.526181697845459,
+          "prompt_id": "EMOTIONS_002615",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 10,
+          "prompt_text": "What does research suggest about in-group bias in empathy, such as weaker empathic responses to members of out-groups?"
+        },
+        {
+          "activation": 0.5250227451324463,
+          "prompt_id": "EMOTIONS_002705",
+          "domain": "EMOTIONS",
+          "subdomain": "Basic_Complex_Emotions",
+          "token_position": 6,
+          "prompt_text": "How is survivor guilt characterized as a specific form of guilt involving perceived unfairness after escaping harm that others suffered?"
+        },
+        {
+          "activation": 0.5196936726570129,
+          "prompt_id": "EMOTIONS_004473",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 9,
+          "prompt_text": "Why might people choose humor to express difficult emotions, and what might be lost in doing so?"
+        },
+        {
+          "activation": 0.5184535384178162,
+          "prompt_id": "EMOTIONS_004473",
+          "domain": "EMOTIONS",
+          "subdomain": "Emotional_Expression_Communication",
+          "token_position": 5,
+          "prompt_text": "Why might people choose humor to express difficult emotions, and what might be lost in doing so?"
+        },
+        {
+          "activation": 0.5137879252433777,
+          "prompt_id": "EMOTIONS_004989",
+          "domain": "EMOTIONS",
+          "subdomain": "Empathy_Social_Emotions",
+          "token_position": 18,
+          "prompt_text": "Why is humility—the willingness to admit limitations and value others' contributions—closely linked to authentic gratitude and strong social bonds?"
+        }
+      ]
+    }
+  },
+  "note": "Automated statistics only. No semantic label is auto-generated here -- see sae_<width>_reviewed.json for the separate human/teacher-reviewed interpretation pass."
+}

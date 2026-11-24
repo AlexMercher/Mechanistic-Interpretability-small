@@ -1,0 +1,139 @@
+{
+  "table": {
+    "4096": {
+      "validation_reconstruction_mse_mean": 1.8983681415034657,
+      "validation_reconstruction_mse_range": [
+        1.8883236960532088,
+        1.9056701762283164
+      ],
+      "explained_variance_mean": 0.9991000608254721,
+      "explained_variance_range": [
+        0.999096599221755,
+        0.9991048224833735
+      ],
+      "mean_active_features_per_token_mean": 44.204822063935886,
+      "mean_active_features_per_token_range": [
+        43.66212217074515,
+        44.60709839377921
+      ],
+      "median_active_features_per_token_mean": 38.333333333333336,
+      "mean_l1_activation_magnitude_mean": 17.141300618445374,
+      "dead_features_mean": 1897.6666666666667,
+      "dead_feature_pct_mean": 46.329752604166664,
+      "dead_feature_pct_range": [
+        44.775390625,
+        47.75390625
+      ],
+      "rare_feature_pct_mean": 0.3499348958333333,
+      "active_feature_pct_mean": 53.670247395833336,
+      "active_feature_pct_range": [
+        52.24609375,
+        55.224609375
+      ],
+      "feature_stability_mean_decoder_match_rate": 0.42333984375,
+      "feature_stability_decoder_match_rate_live_normalized": 0.7887793783169067,
+      "feature_stability_mean_activation_match_rate": 0.4278971354166667,
+      "explained_variance_per_active_feature": 0.022601608018700273,
+      "avg_training_duration_sec": 453.93333333333334,
+      "avg_peak_vram_gb": 0.7600000000000001,
+      "checkpoint_size_bytes": 201407742,
+      "n_seeds_aggregated": 3
+    },
+    "8192": {
+      "validation_reconstruction_mse_mean": 1.7659159618937414,
+      "validation_reconstruction_mse_range": [
+        1.7637895005154958,
+        1.7687114953631626
+      ],
+      "explained_variance_mean": 0.9991628510198917,
+      "explained_variance_range": [
+        0.9991615257720461,
+        0.9991638590812965
+      ],
+      "mean_active_features_per_token_mean": 40.165982951337156,
+      "mean_active_features_per_token_range": [
+        39.992938343163864,
+        40.451323550421456
+      ],
+      "median_active_features_per_token_mean": 32.0,
+      "mean_l1_activation_magnitude_mean": 17.55467428575759,
+      "dead_features_mean": 3623.0,
+      "dead_feature_pct_mean": 44.22607421875,
+      "dead_feature_pct_range": [
+        43.15185546875,
+        45.1904296875
+      ],
+      "rare_feature_pct_mean": 0.20345052083333334,
+      "active_feature_pct_mean": 55.77392578125,
+      "active_feature_pct_range": [
+        54.8095703125,
+        56.84814453125
+      ],
+      "feature_stability_mean_decoder_match_rate": 0.3137613932291667,
+      "feature_stability_decoder_match_rate_live_normalized": 0.5625592762821916,
+      "feature_stability_mean_activation_match_rate": 0.4249267578125,
+      "explained_variance_per_active_feature": 0.024875847112478765,
+      "avg_training_duration_sec": 998.2333333333335,
+      "avg_peak_vram_gb": 1.29,
+      "checkpoint_size_bytes": 402783486,
+      "n_seeds_aggregated": 3
+    },
+    "16384": {
+      "validation_reconstruction_mse_mean": 1.788342366406732,
+      "validation_reconstruction_mse_range": [
+        1.7810100424527786,
+        1.7999993897471547
+      ],
+      "explained_variance_mean": 0.9991522195680157,
+      "explained_variance_range": [
+        0.9991466934485889,
+        0.9991556955200809
+      ],
+      "mean_active_features_per_token_mean": 42.73012633426536,
+      "mean_active_features_per_token_range": [
+        42.362216054044126,
+        43.02944057799457
+      ],
+      "median_active_features_per_token_mean": 31.333333333333332,
+      "mean_l1_activation_magnitude_mean": 18.058328260820932,
+      "dead_features_mean": 8938.333333333334,
+      "dead_feature_pct_mean": 54.555257161458336,
+      "dead_feature_pct_range": [
+        54.119873046875,
+        55.242919921875
+      ],
+      "rare_feature_pct_mean": 0.13020833333333334,
+      "active_feature_pct_mean": 45.444742838541664,
+      "active_feature_pct_range": [
+        44.757080078125,
+        45.880126953125
+      ],
+      "feature_stability_mean_decoder_match_rate": 0.15645345052083334,
+      "feature_stability_decoder_match_rate_live_normalized": 0.3442718359672293,
+      "feature_stability_mean_activation_match_rate": 0.3493448893229167,
+      "explained_variance_per_active_feature": 0.023382851989529316,
+      "avg_training_duration_sec": 1315.3333333333333,
+      "avg_peak_vram_gb": 2.37,
+      "checkpoint_size_bytes": 805534974,
+      "n_seeds_aggregated": 3
+    }
+  },
+  "widths_compared": [
+    4096,
+    8192,
+    16384
+  ],
+  "complete_widths": [
+    4096,
+    8192,
+    16384
+  ],
+  "verdict_notes": [
+    "Lowest validation reconstruction MSE (mean over 3 seeds): 8192 (spread across widths is only 7.5% -- see per-width ranges in the table; reconstruction barely differentiates the three widths here).",
+    "'Explained-variance-per-active-feature' is NOT independent corroboration of the reconstruction result: explained variance is saturated (~0.999) at every width, so this ratio is numerically almost exactly 1/mean_L0 -- it just restates the sparsity ranking, not a genuine recon-vs-sparsity trade-off being navigated in this result.",
+    "Lowest dead-feature percentage (mean over 3 seeds): 8192.",
+    "Highest cross-seed decoder-match stability, raw (divided by full dictionary width): 4096. Live-normalized (divided by the live/non-dead feature fraction instead, which removes the double penalty wide dictionaries take from also having more dead features): 4096.",
+    "No single width wins on every axis -- reconstruction (barely differentiated), dead-feature rate, and stability do not all point the same way. This script deliberately does not collapse these into one score or declare the widest dictionary the winner by default. Reconstruction/sparsity/dead-feature figures above are now 3-seed aggregates (not single-seed point estimates); see reports/opus_final_review.md for the full methodology review."
+  ],
+  "methodology_note": "Reconstruction (validation MSE / explained variance) and sparsity (mean L0, L1) are reported as co-equal primary axes, not ranked with reconstruction as primary and sparsity as a tiebreaker. 'explained_variance_per_active_feature' is one additional joint lens (reconstruction quality achieved per unit of sparsity spent), not a replacement for looking at both axes independently."
+}

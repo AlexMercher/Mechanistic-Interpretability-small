@@ -1,0 +1,133 @@
+{
+  "dictionary_width": 8192,
+  "reviewer": "opus_teacher_model_pass",
+  "features": {
+    "795": {
+      "label": "template_driven",
+      "justification": "Top 10 are the identical GANDHI template 'Summarize the established historical information about X that illuminates participant experience.' at 2.68, with only the slot-filler changing (this is the canonical template_driven case flagged in the prompt). Keys on phrasing/position, not meaning."
+    },
+    "963": {
+      "label": "template_driven",
+      "justification": "Top 20 are the identical GANDHI template 'A historian examines X through political context. What contextual factors are essential to a careful explanation?' at ~2.1, varying only the topic slot. Keys on the recurring sentence frame."
+    },
+    "972": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Ubiquitous 'always-on' feature firing on 97% of tokens (activation ~6.6) uniformly across all five domains. Not concept-specific; supports no single interpretation."
+    },
+    "1876": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Top activations mix DNA molecular-biology 'How is/does X...' questions with the SCIENCE 'Reason through X using Y' template and GANDHI 'differ from' prompts, all at low token positions. No single template, domain, or concept dominates."
+    },
+    "2154": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Dead feature: a single Hindi firing at activation 0.08. Nothing to interpret."
+    },
+    "2155": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Dead feature: one EMOTIONS firing at activation ~0.01."
+    },
+    "2327": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Dead feature: one Hindi firing at activation near zero."
+    },
+    "2728": {
+      "label": "domain_or_script_marker",
+      "justification": "94% of firings are HINDI and every top example is Devanagari syntax/grammar content. A clear Hindi-script marker rather than a concept detector."
+    },
+    "2922": {
+      "label": "domain_or_script_marker",
+      "justification": "46% DNA and every top example is a DNA molecular-biology 'How does X...' question at low token position, but the subtopics vary widely (structure, transcription, mutations, replication). Tracks the DNA domain, not a specific concept."
+    },
+    "2924": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Dead feature: a single Hindi firing at activation ~0.02."
+    },
+    "2974": {
+      "label": "domain_or_script_marker",
+      "justification": "93% HINDI; top examples are uniformly Hindi grammar prompts. A Hindi-script/domain marker."
+    },
+    "3087": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Dead feature: single Hindi firing at activation ~0.01."
+    },
+    "3149": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Dead feature: single Hindi firing at activation ~0.01 (duplicate stimulus of other dead units)."
+    },
+    "3160": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "55% HINDI with modest activations (~0.3-0.4) interleaving EMOTIONS basic-emotion prompts and Hindi pragmatics/vocabulary. No coherent unifying template or concept."
+    },
+    "3494": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Low activations spread over DNA mutation/genetic-code questions, SCIENCE, and EMOTIONS communication prompts. Too heterogeneous to support any single story."
+    },
+    "3938": {
+      "label": "template_driven",
+      "justification": "Top 20 are the identical SCIENCE template 'Given the observation that X, formulate a hypothesis grounded in Y and outline...' at very high (2.7-2.96) activation, with only the phenomenon slot changing. Keys on the hypothesis-formulation frame."
+    },
+    "4589": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Dead feature: single Hindi firing at activation ~0.12."
+    },
+    "4816": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Firings split ~27/27 DNA/EMOTIONS with moderate activations, interleaving DNA biochemistry (ligase, Okazaki fragments, counterions) and EMOTIONS concepts (self-compassion, theory of mind). No shared concept across the top examples."
+    },
+    "5193": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "48% HINDI, top examples mixing Hindi idiom/semantics ('dil bhar aana') with EMOTIONS communication scaffolds at modest activation. No single coherent template or meaning."
+    },
+    "5207": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Dead feature: single Hindi firing at activation near zero."
+    },
+    "5497": {
+      "label": "domain_or_script_marker",
+      "justification": "64% HINDI and the top examples are consistently Hindi pragmatics prompts (intent behind a question). Dominantly a Hindi-script marker; the mild pragmatics flavor does not rise to a specific cross-template concept."
+    },
+    "5558": {
+      "label": "coherent_semantic",
+      "justification": "Top examples are tightly and consistently about genomics/sequencing methodology — GWAS design, population stratification, whole-genome sequencing QC, genome assembly, 16S vs. shotgun metagenomics — across varied question templates. This is a specific methodological concept, not just the broad DNA domain, though it stays within DNA."
+    },
+    "6271": {
+      "label": "domain_or_script_marker",
+      "justification": "78% HINDI; top examples are uniformly Hindi semantics/grammar. A Hindi-script marker."
+    },
+    "6529": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Dead feature: single DNA firing at activation near zero."
+    },
+    "6921": {
+      "label": "template_driven",
+      "justification": "Top 20 are the identical GANDHI template 'How could a civic organization draw a historically responsible lesson from X about...' at ~2.5, varying only the topic. Keys on the recurring phrasing despite the distribution label showing EMOTIONS firings elsewhere."
+    },
+    "7210": {
+      "label": "template_driven",
+      "justification": "High-frequency feature whose top 20 are the identical GANDHI 'A historian examines X through documentary evidence. What contextual factors...' template at token position 2, activation 2.13. A positional variant of the same template as feature 963."
+    },
+    "7277": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Low activations spread across GANDHI history, SCIENCE optics, and DNA genomics with no shared template or concept. Heterogeneous."
+    },
+    "7326": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Low activations (~0.35) leaning toward DNA replication (Meselson-Stahl, origins) but interleaved with SCIENCE thermodynamics and EMOTIONS prompts. Too weak and mixed to support a single concept."
+    },
+    "7848": {
+      "label": "uninterpretable_or_mixed",
+      "justification": "Dead feature: single Hindi firing at activation ~0.03."
+    },
+    "7906": {
+      "label": "domain_or_script_marker",
+      "justification": "69% HINDI; top examples are uniformly Hindi grammar/pragmatics. A Hindi-script marker."
+    }
+  },
+  "summary": {
+    "template_driven_count": 5,
+    "domain_or_script_marker_count": 6,
+    "coherent_semantic_count": 1,
+    "uninterpretable_or_mixed_count": 18,
+    "overall_note": "This width looks the weakest of the three for genuine semantics: only 1 of 30 sampled features (5558, genomics/sequencing methodology) is convincingly concept-level. The high-frequency band is almost entirely Gandhi/Science slot-filling templates plus the ubiquitous always-on unit (972), and the rarest 'alive' band is dominated by effectively dead single-token features (ten of them) and heterogeneous mixtures. The large count of dead singletons and templates suggests much of the added 8192 capacity went to redundant template/positional and script detectors rather than new coherent concepts."
+  }
+}

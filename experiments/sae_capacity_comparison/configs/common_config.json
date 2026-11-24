@@ -1,0 +1,53 @@
+{
+  "input_dim": 2048,
+  "selected_layer_index": 14,
+  "source_experiment": "activation_extraction_qwen3_1_7b",
+  "activation_dtype_on_disk": "bfloat16",
+  "training_dtype": "float32",
+  "architecture": {
+    "type": "relu_sae_pre_encoder_bias",
+    "formula": "z = ReLU(W_e @ (x - b_d) + b_e); x_hat = W_d @ z + b_d",
+    "encoder_init": "decoder.T (tied init at step 0, then trained independently)",
+    "decoder_init": "random unit-norm columns (orthogonal-ish via random normal, L2-normalized per column)",
+    "bias_init": "zeros",
+    "decoder_constraint": "unit_norm_columns_renormalized_after_every_optimizer_step",
+    "loss": "mse_reconstruction + lambda * l1(z)"
+  },
+  "optimizer": {
+    "type": "adam",
+    "weight_decay": 0.0,
+    "lr": 0.0003,
+    "lr_schedule": "linear_warmup_5pct_then_constant",
+    "beta1": 0.9,
+    "beta2": 0.999
+  },
+  "batch_size": 4096,
+  "sparsity_coefficient": 0.2,
+  "epochs": 45.7,
+  "total_steps": 10000,
+  "amp": true,
+  "seeds": [0, 1, 2],
+  "preprocessing": {
+    "method": "global_scalar_normalization",
+    "center": "train_mean_vector",
+    "scale_rule": "scale = sqrt(input_dim / mean(||x - mu||^2)) computed on train split only",
+    "applied_to": ["train", "validation"],
+    "note": "NOT per-dimension whitening -- see reports/pilot_report.md and FINAL_REPORT.md for rationale"
+  },
+  "data": {
+    "train_shards_dir": "../activation_extraction_qwen3_1_7b/activations/train",
+    "validation_shards_dir": "../activation_extraction_qwen3_1_7b/activations/validation",
+    "shard_manifest": "../activation_extraction_qwen3_1_7b/metadata/shard_manifest.json",
+    "prompt_token_metadata": "../activation_extraction_qwen3_1_7b/metadata/prompt_token_metadata.jsonl",
+    "n_train_tokens_expected": 895502,
+    "n_validation_tokens_expected": 97994
+  },
+  "checkpointing": {
+    "save_every_steps": 1000,
+    "val_every_steps": 1000,
+    "log_every_steps": 250,
+    "keep": ["latest", "best_val", "final"]
+  },
+  "device_policy": "cuda_required_no_cpu_fallback",
+  "note": "sparsity_coefficient, epochs, save_every_steps filled in after the pilot (see reports/pilot_report.md); frozen identically across all three widths once set."
+}

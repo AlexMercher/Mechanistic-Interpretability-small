@@ -1,0 +1,113 @@
+D:\projects\Mechanistic-Interpretability-small\experiments\sae_capacity_comparison\scripts\train_sae.py:157: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp)
+D:\projects\Mechanistic-Interpretability-small\.venv\Lib\site-packages\torch\optim\lr_scheduler.py:227: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+[train_sae] device=cuda width=4096 seed=0 pilot=False
+[train_sae] device=cuda width=4096 seed=0 pilot=False
+[train_sae] loaded train=torch.Size([895502, 2048]), validation=torch.Size([97994, 2048]) in 5.0s
+[train_sae] resumed from step 5000
+D:\projects\Mechanistic-Interpretability-small\experiments\sae_capacity_comparison\scripts\train_sae.py:157: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp)
+D:\projects\Mechanistic-Interpretability-small\.venv\Lib\site-packages\torch\optim\lr_scheduler.py:227: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+[train_sae] step=5000 loss=6.4177 recon=2.4301 l0=51.62 dead=1966 ev=0.9989 vram=0.66GB
+[train_sae] VAL step=5000 {'val_recon_mse_per_vector': 2.431665778006817, 'val_sparsity_l1_per_vector': 19.439756236670103, 'val_explained_variance_approx': 0.9988472460919908, 'val_mean_l0': 51.42341367838847, 'step': 5000}
+[train_sae] step=5250 loss=6.1365 recon=2.4168 l0=51.88 dead=1963 ev=0.9987 vram=0.76GB
+[train_sae] step=5500 loss=5.9910 recon=2.4146 l0=51.35 dead=1963 ev=0.9986 vram=0.76GB
+[train_sae] step=5750 loss=5.9352 recon=2.3493 l0=50.52 dead=1963 ev=0.9987 vram=0.76GB
+[train_sae] step=6000 loss=5.7745 recon=2.2696 l0=49.34 dead=1963 ev=0.9987 vram=0.76GB
+[train_sae] VAL step=6000 {'val_recon_mse_per_vector': 2.299510833810616, 'val_sparsity_l1_per_vector': 18.835050089163623, 'val_explained_variance_approx': 0.9989098953340269, 'val_mean_l0': 49.70607384125559, 'step': 6000}
+[train_sae] step=6250 loss=5.9913 recon=2.2631 l0=49.66 dead=1963 ev=0.9989 vram=0.76GB
+[train_sae] step=6500 loss=6.0226 recon=2.2000 l0=47.76 dead=1962 ev=0.9990 vram=0.76GB
+[train_sae] step=6750 loss=5.9602 recon=2.1523 l0=47.40 dead=1958 ev=0.9991 vram=0.76GB
+[train_sae] step=7000 loss=5.7252 recon=2.1616 l0=48.26 dead=1955 ev=0.9989 vram=0.76GB
+[train_sae] VAL step=7000 {'val_recon_mse_per_vector': 2.154897876400596, 'val_sparsity_l1_per_vector': 18.462847414446294, 'val_explained_variance_approx': 0.9989784504564476, 'val_mean_l0': 47.95414004939078, 'step': 7000}
+[train_sae] step=7250 loss=5.6676 recon=2.1664 l0=48.04 dead=1951 ev=0.9988 vram=0.76GB
+[train_sae] step=7500 loss=5.6850 recon=2.0953 l0=47.58 dead=1945 ev=0.9990 vram=0.76GB
+[train_sae] step=7750 loss=5.6816 recon=2.1064 l0=47.31 dead=1941 ev=0.9990 vram=0.76GB
+[train_sae] step=8000 loss=5.4820 recon=2.0173 l0=45.71 dead=1937 ev=0.9989 vram=0.76GB
+[train_sae] VAL step=8000 {'val_recon_mse_per_vector': 2.044642361713472, 'val_sparsity_l1_per_vector': 18.06174361599945, 'val_explained_variance_approx': 0.9990307181561773, 'val_mean_l0': 46.19949180562075, 'step': 8000}
+[train_sae] step=8250 loss=5.3125 recon=2.0213 l0=45.63 dead=1931 ev=0.9988 vram=0.76GB
+[train_sae] step=8500 loss=5.4981 recon=1.9572 l0=44.94 dead=1926 ev=0.9991 vram=0.76GB
+[train_sae] step=8750 loss=5.4736 recon=1.9929 l0=46.21 dead=1921 ev=0.9990 vram=0.76GB
+[train_sae] step=9000 loss=5.3560 recon=1.9482 l0=44.42 dead=1910 ev=0.9990 vram=0.76GB
+[train_sae] VAL step=9000 {'val_recon_mse_per_vector': 1.959192619772958, 'val_sparsity_l1_per_vector': 17.639151655649837, 'val_explained_variance_approx': 0.9990712263737384, 'val_mean_l0': 44.85736881849909, 'step': 9000}
+[train_sae] step=9250 loss=5.3768 recon=1.9550 l0=45.83 dead=1905 ev=0.9990 vram=0.76GB
+[train_sae] step=9500 loss=5.3043 recon=1.9257 l0=44.38 dead=1891 ev=0.9990 vram=0.76GB
+[train_sae] step=9750 loss=5.3830 recon=1.9110 l0=44.00 dead=1879 ev=0.9991 vram=0.76GB
+[train_sae] step=9999 loss=5.3158 recon=1.9392 l0=44.89 dead=1859 ev=0.9990 vram=0.76GB
+[train_sae] VAL step=9999 {'val_recon_mse_per_vector': 1.9011105351475601, 'val_sparsity_l1_per_vector': 17.18790444121579, 'val_explained_variance_approx': 0.9990987607418589, 'val_mean_l0': 43.66212217074515, 'step': 9999}
+[train_sae] done. steps=10000 total_time_sec=269.8 peak_vram_gb=0.76
+=== sae_4096 seed0 done exit=0 ===
+[train_sae] device=cuda width=16384 seed=0 pilot=False
+[train_sae] loaded train=torch.Size([895502, 2048]), validation=torch.Size([97994, 2048]) in 6.8s
+D:\projects\Mechanistic-Interpretability-small\experiments\sae_capacity_comparison\scripts\train_sae.py:157: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp)
+D:\projects\Mechanistic-Interpretability-small\.venv\Lib\site-packages\torch\optim\lr_scheduler.py:227: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+[train_sae] step=0 loss=27337.6035 recon=26900.3340 l0=8222.96 dead=0 ev=-11.0328 vram=1.50GB
+[train_sae] VAL step=0 {'val_recon_mse_per_vector': 25387.708145396657, 'val_sparsity_l1_per_vector': 2118.0834030654937, 'val_explained_variance_approx': -11.03528063750134, 'val_mean_l0': 8222.851072514644, 'step': 0}
+[train_sae] step=250 loss=190.6971 recon=12.6131 l0=1757.13 dead=0 ev=0.9934 vram=2.08GB
+[train_sae] step=500 loss=129.1135 recon=7.4035 l0=688.44 dead=0 ev=0.9957 vram=2.08GB
+[train_sae] step=750 loss=86.3249 recon=5.8344 l0=414.44 dead=0 ev=0.9968 vram=2.08GB
+[train_sae] step=1000 loss=53.0222 recon=5.4222 l0=292.41 dead=0 ev=0.9968 vram=2.08GB
+[train_sae] VAL step=1000 {'val_recon_mse_per_vector': 5.48425635035691, 'val_sparsity_l1_per_vector': 281.3281935628712, 'val_explained_variance_approx': 0.9974001368930236, 'val_mean_l0': 306.08282139722843, 'step': 1000}
+[train_sae] step=1250 loss=51.8159 recon=5.3430 l0=253.20 dead=0 ev=0.9974 vram=2.37GB
+[train_sae] step=1500 loss=50.4885 recon=5.0694 l0=225.83 dead=0 ev=0.9978 vram=2.37GB
+[train_sae] step=1750 loss=46.1678 recon=4.7021 l0=198.78 dead=0 ev=0.9979 vram=2.37GB
+[train_sae] step=2000 loss=37.4776 recon=4.3679 l0=167.06 dead=0 ev=0.9977 vram=2.37GB
+[train_sae] VAL step=2000 {'val_recon_mse_per_vector': 4.399791218084781, 'val_sparsity_l1_per_vector': 180.99376667831703, 'val_explained_variance_approx': 0.9979142377384278, 'val_mean_l0': 172.36737963548788, 'step': 2000}
+[train_sae] step=2250 loss=34.2913 recon=4.0798 l0=147.73 dead=0 ev=0.9978 vram=2.37GB
+[train_sae] step=2500 loss=34.3679 recon=3.8619 l0=134.30 dead=0 ev=0.9981 vram=2.37GB
+[train_sae] step=2750 loss=32.5738 recon=3.6502 l0=123.78 dead=622 ev=0.9982 vram=2.37GB
+[train_sae] step=3000 loss=29.0599 recon=3.4234 l0=109.87 dead=3921 ev=0.9982 vram=2.37GB
+[train_sae] VAL step=3000 {'val_recon_mse_per_vector': 3.444933859550712, 'val_sparsity_l1_per_vector': 141.0602093623079, 'val_explained_variance_approx': 0.9983668968329157, 'val_mean_l0': 114.41956650407168, 'step': 3000}
+[train_sae] step=3250 loss=24.7615 recon=3.2488 l0=101.76 dead=4978 ev=0.9981 vram=2.37GB
+[train_sae] step=3500 loss=25.3192 recon=3.1140 l0=94.07 dead=5403 ev=0.9985 vram=2.37GB
+[train_sae] step=3750 loss=18.1867 recon=3.0475 l0=86.29 dead=5900 ev=0.9985 vram=2.37GB
+[train_sae] step=4000 loss=13.0319 recon=2.9422 l0=77.67 dead=6362 ev=0.9985 vram=2.37GB
+[train_sae] VAL step=4000 {'val_recon_mse_per_vector': 2.941629477952732, 'val_sparsity_l1_per_vector': 53.79220586847154, 'val_explained_variance_approx': 0.9986054929850716, 'val_mean_l0': 79.55398289691206, 'step': 4000}
+[train_sae] step=4250 loss=9.5119 recon=2.8760 l0=74.10 dead=6859 ev=0.9985 vram=2.37GB
+[train_sae] step=4500 loss=7.4832 recon=2.7524 l0=68.44 dead=7161 ev=0.9986 vram=2.37GB
+[train_sae] step=4750 loss=6.9118 recon=2.6732 l0=65.59 dead=7422 ev=0.9987 vram=2.37GB
+[train_sae] step=5000 loss=6.4537 recon=2.5660 l0=63.23 dead=7660 ev=0.9986 vram=2.37GB
+[train_sae] VAL step=5000 {'val_recon_mse_per_vector': 2.587715082125564, 'val_sparsity_l1_per_vector': 20.24399277634345, 'val_explained_variance_approx': 0.9987732694339354, 'val_mean_l0': 63.61339469763455, 'step': 5000}
+[train_sae] step=5250 loss=6.3168 recon=2.5083 l0=62.38 dead=7856 ev=0.9987 vram=2.37GB
+[train_sae] step=5500 loss=6.4001 recon=2.4532 l0=60.60 dead=8139 ev=0.9989 vram=2.37GB
+[train_sae] step=5750 loss=6.2399 recon=2.3909 l0=58.68 dead=8421 ev=0.9988 vram=2.37GB
+[train_sae] step=6000 loss=6.2910 recon=2.3769 l0=58.70 dead=8607 ev=0.9989 vram=2.37GB
+[train_sae] VAL step=6000 {'val_recon_mse_per_vector': 2.349947585279456, 'val_sparsity_l1_per_vector': 19.442879753798703, 'val_explained_variance_approx': 0.9988859853478643, 'val_mean_l0': 57.36638977896606, 'step': 6000}
+[train_sae] step=6250 loss=5.8932 recon=2.2772 l0=55.94 dead=8725 ev=0.9987 vram=2.37GB
+[train_sae] step=6500 loss=6.2679 recon=2.2507 l0=54.87 dead=8799 ev=0.9990 vram=2.37GB
+[train_sae] step=6750 loss=5.8804 recon=2.2118 l0=53.38 dead=8840 ev=0.9988 vram=2.37GB
+[train_sae] step=7000 loss=5.9328 recon=2.1463 l0=52.76 dead=8854 ev=0.9989 vram=2.37GB
+[train_sae] VAL step=7000 {'val_recon_mse_per_vector': 2.1691352406221935, 'val_sparsity_l1_per_vector': 19.193717576139864, 'val_explained_variance_approx': 0.9989717011147404, 'val_mean_l0': 53.13594709880197, 'step': 7000}
+[train_sae] step=7250 loss=5.6318 recon=2.1033 l0=51.36 dead=8858 ev=0.9987 vram=2.37GB
+[train_sae] step=7500 loss=5.8471 recon=2.0647 l0=50.71 dead=8859 ev=0.9990 vram=2.37GB
+[train_sae] step=7750 loss=5.5406 recon=2.0531 l0=50.94 dead=8858 ev=0.9988 vram=2.37GB
+[train_sae] step=8000 loss=5.7295 recon=2.0139 l0=49.52 dead=8857 ev=0.9990 vram=2.37GB
+[train_sae] VAL step=8000 {'val_recon_mse_per_vector': 2.014277580132457, 'val_sparsity_l1_per_vector': 18.868550466099965, 'val_explained_variance_approx': 0.999045112834625, 'val_mean_l0': 49.1601526624079, 'step': 8000}
+[train_sae] step=8250 loss=5.7907 recon=2.0024 l0=48.74 dead=8857 ev=0.9991 vram=2.37GB
+[train_sae] step=8500 loss=5.6534 recon=1.9335 l0=46.80 dead=8856 ev=0.9991 vram=2.37GB
+[train_sae] step=8750 loss=5.5294 recon=1.9229 l0=46.93 dead=8854 ev=0.9990 vram=2.37GB
+[train_sae] step=9000 loss=5.5371 recon=1.8898 l0=46.03 dead=8851 ev=0.9991 vram=2.37GB
+[train_sae] VAL step=9000 {'val_recon_mse_per_vector': 1.8864184436276072, 'val_sparsity_l1_per_vector': 18.50083897834306, 'val_explained_variance_approx': 0.9991057256631123, 'val_mean_l0': 45.62992632201971, 'step': 9000}
+[train_sae] step=9250 loss=5.3917 recon=1.8548 l0=45.11 dead=8851 ev=0.9990 vram=2.37GB
+[train_sae] step=9500 loss=5.4267 recon=1.8407 l0=44.89 dead=8848 ev=0.9991 vram=2.37GB
+[train_sae] step=9750 loss=5.6603 recon=1.8178 l0=43.92 dead=8842 ev=0.9992 vram=2.37GB
+[train_sae] device=cuda width=16384 seed=0 pilot=False
+[train_sae] loaded train=torch.Size([895502, 2048]), validation=torch.Size([97994, 2048]) in 8.7s
+[train_sae] resumed from step 9000
+D:\projects\Mechanistic-Interpretability-small\experiments\sae_capacity_comparison\scripts\train_sae.py:157: FutureWarning: `torch.cuda.amp.GradScaler(args...)` is deprecated. Please use `torch.amp.GradScaler('cuda', args...)` instead.
+  scaler = torch.cuda.amp.GradScaler(enabled=args.amp)
+D:\projects\Mechanistic-Interpretability-small\.venv\Lib\site-packages\torch\optim\lr_scheduler.py:227: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
+  warnings.warn(
+[train_sae] step=9000 loss=5.6824 recon=1.8818 l0=45.73 dead=8976 ev=0.9992 vram=2.04GB
+[train_sae] VAL step=9000 {'val_recon_mse_per_vector': 1.886418503420809, 'val_sparsity_l1_per_vector': 18.50083897834306, 'val_explained_variance_approx': 0.9991057256324046, 'val_mean_l0': 45.62992632201971, 'step': 9000}
+[train_sae] step=9250 loss=5.4301 recon=1.8674 l0=46.13 dead=8858 ev=0.9990 vram=2.37GB
+[train_sae] step=9500 loss=5.3104 recon=1.8632 l0=46.07 dead=8857 ev=0.9989 vram=2.37GB
+[train_sae] step=9750 loss=5.2890 recon=1.8271 l0=44.54 dead=8855 ev=0.9990 vram=2.37GB
+[train_sae] step=9999 loss=5.3717 recon=1.7786 l0=42.54 dead=8850 ev=0.9991 vram=2.37GB
+[train_sae] VAL step=9999 {'val_recon_mse_per_vector': 1.7999994040610905, 'val_sparsity_l1_per_vector': 18.191205265118274, 'val_explained_variance_approx': 0.9991466934278114, 'val_mean_l0': 43.02944057799457, 'step': 9999}
+[train_sae] done. steps=10000 total_time_sec=187.9 peak_vram_gb=2.37
+=== sae_16384 seed0 done exit=0 ===

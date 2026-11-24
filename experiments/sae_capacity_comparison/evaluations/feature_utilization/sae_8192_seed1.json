@@ -1,0 +1,38 @@
+{
+  "experiment_id": "SAE-8192",
+  "dictionary_width": 8192,
+  "seed": 1,
+  "checkpoint": "best_val",
+  "n_validation_rows": 97994,
+  "thresholds": {
+    "rare_below_frac": 0.0001,
+    "frequent_above_frac": 0.1
+  },
+  "total_dictionary_features": 8192,
+  "features_active_at_least_once": 4490,
+  "features_active_at_least_once_pct": 54.8095703125,
+  "dead_features": 3702,
+  "dead_features_pct": 45.1904296875,
+  "rare_features": 18,
+  "rare_features_pct": 0.2197265625,
+  "frequent_features": 2,
+  "frequent_features_pct": 0.0244140625,
+  "mid_frequency_features": 4470,
+  "mid_frequency_features_pct": 54.5654296875,
+  "activation_frequency_percentiles": {
+    "1": 0.0,
+    "5": 0.0,
+    "10": 0.0,
+    "25": 0.0,
+    "50": 0.001423556544278221,
+    "75": 0.006594791517848032,
+    "90": 0.015071330897810075,
+    "95": 0.02135079698757066,
+    "99": 0.033214380472273826
+  },
+  "activation_count_distribution_summary": {
+    "mean": 483.8851318359375,
+    "max": 95460,
+    "min": 0
+  }
+}

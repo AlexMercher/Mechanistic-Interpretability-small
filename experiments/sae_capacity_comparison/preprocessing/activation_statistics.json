@@ -1,0 +1,22 @@
+{
+  "n_train_tokens": 895502,
+  "input_dim": 2048,
+  "raw_activation_norm_stats": {
+    "mean": 548.3763364012588,
+    "std": 2273.7754443304607,
+    "min": 125.92002868652344,
+    "max": 16510.060546875
+  },
+  "per_dimension_variance_summary": {
+    "mean_variance_across_dims": 2586.917724609375,
+    "min_variance_across_dims": 1.7092338800430298,
+    "max_variance_across_dims": 3811791.0
+  },
+  "preprocessing_transform": {
+    "method": "global_scalar_normalization_with_centering",
+    "mu_norm": 415.6494445800781,
+    "scale": 0.01966113982393835,
+    "mean_sq_norm_after_transform_check": 2047.9999999999998,
+    "rationale": "Per-dimension whitening was rejected: it would inflate the lowest-variance dims (min per-dim variance observed here) to the same scale as 'massive activation' outlier dims (max per-dim variance observed here), destroying the magnitude structure a dictionary is supposed to discover. A single global scalar scale (after centering) preserves relative direction/magnitude structure while putting ||x|| on a scale where a chosen sparsity coefficient and reconstruction loss are numerically comparable across widths."
+  }
+}

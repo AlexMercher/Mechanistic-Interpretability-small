@@ -1,0 +1,7 @@
+{
+  "experiment_id": "SAE-8192",
+  "dictionary_width": 8192,
+  "expansion_factor": 4,
+  "role": "primary_baseline",
+  "extends": "common_config.json"
+}

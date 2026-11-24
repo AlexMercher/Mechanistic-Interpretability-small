@@ -1,0 +1,27 @@
+{
+  "width": 16384,
+  "batch_size": 4096,
+  "results": {
+    "fp32": {
+      "amp": false,
+      "timed_steps": 100,
+      "elapsed_sec": 36.34931970003527,
+      "sec_per_step": 0.36349319700035265,
+      "steps_per_sec": 2.7510831241197335,
+      "peak_vram_gb": 1.89632,
+      "final_loss": 86.04475402832031,
+      "final_recon_mse_sum": 9.068017959594727
+    },
+    "amp": {
+      "amp": true,
+      "timed_steps": 100,
+      "elapsed_sec": 17.732563499943353,
+      "sec_per_step": 0.17732563499943355,
+      "steps_per_sec": 5.639342557567576,
+      "peak_vram_gb": 2.01384192,
+      "final_loss": 88.80768585205078,
+      "final_recon_mse_sum": 9.302993774414062
+    }
+  },
+  "amp_speedup_factor": 2.0498626552303834
+}

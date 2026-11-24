@@ -1,0 +1,23 @@
+{
+  "runs": [
+    {"width": 8192, "seed": 0, "steps": 10000, "amp": true, "log_file": "logs/plateau_run_8192_seed0.log", "total_time_sec": 1026.9, "peak_vram_gb": 1.29, "exit_code": 0, "note": "doubles as the plateau-analysis run (see reports/schedule_selection.md)"},
+    {"width": 4096, "seed": 0, "steps": 10000, "amp": true, "log_file": "logs/seed0_runs.log", "total_time_sec": 269.8, "peak_vram_gb": 0.76, "exit_code": 0, "note": "resumed once from step 5000 after a background-task interruption; checkpoint resumability verified"},
+    {"width": 16384, "seed": 0, "steps": 10000, "amp": true, "log_file": "logs/seed0_runs.log", "total_time_sec": 187.9, "peak_vram_gb": 2.37, "exit_code": 0, "note": "resumed once from step 9000 after a background-task interruption; total_time_sec shown is only the final 1000-step chunk"},
+    {"width": 4096, "seed": 1, "steps": 10000, "amp": true, "log_file": "logs/seeds_1_2_runs.log", "exit_code": 0},
+    {"width": 8192, "seed": 1, "steps": 10000, "amp": true, "log_file": "logs/seeds_1_2_runs.log", "exit_code": 0},
+    {"width": 16384, "seed": 1, "steps": 10000, "amp": true, "log_file": "logs/seeds_1_2_runs.log", "total_time_sec": 1931.7, "peak_vram_gb": 2.37, "exit_code": 0},
+    {"width": 4096, "seed": 2, "steps": 10000, "amp": true, "log_file": "logs/seeds_1_2_runs.log", "exit_code": 0},
+    {"width": 8192, "seed": 2, "steps": 10000, "amp": true, "log_file": "logs/seeds_1_2_runs.log", "exit_code": 0},
+    {"width": 16384, "seed": 2, "steps": 10000, "amp": true, "log_file": "logs/seeds_1_2_runs.log", "total_time_sec": 1931.7, "peak_vram_gb": 2.37, "exit_code": 0}
+  ],
+  "total_runs": 9,
+  "widths": [4096, 8192, 16384],
+  "seeds_per_width": [0, 1, 2],
+  "frozen_step_budget": 10000,
+  "frozen_sparsity_coefficient": 0.2,
+  "amp_enabled_for_all_runs": true,
+  "benchmark_report": "reports/benchmark_report.json",
+  "schedule_selection_report": "reports/schedule_selection.md",
+  "pilot_report": "reports/pilot_report.md",
+  "note_on_execution_environment": "Two earlier attempts to drive all 9 runs via the harness's own run_in_background tracking were killed by the harness mid-run for reasons unrelated to the training process itself (checkpoints showed the actual python processes had kept making real progress). All runs after that point were launched as detached OS-level background processes (nohup + disown, verified alive via `tasklist`) or as bounded foreground chunks relying on train_sae.py's checkpoint-based resumability -- not by changing anything about the training code or protocol."
+}
