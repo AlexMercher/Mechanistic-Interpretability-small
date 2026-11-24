@@ -1,0 +1,92 @@
+{
+  "integrity": {
+    "rows": 25000,
+    "dimension": 384,
+    "model": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "prompt_id_mapping_complete": true,
+    "all_finite": true,
+    "all_normalized": true,
+    "passed": true,
+    "errors": []
+  },
+  "sampling": {
+    "seed": 42,
+    "n_sample_target": 20000,
+    "sampling_strategy": "Groups 1-4 use numpy default_rng(seed) uniform random index pairs, rejecting i==j, capped/blocked as documented inline per group. Group 7 (exact duplicates) is exhaustive over the 176 known duplicate groups (no sampling needed, <1100 pairs total). Group 8 (template variants) samples up to 40 prompts per (domain, subdomain, category) bucket and keeps pairs with 0.6 < difflib.SequenceMatcher.quick_ratio() < 1.0 as a template-variant proxy, stopping once 5000 qualifying pairs are collected."
+  },
+  "distributions": {
+    "random_pairs_global": {
+      "n": 20000,
+      "mean": 0.7936829032391309,
+      "median": 0.7941383421421051,
+      "std": 0.03526498805462015,
+      "p10": 0.7475791096687316,
+      "p25": 0.7691655904054642,
+      "p75": 0.8170112818479538,
+      "p90": 0.8370518743991852,
+      "min": 0.6718321442604065,
+      "max": 0.9810948371887207
+    },
+    "random_pairs_same_domain": {
+      "n": 20000,
+      "mean": 0.8276364634513855,
+      "median": 0.8277066349983215,
+      "std": 0.03299440603737982,
+      "p10": 0.78694589138031,
+      "p25": 0.8063632249832153,
+      "p75": 0.8478895127773285,
+      "p90": 0.8662214636802674,
+      "min": 0.7150974869728088,
+      "max": 0.9887083768844604
+    },
+    "random_pairs_cross_domain": {
+      "n": 16022,
+      "mean": 0.7849573725551988,
+      "median": 0.7866382002830505,
+      "std": 0.03025001131543096,
+      "p10": 0.7441119611263275,
+      "p25": 0.7636097818613052,
+      "p75": 0.8070898503065109,
+      "p90": 0.8235072374343873,
+      "min": 0.6734213829040527,
+      "max": 0.8793615102767944
+    },
+    "random_pairs_same_subdomain": {
+      "n": 20100,
+      "mean": 0.866613831786967,
+      "median": 0.8654902875423431,
+      "std": 0.030215119264378195,
+      "p10": 0.8310913980007172,
+      "p25": 0.8479206264019012,
+      "p75": 0.8838838934898376,
+      "p90": 0.9023959040641785,
+      "min": 0.710893988609314,
+      "max": 1.000000238418579
+    },
+    "exact_duplicate_pairs": {
+      "n": 2401,
+      "mean": 1.0000000541928111,
+      "median": 1.0,
+      "std": 9.224137065406094e-08,
+      "p10": 0.9999999403953552,
+      "p25": 1.0,
+      "p75": 1.0000001192092896,
+      "p90": 1.0000001192092896,
+      "min": 0.9999997615814209,
+      "max": 1.000000238418579
+    },
+    "template_variant_pairs": {
+      "n": 5035,
+      "mean": 0.8474403845636468,
+      "median": 0.8475809097290039,
+      "std": 0.02551922342212962,
+      "p10": 0.8152559757232666,
+      "p25": 0.8317172527313232,
+      "p75": 0.8631159663200378,
+      "p90": 0.8776878595352173,
+      "min": 0.7472620010375977,
+      "max": 0.9942677021026611
+    }
+  }
+}

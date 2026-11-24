@@ -1,0 +1,7217 @@
+{
+  "language_script_distribution_per_concept": [
+    {
+      "cluster_id": "DNA_Inheritance_Genomics_kmeans_0",
+      "language": {
+        "English": 503,
+        "uncertain": 3
+      },
+      "script": {
+        "Latin": 506
+      },
+      "language_form": {
+        "english": 503,
+        "uncertain": 3
+      }
+    },
+    {
+      "cluster_id": "DNA_Inheritance_Genomics_kmeans_1",
+      "language": {
+        "English": 494
+      },
+      "script": {
+        "Latin": 494
+      },
+      "language_form": {
+        "english": 494
+      }
+    },
+    {
+      "cluster_id": "DNA_Mutations_Repair_kmeans_0",
+      "language": {
+        "English": 104
+      },
+      "script": {
+        "Latin": 104
+      },
+      "language_form": {
+        "english": 104
+      }
+    },
+    {
+      "cluster_id": "DNA_Mutations_Repair_kmeans_1",
+      "language": {
+        "English": 51
+      },
+      "script": {
+        "Latin": 51
+      },
+      "language_form": {
+        "english": 51
+      }
+    },
+    {
+      "cluster_id": "DNA_Mutations_Repair_kmeans_2",
+      "language": {
+        "English": 74
+      },
+      "script": {
+        "Latin": 74
+      },
+      "language_form": {
+        "english": 74
+      }
+    },
+    {
+      "cluster_id": "DNA_Mutations_Repair_kmeans_3",
+      "language": {
+        "English": 112
+      },
+      "script": {
+        "Latin": 112
+      },
+      "language_form": {
+        "english": 112
+      }
+    },
+    {
+      "cluster_id": "DNA_Mutations_Repair_kmeans_4",
+      "language": {
+        "English": 66
+      },
+      "script": {
+        "Latin": 66
+      },
+      "language_form": {
+        "english": 66
+      }
+    },
+    {
+      "cluster_id": "DNA_Mutations_Repair_kmeans_5",
+      "language": {
+        "English": 147
+      },
+      "script": {
+        "Latin": 147
+      },
+      "language_form": {
+        "english": 147
+      }
+    },
+    {
+      "cluster_id": "DNA_Mutations_Repair_kmeans_6",
+      "language": {
+        "English": 71
+      },
+      "script": {
+        "Latin": 71
+      },
+      "language_form": {
+        "english": 71
+      }
+    },
+    {
+      "cluster_id": "DNA_Mutations_Repair_kmeans_7",
+      "language": {
+        "English": 158
+      },
+      "script": {
+        "Latin": 158
+      },
+      "language_form": {
+        "english": 158
+      }
+    },
+    {
+      "cluster_id": "DNA_Mutations_Repair_kmeans_8",
+      "language": {
+        "English": 143
+      },
+      "script": {
+        "Latin": 143
+      },
+      "language_form": {
+        "english": 143
+      }
+    },
+    {
+      "cluster_id": "DNA_Mutations_Repair_kmeans_9",
+      "language": {
+        "English": 74
+      },
+      "script": {
+        "Latin": 74
+      },
+      "language_form": {
+        "english": 74
+      }
+    },
+    {
+      "cluster_id": "DNA_Replication_kmeans_0",
+      "language": {
+        "English": 15
+      },
+      "script": {
+        "Latin": 15
+      },
+      "language_form": {
+        "english": 15
+      }
+    },
+    {
+      "cluster_id": "DNA_Replication_kmeans_1",
+      "language": {
+        "English": 61
+      },
+      "script": {
+        "Latin": 61
+      },
+      "language_form": {
+        "english": 61
+      }
+    },
+    {
+      "cluster_id": "DNA_Replication_kmeans_2",
+      "language": {
+        "English": 160
+      },
+      "script": {
+        "Latin": 160
+      },
+      "language_form": {
+        "english": 160
+      }
+    },
+    {
+      "cluster_id": "DNA_Replication_kmeans_3",
+      "language": {
+        "English": 79
+      },
+      "script": {
+        "Latin": 79
+      },
+      "language_form": {
+        "english": 79
+      }
+    },
+    {
+      "cluster_id": "DNA_Replication_kmeans_4",
+      "language": {
+        "English": 145
+      },
+      "script": {
+        "Latin": 145
+      },
+      "language_form": {
+        "english": 145
+      }
+    },
+    {
+      "cluster_id": "DNA_Replication_kmeans_5",
+      "language": {
+        "English": 101
+      },
+      "script": {
+        "Latin": 101
+      },
+      "language_form": {
+        "english": 101
+      }
+    },
+    {
+      "cluster_id": "DNA_Replication_kmeans_6",
+      "language": {
+        "English": 92
+      },
+      "script": {
+        "Latin": 92
+      },
+      "language_form": {
+        "english": 92
+      }
+    },
+    {
+      "cluster_id": "DNA_Replication_kmeans_7",
+      "language": {
+        "English": 142
+      },
+      "script": {
+        "Latin": 142
+      },
+      "language_form": {
+        "english": 142
+      }
+    },
+    {
+      "cluster_id": "DNA_Replication_kmeans_8",
+      "language": {
+        "English": 104
+      },
+      "script": {
+        "Latin": 104
+      },
+      "language_form": {
+        "english": 104
+      }
+    },
+    {
+      "cluster_id": "DNA_Replication_kmeans_9",
+      "language": {
+        "English": 101
+      },
+      "script": {
+        "Latin": 101
+      },
+      "language_form": {
+        "english": 101
+      }
+    },
+    {
+      "cluster_id": "DNA_Structure_kmeans_0",
+      "language": {
+        "English": 94
+      },
+      "script": {
+        "Latin": 94
+      },
+      "language_form": {
+        "english": 94
+      }
+    },
+    {
+      "cluster_id": "DNA_Structure_kmeans_1",
+      "language": {
+        "English": 121
+      },
+      "script": {
+        "Latin": 121
+      },
+      "language_form": {
+        "english": 121
+      }
+    },
+    {
+      "cluster_id": "DNA_Structure_kmeans_2",
+      "language": {
+        "English": 147
+      },
+      "script": {
+        "Latin": 147
+      },
+      "language_form": {
+        "english": 147
+      }
+    },
+    {
+      "cluster_id": "DNA_Structure_kmeans_3",
+      "language": {
+        "English": 62
+      },
+      "script": {
+        "Latin": 62
+      },
+      "language_form": {
+        "english": 62
+      }
+    },
+    {
+      "cluster_id": "DNA_Structure_kmeans_4",
+      "language": {
+        "English": 116
+      },
+      "script": {
+        "Latin": 116
+      },
+      "language_form": {
+        "english": 116
+      }
+    },
+    {
+      "cluster_id": "DNA_Structure_kmeans_5",
+      "language": {
+        "English": 28
+      },
+      "script": {
+        "Latin": 28
+      },
+      "language_form": {
+        "english": 28
+      }
+    },
+    {
+      "cluster_id": "DNA_Structure_kmeans_6",
+      "language": {
+        "English": 131
+      },
+      "script": {
+        "Latin": 131
+      },
+      "language_form": {
+        "english": 131
+      }
+    },
+    {
+      "cluster_id": "DNA_Structure_kmeans_7",
+      "language": {
+        "English": 91
+      },
+      "script": {
+        "Latin": 91
+      },
+      "language_form": {
+        "english": 91
+      }
+    },
+    {
+      "cluster_id": "DNA_Structure_kmeans_8",
+      "language": {
+        "English": 128
+      },
+      "script": {
+        "Latin": 128
+      },
+      "language_form": {
+        "english": 128
+      }
+    },
+    {
+      "cluster_id": "DNA_Structure_kmeans_9",
+      "language": {
+        "English": 82
+      },
+      "script": {
+        "Latin": 82
+      },
+      "language_form": {
+        "english": 82
+      }
+    },
+    {
+      "cluster_id": "DNA_Transcription_Translation_kmeans_0",
+      "language": {
+        "English": 110
+      },
+      "script": {
+        "Latin": 110
+      },
+      "language_form": {
+        "english": 110
+      }
+    },
+    {
+      "cluster_id": "DNA_Transcription_Translation_kmeans_1",
+      "language": {
+        "English": 101
+      },
+      "script": {
+        "Latin": 101
+      },
+      "language_form": {
+        "english": 101
+      }
+    },
+    {
+      "cluster_id": "DNA_Transcription_Translation_kmeans_2",
+      "language": {
+        "English": 60
+      },
+      "script": {
+        "Latin": 60
+      },
+      "language_form": {
+        "english": 60
+      }
+    },
+    {
+      "cluster_id": "DNA_Transcription_Translation_kmeans_3",
+      "language": {
+        "English": 140
+      },
+      "script": {
+        "Latin": 140
+      },
+      "language_form": {
+        "english": 140
+      }
+    },
+    {
+      "cluster_id": "DNA_Transcription_Translation_kmeans_4",
+      "language": {
+        "English": 113
+      },
+      "script": {
+        "Latin": 113
+      },
+      "language_form": {
+        "english": 113
+      }
+    },
+    {
+      "cluster_id": "DNA_Transcription_Translation_kmeans_5",
+      "language": {
+        "English": 191
+      },
+      "script": {
+        "Latin": 191
+      },
+      "language_form": {
+        "english": 191
+      }
+    },
+    {
+      "cluster_id": "DNA_Transcription_Translation_kmeans_6",
+      "language": {
+        "English": 152
+      },
+      "script": {
+        "Latin": 152
+      },
+      "language_form": {
+        "english": 152
+      }
+    },
+    {
+      "cluster_id": "DNA_Transcription_Translation_kmeans_7",
+      "language": {
+        "English": 69
+      },
+      "script": {
+        "Latin": 69
+      },
+      "language_form": {
+        "english": 69
+      }
+    },
+    {
+      "cluster_id": "DNA_Transcription_Translation_kmeans_8",
+      "language": {
+        "English": 64
+      },
+      "script": {
+        "Latin": 64
+      },
+      "language_form": {
+        "english": 64
+      }
+    },
+    {
+      "cluster_id": "EMOTIONS_Basic_Complex_Emotions_kmeans_0",
+      "language": {
+        "English": 453
+      },
+      "script": {
+        "Latin": 453
+      },
+      "language_form": {
+        "english": 453
+      }
+    },
+    {
+      "cluster_id": "EMOTIONS_Basic_Complex_Emotions_kmeans_1",
+      "language": {
+        "English": 547
+      },
+      "script": {
+        "Latin": 547
+      },
+      "language_form": {
+        "english": 547
+      }
+    },
+    {
+      "cluster_id": "EMOTIONS_Emotional_Expression_Communication_kmeans_0",
+      "language": {
+        "English": 191
+      },
+      "script": {
+        "Latin": 191
+      },
+      "language_form": {
+        "english": 191
+      }
+    },
+    {
+      "cluster_id": "EMOTIONS_Emotional_Expression_Communication_kmeans_1",
+      "language": {
+        "English": 333
+      },
+      "script": {
+        "Latin": 333
+      },
+      "language_form": {
+        "english": 333
+      }
+    },
+    {
+      "cluster_id": "EMOTIONS_Emotional_Expression_Communication_kmeans_2",
+      "language": {
+        "English": 476
+      },
+      "script": {
+        "Latin": 476
+      },
+      "language_form": {
+        "english": 476
+      }
+    },
+    {
+      "cluster_id": "EMOTIONS_Emotional_Recognition_Interpretation_kmeans_0",
+      "language": {
+        "English": 79
+      },
+      "script": {
+        "Latin": 79
+      },
+      "language_form": {
+        "english": 79
+      }
+    },
+    {
+      "cluster_id": "EMOTIONS_Emotional_Recognition_Interpretation_kmeans_1",
+      "language": {
+        "English": 331
+      },
+      "script": {
+        "Latin": 331
+      },
+      "language_form": {
+        "english": 331
+      }
+    },
+    {
+      "cluster_id": "EMOTIONS_Emotional_Recognition_Interpretation_kmeans_2",
+      "language": {
+        "English": 219
+      },
+      "script": {
+        "Latin": 219
+      },
+      "language_form": {
+        "english": 219
+      }
+    },
+    {
+      "cluster_id": "EMOTIONS_Emotional_Recognition_Interpretation_kmeans_3",
+      "language": {
+        "English": 371
+      },
+      "script": {
+        "Latin": 371
+      },
+      "language_form": {
+        "english": 371
+      }
+    },
+    {
+      "cluster_id": "EMOTIONS_Emotional_Regulation_Coping_kmeans_0",
+      "language": {
+        "English": 145
+      },
+      "script": {
+        "Latin": 145
+      },
+      "language_form": {
+        "english": 145
+      }
+    },
+    {
+      "cluster_id": "EMOTIONS_Emotional_Regulation_Coping_kmeans_1",
+      "language": {
+        "English": 66
+      },
+      "script": {
+        "Latin": 66
+      },
+      "language_form": {
+        "english": 66
+      }
+    },
+    {
+      "cluster_id": "EMOTIONS_Emotional_Regulation_Coping_kmeans_2",
+      "language": {
+        "English": 66
+      },
+      "script": {
+        "Latin": 66
+      },
+      "language_form": {
+        "english": 66
+      }
+    },
+    {
+      "cluster_id": "EMOTIONS_Emotional_Regulation_Coping_kmeans_3",
+      "language": {
+        "English": 134
+      },
+      "script": {
+        "Latin": 134
+      },
+      "language_form": {
+        "english": 134
+      }
+    },
+    {
+      "cluster_id": "EMOTIONS_Emotional_Regulation_Coping_kmeans_4",
+      "language": {
+        "English": 66
+      },
+      "script": {
+        "Latin": 66
+      },
+      "language_form": {
+        "english": 66
+      }
+    },
+    {
+      "cluster_id": "EMOTIONS_Emotional_Regulation_Coping_kmeans_5",
+      "language": {
+        "English": 66
+      },
+      "script": {
+        "Latin": 66
+      },
+      "language_form": {
+        "english": 66
+      }
+    },
+    {
+      "cluster_id": "EMOTIONS_Emotional_Regulation_Coping_kmeans_6",
+      "language": {
+        "English": 66
+      },
+      "script": {
+        "Latin": 66
+      },
+      "language_form": {
+        "english": 66
+      }
+    },
+    {
+      "cluster_id": "EMOTIONS_Emotional_Regulation_Coping_kmeans_7",
+      "language": {
+        "English": 70
+      },
+      "script": {
+        "Latin": 70
+      },
+      "language_form": {
+        "english": 70
+      }
+    },
+    {
+      "cluster_id": "EMOTIONS_Emotional_Regulation_Coping_kmeans_8",
+      "language": {
+        "English": 98
+      },
+      "script": {
+        "Latin": 98
+      },
+      "language_form": {
+        "english": 98
+      }
+    },
+    {
+      "cluster_id": "EMOTIONS_Emotional_Regulation_Coping_kmeans_9",
+      "language": {
+        "English": 223
+      },
+      "script": {
+        "Latin": 223
+      },
+      "language_form": {
+        "english": 223
+      }
+    },
+    {
+      "cluster_id": "EMOTIONS_Empathy_Social_Emotions_kmeans_0",
+      "language": {
+        "English": 208
+      },
+      "script": {
+        "Latin": 208
+      },
+      "language_form": {
+        "english": 208
+      }
+    },
+    {
+      "cluster_id": "EMOTIONS_Empathy_Social_Emotions_kmeans_1",
+      "language": {
+        "English": 330
+      },
+      "script": {
+        "Latin": 330
+      },
+      "language_form": {
+        "english": 330
+      }
+    },
+    {
+      "cluster_id": "EMOTIONS_Empathy_Social_Emotions_kmeans_2",
+      "language": {
+        "English": 462
+      },
+      "script": {
+        "Latin": 462
+      },
+      "language_form": {
+        "english": 462
+      }
+    },
+    {
+      "cluster_id": "HINDI_Grammar_kmeans_0",
+      "language": {
+        "Hindi": 225,
+        "mixed": 100
+      },
+      "script": {
+        "Latin": 322,
+        "mixed": 3
+      },
+      "language_form": {
+        "romanized_hindi": 225,
+        "hinglish": 97,
+        "mixed_multilingual": 3
+      }
+    },
+    {
+      "cluster_id": "HINDI_Grammar_kmeans_1",
+      "language": {
+        "Hindi": 254,
+        "mixed": 20
+      },
+      "script": {
+        "Devanagari": 244,
+        "mixed": 28,
+        "Latin": 2
+      },
+      "language_form": {
+        "native_hindi": 252,
+        "mixed_multilingual": 20,
+        "romanized_hindi": 2
+      }
+    },
+    {
+      "cluster_id": "HINDI_Grammar_kmeans_2",
+      "language": {
+        "Hindi": 359,
+        "mixed": 42
+      },
+      "script": {
+        "Devanagari": 347,
+        "mixed": 47,
+        "Latin": 7
+      },
+      "language_form": {
+        "native_hindi": 352,
+        "mixed_multilingual": 42,
+        "romanized_hindi": 7
+      }
+    },
+    {
+      "cluster_id": "HINDI_Pragmatics_hdbscan_-1",
+      "language": {
+        "Hindi": 504,
+        "mixed": 91,
+        "uncertain": 1
+      },
+      "script": {
+        "Devanagari": 445,
+        "mixed": 75,
+        "Latin": 76
+      },
+      "language_form": {
+        "native_hindi": 470,
+        "mixed_multilingual": 50,
+        "hinglish": 41,
+        "romanized_hindi": 34,
+        "uncertain": 1
+      }
+    },
+    {
+      "cluster_id": "HINDI_Pragmatics_hdbscan_0",
+      "language": {
+        "Hindi": 180,
+        "mixed": 3
+      },
+      "script": {
+        "Devanagari": 161,
+        "mixed": 22
+      },
+      "language_form": {
+        "native_hindi": 180,
+        "mixed_multilingual": 3
+      }
+    },
+    {
+      "cluster_id": "HINDI_Pragmatics_hdbscan_1",
+      "language": {
+        "Hindi": 136,
+        "mixed": 73,
+        "uncertain": 12
+      },
+      "script": {
+        "Latin": 220,
+        "Devanagari": 1
+      },
+      "language_form": {
+        "romanized_hindi": 135,
+        "hinglish": 73,
+        "uncertain": 12,
+        "native_hindi": 1
+      }
+    },
+    {
+      "cluster_id": "HINDI_Semantics_kmeans_0",
+      "language": {
+        "Hindi": 606,
+        "mixed": 51,
+        "uncertain": 1
+      },
+      "script": {
+        "Devanagari": 586,
+        "mixed": 68,
+        "Latin": 4
+      },
+      "language_form": {
+        "native_hindi": 606,
+        "mixed_multilingual": 48,
+        "uncertain": 1,
+        "hinglish": 3
+      }
+    },
+    {
+      "cluster_id": "HINDI_Semantics_kmeans_1",
+      "language": {
+        "mixed": 143,
+        "Hindi": 199
+      },
+      "script": {
+        "Latin": 333,
+        "mixed": 8,
+        "Devanagari": 1
+      },
+      "language_form": {
+        "hinglish": 135,
+        "romanized_hindi": 198,
+        "mixed_multilingual": 8,
+        "native_hindi": 1
+      }
+    },
+    {
+      "cluster_id": "HINDI_Syntax_kmeans_0",
+      "language": {
+        "Hindi": 428,
+        "mixed": 97,
+        "uncertain": 1
+      },
+      "script": {
+        "mixed": 108,
+        "Devanagari": 396,
+        "Latin": 22
+      },
+      "language_form": {
+        "native_hindi": 419,
+        "mixed_multilingual": 85,
+        "hinglish": 12,
+        "romanized_hindi": 9,
+        "uncertain": 1
+      }
+    },
+    {
+      "cluster_id": "HINDI_Syntax_kmeans_1",
+      "language": {
+        "Hindi": 362,
+        "mixed": 101,
+        "uncertain": 11
+      },
+      "script": {
+        "Devanagari": 202,
+        "Latin": 249,
+        "mixed": 23
+      },
+      "language_form": {
+        "native_hindi": 202,
+        "romanized_hindi": 160,
+        "hinglish": 78,
+        "mixed_multilingual": 23,
+        "uncertain": 11
+      }
+    },
+    {
+      "cluster_id": "HINDI_Vocabulary_kmeans_0",
+      "language": {
+        "Hindi": 245,
+        "mixed": 92
+      },
+      "script": {
+        "Latin": 328,
+        "Devanagari": 7,
+        "mixed": 2
+      },
+      "language_form": {
+        "romanized_hindi": 238,
+        "hinglish": 90,
+        "native_hindi": 7,
+        "mixed_multilingual": 2
+      }
+    },
+    {
+      "cluster_id": "HINDI_Vocabulary_kmeans_1",
+      "language": {
+        "Hindi": 643,
+        "mixed": 20
+      },
+      "script": {
+        "Devanagari": 610,
+        "mixed": 52,
+        "Latin": 1
+      },
+      "language_form": {
+        "native_hindi": 642,
+        "mixed_multilingual": 20,
+        "romanized_hindi": 1
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Analytical_chemistry_hdbscan_-1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Analytical_chemistry_hdbscan_0",
+      "language": {
+        "English": 114
+      },
+      "script": {
+        "Latin": 114
+      },
+      "language_form": {
+        "english": 114
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Analytical_chemistry_hdbscan_1",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Analytical_chemistry_hdbscan_2",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Animal_behavior_hdbscan_-1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Animal_behavior_hdbscan_0",
+      "language": {
+        "English": 74
+      },
+      "script": {
+        "Latin": 74
+      },
+      "language_form": {
+        "english": 74
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Animal_behavior_hdbscan_1",
+      "language": {
+        "English": 20
+      },
+      "script": {
+        "Latin": 20
+      },
+      "language_form": {
+        "english": 20
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Astrophysics_hdbscan_-1",
+      "language": {
+        "English": 1
+      },
+      "script": {
+        "Latin": 1
+      },
+      "language_form": {
+        "english": 1
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Astrophysics_hdbscan_0",
+      "language": {
+        "English": 119
+      },
+      "script": {
+        "Latin": 119
+      },
+      "language_form": {
+        "english": 119
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Astrophysics_hdbscan_1",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Astrophysics_hdbscan_2",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Atmospheric_science_hdbscan_0",
+      "language": {
+        "English": 120
+      },
+      "script": {
+        "Latin": 120
+      },
+      "language_form": {
+        "english": 120
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Atmospheric_science_hdbscan_1",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Atmospheric_science_hdbscan_2",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Biochemistry_hdbscan_-1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Biochemistry_hdbscan_0",
+      "language": {
+        "English": 73
+      },
+      "script": {
+        "Latin": 73
+      },
+      "language_form": {
+        "english": 73
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Biochemistry_hdbscan_1",
+      "language": {
+        "English": 20
+      },
+      "script": {
+        "Latin": 20
+      },
+      "language_form": {
+        "english": 20
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Biotechnology_hdbscan_0",
+      "language": {
+        "English": 120
+      },
+      "script": {
+        "Latin": 120
+      },
+      "language_form": {
+        "english": 120
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Biotechnology_hdbscan_1",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Biotechnology_hdbscan_2",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Cell_biology_hdbscan_-1",
+      "language": {
+        "English": 1
+      },
+      "script": {
+        "Latin": 1
+      },
+      "language_form": {
+        "english": 1
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Cell_biology_hdbscan_0",
+      "language": {
+        "English": 119
+      },
+      "script": {
+        "Latin": 119
+      },
+      "language_form": {
+        "english": 119
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Cell_biology_hdbscan_1",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Cell_biology_hdbscan_2",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Chemical_kinetics_hdbscan_-1",
+      "language": {
+        "English": 2
+      },
+      "script": {
+        "Latin": 2
+      },
+      "language_form": {
+        "english": 2
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Chemical_kinetics_hdbscan_0",
+      "language": {
+        "English": 118
+      },
+      "script": {
+        "Latin": 118
+      },
+      "language_form": {
+        "english": 118
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Chemical_kinetics_hdbscan_1",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Chemical_kinetics_hdbscan_2",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Climate_science_hdbscan_-1",
+      "language": {
+        "English": 2
+      },
+      "script": {
+        "Latin": 2
+      },
+      "language_form": {
+        "english": 2
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Climate_science_hdbscan_0",
+      "language": {
+        "English": 118
+      },
+      "script": {
+        "Latin": 118
+      },
+      "language_form": {
+        "english": 118
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Climate_science_hdbscan_1",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Climate_science_hdbscan_2",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Ecology_hdbscan_0",
+      "language": {
+        "English": 120
+      },
+      "script": {
+        "Latin": 120
+      },
+      "language_form": {
+        "english": 120
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Ecology_hdbscan_1",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Ecology_hdbscan_2",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Electrochemistry_hdbscan_-1",
+      "language": {
+        "English": 10
+      },
+      "script": {
+        "Latin": 10
+      },
+      "language_form": {
+        "english": 10
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Electrochemistry_hdbscan_0",
+      "language": {
+        "English": 110
+      },
+      "script": {
+        "Latin": 110
+      },
+      "language_form": {
+        "english": 110
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Electrochemistry_hdbscan_1",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Electrochemistry_hdbscan_2",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Electromagnetism_hdbscan_0",
+      "language": {
+        "English": 120
+      },
+      "script": {
+        "Latin": 120
+      },
+      "language_form": {
+        "english": 120
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Electromagnetism_hdbscan_1",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Electromagnetism_hdbscan_2",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Environmental_science_hdbscan_0",
+      "language": {
+        "English": 120
+      },
+      "script": {
+        "Latin": 120
+      },
+      "language_form": {
+        "english": 120
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Environmental_science_hdbscan_1",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Environmental_science_hdbscan_2",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Evolutionary_biology_hdbscan_0",
+      "language": {
+        "English": 120
+      },
+      "script": {
+        "Latin": 120
+      },
+      "language_form": {
+        "english": 120
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Evolutionary_biology_hdbscan_1",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Evolutionary_biology_hdbscan_2",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Experimental_design_hdbscan_-1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Experimental_design_hdbscan_0",
+      "language": {
+        "English": 74
+      },
+      "script": {
+        "Latin": 74
+      },
+      "language_form": {
+        "english": 74
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Experimental_design_hdbscan_1",
+      "language": {
+        "English": 20
+      },
+      "script": {
+        "Latin": 20
+      },
+      "language_form": {
+        "english": 20
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Fluid_mechanics_hdbscan_-1",
+      "language": {
+        "English": 2
+      },
+      "script": {
+        "Latin": 2
+      },
+      "language_form": {
+        "english": 2
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Fluid_mechanics_hdbscan_0",
+      "language": {
+        "English": 118
+      },
+      "script": {
+        "Latin": 118
+      },
+      "language_form": {
+        "english": 118
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Fluid_mechanics_hdbscan_1",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Fluid_mechanics_hdbscan_2",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Genetics_hdbscan_0",
+      "language": {
+        "English": 120
+      },
+      "script": {
+        "Latin": 120
+      },
+      "language_form": {
+        "english": 120
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Genetics_hdbscan_1",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Genetics_hdbscan_2",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Geology_hdbscan_-1",
+      "language": {
+        "English": 2
+      },
+      "script": {
+        "Latin": 2
+      },
+      "language_form": {
+        "english": 2
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Geology_hdbscan_0",
+      "language": {
+        "English": 118
+      },
+      "script": {
+        "Latin": 118
+      },
+      "language_form": {
+        "english": 118
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Geology_hdbscan_1",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Geology_hdbscan_2",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Hydrology_hdbscan_0",
+      "language": {
+        "English": 120
+      },
+      "script": {
+        "Latin": 120
+      },
+      "language_form": {
+        "english": 120
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Hydrology_hdbscan_1",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Hydrology_hdbscan_2",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Immunology_hdbscan_0",
+      "language": {
+        "English": 120
+      },
+      "script": {
+        "Latin": 120
+      },
+      "language_form": {
+        "english": 120
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Immunology_hdbscan_1",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Immunology_hdbscan_2",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Materials_science_hdbscan_-1",
+      "language": {
+        "English": 1
+      },
+      "script": {
+        "Latin": 1
+      },
+      "language_form": {
+        "english": 1
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Materials_science_hdbscan_0",
+      "language": {
+        "English": 119
+      },
+      "script": {
+        "Latin": 119
+      },
+      "language_form": {
+        "english": 119
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Materials_science_hdbscan_1",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Materials_science_hdbscan_2",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Mechanics_hdbscan_0",
+      "language": {
+        "English": 120
+      },
+      "script": {
+        "Latin": 120
+      },
+      "language_form": {
+        "english": 120
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Mechanics_hdbscan_1",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Mechanics_hdbscan_2",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Microbiology_hdbscan_-1",
+      "language": {
+        "English": 1
+      },
+      "script": {
+        "Latin": 1
+      },
+      "language_form": {
+        "english": 1
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Microbiology_hdbscan_0",
+      "language": {
+        "English": 119
+      },
+      "script": {
+        "Latin": 119
+      },
+      "language_form": {
+        "english": 119
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Microbiology_hdbscan_1",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Microbiology_hdbscan_2",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Molecular_biology_hdbscan_-1",
+      "language": {
+        "English": 1
+      },
+      "script": {
+        "Latin": 1
+      },
+      "language_form": {
+        "english": 1
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Molecular_biology_hdbscan_0",
+      "language": {
+        "English": 119
+      },
+      "script": {
+        "Latin": 119
+      },
+      "language_form": {
+        "english": 119
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Molecular_biology_hdbscan_1",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Molecular_biology_hdbscan_2",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Nanotechnology_hdbscan_-1",
+      "language": {
+        "English": 1
+      },
+      "script": {
+        "Latin": 1
+      },
+      "language_form": {
+        "english": 1
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Nanotechnology_hdbscan_0",
+      "language": {
+        "English": 119
+      },
+      "script": {
+        "Latin": 119
+      },
+      "language_form": {
+        "english": 119
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Nanotechnology_hdbscan_1",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Nanotechnology_hdbscan_2",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Neuroscience_hdbscan_0",
+      "language": {
+        "English": 120
+      },
+      "script": {
+        "Latin": 120
+      },
+      "language_form": {
+        "english": 120
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Neuroscience_hdbscan_1",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Neuroscience_hdbscan_2",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Oceanography_hdbscan_0",
+      "language": {
+        "English": 120
+      },
+      "script": {
+        "Latin": 120
+      },
+      "language_form": {
+        "english": 120
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Oceanography_hdbscan_1",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Oceanography_hdbscan_2",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Optics_hdbscan_-1",
+      "language": {
+        "English": 3
+      },
+      "script": {
+        "Latin": 3
+      },
+      "language_form": {
+        "english": 3
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Optics_hdbscan_0",
+      "language": {
+        "English": 117
+      },
+      "script": {
+        "Latin": 117
+      },
+      "language_form": {
+        "english": 117
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Optics_hdbscan_1",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Optics_hdbscan_2",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Organic_chemistry_hdbscan_-1",
+      "language": {
+        "English": 2
+      },
+      "script": {
+        "Latin": 2
+      },
+      "language_form": {
+        "english": 2
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Organic_chemistry_hdbscan_0",
+      "language": {
+        "English": 118
+      },
+      "script": {
+        "Latin": 118
+      },
+      "language_form": {
+        "english": 118
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Organic_chemistry_hdbscan_1",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Organic_chemistry_hdbscan_2",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Physical_chemistry_hdbscan_0",
+      "language": {
+        "English": 120
+      },
+      "script": {
+        "Latin": 120
+      },
+      "language_form": {
+        "english": 120
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Physical_chemistry_hdbscan_1",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Physical_chemistry_hdbscan_2",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Physiology_hdbscan_0",
+      "language": {
+        "English": 120
+      },
+      "script": {
+        "Latin": 120
+      },
+      "language_form": {
+        "english": 120
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Physiology_hdbscan_1",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Physiology_hdbscan_2",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Planetary_science_hdbscan_0",
+      "language": {
+        "English": 120
+      },
+      "script": {
+        "Latin": 120
+      },
+      "language_form": {
+        "english": 120
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Planetary_science_hdbscan_1",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Planetary_science_hdbscan_2",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Plant_physiology_hdbscan_-1",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Plant_physiology_hdbscan_0",
+      "language": {
+        "English": 68
+      },
+      "script": {
+        "Latin": 68
+      },
+      "language_form": {
+        "english": 68
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Plant_physiology_hdbscan_1",
+      "language": {
+        "English": 20
+      },
+      "script": {
+        "Latin": 20
+      },
+      "language_form": {
+        "english": 20
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Scientific_instrumentation_hdbscan_-1",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Scientific_instrumentation_hdbscan_0",
+      "language": {
+        "English": 68
+      },
+      "script": {
+        "Latin": 68
+      },
+      "language_form": {
+        "english": 68
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Scientific_instrumentation_hdbscan_1",
+      "language": {
+        "English": 20
+      },
+      "script": {
+        "Latin": 20
+      },
+      "language_form": {
+        "english": 20
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Thermodynamics_hdbscan_-1",
+      "language": {
+        "English": 5
+      },
+      "script": {
+        "Latin": 5
+      },
+      "language_form": {
+        "english": 5
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Thermodynamics_hdbscan_0",
+      "language": {
+        "English": 115
+      },
+      "script": {
+        "Latin": 115
+      },
+      "language_form": {
+        "english": 115
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Thermodynamics_hdbscan_1",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "SCIENCE_Thermodynamics_hdbscan_2",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_1919_hartal_kmeans_0",
+      "language": {
+        "English": 27
+      },
+      "script": {
+        "Latin": 27
+      },
+      "language_form": {
+        "english": 27
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_1919_hartal_kmeans_1",
+      "language": {
+        "English": 8
+      },
+      "script": {
+        "Latin": 8
+      },
+      "language_form": {
+        "english": 8
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_1922_trial_kmeans_0",
+      "language": {
+        "English": 24
+      },
+      "script": {
+        "Latin": 24
+      },
+      "language_form": {
+        "english": 24
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_1922_trial_kmeans_1",
+      "language": {
+        "English": 11
+      },
+      "script": {
+        "Latin": 11
+      },
+      "language_form": {
+        "english": 11
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_1930_arrests_kmeans_0",
+      "language": {
+        "English": 21
+      },
+      "script": {
+        "Latin": 21
+      },
+      "language_form": {
+        "english": 21
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_1930_arrests_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_1930_arrests_kmeans_2",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_1943_fast_kmeans_0",
+      "language": {
+        "English": 28
+      },
+      "script": {
+        "Latin": 28
+      },
+      "language_form": {
+        "english": 28
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_1943_fast_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Accountability_kmeans_0",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Accountability_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Accountability_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Aga_Khan_Palace_kmeans_0",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Aga_Khan_Palace_kmeans_1",
+      "language": {
+        "English": 28
+      },
+      "script": {
+        "Latin": 28
+      },
+      "language_form": {
+        "english": 28
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Agriculture_kmeans_0",
+      "language": {
+        "English": 19
+      },
+      "script": {
+        "Latin": 19
+      },
+      "language_form": {
+        "english": 19
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Agriculture_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Agriculture_kmeans_2",
+      "language": {
+        "English": 5
+      },
+      "script": {
+        "Latin": 5
+      },
+      "language_form": {
+        "english": 5
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Ahimsa_kmeans_0",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Ahimsa_kmeans_1",
+      "language": {
+        "English": 13
+      },
+      "script": {
+        "Latin": 13
+      },
+      "language_form": {
+        "english": 13
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Ahimsa_kmeans_2",
+      "language": {
+        "English": 10
+      },
+      "script": {
+        "Latin": 10
+      },
+      "language_form": {
+        "english": 10
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Ahmedabad_mill_dispute_kmeans_0",
+      "language": {
+        "English": 19
+      },
+      "script": {
+        "Latin": 19
+      },
+      "language_form": {
+        "english": 19
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Ahmedabad_mill_dispute_kmeans_1",
+      "language": {
+        "English": 16
+      },
+      "script": {
+        "Latin": 16
+      },
+      "language_form": {
+        "english": 16
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Archival_interpretation_kmeans_0",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Archival_interpretation_kmeans_1",
+      "language": {
+        "English": 11
+      },
+      "script": {
+        "Latin": 11
+      },
+      "language_form": {
+        "english": 11
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Archival_interpretation_kmeans_2",
+      "language": {
+        "English": 13
+      },
+      "script": {
+        "Latin": 13
+      },
+      "language_form": {
+        "english": 13
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Ashram_rules_kmeans_0",
+      "language": {
+        "English": 16
+      },
+      "script": {
+        "Latin": 16
+      },
+      "language_form": {
+        "english": 16
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Ashram_rules_kmeans_1",
+      "language": {
+        "English": 9
+      },
+      "script": {
+        "Latin": 9
+      },
+      "language_form": {
+        "english": 9
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Ashram_rules_kmeans_2",
+      "language": {
+        "English": 5
+      },
+      "script": {
+        "Latin": 5
+      },
+      "language_form": {
+        "english": 5
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Assassination_kmeans_0",
+      "language": {
+        "English": 24
+      },
+      "script": {
+        "Latin": 24
+      },
+      "language_form": {
+        "english": 24
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Assassination_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Autobiography_kmeans_0",
+      "language": {
+        "English": 15
+      },
+      "script": {
+        "Latin": 15
+      },
+      "language_form": {
+        "english": 15
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Autobiography_kmeans_1",
+      "language": {
+        "English": 20
+      },
+      "script": {
+        "Latin": 20
+      },
+      "language_form": {
+        "english": 20
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Bhagavad_Gita_kmeans_0",
+      "language": {
+        "English": 13
+      },
+      "script": {
+        "Latin": 13
+      },
+      "language_form": {
+        "english": 13
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Bhagavad_Gita_kmeans_1",
+      "language": {
+        "English": 16
+      },
+      "script": {
+        "Latin": 16
+      },
+      "language_form": {
+        "english": 16
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Bhagavad_Gita_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Bihar_violence_kmeans_0",
+      "language": {
+        "English": 11
+      },
+      "script": {
+        "Latin": 11
+      },
+      "language_form": {
+        "english": 11
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Bihar_violence_kmeans_1",
+      "language": {
+        "English": 15
+      },
+      "script": {
+        "Latin": 15
+      },
+      "language_form": {
+        "english": 15
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Bihar_violence_kmeans_2",
+      "language": {
+        "English": 9
+      },
+      "script": {
+        "Latin": 9
+      },
+      "language_form": {
+        "english": 9
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Brahmacharya_kmeans_0",
+      "language": {
+        "English": 13
+      },
+      "script": {
+        "Latin": 13
+      },
+      "language_form": {
+        "english": 13
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Brahmacharya_kmeans_1",
+      "language": {
+        "English": 8
+      },
+      "script": {
+        "Latin": 8
+      },
+      "language_form": {
+        "english": 8
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Brahmacharya_kmeans_2",
+      "language": {
+        "English": 14
+      },
+      "script": {
+        "Latin": 14
+      },
+      "language_form": {
+        "english": 14
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Calcutta_peace_efforts_kmeans_0",
+      "language": {
+        "English": 22
+      },
+      "script": {
+        "Latin": 22
+      },
+      "language_form": {
+        "english": 22
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Calcutta_peace_efforts_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Calcutta_peace_efforts_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Caste_debates_kmeans_0",
+      "language": {
+        "English": 15
+      },
+      "script": {
+        "Latin": 15
+      },
+      "language_form": {
+        "english": 15
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Caste_debates_kmeans_1",
+      "language": {
+        "English": 9
+      },
+      "script": {
+        "Latin": 9
+      },
+      "language_form": {
+        "english": 9
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Caste_debates_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Champaran_kmeans_0",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Champaran_kmeans_1",
+      "language": {
+        "English": 10
+      },
+      "script": {
+        "Latin": 10
+      },
+      "language_form": {
+        "english": 10
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Champaran_kmeans_2",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Charkha_kmeans_0",
+      "language": {
+        "English": 28
+      },
+      "script": {
+        "Latin": 28
+      },
+      "language_form": {
+        "english": 28
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Charkha_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Chauri_Chaura_kmeans_0",
+      "language": {
+        "English": 28
+      },
+      "script": {
+        "Latin": 28
+      },
+      "language_form": {
+        "english": 28
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Chauri_Chaura_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Chronology_1869–1948_kmeans_0",
+      "language": {
+        "English": 14
+      },
+      "script": {
+        "Latin": 14
+      },
+      "language_form": {
+        "english": 14
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Chronology_1869–1948_kmeans_1",
+      "language": {
+        "English": 11
+      },
+      "script": {
+        "Latin": 11
+      },
+      "language_form": {
+        "english": 11
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Chronology_1869–1948_kmeans_2",
+      "language": {
+        "English": 5
+      },
+      "script": {
+        "Latin": 5
+      },
+      "language_form": {
+        "english": 5
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Civil_disobedience_kmeans_0",
+      "language": {
+        "English": 11
+      },
+      "script": {
+        "Latin": 11
+      },
+      "language_form": {
+        "english": 11
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Civil_disobedience_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Civil_disobedience_kmeans_2",
+      "language": {
+        "English": 17
+      },
+      "script": {
+        "Latin": 17
+      },
+      "language_form": {
+        "english": 17
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Civil_disobedience_renewal_kmeans_0",
+      "language": {
+        "English": 17
+      },
+      "script": {
+        "Latin": 17
+      },
+      "language_form": {
+        "english": 17
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Civil_disobedience_renewal_kmeans_1",
+      "language": {
+        "English": 11
+      },
+      "script": {
+        "Latin": 11
+      },
+      "language_form": {
+        "english": 11
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Civil_disobedience_renewal_kmeans_2",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Colonial_legal_context_kmeans_0",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Colonial_legal_context_kmeans_1",
+      "language": {
+        "English": 11
+      },
+      "script": {
+        "Latin": 11
+      },
+      "language_form": {
+        "english": 11
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Colonial_legal_context_kmeans_2",
+      "language": {
+        "English": 13
+      },
+      "script": {
+        "Latin": 13
+      },
+      "language_form": {
+        "english": 13
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Colonial_resistance_kmeans_0",
+      "language": {
+        "English": 24
+      },
+      "script": {
+        "Latin": 24
+      },
+      "language_form": {
+        "english": 24
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Colonial_resistance_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Communal_unity_kmeans_0",
+      "language": {
+        "English": 22
+      },
+      "script": {
+        "Latin": 22
+      },
+      "language_form": {
+        "english": 22
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Communal_unity_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Communal_unity_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Community_experiments_kmeans_0",
+      "language": {
+        "English": 9
+      },
+      "script": {
+        "Latin": 9
+      },
+      "language_form": {
+        "english": 9
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Community_experiments_kmeans_1",
+      "language": {
+        "English": 11
+      },
+      "script": {
+        "Latin": 11
+      },
+      "language_form": {
+        "english": 11
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Community_experiments_kmeans_2",
+      "language": {
+        "English": 10
+      },
+      "script": {
+        "Latin": 10
+      },
+      "language_form": {
+        "english": 10
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Congress_kmeans_0",
+      "language": {
+        "English": 25
+      },
+      "script": {
+        "Latin": 25
+      },
+      "language_form": {
+        "english": 25
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Congress_kmeans_1",
+      "language": {
+        "English": 10
+      },
+      "script": {
+        "Latin": 10
+      },
+      "language_form": {
+        "english": 10
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Constitutional_politics_kmeans_0",
+      "language": {
+        "English": 19
+      },
+      "script": {
+        "Latin": 19
+      },
+      "language_form": {
+        "english": 19
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Constitutional_politics_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Constitutional_politics_kmeans_2",
+      "language": {
+        "English": 5
+      },
+      "script": {
+        "Latin": 5
+      },
+      "language_form": {
+        "english": 5
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Constructive_programme_kmeans_0",
+      "language": {
+        "English": 19
+      },
+      "script": {
+        "Latin": 19
+      },
+      "language_form": {
+        "english": 19
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Constructive_programme_kmeans_1",
+      "language": {
+        "English": 16
+      },
+      "script": {
+        "Latin": 16
+      },
+      "language_form": {
+        "english": 16
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Constructive_work_kmeans_0",
+      "language": {
+        "English": 15
+      },
+      "script": {
+        "Latin": 15
+      },
+      "language_form": {
+        "english": 15
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Constructive_work_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Constructive_work_kmeans_2",
+      "language": {
+        "English": 9
+      },
+      "script": {
+        "Latin": 9
+      },
+      "language_form": {
+        "english": 9
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Correspondence_kmeans_0",
+      "language": {
+        "English": 14
+      },
+      "script": {
+        "Latin": 14
+      },
+      "language_form": {
+        "english": 14
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Correspondence_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Correspondence_kmeans_2",
+      "language": {
+        "English": 10
+      },
+      "script": {
+        "Latin": 10
+      },
+      "language_form": {
+        "english": 10
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Cripps_Mission_kmeans_0",
+      "language": {
+        "English": 22
+      },
+      "script": {
+        "Latin": 22
+      },
+      "language_form": {
+        "english": 22
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Cripps_Mission_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Cripps_Mission_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Criticism_of_Gandhi_kmeans_0",
+      "language": {
+        "English": 19
+      },
+      "script": {
+        "Latin": 19
+      },
+      "language_form": {
+        "english": 19
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Criticism_of_Gandhi_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Criticism_of_Gandhi_kmeans_2",
+      "language": {
+        "English": 5
+      },
+      "script": {
+        "Latin": 5
+      },
+      "language_form": {
+        "english": 5
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Dadabhai_Naoroji_kmeans_0",
+      "language": {
+        "English": 27
+      },
+      "script": {
+        "Latin": 27
+      },
+      "language_form": {
+        "english": 27
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Dadabhai_Naoroji_kmeans_1",
+      "language": {
+        "English": 8
+      },
+      "script": {
+        "Latin": 8
+      },
+      "language_form": {
+        "english": 8
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Dandi_kmeans_0",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Dandi_kmeans_1",
+      "language": {
+        "English": 10
+      },
+      "script": {
+        "Latin": 10
+      },
+      "language_form": {
+        "english": 10
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Dandi_kmeans_2",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Delhi_fast_1948_kmeans_0",
+      "language": {
+        "English": 17
+      },
+      "script": {
+        "Latin": 17
+      },
+      "language_form": {
+        "english": 17
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Delhi_fast_1948_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Delhi_fast_1948_kmeans_2",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Early_legal_practice_kmeans_0",
+      "language": {
+        "English": 19
+      },
+      "script": {
+        "Latin": 19
+      },
+      "language_form": {
+        "english": 19
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Early_legal_practice_kmeans_1",
+      "language": {
+        "English": 16
+      },
+      "script": {
+        "Latin": 16
+      },
+      "language_form": {
+        "english": 16
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Economic_thought_kmeans_0",
+      "language": {
+        "English": 19
+      },
+      "script": {
+        "Latin": 19
+      },
+      "language_form": {
+        "english": 19
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Economic_thought_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Economic_thought_kmeans_2",
+      "language": {
+        "English": 5
+      },
+      "script": {
+        "Latin": 5
+      },
+      "language_form": {
+        "english": 5
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Education_philosophy_kmeans_0",
+      "language": {
+        "English": 10
+      },
+      "script": {
+        "Latin": 10
+      },
+      "language_form": {
+        "english": 10
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Education_philosophy_kmeans_1",
+      "language": {
+        "English": 17
+      },
+      "script": {
+        "Latin": 17
+      },
+      "language_form": {
+        "english": 17
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Education_philosophy_kmeans_2",
+      "language": {
+        "English": 8
+      },
+      "script": {
+        "Latin": 8
+      },
+      "language_form": {
+        "english": 8
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_England_and_legal_study_kmeans_0",
+      "language": {
+        "English": 26
+      },
+      "script": {
+        "Latin": 26
+      },
+      "language_form": {
+        "english": 26
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_England_and_legal_study_kmeans_1",
+      "language": {
+        "English": 9
+      },
+      "script": {
+        "Latin": 9
+      },
+      "language_form": {
+        "english": 9
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Environmental_relevance_kmeans_0",
+      "language": {
+        "English": 23
+      },
+      "script": {
+        "Latin": 23
+      },
+      "language_form": {
+        "english": 23
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Environmental_relevance_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Ethical_debates_on_violence_kmeans_0",
+      "language": {
+        "English": 17
+      },
+      "script": {
+        "Latin": 17
+      },
+      "language_form": {
+        "english": 17
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Ethical_debates_on_violence_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Ethical_debates_on_violence_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Fasting_kmeans_0",
+      "language": {
+        "English": 22
+      },
+      "script": {
+        "Latin": 22
+      },
+      "language_form": {
+        "english": 22
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Fasting_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Fasting_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Foreign_cloth_boycott_kmeans_0",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Foreign_cloth_boycott_kmeans_1",
+      "language": {
+        "English": 9
+      },
+      "script": {
+        "Latin": 9
+      },
+      "language_form": {
+        "english": 9
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Foreign_cloth_boycott_kmeans_2",
+      "language": {
+        "English": 8
+      },
+      "script": {
+        "Latin": 8
+      },
+      "language_form": {
+        "english": 8
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Gandhi_Jayanti_kmeans_0",
+      "language": {
+        "English": 15
+      },
+      "script": {
+        "Latin": 15
+      },
+      "language_form": {
+        "english": 15
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Gandhi_Jayanti_kmeans_1",
+      "language": {
+        "English": 10
+      },
+      "script": {
+        "Latin": 10
+      },
+      "language_form": {
+        "english": 10
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Gandhi_Jayanti_kmeans_2",
+      "language": {
+        "English": 5
+      },
+      "script": {
+        "Latin": 5
+      },
+      "language_form": {
+        "english": 5
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Gandhi_as_historical_subject_kmeans_0",
+      "language": {
+        "English": 13
+      },
+      "script": {
+        "Latin": 13
+      },
+      "language_form": {
+        "english": 13
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Gandhi_as_historical_subject_kmeans_1",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Gandhi_as_historical_subject_kmeans_2",
+      "language": {
+        "English": 5
+      },
+      "script": {
+        "Latin": 5
+      },
+      "language_form": {
+        "english": 5
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Gandhi-Irwin_Pact_kmeans_0",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Gandhi-Irwin_Pact_kmeans_1",
+      "language": {
+        "English": 19
+      },
+      "script": {
+        "Latin": 19
+      },
+      "language_form": {
+        "english": 19
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Gandhi-Irwin_Pact_kmeans_2",
+      "language": {
+        "English": 9
+      },
+      "script": {
+        "Latin": 9
+      },
+      "language_form": {
+        "english": 9
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Global_influence_kmeans_0",
+      "language": {
+        "English": 17
+      },
+      "script": {
+        "Latin": 17
+      },
+      "language_form": {
+        "english": 17
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Global_influence_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Global_influence_kmeans_2",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Gokhale_kmeans_0",
+      "language": {
+        "English": 10
+      },
+      "script": {
+        "Latin": 10
+      },
+      "language_form": {
+        "english": 10
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Gokhale_kmeans_1",
+      "language": {
+        "English": 10
+      },
+      "script": {
+        "Latin": 10
+      },
+      "language_form": {
+        "english": 10
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Gokhale_kmeans_2",
+      "language": {
+        "English": 15
+      },
+      "script": {
+        "Latin": 15
+      },
+      "language_form": {
+        "english": 15
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Harijan_publications_kmeans_0",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Harijan_publications_kmeans_1",
+      "language": {
+        "English": 28
+      },
+      "script": {
+        "Latin": 28
+      },
+      "language_form": {
+        "english": 28
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Health_writings_kmeans_0",
+      "language": {
+        "English": 22
+      },
+      "script": {
+        "Latin": 22
+      },
+      "language_form": {
+        "english": 22
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Health_writings_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Health_writings_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Himalayan_miscalculation_kmeans_0",
+      "language": {
+        "English": 28
+      },
+      "script": {
+        "Latin": 28
+      },
+      "language_form": {
+        "english": 28
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Himalayan_miscalculation_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Hind_Swaraj_kmeans_0",
+      "language": {
+        "English": 28
+      },
+      "script": {
+        "Latin": 28
+      },
+      "language_form": {
+        "english": 28
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Hind_Swaraj_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Hindu-Muslim_relations_kmeans_0",
+      "language": {
+        "English": 22
+      },
+      "script": {
+        "Latin": 22
+      },
+      "language_form": {
+        "english": 22
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Hindu-Muslim_relations_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Hindu-Muslim_relations_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Historiography_kmeans_0",
+      "language": {
+        "English": 16
+      },
+      "script": {
+        "Latin": 16
+      },
+      "language_form": {
+        "english": 16
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Historiography_kmeans_1",
+      "language": {
+        "English": 10
+      },
+      "script": {
+        "Latin": 10
+      },
+      "language_form": {
+        "english": 10
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Historiography_kmeans_2",
+      "language": {
+        "English": 4
+      },
+      "script": {
+        "Latin": 4
+      },
+      "language_form": {
+        "english": 4
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Imprisonment_chronology_kmeans_0",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Imprisonment_chronology_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Imprisonment_chronology_kmeans_2",
+      "language": {
+        "English": 17
+      },
+      "script": {
+        "Latin": 17
+      },
+      "language_form": {
+        "english": 17
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Indian_Opinion_kmeans_0",
+      "language": {
+        "English": 28
+      },
+      "script": {
+        "Latin": 28
+      },
+      "language_form": {
+        "english": 28
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Indian_Opinion_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Indian_Relief_Act_kmeans_0",
+      "language": {
+        "English": 22
+      },
+      "script": {
+        "Latin": 22
+      },
+      "language_form": {
+        "english": 22
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Indian_Relief_Act_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Indian_Relief_Act_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Individual_satyagraha_kmeans_0",
+      "language": {
+        "English": 22
+      },
+      "script": {
+        "Latin": 22
+      },
+      "language_form": {
+        "english": 22
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Individual_satyagraha_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Individual_satyagraha_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_International_Day_of_Non-Violence_kmeans_0",
+      "language": {
+        "English": 17
+      },
+      "script": {
+        "Latin": 17
+      },
+      "language_form": {
+        "english": 17
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_International_Day_of_Non-Violence_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_International_Day_of_Non-Violence_kmeans_2",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_International_encounters_kmeans_0",
+      "language": {
+        "English": 16
+      },
+      "script": {
+        "Latin": 16
+      },
+      "language_form": {
+        "english": 16
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_International_encounters_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_International_encounters_kmeans_2",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Jallianwala_Bagh_kmeans_0",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Jallianwala_Bagh_kmeans_1",
+      "language": {
+        "English": 11
+      },
+      "script": {
+        "Latin": 11
+      },
+      "language_form": {
+        "english": 11
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Jallianwala_Bagh_kmeans_2",
+      "language": {
+        "English": 17
+      },
+      "script": {
+        "Latin": 17
+      },
+      "language_form": {
+        "english": 17
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Kasturba_Gandhi_kmeans_0",
+      "language": {
+        "English": 28
+      },
+      "script": {
+        "Latin": 28
+      },
+      "language_form": {
+        "english": 28
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Kasturba_Gandhi_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Kasturba_detention_kmeans_0",
+      "language": {
+        "English": 17
+      },
+      "script": {
+        "Latin": 17
+      },
+      "language_form": {
+        "english": 17
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Kasturba_detention_kmeans_1",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Khadi_kmeans_0",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Khadi_kmeans_1",
+      "language": {
+        "English": 28
+      },
+      "script": {
+        "Latin": 28
+      },
+      "language_form": {
+        "english": 28
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Khan_Abdul_Ghaffar_Khan_kmeans_0",
+      "language": {
+        "English": 14
+      },
+      "script": {
+        "Latin": 14
+      },
+      "language_form": {
+        "english": 14
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Khan_Abdul_Ghaffar_Khan_kmeans_1",
+      "language": {
+        "English": 14
+      },
+      "script": {
+        "Latin": 14
+      },
+      "language_form": {
+        "english": 14
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Khan_Abdul_Ghaffar_Khan_kmeans_2",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Kheda_kmeans_0",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Kheda_kmeans_1",
+      "language": {
+        "English": 28
+      },
+      "script": {
+        "Latin": 28
+      },
+      "language_form": {
+        "english": 28
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Khilafat_alliance_kmeans_0",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Khilafat_alliance_kmeans_1",
+      "language": {
+        "English": 28
+      },
+      "script": {
+        "Latin": 28
+      },
+      "language_form": {
+        "english": 28
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Kochrab_Ashram_kmeans_0",
+      "language": {
+        "English": 26
+      },
+      "script": {
+        "Latin": 26
+      },
+      "language_form": {
+        "english": 26
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Kochrab_Ashram_kmeans_1",
+      "language": {
+        "English": 9
+      },
+      "script": {
+        "Latin": 9
+      },
+      "language_form": {
+        "english": 9
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Labor_kmeans_0",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Labor_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Labor_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Lahore_Congress_1929_kmeans_0",
+      "language": {
+        "English": 20
+      },
+      "script": {
+        "Latin": 20
+      },
+      "language_form": {
+        "english": 20
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Lahore_Congress_1929_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Lahore_Congress_1929_kmeans_2",
+      "language": {
+        "English": 8
+      },
+      "script": {
+        "Latin": 8
+      },
+      "language_form": {
+        "english": 8
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Legacy_kmeans_0",
+      "language": {
+        "English": 17
+      },
+      "script": {
+        "Latin": 17
+      },
+      "language_form": {
+        "english": 17
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Legacy_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Legacy_kmeans_2",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Legacy_abroad_kmeans_0",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Legacy_abroad_kmeans_1",
+      "language": {
+        "English": 24
+      },
+      "script": {
+        "Latin": 24
+      },
+      "language_form": {
+        "english": 24
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Legacy_in_India_kmeans_0",
+      "language": {
+        "English": 17
+      },
+      "script": {
+        "Latin": 17
+      },
+      "language_form": {
+        "english": 17
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Legacy_in_India_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Legacy_in_India_kmeans_2",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_London_1931_kmeans_0",
+      "language": {
+        "English": 27
+      },
+      "script": {
+        "Latin": 27
+      },
+      "language_form": {
+        "english": 27
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_London_1931_kmeans_1",
+      "language": {
+        "English": 8
+      },
+      "script": {
+        "Latin": 8
+      },
+      "language_form": {
+        "english": 8
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_London_vegetarianism_kmeans_0",
+      "language": {
+        "English": 28
+      },
+      "script": {
+        "Latin": 28
+      },
+      "language_form": {
+        "english": 28
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_London_vegetarianism_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Mahadev_Desai_kmeans_0",
+      "language": {
+        "English": 28
+      },
+      "script": {
+        "Latin": 28
+      },
+      "language_form": {
+        "english": 28
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Mahadev_Desai_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Mandela_and_Gandhi_kmeans_0",
+      "language": {
+        "English": 11
+      },
+      "script": {
+        "Latin": 11
+      },
+      "language_form": {
+        "english": 11
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Mandela_and_Gandhi_kmeans_1",
+      "language": {
+        "English": 13
+      },
+      "script": {
+        "Latin": 13
+      },
+      "language_form": {
+        "english": 13
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Mandela_and_Gandhi_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Martin_Luther_King_Jr._kmeans_0",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Martin_Luther_King_Jr._kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Martin_Luther_King_Jr._kmeans_2",
+      "language": {
+        "English": 11
+      },
+      "script": {
+        "Latin": 11
+      },
+      "language_form": {
+        "english": 11
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Mass_participation_kmeans_0",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Mass_participation_kmeans_1",
+      "language": {
+        "English": 11
+      },
+      "script": {
+        "Latin": 11
+      },
+      "language_form": {
+        "english": 11
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Mass_participation_kmeans_2",
+      "language": {
+        "English": 13
+      },
+      "script": {
+        "Latin": 13
+      },
+      "language_form": {
+        "english": 13
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Means_and_ends_kmeans_0",
+      "language": {
+        "English": 8
+      },
+      "script": {
+        "Latin": 8
+      },
+      "language_form": {
+        "english": 8
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Means_and_ends_kmeans_1",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Means_and_ends_kmeans_2",
+      "language": {
+        "English": 10
+      },
+      "script": {
+        "Latin": 10
+      },
+      "language_form": {
+        "english": 10
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Media_strategy_kmeans_0",
+      "language": {
+        "English": 19
+      },
+      "script": {
+        "Latin": 19
+      },
+      "language_form": {
+        "english": 19
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Media_strategy_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Media_strategy_kmeans_2",
+      "language": {
+        "English": 5
+      },
+      "script": {
+        "Latin": 5
+      },
+      "language_form": {
+        "english": 5
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Memoir_source_criticism_kmeans_0",
+      "language": {
+        "English": 16
+      },
+      "script": {
+        "Latin": 16
+      },
+      "language_form": {
+        "english": 16
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Memoir_source_criticism_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Memoir_source_criticism_kmeans_2",
+      "language": {
+        "English": 8
+      },
+      "script": {
+        "Latin": 8
+      },
+      "language_form": {
+        "english": 8
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Methods_of_protest_kmeans_0",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Methods_of_protest_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Methods_of_protest_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Movement_discipline_kmeans_0",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Movement_discipline_kmeans_1",
+      "language": {
+        "English": 11
+      },
+      "script": {
+        "Latin": 11
+      },
+      "language_form": {
+        "english": 11
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Movement_discipline_kmeans_2",
+      "language": {
+        "English": 13
+      },
+      "script": {
+        "Latin": 13
+      },
+      "language_form": {
+        "english": 13
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Natal_Indian_Congress_kmeans_0",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Natal_Indian_Congress_kmeans_1",
+      "language": {
+        "English": 11
+      },
+      "script": {
+        "Latin": 11
+      },
+      "language_form": {
+        "english": 11
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Natal_Indian_Congress_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Nationalism_kmeans_0",
+      "language": {
+        "English": 16
+      },
+      "script": {
+        "Latin": 16
+      },
+      "language_form": {
+        "english": 16
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Nationalism_kmeans_1",
+      "language": {
+        "English": 4
+      },
+      "script": {
+        "Latin": 4
+      },
+      "language_form": {
+        "english": 4
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Nationalism_kmeans_2",
+      "language": {
+        "English": 10
+      },
+      "script": {
+        "Latin": 10
+      },
+      "language_form": {
+        "english": 10
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Nature_cure_kmeans_0",
+      "language": {
+        "English": 23
+      },
+      "script": {
+        "Latin": 23
+      },
+      "language_form": {
+        "english": 23
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Nature_cure_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Nature_cure_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Negotiation_strategy_kmeans_0",
+      "language": {
+        "English": 17
+      },
+      "script": {
+        "Latin": 17
+      },
+      "language_form": {
+        "english": 17
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Negotiation_strategy_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Negotiation_strategy_kmeans_2",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Nehru_kmeans_0",
+      "language": {
+        "English": 22
+      },
+      "script": {
+        "Latin": 22
+      },
+      "language_form": {
+        "english": 22
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Nehru_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Nehru_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Noakhali_kmeans_0",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Noakhali_kmeans_1",
+      "language": {
+        "English": 11
+      },
+      "script": {
+        "Latin": 11
+      },
+      "language_form": {
+        "english": 11
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Noakhali_kmeans_2",
+      "language": {
+        "English": 17
+      },
+      "script": {
+        "Latin": 17
+      },
+      "language_form": {
+        "english": 17
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Non-cooperation_kmeans_0",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Non-cooperation_kmeans_1",
+      "language": {
+        "English": 16
+      },
+      "script": {
+        "Latin": 16
+      },
+      "language_form": {
+        "english": 16
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Non-cooperation_kmeans_2",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Nonviolence_under_repression_kmeans_0",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Nonviolence_under_repression_kmeans_1",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Organizational_networks_kmeans_0",
+      "language": {
+        "English": 17
+      },
+      "script": {
+        "Latin": 17
+      },
+      "language_form": {
+        "english": 17
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Organizational_networks_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Organizational_networks_kmeans_2",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Partition_kmeans_0",
+      "language": {
+        "English": 22
+      },
+      "script": {
+        "Latin": 22
+      },
+      "language_form": {
+        "english": 22
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Partition_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Partition_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Patel_kmeans_0",
+      "language": {
+        "English": 28
+      },
+      "script": {
+        "Latin": 28
+      },
+      "language_form": {
+        "english": 28
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Patel_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Peacebuilding_kmeans_0",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Peacebuilding_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Peacebuilding_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Personal_experiments_kmeans_0",
+      "language": {
+        "English": 10
+      },
+      "script": {
+        "Latin": 10
+      },
+      "language_form": {
+        "english": 10
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Personal_experiments_kmeans_1",
+      "language": {
+        "English": 8
+      },
+      "script": {
+        "Latin": 8
+      },
+      "language_form": {
+        "english": 8
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Personal_experiments_kmeans_2",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Phoenix_Settlement_kmeans_0",
+      "language": {
+        "English": 22
+      },
+      "script": {
+        "Latin": 22
+      },
+      "language_form": {
+        "english": 22
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Phoenix_Settlement_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Phoenix_Settlement_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Pietermaritzburg_incident_kmeans_0",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Pietermaritzburg_incident_kmeans_1",
+      "language": {
+        "English": 28
+      },
+      "script": {
+        "Latin": 28
+      },
+      "language_form": {
+        "english": 28
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Political_outcomes_kmeans_0",
+      "language": {
+        "English": 24
+      },
+      "script": {
+        "Latin": 24
+      },
+      "language_form": {
+        "english": 24
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Political_outcomes_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Political_pragmatism_kmeans_0",
+      "language": {
+        "English": 16
+      },
+      "script": {
+        "Latin": 16
+      },
+      "language_form": {
+        "english": 16
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Political_pragmatism_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Political_pragmatism_kmeans_2",
+      "language": {
+        "English": 8
+      },
+      "script": {
+        "Latin": 8
+      },
+      "language_form": {
+        "english": 8
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Poona_Pact_kmeans_0",
+      "language": {
+        "English": 22
+      },
+      "script": {
+        "Latin": 22
+      },
+      "language_form": {
+        "english": 22
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Poona_Pact_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Poona_Pact_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Porbandar_and_childhood_kmeans_0",
+      "language": {
+        "English": 23
+      },
+      "script": {
+        "Latin": 23
+      },
+      "language_form": {
+        "english": 23
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Porbandar_and_childhood_kmeans_1",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Practical_nonviolence_kmeans_0",
+      "language": {
+        "English": 17
+      },
+      "script": {
+        "Latin": 17
+      },
+      "language_form": {
+        "english": 17
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Practical_nonviolence_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Practical_nonviolence_kmeans_2",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Press_and_newspapers_kmeans_0",
+      "language": {
+        "English": 16
+      },
+      "script": {
+        "Latin": 16
+      },
+      "language_form": {
+        "english": 16
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Press_and_newspapers_kmeans_1",
+      "language": {
+        "English": 9
+      },
+      "script": {
+        "Latin": 9
+      },
+      "language_form": {
+        "english": 9
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Press_and_newspapers_kmeans_2",
+      "language": {
+        "English": 5
+      },
+      "script": {
+        "Latin": 5
+      },
+      "language_form": {
+        "english": 5
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Public_rituals_kmeans_0",
+      "language": {
+        "English": 4
+      },
+      "script": {
+        "Latin": 4
+      },
+      "language_form": {
+        "english": 4
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Public_rituals_kmeans_1",
+      "language": {
+        "English": 26
+      },
+      "script": {
+        "Latin": 26
+      },
+      "language_form": {
+        "english": 26
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Public_symbolism_kmeans_0",
+      "language": {
+        "English": 23
+      },
+      "script": {
+        "Latin": 23
+      },
+      "language_form": {
+        "english": 23
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Public_symbolism_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Quit_India_kmeans_0",
+      "language": {
+        "English": 15
+      },
+      "script": {
+        "Latin": 15
+      },
+      "language_form": {
+        "english": 15
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Quit_India_kmeans_1",
+      "language": {
+        "English": 11
+      },
+      "script": {
+        "Latin": 11
+      },
+      "language_form": {
+        "english": 11
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Quit_India_kmeans_2",
+      "language": {
+        "English": 9
+      },
+      "script": {
+        "Latin": 9
+      },
+      "language_form": {
+        "english": 9
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Rajkot_schooling_kmeans_0",
+      "language": {
+        "English": 23
+      },
+      "script": {
+        "Latin": 23
+      },
+      "language_form": {
+        "english": 23
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Rajkot_schooling_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Rajkot_schooling_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Religious_influences_kmeans_0",
+      "language": {
+        "English": 22
+      },
+      "script": {
+        "Latin": 22
+      },
+      "language_form": {
+        "english": 22
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Religious_influences_kmeans_1",
+      "language": {
+        "English": 13
+      },
+      "script": {
+        "Latin": 13
+      },
+      "language_form": {
+        "english": 13
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Religious_pluralism_kmeans_0",
+      "language": {
+        "English": 19
+      },
+      "script": {
+        "Latin": 19
+      },
+      "language_form": {
+        "english": 19
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Religious_pluralism_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Religious_pluralism_kmeans_2",
+      "language": {
+        "English": 5
+      },
+      "script": {
+        "Latin": 5
+      },
+      "language_form": {
+        "english": 5
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Return_to_India_1915_kmeans_0",
+      "language": {
+        "English": 27
+      },
+      "script": {
+        "Latin": 27
+      },
+      "language_form": {
+        "english": 27
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Return_to_India_1915_kmeans_1",
+      "language": {
+        "English": 8
+      },
+      "script": {
+        "Latin": 8
+      },
+      "language_form": {
+        "english": 8
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Rhetoric_and_speeches_kmeans_0",
+      "language": {
+        "English": 19
+      },
+      "script": {
+        "Latin": 19
+      },
+      "language_form": {
+        "english": 19
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Rhetoric_and_speeches_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Rhetoric_and_speeches_kmeans_2",
+      "language": {
+        "English": 4
+      },
+      "script": {
+        "Latin": 4
+      },
+      "language_form": {
+        "english": 4
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Round_Table_Conference_kmeans_0",
+      "language": {
+        "English": 22
+      },
+      "script": {
+        "Latin": 22
+      },
+      "language_form": {
+        "english": 22
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Round_Table_Conference_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Round_Table_Conference_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Rowlatt_Act_kmeans_0",
+      "language": {
+        "English": 26
+      },
+      "script": {
+        "Latin": 26
+      },
+      "language_form": {
+        "english": 26
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Rowlatt_Act_kmeans_1",
+      "language": {
+        "English": 9
+      },
+      "script": {
+        "Latin": 9
+      },
+      "language_form": {
+        "english": 9
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Rural_development_kmeans_0",
+      "language": {
+        "English": 22
+      },
+      "script": {
+        "Latin": 22
+      },
+      "language_form": {
+        "english": 22
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Rural_development_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Rural_development_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Ruskin_influence_kmeans_0",
+      "language": {
+        "English": 28
+      },
+      "script": {
+        "Latin": 28
+      },
+      "language_form": {
+        "english": 28
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Ruskin_influence_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Sabarmati_Ashram_kmeans_0",
+      "language": {
+        "English": 11
+      },
+      "script": {
+        "Latin": 11
+      },
+      "language_form": {
+        "english": 11
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Sabarmati_Ashram_kmeans_1",
+      "language": {
+        "English": 17
+      },
+      "script": {
+        "Latin": 17
+      },
+      "language_form": {
+        "english": 17
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Sabarmati_Ashram_kmeans_2",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Salt_March_kmeans_0",
+      "language": {
+        "English": 28
+      },
+      "script": {
+        "Latin": 28
+      },
+      "language_form": {
+        "english": 28
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Salt_March_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Salt_law_kmeans_0",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Salt_law_kmeans_1",
+      "language": {
+        "English": 17
+      },
+      "script": {
+        "Latin": 17
+      },
+      "language_form": {
+        "english": 17
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Salt_satyagraha_nationwide_kmeans_0",
+      "language": {
+        "English": 22
+      },
+      "script": {
+        "Latin": 22
+      },
+      "language_form": {
+        "english": 22
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Salt_satyagraha_nationwide_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Salt_satyagraha_nationwide_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Sanitation_kmeans_0",
+      "language": {
+        "English": 22
+      },
+      "script": {
+        "Latin": 22
+      },
+      "language_form": {
+        "english": 22
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Sanitation_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Sanitation_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Sarojini_Naidu_kmeans_0",
+      "language": {
+        "English": 22
+      },
+      "script": {
+        "Latin": 22
+      },
+      "language_form": {
+        "english": 22
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Sarojini_Naidu_kmeans_1",
+      "language": {
+        "English": 13
+      },
+      "script": {
+        "Latin": 13
+      },
+      "language_form": {
+        "english": 13
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Satyagraha_in_South_Africa_kmeans_0",
+      "language": {
+        "English": 28
+      },
+      "script": {
+        "Latin": 28
+      },
+      "language_form": {
+        "english": 28
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Satyagraha_in_South_Africa_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Second_Round_Table_Conference_kmeans_0",
+      "language": {
+        "English": 22
+      },
+      "script": {
+        "Latin": 22
+      },
+      "language_form": {
+        "english": 22
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Second_Round_Table_Conference_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Second_Round_Table_Conference_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Self-presentation_kmeans_0",
+      "language": {
+        "English": 17
+      },
+      "script": {
+        "Latin": 17
+      },
+      "language_form": {
+        "english": 17
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Self-presentation_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Self-presentation_kmeans_2",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Simple_living_kmeans_0",
+      "language": {
+        "English": 13
+      },
+      "script": {
+        "Latin": 13
+      },
+      "language_form": {
+        "english": 13
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Simple_living_kmeans_1",
+      "language": {
+        "English": 11
+      },
+      "script": {
+        "Latin": 11
+      },
+      "language_form": {
+        "english": 11
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Simple_living_kmeans_2",
+      "language": {
+        "English": 11
+      },
+      "script": {
+        "Latin": 11
+      },
+      "language_form": {
+        "english": 11
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Smuts_negotiations_kmeans_0",
+      "language": {
+        "English": 16
+      },
+      "script": {
+        "Latin": 16
+      },
+      "language_form": {
+        "english": 16
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Smuts_negotiations_kmeans_1",
+      "language": {
+        "English": 11
+      },
+      "script": {
+        "Latin": 11
+      },
+      "language_form": {
+        "english": 11
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Smuts_negotiations_kmeans_2",
+      "language": {
+        "English": 8
+      },
+      "script": {
+        "Latin": 8
+      },
+      "language_form": {
+        "english": 8
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_South_Africa_arrival_kmeans_0",
+      "language": {
+        "English": 27
+      },
+      "script": {
+        "Latin": 27
+      },
+      "language_form": {
+        "english": 27
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_South_Africa_arrival_kmeans_1",
+      "language": {
+        "English": 8
+      },
+      "script": {
+        "Latin": 8
+      },
+      "language_form": {
+        "english": 8
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_South_Africa_vs_India_kmeans_0",
+      "language": {
+        "English": 17
+      },
+      "script": {
+        "Latin": 17
+      },
+      "language_form": {
+        "english": 17
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_South_Africa_vs_India_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_South_Africa_vs_India_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_South_African_imprisonment_kmeans_0",
+      "language": {
+        "English": 13
+      },
+      "script": {
+        "Latin": 13
+      },
+      "language_form": {
+        "english": 13
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_South_African_imprisonment_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_South_African_imprisonment_kmeans_2",
+      "language": {
+        "English": 15
+      },
+      "script": {
+        "Latin": 15
+      },
+      "language_form": {
+        "english": 15
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_South_African_satyagraha_kmeans_0",
+      "language": {
+        "English": 28
+      },
+      "script": {
+        "Latin": 28
+      },
+      "language_form": {
+        "english": 28
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_South_African_satyagraha_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Strategic_choices_kmeans_0",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Strategic_choices_kmeans_1",
+      "language": {
+        "English": 11
+      },
+      "script": {
+        "Latin": 11
+      },
+      "language_form": {
+        "english": 11
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Strategic_choices_kmeans_2",
+      "language": {
+        "English": 12
+      },
+      "script": {
+        "Latin": 12
+      },
+      "language_form": {
+        "english": 12
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Subhas_Chandra_Bose_kmeans_0",
+      "language": {
+        "English": 28
+      },
+      "script": {
+        "Latin": 28
+      },
+      "language_form": {
+        "english": 28
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Subhas_Chandra_Bose_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Swadeshi_kmeans_0",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Swadeshi_kmeans_1",
+      "language": {
+        "English": 10
+      },
+      "script": {
+        "Latin": 10
+      },
+      "language_form": {
+        "english": 10
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Swadeshi_kmeans_2",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Swaraj_kmeans_0",
+      "language": {
+        "English": 19
+      },
+      "script": {
+        "Latin": 19
+      },
+      "language_form": {
+        "english": 19
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Swaraj_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Swaraj_kmeans_2",
+      "language": {
+        "English": 5
+      },
+      "script": {
+        "Latin": 5
+      },
+      "language_form": {
+        "english": 5
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Tagore_kmeans_0",
+      "language": {
+        "English": 22
+      },
+      "script": {
+        "Latin": 22
+      },
+      "language_form": {
+        "english": 22
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Tagore_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Tagore_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Technology_and_modernity_kmeans_0",
+      "language": {
+        "English": 18
+      },
+      "script": {
+        "Latin": 18
+      },
+      "language_form": {
+        "english": 18
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Technology_and_modernity_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Technology_and_modernity_kmeans_2",
+      "language": {
+        "English": 5
+      },
+      "script": {
+        "Latin": 5
+      },
+      "language_form": {
+        "english": 5
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Textiles_kmeans_0",
+      "language": {
+        "English": 19
+      },
+      "script": {
+        "Latin": 19
+      },
+      "language_form": {
+        "english": 19
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Textiles_kmeans_1",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Textiles_kmeans_2",
+      "language": {
+        "English": 5
+      },
+      "script": {
+        "Latin": 5
+      },
+      "language_form": {
+        "english": 5
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Thoreau_and_civil_disobedience_kmeans_0",
+      "language": {
+        "English": 19
+      },
+      "script": {
+        "Latin": 19
+      },
+      "language_form": {
+        "english": 19
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Thoreau_and_civil_disobedience_kmeans_1",
+      "language": {
+        "English": 16
+      },
+      "script": {
+        "Latin": 16
+      },
+      "language_form": {
+        "english": 16
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Tolstoy_Farm_kmeans_0",
+      "language": {
+        "English": 28
+      },
+      "script": {
+        "Latin": 28
+      },
+      "language_form": {
+        "english": 28
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Tolstoy_Farm_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Tolstoy_influence_kmeans_0",
+      "language": {
+        "English": 27
+      },
+      "script": {
+        "Latin": 27
+      },
+      "language_form": {
+        "english": 27
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Tolstoy_influence_kmeans_1",
+      "language": {
+        "English": 8
+      },
+      "script": {
+        "Latin": 8
+      },
+      "language_form": {
+        "english": 8
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Transvaal_registration_laws_kmeans_0",
+      "language": {
+        "English": 16
+      },
+      "script": {
+        "Latin": 16
+      },
+      "language_form": {
+        "english": 16
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Transvaal_registration_laws_kmeans_1",
+      "language": {
+        "English": 11
+      },
+      "script": {
+        "Latin": 11
+      },
+      "language_form": {
+        "english": 11
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Transvaal_registration_laws_kmeans_2",
+      "language": {
+        "English": 8
+      },
+      "script": {
+        "Latin": 8
+      },
+      "language_form": {
+        "english": 8
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Truth_kmeans_0",
+      "language": {
+        "English": 20
+      },
+      "script": {
+        "Latin": 20
+      },
+      "language_form": {
+        "english": 20
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Truth_kmeans_1",
+      "language": {
+        "English": 10
+      },
+      "script": {
+        "Latin": 10
+      },
+      "language_form": {
+        "english": 10
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Truth_kmeans_2",
+      "language": {
+        "English": 5
+      },
+      "script": {
+        "Latin": 5
+      },
+      "language_form": {
+        "english": 5
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Untouchability_kmeans_0",
+      "language": {
+        "English": 20
+      },
+      "script": {
+        "Latin": 20
+      },
+      "language_form": {
+        "english": 20
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Untouchability_kmeans_1",
+      "language": {
+        "English": 15
+      },
+      "script": {
+        "Latin": 15
+      },
+      "language_form": {
+        "english": 15
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Village_industries_kmeans_0",
+      "language": {
+        "English": 27
+      },
+      "script": {
+        "Latin": 27
+      },
+      "language_form": {
+        "english": 27
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Village_industries_kmeans_1",
+      "language": {
+        "English": 8
+      },
+      "script": {
+        "Latin": 8
+      },
+      "language_form": {
+        "english": 8
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Wardha_scheme_kmeans_0",
+      "language": {
+        "English": 22
+      },
+      "script": {
+        "Latin": 22
+      },
+      "language_form": {
+        "english": 22
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Wardha_scheme_kmeans_1",
+      "language": {
+        "English": 7
+      },
+      "script": {
+        "Latin": 7
+      },
+      "language_form": {
+        "english": 7
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Wardha_scheme_kmeans_2",
+      "language": {
+        "English": 6
+      },
+      "script": {
+        "Latin": 6
+      },
+      "language_form": {
+        "english": 6
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Women_in_movement_kmeans_0",
+      "language": {
+        "English": 20
+      },
+      "script": {
+        "Latin": 20
+      },
+      "language_form": {
+        "english": 20
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Women_in_movement_kmeans_1",
+      "language": {
+        "English": 10
+      },
+      "script": {
+        "Latin": 10
+      },
+      "language_form": {
+        "english": 10
+      }
+    },
+    {
+      "cluster_id": "GANDHI_Gandhi_studies_—_Women_in_movement_kmeans_2",
+      "language": {
+        "English": 5
+      },
+      "script": {
+        "Latin": 5
+      },
+      "language_form": {
+        "english": 5
+      }
+    }
+  ]
+}

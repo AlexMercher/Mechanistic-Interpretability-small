@@ -1,0 +1,6 @@
+domain,n,mean_words,median_words,p90_words,p99_words,max_words
+DNA,5000,15.44,15.0,21,26,40
+EMOTIONS,5000,26.31,23.0,41,47,57
+GANDHI,5000,18.13,19.0,22,24,25
+HINDI,5000,20.97,21.0,30,38,55
+SCIENCE,5000,34.64,35.0,40,44,49

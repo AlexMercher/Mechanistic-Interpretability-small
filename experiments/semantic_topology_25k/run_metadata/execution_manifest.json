@@ -1,0 +1,30 @@
+{
+  "pipeline_order": [
+    "evaluate_embedding_space.py",
+    "build_evaluation_candidates.py",
+    "(Opus teacher-model review of evaluation/candidate_prompt_pairs.jsonl -> evaluation/reviewed_prompt_pairs.jsonl)",
+    "evaluate_retrieval.py",
+    "build_domain_clusters.py",
+    "name_clusters.py",
+    "discover_cross_domain_relations.py",
+    "(Opus teacher-model review of taxonomy/cross_domain_candidates.jsonl, 3 parallel batches -> taxonomy/concept_relationships.jsonl)",
+    "construct_taxonomy.py",
+    "(Opus teacher-model spot-check of 40 concepts -> taxonomy/concept_review_results.jsonl)",
+    "render_hierarchy_markdown.py",
+    "generate_semantic_reports.py",
+    "validate_taxonomy.py"
+  ],
+  "source_integrity": {
+    "policy": "normalized/, raw/, processed/, MI_Dataset_validated/, and "
+              "experiments/duplicate_language_embedding/ are read-only throughout this experiment",
+    "verification_command": "git diff --stat HEAD -- normalized raw processed MI_Dataset_validated experiments/duplicate_language_embedding",
+    "verification_result": "empty (no changes) -- confirmed before freezing this report"
+  },
+  "re-runnability": {
+    "all_scripts_idempotent": true,
+    "note": "Every script recomputes its outputs from the frozen upstream inputs (normalized/, "
+            "Milestone-2 embeddings, and this experiment's own intermediate files) and overwrites "
+            "its own output files deterministically given the same --seed; no script mutates another "
+            "script's output in place."
+  }
+}

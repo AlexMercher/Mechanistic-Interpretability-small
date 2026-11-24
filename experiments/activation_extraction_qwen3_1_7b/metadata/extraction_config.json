@@ -1,0 +1,34 @@
+{
+  "model_name": "Qwen/Qwen3-1.7B",
+  "model_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "loading_precision": "bfloat16",
+  "activation_storage_precision": "bfloat16",
+  "attn_implementation": "sdpa",
+  "selected_layer_index": 14,
+  "selected_layer_indexing": "zero_based",
+  "hook_location": "output of model.model.layers[14] (residual stream after that decoder block)",
+  "token_selection": "every non-padding token, per the attention mask",
+  "special_token_handling": "Qwen3 tokenizer has no bos_token; plain tokenizer(text) calls add no BOS/EOS automatically (verified empirically) -- every retained token id is a real content token, not a special token, under this protocol",
+  "truncation_policy": "no truncation applied -- corpus max tokenized length (266) is far below the model's max_position_embeddings (40960); --max-length is supported in the pipeline but left unset for this run",
+  "batching": {
+    "batch_size": 8,
+    "strategy": "length-bucketed: prompts sorted by tokenized length before batching, so each batch pads only to the longest prompt within that batch",
+    "padding_side": "right (required for correctness with a causal model doing a single non-generation forward pass)"
+  },
+  "storage_format": {
+    "format": "safetensors shards (one tensor named \"activations\", shape [n_rows, 2048], dtype bfloat16)",
+    "rows_per_shard": 100000,
+    "rationale": "safetensors natively supports bfloat16 (numpy .npy does not), supports fast memory-mapped reads via safe_open without loading a whole shard into RAM, and is already the format used for this project's model weights -- no new dependency. A prompt's tokens are never split across two shards (a shard is flushed before it would overflow), keeping resumption/validation simple."
+  },
+  "train_validation_split": {
+    "level": "prompt (all tokens from a prompt stay in the same split)",
+    "seed": 1337,
+    "val_fraction": 0.1,
+    "method": "sha256(f'{seed}:{prompt_id}') -> deterministic pseudo-random fraction in [0,1), < val_fraction => validation"
+  },
+  "resumability": {
+    "granularity": "prompt-level",
+    "verification": "a prompt counts as complete only if every shard its rows belong to is marked status=complete in shard_manifest.json AND that shard file's sha256 on disk matches the manifest -- re-verified at the start of every run, not just trusted from the manifest"
+  },
+  "source_corpus": "normalized/*.jsonl (25,000 prompts, 5 domains) -- read-only"
+}

@@ -1,0 +1,39 @@
+{
+  "experiment": "semantic_topology_25k",
+  "milestone": 3,
+  "builds_on": "experiments/duplicate_language_embedding/ (Milestone 2)",
+  "seed": 42,
+  "source_corpus_normalized_sha256": "77491a09b14ba58e93dab93e85fe2ae6a36b24aa4df86eacfe8c25e5041acf1a",
+  "embedding_model": "intfloat/multilingual-e5-small",
+  "embedding_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "embedding_source": "experiments/duplicate_language_embedding/embeddings/prompt_embeddings.npy (REUSED, not regenerated)",
+  "clustering": {
+    "granularity": "per (domain, subdomain) bucket",
+    "min_cluster_size_floor": 15,
+    "hdbscan_min_cluster_size_rule": "max(10, n_bucket_records // 25)",
+    "kmeans_k_sweep_rule": "range(2, min(11, n_bucket_records // 15 + 2))",
+    "method_selection": "prefer HDBSCAN unless noise_fraction>0.6, <2 clusters, or HDBSCAN's "
+                         "clustering correlates with the `category` field (normalized mutual "
+                         "information > 0.6) more than the KMeans alternative does",
+    "too_small_to_split_threshold": "bucket n_records < 2 * min_cluster_size_floor"
+  },
+  "concept_naming": {
+    "method": "tfidf_distinctive_terms_over_full_cluster_text_v1",
+    "top_k_terms": 6,
+    "review": "40-concept stratified sample (largest 4 + random 4 per domain) spot-checked by "
+              "an Opus teacher-model pass; see taxonomy/concept_review_results.jsonl"
+  },
+  "cross_domain_relationship_discovery": {
+    "candidate_selection": "top 15 cluster pairs per unordered domain pair (10 domain pairs), "
+                           "by centroid cosine similarity, restricted to clusters with "
+                           ">=5 raw records",
+    "total_candidates_reviewed": 150,
+    "review_method": "Opus teacher-model pass, 3 parallel batches of 50, judged from actual "
+                      "representative prompt text (not from centroid similarity score)"
+  },
+  "software_versions": {
+    "numpy": "2.5.5", "scikit-learn": "1.9.1", "scipy": "1.18.1", "hdbscan": "0.8.44",
+    "umap-learn": "0.6.0", "matplotlib": "3.11.2", "sentence-transformers": "6.3.0",
+    "torch": "2.15.0+cpu"
+  }
+}

@@ -1,0 +1,1002 @@
+[
+  {
+    "domain": "DNA",
+    "prompt_id_a": "DNA_004602",
+    "prompt_id_b": "DNA_004604",
+    "category": "real_world_applications",
+    "subdomain": "Structure",
+    "similarity_ratio": "0.9895",
+    "prompt_a": "What molecular or geometric evidence can be used to characterize nucleotide phosphates in DNA?",
+    "prompt_b": "What molecular or geometric evidence can be used to characterize nucleotide diphosphates in DNA?"
+  },
+  {
+    "domain": "DNA",
+    "prompt_id_a": "DNA_004669",
+    "prompt_id_b": "DNA_004670",
+    "category": "real_world_applications",
+    "subdomain": "Structure",
+    "similarity_ratio": "0.9895",
+    "prompt_a": "What molecular or geometric evidence can be used to characterize 5-prime strand termini in DNA?",
+    "prompt_b": "What molecular or geometric evidence can be used to characterize 3-prime strand termini in DNA?"
+  },
+  {
+    "domain": "DNA",
+    "prompt_id_a": "DNA_000017",
+    "prompt_id_b": "DNA_000018",
+    "category": "contextual_understanding",
+    "subdomain": "Structure",
+    "similarity_ratio": "0.9894",
+    "prompt_a": "How does nucleotide phosphates contribute to the structure and properties of DNA nucleotides?",
+    "prompt_b": "How does nucleotide diphosphates contribute to the structure and properties of DNA nucleotides?"
+  },
+  {
+    "domain": "DNA",
+    "prompt_id_a": "DNA_004609",
+    "prompt_id_b": "DNA_004610",
+    "category": "real_world_applications",
+    "subdomain": "Structure",
+    "similarity_ratio": "0.9892",
+    "prompt_a": "What molecular or geometric evidence can be used to characterize C2-prime-endo pucker in DNA?",
+    "prompt_b": "What molecular or geometric evidence can be used to characterize C3-prime-endo pucker in DNA?"
+  },
+  {
+    "domain": "DNA",
+    "prompt_id_a": "DNA_004596",
+    "prompt_id_b": "DNA_004597",
+    "category": "real_world_applications",
+    "subdomain": "Structure",
+    "similarity_ratio": "0.989",
+    "prompt_a": "What molecular or geometric evidence can be used to characterize the 1-prime carbon in DNA?",
+    "prompt_b": "What molecular or geometric evidence can be used to characterize the 2-prime carbon in DNA?"
+  },
+  {
+    "domain": "DNA",
+    "prompt_id_a": "DNA_004596",
+    "prompt_id_b": "DNA_004598",
+    "category": "real_world_applications",
+    "subdomain": "Structure",
+    "similarity_ratio": "0.989",
+    "prompt_a": "What molecular or geometric evidence can be used to characterize the 1-prime carbon in DNA?",
+    "prompt_b": "What molecular or geometric evidence can be used to characterize the 3-prime carbon in DNA?"
+  },
+  {
+    "domain": "DNA",
+    "prompt_id_a": "DNA_004596",
+    "prompt_id_b": "DNA_004599",
+    "category": "real_world_applications",
+    "subdomain": "Structure",
+    "similarity_ratio": "0.989",
+    "prompt_a": "What molecular or geometric evidence can be used to characterize the 1-prime carbon in DNA?",
+    "prompt_b": "What molecular or geometric evidence can be used to characterize the 5-prime carbon in DNA?"
+  },
+  {
+    "domain": "DNA",
+    "prompt_id_a": "DNA_004597",
+    "prompt_id_b": "DNA_004598",
+    "category": "real_world_applications",
+    "subdomain": "Structure",
+    "similarity_ratio": "0.989",
+    "prompt_a": "What molecular or geometric evidence can be used to characterize the 2-prime carbon in DNA?",
+    "prompt_b": "What molecular or geometric evidence can be used to characterize the 3-prime carbon in DNA?"
+  },
+  {
+    "domain": "DNA",
+    "prompt_id_a": "DNA_004597",
+    "prompt_id_b": "DNA_004599",
+    "category": "real_world_applications",
+    "subdomain": "Structure",
+    "similarity_ratio": "0.989",
+    "prompt_a": "What molecular or geometric evidence can be used to characterize the 2-prime carbon in DNA?",
+    "prompt_b": "What molecular or geometric evidence can be used to characterize the 5-prime carbon in DNA?"
+  },
+  {
+    "domain": "DNA",
+    "prompt_id_a": "DNA_004598",
+    "prompt_id_b": "DNA_004599",
+    "category": "real_world_applications",
+    "subdomain": "Structure",
+    "similarity_ratio": "0.989",
+    "prompt_a": "What molecular or geometric evidence can be used to characterize the 3-prime carbon in DNA?",
+    "prompt_b": "What molecular or geometric evidence can be used to characterize the 5-prime carbon in DNA?"
+  },
+  {
+    "domain": "DNA",
+    "prompt_id_a": "DNA_004651",
+    "prompt_id_b": "DNA_004655",
+    "category": "real_world_applications",
+    "subdomain": "Structure",
+    "similarity_ratio": "0.989",
+    "prompt_a": "What molecular or geometric evidence can be used to characterize beta torsion angle in DNA?",
+    "prompt_b": "What molecular or geometric evidence can be used to characterize zeta torsion angle in DNA?"
+  },
+  {
+    "domain": "DNA",
+    "prompt_id_a": "DNA_000014",
+    "prompt_id_b": "DNA_000015",
+    "category": "contextual_understanding",
+    "subdomain": "Structure",
+    "similarity_ratio": "0.9889",
+    "prompt_a": "How does the 1-prime carbon contribute to the structure and properties of DNA nucleotides?",
+    "prompt_b": "How does the 3-prime carbon contribute to the structure and properties of DNA nucleotides?"
+  },
+  {
+    "domain": "DNA",
+    "prompt_id_a": "DNA_004681",
+    "prompt_id_b": "DNA_004682",
+    "category": "real_world_applications",
+    "subdomain": "Structure",
+    "similarity_ratio": "0.9889",
+    "prompt_a": "What molecular or geometric evidence can be used to characterize 5-prime overhangs in DNA?",
+    "prompt_b": "What molecular or geometric evidence can be used to characterize 3-prime overhangs in DNA?"
+  },
+  {
+    "domain": "DNA",
+    "prompt_id_a": "DNA_004705",
+    "prompt_id_b": "DNA_004714",
+    "category": "real_world_applications",
+    "subdomain": "Structure",
+    "similarity_ratio": "0.9888",
+    "prompt_a": "What molecular or geometric evidence can be used to characterize A-DNA handedness in DNA?",
+    "prompt_b": "What molecular or geometric evidence can be used to characterize Z-DNA handedness in DNA?"
+  },
+  {
+    "domain": "DNA",
+    "prompt_id_a": "DNA_003032",
+    "prompt_id_b": "DNA_003034",
+    "category": "factual_knowledge",
+    "subdomain": "Structure",
+    "similarity_ratio": "0.9886",
+    "prompt_a": "What chemical principles explain beta torsion angle in the DNA sugar-phosphate backbone?",
+    "prompt_b": "What chemical principles explain zeta torsion angle in the DNA sugar-phosphate backbone?"
+  },
+  {
+    "domain": "DNA",
+    "prompt_id_a": "DNA_004652",
+    "prompt_id_b": "DNA_004668",
+    "category": "real_world_applications",
+    "subdomain": "Structure",
+    "similarity_ratio": "0.8367",
+    "prompt_a": "What molecular or geometric evidence can be used to characterize gamma torsion angle in DNA?",
+    "prompt_b": "What molecular or geometric evidence can be used to characterize antiparallel strand orientation in DNA?"
+  },
+  {
+    "domain": "DNA",
+    "prompt_id_a": "DNA_004602",
+    "prompt_id_b": "DNA_004693",
+    "category": "real_world_applications",
+    "subdomain": "Structure",
+    "similarity_ratio": "0.8324",
+    "prompt_a": "What molecular or geometric evidence can be used to characterize nucleotide phosphates in DNA?",
+    "prompt_b": "What molecular or geometric evidence can be used to characterize major-groove width in DNA?"
+  },
+  {
+    "domain": "DNA",
+    "prompt_id_a": "DNA_004586",
+    "prompt_id_b": "DNA_004707",
+    "category": "real_world_applications",
+    "subdomain": "Structure",
+    "similarity_ratio": "0.8914",
+    "prompt_a": "What molecular or geometric evidence can be used to characterize groove geometry in DNA?",
+    "prompt_b": "What molecular or geometric evidence can be used to characterize A-DNA diameter in DNA?"
+  },
+  {
+    "domain": "DNA",
+    "prompt_id_a": "DNA_004625",
+    "prompt_id_b": "DNA_004671",
+    "category": "real_world_applications",
+    "subdomain": "Structure",
+    "similarity_ratio": "0.8508",
+    "prompt_a": "What molecular or geometric evidence can be used to characterize Watson-Crick pairing in DNA?",
+    "prompt_b": "What molecular or geometric evidence can be used to characterize strand polarity in DNA?"
+  },
+  {
+    "domain": "DNA",
+    "prompt_id_a": "DNA_004600",
+    "prompt_id_b": "DNA_004619",
+    "category": "real_world_applications",
+    "subdomain": "Structure",
+    "similarity_ratio": "0.8211",
+    "prompt_a": "What molecular or geometric evidence can be used to characterize the glycosidic bond in DNA?",
+    "prompt_b": "What molecular or geometric evidence can be used to characterize pyrimidine ring structure in DNA?"
+  },
+  {
+    "domain": "EMOTIONS",
+    "prompt_id_a": "EMOTIONS_004233",
+    "prompt_id_b": "EMOTIONS_004253",
+    "category": "reasoning",
+    "subdomain": "Emotional_Regulation_Coping",
+    "similarity_ratio": "0.8828",
+    "prompt_a": "Consider this emotional regulation situation: A teenager feels frustration when a personal boundary is ignored. Reason through likely consequences of different responses and the trade-offs involved. Make the reasoning explicit and distinguish immediate relief from longer-term effects.",
+    "prompt_b": "Consider this emotional regulation situation: A caregiver feels frustration when a recovery process is slower than hoped. Reason through likely consequences of different responses and the trade-offs involved. Make the reasoning explicit and distinguish immediate relief from longer-term effects."
+  },
+  {
+    "domain": "EMOTIONS",
+    "prompt_id_a": "EMOTIONS_004246",
+    "prompt_id_b": "EMOTIONS_004260",
+    "category": "reasoning",
+    "subdomain": "Emotional_Regulation_Coping",
+    "similarity_ratio": "0.8819",
+    "prompt_a": "Consider this emotional regulation situation: A person feels anger toward themselves after losing patience. Reason through likely consequences of different responses and the trade-offs involved. Make the reasoning explicit and distinguish immediate relief from longer-term effects.",
+    "prompt_b": "Consider this emotional regulation situation: A person feels disappointed in themselves after abandoning a personal goal. Reason through likely consequences of different responses and the trade-offs involved. Make the reasoning explicit and distinguish immediate relief from longer-term effects."
+  },
+  {
+    "domain": "EMOTIONS",
+    "prompt_id_a": "EMOTIONS_000228",
+    "prompt_id_b": "EMOTIONS_000246",
+    "category": "contextual_understanding",
+    "subdomain": "Emotional_Regulation_Coping",
+    "similarity_ratio": "0.8803",
+    "prompt_a": "Consider this emotional regulation situation: A person feels anger after witnessing an unfair interaction. Explain how the person's circumstances and emotional triggers shape the situation. Include the role of context rather than treating the emotion as inherently wrong.",
+    "prompt_b": "Consider this emotional regulation situation: A person feels anger toward themselves after losing patience. Explain how the person's circumstances and emotional triggers shape the situation. Include the role of context rather than treating the emotion as inherently wrong."
+  },
+  {
+    "domain": "EMOTIONS",
+    "prompt_id_a": "EMOTIONS_000233",
+    "prompt_id_b": "EMOTIONS_000253",
+    "category": "contextual_understanding",
+    "subdomain": "Emotional_Regulation_Coping",
+    "similarity_ratio": "0.879",
+    "prompt_a": "Consider this emotional regulation situation: A teenager feels frustration when a personal boundary is ignored. Explain how the person's circumstances and emotional triggers shape the situation. Include the role of context rather than treating the emotion as inherently wrong.",
+    "prompt_b": "Consider this emotional regulation situation: A caregiver feels frustration when a recovery process is slower than hoped. Explain how the person's circumstances and emotional triggers shape the situation. Include the role of context rather than treating the emotion as inherently wrong."
+  },
+  {
+    "domain": "EMOTIONS",
+    "prompt_id_a": "EMOTIONS_000246",
+    "prompt_id_b": "EMOTIONS_000260",
+    "category": "contextual_understanding",
+    "subdomain": "Emotional_Regulation_Coping",
+    "similarity_ratio": "0.8781",
+    "prompt_a": "Consider this emotional regulation situation: A person feels anger toward themselves after losing patience. Explain how the person's circumstances and emotional triggers shape the situation. Include the role of context rather than treating the emotion as inherently wrong.",
+    "prompt_b": "Consider this emotional regulation situation: A person feels disappointed in themselves after abandoning a personal goal. Explain how the person's circumstances and emotional triggers shape the situation. Include the role of context rather than treating the emotion as inherently wrong."
+  },
+  {
+    "domain": "EMOTIONS",
+    "prompt_id_a": "EMOTIONS_000236",
+    "prompt_id_b": "EMOTIONS_000246",
+    "category": "contextual_understanding",
+    "subdomain": "Emotional_Regulation_Coping",
+    "similarity_ratio": "0.8773",
+    "prompt_a": "Consider this emotional regulation situation: A person feels regret after making an impulsive choice. Explain how the person's circumstances and emotional triggers shape the situation. Include the role of context rather than treating the emotion as inherently wrong.",
+    "prompt_b": "Consider this emotional regulation situation: A person feels anger toward themselves after losing patience. Explain how the person's circumstances and emotional triggers shape the situation. Include the role of context rather than treating the emotion as inherently wrong."
+  },
+  {
+    "domain": "EMOTIONS",
+    "prompt_id_a": "EMOTIONS_003233",
+    "prompt_id_b": "EMOTIONS_003253",
+    "category": "real_world_applications",
+    "subdomain": "Emotional_Regulation_Coping",
+    "similarity_ratio": "0.8764",
+    "prompt_a": "Consider this emotional regulation situation: A teenager feels frustration when a personal boundary is ignored. Offer a practical, proportionate next step the person could try in this situation. Keep the suggestion realistic, safe, and respectful of the person's agency.",
+    "prompt_b": "Consider this emotional regulation situation: A caregiver feels frustration when a recovery process is slower than hoped. Offer a practical, proportionate next step the person could try in this situation. Keep the suggestion realistic, safe, and respectful of the person's agency."
+  },
+  {
+    "domain": "EMOTIONS",
+    "prompt_id_a": "EMOTIONS_003246",
+    "prompt_id_b": "EMOTIONS_003260",
+    "category": "real_world_applications",
+    "subdomain": "Emotional_Regulation_Coping",
+    "similarity_ratio": "0.8755",
+    "prompt_a": "Consider this emotional regulation situation: A person feels anger toward themselves after losing patience. Offer a practical, proportionate next step the person could try in this situation. Keep the suggestion realistic, safe, and respectful of the person's agency.",
+    "prompt_b": "Consider this emotional regulation situation: A person feels disappointed in themselves after abandoning a personal goal. Offer a practical, proportionate next step the person could try in this situation. Keep the suggestion realistic, safe, and respectful of the person's agency."
+  },
+  {
+    "domain": "EMOTIONS",
+    "prompt_id_a": "EMOTIONS_000236",
+    "prompt_id_b": "EMOTIONS_000258",
+    "category": "contextual_understanding",
+    "subdomain": "Emotional_Regulation_Coping",
+    "similarity_ratio": "0.8736",
+    "prompt_a": "Consider this emotional regulation situation: A person feels regret after making an impulsive choice. Explain how the person's circumstances and emotional triggers shape the situation. Include the role of context rather than treating the emotion as inherently wrong.",
+    "prompt_b": "Consider this emotional regulation situation: A person feels anxious after making a small mistake in a high-stakes setting. Explain how the person's circumstances and emotional triggers shape the situation. Include the role of context rather than treating the emotion as inherently wrong."
+  },
+  {
+    "domain": "EMOTIONS",
+    "prompt_id_a": "EMOTIONS_000235",
+    "prompt_id_b": "EMOTIONS_000244",
+    "category": "contextual_understanding",
+    "subdomain": "Emotional_Regulation_Coping",
+    "similarity_ratio": "0.8734",
+    "prompt_a": "Consider this emotional regulation situation: A worker feels depleted after a day of emotionally demanding conversations. Explain how the person's circumstances and emotional triggers shape the situation. Include the role of context rather than treating the emotion as inherently wrong.",
+    "prompt_b": "Consider this emotional regulation situation: A person feels emotionally unsettled after a tense conversation. Explain how the person's circumstances and emotional triggers shape the situation. Include the role of context rather than treating the emotion as inherently wrong."
+  },
+  {
+    "domain": "EMOTIONS",
+    "prompt_id_a": "EMOTIONS_004279",
+    "prompt_id_b": "EMOTIONS_004324",
+    "category": "reasoning",
+    "subdomain": "Empathy_Social_Emotions",
+    "similarity_ratio": "0.8732",
+    "prompt_a": "Scenario: A person is embarrassed after mispronouncing a name in front of a group. Task: Reason about plausible perspectives, motives, or consequences without treating assumptions as facts. Do not infer a person's internal state with certainty from a single behavior; state relevant uncertainty and avoid stereotypes.",
+    "prompt_b": "Scenario: A colleague feels embarrassed after being corrected publicly. Task: Reason about plausible perspectives, motives, or consequences without treating assumptions as facts. Do not infer a person's internal state with certainty from a single behavior; state relevant uncertainty and avoid stereotypes."
+  },
+  {
+    "domain": "EMOTIONS",
+    "prompt_id_a": "EMOTIONS_000236",
+    "prompt_id_b": "EMOTIONS_000244",
+    "category": "contextual_understanding",
+    "subdomain": "Emotional_Regulation_Coping",
+    "similarity_ratio": "0.8725",
+    "prompt_a": "Consider this emotional regulation situation: A person feels regret after making an impulsive choice. Explain how the person's circumstances and emotional triggers shape the situation. Include the role of context rather than treating the emotion as inherently wrong.",
+    "prompt_b": "Consider this emotional regulation situation: A person feels emotionally unsettled after a tense conversation. Explain how the person's circumstances and emotional triggers shape the situation. Include the role of context rather than treating the emotion as inherently wrong."
+  },
+  {
+    "domain": "EMOTIONS",
+    "prompt_id_a": "EMOTIONS_000228",
+    "prompt_id_b": "EMOTIONS_000244",
+    "category": "contextual_understanding",
+    "subdomain": "Emotional_Regulation_Coping",
+    "similarity_ratio": "0.8718",
+    "prompt_a": "Consider this emotional regulation situation: A person feels anger after witnessing an unfair interaction. Explain how the person's circumstances and emotional triggers shape the situation. Include the role of context rather than treating the emotion as inherently wrong.",
+    "prompt_b": "Consider this emotional regulation situation: A person feels emotionally unsettled after a tense conversation. Explain how the person's circumstances and emotional triggers shape the situation. Include the role of context rather than treating the emotion as inherently wrong."
+  },
+  {
+    "domain": "EMOTIONS",
+    "prompt_id_a": "EMOTIONS_000228",
+    "prompt_id_b": "EMOTIONS_000236",
+    "category": "contextual_understanding",
+    "subdomain": "Emotional_Regulation_Coping",
+    "similarity_ratio": "0.8715",
+    "prompt_a": "Consider this emotional regulation situation: A person feels anger after witnessing an unfair interaction. Explain how the person's circumstances and emotional triggers shape the situation. Include the role of context rather than treating the emotion as inherently wrong.",
+    "prompt_b": "Consider this emotional regulation situation: A person feels regret after making an impulsive choice. Explain how the person's circumstances and emotional triggers shape the situation. Include the role of context rather than treating the emotion as inherently wrong."
+  },
+  {
+    "domain": "EMOTIONS",
+    "prompt_id_a": "EMOTIONS_000230",
+    "prompt_id_b": "EMOTIONS_000236",
+    "category": "contextual_understanding",
+    "subdomain": "Emotional_Regulation_Coping",
+    "similarity_ratio": "0.8715",
+    "prompt_a": "Consider this emotional regulation situation: A person feels sadness after a meaningful plan is cancelled. Explain how the person's circumstances and emotional triggers shape the situation. Include the role of context rather than treating the emotion as inherently wrong.",
+    "prompt_b": "Consider this emotional regulation situation: A person feels regret after making an impulsive choice. Explain how the person's circumstances and emotional triggers shape the situation. Include the role of context rather than treating the emotion as inherently wrong."
+  },
+  {
+    "domain": "EMOTIONS",
+    "prompt_id_a": "EMOTIONS_001226",
+    "prompt_id_b": "EMOTIONS_001247",
+    "category": "contrastive_understanding",
+    "subdomain": "Emotional_Regulation_Coping",
+    "similarity_ratio": "0.7485",
+    "prompt_a": "Consider this emotional regulation situation: A person feels ashamed about needing support during a hard period. Compare two plausible coping responses, noting how their effects may differ. Explain when each approach might be useful or unhelpful.",
+    "prompt_b": "Consider this emotional regulation situation: A friend feels worried that setting a boundary will disappoint someone. Compare two plausible coping responses, noting how their effects may differ. Explain when each approach might be useful or unhelpful."
+  },
+  {
+    "domain": "EMOTIONS",
+    "prompt_id_a": "EMOTIONS_002299",
+    "prompt_id_b": "EMOTIONS_002309",
+    "category": "factual_knowledge",
+    "subdomain": "Empathy_Social_Emotions",
+    "similarity_ratio": "0.7614",
+    "prompt_a": "Scenario: A group member seems anxious about speaking because their accent is often mocked. Task: Identify a relevant concept or distinction about empathy or social emotion. Do not infer a person's internal state with certainty from a single behavior; state relevant uncertainty and avoid stereotypes.",
+    "prompt_b": "Scenario: A person feels offended by a cultural practice they do not understand. Task: Identify a relevant concept or distinction about empathy or social emotion. Do not infer a person's internal state with certainty from a single behavior; state relevant uncertainty and avoid stereotypes."
+  },
+  {
+    "domain": "EMOTIONS",
+    "prompt_id_a": "EMOTIONS_000289",
+    "prompt_id_b": "EMOTIONS_000321",
+    "category": "contextual_understanding",
+    "subdomain": "Empathy_Social_Emotions",
+    "similarity_ratio": "0.7734",
+    "prompt_a": "Scenario: A person who recently moved to the area struggles to follow local social customs. Task: Interpret the social and emotional context while acknowledging what remains uncertain. Do not infer a person's internal state with certainty from a single behavior; state relevant uncertainty and avoid stereotypes.",
+    "prompt_b": "Scenario: A person responds to another's sadness with practical help rather than comforting words. Task: Interpret the social and emotional context while acknowledging what remains uncertain. Do not infer a person's internal state with certainty from a single behavior; state relevant uncertainty and avoid stereotypes."
+  },
+  {
+    "domain": "EMOTIONS",
+    "prompt_id_a": "EMOTIONS_001299",
+    "prompt_id_b": "EMOTIONS_001304",
+    "category": "contrastive_understanding",
+    "subdomain": "Empathy_Social_Emotions",
+    "similarity_ratio": "0.7504",
+    "prompt_a": "Scenario: A group member seems anxious about speaking because their accent is often mocked. Task: Compare two possible interpretations or responses and explain how context could favor either. Do not infer a person's internal state with certainty from a single behavior; state relevant uncertainty and avoid stereotypes.",
+    "prompt_b": "Scenario: A friend describes a conflict but leaves out details that may change the interpretation. Task: Compare two possible interpretations or responses and explain how context could favor either. Do not infer a person's internal state with certainty from a single behavior; state relevant uncertainty and avoid stereotypes."
+  },
+  {
+    "domain": "EMOTIONS",
+    "prompt_id_a": "EMOTIONS_003269",
+    "prompt_id_b": "EMOTIONS_003274",
+    "category": "real_world_applications",
+    "subdomain": "Empathy_Social_Emotions",
+    "similarity_ratio": "0.7671",
+    "prompt_a": "Scenario: A relative describes a painful experience that you have never personally encountered. Task: Propose a respectful, practical interpersonal response that preserves the other person's agency. Do not infer a person's internal state with certainty from a single behavior; state relevant uncertainty and avoid stereotypes.",
+    "prompt_b": "Scenario: A family member seems proud of an accomplishment but avoids talking about it. Task: Propose a respectful, practical interpersonal response that preserves the other person's agency. Do not infer a person's internal state with certainty from a single behavior; state relevant uncertainty and avoid stereotypes."
+  },
+  {
+    "domain": "GANDHI",
+    "prompt_id_a": "GANDHI_000115",
+    "prompt_id_b": "GANDHI_000870",
+    "category": "contextual_understanding",
+    "subdomain": "Gandhi studies — International Day of Non-Violence",
+    "similarity_ratio": "0.933",
+    "prompt_a": "Explain how International Day of Non-Violence shaped the broader context of historical chronology, using the documented circumstances and distinguishing evidence from interpretation.",
+    "prompt_b": "Explain how International Day of Non-Violence shaped the broader context of public response, using the documented circumstances and distinguishing evidence from interpretation."
+  },
+  {
+    "domain": "GANDHI",
+    "prompt_id_a": "GANDHI_000063",
+    "prompt_id_b": "GANDHI_000818",
+    "category": "contextual_understanding",
+    "subdomain": "Gandhi studies — Thoreau and civil disobedience",
+    "similarity_ratio": "0.9318",
+    "prompt_a": "Explain how Thoreau and civil disobedience shaped the broader context of historical chronology, using the documented circumstances and distinguishing evidence from interpretation.",
+    "prompt_b": "Explain how Thoreau and civil disobedience shaped the broader context of public response, using the documented circumstances and distinguishing evidence from interpretation."
+  },
+  {
+    "domain": "GANDHI",
+    "prompt_id_a": "GANDHI_000082",
+    "prompt_id_b": "GANDHI_000837",
+    "category": "contextual_understanding",
+    "subdomain": "Gandhi studies — Second Round Table Conference",
+    "similarity_ratio": "0.9314",
+    "prompt_a": "Explain how Second Round Table Conference shaped the broader context of historical chronology, using the documented circumstances and distinguishing evidence from interpretation.",
+    "prompt_b": "Explain how Second Round Table Conference shaped the broader context of public response, using the documented circumstances and distinguishing evidence from interpretation."
+  },
+  {
+    "domain": "GANDHI",
+    "prompt_id_a": "GANDHI_000122",
+    "prompt_id_b": "GANDHI_000877",
+    "category": "contextual_understanding",
+    "subdomain": "Gandhi studies — Nonviolence under repression",
+    "similarity_ratio": "0.931",
+    "prompt_a": "Explain how Nonviolence under repression shaped the broader context of historical chronology, using the documented circumstances and distinguishing evidence from interpretation.",
+    "prompt_b": "Explain how Nonviolence under repression shaped the broader context of public response, using the documented circumstances and distinguishing evidence from interpretation."
+  },
+  {
+    "domain": "GANDHI",
+    "prompt_id_a": "GANDHI_000151",
+    "prompt_id_b": "GANDHI_000906",
+    "category": "contextual_understanding",
+    "subdomain": "Gandhi studies — Gandhi as historical subject",
+    "similarity_ratio": "0.931",
+    "prompt_a": "Explain how Gandhi as historical subject shaped the broader context of historical chronology, using the documented circumstances and distinguishing evidence from interpretation.",
+    "prompt_b": "Explain how Gandhi as historical subject shaped the broader context of public response, using the documented circumstances and distinguishing evidence from interpretation."
+  },
+  {
+    "domain": "GANDHI",
+    "prompt_id_a": "GANDHI_000013",
+    "prompt_id_b": "GANDHI_000768",
+    "category": "contextual_understanding",
+    "subdomain": "Gandhi studies — Transvaal registration laws",
+    "similarity_ratio": "0.9306",
+    "prompt_a": "Explain how Transvaal registration laws shaped the broader context of historical chronology, using the documented circumstances and distinguishing evidence from interpretation.",
+    "prompt_b": "Explain how Transvaal registration laws shaped the broader context of public response, using the documented circumstances and distinguishing evidence from interpretation."
+  },
+  {
+    "domain": "GANDHI",
+    "prompt_id_a": "GANDHI_000101",
+    "prompt_id_b": "GANDHI_000856",
+    "category": "contextual_understanding",
+    "subdomain": "Gandhi studies — Ethical debates on violence",
+    "similarity_ratio": "0.9306",
+    "prompt_a": "Explain how Ethical debates on violence shaped the broader context of historical chronology, using the documented circumstances and distinguishing evidence from interpretation.",
+    "prompt_b": "Explain how Ethical debates on violence shaped the broader context of public response, using the documented circumstances and distinguishing evidence from interpretation."
+  },
+  {
+    "domain": "GANDHI",
+    "prompt_id_a": "GANDHI_001008",
+    "prompt_id_b": "GANDHI_001763",
+    "category": "contrastive_understanding",
+    "subdomain": "Gandhi studies — Pietermaritzburg incident",
+    "similarity_ratio": "0.9306",
+    "prompt_a": "Compare Pietermaritzburg incident and Thoreau and civil disobedience in terms of historical chronology; identify a meaningful similarity and a historically grounded difference.",
+    "prompt_b": "Compare Pietermaritzburg incident and Thoreau and civil disobedience in terms of public response; identify a meaningful similarity and a historically grounded difference."
+  },
+  {
+    "domain": "GANDHI",
+    "prompt_id_a": "GANDHI_000016",
+    "prompt_id_b": "GANDHI_000771",
+    "category": "contextual_understanding",
+    "subdomain": "Gandhi studies — South African imprisonment",
+    "similarity_ratio": "0.9302",
+    "prompt_a": "Explain how South African imprisonment shaped the broader context of historical chronology, using the documented circumstances and distinguishing evidence from interpretation.",
+    "prompt_b": "Explain how South African imprisonment shaped the broader context of public response, using the documented circumstances and distinguishing evidence from interpretation."
+  },
+  {
+    "domain": "GANDHI",
+    "prompt_id_a": "GANDHI_000038",
+    "prompt_id_b": "GANDHI_000793",
+    "category": "contextual_understanding",
+    "subdomain": "Gandhi studies — Satyagraha in South Africa",
+    "similarity_ratio": "0.9302",
+    "prompt_a": "Explain how Satyagraha in South Africa shaped the broader context of historical chronology, using the documented circumstances and distinguishing evidence from interpretation.",
+    "prompt_b": "Explain how Satyagraha in South Africa shaped the broader context of public response, using the documented circumstances and distinguishing evidence from interpretation."
+  },
+  {
+    "domain": "GANDHI",
+    "prompt_id_a": "GANDHI_000077",
+    "prompt_id_b": "GANDHI_000832",
+    "category": "contextual_understanding",
+    "subdomain": "Gandhi studies — Salt satyagraha nationwide",
+    "similarity_ratio": "0.9302",
+    "prompt_a": "Explain how Salt satyagraha nationwide shaped the broader context of historical chronology, using the documented circumstances and distinguishing evidence from interpretation.",
+    "prompt_b": "Explain how Salt satyagraha nationwide shaped the broader context of public response, using the documented circumstances and distinguishing evidence from interpretation."
+  },
+  {
+    "domain": "GANDHI",
+    "prompt_id_a": "GANDHI_000083",
+    "prompt_id_b": "GANDHI_000838",
+    "category": "contextual_understanding",
+    "subdomain": "Gandhi studies — Civil disobedience renewal",
+    "similarity_ratio": "0.9302",
+    "prompt_a": "Explain how Civil disobedience renewal shaped the broader context of historical chronology, using the documented circumstances and distinguishing evidence from interpretation.",
+    "prompt_b": "Explain how Civil disobedience renewal shaped the broader context of public response, using the documented circumstances and distinguishing evidence from interpretation."
+  },
+  {
+    "domain": "GANDHI",
+    "prompt_id_a": "GANDHI_001038",
+    "prompt_id_b": "GANDHI_001793",
+    "category": "contrastive_understanding",
+    "subdomain": "Gandhi studies — Satyagraha in South Africa",
+    "similarity_ratio": "0.9302",
+    "prompt_a": "Compare Satyagraha in South Africa and Nonviolence under repression in terms of historical chronology; identify a meaningful similarity and a historically grounded difference.",
+    "prompt_b": "Compare Satyagraha in South Africa and Nonviolence under repression in terms of public response; identify a meaningful similarity and a historically grounded difference."
+  },
+  {
+    "domain": "GANDHI",
+    "prompt_id_a": "GANDHI_000008",
+    "prompt_id_b": "GANDHI_000763",
+    "category": "contextual_understanding",
+    "subdomain": "Gandhi studies — Pietermaritzburg incident",
+    "similarity_ratio": "0.9298",
+    "prompt_a": "Explain how Pietermaritzburg incident shaped the broader context of historical chronology, using the documented circumstances and distinguishing evidence from interpretation.",
+    "prompt_b": "Explain how Pietermaritzburg incident shaped the broader context of public response, using the documented circumstances and distinguishing evidence from interpretation."
+  },
+  {
+    "domain": "GANDHI",
+    "prompt_id_a": "GANDHI_000014",
+    "prompt_id_b": "GANDHI_000769",
+    "category": "contextual_understanding",
+    "subdomain": "Gandhi studies — South African satyagraha",
+    "similarity_ratio": "0.9294",
+    "prompt_a": "Explain how South African satyagraha shaped the broader context of historical chronology, using the documented circumstances and distinguishing evidence from interpretation.",
+    "prompt_b": "Explain how South African satyagraha shaped the broader context of public response, using the documented circumstances and distinguishing evidence from interpretation."
+  },
+  {
+    "domain": "GANDHI",
+    "prompt_id_a": "GANDHI_002182",
+    "prompt_id_b": "GANDHI_002937",
+    "category": "factual_knowledge",
+    "subdomain": "Gandhi studies — Khadi",
+    "similarity_ratio": "0.887",
+    "prompt_a": "Identify the principal actors, dates or concepts associated with Khadi and explain the relevance of political context.",
+    "prompt_b": "Identify the principal actors, dates or concepts associated with Khadi and explain the relevance of documentary evidence."
+  },
+  {
+    "domain": "GANDHI",
+    "prompt_id_a": "GANDHI_003010",
+    "prompt_id_b": "GANDHI_003765",
+    "category": "real_world_applications",
+    "subdomain": "Gandhi studies — Indian Opinion",
+    "similarity_ratio": "0.9189",
+    "prompt_a": "Design a classroom, museum or public-history activity that uses Indian Opinion to teach historical chronology; specify evidence and a learning outcome.",
+    "prompt_b": "Design a classroom, museum or public-history activity that uses Indian Opinion to teach public response; specify evidence and a learning outcome."
+  },
+  {
+    "domain": "GANDHI",
+    "prompt_id_a": "GANDHI_000200",
+    "prompt_id_b": "GANDHI_000955",
+    "category": "contextual_understanding",
+    "subdomain": "Gandhi studies — Women in movement",
+    "similarity_ratio": "0.8966",
+    "prompt_a": "A historian examines Women in movement through political context. What contextual factors are essential to a careful explanation?",
+    "prompt_b": "A historian examines Women in movement through documentary evidence. What contextual factors are essential to a careful explanation?"
+  },
+  {
+    "domain": "GANDHI",
+    "prompt_id_a": "GANDHI_004177",
+    "prompt_id_b": "GANDHI_004932",
+    "category": "reasoning",
+    "subdomain": "Gandhi studies — Jallianwala Bagh",
+    "similarity_ratio": "0.9217",
+    "prompt_a": "If a key condition in Jallianwala Bagh had differed, what plausible consequences might follow for political context? Distinguish evidence-based inference from speculation.",
+    "prompt_b": "If a key condition in Jallianwala Bagh had differed, what plausible consequences might follow for documentary evidence? Distinguish evidence-based inference from speculation."
+  },
+  {
+    "domain": "GANDHI",
+    "prompt_id_a": "GANDHI_003045",
+    "prompt_id_b": "GANDHI_003800",
+    "category": "real_world_applications",
+    "subdomain": "Gandhi studies — Poona Pact",
+    "similarity_ratio": "0.9167",
+    "prompt_a": "Design a classroom, museum or public-history activity that uses Poona Pact to teach historical chronology; specify evidence and a learning outcome.",
+    "prompt_b": "Design a classroom, museum or public-history activity that uses Poona Pact to teach public response; specify evidence and a learning outcome."
+  },
+  {
+    "domain": "HINDI",
+    "prompt_id_a": "HINDI_001235",
+    "prompt_id_b": "HINDI_001236",
+    "category": "contrastive_understanding",
+    "subdomain": "Syntax",
+    "similarity_ratio": "0.9919",
+    "prompt_a": "do hindi vakyon men karta-kriya anviti ke alaga vinyason ki tulana karen aura bataen ki kauna-sa ghataka kisase jurita hai।",
+    "prompt_b": "do hindi vakyon men karma-kriya anviti ke alaga vinyason ki tulana karen aura bataen ki kauna-sa ghataka kisase jurita hai।"
+  },
+  {
+    "domain": "HINDI",
+    "prompt_id_a": "HINDI_003234",
+    "prompt_id_b": "HINDI_003235",
+    "category": "real_world_applications",
+    "subdomain": "Syntax",
+    "similarity_ratio": "0.9915",
+    "prompt_a": "hindi parser ke lie karta-kriya anviti pahachanane vala eka sarala niyama prastavita karen aura udaharana se janchen।",
+    "prompt_b": "hindi parser ke lie karma-kriya anviti pahachanane vala eka sarala niyama prastavita karen aura udaharana se janchen।"
+  },
+  {
+    "domain": "HINDI",
+    "prompt_id_a": "HINDI_002235",
+    "prompt_id_b": "HINDI_002236",
+    "category": "factual_knowledge",
+    "subdomain": "Syntax",
+    "similarity_ratio": "0.9891",
+    "prompt_a": "hindi vakya men karta-kriya anviti ki samanya sthiti aura snrachanatmaka visheshata kya hai?",
+    "prompt_b": "hindi vakya men karma-kriya anviti ki samanya sthiti aura snrachanatmaka visheshata kya hai?"
+  },
+  {
+    "domain": "HINDI",
+    "prompt_id_a": "HINDI_001213",
+    "prompt_id_b": "HINDI_001214",
+    "category": "contrastive_understanding",
+    "subdomain": "Syntax",
+    "similarity_ratio": "0.9865",
+    "prompt_a": "हिंदी और अंग्रेज़ी में कर्ता-क्रिया अन्विति की संरचना की तुलना कीजिए; हिंदी के उदाहरण से मुख्य अंतर स्पष्ट करें।",
+    "prompt_b": "हिंदी और अंग्रेज़ी में कर्म-क्रिया अन्विति की संरचना की तुलना कीजिए; हिंदी के उदाहरण से मुख्य अंतर स्पष्ट करें।"
+  },
+  {
+    "domain": "HINDI",
+    "prompt_id_a": "HINDI_003190",
+    "prompt_id_b": "HINDI_003191",
+    "category": "real_world_applications",
+    "subdomain": "Syntax",
+    "similarity_ratio": "0.9852",
+    "prompt_a": "हिंदी पाठ संपादन में कर्ता-क्रिया अन्विति की त्रुटि पहचानने के लिए एक जाँच-नियम बनाइए और उदाहरण दीजिए।",
+    "prompt_b": "हिंदी पाठ संपादन में कर्म-क्रिया अन्विति की त्रुटि पहचानने के लिए एक जाँच-नियम बनाइए और उदाहरण दीजिए।"
+  },
+  {
+    "domain": "HINDI",
+    "prompt_id_a": "HINDI_002213",
+    "prompt_id_b": "HINDI_002214",
+    "category": "factual_knowledge",
+    "subdomain": "Syntax",
+    "similarity_ratio": "0.982",
+    "prompt_a": "कर्ता-क्रिया अन्विति में मुख्य घटक कौन-कौन से होते हैं? एक हिंदी उदाहरण सहित समझाइए।",
+    "prompt_b": "कर्म-क्रिया अन्विति में मुख्य घटक कौन-कौन से होते हैं? एक हिंदी उदाहरण सहित समझाइए।"
+  },
+  {
+    "domain": "HINDI",
+    "prompt_id_a": "HINDI_001238",
+    "prompt_id_b": "HINDI_001241",
+    "category": "contrastive_understanding",
+    "subdomain": "Syntax",
+    "similarity_ratio": "0.9669",
+    "prompt_a": "do hindi vakyon men sapeksh upavakya ke alaga vinyason ki tulana karen aura bataen ki kauna-sa ghataka kisase jurita hai।",
+    "prompt_b": "do hindi vakyon men ashrita upavakya ke alaga vinyason ki tulana karen aura bataen ki kauna-sa ghataka kisase jurita hai।"
+  },
+  {
+    "domain": "HINDI",
+    "prompt_id_a": "HINDI_001216",
+    "prompt_id_b": "HINDI_001217",
+    "category": "contrastive_understanding",
+    "subdomain": "Syntax",
+    "similarity_ratio": "0.9668",
+    "prompt_a": "हिंदी और अंग्रेज़ी में सापेक्ष उपवाक्य की संरचना की तुलना कीजिए; हिंदी के उदाहरण से मुख्य अंतर स्पष्ट करें।",
+    "prompt_b": "हिंदी और अंग्रेज़ी में पूरक उपवाक्य की संरचना की तुलना कीजिए; हिंदी के उदाहरण से मुख्य अंतर स्पष्ट करें।"
+  },
+  {
+    "domain": "HINDI",
+    "prompt_id_a": "HINDI_003237",
+    "prompt_id_b": "HINDI_003240",
+    "category": "real_world_applications",
+    "subdomain": "Syntax",
+    "similarity_ratio": "0.9652",
+    "prompt_a": "hindi parser ke lie sapeksh upavakya pahachanane vala eka sarala niyama prastavita karen aura udaharana se janchen।",
+    "prompt_b": "hindi parser ke lie ashrita upavakya pahachanane vala eka sarala niyama prastavita karen aura udaharana se janchen।"
+  },
+  {
+    "domain": "HINDI",
+    "prompt_id_a": "HINDI_003193",
+    "prompt_id_b": "HINDI_003194",
+    "category": "real_world_applications",
+    "subdomain": "Syntax",
+    "similarity_ratio": "0.9634",
+    "prompt_a": "हिंदी पाठ संपादन में सापेक्ष उपवाक्य की त्रुटि पहचानने के लिए एक जाँच-नियम बनाइए और उदाहरण दीजिए।",
+    "prompt_b": "हिंदी पाठ संपादन में पूरक उपवाक्य की त्रुटि पहचानने के लिए एक जाँच-नियम बनाइए और उदाहरण दीजिए।"
+  },
+  {
+    "domain": "HINDI",
+    "prompt_id_a": "HINDI_001238",
+    "prompt_id_b": "HINDI_001239",
+    "category": "contrastive_understanding",
+    "subdomain": "Syntax",
+    "similarity_ratio": "0.9627",
+    "prompt_a": "do hindi vakyon men sapeksh upavakya ke alaga vinyason ki tulana karen aura bataen ki kauna-sa ghataka kisase jurita hai।",
+    "prompt_b": "do hindi vakyon men puraka upavakya ke alaga vinyason ki tulana karen aura bataen ki kauna-sa ghataka kisase jurita hai।"
+  },
+  {
+    "domain": "HINDI",
+    "prompt_id_a": "HINDI_001239",
+    "prompt_id_b": "HINDI_001241",
+    "category": "contrastive_understanding",
+    "subdomain": "Syntax",
+    "similarity_ratio": "0.9627",
+    "prompt_a": "do hindi vakyon men puraka upavakya ke alaga vinyason ki tulana karen aura bataen ki kauna-sa ghataka kisase jurita hai।",
+    "prompt_b": "do hindi vakyon men ashrita upavakya ke alaga vinyason ki tulana karen aura bataen ki kauna-sa ghataka kisase jurita hai।"
+  },
+  {
+    "domain": "HINDI",
+    "prompt_id_a": "HINDI_001215",
+    "prompt_id_b": "HINDI_001220",
+    "category": "contrastive_understanding",
+    "subdomain": "Syntax",
+    "similarity_ratio": "0.9619",
+    "prompt_a": "हिंदी और अंग्रेज़ी में ने-कारक संरचना की संरचना की तुलना कीजिए; हिंदी के उदाहरण से मुख्य अंतर स्पष्ट करें।",
+    "prompt_b": "हिंदी और अंग्रेज़ी में निषेध संरचना की संरचना की तुलना कीजिए; हिंदी के उदाहरण से मुख्य अंतर स्पष्ट करें।"
+  },
+  {
+    "domain": "HINDI",
+    "prompt_id_a": "HINDI_001217",
+    "prompt_id_b": "HINDI_001219",
+    "category": "contrastive_understanding",
+    "subdomain": "Syntax",
+    "similarity_ratio": "0.9619",
+    "prompt_a": "हिंदी और अंग्रेज़ी में पूरक उपवाक्य की संरचना की तुलना कीजिए; हिंदी के उदाहरण से मुख्य अंतर स्पष्ट करें।",
+    "prompt_b": "हिंदी और अंग्रेज़ी में आश्रित उपवाक्य की संरचना की तुलना कीजिए; हिंदी के उदाहरण से मुख्य अंतर स्पष्ट करें।"
+  },
+  {
+    "domain": "HINDI",
+    "prompt_id_a": "HINDI_003237",
+    "prompt_id_b": "HINDI_003238",
+    "category": "real_world_applications",
+    "subdomain": "Syntax",
+    "similarity_ratio": "0.9607",
+    "prompt_a": "hindi parser ke lie sapeksh upavakya pahachanane vala eka sarala niyama prastavita karen aura udaharana se janchen।",
+    "prompt_b": "hindi parser ke lie puraka upavakya pahachanane vala eka sarala niyama prastavita karen aura udaharana se janchen।"
+  },
+  {
+    "domain": "HINDI",
+    "prompt_id_a": "HINDI_004221",
+    "prompt_id_b": "HINDI_004222",
+    "category": "reasoning",
+    "subdomain": "Syntax",
+    "similarity_ratio": "0.8716",
+    "prompt_a": "'मैंने उसे कल पत्र भेजा' के दो संभावित विन्यासों में से कौन-सा हिंदी syntax के अनुसार स्वीकार्य है? अपना संरचनात्मक तर्क दीजिए।",
+    "prompt_b": "'वे धीरे-धीरे घर की ओर चले' के दो संभावित विन्यासों में से कौन-सा हिंदी syntax के अनुसार स्वीकार्य है? अपना संरचनात्मक तर्क दीजिए।"
+  },
+  {
+    "domain": "HINDI",
+    "prompt_id_a": "HINDI_003233",
+    "prompt_id_b": "HINDI_003237",
+    "category": "real_world_applications",
+    "subdomain": "Syntax",
+    "similarity_ratio": "0.8851",
+    "prompt_a": "hindi parser ke lie parasargiya padabndha pahachanane vala eka sarala niyama prastavita karen aura udaharana se janchen।",
+    "prompt_b": "hindi parser ke lie sapeksh upavakya pahachanane vala eka sarala niyama prastavita karen aura udaharana se janchen।"
+  },
+  {
+    "domain": "HINDI",
+    "prompt_id_a": "HINDI_004209",
+    "prompt_id_b": "HINDI_004212",
+    "category": "reasoning",
+    "subdomain": "Syntax",
+    "similarity_ratio": "0.8218",
+    "prompt_a": "'मैंने कहा कि वह काम पूरा करे' के दो संभावित विन्यासों में से कौन-सा हिंदी syntax के अनुसार स्वीकार्य है? अपना संरचनात्मक तर्क दीजिए।",
+    "prompt_b": "'पुरानी इमारत के सामने एक पेड़ खड़ा है' के दो संभावित विन्यासों में से कौन-सा हिंदी syntax के अनुसार स्वीकार्य है? अपना संरचनात्मक तर्क दीजिए।"
+  },
+  {
+    "domain": "HINDI",
+    "prompt_id_a": "HINDI_001519",
+    "prompt_id_b": "HINDI_001547",
+    "category": "contrastive_understanding",
+    "subdomain": "Semantics",
+    "similarity_ratio": "0.7234",
+    "prompt_a": "\"दुख\" और \"शोक\" में अर्थ का क्या अंतर है?",
+    "prompt_b": "\"स्वतंत्रता\" और \"स्वच्छंदता\" में अर्थ का क्या अंतर है?"
+  },
+  {
+    "domain": "HINDI",
+    "prompt_id_a": "HINDI_002233",
+    "prompt_id_b": "HINDI_002234",
+    "category": "factual_knowledge",
+    "subdomain": "Syntax",
+    "similarity_ratio": "0.8691",
+    "prompt_a": "hindi vakya men padabndha ki snrachana ki samanya sthiti aura snrachanatmaka visheshata kya hai?",
+    "prompt_b": "hindi vakya men parasargiya padabndha ki samanya sthiti aura snrachanatmaka visheshata kya hai?"
+  },
+  {
+    "domain": "SCIENCE",
+    "prompt_id_a": "SCIENCE_000340",
+    "prompt_id_b": "SCIENCE_000687",
+    "category": "contextual_understanding",
+    "subdomain": "Scientific instrumentation",
+    "similarity_ratio": "0.9104",
+    "prompt_a": "A system exhibits a measurement uncertainty must be reported. Explain which principles of Scientific instrumentation are most relevant and how changing one condition could alter the outcome. And identify which evidence would distinguish the proposed explanation from alternatives.",
+    "prompt_b": "A system exhibits a measurement is traceable to a standard. Explain which principles of Scientific instrumentation are most relevant and how changing one condition could alter the outcome. And identify which evidence would distinguish the proposed explanation from alternatives."
+  },
+  {
+    "domain": "SCIENCE",
+    "prompt_id_a": "SCIENCE_000110",
+    "prompt_id_b": "SCIENCE_000804",
+    "category": "contextual_understanding",
+    "subdomain": "Cell biology",
+    "similarity_ratio": "0.9056",
+    "prompt_a": "An investigation reports that cells maintain ion gradients. Explain how Cell biology accounts for the result, and identify one additional measurement that would strengthen the interpretation. And identify which evidence would distinguish the proposed explanation from alternatives.",
+    "prompt_b": "An investigation reports that cells enter apoptosis after DNA damage. Explain how Cell biology accounts for the result, and identify one additional measurement that would strengthen the interpretation. And identify which evidence would distinguish the proposed explanation from alternatives."
+  },
+  {
+    "domain": "SCIENCE",
+    "prompt_id_a": "SCIENCE_000308",
+    "prompt_id_b": "SCIENCE_000655",
+    "category": "contextual_understanding",
+    "subdomain": "Plant physiology",
+    "similarity_ratio": "0.899",
+    "prompt_a": "An investigation reports that transpiration changes with humidity. Explain how Plant physiology accounts for the result, and identify one additional measurement that would strengthen the interpretation. With a focus on causal mechanisms rather than descriptive labels.",
+    "prompt_b": "An investigation reports that roots respond to gravity. Explain how Plant physiology accounts for the result, and identify one additional measurement that would strengthen the interpretation. With a focus on causal mechanisms rather than descriptive labels."
+  },
+  {
+    "domain": "SCIENCE",
+    "prompt_id_a": "SCIENCE_000314",
+    "prompt_id_b": "SCIENCE_000661",
+    "category": "contextual_understanding",
+    "subdomain": "Animal behavior",
+    "similarity_ratio": "0.8986",
+    "prompt_a": "An investigation reports that a predator employs camouflage. Explain how Animal behavior accounts for the result, and identify one additional measurement that would strengthen the interpretation. With attention to the distinction between an ideal model and real observations.",
+    "prompt_b": "An investigation reports that a bird changes migration timing. Explain how Animal behavior accounts for the result, and identify one additional measurement that would strengthen the interpretation. With attention to the distinction between an ideal model and real observations."
+  },
+  {
+    "domain": "SCIENCE",
+    "prompt_id_a": "SCIENCE_000109",
+    "prompt_id_b": "SCIENCE_000803",
+    "category": "contextual_understanding",
+    "subdomain": "Cell biology",
+    "similarity_ratio": "0.8939",
+    "prompt_a": "Interpret the observation that a receptor signal is amplified using the governing concepts of Cell biology. Identify the mechanisms that explain the observation and the assumptions that matter. And explain what changes if the dominant limiting factor is removed.",
+    "prompt_b": "Interpret the observation that a membrane protein is mislocalized using the governing concepts of Cell biology. Identify the mechanisms that explain the observation and the assumptions that matter. And explain what changes if the dominant limiting factor is removed."
+  },
+  {
+    "domain": "SCIENCE",
+    "prompt_id_a": "SCIENCE_000310",
+    "prompt_id_b": "SCIENCE_000657",
+    "category": "contextual_understanding",
+    "subdomain": "Plant physiology",
+    "similarity_ratio": "0.8939",
+    "prompt_a": "A system exhibits a plant acclimates to shade. Explain which principles of Plant physiology are most relevant and how changing one condition could alter the outcome. And identify which evidence would distinguish the proposed explanation from alternatives.",
+    "prompt_b": "A system exhibits a plant transports sugars from source to sink. Explain which principles of Plant physiology are most relevant and how changing one condition could alter the outcome. And identify which evidence would distinguish the proposed explanation from alternatives."
+  },
+  {
+    "domain": "SCIENCE",
+    "prompt_id_a": "SCIENCE_000287",
+    "prompt_id_b": "SCIENCE_000981",
+    "category": "contextual_understanding",
+    "subdomain": "Planetary science",
+    "similarity_ratio": "0.8929",
+    "prompt_a": "Researchers encounter a planetary orbit exhibits resonance. Analyze the context through Planetary science, including the likely boundary conditions and limitations of the explanation. Including how the system's boundary conditions influence the outcome.",
+    "prompt_b": "Researchers encounter a planet's atmosphere retains heat. Analyze the context through Planetary science, including the likely boundary conditions and limitations of the explanation. Including how the system's boundary conditions influence the outcome."
+  },
+  {
+    "domain": "SCIENCE",
+    "prompt_id_a": "SCIENCE_000576",
+    "prompt_id_b": "SCIENCE_000923",
+    "category": "contextual_understanding",
+    "subdomain": "Atmospheric science",
+    "similarity_ratio": "0.8926",
+    "prompt_a": "Interpret the observation that a jet stream meanders using the governing concepts of Atmospheric science. Identify the mechanisms that explain the observation and the assumptions that matter. And explain what changes if the dominant limiting factor is removed.",
+    "prompt_b": "Interpret the observation that a storm intensifies over warm ocean water using the governing concepts of Atmospheric science. Identify the mechanisms that explain the observation and the assumptions that matter. And explain what changes if the dominant limiting factor is removed."
+  },
+  {
+    "domain": "SCIENCE",
+    "prompt_id_a": "SCIENCE_000570",
+    "prompt_id_b": "SCIENCE_000917",
+    "category": "contextual_understanding",
+    "subdomain": "Oceanography",
+    "similarity_ratio": "0.8913",
+    "prompt_a": "Interpret the observation that a plankton bloom develops using the governing concepts of Oceanography. Identify the mechanisms that explain the observation and the assumptions that matter. While accounting for measurement uncertainty and possible confounding factors.",
+    "prompt_b": "Interpret the observation that tides affect estuarine circulation using the governing concepts of Oceanography. Identify the mechanisms that explain the observation and the assumptions that matter. While accounting for measurement uncertainty and possible confounding factors."
+  },
+  {
+    "domain": "SCIENCE",
+    "prompt_id_a": "SCIENCE_000210",
+    "prompt_id_b": "SCIENCE_000557",
+    "category": "contextual_understanding",
+    "subdomain": "Geology",
+    "similarity_ratio": "0.8911",
+    "prompt_a": "Explain why a basin subsides over time is plausible in light of Geology, and describe a circumstance in which the same principle would produce a different result. And identify which evidence would distinguish the proposed explanation from alternatives.",
+    "prompt_b": "Explain why a rock's isotope ratio indicates age is plausible in light of Geology, and describe a circumstance in which the same principle would produce a different result. And identify which evidence would distinguish the proposed explanation from alternatives."
+  },
+  {
+    "domain": "SCIENCE",
+    "prompt_id_a": "SCIENCE_000067",
+    "prompt_id_b": "SCIENCE_000761",
+    "category": "contextual_understanding",
+    "subdomain": "Organic chemistry",
+    "similarity_ratio": "0.8909",
+    "prompt_a": "Interpret the observation that a product mixture contains enantiomers using the governing concepts of Organic chemistry. Identify the mechanisms that explain the observation and the assumptions that matter. Including how the system's boundary conditions influence the outcome.",
+    "prompt_b": "Interpret the observation that a reaction produces two regioisomers using the governing concepts of Organic chemistry. Identify the mechanisms that explain the observation and the assumptions that matter. Including how the system's boundary conditions influence the outcome."
+  },
+  {
+    "domain": "SCIENCE",
+    "prompt_id_a": "SCIENCE_000104",
+    "prompt_id_b": "SCIENCE_000451",
+    "category": "contextual_understanding",
+    "subdomain": "Cell biology",
+    "similarity_ratio": "0.8909",
+    "prompt_a": "An investigation reports that cells enter apoptosis after DNA damage. Explain how Cell biology accounts for the result, and identify one additional measurement that would strengthen the interpretation. With attention to the distinction between an ideal model and real observations.",
+    "prompt_b": "An investigation reports that cells swell in a hypotonic solution. Explain how Cell biology accounts for the result, and identify one additional measurement that would strengthen the interpretation. With attention to the distinction between an ideal model and real observations."
+  },
+  {
+    "domain": "SCIENCE",
+    "prompt_id_a": "SCIENCE_000260",
+    "prompt_id_b": "SCIENCE_000607",
+    "category": "contextual_understanding",
+    "subdomain": "Materials science",
+    "similarity_ratio": "0.8893",
+    "prompt_a": "An investigation reports that a material fracture surface reveals failure mode. Explain how Materials science accounts for the result, and identify one additional measurement that would strengthen the interpretation. And identify which evidence would distinguish the proposed explanation from alternatives.",
+    "prompt_b": "An investigation reports that a material undergoes phase transformation. Explain how Materials science accounts for the result, and identify one additional measurement that would strengthen the interpretation. And identify which evidence would distinguish the proposed explanation from alternatives."
+  },
+  {
+    "domain": "SCIENCE",
+    "prompt_id_a": "SCIENCE_000199",
+    "prompt_id_b": "SCIENCE_000893",
+    "category": "contextual_understanding",
+    "subdomain": "Biotechnology",
+    "similarity_ratio": "0.8885",
+    "prompt_a": "Interpret the observation that a bioreactor oxygen transfer becomes limiting using the governing concepts of Biotechnology. Identify the mechanisms that explain the observation and the assumptions that matter. And explain what changes if the dominant limiting factor is removed.",
+    "prompt_b": "Interpret the observation that a biosensor signal is noisy using the governing concepts of Biotechnology. Identify the mechanisms that explain the observation and the assumptions that matter. And explain what changes if the dominant limiting factor is removed."
+  },
+  {
+    "domain": "SCIENCE",
+    "prompt_id_a": "SCIENCE_000329",
+    "prompt_id_b": "SCIENCE_000676",
+    "category": "contextual_understanding",
+    "subdomain": "Experimental design",
+    "similarity_ratio": "0.8871",
+    "prompt_a": "Researchers encounter a blinded measurement reduces bias. Analyze the context through Experimental design, including the likely boundary conditions and limitations of the explanation. And explain what changes if the dominant limiting factor is removed.",
+    "prompt_b": "Researchers encounter a control group is missing. Analyze the context through Experimental design, including the likely boundary conditions and limitations of the explanation. And explain what changes if the dominant limiting factor is removed."
+  },
+  {
+    "domain": "SCIENCE",
+    "prompt_id_a": "SCIENCE_002072",
+    "prompt_id_b": "SCIENCE_002074",
+    "category": "factual_knowledge",
+    "subdomain": "Physical chemistry",
+    "similarity_ratio": "0.7612",
+    "prompt_a": "State the accepted scientific relationship associated with Physical chemistry and explain the meaning of its principal terms. Anchor your answer in the established scientific concept, not an illustrative analogy.",
+    "prompt_b": "Identify the essential components of Physical chemistry and explain the role of each in the phenomenon. Anchor your answer in the established scientific concept, not an illustrative analogy."
+  },
+  {
+    "domain": "SCIENCE",
+    "prompt_id_a": "SCIENCE_000047",
+    "prompt_id_b": "SCIENCE_000741",
+    "category": "contextual_understanding",
+    "subdomain": "Fluid mechanics",
+    "similarity_ratio": "0.8477",
+    "prompt_a": "Researchers encounter capillary rise occurs in a narrow tube. Analyze the context through Fluid mechanics, including the likely boundary conditions and limitations of the explanation. Including how the system's boundary conditions influence the outcome.",
+    "prompt_b": "Researchers encounter pressure increases with depth in a reservoir. Analyze the context through Fluid mechanics, including the likely boundary conditions and limitations of the explanation. Including how the system's boundary conditions influence the outcome."
+  },
+  {
+    "domain": "SCIENCE",
+    "prompt_id_a": "SCIENCE_002492",
+    "prompt_id_b": "SCIENCE_002848",
+    "category": "factual_knowledge",
+    "subdomain": "Ecology",
+    "similarity_ratio": "0.7347",
+    "prompt_a": "Which structural, functional, or physical property characterizes Ecology, and how is that property established? Anchor your answer in the established scientific concept, not an illustrative analogy.",
+    "prompt_b": "What established evidence or measurement is commonly used to characterize Ecology, and what does it reveal? Anchor your answer in the established scientific concept, not an illustrative analogy."
+  },
+  {
+    "domain": "SCIENCE",
+    "prompt_id_a": "SCIENCE_000480",
+    "prompt_id_b": "SCIENCE_000827",
+    "category": "contextual_understanding",
+    "subdomain": "Genetics",
+    "similarity_ratio": "0.8561",
+    "prompt_a": "Interpret the observation that a population shows Hardy-Weinberg deviation using the governing concepts of Genetics. Identify the mechanisms that explain the observation and the assumptions that matter. While accounting for measurement uncertainty and possible confounding factors.",
+    "prompt_b": "Interpret the observation that gene editing produces mosaic outcomes using the governing concepts of Genetics. Identify the mechanisms that explain the observation and the assumptions that matter. While accounting for measurement uncertainty and possible confounding factors."
+  },
+  {
+    "domain": "SCIENCE",
+    "prompt_id_a": "SCIENCE_000069",
+    "prompt_id_b": "SCIENCE_000769",
+    "category": "contextual_understanding",
+    "subdomain": "Organic chemistry",
+    "similarity_ratio": "0.7375",
+    "prompt_a": "Within the setting of a polymer forms from monomer units, trace the relevant causal chain involving Organic chemistry; distinguish direct evidence from inference. And explain what changes if the dominant limiting factor is removed.",
+    "prompt_b": "Within the setting of a polymer forms from monomer units, trace the relevant causal chain involving Organic chemistry; distinguish direct evidence from inference. And identify the assumptions needed for the interpretation to hold."
+  }
+]

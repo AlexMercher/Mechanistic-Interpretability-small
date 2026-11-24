@@ -1,0 +1,88 @@
+{
+  "train": {
+    "shards": [
+      {
+        "shard_id": 0,
+        "file": "train/shard_00000.safetensors",
+        "n_rows": 2005,
+        "sha256": "c3e529b68113371c151d20a6d360c9abf3258cf49aa6a4d7c85417d907e11d26",
+        "status": "complete",
+        "prompt_ids": [
+          "DNA_000177",
+          "DNA_000783",
+          "DNA_000935",
+          "DNA_001611",
+          "DNA_001623",
+          "DNA_001713",
+          "DNA_002489",
+          "DNA_002502",
+          "DNA_003188",
+          "DNA_003654",
+          "DNA_004984",
+          "EMOTIONS_000431",
+          "EMOTIONS_000799",
+          "EMOTIONS_001378",
+          "EMOTIONS_001829",
+          "EMOTIONS_002125",
+          "EMOTIONS_002662",
+          "EMOTIONS_003625",
+          "EMOTIONS_003743",
+          "EMOTIONS_004028",
+          "EMOTIONS_004165",
+          "EMOTIONS_004277",
+          "GANDHI_000835",
+          "GANDHI_000936",
+          "GANDHI_001272",
+          "GANDHI_001921",
+          "GANDHI_002294",
+          "GANDHI_002653",
+          "GANDHI_003003",
+          "GANDHI_004468",
+          "GANDHI_004969",
+          "HINDI_000297",
+          "HINDI_000909",
+          "HINDI_001599",
+          "HINDI_001737",
+          "HINDI_002219",
+          "HINDI_003153",
+          "HINDI_003395",
+          "HINDI_003572",
+          "HINDI_003884",
+          "HINDI_004916",
+          "SCIENCE_000369",
+          "SCIENCE_000399",
+          "SCIENCE_000838",
+          "SCIENCE_001351",
+          "SCIENCE_001960",
+          "SCIENCE_002024",
+          "SCIENCE_002606",
+          "SCIENCE_003022",
+          "SCIENCE_003410",
+          "SCIENCE_003648"
+        ]
+      }
+    ]
+  },
+  "validation": {
+    "shards": [
+      {
+        "shard_id": 0,
+        "file": "validation/shard_00000.safetensors",
+        "n_rows": 325,
+        "sha256": "6cdbdb35efb5e9e8da96ebe00f6a8686698999d99bb362b636133a6e143b7702",
+        "status": "complete",
+        "prompt_ids": [
+          "DNA_001953",
+          "EMOTIONS_004582",
+          "GANDHI_002476",
+          "GANDHI_003638",
+          "GANDHI_003708",
+          "HINDI_002028",
+          "HINDI_004685",
+          "SCIENCE_002305",
+          "SCIENCE_004713"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "review_method": "Opus teacher-model review of a stratified 40-concept sample (largest 4 + random 4 per domain, seed=42), reading full representative prompt text -- not relying on the auto-generated name alone. See concept_review_sample.jsonl / concept_review_results.jsonl for the full per-concept record.",
+  "sample_size": 40,
+  "counts_by_issue": {
+    "looks_good": 35,
+    "too_broad": 2,
+    "mislabeled": 2,
+    "uncertain": 1,
+    "split_recommended": 0,
+    "too_narrow_fine": 0
+  },
+  "counts_by_auto_name_supported": {"yes": 20, "partially": 19, "no": 1},
+  "findings": [
+    {
+      "finding": "Two DNA Inheritance_Genomics concepts are genuinely too broad -- each merges distinct sub-topics (population genetics + transmission/linkage in one; meiosis + genome structure + sequencing in the other).",
+      "concept_ids": ["DNA_Inheritance_Genomics_kmeans_0", "DNA_Inheritance_Genomics_kmeans_1"],
+      "recommendation": "Candidates for a future finer re-split; not actioned in this pass -- see Definition of Done note on not optimizing for a particular concept count.",
+      "status": "documented_not_actioned"
+    },
+    {
+      "finding": "Two EMOTIONS concepts have auto-generated names drawn from shared instruction-template boilerplate ('answerable/prompt/provided/supplied'; 'stereotypes/relevant/state/internal') rather than the cluster's actual emotional content. The underlying cluster membership itself IS coherent -- only the TF-IDF naming heuristic was fooled by repeated scenario-template phrasing.",
+      "concept_ids": ["EMOTIONS_Basic_Complex_Emotions_kmeans_0", "EMOTIONS_Empathy_Social_Emotions_kmeans_1"],
+      "recommendation": "Treat provisional_name as unreliable for these two; rely on representative_prompt_texts directly.",
+      "status": "documented_naming_defect_cluster_membership_unaffected"
+    },
+    {
+      "finding": "A systemic naming weakness: many EMOTIONS/HINDI auto-names are polluted by residual function words (her, she, his; में, क्या, hai, mein, aur) that survived the stopword filter because the filter is English-only and does not cover Hindi function words or English pronouns comprehensively.",
+      "recommendation": "If concept names are consumed downstream, extend name_clusters.py's STOPWORDS list (English pronouns + a Hindi function-word list) before relying on provisional_name as a user-facing label.",
+      "status": "documented_limitation"
+    },
+    {
+      "finding": "HINDI domain clustering within several subdomains (Grammar, Vocabulary, Syntax) appears to split primarily by SCRIPT/language_form (romanized vs Devanagari rendering of similar content) rather than by distinct grammatical topic -- i.e. two 'concepts' in the same subdomain may be the same underlying topic expressed in two scripts, not two different topics.",
+      "concept_ids": ["HINDI_Grammar_kmeans_0", "HINDI_Grammar_kmeans_2", "HINDI_Vocabulary_kmeans_0", "HINDI_Vocabulary_kmeans_1", "HINDI_Syntax_kmeans_0", "HINDI_Syntax_kmeans_1"],
+      "recommendation": "Cross-reference with language_script_annotations.jsonl before treating HINDI concept boundaries as topic boundaries; this is a second, independent instance of the embedding space being more sensitive to surface form (script) than to content, consistent with Objective A's findings.",
+      "status": "documented_limitation"
+    },
+    {
+      "finding": "HINDI_Pragmatics_hdbscan_-1 is HDBSCAN's noise/outlier bin (label -1), not a genuine concept -- its content is topically coherent on inspection, but membership is a residual catch-all rather than evidence of a shared concept.",
+      "concept_ids": ["HINDI_Pragmatics_hdbscan_-1"],
+      "recommendation": "Flag any HDBSCAN label==-1 concept_id as review_status=uncertain in downstream consumption; not yet done automatically.",
+      "status": "documented_limitation"
+    }
+  ],
+  "missing_coverage": "Not assessed at full-corpus scale in this review pass (only the 40-concept sample was reviewed); domain_coverage.json's concepts_below_min_size and template_dominated_concepts lists are the automated proxy for coverage gaps.",
+  "ambiguous_assignments": "Not separately tracked per-prompt in this pass; every prompt has exactly one concept assignment (confirmed by validate_taxonomy.py) and no multi-concept assignment mechanism was implemented, since the discovered clusters are a hard partition by construction (HDBSCAN noise aside, see above)."
+}

@@ -1,0 +1,12 @@
+domain,language,script,language_form,count
+DNA,English,Latin,english,4997
+DNA,uncertain,Latin,uncertain,3
+EMOTIONS,English,Latin,english,5000
+GANDHI,English,Latin,english,5000
+HINDI,Hindi,Devanagari,native_hindi,3000
+HINDI,Hindi,Latin,romanized_hindi,1009
+HINDI,Hindi,mixed,native_hindi,132
+HINDI,mixed,Latin,hinglish,529
+HINDI,mixed,mixed,mixed_multilingual,304
+HINDI,uncertain,Latin,uncertain,26
+SCIENCE,English,Latin,english,5000

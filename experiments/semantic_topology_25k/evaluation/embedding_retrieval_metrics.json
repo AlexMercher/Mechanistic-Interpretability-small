@@ -1,0 +1,1117 @@
+{
+  "n_reviewed_pairs": 180,
+  "label_counts": {
+    "related": 29,
+    "strongly_related": 16,
+    "weakly_related": 38,
+    "unrelated": 97
+  },
+  "candidate_category_x_label_counts": {
+    "same_concept_proxy": {
+      "related": 18,
+      "strongly_related": 12
+    },
+    "same_domain_diff_concept": {
+      "weakly_related": 7,
+      "unrelated": 23
+    },
+    "cross_domain_related_cand": {
+      "related": 3,
+      "unrelated": 18,
+      "weakly_related": 8,
+      "strongly_related": 1
+    },
+    "cross_domain_unrelated_cand": {
+      "unrelated": 30
+    },
+    "hindi_script_variant": {
+      "unrelated": 4,
+      "related": 5,
+      "strongly_related": 2,
+      "weakly_related": 19
+    },
+    "template_variant": {
+      "unrelated": 22,
+      "related": 3,
+      "weakly_related": 4,
+      "strongly_related": 1
+    }
+  },
+  "n_queries_with_relevant_partner": 45,
+  "precision_at_k": {
+    "1": 0.0,
+    "5": 0.08888888888888889,
+    "10": 0.08888888888888889,
+    "20": 0.1111111111111111
+  },
+  "ndcg_at_k": {
+    "1": 0.0,
+    "5": 0.034386916198625925,
+    "10": 0.034386916198625925,
+    "20": 0.03961822538455122
+  },
+  "false_neighbours_unrelated_but_high_similarity": [
+    {
+      "pair_id": "same_domain_diff_concept_SCIENCE_002279_SCIENCE_001487",
+      "prompt_id_a": "SCIENCE_002279",
+      "prompt_id_b": "SCIENCE_001487",
+      "candidate_category": "same_domain_diff_concept",
+      "reviewed_label": "unrelated",
+      "rationale": "Astrophysics components versus gene-flow-vs-antibiotic-resistance in evolutionary biology share no scientific content beyond being generic SCIENCE templates.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8507519960403442
+    },
+    {
+      "pair_id": "same_domain_diff_concept_DNA_003851_DNA_002851",
+      "prompt_id_a": "DNA_003851",
+      "prompt_id_b": "DNA_002851",
+      "candidate_category": "same_domain_diff_concept",
+      "reviewed_label": "unrelated",
+      "rationale": "Heteroplasmy/mtDNA disease and the electrostatic potential of DNA grooves are unconnected DNA concepts from different subdomains (Mutations_Repair vs Structure).",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8210464715957642
+    },
+    {
+      "pair_id": "same_domain_diff_concept_SCIENCE_002731_SCIENCE_002631",
+      "prompt_id_a": "SCIENCE_002731",
+      "prompt_id_b": "SCIENCE_002631",
+      "candidate_category": "same_domain_diff_concept",
+      "reviewed_label": "unrelated",
+      "rationale": "Generic factual templates about Thermodynamics and Planetary science share no actual scientific content.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8781070113182068
+    },
+    {
+      "pair_id": "same_domain_diff_concept_SCIENCE_004059_SCIENCE_002362",
+      "prompt_id_a": "SCIENCE_004059",
+      "prompt_id_b": "SCIENCE_002362",
+      "candidate_category": "same_domain_diff_concept",
+      "reviewed_label": "unrelated",
+      "rationale": "Standard-addition quantification in analytical chemistry and a generic Electromagnetism factual prompt have no conceptual overlap.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8230926990509033
+    },
+    {
+      "pair_id": "same_domain_diff_concept_SCIENCE_004507_SCIENCE_000301",
+      "prompt_id_a": "SCIENCE_004507",
+      "prompt_id_b": "SCIENCE_000301",
+      "candidate_category": "same_domain_diff_concept",
+      "reviewed_label": "unrelated",
+      "rationale": "Action-potential propagation in neuroscience and a plant wilting despite moist soil in plant physiology are unrelated biological mechanisms.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8652788400650024
+    },
+    {
+      "pair_id": "same_domain_diff_concept_SCIENCE_000722_SCIENCE_002577",
+      "prompt_id_a": "SCIENCE_000722",
+      "prompt_id_b": "SCIENCE_002577",
+      "candidate_category": "same_domain_diff_concept",
+      "reviewed_label": "unrelated",
+      "rationale": "Light refraction (optics) and a generic atmospheric-science property question share no real content overlap.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8292521238327026
+    },
+    {
+      "pair_id": "same_domain_diff_concept_SCIENCE_004216_SCIENCE_000010",
+      "prompt_id_a": "SCIENCE_004216",
+      "prompt_id_b": "SCIENCE_000010",
+      "candidate_category": "same_domain_diff_concept",
+      "reviewed_label": "unrelated",
+      "rationale": "Declining coastal oxygen levels (oceanography) and a beam bending under load (mechanics) are unconnected phenomena.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8432211875915527
+    },
+    {
+      "pair_id": "same_domain_diff_concept_HINDI_004084_HINDI_003622",
+      "prompt_id_a": "HINDI_004084",
+      "prompt_id_b": "HINDI_003622",
+      "candidate_category": "same_domain_diff_concept",
+      "reviewed_label": "unrelated",
+      "rationale": "One asks about voice (active-to-passive) transformation steps in grammar, the other about how a doctor should sensitively open a conversation with a patient's family; no shared content beyond the HINDI domain.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8476567268371582
+    },
+    {
+      "pair_id": "same_domain_diff_concept_DNA_001668_DNA_002188",
+      "prompt_id_a": "DNA_001668",
+      "prompt_id_b": "DNA_002188",
+      "candidate_category": "same_domain_diff_concept",
+      "reviewed_label": "unrelated",
+      "rationale": "Hydration-spine disruption by guanine's 2-amino group and SDSA's exclusive non-crossover outcome are distinct DNA structure/repair mechanisms with no real overlap.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8237237334251404
+    },
+    {
+      "pair_id": "same_domain_diff_concept_SCIENCE_003971_SCIENCE_000995",
+      "prompt_id_a": "SCIENCE_003971",
+      "prompt_id_b": "SCIENCE_000995",
+      "candidate_category": "same_domain_diff_concept",
+      "reviewed_label": "unrelated",
+      "rationale": "A star's spectrum indicating temperature (astrophysics) and pesticide runoff affecting aquatic organisms (environmental science) are unconnected phenomena.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8606567978858948
+    },
+    {
+      "pair_id": "same_domain_diff_concept_DNA_004988_DNA_001961",
+      "prompt_id_a": "DNA_004988",
+      "prompt_id_b": "DNA_001961",
+      "candidate_category": "same_domain_diff_concept",
+      "reviewed_label": "unrelated",
+      "rationale": "Fate of a stalled replication fork with a UV lesion and alternative splicing generating proteome diversity are distinct molecular processes with no direct link.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.81450355052948
+    },
+    {
+      "pair_id": "same_domain_diff_concept_DNA_004525_DNA_003343",
+      "prompt_id_a": "DNA_004525",
+      "prompt_id_b": "DNA_003343",
+      "candidate_category": "same_domain_diff_concept",
+      "reviewed_label": "unrelated",
+      "rationale": "Deletion vs three-point crossover mapping and replication slippage producing STR expansions are different genetics/repair mechanisms with no real overlap.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8128030896186829
+    },
+    {
+      "pair_id": "same_domain_diff_concept_SCIENCE_002391_SCIENCE_004169",
+      "prompt_id_a": "SCIENCE_002391",
+      "prompt_id_b": "SCIENCE_004169",
+      "candidate_category": "same_domain_diff_concept",
+      "reviewed_label": "unrelated",
+      "rationale": "A generic fluid-mechanics factual prompt and a cytokine-signaling-after-viral-infection immunology question have no conceptual overlap.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8282423615455627
+    },
+    {
+      "pair_id": "same_domain_diff_concept_HINDI_003404_HINDI_003953",
+      "prompt_id_a": "HINDI_003404",
+      "prompt_id_b": "HINDI_003953",
+      "candidate_category": "same_domain_diff_concept",
+      "reviewed_label": "unrelated",
+      "rationale": "Forming a Hindi conditional ('if I were you') and choosing morale-preserving language for critical feedback are unrelated specific tasks despite both being HINDI real-world-application prompts.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8178614377975464
+    },
+    {
+      "pair_id": "same_domain_diff_concept_SCIENCE_001997_SCIENCE_003742",
+      "prompt_id_a": "SCIENCE_001997",
+      "prompt_id_b": "SCIENCE_003742",
+      "candidate_category": "same_domain_diff_concept",
+      "reviewed_label": "unrelated",
+      "rationale": "Comparing particulate monitoring with sediment watershed management and recommending an approach for lift generation on a wing are unconnected environmental vs fluid-mechanics topics.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.840661883354187
+    },
+    {
+      "pair_id": "same_domain_diff_concept_SCIENCE_002785_SCIENCE_004160",
+      "prompt_id_a": "SCIENCE_002785",
+      "prompt_id_b": "SCIENCE_004160",
+      "candidate_category": "same_domain_diff_concept",
+      "reviewed_label": "unrelated",
+      "rationale": "A generic electrochemistry factual prompt and reasoning about an unconscious reflex (neuroscience) have no conceptual overlap.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8524141311645508
+    },
+    {
+      "pair_id": "same_domain_diff_concept_HINDI_004809_HINDI_004751",
+      "prompt_id_a": "HINDI_004809",
+      "prompt_id_b": "HINDI_004751",
+      "candidate_category": "same_domain_diff_concept",
+      "reviewed_label": "unrelated",
+      "rationale": "A counterfactual conditional sentence's truth implications and plural-ergative case marking of 'घोड़ा/घोड़े' are unrelated grammar/semantics topics.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8079818487167358
+    },
+    {
+      "pair_id": "same_domain_diff_concept_SCIENCE_001218_SCIENCE_003659",
+      "prompt_id_a": "SCIENCE_001218",
+      "prompt_id_b": "SCIENCE_003659",
+      "candidate_category": "same_domain_diff_concept",
+      "reviewed_label": "unrelated",
+      "rationale": "Marine particle sinking/upwelling contrast and an implementation concept for leaf CO2 response are unconnected oceanography vs plant-physiology topics.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8448082208633423
+    },
+    {
+      "pair_id": "same_domain_diff_concept_GANDHI_003968_GANDHI_002828",
+      "prompt_id_a": "GANDHI_003968",
+      "prompt_id_b": "GANDHI_002828",
+      "candidate_category": "same_domain_diff_concept",
+      "reviewed_label": "unrelated",
+      "rationale": "A civic lesson drawn from Ruskin influence and documented facts about Lahore Congress 1929 are unrelated specific Gandhi-studies topics.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8023280501365662
+    },
+    {
+      "pair_id": "same_domain_diff_concept_HINDI_004522_HINDI_004452",
+      "prompt_id_a": "HINDI_004522",
+      "prompt_id_b": "HINDI_004452",
+      "candidate_category": "same_domain_diff_concept",
+      "reviewed_label": "unrelated",
+      "rationale": "Inference about whether an exam attempt succeeded and classification of 'पीतांबर' as karmadharaya vs bahuvrihi compound are unrelated semantics/grammar topics.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8293483257293701
+    },
+    {
+      "pair_id": "same_domain_diff_concept_SCIENCE_003731_SCIENCE_002637",
+      "prompt_id_a": "SCIENCE_003731",
+      "prompt_id_b": "SCIENCE_002637",
+      "candidate_category": "same_domain_diff_concept",
+      "reviewed_label": "unrelated",
+      "rationale": "Applying thermodynamics to heat-engine efficiency and a generic Planetary science property prompt share no real content.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8503679037094116
+    },
+    {
+      "pair_id": "cross_domain_related_cand_SCIENCE_002856_DNA_002926",
+      "prompt_id_a": "SCIENCE_002856",
+      "prompt_id_b": "DNA_002926",
+      "candidate_category": "cross_domain_related_cand",
+      "reviewed_label": "unrelated",
+      "rationale": "The generic 'what characterizes Neuroscience' template and the aneuploidy-vs-polyploidy question share no real content; the high embedding similarity here is an artifact of shared template phrasing, not meaning.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8819234371185303
+    },
+    {
+      "pair_id": "cross_domain_related_cand_HINDI_003737_EMOTIONS_000978",
+      "prompt_id_a": "HINDI_003737",
+      "prompt_id_b": "EMOTIONS_000978",
+      "candidate_category": "cross_domain_related_cand",
+      "reviewed_label": "unrelated",
+      "rationale": "Why press releases need clear vocabulary and how sympathetic joy coexists with personal disappointment share no real conceptual connection.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8450995683670044
+    },
+    {
+      "pair_id": "cross_domain_related_cand_EMOTIONS_002654_GANDHI_004702",
+      "prompt_id_a": "EMOTIONS_002654",
+      "prompt_id_b": "GANDHI_004702",
+      "candidate_category": "cross_domain_related_cand",
+      "reviewed_label": "unrelated",
+      "rationale": "Belonging-uncertainty interventions and a generic 'best-supported conclusion about Global influence' prompt share no real content; similarity is likely driven by shared reasoning-template phrasing.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8442965745925903
+    },
+    {
+      "pair_id": "cross_domain_related_cand_GANDHI_003461_EMOTIONS_003105",
+      "prompt_id_a": "GANDHI_003461",
+      "prompt_id_b": "EMOTIONS_003105",
+      "candidate_category": "cross_domain_related_cand",
+      "reviewed_label": "unrelated",
+      "rationale": "A public exhibit about the Pietermaritzburg incident and interpreting conflicting cues from a guest at a gathering address unrelated subject matter.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8632540702819824
+    },
+    {
+      "pair_id": "cross_domain_related_cand_GANDHI_000427_EMOTIONS_000248",
+      "prompt_id_a": "GANDHI_000427",
+      "prompt_id_b": "EMOTIONS_000248",
+      "candidate_category": "cross_domain_related_cand",
+      "reviewed_label": "unrelated",
+      "rationale": "Placing Constitutional politics within ethical argument and explaining how context shapes anxiety over an uncertain choice share no real conceptual connection beyond generic template structure.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8651955723762512
+    },
+    {
+      "pair_id": "cross_domain_related_cand_SCIENCE_004403_EMOTIONS_001327",
+      "prompt_id_a": "SCIENCE_004403",
+      "prompt_id_b": "EMOTIONS_001327",
+      "candidate_category": "cross_domain_related_cand",
+      "reviewed_label": "unrelated",
+      "rationale": "Overlapping chromatographic peaks in analytical chemistry and feeling relieved at being acknowledged are unconnected; similarity is driven by matching reasoning-template language.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8624041080474854
+    },
+    {
+      "pair_id": "cross_domain_related_cand_SCIENCE_003109_EMOTIONS_003264",
+      "prompt_id_a": "SCIENCE_003109",
+      "prompt_id_b": "EMOTIONS_003264",
+      "candidate_category": "cross_domain_related_cand",
+      "reviewed_label": "unrelated",
+      "rationale": "Recommending a response to receptor signal amplification in cell biology and offering a practical next step for someone unsure a breathing exercise is helping share no real content, only template structure.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8667879700660706
+    },
+    {
+      "pair_id": "cross_domain_related_cand_SCIENCE_001748_EMOTIONS_000097",
+      "prompt_id_a": "SCIENCE_001748",
+      "prompt_id_b": "EMOTIONS_000097",
+      "candidate_category": "cross_domain_related_cand",
+      "reviewed_label": "unrelated",
+      "rationale": "Distinguishing pump pressure-head effects from pipe flow-rate drops (fluid mechanics) and interpreting a teammate's emotional reaction to a selection decision share no real content.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8795818090438843
+    },
+    {
+      "pair_id": "cross_domain_related_cand_SCIENCE_001366_DNA_002969",
+      "prompt_id_a": "SCIENCE_001366",
+      "prompt_id_b": "DNA_002969",
+      "candidate_category": "cross_domain_related_cand",
+      "reviewed_label": "unrelated",
+      "rationale": "Comparing motor torque and transmission-line losses (electromagnetism) and explaining centromeric crossover suppression (genetics) are unconnected topics.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8778626322746277
+    },
+    {
+      "pair_id": "cross_domain_related_cand_HINDI_001231_EMOTIONS_000469",
+      "prompt_id_a": "HINDI_001231",
+      "prompt_id_b": "EMOTIONS_000469",
+      "candidate_category": "cross_domain_related_cand",
+      "reviewed_label": "unrelated",
+      "rationale": "Comparing active/passive voice structure in Hindi vs English and interpreting the terse emotional tone of a teacher's note share no real conceptual connection.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8451324701309204
+    },
+    {
+      "pair_id": "cross_domain_related_cand_GANDHI_000879_EMOTIONS_000052",
+      "prompt_id_a": "GANDHI_000879",
+      "prompt_id_b": "EMOTIONS_000052",
+      "candidate_category": "cross_domain_related_cand",
+      "reviewed_label": "unrelated",
+      "rationale": "Explaining how Nationalism shaped public response and explaining what distinguishes respect from a similar reaction share no real content overlap.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8782950639724731
+    },
+    {
+      "pair_id": "cross_domain_related_cand_DNA_003289_EMOTIONS_002434",
+      "prompt_id_a": "DNA_003289",
+      "prompt_id_b": "EMOTIONS_002434",
+      "candidate_category": "cross_domain_related_cand",
+      "reviewed_label": "unrelated",
+      "rationale": "Anticodon-codon recognition and inter-annotator agreement for emotion labels are unconnected, despite both being factual-knowledge prompts.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8406034111976624
+    },
+    {
+      "pair_id": "cross_domain_related_cand_GANDHI_004428_EMOTIONS_004125",
+      "prompt_id_a": "GANDHI_004428",
+      "prompt_id_b": "EMOTIONS_004125",
+      "candidate_category": "cross_domain_related_cand",
+      "reviewed_label": "unrelated",
+      "rationale": "Assessing competing historical explanations of Rhetoric and speeches and assessing whether a speaker's reaction reflects one emotion or a mixed state share only the abstract 'evidence assessment' template structure, not real content.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8906469941139221
+    },
+    {
+      "pair_id": "cross_domain_related_cand_DNA_003268_EMOTIONS_002888",
+      "prompt_id_a": "DNA_003268",
+      "prompt_id_b": "EMOTIONS_002888",
+      "candidate_category": "cross_domain_related_cand",
+      "reviewed_label": "unrelated",
+      "rationale": "Spliceosomal transesterification reactions and emotional spillover between work and home are unconnected topics.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8287081718444824
+    },
+    {
+      "pair_id": "cross_domain_related_cand_HINDI_002235_EMOTIONS_003017",
+      "prompt_id_a": "HINDI_002235",
+      "prompt_id_b": "EMOTIONS_003017",
+      "candidate_category": "cross_domain_related_cand",
+      "reviewed_label": "unrelated",
+      "rationale": "Subject-verb agreement structure in Hindi and a neutral question to help someone clarify despair share no real content overlap.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8477305173873901
+    },
+    {
+      "pair_id": "cross_domain_related_cand_GANDHI_004973_SCIENCE_000467",
+      "prompt_id_a": "GANDHI_004973",
+      "prompt_id_b": "SCIENCE_000467",
+      "candidate_category": "cross_domain_related_cand",
+      "reviewed_label": "unrelated",
+      "rationale": "A counterfactual about Khan Abdul Ghaffar Khan and an explanation of regulatory-sequence effects on transcription share no real content, only similar reasoning-template phrasing.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.858523964881897
+    },
+    {
+      "pair_id": "cross_domain_related_cand_DNA_000503_EMOTIONS_002930",
+      "prompt_id_a": "DNA_000503",
+      "prompt_id_b": "EMOTIONS_002930",
+      "candidate_category": "cross_domain_related_cand",
+      "reviewed_label": "unrelated",
+      "rationale": "DNA polymerase delta/ligase I in mismatch repair and micro-breaks preventing emotional depletion are unconnected topics.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8551445007324219
+    },
+    {
+      "pair_id": "cross_domain_related_cand_SCIENCE_003674_EMOTIONS_004247",
+      "prompt_id_a": "SCIENCE_003674",
+      "prompt_id_b": "EMOTIONS_004247",
+      "candidate_category": "cross_domain_related_cand",
+      "reviewed_label": "unrelated",
+      "rationale": "An implementation concept for handling measurement-instrument drift and reasoning through a friend's worry about disappointing someone share no real content.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8658116459846497
+    },
+    {
+      "pair_id": "cross_domain_unrelated_cand_SCIENCE_002098_HINDI_002486",
+      "prompt_id_a": "SCIENCE_002098",
+      "prompt_id_b": "HINDI_002486",
+      "candidate_category": "cross_domain_unrelated_cand",
+      "reviewed_label": "unrelated",
+      "rationale": "A generic chemical-kinetics factual prompt and the idiom 'pahad toot padna' meaning share no content.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.807361364364624
+    },
+    {
+      "pair_id": "cross_domain_unrelated_cand_SCIENCE_004885_HINDI_000990",
+      "prompt_id_a": "SCIENCE_004885",
+      "prompt_id_b": "HINDI_000990",
+      "candidate_category": "cross_domain_unrelated_cand",
+      "reviewed_label": "unrelated",
+      "rationale": "Gas exchange during exercise (physiology) and the pragmatic meaning of a boss asking to recheck a file are unconnected.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8071509599685669
+    },
+    {
+      "pair_id": "cross_domain_unrelated_cand_SCIENCE_002427_EMOTIONS_004417",
+      "prompt_id_a": "SCIENCE_002427",
+      "prompt_id_b": "EMOTIONS_004417",
+      "candidate_category": "cross_domain_unrelated_cand",
+      "reviewed_label": "unrelated",
+      "rationale": "A generic physical-chemistry factual prompt and reconciling conflicting text-vs-emoji emotional signals share no content.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8143661022186279
+    },
+    {
+      "pair_id": "cross_domain_unrelated_cand_EMOTIONS_002455_SCIENCE_004471",
+      "prompt_id_a": "EMOTIONS_002455",
+      "prompt_id_b": "SCIENCE_004471",
+      "candidate_category": "cross_domain_unrelated_cand",
+      "reviewed_label": "unrelated",
+      "rationale": "Children's developing ability to infer emotions from situations vs label faces, and predicting recessive-trait inheritance in siblings, are unconnected.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8338040113449097
+    },
+    {
+      "pair_id": "cross_domain_unrelated_cand_EMOTIONS_000452_SCIENCE_002742",
+      "prompt_id_a": "EMOTIONS_000452",
+      "prompt_id_b": "SCIENCE_002742",
+      "candidate_category": "cross_domain_unrelated_cand",
+      "reviewed_label": "unrelated",
+      "rationale": "A footballer's emotional reaction to a referee decision and a generic fluid-mechanics factual prompt are unconnected.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8148459196090698
+    },
+    {
+      "pair_id": "cross_domain_unrelated_cand_EMOTIONS_004813_DNA_000949",
+      "prompt_id_a": "EMOTIONS_004813",
+      "prompt_id_b": "DNA_000949",
+      "candidate_category": "cross_domain_unrelated_cand",
+      "reviewed_label": "unrelated",
+      "rationale": "Conditional vs unconditional apology phrasing and single-molecule evidence of replisome polymerase exchange are unconnected.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8024072051048279
+    },
+    {
+      "pair_id": "cross_domain_unrelated_cand_DNA_001508_GANDHI_000630",
+      "prompt_id_a": "DNA_001508",
+      "prompt_id_b": "GANDHI_000630",
+      "candidate_category": "cross_domain_unrelated_cand",
+      "reviewed_label": "unrelated",
+      "rationale": "STRUCTURE/ADMIXTURE ancestry-inference assumptions and contextual analysis of Jallianwala Bagh are unconnected.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8035215139389038
+    },
+    {
+      "pair_id": "cross_domain_unrelated_cand_DNA_001839_EMOTIONS_004614",
+      "prompt_id_a": "DNA_001839",
+      "prompt_id_b": "EMOTIONS_004614",
+      "candidate_category": "cross_domain_unrelated_cand",
+      "reviewed_label": "unrelated",
+      "rationale": "POLA1-mediated RNA-primer extension and why empathic people may struggle to accept empathy themselves are unconnected.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.801640510559082
+    },
+    {
+      "pair_id": "cross_domain_unrelated_cand_SCIENCE_002385_EMOTIONS_002892",
+      "prompt_id_a": "SCIENCE_002385",
+      "prompt_id_b": "EMOTIONS_002892",
+      "candidate_category": "cross_domain_unrelated_cand",
+      "reviewed_label": "unrelated",
+      "rationale": "A generic thermodynamics factual prompt and downward regulation of anger or excitement are unconnected.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8428949117660522
+    },
+    {
+      "pair_id": "cross_domain_unrelated_cand_EMOTIONS_003323_HINDI_000060",
+      "prompt_id_a": "EMOTIONS_003323",
+      "prompt_id_b": "HINDI_000060",
+      "candidate_category": "cross_domain_unrelated_cand",
+      "reviewed_label": "unrelated",
+      "rationale": "Proposing a respectful response when a minor event matters deeply to someone, and explaining the contextual sense of 'तटस्थ' (neutral), are unconnected.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8421118855476379
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_002199_HINDI_002923",
+      "prompt_id_a": "HINDI_002199",
+      "prompt_id_b": "HINDI_002923",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "Despite both being Hindi syntax questions, a asks for the rule behind forming an interrogative structure and b asks about the placement of emphasis particles ('hi', 'bhi', 'to'); the underlying grammatical content is different, not just the script.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8190513849258423
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_003300_HINDI_003976",
+      "prompt_id_a": "HINDI_003300",
+      "prompt_id_b": "HINDI_003976",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "A roleplay exercise teaching 'yahan/vahan' spatial deixis and an email requesting leave from a senior are unrelated Hindi pragmatics tasks, differing in actual content, not just script form.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.861706554889679
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_004742_HINDI_004334",
+      "prompt_id_a": "HINDI_004742",
+      "prompt_id_b": "HINDI_004334",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "Whether calling an argument 'तर्कसंगत' vs 'भावनात्मक' bears on its validity, and how 'कुबेर' came to mean a wealthy person, are unrelated semantic topics.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8875042796134949
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_004364_HINDI_004059",
+      "prompt_id_a": "HINDI_004364",
+      "prompt_id_b": "HINDI_004059",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "The antonymic relationship between उत्थान and पतन in social/historical context, and whether 'पारदर्शी' is a better Hindi rendering of 'transparent' than 'स्पष्ट', are unrelated semantic topics.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8150994777679443
+    },
+    {
+      "pair_id": "template_variant_DNA_001594_DNA_001653",
+      "prompt_id_a": "DNA_001594",
+      "prompt_id_b": "DNA_001653",
+      "candidate_category": "template_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "Despite the shared 'How/Why does X...' DNA Structure template, deoxythymidine nomenclature and circular-plasmid strand directionality are different concepts; the slot-fill creates a real semantic difference, not just cosmetic variation.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8687435388565063
+    },
+    {
+      "pair_id": "template_variant_DNA_001586_DNA_000787",
+      "prompt_id_a": "DNA_001586",
+      "prompt_id_b": "DNA_000787",
+      "candidate_category": "template_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "Intercalation's effect on helical rise/twist and constructing a sequence's reverse complement are unrelated concepts behind the same surface template.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.841829240322113
+    },
+    {
+      "pair_id": "template_variant_DNA_001678_DNA_001653",
+      "prompt_id_a": "DNA_001678",
+      "prompt_id_b": "DNA_001653",
+      "candidate_category": "template_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "Divalent cation localization in the major groove and circular-plasmid end directionality are distinct DNA structure concepts despite similar phrasing.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8743577003479004
+    },
+    {
+      "pair_id": "template_variant_DNA_000714_DNA_001692",
+      "prompt_id_a": "DNA_000714",
+      "prompt_id_b": "DNA_001692",
+      "candidate_category": "template_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "DNA persistence length/rigidity and the CD-spectrum signature of the B-to-Z transition are unrelated specific concepts.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8409269452095032
+    },
+    {
+      "pair_id": "template_variant_DNA_001653_DNA_000787",
+      "prompt_id_a": "DNA_001653",
+      "prompt_id_b": "DNA_000787",
+      "candidate_category": "template_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "Circular-plasmid end directionality and reverse-complement construction are unrelated despite the shared template.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.841326117515564
+    },
+    {
+      "pair_id": "template_variant_DNA_000746_DNA_000757",
+      "prompt_id_a": "DNA_000746",
+      "prompt_id_b": "DNA_000757",
+      "candidate_category": "template_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "Chargaff's base-composition rules and base-analog 2-aminopurine pairing behavior are different, unrelated structure concepts.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8128231763839722
+    },
+    {
+      "pair_id": "template_variant_DNA_000053_DNA_000757",
+      "prompt_id_a": "DNA_000053",
+      "prompt_id_b": "DNA_000757",
+      "candidate_category": "template_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "The definition of parallel DNA duplexes and 2-aminopurine base-pairing behavior are unrelated specific topics.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8205294609069824
+    },
+    {
+      "pair_id": "template_variant_DNA_001665_DNA_000716",
+      "prompt_id_a": "DNA_001665",
+      "prompt_id_b": "DNA_000716",
+      "candidate_category": "template_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "Major-groove sequence-information content and helical twist change from over/underwinding are different structural properties, not interchangeable.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8571036458015442
+    },
+    {
+      "pair_id": "template_variant_DNA_000757_DNA_000787",
+      "prompt_id_a": "DNA_000757",
+      "prompt_id_b": "DNA_000787",
+      "candidate_category": "template_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "2-aminopurine base pairing and reverse-complement construction are unrelated specific concepts.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.808015763759613
+    },
+    {
+      "pair_id": "template_variant_DNA_000714_DNA_000787",
+      "prompt_id_a": "DNA_000714",
+      "prompt_id_b": "DNA_000787",
+      "candidate_category": "template_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "DNA persistence length/rigidity and reverse-complement construction are unrelated specific concepts.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8336849808692932
+    },
+    {
+      "pair_id": "template_variant_DNA_001586_DNA_001646",
+      "prompt_id_a": "DNA_001586",
+      "prompt_id_b": "DNA_001646",
+      "candidate_category": "template_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "Intercalation's effect on rise/twist and why parallel-stranded DNA cannot form standard Watson-Crick pairs are different structural phenomena, a real semantic difference behind the shared template.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8633536100387573
+    },
+    {
+      "pair_id": "template_variant_DNA_001646_DNA_001682",
+      "prompt_id_a": "DNA_001646",
+      "prompt_id_b": "DNA_001682",
+      "candidate_category": "template_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "Parallel-stranded DNA's failure to form Watson-Crick pairs and base-pairs-per-turn counts for A/B/Z-DNA are unrelated specific facts.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8332796096801758
+    },
+    {
+      "pair_id": "template_variant_DNA_001645_DNA_001686",
+      "prompt_id_a": "DNA_001645",
+      "prompt_id_b": "DNA_001686",
+      "candidate_category": "template_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "Determining a reverse complement and why A-DNA has a hollow central core are unrelated specific topics.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8568503260612488
+    },
+    {
+      "pair_id": "template_variant_DNA_001645_DNA_001586",
+      "prompt_id_a": "DNA_001645",
+      "prompt_id_b": "DNA_001586",
+      "candidate_category": "template_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "Determining a reverse complement and intercalation's effect on rise/twist are unrelated specific topics.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8547967076301575
+    },
+    {
+      "pair_id": "template_variant_DNA_001646_DNA_000787",
+      "prompt_id_a": "DNA_001646",
+      "prompt_id_b": "DNA_000787",
+      "candidate_category": "template_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "Why parallel-stranded DNA fails to Watson-Crick pair and reverse-complement construction are unrelated specific topics.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8377664089202881
+    },
+    {
+      "pair_id": "template_variant_DNA_000704_DNA_000787",
+      "prompt_id_a": "DNA_000704",
+      "prompt_id_b": "DNA_000787",
+      "candidate_category": "template_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "Roll/tilt/twist orientation of base pairs and reverse-complement construction are unrelated specific topics.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8200689554214478
+    },
+    {
+      "pair_id": "template_variant_DNA_000039_DNA_001594",
+      "prompt_id_a": "DNA_000039",
+      "prompt_id_b": "DNA_001594",
+      "candidate_category": "template_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "Backbone hydration's effect on DNA properties and why deoxythymidine is called thymidine are unrelated specific topics.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8453324437141418
+    },
+    {
+      "pair_id": "template_variant_DNA_000746_DNA_001646",
+      "prompt_id_a": "DNA_000746",
+      "prompt_id_b": "DNA_001646",
+      "candidate_category": "template_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "Chargaff's base-composition rules and why parallel-stranded DNA cannot Watson-Crick pair are unrelated specific topics.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8555129170417786
+    },
+    {
+      "pair_id": "template_variant_DNA_000700_DNA_001653",
+      "prompt_id_a": "DNA_000700",
+      "prompt_id_b": "DNA_001653",
+      "candidate_category": "template_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "B-DNA pitch/rise-per-turn relationship and circular-plasmid end directionality are unrelated specific topics.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.843926191329956
+    },
+    {
+      "pair_id": "template_variant_DNA_000714_DNA_001678",
+      "prompt_id_a": "DNA_000714",
+      "prompt_id_b": "DNA_001678",
+      "candidate_category": "template_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "DNA persistence length/rigidity and divalent-cation localization in the major groove are unrelated specific topics.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8130415678024292
+    },
+    {
+      "pair_id": "template_variant_DNA_000757_DNA_001586",
+      "prompt_id_a": "DNA_000757",
+      "prompt_id_b": "DNA_001586",
+      "candidate_category": "template_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "2-aminopurine base pairing and intercalation's effect on rise/twist are unrelated specific topics.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8329156041145325
+    },
+    {
+      "pair_id": "template_variant_DNA_001645_DNA_001682",
+      "prompt_id_a": "DNA_001645",
+      "prompt_id_b": "DNA_001682",
+      "candidate_category": "template_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "Determining a reverse complement and base-pairs-per-turn counts for A/B/Z-DNA are unrelated specific topics.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8157768845558167
+    }
+  ],
+  "hindi_script_variant_relevant_pairs": [
+    {
+      "pair_id": "hindi_script_variant_HINDI_000097_HINDI_000755",
+      "prompt_id_a": "HINDI_000097",
+      "prompt_id_b": "HINDI_000755",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "related",
+      "rationale": "Both analyze the grammatical functions of the postposition/marker 'ko' in different example sentences (passive-voice marking vs multiple distinct 'ko' uses), so despite different scripts (romanized vs hinglish) and different sentences, they share the same underlying grammatical concept.",
+      "reviewer": "opus_teacher_model_v1",
+      "rank_of_b_in_a_neighbors": 868,
+      "cosine_similarity": 0.8790203928947449
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_003955_HINDI_003301",
+      "prompt_id_a": "HINDI_003955",
+      "prompt_id_b": "HINDI_003301",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "strongly_related",
+      "rationale": "Both describe essentially the same pragmatic scenario, politely asking someone to repeat or clarify what they said because it was not understood, just rendered in native Hindi vs romanized Hindi script.",
+      "reviewer": "opus_teacher_model_v1",
+      "rank_of_b_in_a_neighbors": 4280,
+      "cosine_similarity": 0.8128050565719604
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_002245_HINDI_002930",
+      "prompt_id_a": "HINDI_002245",
+      "prompt_id_b": "HINDI_002930",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "related",
+      "rationale": "Both concern positional/structural rules for where certain phrase types sit in a Hindi sentence (numeral phrases vs wh-question words), a genuinely shared syntax-position theme despite different specific phenomena.",
+      "reviewer": "opus_teacher_model_v1",
+      "rank_of_b_in_a_neighbors": 83,
+      "cosine_similarity": 0.8491448163986206
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_002301_HINDI_002999",
+      "prompt_id_a": "HINDI_002301",
+      "prompt_id_b": "HINDI_002999",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "related",
+      "rationale": "Both concern conversational politeness markers in informal Hindi talk between friends (agreement signals vs turn-taking/interruption phrases like 'ek minute'), a genuine shared pragmatics topic.",
+      "reviewer": "opus_teacher_model_v1",
+      "rank_of_b_in_a_neighbors": 4448,
+      "cosine_similarity": 0.8154999017715454
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_003227_HINDI_003573",
+      "prompt_id_a": "HINDI_003227",
+      "prompt_id_b": "HINDI_003573",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "related",
+      "rationale": "Both concern Hindi clause structure built on correlative/conditional conjunctions ('jab...taba' parallel structure; 'agar...to' subordinate clause in a job form), a real shared syntactic theme despite different example sentences.",
+      "reviewer": "opus_teacher_model_v1",
+      "rank_of_b_in_a_neighbors": 1098,
+      "cosine_similarity": 0.8612874150276184
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_003074_HINDI_003080",
+      "prompt_id_a": "HINDI_003074",
+      "prompt_id_b": "HINDI_003080",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "related",
+      "rationale": "Both are about correcting the grammar/tense of a Hindi(-English) sentence to standard usage while preserving meaning, a shared task even though the specific sentences differ.",
+      "reviewer": "opus_teacher_model_v1",
+      "rank_of_b_in_a_neighbors": 2387,
+      "cosine_similarity": 0.8348267674446106
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_001298_HINDI_001646",
+      "prompt_id_a": "HINDI_001298",
+      "prompt_id_b": "HINDI_001646",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "strongly_related",
+      "rationale": "Both directly compare Hindi and English ways of expressing the same polite/pragmatic function (polite suggestions; responses to thanks/apology like 'No problem' vs 'कोई बात नहीं'), essentially the same cross-linguistic pragmatics task.",
+      "reviewer": "opus_teacher_model_v1",
+      "rank_of_b_in_a_neighbors": 1665,
+      "cosine_similarity": 0.8395767211914062
+    }
+  ],
+  "hindi_script_variant_other_labeled_pairs": [
+    {
+      "pair_id": "hindi_script_variant_HINDI_002199_HINDI_002923",
+      "prompt_id_a": "HINDI_002199",
+      "prompt_id_b": "HINDI_002923",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "Despite both being Hindi syntax questions, a asks for the rule behind forming an interrogative structure and b asks about the placement of emphasis particles ('hi', 'bhi', 'to'); the underlying grammatical content is different, not just the script.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8190513849258423
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_003300_HINDI_003976",
+      "prompt_id_a": "HINDI_003300",
+      "prompt_id_b": "HINDI_003976",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "A roleplay exercise teaching 'yahan/vahan' spatial deixis and an email requesting leave from a senior are unrelated Hindi pragmatics tasks, differing in actual content, not just script form.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.861706554889679
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_002376_HINDI_002719",
+      "prompt_id_a": "HINDI_002376",
+      "prompt_id_b": "HINDI_002719",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "weakly_related",
+      "rationale": "Both use the identical 'what does word X mean' template, but ask about two different, unrelated vocabulary words ('Dhairya' vs 'Bhranti'); the shared template is cosmetic, the actual lexical content differs.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8809530735015869
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_001322_HINDI_001057",
+      "prompt_id_a": "HINDI_001322",
+      "prompt_id_b": "HINDI_001057",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "weakly_related",
+      "rationale": "Both use the same near-synonym-distinction template, but compare entirely different word sets (शरीर/तन/काया vs Sanket/ishara); same template, different concept, a real slot-fill difference.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8232075572013855
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_000125_HINDI_000858",
+      "prompt_id_a": "HINDI_000125",
+      "prompt_id_b": "HINDI_000858",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "weakly_related",
+      "rationale": "Both ask for the meaning of a figurative expression in context, but the idioms themselves ('सिर से ऊपर जाना' vs 'jhonk dena') are unrelated in meaning, so only the template matches.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.7969861030578613
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_003528_HINDI_003536",
+      "prompt_id_a": "HINDI_003528",
+      "prompt_id_b": "HINDI_003536",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "weakly_related",
+      "rationale": "Both involve pragmatic/semantic interpretation of a real written notice, but one is about the scope of 'hi' in a school notice and the other about a mistranslated product label; related task type, different specific content.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8306459188461304
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_002139_HINDI_002860",
+      "prompt_id_a": "HINDI_002139",
+      "prompt_id_b": "HINDI_002860",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "weakly_related",
+      "rationale": "One asks about the general role of 'प्रसंग' (context) in meaning, the other about the specific figurative meaning of the idiom 'गड़े मुर्दे उखाड़ना'; both semantics-of-context flavored but not the same concept.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.7996863126754761
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_003817_HINDI_003489",
+      "prompt_id_a": "HINDI_003817",
+      "prompt_id_b": "HINDI_003489",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "weakly_related",
+      "rationale": "Both ask for the practical/pragmatic meaning of an instruction in a real-world text (a cooking instruction vs an HR email about a tentative joining date); same template, unrelated domains and content.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8092060089111328
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_000928_HINDI_000557",
+      "prompt_id_a": "HINDI_000928",
+      "prompt_id_b": "HINDI_000557",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "weakly_related",
+      "rationale": "Both are Hindi syntax questions about sentence structure, but one is about verb-gender agreement and the other about relative-clause structure in a mixed-script sentence; related only at the broad syntax-analysis level.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8192058205604553
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_001092_HINDI_001462",
+      "prompt_id_a": "HINDI_001092",
+      "prompt_id_b": "HINDI_001462",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "weakly_related",
+      "rationale": "Both use the same 'compare these two grammatical particles/conjunctions' template, but one compares नहीं vs मत and the other agar vs jab, unrelated grammatical items.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8440686464309692
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_001385_HINDI_001379",
+      "prompt_id_a": "HINDI_001385",
+      "prompt_id_b": "HINDI_001379",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "weakly_related",
+      "rationale": "Both ask about register/nuance differences between near-synonym pairs (Mitra/dost vs Mehnat/parishram), same template structure but unrelated vocabulary items.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.9156273603439331
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_003767_HINDI_003408",
+      "prompt_id_a": "HINDI_003767",
+      "prompt_id_b": "HINDI_003408",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "weakly_related",
+      "rationale": "Both are practical Hindi grammar-construction tasks for formal writing, but one targets passive-voice construction and the other verb tense/aspect for a translated sentence; related task type, different grammatical focus.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.805112898349762
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_003693_HINDI_003736",
+      "prompt_id_a": "HINDI_003693",
+      "prompt_id_b": "HINDI_003736",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "weakly_related",
+      "rationale": "Both are about appropriate word choice in a real-world Hindi writing task (financial-report terminology vs campaign slogans), but the specific vocabulary registers and purposes differ substantially.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8059174418449402
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_000828_HINDI_000543",
+      "prompt_id_a": "HINDI_000828",
+      "prompt_id_b": "HINDI_000543",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "weakly_related",
+      "rationale": "Both ask for the contextual meaning of a word/phrase in a sentence, but 'समय की छाप' (literary) and 'घुमाना' (customer-service runaround) are unrelated in meaning.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.7856470942497253
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_000849_HINDI_000807",
+      "prompt_id_a": "HINDI_000849",
+      "prompt_id_b": "HINDI_000807",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "weakly_related",
+      "rationale": "Both ask for the figurative meaning of a word/idiom in a sports/skill context ('कांटे की टक्कर' close contest vs 'सफाई' meaning skill not cleanliness), same template, unrelated idiomatic content.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8312271237373352
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_000235_HINDI_000926",
+      "prompt_id_a": "HINDI_000235",
+      "prompt_id_b": "HINDI_000926",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "weakly_related",
+      "rationale": "Both analyze sentence-internal structure, but one is about how a participle phrase agrees with the object and the other about identifying a noun phrase's head and modifiers; related broad syntax topic, distinct specific phenomena.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8612344264984131
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_004873_HINDI_004577",
+      "prompt_id_a": "HINDI_004873",
+      "prompt_id_b": "HINDI_004577",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "weakly_related",
+      "rationale": "Both are Hindi syntax-reasoning questions, but one is about resolving structural ambiguity in participle attachment and the other about pair-list readings of multiple wh-questions; different specific syntactic phenomena.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8336721658706665
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_003641_HINDI_003638",
+      "prompt_id_a": "HINDI_003641",
+      "prompt_id_b": "HINDI_003638",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "weakly_related",
+      "rationale": "Both are Hindi dialogue-writing tasks involving interpersonal tact, but one is a father's concerned-but-supportive conversation with his daughter and the other is designing a voice assistant's polite replies to rude commands; different scenarios and purposes.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8391704559326172
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_000849_HINDI_000126",
+      "prompt_id_a": "HINDI_000849",
+      "prompt_id_b": "HINDI_000126",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "weakly_related",
+      "rationale": "Both ask for the meaning of an idiomatic phrase in context ('कांटे की टक्कर' vs 'face save'), same template, unrelated idiomatic content.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8597326874732971
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_004380_HINDI_004375",
+      "prompt_id_a": "HINDI_004380",
+      "prompt_id_b": "HINDI_004375",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "weakly_related",
+      "rationale": "Both analyze meaning contributed by a shared morphological element across related words ('आलय' suffix vs 'आरोहण/अवरोहण' prefixes), a shared morpheme-analysis template but different specific words.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8253173232078552
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_004742_HINDI_004334",
+      "prompt_id_a": "HINDI_004742",
+      "prompt_id_b": "HINDI_004334",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "Whether calling an argument 'तर्कसंगत' vs 'भावनात्मक' bears on its validity, and how 'कुबेर' came to mean a wealthy person, are unrelated semantic topics.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8875042796134949
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_002832_HINDI_002514",
+      "prompt_id_a": "HINDI_002832",
+      "prompt_id_b": "HINDI_002514",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "weakly_related",
+      "rationale": "Both ask for the meaning of Hindi idioms, but 'ऊँट के मुँह में जीरा' (disproportion) and the आँख-based idioms are unrelated in meaning; only the template matches.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.7888296246528625
+    },
+    {
+      "pair_id": "hindi_script_variant_HINDI_004364_HINDI_004059",
+      "prompt_id_a": "HINDI_004364",
+      "prompt_id_b": "HINDI_004059",
+      "candidate_category": "hindi_script_variant",
+      "reviewed_label": "unrelated",
+      "rationale": "The antonymic relationship between उत्थान and पतन in social/historical context, and whether 'पारदर्शी' is a better Hindi rendering of 'transparent' than 'स्पष्ट', are unrelated semantic topics.",
+      "reviewer": "opus_teacher_model_v1",
+      "cosine_similarity": 0.8150994777679443
+    }
+  ],
+  "note": "precision@k/NDCG@k use a single known relevant partner per query (the reviewed pair's other prompt) ranked against the OTHER 24,999 corpus prompts by cosine similarity; this is a minimal/partial retrieval ground truth (not exhaustive relevance judgments per query), consistent with the task's instruction to use sampling/controlled review rather than exhaustive pairwise labeling."
+}

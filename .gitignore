@@ -27,3 +27,12 @@ weights/
 CLAUDE.md
 MONISHA_SCIENCE_AND_gANDHI_1000_PROMPTS(1)/
 MONISHA_SCIENCE_AND_gANDHI_1000_PROMPTS(1)/*
+
+# Large generated data artifacts -- deterministically regeneratable from the committed
+# scripts/configs/seeds; not committed to keep the repo reproducible-but-light. To be
+# hosted externally (e.g. Hugging Face Datasets / GitHub Release assets) and linked from
+# the relevant experiment's reports/run_metadata instead of being stored in git.
+# (Activation shards themselves are already covered by the *.safetensors rule above.)
+experiments/activation_extraction_qwen3_1_7b/metadata/prompt_token_metadata.jsonl
+experiments/duplicate_language_embedding/embeddings/prompt_embeddings.npy
+experiments/duplicate_language_embedding/annotations/language_script_annotations.jsonl

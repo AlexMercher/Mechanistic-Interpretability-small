@@ -1,0 +1,1533 @@
+{
+  "n_total_concepts": 595,
+  "n_unassigned_prompts": 0,
+  "unassigned_fraction": 0.0,
+  "concepts_per_domain": {
+    "DNA": 41,
+    "EMOTIONS": 22,
+    "HINDI": 12,
+    "SCIENCE": 120,
+    "GANDHI": 400
+  },
+  "concepts_per_subdomain": {
+    "DNA::Inheritance_Genomics": 2,
+    "DNA::Mutations_Repair": 10,
+    "DNA::Replication": 10,
+    "DNA::Structure": 10,
+    "DNA::Transcription_Translation": 9,
+    "EMOTIONS::Basic_Complex_Emotions": 2,
+    "EMOTIONS::Emotional_Expression_Communication": 3,
+    "EMOTIONS::Emotional_Recognition_Interpretation": 4,
+    "EMOTIONS::Emotional_Regulation_Coping": 10,
+    "EMOTIONS::Empathy_Social_Emotions": 3,
+    "HINDI::Grammar": 3,
+    "HINDI::Pragmatics": 3,
+    "HINDI::Semantics": 2,
+    "HINDI::Syntax": 2,
+    "HINDI::Vocabulary": 2,
+    "SCIENCE::Analytical chemistry": 4,
+    "SCIENCE::Animal behavior": 3,
+    "SCIENCE::Astrophysics": 4,
+    "SCIENCE::Atmospheric science": 3,
+    "SCIENCE::Biochemistry": 3,
+    "SCIENCE::Biotechnology": 3,
+    "SCIENCE::Cell biology": 4,
+    "SCIENCE::Chemical kinetics": 4,
+    "SCIENCE::Climate science": 4,
+    "SCIENCE::Ecology": 3,
+    "SCIENCE::Electrochemistry": 4,
+    "SCIENCE::Electromagnetism": 3,
+    "SCIENCE::Environmental science": 3,
+    "SCIENCE::Evolutionary biology": 3,
+    "SCIENCE::Experimental design": 3,
+    "SCIENCE::Fluid mechanics": 4,
+    "SCIENCE::Genetics": 3,
+    "SCIENCE::Geology": 4,
+    "SCIENCE::Hydrology": 3,
+    "SCIENCE::Immunology": 3,
+    "SCIENCE::Materials science": 4,
+    "SCIENCE::Mechanics": 3,
+    "SCIENCE::Microbiology": 4,
+    "SCIENCE::Molecular biology": 4,
+    "SCIENCE::Nanotechnology": 4,
+    "SCIENCE::Neuroscience": 3,
+    "SCIENCE::Oceanography": 3,
+    "SCIENCE::Optics": 4,
+    "SCIENCE::Organic chemistry": 4,
+    "SCIENCE::Physical chemistry": 3,
+    "SCIENCE::Physiology": 3,
+    "SCIENCE::Planetary science": 3,
+    "SCIENCE::Plant physiology": 3,
+    "SCIENCE::Scientific instrumentation": 3,
+    "SCIENCE::Thermodynamics": 4,
+    "GANDHI::Gandhi studies — 1919 hartal": 2,
+    "GANDHI::Gandhi studies — 1922 trial": 2,
+    "GANDHI::Gandhi studies — 1930 arrests": 3,
+    "GANDHI::Gandhi studies — 1943 fast": 2,
+    "GANDHI::Gandhi studies — Accountability": 3,
+    "GANDHI::Gandhi studies — Aga Khan Palace": 2,
+    "GANDHI::Gandhi studies — Agriculture": 3,
+    "GANDHI::Gandhi studies — Ahimsa": 3,
+    "GANDHI::Gandhi studies — Ahmedabad mill dispute": 2,
+    "GANDHI::Gandhi studies — Archival interpretation": 3,
+    "GANDHI::Gandhi studies — Ashram rules": 3,
+    "GANDHI::Gandhi studies — Assassination": 2,
+    "GANDHI::Gandhi studies — Autobiography": 2,
+    "GANDHI::Gandhi studies — Bhagavad Gita": 3,
+    "GANDHI::Gandhi studies — Bihar violence": 3,
+    "GANDHI::Gandhi studies — Brahmacharya": 3,
+    "GANDHI::Gandhi studies — Calcutta peace efforts": 3,
+    "GANDHI::Gandhi studies — Caste debates": 3,
+    "GANDHI::Gandhi studies — Champaran": 3,
+    "GANDHI::Gandhi studies — Charkha": 2,
+    "GANDHI::Gandhi studies — Chauri Chaura": 2,
+    "GANDHI::Gandhi studies — Chronology 1869–1948": 3,
+    "GANDHI::Gandhi studies — Civil disobedience": 3,
+    "GANDHI::Gandhi studies — Civil disobedience renewal": 3,
+    "GANDHI::Gandhi studies — Colonial legal context": 3,
+    "GANDHI::Gandhi studies — Colonial resistance": 2,
+    "GANDHI::Gandhi studies — Communal unity": 3,
+    "GANDHI::Gandhi studies — Community experiments": 3,
+    "GANDHI::Gandhi studies — Congress": 2,
+    "GANDHI::Gandhi studies — Constitutional politics": 3,
+    "GANDHI::Gandhi studies — Constructive programme": 2,
+    "GANDHI::Gandhi studies — Constructive work": 3,
+    "GANDHI::Gandhi studies — Correspondence": 3,
+    "GANDHI::Gandhi studies — Cripps Mission": 3,
+    "GANDHI::Gandhi studies — Criticism of Gandhi": 3,
+    "GANDHI::Gandhi studies — Dadabhai Naoroji": 2,
+    "GANDHI::Gandhi studies — Dandi": 3,
+    "GANDHI::Gandhi studies — Delhi fast 1948": 3,
+    "GANDHI::Gandhi studies — Early legal practice": 2,
+    "GANDHI::Gandhi studies — Economic thought": 3,
+    "GANDHI::Gandhi studies — Education philosophy": 3,
+    "GANDHI::Gandhi studies — England and legal study": 2,
+    "GANDHI::Gandhi studies — Environmental relevance": 2,
+    "GANDHI::Gandhi studies — Ethical debates on violence": 3,
+    "GANDHI::Gandhi studies — Fasting": 3,
+    "GANDHI::Gandhi studies — Foreign cloth boycott": 3,
+    "GANDHI::Gandhi studies — Gandhi Jayanti": 3,
+    "GANDHI::Gandhi studies — Gandhi as historical subject": 3,
+    "GANDHI::Gandhi studies — Gandhi-Irwin Pact": 3,
+    "GANDHI::Gandhi studies — Global influence": 3,
+    "GANDHI::Gandhi studies — Gokhale": 3,
+    "GANDHI::Gandhi studies — Harijan publications": 2,
+    "GANDHI::Gandhi studies — Health writings": 3,
+    "GANDHI::Gandhi studies — Himalayan miscalculation": 2,
+    "GANDHI::Gandhi studies — Hind Swaraj": 2,
+    "GANDHI::Gandhi studies — Hindu-Muslim relations": 3,
+    "GANDHI::Gandhi studies — Historiography": 3,
+    "GANDHI::Gandhi studies — Imprisonment chronology": 3,
+    "GANDHI::Gandhi studies — Indian Opinion": 2,
+    "GANDHI::Gandhi studies — Indian Relief Act": 3,
+    "GANDHI::Gandhi studies — Individual satyagraha": 3,
+    "GANDHI::Gandhi studies — International Day of Non-Violence": 3,
+    "GANDHI::Gandhi studies — International encounters": 3,
+    "GANDHI::Gandhi studies — Jallianwala Bagh": 3,
+    "GANDHI::Gandhi studies — Kasturba Gandhi": 2,
+    "GANDHI::Gandhi studies — Kasturba detention": 2,
+    "GANDHI::Gandhi studies — Khadi": 2,
+    "GANDHI::Gandhi studies — Khan Abdul Ghaffar Khan": 3,
+    "GANDHI::Gandhi studies — Kheda": 2,
+    "GANDHI::Gandhi studies — Khilafat alliance": 2,
+    "GANDHI::Gandhi studies — Kochrab Ashram": 2,
+    "GANDHI::Gandhi studies — Labor": 3,
+    "GANDHI::Gandhi studies — Lahore Congress 1929": 3,
+    "GANDHI::Gandhi studies — Legacy": 3,
+    "GANDHI::Gandhi studies — Legacy abroad": 2,
+    "GANDHI::Gandhi studies — Legacy in India": 3,
+    "GANDHI::Gandhi studies — London 1931": 2,
+    "GANDHI::Gandhi studies — London vegetarianism": 2,
+    "GANDHI::Gandhi studies — Mahadev Desai": 2,
+    "GANDHI::Gandhi studies — Mandela and Gandhi": 3,
+    "GANDHI::Gandhi studies — Martin Luther King Jr.": 3,
+    "GANDHI::Gandhi studies — Mass participation": 3,
+    "GANDHI::Gandhi studies — Means and ends": 3,
+    "GANDHI::Gandhi studies — Media strategy": 3,
+    "GANDHI::Gandhi studies — Memoir source criticism": 3,
+    "GANDHI::Gandhi studies — Methods of protest": 3,
+    "GANDHI::Gandhi studies — Movement discipline": 3,
+    "GANDHI::Gandhi studies — Natal Indian Congress": 3,
+    "GANDHI::Gandhi studies — Nationalism": 3,
+    "GANDHI::Gandhi studies — Nature cure": 3,
+    "GANDHI::Gandhi studies — Negotiation strategy": 3,
+    "GANDHI::Gandhi studies — Nehru": 3,
+    "GANDHI::Gandhi studies — Noakhali": 3,
+    "GANDHI::Gandhi studies — Non-cooperation": 3,
+    "GANDHI::Gandhi studies — Nonviolence under repression": 2,
+    "GANDHI::Gandhi studies — Organizational networks": 3,
+    "GANDHI::Gandhi studies — Partition": 3,
+    "GANDHI::Gandhi studies — Patel": 2,
+    "GANDHI::Gandhi studies — Peacebuilding": 3,
+    "GANDHI::Gandhi studies — Personal experiments": 3,
+    "GANDHI::Gandhi studies — Phoenix Settlement": 3,
+    "GANDHI::Gandhi studies — Pietermaritzburg incident": 2,
+    "GANDHI::Gandhi studies — Political outcomes": 2,
+    "GANDHI::Gandhi studies — Political pragmatism": 3,
+    "GANDHI::Gandhi studies — Poona Pact": 3,
+    "GANDHI::Gandhi studies — Porbandar and childhood": 2,
+    "GANDHI::Gandhi studies — Practical nonviolence": 3,
+    "GANDHI::Gandhi studies — Press and newspapers": 3,
+    "GANDHI::Gandhi studies — Public rituals": 2,
+    "GANDHI::Gandhi studies — Public symbolism": 2,
+    "GANDHI::Gandhi studies — Quit India": 3,
+    "GANDHI::Gandhi studies — Rajkot schooling": 3,
+    "GANDHI::Gandhi studies — Religious influences": 2,
+    "GANDHI::Gandhi studies — Religious pluralism": 3,
+    "GANDHI::Gandhi studies — Return to India 1915": 2,
+    "GANDHI::Gandhi studies — Rhetoric and speeches": 3,
+    "GANDHI::Gandhi studies — Round Table Conference": 3,
+    "GANDHI::Gandhi studies — Rowlatt Act": 2,
+    "GANDHI::Gandhi studies — Rural development": 3,
+    "GANDHI::Gandhi studies — Ruskin influence": 2,
+    "GANDHI::Gandhi studies — Sabarmati Ashram": 3,
+    "GANDHI::Gandhi studies — Salt March": 2,
+    "GANDHI::Gandhi studies — Salt law": 2,
+    "GANDHI::Gandhi studies — Salt satyagraha nationwide": 3,
+    "GANDHI::Gandhi studies — Sanitation": 3,
+    "GANDHI::Gandhi studies — Sarojini Naidu": 2,
+    "GANDHI::Gandhi studies — Satyagraha in South Africa": 2,
+    "GANDHI::Gandhi studies — Second Round Table Conference": 3,
+    "GANDHI::Gandhi studies — Self-presentation": 3,
+    "GANDHI::Gandhi studies — Simple living": 3,
+    "GANDHI::Gandhi studies — Smuts negotiations": 3,
+    "GANDHI::Gandhi studies — South Africa arrival": 2,
+    "GANDHI::Gandhi studies — South Africa vs India": 3,
+    "GANDHI::Gandhi studies — South African imprisonment": 3,
+    "GANDHI::Gandhi studies — South African satyagraha": 2,
+    "GANDHI::Gandhi studies — Strategic choices": 3,
+    "GANDHI::Gandhi studies — Subhas Chandra Bose": 2,
+    "GANDHI::Gandhi studies — Swadeshi": 3,
+    "GANDHI::Gandhi studies — Swaraj": 3,
+    "GANDHI::Gandhi studies — Tagore": 3,
+    "GANDHI::Gandhi studies — Technology and modernity": 3,
+    "GANDHI::Gandhi studies — Textiles": 3,
+    "GANDHI::Gandhi studies — Thoreau and civil disobedience": 2,
+    "GANDHI::Gandhi studies — Tolstoy Farm": 2,
+    "GANDHI::Gandhi studies — Tolstoy influence": 2,
+    "GANDHI::Gandhi studies — Transvaal registration laws": 3,
+    "GANDHI::Gandhi studies — Truth": 3,
+    "GANDHI::Gandhi studies — Untouchability": 2,
+    "GANDHI::Gandhi studies — Village industries": 2,
+    "GANDHI::Gandhi studies — Wardha scheme": 3,
+    "GANDHI::Gandhi studies — Women in movement": 3
+  },
+  "smallest_concepts": [
+    [
+      "SCIENCE_Astrophysics_hdbscan_-1",
+      1
+    ],
+    [
+      "SCIENCE_Cell_biology_hdbscan_-1",
+      1
+    ],
+    [
+      "SCIENCE_Materials_science_hdbscan_-1",
+      1
+    ],
+    [
+      "SCIENCE_Microbiology_hdbscan_-1",
+      1
+    ],
+    [
+      "SCIENCE_Molecular_biology_hdbscan_-1",
+      1
+    ],
+    [
+      "SCIENCE_Nanotechnology_hdbscan_-1",
+      1
+    ],
+    [
+      "SCIENCE_Chemical_kinetics_hdbscan_-1",
+      2
+    ],
+    [
+      "SCIENCE_Climate_science_hdbscan_-1",
+      2
+    ],
+    [
+      "SCIENCE_Fluid_mechanics_hdbscan_-1",
+      2
+    ],
+    [
+      "SCIENCE_Geology_hdbscan_-1",
+      2
+    ]
+  ],
+  "largest_concepts": [
+    [
+      "EMOTIONS_Empathy_Social_Emotions_kmeans_2",
+      462
+    ],
+    [
+      "HINDI_Syntax_kmeans_1",
+      474
+    ],
+    [
+      "EMOTIONS_Emotional_Expression_Communication_kmeans_2",
+      476
+    ],
+    [
+      "DNA_Inheritance_Genomics_kmeans_1",
+      494
+    ],
+    [
+      "DNA_Inheritance_Genomics_kmeans_0",
+      506
+    ],
+    [
+      "HINDI_Syntax_kmeans_0",
+      526
+    ],
+    [
+      "EMOTIONS_Basic_Complex_Emotions_kmeans_1",
+      547
+    ],
+    [
+      "HINDI_Pragmatics_hdbscan_-1",
+      596
+    ],
+    [
+      "HINDI_Semantics_kmeans_0",
+      658
+    ],
+    [
+      "HINDI_Vocabulary_kmeans_1",
+      663
+    ]
+  ],
+  "concepts_below_min_size": {
+    "min_concept_size": 20,
+    "count": 410,
+    "cluster_ids": [
+      "DNA_Replication_kmeans_0",
+      "SCIENCE_Analytical_chemistry_hdbscan_-1",
+      "SCIENCE_Analytical_chemistry_hdbscan_1",
+      "SCIENCE_Analytical_chemistry_hdbscan_2",
+      "SCIENCE_Animal_behavior_hdbscan_-1",
+      "SCIENCE_Astrophysics_hdbscan_-1",
+      "SCIENCE_Astrophysics_hdbscan_1",
+      "SCIENCE_Astrophysics_hdbscan_2",
+      "SCIENCE_Atmospheric_science_hdbscan_1",
+      "SCIENCE_Atmospheric_science_hdbscan_2",
+      "SCIENCE_Biochemistry_hdbscan_-1",
+      "SCIENCE_Biotechnology_hdbscan_1",
+      "SCIENCE_Biotechnology_hdbscan_2",
+      "SCIENCE_Cell_biology_hdbscan_-1",
+      "SCIENCE_Cell_biology_hdbscan_1",
+      "SCIENCE_Cell_biology_hdbscan_2",
+      "SCIENCE_Chemical_kinetics_hdbscan_-1",
+      "SCIENCE_Chemical_kinetics_hdbscan_1",
+      "SCIENCE_Chemical_kinetics_hdbscan_2",
+      "SCIENCE_Climate_science_hdbscan_-1",
+      "SCIENCE_Climate_science_hdbscan_1",
+      "SCIENCE_Climate_science_hdbscan_2",
+      "SCIENCE_Ecology_hdbscan_1",
+      "SCIENCE_Ecology_hdbscan_2",
+      "SCIENCE_Electrochemistry_hdbscan_-1",
+      "SCIENCE_Electrochemistry_hdbscan_1",
+      "SCIENCE_Electrochemistry_hdbscan_2",
+      "SCIENCE_Electromagnetism_hdbscan_1",
+      "SCIENCE_Electromagnetism_hdbscan_2",
+      "SCIENCE_Environmental_science_hdbscan_1",
+      "SCIENCE_Environmental_science_hdbscan_2",
+      "SCIENCE_Evolutionary_biology_hdbscan_1",
+      "SCIENCE_Evolutionary_biology_hdbscan_2",
+      "SCIENCE_Experimental_design_hdbscan_-1",
+      "SCIENCE_Fluid_mechanics_hdbscan_-1",
+      "SCIENCE_Fluid_mechanics_hdbscan_1",
+      "SCIENCE_Fluid_mechanics_hdbscan_2",
+      "SCIENCE_Genetics_hdbscan_1",
+      "SCIENCE_Genetics_hdbscan_2",
+      "SCIENCE_Geology_hdbscan_-1",
+      "SCIENCE_Geology_hdbscan_1",
+      "SCIENCE_Geology_hdbscan_2",
+      "SCIENCE_Hydrology_hdbscan_1",
+      "SCIENCE_Hydrology_hdbscan_2",
+      "SCIENCE_Immunology_hdbscan_1",
+      "SCIENCE_Immunology_hdbscan_2",
+      "SCIENCE_Materials_science_hdbscan_-1",
+      "SCIENCE_Materials_science_hdbscan_1",
+      "SCIENCE_Materials_science_hdbscan_2",
+      "SCIENCE_Mechanics_hdbscan_1",
+      "SCIENCE_Mechanics_hdbscan_2",
+      "SCIENCE_Microbiology_hdbscan_-1",
+      "SCIENCE_Microbiology_hdbscan_1",
+      "SCIENCE_Microbiology_hdbscan_2",
+      "SCIENCE_Molecular_biology_hdbscan_-1",
+      "SCIENCE_Molecular_biology_hdbscan_1",
+      "SCIENCE_Molecular_biology_hdbscan_2",
+      "SCIENCE_Nanotechnology_hdbscan_-1",
+      "SCIENCE_Nanotechnology_hdbscan_1",
+      "SCIENCE_Nanotechnology_hdbscan_2",
+      "SCIENCE_Neuroscience_hdbscan_1",
+      "SCIENCE_Neuroscience_hdbscan_2",
+      "SCIENCE_Oceanography_hdbscan_1",
+      "SCIENCE_Oceanography_hdbscan_2",
+      "SCIENCE_Optics_hdbscan_-1",
+      "SCIENCE_Optics_hdbscan_1",
+      "SCIENCE_Optics_hdbscan_2",
+      "SCIENCE_Organic_chemistry_hdbscan_-1",
+      "SCIENCE_Organic_chemistry_hdbscan_1",
+      "SCIENCE_Organic_chemistry_hdbscan_2",
+      "SCIENCE_Physical_chemistry_hdbscan_1",
+      "SCIENCE_Physical_chemistry_hdbscan_2",
+      "SCIENCE_Physiology_hdbscan_1",
+      "SCIENCE_Physiology_hdbscan_2",
+      "SCIENCE_Planetary_science_hdbscan_1",
+      "SCIENCE_Planetary_science_hdbscan_2",
+      "SCIENCE_Plant_physiology_hdbscan_-1",
+      "SCIENCE_Scientific_instrumentation_hdbscan_-1",
+      "SCIENCE_Thermodynamics_hdbscan_-1",
+      "SCIENCE_Thermodynamics_hdbscan_1",
+      "SCIENCE_Thermodynamics_hdbscan_2",
+      "GANDHI_Gandhi_studies_—_1919_hartal_kmeans_1",
+      "GANDHI_Gandhi_studies_—_1922_trial_kmeans_1",
+      "GANDHI_Gandhi_studies_—_1930_arrests_kmeans_1",
+      "GANDHI_Gandhi_studies_—_1930_arrests_kmeans_2",
+      "GANDHI_Gandhi_studies_—_1943_fast_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Accountability_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Accountability_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Accountability_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Aga_Khan_Palace_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Agriculture_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Agriculture_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Agriculture_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Ahimsa_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Ahimsa_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Ahimsa_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Ahmedabad_mill_dispute_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Ahmedabad_mill_dispute_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Archival_interpretation_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Archival_interpretation_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Archival_interpretation_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Ashram_rules_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Ashram_rules_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Ashram_rules_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Assassination_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Autobiography_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Bhagavad_Gita_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Bhagavad_Gita_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Bhagavad_Gita_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Bihar_violence_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Bihar_violence_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Bihar_violence_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Brahmacharya_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Brahmacharya_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Brahmacharya_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Calcutta_peace_efforts_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Calcutta_peace_efforts_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Caste_debates_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Caste_debates_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Caste_debates_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Champaran_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Champaran_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Champaran_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Charkha_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Chauri_Chaura_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Chronology_1869–1948_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Chronology_1869–1948_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Chronology_1869–1948_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Civil_disobedience_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Civil_disobedience_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Civil_disobedience_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Civil_disobedience_renewal_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Civil_disobedience_renewal_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Civil_disobedience_renewal_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Colonial_legal_context_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Colonial_legal_context_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Colonial_legal_context_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Colonial_resistance_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Communal_unity_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Communal_unity_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Community_experiments_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Community_experiments_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Community_experiments_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Congress_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Constitutional_politics_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Constitutional_politics_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Constitutional_politics_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Constructive_programme_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Constructive_programme_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Constructive_work_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Constructive_work_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Constructive_work_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Correspondence_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Correspondence_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Correspondence_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Cripps_Mission_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Cripps_Mission_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Criticism_of_Gandhi_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Criticism_of_Gandhi_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Criticism_of_Gandhi_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Dadabhai_Naoroji_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Dandi_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Dandi_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Dandi_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Delhi_fast_1948_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Delhi_fast_1948_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Delhi_fast_1948_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Early_legal_practice_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Early_legal_practice_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Economic_thought_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Economic_thought_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Economic_thought_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Education_philosophy_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Education_philosophy_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Education_philosophy_kmeans_2",
+      "GANDHI_Gandhi_studies_—_England_and_legal_study_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Environmental_relevance_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Ethical_debates_on_violence_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Ethical_debates_on_violence_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Ethical_debates_on_violence_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Fasting_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Fasting_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Foreign_cloth_boycott_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Foreign_cloth_boycott_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Foreign_cloth_boycott_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Gandhi_Jayanti_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Gandhi_Jayanti_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Gandhi_Jayanti_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Gandhi_as_historical_subject_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Gandhi_as_historical_subject_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Gandhi_as_historical_subject_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Gandhi-Irwin_Pact_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Gandhi-Irwin_Pact_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Gandhi-Irwin_Pact_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Global_influence_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Global_influence_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Global_influence_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Gokhale_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Gokhale_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Gokhale_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Harijan_publications_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Health_writings_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Health_writings_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Himalayan_miscalculation_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Hind_Swaraj_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Hindu-Muslim_relations_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Hindu-Muslim_relations_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Historiography_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Historiography_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Historiography_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Imprisonment_chronology_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Imprisonment_chronology_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Imprisonment_chronology_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Indian_Opinion_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Indian_Relief_Act_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Indian_Relief_Act_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Individual_satyagraha_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Individual_satyagraha_kmeans_2",
+      "GANDHI_Gandhi_studies_—_International_Day_of_Non-Violence_kmeans_0",
+      "GANDHI_Gandhi_studies_—_International_Day_of_Non-Violence_kmeans_1",
+      "GANDHI_Gandhi_studies_—_International_Day_of_Non-Violence_kmeans_2",
+      "GANDHI_Gandhi_studies_—_International_encounters_kmeans_0",
+      "GANDHI_Gandhi_studies_—_International_encounters_kmeans_1",
+      "GANDHI_Gandhi_studies_—_International_encounters_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Jallianwala_Bagh_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Jallianwala_Bagh_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Jallianwala_Bagh_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Kasturba_Gandhi_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Kasturba_detention_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Kasturba_detention_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Khadi_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Khan_Abdul_Ghaffar_Khan_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Khan_Abdul_Ghaffar_Khan_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Khan_Abdul_Ghaffar_Khan_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Kheda_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Khilafat_alliance_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Kochrab_Ashram_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Labor_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Labor_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Labor_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Lahore_Congress_1929_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Lahore_Congress_1929_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Legacy_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Legacy_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Legacy_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Legacy_abroad_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Legacy_in_India_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Legacy_in_India_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Legacy_in_India_kmeans_2",
+      "GANDHI_Gandhi_studies_—_London_1931_kmeans_1",
+      "GANDHI_Gandhi_studies_—_London_vegetarianism_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Mahadev_Desai_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Mandela_and_Gandhi_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Mandela_and_Gandhi_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Mandela_and_Gandhi_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Martin_Luther_King_Jr._kmeans_0",
+      "GANDHI_Gandhi_studies_—_Martin_Luther_King_Jr._kmeans_1",
+      "GANDHI_Gandhi_studies_—_Martin_Luther_King_Jr._kmeans_2",
+      "GANDHI_Gandhi_studies_—_Mass_participation_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Mass_participation_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Mass_participation_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Means_and_ends_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Means_and_ends_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Means_and_ends_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Media_strategy_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Media_strategy_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Media_strategy_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Memoir_source_criticism_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Memoir_source_criticism_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Memoir_source_criticism_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Methods_of_protest_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Methods_of_protest_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Methods_of_protest_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Movement_discipline_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Movement_discipline_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Movement_discipline_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Natal_Indian_Congress_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Natal_Indian_Congress_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Natal_Indian_Congress_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Nationalism_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Nationalism_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Nationalism_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Nature_cure_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Nature_cure_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Negotiation_strategy_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Negotiation_strategy_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Negotiation_strategy_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Nehru_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Nehru_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Noakhali_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Noakhali_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Noakhali_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Non-cooperation_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Non-cooperation_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Non-cooperation_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Nonviolence_under_repression_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Nonviolence_under_repression_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Organizational_networks_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Organizational_networks_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Organizational_networks_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Partition_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Partition_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Patel_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Peacebuilding_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Peacebuilding_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Peacebuilding_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Personal_experiments_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Personal_experiments_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Personal_experiments_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Phoenix_Settlement_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Phoenix_Settlement_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Pietermaritzburg_incident_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Political_outcomes_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Political_pragmatism_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Political_pragmatism_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Political_pragmatism_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Poona_Pact_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Poona_Pact_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Porbandar_and_childhood_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Practical_nonviolence_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Practical_nonviolence_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Practical_nonviolence_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Press_and_newspapers_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Press_and_newspapers_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Press_and_newspapers_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Public_rituals_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Public_symbolism_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Quit_India_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Quit_India_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Quit_India_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Rajkot_schooling_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Rajkot_schooling_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Religious_influences_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Religious_pluralism_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Religious_pluralism_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Religious_pluralism_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Return_to_India_1915_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Rhetoric_and_speeches_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Rhetoric_and_speeches_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Rhetoric_and_speeches_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Round_Table_Conference_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Round_Table_Conference_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Rowlatt_Act_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Rural_development_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Rural_development_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Ruskin_influence_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Sabarmati_Ashram_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Sabarmati_Ashram_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Sabarmati_Ashram_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Salt_March_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Salt_law_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Salt_law_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Salt_satyagraha_nationwide_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Salt_satyagraha_nationwide_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Sanitation_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Sanitation_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Sarojini_Naidu_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Satyagraha_in_South_Africa_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Second_Round_Table_Conference_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Second_Round_Table_Conference_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Self-presentation_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Self-presentation_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Self-presentation_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Simple_living_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Simple_living_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Simple_living_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Smuts_negotiations_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Smuts_negotiations_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Smuts_negotiations_kmeans_2",
+      "GANDHI_Gandhi_studies_—_South_Africa_arrival_kmeans_1",
+      "GANDHI_Gandhi_studies_—_South_Africa_vs_India_kmeans_0",
+      "GANDHI_Gandhi_studies_—_South_Africa_vs_India_kmeans_1",
+      "GANDHI_Gandhi_studies_—_South_Africa_vs_India_kmeans_2",
+      "GANDHI_Gandhi_studies_—_South_African_imprisonment_kmeans_0",
+      "GANDHI_Gandhi_studies_—_South_African_imprisonment_kmeans_1",
+      "GANDHI_Gandhi_studies_—_South_African_imprisonment_kmeans_2",
+      "GANDHI_Gandhi_studies_—_South_African_satyagraha_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Strategic_choices_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Strategic_choices_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Strategic_choices_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Subhas_Chandra_Bose_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Swadeshi_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Swadeshi_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Swadeshi_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Swaraj_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Swaraj_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Swaraj_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Tagore_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Tagore_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Technology_and_modernity_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Technology_and_modernity_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Technology_and_modernity_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Textiles_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Textiles_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Textiles_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Thoreau_and_civil_disobedience_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Thoreau_and_civil_disobedience_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Tolstoy_Farm_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Tolstoy_influence_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Transvaal_registration_laws_kmeans_0",
+      "GANDHI_Gandhi_studies_—_Transvaal_registration_laws_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Transvaal_registration_laws_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Truth_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Truth_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Untouchability_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Village_industries_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Wardha_scheme_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Wardha_scheme_kmeans_2",
+      "GANDHI_Gandhi_studies_—_Women_in_movement_kmeans_1",
+      "GANDHI_Gandhi_studies_—_Women_in_movement_kmeans_2"
+    ]
+  },
+  "template_dominated_concepts": [
+    {
+      "cluster_id": "SCIENCE_Analytical_chemistry_hdbscan_1",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Analytical_chemistry_hdbscan_2",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Animal_behavior_hdbscan_1",
+      "raw_record_count": 20,
+      "unique_prompt_count": 5,
+      "unique_ratio": 0.25
+    },
+    {
+      "cluster_id": "SCIENCE_Astrophysics_hdbscan_1",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Astrophysics_hdbscan_2",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Atmospheric_science_hdbscan_1",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Atmospheric_science_hdbscan_2",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Biochemistry_hdbscan_1",
+      "raw_record_count": 20,
+      "unique_prompt_count": 5,
+      "unique_ratio": 0.25
+    },
+    {
+      "cluster_id": "SCIENCE_Biotechnology_hdbscan_1",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Biotechnology_hdbscan_2",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Cell_biology_hdbscan_1",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Cell_biology_hdbscan_2",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Chemical_kinetics_hdbscan_1",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Chemical_kinetics_hdbscan_2",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Climate_science_hdbscan_1",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Climate_science_hdbscan_2",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Ecology_hdbscan_1",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Ecology_hdbscan_2",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Electrochemistry_hdbscan_1",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Electrochemistry_hdbscan_2",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Electromagnetism_hdbscan_1",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Electromagnetism_hdbscan_2",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Environmental_science_hdbscan_1",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Environmental_science_hdbscan_2",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Evolutionary_biology_hdbscan_1",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Evolutionary_biology_hdbscan_2",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Experimental_design_hdbscan_1",
+      "raw_record_count": 20,
+      "unique_prompt_count": 5,
+      "unique_ratio": 0.25
+    },
+    {
+      "cluster_id": "SCIENCE_Fluid_mechanics_hdbscan_1",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Fluid_mechanics_hdbscan_2",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Genetics_hdbscan_1",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Genetics_hdbscan_2",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Geology_hdbscan_1",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Geology_hdbscan_2",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Hydrology_hdbscan_1",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Hydrology_hdbscan_2",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Immunology_hdbscan_1",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Immunology_hdbscan_2",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Materials_science_hdbscan_1",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Materials_science_hdbscan_2",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Mechanics_hdbscan_1",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Mechanics_hdbscan_2",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Microbiology_hdbscan_1",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Microbiology_hdbscan_2",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Molecular_biology_hdbscan_1",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Molecular_biology_hdbscan_2",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Nanotechnology_hdbscan_1",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Nanotechnology_hdbscan_2",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Neuroscience_hdbscan_1",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Neuroscience_hdbscan_2",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Oceanography_hdbscan_1",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Oceanography_hdbscan_2",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Optics_hdbscan_1",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Optics_hdbscan_2",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Organic_chemistry_hdbscan_1",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Organic_chemistry_hdbscan_2",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Physical_chemistry_hdbscan_1",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Physical_chemistry_hdbscan_2",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Physiology_hdbscan_1",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Physiology_hdbscan_2",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Planetary_science_hdbscan_1",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Planetary_science_hdbscan_2",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Plant_physiology_hdbscan_1",
+      "raw_record_count": 20,
+      "unique_prompt_count": 5,
+      "unique_ratio": 0.25
+    },
+    {
+      "cluster_id": "SCIENCE_Scientific_instrumentation_hdbscan_1",
+      "raw_record_count": 20,
+      "unique_prompt_count": 5,
+      "unique_ratio": 0.25
+    },
+    {
+      "cluster_id": "SCIENCE_Thermodynamics_hdbscan_1",
+      "raw_record_count": 18,
+      "unique_prompt_count": 3,
+      "unique_ratio": 0.167
+    },
+    {
+      "cluster_id": "SCIENCE_Thermodynamics_hdbscan_2",
+      "raw_record_count": 12,
+      "unique_prompt_count": 2,
+      "unique_ratio": 0.167
+    }
+  ],
+  "cross_domain_relationship_counts_by_type": {
+    "no_relationship": 104,
+    "same_concept": 1,
+    "closely_related": 9,
+    "narrower_than": 2,
+    "thematically_related": 34
+  },
+  "relationships_per_concept_top10": [
+    [
+      "HINDI_Grammar_kmeans_1",
+      29
+    ],
+    [
+      "EMOTIONS_Basic_Complex_Emotions_kmeans_0",
+      25
+    ],
+    [
+      "DNA_Inheritance_Genomics_kmeans_0",
+      20
+    ],
+    [
+      "DNA_Transcription_Translation_kmeans_4",
+      18
+    ],
+    [
+      "HINDI_Pragmatics_hdbscan_-1",
+      18
+    ],
+    [
+      "DNA_Inheritance_Genomics_kmeans_1",
+      11
+    ],
+    [
+      "EMOTIONS_Emotional_Regulation_Coping_kmeans_9",
+      7
+    ],
+    [
+      "DNA_Replication_kmeans_4",
+      7
+    ],
+    [
+      "GANDHI_Gandhi_studies_—_Environmental_relevance_kmeans_0",
+      7
+    ],
+    [
+      "EMOTIONS_Emotional_Regulation_Coping_kmeans_0",
+      6
+    ]
+  ],
+  "over_under_represented_concepts": {
+    "DNA_Inheritance_Genomics_kmeans_0": {
+      "z_score": 4.11,
+      "raw_record_count": 506,
+      "domain_mean": 122.0
+    },
+    "DNA_Inheritance_Genomics_kmeans_1": {
+      "z_score": 3.98,
+      "raw_record_count": 494,
+      "domain_mean": 122.0
+    },
+    "EMOTIONS_Basic_Complex_Emotions_kmeans_1": {
+      "z_score": 2.05,
+      "raw_record_count": 547,
+      "domain_mean": 227.3
+    },
+    "EMOTIONS_Emotional_Expression_Communication_kmeans_2": {
+      "z_score": 1.6,
+      "raw_record_count": 476,
+      "domain_mean": 227.3
+    },
+    "EMOTIONS_Empathy_Social_Emotions_kmeans_2": {
+      "z_score": 1.51,
+      "raw_record_count": 462,
+      "domain_mean": 227.3
+    },
+    "HINDI_Semantics_kmeans_0": {
+      "z_score": 1.53,
+      "raw_record_count": 658,
+      "domain_mean": 416.7
+    },
+    "HINDI_Vocabulary_kmeans_1": {
+      "z_score": 1.56,
+      "raw_record_count": 663,
+      "domain_mean": 416.7
+    },
+    "SCIENCE_Analytical_chemistry_hdbscan_0": {
+      "z_score": 1.56,
+      "raw_record_count": 114,
+      "domain_mean": 41.7
+    },
+    "SCIENCE_Astrophysics_hdbscan_0": {
+      "z_score": 1.67,
+      "raw_record_count": 119,
+      "domain_mean": 41.7
+    },
+    "SCIENCE_Atmospheric_science_hdbscan_0": {
+      "z_score": 1.69,
+      "raw_record_count": 120,
+      "domain_mean": 41.7
+    },
+    "SCIENCE_Biotechnology_hdbscan_0": {
+      "z_score": 1.69,
+      "raw_record_count": 120,
+      "domain_mean": 41.7
+    },
+    "SCIENCE_Cell_biology_hdbscan_0": {
+      "z_score": 1.67,
+      "raw_record_count": 119,
+      "domain_mean": 41.7
+    },
+    "SCIENCE_Chemical_kinetics_hdbscan_0": {
+      "z_score": 1.65,
+      "raw_record_count": 118,
+      "domain_mean": 41.7
+    },
+    "SCIENCE_Climate_science_hdbscan_0": {
+      "z_score": 1.65,
+      "raw_record_count": 118,
+      "domain_mean": 41.7
+    },
+    "SCIENCE_Ecology_hdbscan_0": {
+      "z_score": 1.69,
+      "raw_record_count": 120,
+      "domain_mean": 41.7
+    },
+    "SCIENCE_Electromagnetism_hdbscan_0": {
+      "z_score": 1.69,
+      "raw_record_count": 120,
+      "domain_mean": 41.7
+    },
+    "SCIENCE_Environmental_science_hdbscan_0": {
+      "z_score": 1.69,
+      "raw_record_count": 120,
+      "domain_mean": 41.7
+    },
+    "SCIENCE_Evolutionary_biology_hdbscan_0": {
+      "z_score": 1.69,
+      "raw_record_count": 120,
+      "domain_mean": 41.7
+    },
+    "SCIENCE_Fluid_mechanics_hdbscan_0": {
+      "z_score": 1.65,
+      "raw_record_count": 118,
+      "domain_mean": 41.7
+    },
+    "SCIENCE_Genetics_hdbscan_0": {
+      "z_score": 1.69,
+      "raw_record_count": 120,
+      "domain_mean": 41.7
+    },
+    "SCIENCE_Geology_hdbscan_0": {
+      "z_score": 1.65,
+      "raw_record_count": 118,
+      "domain_mean": 41.7
+    },
+    "SCIENCE_Hydrology_hdbscan_0": {
+      "z_score": 1.69,
+      "raw_record_count": 120,
+      "domain_mean": 41.7
+    },
+    "SCIENCE_Immunology_hdbscan_0": {
+      "z_score": 1.69,
+      "raw_record_count": 120,
+      "domain_mean": 41.7
+    },
+    "SCIENCE_Materials_science_hdbscan_0": {
+      "z_score": 1.67,
+      "raw_record_count": 119,
+      "domain_mean": 41.7
+    },
+    "SCIENCE_Mechanics_hdbscan_0": {
+      "z_score": 1.69,
+      "raw_record_count": 120,
+      "domain_mean": 41.7
+    },
+    "SCIENCE_Microbiology_hdbscan_0": {
+      "z_score": 1.67,
+      "raw_record_count": 119,
+      "domain_mean": 41.7
+    },
+    "SCIENCE_Molecular_biology_hdbscan_0": {
+      "z_score": 1.67,
+      "raw_record_count": 119,
+      "domain_mean": 41.7
+    },
+    "SCIENCE_Nanotechnology_hdbscan_0": {
+      "z_score": 1.67,
+      "raw_record_count": 119,
+      "domain_mean": 41.7
+    },
+    "SCIENCE_Neuroscience_hdbscan_0": {
+      "z_score": 1.69,
+      "raw_record_count": 120,
+      "domain_mean": 41.7
+    },
+    "SCIENCE_Oceanography_hdbscan_0": {
+      "z_score": 1.69,
+      "raw_record_count": 120,
+      "domain_mean": 41.7
+    },
+    "SCIENCE_Optics_hdbscan_0": {
+      "z_score": 1.63,
+      "raw_record_count": 117,
+      "domain_mean": 41.7
+    },
+    "SCIENCE_Organic_chemistry_hdbscan_0": {
+      "z_score": 1.65,
+      "raw_record_count": 118,
+      "domain_mean": 41.7
+    },
+    "SCIENCE_Physical_chemistry_hdbscan_0": {
+      "z_score": 1.69,
+      "raw_record_count": 120,
+      "domain_mean": 41.7
+    },
+    "SCIENCE_Physiology_hdbscan_0": {
+      "z_score": 1.69,
+      "raw_record_count": 120,
+      "domain_mean": 41.7
+    },
+    "SCIENCE_Planetary_science_hdbscan_0": {
+      "z_score": 1.69,
+      "raw_record_count": 120,
+      "domain_mean": 41.7
+    },
+    "SCIENCE_Thermodynamics_hdbscan_0": {
+      "z_score": 1.59,
+      "raw_record_count": 115,
+      "domain_mean": 41.7
+    },
+    "GANDHI_Gandhi_studies_—_1919_hartal_kmeans_0": {
+      "z_score": 2.07,
+      "raw_record_count": 27,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_1922_trial_kmeans_0": {
+      "z_score": 1.64,
+      "raw_record_count": 24,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_1943_fast_kmeans_0": {
+      "z_score": 2.21,
+      "raw_record_count": 28,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Aga_Khan_Palace_kmeans_1": {
+      "z_score": 2.21,
+      "raw_record_count": 28,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Assassination_kmeans_0": {
+      "z_score": 1.64,
+      "raw_record_count": 24,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Charkha_kmeans_0": {
+      "z_score": 2.21,
+      "raw_record_count": 28,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Chauri_Chaura_kmeans_0": {
+      "z_score": 2.21,
+      "raw_record_count": 28,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Colonial_resistance_kmeans_0": {
+      "z_score": 1.64,
+      "raw_record_count": 24,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Congress_kmeans_0": {
+      "z_score": 1.78,
+      "raw_record_count": 25,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Dadabhai_Naoroji_kmeans_0": {
+      "z_score": 2.07,
+      "raw_record_count": 27,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_England_and_legal_study_kmeans_0": {
+      "z_score": 1.92,
+      "raw_record_count": 26,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Harijan_publications_kmeans_1": {
+      "z_score": 2.21,
+      "raw_record_count": 28,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Himalayan_miscalculation_kmeans_0": {
+      "z_score": 2.21,
+      "raw_record_count": 28,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Hind_Swaraj_kmeans_0": {
+      "z_score": 2.21,
+      "raw_record_count": 28,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Indian_Opinion_kmeans_0": {
+      "z_score": 2.21,
+      "raw_record_count": 28,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Kasturba_Gandhi_kmeans_0": {
+      "z_score": 2.21,
+      "raw_record_count": 28,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Khadi_kmeans_1": {
+      "z_score": 2.21,
+      "raw_record_count": 28,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Kheda_kmeans_1": {
+      "z_score": 2.21,
+      "raw_record_count": 28,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Khilafat_alliance_kmeans_1": {
+      "z_score": 2.21,
+      "raw_record_count": 28,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Kochrab_Ashram_kmeans_0": {
+      "z_score": 1.92,
+      "raw_record_count": 26,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Legacy_abroad_kmeans_1": {
+      "z_score": 1.64,
+      "raw_record_count": 24,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_London_1931_kmeans_0": {
+      "z_score": 2.07,
+      "raw_record_count": 27,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_London_vegetarianism_kmeans_0": {
+      "z_score": 2.21,
+      "raw_record_count": 28,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Mahadev_Desai_kmeans_0": {
+      "z_score": 2.21,
+      "raw_record_count": 28,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Patel_kmeans_0": {
+      "z_score": 2.21,
+      "raw_record_count": 28,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Pietermaritzburg_incident_kmeans_1": {
+      "z_score": 2.21,
+      "raw_record_count": 28,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Political_outcomes_kmeans_0": {
+      "z_score": 1.64,
+      "raw_record_count": 24,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Public_rituals_kmeans_1": {
+      "z_score": 1.92,
+      "raw_record_count": 26,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Return_to_India_1915_kmeans_0": {
+      "z_score": 2.07,
+      "raw_record_count": 27,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Rowlatt_Act_kmeans_0": {
+      "z_score": 1.92,
+      "raw_record_count": 26,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Ruskin_influence_kmeans_0": {
+      "z_score": 2.21,
+      "raw_record_count": 28,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Salt_March_kmeans_0": {
+      "z_score": 2.21,
+      "raw_record_count": 28,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Satyagraha_in_South_Africa_kmeans_0": {
+      "z_score": 2.21,
+      "raw_record_count": 28,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_South_Africa_arrival_kmeans_0": {
+      "z_score": 2.07,
+      "raw_record_count": 27,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_South_African_satyagraha_kmeans_0": {
+      "z_score": 2.21,
+      "raw_record_count": 28,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Subhas_Chandra_Bose_kmeans_0": {
+      "z_score": 2.21,
+      "raw_record_count": 28,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Tolstoy_Farm_kmeans_0": {
+      "z_score": 2.21,
+      "raw_record_count": 28,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Tolstoy_influence_kmeans_0": {
+      "z_score": 2.07,
+      "raw_record_count": 27,
+      "domain_mean": 12.5
+    },
+    "GANDHI_Gandhi_studies_—_Village_industries_kmeans_0": {
+      "z_score": 2.07,
+      "raw_record_count": 27,
+      "domain_mean": 12.5
+    }
+  }
+}

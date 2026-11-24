@@ -1,0 +1,47 @@
+{
+  "total_records": 25000,
+  "language_totals": {
+    "English": 19997,
+    "uncertain": 29,
+    "Hindi": 4141,
+    "mixed": 833
+  },
+  "script_totals": {
+    "Latin": 21564,
+    "Devanagari": 3000,
+    "mixed": 436
+  },
+  "language_form_totals": {
+    "english": 19997,
+    "uncertain": 29,
+    "native_hindi": 3132,
+    "romanized_hindi": 1009,
+    "mixed_multilingual": 304,
+    "hinglish": 529
+  },
+  "requires_manual_review_count": 508,
+  "requires_manual_review_fraction": 0.0203,
+  "language_by_domain": {
+    "DNA": {
+      "English": 4997,
+      "uncertain": 3
+    },
+    "EMOTIONS": {
+      "English": 5000
+    },
+    "GANDHI": {
+      "English": 5000
+    },
+    "HINDI": {
+      "Hindi": 4141,
+      "mixed": 833,
+      "uncertain": 26
+    },
+    "SCIENCE": {
+      "English": 5000
+    }
+  },
+  "classification_method": "deterministic_unicode_script_plus_lexical_markers_v1",
+  "ml_language_id_model_used": false,
+  "ml_language_id_model_rationale": "deterministic Unicode-script + closed-class lexical-marker rules were judged sufficient for this templated, limited-vocabulary corpus; see scripts/lang_script_utils.py module docstring and FINAL_REPORT.md for full rationale and documented limitations (romanized_hindi vs hinglish boundary is approximate)."
+}

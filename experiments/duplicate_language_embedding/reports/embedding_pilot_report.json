@@ -1,0 +1,667 @@
+{
+  "pilot_size": 20,
+  "pilot_ids": [
+    "DNA_000294",
+    "DNA_004529",
+    "DNA_004534",
+    "DNA_004978",
+    "EMOTIONS_000961",
+    "EMOTIONS_001348",
+    "GANDHI_001483",
+    "GANDHI_003988",
+    "HINDI_000297",
+    "HINDI_002008",
+    "HINDI_002015",
+    "HINDI_002035",
+    "HINDI_003134",
+    "HINDI_003308",
+    "HINDI_003477",
+    "HINDI_003552",
+    "HINDI_004147",
+    "HINDI_004297",
+    "SCIENCE_001371",
+    "SCIENCE_002003"
+  ],
+  "model_name": "intfloat/multilingual-e5-small",
+  "model_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "embedding_dimension": 384,
+  "query_prefix": "query: ",
+  "dimension_check_passed": true,
+  "finite_check_passed": true,
+  "normalization_check_passed": true,
+  "language_form_counts": {
+    "native_hindi": 2,
+    "romanized_hindi": 2,
+    "hinglish": 2,
+    "english": 8,
+    "mixed_multilingual": 2
+  },
+  "domain_counts": {
+    "DNA": 4,
+    "EMOTIONS": 2,
+    "GANDHI": 2,
+    "HINDI": 10,
+    "SCIENCE": 2
+  },
+  "token_count_range": [
+    11,
+    104
+  ],
+  "nearest_neighbor_examples": [
+    {
+      "prompt_id": "DNA_000294",
+      "domain": "DNA",
+      "language_form": "english",
+      "prompt_snippet": "How can NusG influence Rho-dependent termination?",
+      "nearest": [
+        {
+          "prompt_id": "DNA_004534",
+          "domain": "DNA",
+          "language_form": "uncertain",
+          "similarity": 0.8149,
+          "prompt_snippet": "What does a dN/dS (Ka/Ks) ratio significantly greater than 1, equal to 1, or less than 1 i"
+        },
+        {
+          "prompt_id": "DNA_004978",
+          "domain": "DNA",
+          "language_form": "english",
+          "similarity": 0.8123,
+          "prompt_snippet": "If a mutation changed the nucleotide at position -3 of a Kozak consensus sequence from a p"
+        },
+        {
+          "prompt_id": "SCIENCE_001371",
+          "domain": "SCIENCE",
+          "language_form": "english",
+          "similarity": 0.7952,
+          "prompt_snippet": "How do a lens forms a blurred image when the object moves beyond its focal range and a pol"
+        }
+      ]
+    },
+    {
+      "prompt_id": "DNA_004529",
+      "domain": "DNA",
+      "language_form": "uncertain",
+      "prompt_snippet": "What is the probability that a newly arisen neutral mutation will eventually reach fixatio",
+      "nearest": [
+        {
+          "prompt_id": "DNA_004978",
+          "domain": "DNA",
+          "language_form": "english",
+          "similarity": 0.8207,
+          "prompt_snippet": "If a mutation changed the nucleotide at position -3 of a Kozak consensus sequence from a p"
+        },
+        {
+          "prompt_id": "DNA_004534",
+          "domain": "DNA",
+          "language_form": "uncertain",
+          "similarity": 0.8129,
+          "prompt_snippet": "What does a dN/dS (Ka/Ks) ratio significantly greater than 1, equal to 1, or less than 1 i"
+        },
+        {
+          "prompt_id": "HINDI_004147",
+          "domain": "HINDI",
+          "language_form": "mixed_multilingual",
+          "similarity": 0.789,
+          "prompt_snippet": "‘दोनों बहनें नहीं आईं’ के संभावित scope readings बताइए।"
+        }
+      ]
+    },
+    {
+      "prompt_id": "DNA_004534",
+      "domain": "DNA",
+      "language_form": "uncertain",
+      "prompt_snippet": "What does a dN/dS (Ka/Ks) ratio significantly greater than 1, equal to 1, or less than 1 i",
+      "nearest": [
+        {
+          "prompt_id": "DNA_004978",
+          "domain": "DNA",
+          "language_form": "english",
+          "similarity": 0.8605,
+          "prompt_snippet": "If a mutation changed the nucleotide at position -3 of a Kozak consensus sequence from a p"
+        },
+        {
+          "prompt_id": "DNA_000294",
+          "domain": "DNA",
+          "language_form": "english",
+          "similarity": 0.8149,
+          "prompt_snippet": "How can NusG influence Rho-dependent termination?"
+        },
+        {
+          "prompt_id": "DNA_004529",
+          "domain": "DNA",
+          "language_form": "uncertain",
+          "similarity": 0.8129,
+          "prompt_snippet": "What is the probability that a newly arisen neutral mutation will eventually reach fixatio"
+        }
+      ]
+    },
+    {
+      "prompt_id": "DNA_004978",
+      "domain": "DNA",
+      "language_form": "english",
+      "prompt_snippet": "If a mutation changed the nucleotide at position -3 of a Kozak consensus sequence from a p",
+      "nearest": [
+        {
+          "prompt_id": "DNA_004534",
+          "domain": "DNA",
+          "language_form": "uncertain",
+          "similarity": 0.8605,
+          "prompt_snippet": "What does a dN/dS (Ka/Ks) ratio significantly greater than 1, equal to 1, or less than 1 i"
+        },
+        {
+          "prompt_id": "SCIENCE_001371",
+          "domain": "SCIENCE",
+          "language_form": "english",
+          "similarity": 0.8428,
+          "prompt_snippet": "How do a lens forms a blurred image when the object moves beyond its focal range and a pol"
+        },
+        {
+          "prompt_id": "HINDI_004147",
+          "domain": "HINDI",
+          "language_form": "mixed_multilingual",
+          "similarity": 0.8358,
+          "prompt_snippet": "‘दोनों बहनें नहीं आईं’ के संभावित scope readings बताइए।"
+        }
+      ]
+    },
+    {
+      "prompt_id": "EMOTIONS_000961",
+      "domain": "EMOTIONS",
+      "language_form": "english",
+      "prompt_snippet": "When a friend repeatedly calls late at night to vent about the same workplace drama withou",
+      "nearest": [
+        {
+          "prompt_id": "HINDI_003308",
+          "domain": "HINDI",
+          "language_form": "uncertain",
+          "similarity": 0.8399,
+          "prompt_snippet": "isa prasnga ke lie aisa vaikalpika kathana sujhaie jo vinamra asveekriti banae rakhe, leki"
+        },
+        {
+          "prompt_id": "HINDI_000297",
+          "domain": "HINDI",
+          "language_form": "romanized_hindi",
+          "similarity": 0.8383,
+          "prompt_snippet": "yahan vakta kee samajika bhoomika aura snbndha batacheeta men nihita snketa kee vyakhya ko"
+        },
+        {
+          "prompt_id": "HINDI_004297",
+          "domain": "HINDI",
+          "language_form": "hinglish",
+          "similarity": 0.8373,
+          "prompt_snippet": "yadi isa prasnga men shrota ka snbndha badala jae, to vakta ka aashaya kee vyakhya kaise b"
+        }
+      ]
+    },
+    {
+      "prompt_id": "EMOTIONS_001348",
+      "domain": "EMOTIONS",
+      "language_form": "english",
+      "prompt_snippet": "Compare surprise and shock.",
+      "nearest": [
+        {
+          "prompt_id": "HINDI_004297",
+          "domain": "HINDI",
+          "language_form": "hinglish",
+          "similarity": 0.8151,
+          "prompt_snippet": "yadi isa prasnga men shrota ka snbndha badala jae, to vakta ka aashaya kee vyakhya kaise b"
+        },
+        {
+          "prompt_id": "HINDI_003308",
+          "domain": "HINDI",
+          "language_form": "uncertain",
+          "similarity": 0.8146,
+          "prompt_snippet": "isa prasnga ke lie aisa vaikalpika kathana sujhaie jo vinamra asveekriti banae rakhe, leki"
+        },
+        {
+          "prompt_id": "HINDI_003477",
+          "domain": "HINDI",
+          "language_form": "mixed_multilingual",
+          "similarity": 0.8092,
+          "prompt_snippet": "एक अनुवादक अंग्रेज़ी वाक्य \"If I had known, I would have come\" का हिंदी अनुवाद कर रहा है। "
+        }
+      ]
+    },
+    {
+      "prompt_id": "GANDHI_001483",
+      "domain": "GANDHI",
+      "language_form": "english",
+      "prompt_snippet": "Evaluate Swadeshi alongside Tagore through organizational method, avoiding anachronistic a",
+      "nearest": [
+        {
+          "prompt_id": "GANDHI_003988",
+          "domain": "GANDHI",
+          "language_form": "english",
+          "similarity": 0.8074,
+          "prompt_snippet": "How could a civic organization draw a historically responsible lesson from Second Round Ta"
+        },
+        {
+          "prompt_id": "EMOTIONS_001348",
+          "domain": "EMOTIONS",
+          "language_form": "english",
+          "similarity": 0.8048,
+          "prompt_snippet": "Compare surprise and shock."
+        },
+        {
+          "prompt_id": "HINDI_004147",
+          "domain": "HINDI",
+          "language_form": "mixed_multilingual",
+          "similarity": 0.795,
+          "prompt_snippet": "‘दोनों बहनें नहीं आईं’ के संभावित scope readings बताइए।"
+        }
+      ]
+    },
+    {
+      "prompt_id": "GANDHI_003988",
+      "domain": "GANDHI",
+      "language_form": "english",
+      "prompt_snippet": "How could a civic organization draw a historically responsible lesson from Second Round Ta",
+      "nearest": [
+        {
+          "prompt_id": "EMOTIONS_000961",
+          "domain": "EMOTIONS",
+          "language_form": "english",
+          "similarity": 0.8336,
+          "prompt_snippet": "When a friend repeatedly calls late at night to vent about the same workplace drama withou"
+        },
+        {
+          "prompt_id": "SCIENCE_002003",
+          "domain": "SCIENCE",
+          "language_form": "english",
+          "similarity": 0.8305,
+          "prompt_snippet": "Which structural, functional, or physical property characterizes Mechanics, and how is tha"
+        },
+        {
+          "prompt_id": "HINDI_003308",
+          "domain": "HINDI",
+          "language_form": "uncertain",
+          "similarity": 0.8288,
+          "prompt_snippet": "isa prasnga ke lie aisa vaikalpika kathana sujhaie jo vinamra asveekriti banae rakhe, leki"
+        }
+      ]
+    },
+    {
+      "prompt_id": "HINDI_000297",
+      "domain": "HINDI",
+      "language_form": "romanized_hindi",
+      "prompt_snippet": "yahan vakta kee samajika bhoomika aura snbndha batacheeta men nihita snketa kee vyakhya ko",
+      "nearest": [
+        {
+          "prompt_id": "HINDI_004297",
+          "domain": "HINDI",
+          "language_form": "hinglish",
+          "similarity": 0.9605,
+          "prompt_snippet": "yadi isa prasnga men shrota ka snbndha badala jae, to vakta ka aashaya kee vyakhya kaise b"
+        },
+        {
+          "prompt_id": "HINDI_003308",
+          "domain": "HINDI",
+          "language_form": "uncertain",
+          "similarity": 0.9372,
+          "prompt_snippet": "isa prasnga ke lie aisa vaikalpika kathana sujhaie jo vinamra asveekriti banae rakhe, leki"
+        },
+        {
+          "prompt_id": "HINDI_002015",
+          "domain": "HINDI",
+          "language_form": "hinglish",
+          "similarity": 0.8639,
+          "prompt_snippet": "‘Nipun’ ke do Hindi paryayvachi bataiye."
+        }
+      ]
+    },
+    {
+      "prompt_id": "HINDI_002008",
+      "domain": "HINDI",
+      "language_form": "native_hindi",
+      "prompt_snippet": "‘निश्छल’ शब्द का अर्थ बताइए।",
+      "nearest": [
+        {
+          "prompt_id": "HINDI_002015",
+          "domain": "HINDI",
+          "language_form": "hinglish",
+          "similarity": 0.8601,
+          "prompt_snippet": "‘Nipun’ ke do Hindi paryayvachi bataiye."
+        },
+        {
+          "prompt_id": "HINDI_002035",
+          "domain": "HINDI",
+          "language_form": "romanized_hindi",
+          "similarity": 0.8482,
+          "prompt_snippet": "‘Vishesh’ ka ek uchit vilom bataiye."
+        },
+        {
+          "prompt_id": "HINDI_004147",
+          "domain": "HINDI",
+          "language_form": "mixed_multilingual",
+          "similarity": 0.8476,
+          "prompt_snippet": "‘दोनों बहनें नहीं आईं’ के संभावित scope readings बताइए।"
+        }
+      ]
+    },
+    {
+      "prompt_id": "HINDI_002015",
+      "domain": "HINDI",
+      "language_form": "hinglish",
+      "prompt_snippet": "‘Nipun’ ke do Hindi paryayvachi bataiye.",
+      "nearest": [
+        {
+          "prompt_id": "HINDI_002035",
+          "domain": "HINDI",
+          "language_form": "romanized_hindi",
+          "similarity": 0.9033,
+          "prompt_snippet": "‘Vishesh’ ka ek uchit vilom bataiye."
+        },
+        {
+          "prompt_id": "HINDI_000297",
+          "domain": "HINDI",
+          "language_form": "romanized_hindi",
+          "similarity": 0.8639,
+          "prompt_snippet": "yahan vakta kee samajika bhoomika aura snbndha batacheeta men nihita snketa kee vyakhya ko"
+        },
+        {
+          "prompt_id": "HINDI_003308",
+          "domain": "HINDI",
+          "language_form": "uncertain",
+          "similarity": 0.8635,
+          "prompt_snippet": "isa prasnga ke lie aisa vaikalpika kathana sujhaie jo vinamra asveekriti banae rakhe, leki"
+        }
+      ]
+    },
+    {
+      "prompt_id": "HINDI_002035",
+      "domain": "HINDI",
+      "language_form": "romanized_hindi",
+      "prompt_snippet": "‘Vishesh’ ka ek uchit vilom bataiye.",
+      "nearest": [
+        {
+          "prompt_id": "HINDI_002015",
+          "domain": "HINDI",
+          "language_form": "hinglish",
+          "similarity": 0.9033,
+          "prompt_snippet": "‘Nipun’ ke do Hindi paryayvachi bataiye."
+        },
+        {
+          "prompt_id": "HINDI_000297",
+          "domain": "HINDI",
+          "language_form": "romanized_hindi",
+          "similarity": 0.8516,
+          "prompt_snippet": "yahan vakta kee samajika bhoomika aura snbndha batacheeta men nihita snketa kee vyakhya ko"
+        },
+        {
+          "prompt_id": "HINDI_003308",
+          "domain": "HINDI",
+          "language_form": "uncertain",
+          "similarity": 0.8488,
+          "prompt_snippet": "isa prasnga ke lie aisa vaikalpika kathana sujhaie jo vinamra asveekriti banae rakhe, leki"
+        }
+      ]
+    },
+    {
+      "prompt_id": "HINDI_003134",
+      "domain": "HINDI",
+      "language_form": "uncertain",
+      "prompt_snippet": "‘One item per customer’ retail rule ka quantity restriction explain karein.",
+      "nearest": [
+        {
+          "prompt_id": "HINDI_002015",
+          "domain": "HINDI",
+          "language_form": "hinglish",
+          "similarity": 0.8187,
+          "prompt_snippet": "‘Nipun’ ke do Hindi paryayvachi bataiye."
+        },
+        {
+          "prompt_id": "HINDI_004147",
+          "domain": "HINDI",
+          "language_form": "mixed_multilingual",
+          "similarity": 0.8048,
+          "prompt_snippet": "‘दोनों बहनें नहीं आईं’ के संभावित scope readings बताइए।"
+        },
+        {
+          "prompt_id": "EMOTIONS_000961",
+          "domain": "EMOTIONS",
+          "language_form": "english",
+          "similarity": 0.7998,
+          "prompt_snippet": "When a friend repeatedly calls late at night to vent about the same workplace drama withou"
+        }
+      ]
+    },
+    {
+      "prompt_id": "HINDI_003308",
+      "domain": "HINDI",
+      "language_form": "uncertain",
+      "prompt_snippet": "isa prasnga ke lie aisa vaikalpika kathana sujhaie jo vinamra asveekriti banae rakhe, leki",
+      "nearest": [
+        {
+          "prompt_id": "HINDI_004297",
+          "domain": "HINDI",
+          "language_form": "hinglish",
+          "similarity": 0.9469,
+          "prompt_snippet": "yadi isa prasnga men shrota ka snbndha badala jae, to vakta ka aashaya kee vyakhya kaise b"
+        },
+        {
+          "prompt_id": "HINDI_000297",
+          "domain": "HINDI",
+          "language_form": "romanized_hindi",
+          "similarity": 0.9372,
+          "prompt_snippet": "yahan vakta kee samajika bhoomika aura snbndha batacheeta men nihita snketa kee vyakhya ko"
+        },
+        {
+          "prompt_id": "HINDI_002015",
+          "domain": "HINDI",
+          "language_form": "hinglish",
+          "similarity": 0.8635,
+          "prompt_snippet": "‘Nipun’ ke do Hindi paryayvachi bataiye."
+        }
+      ]
+    },
+    {
+      "prompt_id": "HINDI_003477",
+      "domain": "HINDI",
+      "language_form": "mixed_multilingual",
+      "prompt_snippet": "एक अनुवादक अंग्रेज़ी वाक्य \"If I had known, I would have come\" का हिंदी अनुवाद कर रहा है। ",
+      "nearest": [
+        {
+          "prompt_id": "HINDI_004147",
+          "domain": "HINDI",
+          "language_form": "mixed_multilingual",
+          "similarity": 0.8336,
+          "prompt_snippet": "‘दोनों बहनें नहीं आईं’ के संभावित scope readings बताइए।"
+        },
+        {
+          "prompt_id": "HINDI_004297",
+          "domain": "HINDI",
+          "language_form": "hinglish",
+          "similarity": 0.8232,
+          "prompt_snippet": "yadi isa prasnga men shrota ka snbndha badala jae, to vakta ka aashaya kee vyakhya kaise b"
+        },
+        {
+          "prompt_id": "HINDI_000297",
+          "domain": "HINDI",
+          "language_form": "romanized_hindi",
+          "similarity": 0.8232,
+          "prompt_snippet": "yahan vakta kee samajika bhoomika aura snbndha batacheeta men nihita snketa kee vyakhya ko"
+        }
+      ]
+    },
+    {
+      "prompt_id": "HINDI_003552",
+      "domain": "HINDI",
+      "language_form": "native_hindi",
+      "prompt_snippet": "सरकारी परिपत्र का यह वाक्य बहुत जटिल है: \"सभी विभागों को, जो पिछले वर्ष के बजट का पूर्ण उप",
+      "nearest": [
+        {
+          "prompt_id": "HINDI_004297",
+          "domain": "HINDI",
+          "language_form": "hinglish",
+          "similarity": 0.8231,
+          "prompt_snippet": "yadi isa prasnga men shrota ka snbndha badala jae, to vakta ka aashaya kee vyakhya kaise b"
+        },
+        {
+          "prompt_id": "HINDI_003308",
+          "domain": "HINDI",
+          "language_form": "uncertain",
+          "similarity": 0.8196,
+          "prompt_snippet": "isa prasnga ke lie aisa vaikalpika kathana sujhaie jo vinamra asveekriti banae rakhe, leki"
+        },
+        {
+          "prompt_id": "HINDI_003477",
+          "domain": "HINDI",
+          "language_form": "mixed_multilingual",
+          "similarity": 0.8123,
+          "prompt_snippet": "एक अनुवादक अंग्रेज़ी वाक्य \"If I had known, I would have come\" का हिंदी अनुवाद कर रहा है। "
+        }
+      ]
+    },
+    {
+      "prompt_id": "HINDI_004147",
+      "domain": "HINDI",
+      "language_form": "mixed_multilingual",
+      "prompt_snippet": "‘दोनों बहनें नहीं आईं’ के संभावित scope readings बताइए।",
+      "nearest": [
+        {
+          "prompt_id": "HINDI_002015",
+          "domain": "HINDI",
+          "language_form": "hinglish",
+          "similarity": 0.8619,
+          "prompt_snippet": "‘Nipun’ ke do Hindi paryayvachi bataiye."
+        },
+        {
+          "prompt_id": "HINDI_002008",
+          "domain": "HINDI",
+          "language_form": "native_hindi",
+          "similarity": 0.8476,
+          "prompt_snippet": "‘निश्छल’ शब्द का अर्थ बताइए।"
+        },
+        {
+          "prompt_id": "HINDI_002035",
+          "domain": "HINDI",
+          "language_form": "romanized_hindi",
+          "similarity": 0.8414,
+          "prompt_snippet": "‘Vishesh’ ka ek uchit vilom bataiye."
+        }
+      ]
+    },
+    {
+      "prompt_id": "HINDI_004297",
+      "domain": "HINDI",
+      "language_form": "hinglish",
+      "prompt_snippet": "yadi isa prasnga men shrota ka snbndha badala jae, to vakta ka aashaya kee vyakhya kaise b",
+      "nearest": [
+        {
+          "prompt_id": "HINDI_000297",
+          "domain": "HINDI",
+          "language_form": "romanized_hindi",
+          "similarity": 0.9605,
+          "prompt_snippet": "yahan vakta kee samajika bhoomika aura snbndha batacheeta men nihita snketa kee vyakhya ko"
+        },
+        {
+          "prompt_id": "HINDI_003308",
+          "domain": "HINDI",
+          "language_form": "uncertain",
+          "similarity": 0.9469,
+          "prompt_snippet": "isa prasnga ke lie aisa vaikalpika kathana sujhaie jo vinamra asveekriti banae rakhe, leki"
+        },
+        {
+          "prompt_id": "HINDI_002015",
+          "domain": "HINDI",
+          "language_form": "hinglish",
+          "similarity": 0.8516,
+          "prompt_snippet": "‘Nipun’ ke do Hindi paryayvachi bataiye."
+        }
+      ]
+    },
+    {
+      "prompt_id": "SCIENCE_001371",
+      "domain": "SCIENCE",
+      "language_form": "english",
+      "prompt_snippet": "How do a lens forms a blurred image when the object moves beyond its focal range and a pol",
+      "nearest": [
+        {
+          "prompt_id": "SCIENCE_002003",
+          "domain": "SCIENCE",
+          "language_form": "english",
+          "similarity": 0.8595,
+          "prompt_snippet": "Which structural, functional, or physical property characterizes Mechanics, and how is tha"
+        },
+        {
+          "prompt_id": "DNA_004978",
+          "domain": "DNA",
+          "language_form": "english",
+          "similarity": 0.8428,
+          "prompt_snippet": "If a mutation changed the nucleotide at position -3 of a Kozak consensus sequence from a p"
+        },
+        {
+          "prompt_id": "EMOTIONS_000961",
+          "domain": "EMOTIONS",
+          "language_form": "english",
+          "similarity": 0.834,
+          "prompt_snippet": "When a friend repeatedly calls late at night to vent about the same workplace drama withou"
+        }
+      ]
+    },
+    {
+      "prompt_id": "SCIENCE_002003",
+      "domain": "SCIENCE",
+      "language_form": "english",
+      "prompt_snippet": "Which structural, functional, or physical property characterizes Mechanics, and how is tha",
+      "nearest": [
+        {
+          "prompt_id": "SCIENCE_001371",
+          "domain": "SCIENCE",
+          "language_form": "english",
+          "similarity": 0.8595,
+          "prompt_snippet": "How do a lens forms a blurred image when the object moves beyond its focal range and a pol"
+        },
+        {
+          "prompt_id": "GANDHI_003988",
+          "domain": "GANDHI",
+          "language_form": "english",
+          "similarity": 0.8305,
+          "prompt_snippet": "How could a civic organization draw a historically responsible lesson from Second Round Ta"
+        },
+        {
+          "prompt_id": "DNA_004978",
+          "domain": "DNA",
+          "language_form": "english",
+          "similarity": 0.8286,
+          "prompt_snippet": "If a mutation changed the nucleotide at position -3 of a Kozak consensus sequence from a p"
+        }
+      ]
+    }
+  ],
+  "cross_script_comparison": [
+    {
+      "pair": [
+        "HINDI_002008",
+        "HINDI_000297"
+      ],
+      "forms": [
+        "native_hindi",
+        "romanized_hindi"
+      ],
+      "similarity": 0.8129,
+      "note": "same HINDI domain, different script/transliteration -- not a true parallel pair, just the closest available cross-script comparison in the pilot sample"
+    }
+  ],
+  "unrelated_domain_check": {
+    "pair": [
+      "GANDHI_001483",
+      "SCIENCE_001371"
+    ],
+    "domains": [
+      "GANDHI",
+      "SCIENCE"
+    ],
+    "similarity": 0.7834,
+    "expectation": "should be clearly lower than same-domain/same-topic pairs"
+  },
+  "pairwise_similarity_distribution": {
+    "min": 0.7315,
+    "mean": 0.8001,
+    "p50": 0.7981,
+    "max": 0.9605
+  },
+  "similarity_compression_observed": true,
+  "overall_pass": true,
+  "caveat": "This is a technical/basic sanity check (dimensions, finiteness, normalization, rough nearest-neighbour plausibility) -- it is NOT proof of embedding quality, and especially not proof of equal quality across Devanagari vs Romanized-Hindi vs English input, per the task's explicit caution against assuming that. If similarity_compression_observed is true, the 'unrelated' cross-domain pair scored close to or above the median pairwise similarity in the pilot -- a sign of the anisotropy commonly seen in sentence-embedding models, where even unrelated texts score high raw cosine similarity. The next milestone should treat raw cosine similarity as a RELATIVE ranking signal (nearest-neighbour ordering), not an absolute relatedness threshold, unless/until this is calibrated further."
+}

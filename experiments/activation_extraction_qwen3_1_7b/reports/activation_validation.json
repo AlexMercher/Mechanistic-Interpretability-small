@@ -1,0 +1,18 @@
+{
+  "n_normalized_prompts": 25000,
+  "n_prompts_in_activations": 25000,
+  "n_metadata_rows": 993496,
+  "n_rows_on_disk": 993496,
+  "n_shards": 10,
+  "domains_present": [
+    "DNA",
+    "EMOTIONS",
+    "GANDHI",
+    "HINDI",
+    "SCIENCE"
+  ],
+  "source_corpus_unchanged": true,
+  "errors": [],
+  "warnings": [],
+  "passed": true
+}

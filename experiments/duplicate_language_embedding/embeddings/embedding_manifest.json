@@ -1,0 +1,21 @@
+{
+  "embedding_model": "intfloat/multilingual-e5-small",
+  "embedding_revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "embedding_dimension": 384,
+  "normalized": true,
+  "query_prefix": "query: ",
+  "total_records": 25000,
+  "valid_embeddings": 25000,
+  "invalid_embeddings": 0,
+  "records_exceeding_max_sequence_length": 0,
+  "max_sequence_length": 512,
+  "batch_size": 64,
+  "device": "cpu",
+  "preprocessing": "complete original `prompt` field, verbatim, with a required 'query: ' prefix prepended (e5 usage convention); no domain/subdomain/category/annotation text appended; no truncation performed (all prompts are well under max_sequence_length).",
+  "npy_file": "experiments/duplicate_language_embedding/embeddings/prompt_embeddings.npy",
+  "npy_sha256": "07952dac23ffec0179fd1c140ce2920b05982a0052af2cc01a3090e10fd32755",
+  "npy_shape": [
+    25000,
+    384
+  ]
+}

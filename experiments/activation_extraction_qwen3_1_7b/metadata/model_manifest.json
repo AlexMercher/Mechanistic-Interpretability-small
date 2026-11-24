@@ -1,0 +1,53 @@
+{
+  "model_name": "Qwen/Qwen3-1.7B",
+  "resolved_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "loading_precision": "bfloat16",
+  "activation_storage_precision": "bfloat16",
+  "architecture": {
+    "num_hidden_layers": 28,
+    "hidden_size": 2048,
+    "num_attention_heads": 16,
+    "num_key_value_heads": 8,
+    "vocab_size": 151936,
+    "max_position_embeddings": 40960,
+    "attn_implementation": "sdpa"
+  },
+  "layer_selection": {
+    "total_layers": 28,
+    "indexing": "zero_based",
+    "selected_layer_index": 14,
+    "selection_rule": "n_layers // 2 (architectural midpoint, zero-based)",
+    "module_name": "model.layers[14]",
+    "hook_location": "output of model.model.layers[i] (the decoder block), i.e. the residual stream AFTER that Transformer block has been applied -- NOT attention output, NOT MLP output alone, NOT the embedding layer, NOT logits.",
+    "equivalent_output_hidden_states_index": 15,
+    "note": "output_hidden_states[0] is the embedding layer's output (residual stream before any Transformer block); output_hidden_states[k] for k>=1 is the residual stream after decoder block (k-1). This experiment extracts output_hidden_states[selected_layer_index + 1], i.e. after block selected_layer_index (zero-based)."
+  },
+  "special_tokens": {
+    "bos_token": null,
+    "bos_token_id": null,
+    "eos_token": "<|im_end|>",
+    "eos_token_id": 151645,
+    "pad_token": "<|endoftext|>",
+    "pad_token_id": 151643,
+    "unk_token": null,
+    "unk_token_id": null
+  },
+  "sample_forward_pass": {
+    "sample_text": "query: What is the mechanism of DNA replication?",
+    "n_hidden_states_returned": 29,
+    "expected_n_hidden_states": 29,
+    "middle_layer_activation_shape": [
+      1,
+      10,
+      2048
+    ],
+    "hidden_size_matches_config": true
+  },
+  "gpu": {
+    "device_name": "NVIDIA GeForce RTX 3050 6GB Laptop GPU",
+    "total_vram_gb": 6.442,
+    "free_vram_gb_before_load": 5.404,
+    "vram_used_after_load_and_sample_forward_gb": 4.489
+  },
+  "weights_cache_dir": "D:\\projects\\Mechanistic-Interpretability-small\\weights\\hf_cache"
+}

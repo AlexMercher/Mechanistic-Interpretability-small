@@ -1,0 +1,24 @@
+{
+  "embedding_model": {
+    "name": "intfloat/multilingual-e5-small",
+    "revision": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+    "dimension": 384,
+    "reused_from": "experiments/duplicate_language_embedding/ (Milestone 2) -- NOT regenerated for this experiment",
+    "weights_location": "weights/hf_cache/ (never the default C:\\Users\\...\\.cache)"
+  },
+  "teacher_model": {
+    "name": "Claude Opus (claude-opus-4-8)",
+    "role": "independent content-based reviewer for: (a) 180 Objective-A evaluation prompt pairs, "
+            "(b) 150 Objective-C cross-domain candidate concept pairs, (c) a 40-concept Objective-D "
+            "naming/coherence spot check",
+    "note": "Used strictly as a reviewer of pre-selected candidates with full prompt text in context; "
+            "never used to assign labels from cosine similarity alone, and never used as a per-record "
+            "classifier over the full 25,000-prompt corpus (that would have been an unjustified "
+            "LLM-per-record cost for a task where deterministic/clustering methods sufficed)."
+  },
+  "clustering_models": {
+    "hdbscan": "0.8.44 (density-based, no pre-chosen k, native noise/outlier label)",
+    "kmeans": "scikit-learn 1.9.1 (silhouette-swept k, cosine-metric silhouette scoring)",
+    "umap": "umap-learn 0.6.0 (visualization-only 2D projection, never used for cluster assignment)"
+  }
+}

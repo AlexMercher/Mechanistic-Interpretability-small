@@ -1,0 +1,94 @@
+{
+  "pilot_sample_size": 60,
+  "domains_covered": [
+    "DNA",
+    "EMOTIONS",
+    "GANDHI",
+    "HINDI",
+    "SCIENCE"
+  ],
+  "extraction_stats": {
+    "n_prompts": 60,
+    "n_tokens_retained": 2330,
+    "n_batches": 8,
+    "failed_prompts": [],
+    "peak_vram_gb": 3.637750784,
+    "truncated_prompts": [],
+    "total_time_sec": 1.7668347358703613,
+    "resolved_revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e"
+  },
+  "validation_checks": {
+    "n_meta_rows": 2330,
+    "n_prompts_in_meta": 60,
+    "expected_prompts": 60,
+    "prompts_match": true,
+    "all_shards_sha256_verified": true,
+    "all_activation_dims_correct": true,
+    "all_activation_dtype_bfloat16": true,
+    "all_values_finite": true,
+    "n_rows_checked_on_disk": 2330,
+    "n_rows_expected_from_meta": 2330,
+    "row_counts_match": true,
+    "token_count_cross_check_mismatches": [],
+    "token_count_cross_check_passed": true,
+    "roundtrip_disk_vs_fresh_forward_pass": [
+      {
+        "prompt_id": "HINDI_001737",
+        "n_tokens": 41,
+        "total_elements": 83968,
+        "elements_exceeding_atol_1.0": 2,
+        "bad_fraction": 2.381859756097561e-05,
+        "max_abs_diff": 2.0,
+        "passed": true
+      },
+      {
+        "prompt_id": "DNA_001611",
+        "n_tokens": 28,
+        "total_elements": 57344,
+        "elements_exceeding_atol_1.0": 1,
+        "bad_fraction": 1.743861607142857e-05,
+        "max_abs_diff": 1.5,
+        "passed": true
+      },
+      {
+        "prompt_id": "DNA_001623",
+        "n_tokens": 16,
+        "total_elements": 32768,
+        "elements_exceeding_atol_1.0": 3,
+        "bad_fraction": 9.1552734375e-05,
+        "max_abs_diff": 64.0,
+        "passed": true
+      },
+      {
+        "prompt_id": "HINDI_000297",
+        "n_tokens": 110,
+        "total_elements": 225280,
+        "elements_exceeding_atol_1.0": 10,
+        "bad_fraction": 4.438920454545455e-05,
+        "max_abs_diff": 64.0,
+        "passed": true
+      },
+      {
+        "prompt_id": "EMOTIONS_001829",
+        "n_tokens": 31,
+        "total_elements": 63488,
+        "elements_exceeding_atol_1.0": 2,
+        "bad_fraction": 3.150201612903226e-05,
+        "max_abs_diff": 32.0,
+        "passed": true
+      }
+    ],
+    "roundtrip_passed": true
+  },
+  "throughput": {
+    "avg_batch_time_sec": 0.13504788279533386,
+    "tokens_per_sec": 1318.7424679265305,
+    "peak_vram_gb": 3.637750784
+  },
+  "full_run_estimate": {
+    "full_corpus_token_count": 993496,
+    "estimated_duration_minutes": 12.6,
+    "estimated_storage_gb": 4.069
+  },
+  "overall_pass": true
+}

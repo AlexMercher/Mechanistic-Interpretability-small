@@ -1,0 +1,75 @@
+domain,subdomain,category,duplicate_group_count,duplicate_record_count,duplicate_excess_count
+DNA,ALL,ALL,1,2,1
+DNA,Mutations_Repair,ALL,1,2,1
+DNA,Mutations_Repair,contextual_understanding,1,2,1
+SCIENCE,ALL,ALL,175,1000,825
+SCIENCE,Analytical chemistry,ALL,5,30,25
+SCIENCE,Analytical chemistry,factual_knowledge,5,30,25
+SCIENCE,Animal behavior,ALL,5,20,15
+SCIENCE,Animal behavior,factual_knowledge,5,20,15
+SCIENCE,Astrophysics,ALL,5,30,25
+SCIENCE,Astrophysics,factual_knowledge,5,30,25
+SCIENCE,Atmospheric science,ALL,5,30,25
+SCIENCE,Atmospheric science,factual_knowledge,5,30,25
+SCIENCE,Biochemistry,ALL,5,20,15
+SCIENCE,Biochemistry,factual_knowledge,5,20,15
+SCIENCE,Biotechnology,ALL,5,30,25
+SCIENCE,Biotechnology,factual_knowledge,5,30,25
+SCIENCE,Cell biology,ALL,5,30,25
+SCIENCE,Cell biology,factual_knowledge,5,30,25
+SCIENCE,Chemical kinetics,ALL,5,30,25
+SCIENCE,Chemical kinetics,factual_knowledge,5,30,25
+SCIENCE,Climate science,ALL,5,30,25
+SCIENCE,Climate science,factual_knowledge,5,30,25
+SCIENCE,Ecology,ALL,5,30,25
+SCIENCE,Ecology,factual_knowledge,5,30,25
+SCIENCE,Electrochemistry,ALL,5,30,25
+SCIENCE,Electrochemistry,factual_knowledge,5,30,25
+SCIENCE,Electromagnetism,ALL,5,30,25
+SCIENCE,Electromagnetism,factual_knowledge,5,30,25
+SCIENCE,Environmental science,ALL,5,30,25
+SCIENCE,Environmental science,factual_knowledge,5,30,25
+SCIENCE,Evolutionary biology,ALL,5,30,25
+SCIENCE,Evolutionary biology,factual_knowledge,5,30,25
+SCIENCE,Experimental design,ALL,5,20,15
+SCIENCE,Experimental design,factual_knowledge,5,20,15
+SCIENCE,Fluid mechanics,ALL,5,30,25
+SCIENCE,Fluid mechanics,factual_knowledge,5,30,25
+SCIENCE,Genetics,ALL,5,30,25
+SCIENCE,Genetics,factual_knowledge,5,30,25
+SCIENCE,Geology,ALL,5,30,25
+SCIENCE,Geology,factual_knowledge,5,30,25
+SCIENCE,Hydrology,ALL,5,30,25
+SCIENCE,Hydrology,factual_knowledge,5,30,25
+SCIENCE,Immunology,ALL,5,30,25
+SCIENCE,Immunology,factual_knowledge,5,30,25
+SCIENCE,Materials science,ALL,5,30,25
+SCIENCE,Materials science,factual_knowledge,5,30,25
+SCIENCE,Mechanics,ALL,5,30,25
+SCIENCE,Mechanics,factual_knowledge,5,30,25
+SCIENCE,Microbiology,ALL,5,30,25
+SCIENCE,Microbiology,factual_knowledge,5,30,25
+SCIENCE,Molecular biology,ALL,5,30,25
+SCIENCE,Molecular biology,factual_knowledge,5,30,25
+SCIENCE,Nanotechnology,ALL,5,30,25
+SCIENCE,Nanotechnology,factual_knowledge,5,30,25
+SCIENCE,Neuroscience,ALL,5,30,25
+SCIENCE,Neuroscience,factual_knowledge,5,30,25
+SCIENCE,Oceanography,ALL,5,30,25
+SCIENCE,Oceanography,factual_knowledge,5,30,25
+SCIENCE,Optics,ALL,5,30,25
+SCIENCE,Optics,factual_knowledge,5,30,25
+SCIENCE,Organic chemistry,ALL,5,30,25
+SCIENCE,Organic chemistry,factual_knowledge,5,30,25
+SCIENCE,Physical chemistry,ALL,5,30,25
+SCIENCE,Physical chemistry,factual_knowledge,5,30,25
+SCIENCE,Physiology,ALL,5,30,25
+SCIENCE,Physiology,factual_knowledge,5,30,25
+SCIENCE,Planetary science,ALL,5,30,25
+SCIENCE,Planetary science,factual_knowledge,5,30,25
+SCIENCE,Plant physiology,ALL,5,20,15
+SCIENCE,Plant physiology,factual_knowledge,5,20,15
+SCIENCE,Scientific instrumentation,ALL,5,20,15
+SCIENCE,Scientific instrumentation,factual_knowledge,5,20,15
+SCIENCE,Thermodynamics,ALL,5,30,25
+SCIENCE,Thermodynamics,factual_knowledge,5,30,25

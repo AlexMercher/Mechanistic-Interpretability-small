@@ -1,0 +1,102 @@
+{
+  "total_records": 25000,
+  "valid_records": 25000,
+  "invalid_records": 0,
+  "review_flags": 1401,
+  "review_flags_note": "content characteristics (e.g. Romanized Hindi with no Devanagari codepoints) confirmed NOT to be corruption or defects -- not counted against valid_records, listed for awareness only",
+  "domain_counts": {
+    "DNA": 5000,
+    "EMOTIONS": 5000,
+    "GANDHI": 5000,
+    "HINDI": 5000,
+    "SCIENCE": 5000
+  },
+  "id_sequence_check": {
+    "DNA": {
+      "missing_ids": [],
+      "duplicate_count": 0
+    },
+    "EMOTIONS": {
+      "missing_ids": [],
+      "duplicate_count": 0
+    },
+    "GANDHI": {
+      "missing_ids": [],
+      "duplicate_count": 0
+    },
+    "HINDI": {
+      "missing_ids": [],
+      "duplicate_count": 0
+    },
+    "SCIENCE": {
+      "missing_ids": [],
+      "duplicate_count": 0
+    }
+  },
+  "exact_duplicates": 826,
+  "exact_duplicates_by_domain": {
+    "DNA": 1,
+    "EMOTIONS": 0,
+    "GANDHI": 0,
+    "HINDI": 0,
+    "SCIENCE": 825
+  },
+  "near_duplicate_candidates": 35938,
+  "near_duplicate_candidates_by_domain": {
+    "DNA": 11933,
+    "EMOTIONS": 18848,
+    "GANDHI": 1225,
+    "HINDI": 2266,
+    "SCIENCE": 1666
+  },
+  "near_duplicate_similarity_threshold": 0.72,
+  "length_outliers": 0,
+  "length_outlier_word_threshold": 120,
+  "length_stats_by_domain": [
+    {
+      "domain": "DNA",
+      "n": 5000,
+      "mean_words": 15.44,
+      "median_words": 15.0,
+      "p90_words": 21,
+      "p99_words": 26,
+      "max_words": 40
+    },
+    {
+      "domain": "EMOTIONS",
+      "n": 5000,
+      "mean_words": 26.31,
+      "median_words": 23.0,
+      "p90_words": 41,
+      "p99_words": 47,
+      "max_words": 57
+    },
+    {
+      "domain": "GANDHI",
+      "n": 5000,
+      "mean_words": 18.13,
+      "median_words": 19.0,
+      "p90_words": 22,
+      "p99_words": 24,
+      "max_words": 25
+    },
+    {
+      "domain": "HINDI",
+      "n": 5000,
+      "mean_words": 20.97,
+      "median_words": 21.0,
+      "p90_words": 30,
+      "p99_words": 38,
+      "max_words": 55
+    },
+    {
+      "domain": "SCIENCE",
+      "n": 5000,
+      "mean_words": 34.64,
+      "median_words": 35.0,
+      "p90_words": 40,
+      "p99_words": 44,
+      "max_words": 49
+    }
+  ]
+}

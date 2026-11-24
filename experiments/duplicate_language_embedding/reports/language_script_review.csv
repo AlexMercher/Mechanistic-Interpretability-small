@@ -1,0 +1,509 @@
+prompt_id,domain,language,script,language_form,classification_confidence,prompt_snippet
+DNA_002979,DNA,uncertain,Latin,uncertain,0.45,"How does effective population size (Ne) differ from census population size (N), and what demographic factors cause Ne to"
+DNA_004529,DNA,uncertain,Latin,uncertain,0.45,What is the probability that a newly arisen neutral mutation will eventually reach fixation in a diploid population of e
+DNA_004534,DNA,uncertain,Latin,uncertain,0.45,"What does a dN/dS (Ka/Ks) ratio significantly greater than 1, equal to 1, or less than 1 indicate about selective pressu"
+HINDI_000054,HINDI,mixed,Latin,hinglish,0.55,“Nayi policy ka asar bazaar mein turant dikhne laga.” Is context mein ‘asar’ ka kya arth hai?
+HINDI_000056,HINDI,mixed,Latin,hinglish,0.55,“Bheed ke bawajood uski awaaz mein thahraav tha.” Is vakya mein ‘thahraav’ ka contextual meaning kya hai?
+HINDI_000058,HINDI,mixed,Latin,hinglish,0.55,“Feedback milne ke baad usne apni presentation ko aur polished banaya.” Yahan ‘polished’ ke liye Hindi mein kaunsa sense
+HINDI_000059,HINDI,mixed,Latin,hinglish,0.55,“Team ne deadline ko lekar gambhirta dikhayi.” Is context mein ‘gambhirta’ ka practical meaning kya hai?
+HINDI_000060,HINDI,mixed,Latin,hinglish,0.55,"“Uska response kaafi tटस्थ tha, kisi side ko favor nahi karta tha.” Yahan ‘तटस्थ’ ka contextual sense samjhaiye."
+HINDI_000077,HINDI,mixed,Latin,hinglish,0.55,"'Agar tum padhoge, to pass ho jaoge' mein shart aur parinaam ke clauses ka sambandh batayein."
+HINDI_000093,HINDI,mixed,Latin,hinglish,0.55,“Usne mujhe kal phone kiya tha” mein kriya ka kaal aur “tha” ki sahayak bhoomika samjhaiye.
+HINDI_000095,HINDI,mixed,Latin,hinglish,0.55,"“Jo ladki ga rahi hai, vah meri dost hai” mein relative clause aur uske sambandhit sarvanam ko pehchaniye."
+HINDI_000114,HINDI,mixed,Latin,hinglish,0.55,"“Jitni jaldi ho sake, kaam poora kar do” mein tulna ya maatra ka sambandh kaise bana hai?"
+HINDI_000116,HINDI,mixed,Latin,hinglish,0.55,"“Woh aadmi, jiske paas neeli file hai, manager hai” mein sambandhvaachak sanrachna ka vishleshan karein."
+HINDI_000117,HINDI,mixed,Latin,hinglish,0.55,“Kal tak report jama karni hai” mein anivaaryata kis roop se vyakt hoti hai?
+HINDI_000121,HINDI,mixed,Latin,hinglish,0.55,‘Team ne target hit kar diya’ mein hit ka semantic role samjhaiye.
+HINDI_000122,HINDI,mixed,Latin,hinglish,0.55,‘Uska response kaafi loaded tha’—loaded ka meaning yahan kya ho sakta hai?
+HINDI_000135,HINDI,mixed,Latin,hinglish,0.55,Sentence ‘Usne project ko green signal diya’ mein phrase ka intended meaning Hindi mein samjhaiye.
+HINDI_000150,HINDI,mixed,Latin,hinglish,0.55,‘Is baat ko seriously mat lo’ mein seriously ka scope kis par hai?
+HINDI_000171,HINDI,mixed,Latin,hinglish,0.55,‘Meeting ka mood thanda pad gaya’ mein ‘thanda’ ka contextual sense kya hai?
+HINDI_000183,HINDI,mixed,Latin,hinglish,0.55,‘Policy ka impact ground level par dikha’ mein ground level ka sense samjhaiye.
+HINDI_000301,HINDI,uncertain,Latin,uncertain,0.45,isa batacheeta men shabdika kathana aura snbhavita vinamra asveekriti ke beecha snbndha spashta keejie। sthiti: phona pa
+HINDI_000305,HINDI,mixed,Latin,hinglish,0.55,isa prasnga men vakta ke shabdon se kauna-sa prasnga ke anusara artha-vyakhya prakata ho sakata hai? sndarbha ke aadhara
+HINDI_000307,HINDI,uncertain,Latin,uncertain,0.45,isa batacheeta men shabdika kathana aura snbhavita vinamra sujhava ke beecha snbndha spashta keejie। sthiti: batacheeta 
+HINDI_000352,HINDI,mixed,Latin,hinglish,0.55,'Is saal bazaar mein mandi hai' vaakya mein 'mandi' shabd kis arth mein aaya hai?
+HINDI_000353,HINDI,mixed,Latin,hinglish,0.55,'Unhone gaon mein ek pakka makaan banwaya' aur 'unhone pakka vaada kiya' — in dono prayogon mein 'pakka' ka arth kaise b
+HINDI_000355,HINDI,mixed,Latin,hinglish,0.55,'Uska swabhaav bada narm hai' aur 'is kapde ka rang narm hai' mein 'narm' shabd ka arth kaise badalta hai?
+HINDI_000358,HINDI,mixed,Latin,hinglish,0.55,'Client ne last minute par deal se haath kheench liya' sentence mein 'haath kheenchna' ka kya matlab hai?
+HINDI_000372,HINDI,mixed,Latin,hinglish,0.55,'Dukaandaar ne grahak ko lubhaane ke liye daam kam bataye.' Is vaakya mein 'lubhaana' ka kya matlab hai?
+HINDI_000373,HINDI,mixed,Latin,hinglish,0.55,'Bhai ne mere kaam mein taang adaana shuru kar diya.' Is vaakya mein 'taang adaana' ka kya arth hai?
+HINDI_000374,HINDI,mixed,Latin,hinglish,0.55,'Unka vyavhaar sadaiv shaleen raha.' Is vaakya mein 'shaleen' shabd ka kya arth hai?
+HINDI_000375,HINDI,mixed,Latin,hinglish,0.55,'Is saal fasal ki paidavaar behad santoshjanak rahi.' Is vaakya mein 'santoshjanak' ka kya matlab hai?
+HINDI_000377,HINDI,mixed,Latin,hinglish,0.55,Kal ki party mein sabne use 'dilchasp' insaan bataya. Is context mein 'dilchasp' ka kya matlab hai?
+HINDI_000378,HINDI,mixed,Latin,hinglish,0.55,Boss ne kaha ki project ka 'kaayakalp' ho gaya hai. Yahan 'kaayakalp' word kis meaning mein use hua hai?
+HINDI_000384,HINDI,mixed,Latin,hinglish,0.55,"'Usne exam mein bahut mehnat ki, phir bhi nateeja dhaak ke teen paat raha' — is idiom ka meaning kya hai?"
+HINDI_000392,HINDI,mixed,Latin,hinglish,0.55,'Meeting mein sabne haan mein haan milayi' — yahan is expression ka kya sense hai?
+HINDI_000398,HINDI,mixed,Latin,hinglish,0.55,'Office mein uska bol-bala hai' — is sentence mein 'bol-bala' ka meaning kya hai?
+HINDI_000404,HINDI,mixed,Latin,hinglish,0.55,'Maine paper submit kar diya' sentence mein 'kar diya' ka grammatical role kya hai?
+HINDI_000412,HINDI,mixed,Latin,hinglish,0.55,'Woh login nahi kar paya' sentence mein 'paya' ka grammatical function kya hai?
+HINDI_000418,HINDI,mixed,Latin,hinglish,0.55,'Kitaab table par rakhi hui hai' sentence mein 'rakhi hui hai' construction ka grammatical role kya hai?
+HINDI_000421,HINDI,mixed,Latin,hinglish,0.55,"""Ram ne Sita ko kitaab dikhayi"" — is vakya mein ""ko"" parsarg kis karak ka chinh hai, aur agar ""dikhayi"" ko ""dikhaya"" kar"
+HINDI_000425,HINDI,mixed,Latin,hinglish,0.55,"""Bachche khel rahe hain, par ek bachcha so raha hai"" — is vakya mein vachan aur kriya ka anvay kaise ho raha hai?"
+HINDI_000434,HINDI,mixed,Latin,hinglish,0.55,"""Is saal baarish bahut kam hui"" aur ""Is saal baarish bahut kam ho gayi"" mein kriya-roop ka antar aur dono ke upyukt sand"
+HINDI_000461,HINDI,mixed,Latin,hinglish,0.55,"""Ram to aaya, par Shyam nahi aaya"" — is vakya mein ""to"" nipaat kis vyakaranik bhumika mein hai, aur ise hata dene par va"
+HINDI_000468,HINDI,mixed,Latin,hinglish,0.55,"""Paani barasne laga"" aur ""Paani barasta raha"" — in vakyon mein ""lagna"" aur ""rehna"" kriya ke aarambh aur nirantarta ko ka"
+HINDI_000472,HINDI,mixed,Latin,hinglish,0.55,"""Ghar pahunchte-pahunchte andhera ho gaya"" — is vakya mein ""pahunchte-pahunchte"" ka kartaa kaun hai, aur mukhya kriya ""h"
+HINDI_000480,HINDI,mixed,Latin,hinglish,0.55,"""Usne mujhe naqli ghadi bechkar ullu bana diya"" — is vakya mein ""ullu banana"" ka arth kya hai?"
+HINDI_000488,HINDI,mixed,Latin,hinglish,0.55,"Dost ke achhe gaane ke baad kisi ne kaha, ""Bhai, tu to chhupa rustam nikla!"" Is sandarbh mein ""chhupa rustam"" ka arth ky"
+HINDI_000508,HINDI,mixed,Latin,hinglish,0.55,"""Boss ka mood dekh ke maine chup rehna hi theek samjha"" — is vakya se boss ke mood ke baare mein kya arth nikalta hai?"
+HINDI_000513,HINDI,mixed,Latin,hinglish,0.55,"""Uski shaadi mein to poora mohalla umad pada"" — ""umad padna"" yahan kis arth mein hai?"
+HINDI_000517,HINDI,mixed,Latin,hinglish,0.55,"Ek tech review mein likha hai: ""Yeh phone to bilkul makkhan chalta hai."" Is sandarbh mein ""makkhan chalna"" ka arth kya h"
+HINDI_000520,HINDI,mixed,Latin,hinglish,0.55,"""Paanch minute late pahuncha aur train chhoot gayi"" aur ""Company band hui to uski naukri chhoot gayi"" — dono mein ""chhoo"
+HINDI_000525,HINDI,mixed,Latin,hinglish,0.55,"Mummy ne dheere se kaha, ""Tumhare papa aaj bahut khush hain, kuch maangna ho to abhi maang lo."" Is vakya se kya nihit ar"
+HINDI_000533,HINDI,mixed,Latin,hinglish,0.55,"""Phone par uski aawaz bhaari thi aur wo ruk-ruk kar bol rahi thi"" — is vakya se vaktaa ki bhaavnaatmak sthiti ke baare m"
+HINDI_000540,HINDI,mixed,Latin,hinglish,0.55,"Dost ne Sunday ke plan ke liye poocha, to jawab mila: ""Dekhte hain, abhi kuch keh nahi sakta."" Is sandarbh mein yeh jawa"
+HINDI_000545,HINDI,mixed,Latin,hinglish,0.55,"""Itna mehenga phone? Dimaag to theek hai tumhara?"" — is vakya mein ""dimaag theek hona"" ka arth shabdik hai ya kuch aur?"
+HINDI_000553,HINDI,mixed,Latin,hinglish,0.55,"""Usne bataya ki uski behen Delhi mein rehti hai."" Is vakya mein mukhya upvakya aur aashrit upvakya ki seema kahan hai?"
+HINDI_000556,HINDI,mixed,Latin,hinglish,0.55,"""Jo bhi aayega, use prasaad milega."" Is vakya mein ""jo bhi"" aur ""use"" ka sanrachnatmak sambandh kya hai?"
+HINDI_000560,HINDI,mixed,Latin,hinglish,0.55,"""Main tumhe kal phone karunga."" Is vakya mein ""tumhe"" kis kaarak mein hai, aur kriya kis ghatak se anvit hai?"
+HINDI_000565,HINDI,mixed,Latin,hinglish,0.55,"""Raju ne Sita ko phool diye."" Is vakya mein kriya ""diye"" bahuvachan kyon hai? Anvay ka aadhar sanrachna se batayiye."
+HINDI_000568,HINDI,mixed,Latin,hinglish,0.55,"""Ghar pahunchkar maine khana khaya."" Is vakya mein asamaapika upvakya kaun sa hai, aur uska kartaa kaun hai?"
+HINDI_000576,HINDI,mixed,Latin,hinglish,0.55,"""Mujhe nahi pata tha ki wo itna achha gaata hai."" Is vakya mein ""Mujhe"" ki bhumika aur ""ki"" upvakya ka sthaan batayiye."
+HINDI_000581,HINDI,mixed,Latin,hinglish,0.55,"""Wo ladki jo laal saari mein hai, meri cousin hai."" Is vakya mein sapeksh upvakya kis sangya ke baad aaya hai, aur mukhy"
+HINDI_000585,HINDI,mixed,Latin,hinglish,0.55,"""Bachchon ko school bhejkar maa office chali gayi."" Is vakya mein ""bhejkar"" waale upvakya ka kartaa kaun hai?"
+HINDI_000588,HINDI,mixed,Latin,hinglish,0.55,"""Kya aap mujhe station ka rasta bata sakte hain?"" Is prashn mein do karm kaunse hain, aur ""sakte hain"" ki sanrachnatmak "
+HINDI_000593,HINDI,mixed,Latin,hinglish,0.55,"""Mere dost ne mujhse kaha ki main use kal mil loon."" Is vakya mein ""main"" aur ""use"" kis-kis ki or sanket karte hain?"
+HINDI_000596,HINDI,mixed,Latin,hinglish,0.55,"""Itna padhne ke baad bhi wo fail ho gaya."" Is vakya mein ""Itna padhne ke baad bhi"" kis prakar ka ghatak hai?"
+HINDI_000601,HINDI,mixed,Latin,hinglish,0.55,"""Hamein bataya gaya ki meeting cancel ho gayi hai."" Is vakya ke mukhya upvakya ka vyakaranik kartaa kaun hai?"
+HINDI_000605,HINDI,mixed,Latin,hinglish,0.55,"""Seeta ki maa ki saheli ka beta doctor hai."" Is vakya mein sambandh padbandhon ki shrinkhala ka antim shirsh kaun hai?"
+HINDI_000608,HINDI,mixed,Latin,hinglish,0.55,"""Wo roya nahi, bas chup-chaap baitha raha."" Is vakya mein dono upvakyon ke beech kartaa aur samuchchaybodhak ki sthiti b"
+HINDI_000613,HINDI,mixed,Latin,hinglish,0.55,"""Agar main tumhari jagah hota to aisa nahi karta."" Is vakya mein shart-upvakya aur parinaam-upvakya ki kriya-sanrachna b"
+HINDI_000616,HINDI,mixed,Latin,hinglish,0.55,"Dost ne poocha, ""Kal movie chalein?"" Jawab mila, ""Kal to mera exam hai."" Is jawab se kya nihitaarth nikalta hai?"
+HINDI_000621,HINDI,mixed,Latin,hinglish,0.55,"Bachcha TV dekh raha tha jab mummy ne kaha, ""Beta, doodh garam ho gaya hai."" Is vakya ka vyavaharik arth kya hai?"
+HINDI_000624,HINDI,mixed,Latin,hinglish,0.55,"Office mein senior ne junior se kaha, ""Tum to bahut mehnati ho, ye extra kaam bhi tum hi sambhal lo."" Is kathan mein pra"
+HINDI_000628,HINDI,mixed,Latin,hinglish,0.55,"Ek parivarik samaroh mein rishtedaar ne poocha, ""Aur beta, naukri kab lag rahi hai?"" Is prashn ki poorvamaanyata kya hai"
+HINDI_000633,HINDI,mixed,Latin,hinglish,0.55,"Train mein saamne baithe vyakti ne kaha, ""Aapka bag thoda idhar aa raha hai."" Is kathan mein kaun si vaak-kriya hai?"
+HINDI_000636,HINDI,mixed,Latin,hinglish,0.55,"Shaadi ka nimantran dete hue phone par kaha gaya, ""Aapko zaroor aana hai, warna hum naraaz ho jayenge."" Is kathan mein """
+HINDI_000641,HINDI,mixed,Latin,hinglish,0.55,"Dost ne poocha, ""Tera phone bahut mast hai yaar, kitne ka liya?"" Kuch log ise sahaj prashn maanenge aur kuch nijta mein "
+HINDI_000644,HINDI,mixed,Latin,hinglish,0.55,"Teacher ne kaha, ""Jinhone homework kiya hai, wo haath uthaayein."" Kuch bachchon ne nazar neeche kar li. Is ashaabdik utt"
+HINDI_000649,HINDI,mixed,Latin,hinglish,0.55,"Pados ke uncle ne kaha, ""Aapki gaadi roz hamare gate ke saamne hi khadi hoti hai."" Is vakya ka asli uddeshya kya hai?"
+HINDI_000653,HINDI,mixed,Latin,hinglish,0.55,"Bhai ne behen se kaha, ""Tu to aise hi har baat pe ro deti hai."" Sandarbh ke anusaar is kathan ka prabhav chidhana, aaloc"
+HINDI_000656,HINDI,mixed,Latin,hinglish,0.55,"Restaurant mein waiter ne kaha, ""Sir, aaj ka special try kijiye, bahut log pasand kar rahe hain."" Is kathan ki vaak-kriy"
+HINDI_000664,HINDI,mixed,Latin,hinglish,0.55,"Phone uthate hi kisi ne kaha, ""Abhi main meeting mein hoon, baad mein baat karte hain."" Is vakya ka vyavaharik kaarya ky"
+HINDI_000669,HINDI,mixed,Latin,hinglish,0.55,"Saas ne nayi bahu se kaha, ""Hamare yahan to sab subah jaldi uth jaate hain."" Bahu is kathan ki kya-kya vyakhya kar sakti"
+HINDI_000673,HINDI,mixed,Latin,hinglish,0.55,"Dost hamesha ""Haan bhai, done!"" likhta tha, par aaj usne sirf ""Theek hai."" likha. Is badlaav se kya nishkarsh nikal sakt"
+HINDI_000676,HINDI,mixed,Latin,hinglish,0.55,"Grahak ne dukaandaar se kaha, ""Ye to online aadhe daam mein mil raha hai."" Is kathan ka vyavaharik uddeshya kya hai?"
+HINDI_000681,HINDI,mixed,Latin,hinglish,0.55,"Meeting ke ant mein boss ne kaha, ""Aur kisi ko kuch kehna hai?"" aur turant files band karne lage. Is sthiti mein prashn "
+HINDI_000695,HINDI,mixed,Latin,hinglish,0.55,Sentence 'Usne apne mitra ki musibat mein haath khade kar diye' mein 'haath khade kar dena' ka contextual meaning kya ha
+HINDI_000696,HINDI,mixed,Latin,hinglish,0.55,'Is samasya ka hal nikalne ke liye hamein sir khapana padega' — yahan 'sir khapana' kis tarah ki mehnat ko darshata hai?
+HINDI_000697,HINDI,mixed,Latin,hinglish,0.55,'Uski chikni-chupdi baaton mein mat aana' — is vakya mein 'chikni-chupdi baatein' kis tarah ke vyavahar ko batata hai?
+HINDI_000699,HINDI,mixed,Latin,hinglish,0.55,'Apni galti pakde jaane par vah baglein jhankne laga' — is sandarbh mein 'baglein jhankna' ka kya arth hai?
+HINDI_000700,HINDI,mixed,Latin,hinglish,0.55,Sentence 'Project deadline miss hone par manager ne team ki class le li' mein 'class le lena' ka colloquial meaning kya 
+HINDI_000701,HINDI,mixed,Latin,hinglish,0.55,'Vah har baat ko til ka taad bana deta hai' — is context mein 'til ka taad banana' kis habit ko describe karta hai?
+HINDI_000702,HINDI,mixed,Latin,hinglish,0.55,'Startup shuru karne ke liye unhone apni saari jama-punji daav par laga di' — yahan 'daav par lagana' ka exact sense kya
+HINDI_000715,HINDI,mixed,Latin,hinglish,0.55,"Vakya: ""Is yojana ke kriyanvayan mein kai prashasnik adchanein aa rahi hain."" Yahan 'kriyanvayan' shabd ka kya arth hai?"
+HINDI_000716,HINDI,mixed,Latin,hinglish,0.55,"Vakya: ""Unke vyavahar mein achanak aaye is rukhepan ne sabko hairan kar diya."" Is sandarbh mein 'rukhepan' ka kya bhav h"
+HINDI_000718,HINDI,mixed,Latin,hinglish,0.55,"Vakya: ""Samay ke saath unki smriti ksheen hoti ja rahi hai."" Is vakya mein 'ksheen' shabd kis sthiti ko batata hai?"
+HINDI_000720,HINDI,mixed,Latin,hinglish,0.55,"Sentence: ""Is delicate matter par kisi bhi tarah ki jaldbaazi situation ko aur jatil bana sakti hai."" Yahan 'jatil' ka k"
+HINDI_000722,HINDI,mixed,Latin,hinglish,0.55,"Sentence: ""Market mein afwah failte hi investors mein afra-tafri mach gayi."" Is sentence mein 'afra-tafri' kis mahol ko "
+HINDI_000735,HINDI,mixed,Latin,hinglish,0.55,"""Usne apni galti स्वीकार karne ke bajay saara ilzam apne sahyogi ke 'madh' diya."" Is vakya mein 'madh dena' kriya ka kya"
+HINDI_000739,HINDI,mixed,Latin,hinglish,0.55,"""Exam ke result aane se pehle sabhi chhatron ki dhadkanein 'tez' ho gayi thin."" Is sandarbh mein 'tez' shabd kis manosth"
+HINDI_000740,HINDI,mixed,Latin,hinglish,0.55,"""Meeting mein manager ne jab naye targets announce kiye, toh sabke chehre par 'hawaiyan udne' lagin."" Is context mein is"
+HINDI_000741,HINDI,mixed,Latin,hinglish,0.55,"""Unki writing style mein ek aisi 'sahajta' hai ki complex topics bhi easily samajh aa jate hain."" Yahan 'sahajta' word k"
+HINDI_000742,HINDI,mixed,Latin,hinglish,0.55,"""Project deadline miss hone par team lead ne koi bahana nahi banaya aur poori 'zimmedari' apne kandhon par le li."" Is se"
+HINDI_000755,HINDI,mixed,Latin,hinglish,0.55,"Is vakya mein 'ko' vibhakti ke alag-alag vyakaranik prayog ko pehchaniye: ""Shikshak ne chhatra ko Monday ko pustak dene "
+HINDI_000757,HINDI,mixed,Latin,hinglish,0.55,"""Woh rote-rote so gaya"" — is vakya mein 'rote-rote' ki vyakaranik kot (grammatical category) aur iske dwirukti (reduplic"
+HINDI_000758,HINDI,mixed,Latin,hinglish,0.55,"Vakya ""Mere paas do bade-bade kale kutte hain"" mein visheshan shabdon ke kram aur unke ling-vachan anvay (agreement) ka "
+HINDI_000759,HINDI,mixed,Latin,hinglish,0.55,"""Tumne yeh kaam kar liya hoga"" — is vakya mein kriya ke kaal aur vakta ke sandeh ya anumanaatmak bhaav ko vyakaranik dri"
+HINDI_000760,HINDI,mixed,Latin,hinglish,0.55,"Sentence ""Usne mujhe apni nayi car dikhayi"" mein possessive pronoun 'apni' ka gender feminine kyon hai, jabki subject 'U"
+HINDI_000762,HINDI,mixed,Latin,hinglish,0.55,"Sentence ""Main kal se is project par kaam kar raha hoon"" mein 'se' postposition aur continuous aspect ke combination se "
+HINDI_000775,HINDI,mixed,Latin,hinglish,0.55,"""Usne khana toh kha liya tha, par paani nahi piya."" Is vakya mein 'toh' nipat ke aane se vakya ke vyakaranik jor mein ky"
+HINDI_000776,HINDI,mixed,Latin,hinglish,0.55,"""Agar baarish hoti, toh fasal achhi hoti."" Is shartiya vakya mein dono upvakyon ke kriya-roop kaun se kaal aur bhav vyak"
+HINDI_000780,HINDI,mixed,Latin,hinglish,0.55,"""Maine usko call kiya tha par usne pick nahi kiya."" Is sentence mein 'usko' aur 'usne' ke beech ka case shift Hindi gram"
+HINDI_000781,HINDI,mixed,Latin,hinglish,0.55,"""Woh roz subah walk pe jaati hai."" Is mein 'walk pe' mein Hindi postposition 'pe' ke saath English noun ka gender agreem"
+HINDI_000782,HINDI,mixed,Latin,hinglish,0.55,"""Humne project time pe submit kar diya hai."" Is sentence mein 'kar diya hai' aspectual auxiliary se completion aur speak"
+HINDI_000796,HINDI,mixed,Latin,hinglish,0.55,"""Woh itna kamzor hai ki chal bhi nahi sakta."" Is mishra vakya mein pradhan upvakya aur ashrit upvakya ko alag-alag kijiy"
+HINDI_000798,HINDI,mixed,Latin,hinglish,0.55,"""Ped se patte gir rahe hain"" aur ""Chaku se phal kata gaya""—in dono vakyon mein 'se' parasarg ka karak bhed spasht kijiye"
+HINDI_000799,HINDI,mixed,Latin,hinglish,0.55,"""Kaash main aaj ghar ja pata!"" Is vakya mein kaun-sa kaal aur vritti (mood) prayukt hui hai?"
+HINDI_000800,HINDI,mixed,Latin,hinglish,0.55,"Sentence ""Usne mujhe apni kitaab padhne ke liye di"" mein 'padhne ke liye' ka grammatical role aur infinitive structure e"
+HINDI_000801,HINDI,mixed,Latin,hinglish,0.55,"""Mere aane se pehle hi train ja chuki thi."" Is sentence mein 'ja chuki thi' kis tense aur aspect ko represent karta hai?"
+HINDI_000843,HINDI,mixed,Latin,hinglish,0.55,"Vakya: ""Usne apni mehnat se patthar par bhi phool khila diye."" Is sandarbh mein 'patthar par phool khilana' ka kya arth "
+HINDI_000845,HINDI,mixed,Latin,hinglish,0.55,"Vakya: ""Dost ki dhokhebazi ke baad uski aankhon par pada parda hat gaya."" 'Aankhon ka parda hatna' ka is vakya mein kya "
+HINDI_000849,HINDI,mixed,Latin,hinglish,0.55,"Vakya: ""Khel ke maidan mein aaj dono teamon ke beech kaante ki takkar dekhne ko mili."" 'Kaante ki takkar' ka is sandarbh"
+HINDI_000850,HINDI,mixed,Latin,hinglish,0.55,"Vakya: ""Usne bina soche-samjhe apni pairon par khud kulhadi maar li."" Is kathan mein 'pairon par kulhadi maarna' kis par"
+HINDI_000853,HINDI,mixed,Latin,hinglish,0.55,"Vakya: ""Naye manager ke aate hi office ka pura naksha badal gaya."" Is vakya mein 'naksha badalna' bhaugolik badlav hai y"
+HINDI_000856,HINDI,mixed,Latin,hinglish,0.55,"Vakya: ""Exam ke ek din pehle usne kitab kholi, ab toh bas lakir peetne jaisa haal hai."" Is sandarbh mein 'lakir peetna' "
+HINDI_000859,HINDI,mixed,Latin,hinglish,0.55,"Sentence: ""Startup fail hone ke baad bhi usne haar nahi maani aur rakh se uthkar phir khada hua."" Is context mein 'rakh "
+HINDI_000860,HINDI,mixed,Latin,hinglish,0.55,"Sentence: ""Meeting mein boss ne uski presentation ki aisi dhajjiyan udayin ki woh chup reh gaya."" Yahan 'dhajjiyan udana"
+HINDI_000861,HINDI,mixed,Latin,hinglish,0.55,"Sentence: ""Social media par uski ek post ne aag mein ghee ka kaam kiya."" Is digital context mein is idiom ka exact sense"
+HINDI_000862,HINDI,mixed,Latin,hinglish,0.55,"Sentence: ""Woh project ke har step par phoonk-phoonk kar kadam rakh raha hai."" Yahan 'phoonk-phoonk kar kadam rakhna' ki"
+HINDI_000863,HINDI,mixed,Latin,hinglish,0.55,"Sentence: ""Interview panel ke samne uski bolti band ho gayi."" Is situation mein 'bolti band hona' ka kya meaning nikalta"
+HINDI_000864,HINDI,mixed,Latin,hinglish,0.55,"Sentence: ""Company ke naye CEO ne purane system ko jad se ukhad phenka."" Is context mein 'jad se ukhad phenkna' ka figur"
+HINDI_000865,HINDI,mixed,Latin,hinglish,0.55,"Sentence: ""Usne apne career mein कई utaar-chadhav dekhe hain, par kabhi raasta nahi badla."" Yahan 'utaar-chadhav' aur 'r"
+HINDI_000866,HINDI,mixed,Latin,hinglish,0.55,"Sentence: ""Team ke beech चल rahi khichdi ko manager ne turant pakad liya."" Is workplace context mein 'khichdi pakna' ka "
+HINDI_000867,HINDI,mixed,Latin,hinglish,0.55,"Sentence: ""Market mein naye competitor ke aate hi unki dukaan thandi pad gayi."" Business context mein 'dukaan thandi pad"
+HINDI_000868,HINDI,mixed,Latin,hinglish,0.55,"Sentence: ""Usne apni galti par parda dalne ke liye कई bahane banaye."" Yahan 'parda dalna' kis intention ko show karta ha"
+HINDI_000919,HINDI,mixed,Latin,hinglish,0.55,Vakya 'Mohan kal Dilli jayega aur wahan se Jaipur jayega' mein samuchchaybodhak avyay 'aur' kin do ghatakon ko jod raha 
+HINDI_000923,HINDI,mixed,Latin,hinglish,0.55,Vakya 'Agar tum mehnat karoge to zaroor safal hoge' mein shartvachak upvakya kaun-sa hai?
+HINDI_000926,HINDI,mixed,Latin,hinglish,0.55,Sentence 'Bazaar se kharidi hui taazi sabziyan kitchen mein rakhi hain' mein subject noun phrase ka head word aur uske m
+HINDI_000928,HINDI,mixed,Latin,hinglish,0.55,Sentence 'Ladkiyon ne ek bahut sundar geet gaya' mein verb 'gaya' masculine singular kyun hai jabki subject feminine plu
+HINDI_000930,HINDI,mixed,Latin,hinglish,0.55,Sentence 'Mujhe tumhari yeh nayi baat bilkul samajh nahi aayi' mein dative subject aur verb agreement controller identif
+HINDI_000932,HINDI,mixed,Latin,hinglish,0.55,Sentence 'Usne chai peete-peete akhbar padha' mein participial adverbial phrase 'chai peete-peete' ki syntactic role kya
+HINDI_000934,HINDI,mixed,Latin,hinglish,0.55,Sentence 'Teacher ne students se essay likhwaya' mein causative verb 'likhwaya' ke arguments ki grammatical roles bataiy
+HINDI_000976,HINDI,mixed,Latin,hinglish,0.55,"Office mein der se aane par manager ne kaha, 'Kya baat hai, aaj toh aap bahut jaldi aa gaye!' Is vakya ka asli matlab ky"
+HINDI_000978,HINDI,mixed,Latin,hinglish,0.55,"Ek dost ne doosre se kaha, 'Yaar, kal meri gaadi service center mein rahegi aur mujhe airport jaana hai.' Is baat ke pee"
+HINDI_000979,HINDI,mixed,Latin,hinglish,0.55,"Maa ne bete se kaha, 'Tumhara kamra dekh kar lagta hai yahan bomb phata hai.' Is vakya ka communicative goal kya hai?"
+HINDI_000980,HINDI,mixed,Latin,hinglish,0.55,"Shadi ke card par rishtedar ne kaha, 'Poori koshish karenge aane ki, bas us din ek zaroori kaam hai.' Is jawab ka vyavah"
+HINDI_000981,HINDI,mixed,Latin,hinglish,0.55,"Meeting mein senior ne kaha, 'Kya hum is topic par agle hafte baat kar sakte hain?' Is sawal ka asli uddeshya kya hai?"
+HINDI_000984,HINDI,mixed,Latin,hinglish,0.55,"Dost ne nayi shirt pehen kar poochha, 'Kaisi lag rahi hai?' Doosre ne kaha, 'Colour toh kaafi bright hai.' Is jawab mein"
+HINDI_000985,HINDI,mixed,Latin,hinglish,0.55,"Restaurant mein customer ne waiter se kaha, 'Yahan AC thoda kam chal raha hai.' Waiter is baat se kya action lega?"
+HINDI_000986,HINDI,mixed,Latin,hinglish,0.55,"Teacher ne shor karti class se kaha, 'Lagta hai kuch bachchon ko bahar jaakar baatein karni chahiye.' Is kathan ka asli "
+HINDI_000987,HINDI,mixed,Latin,hinglish,0.55,"Phone par ek dost ne kaha, 'Achha, main tumhe thodi der mein call karta hoon, abhi thoda kaam hai.' Yeh vakya conversati"
+HINDI_000988,HINDI,mixed,Latin,hinglish,0.55,"Kisi ne poochha, 'Kya aap chai piyenge?' aur jawab mila, 'Abhi-abhi pi kar aaya hoon.' Is jawab ka vyavaharik karya kya "
+HINDI_000989,HINDI,mixed,Latin,hinglish,0.55,"Padosi ne kaha, 'Kal raat aapke ghar se bahut tez music ki awaaz aa rahi thi.' Is kathan ke peeche kaun si shikayat ya a"
+HINDI_000991,HINDI,mixed,Latin,hinglish,0.55,"Purane dost se milne par ek vyakti ne kaha, 'Arre, tum toh Eid ke chaand ho gaye ho!' Is kathan ka sanvadatmak uddeshya "
+HINDI_000992,HINDI,mixed,Latin,hinglish,0.55,"Office mein late aane par manager ne kaha, 'Aaj toh aap bahut jaldi aa gaye!' Is context mein speaker ka actual intentio"
+HINDI_000993,HINDI,mixed,Latin,hinglish,0.55,"Ghar aaye guest ne kaha, 'Bahar bahut garmi hai, gala bilkul sookh raha hai.' Host ke liye is statement ka indirect impl"
+HINDI_000994,HINDI,mixed,Latin,hinglish,0.55,"Ek colleague ne doosre se kaha, 'Kal meri car service pe ja rahi hai aur mujhe subah client meeting mein pahunchna hai.'"
+HINDI_000995,HINDI,mixed,Latin,hinglish,0.55,"Dinner ke baad host ne clock dekhte hue kaha, 'Arre, raat ke gyarah baj gaye!' Is utterance ka conversational function k"
+HINDI_000996,HINDI,mixed,Latin,hinglish,0.55,"Nayi dress dikha kar friend ne poochha, 'Kaisi lag rahi hai?' aur reply mila, 'Design toh kaafi unique hai.' Is response"
+HINDI_000997,HINDI,mixed,Latin,hinglish,0.55,"Meeting mein team lead ne kaha, 'Idea achha hai, par budget thoda tight hai.' Yeh statement kis tarah ka indirect refusa"
+HINDI_000998,HINDI,mixed,Latin,hinglish,0.55,"Kisi ne tea offer ki aur samne wale ne kaha, 'Nahi, abhi-abhi pi hai.' Is context mein yeh response polite refusal kaise"
+HINDI_000999,HINDI,mixed,Latin,hinglish,0.55,"Manager ne report wapas karte hue kaha, 'Ise ek baar phir se review kar lijiye.' Is polite directive ka actual pragmatic"
+HINDI_001001,HINDI,mixed,Latin,hinglish,0.55,"Phone conversation ke end mein speaker ne kaha, 'Chaliye, phir baat karte hain.' Yeh discourse marker conversation closi"
+HINDI_001056,HINDI,mixed,Latin,hinglish,0.55,‘Lachila’ aur ‘anukoolansheel’ shabdon mein flexibility ka sense kaise badalta hai?
+HINDI_001076,HINDI,mixed,Latin,hinglish,0.55,'Kisi ne darwaza khola' aur 'Darwaza khul gaya' mein agent expression aur intransitive change-of-state ka contrast kya h
+HINDI_001078,HINDI,mixed,Latin,hinglish,0.55,"'Jab main pahuncha, woh ja chuka tha' aur 'Jab main pahuncha, woh gaya' mein relative timing ka difference samjhaiye."
+HINDI_001137,HINDI,mixed,Latin,hinglish,0.55,‘Cheap’ aur ‘sasta’ price ke saath quality ka kya implication rakhte hain?
+HINDI_001294,HINDI,uncertain,Latin,uncertain,0.45,isa snvada ke vinamra aura spashta roopantara kee tulana karake chehara bachane kee rananeeti men antara bataie। udahara
+HINDI_001298,HINDI,mixed,Latin,hinglish,0.55,hindee aura angreja़ee men isa prasnga ke vinamra sujhava ko vyakta karane ke tareekon kee tulana keejie। batacheeta ka 
+HINDI_001301,HINDI,uncertain,Latin,uncertain,0.45,isa prasnga men shabdika artha aura sndarbha-aadharita sammanasoochaka snbodhana kee tulana keejie। batacheeta ka sndarb
+HINDI_001302,HINDI,uncertain,Latin,uncertain,0.45,isa prasnga men seedhe kathana aura apratyaksha kathana kee tulana snvada men baree lena ke drishtikona se keejie। sthit
+HINDI_001305,HINDI,uncertain,Latin,uncertain,0.45,do alaga samajika snbndhon men yahee kathana sunane para apratyaksha anurodha kee vyakhya kaise badala sakatee hai? sthi
+HINDI_001306,HINDI,uncertain,Latin,uncertain,0.45,isa snvada ke vinamra aura spashta roopantara kee tulana karake samajika dooree men antara bataie। udaharana: ghara aae 
+HINDI_001307,HINDI,uncertain,Latin,uncertain,0.45,isa prasnga men shabdika artha aura sndarbha-aadharita asahamati vyakta karana kee tulana keejie। batacheeta ka sndarbha
+HINDI_001378,HINDI,mixed,Latin,hinglish,0.55,'Request' ke liye 'anurodh' aur 'nivedan' dono use hote hain. In dono mein formality ke level par kya difference hai?
+HINDI_001379,HINDI,mixed,Latin,hinglish,0.55,"'Mehnat' aur 'parishram' ka meaning almost same lagta hai, but kya in dono ke use mein koi difference hai?"
+HINDI_001393,HINDI,mixed,Latin,hinglish,0.55,'Khushi' aur 'prasannata' mein formality ke level par kya antar hai?
+HINDI_001459,HINDI,mixed,Latin,hinglish,0.55,"""Unhone"" aur ""unne"" — in dono mein se kaun sa roop manak Hindi mein sweekarya hai? Bolchaal aur likhit Hindi mein in roo"
+HINDI_001462,HINDI,mixed,Latin,hinglish,0.55,"""Agar"" aur ""jab"" se shuru hone waale upvakyon mein kriya-roop ke chunaav mein kya antar hai? ""Agar wo aaye to..."" aur ""J"
+HINDI_001589,HINDI,mixed,Latin,hinglish,0.55,"""Main jaana chahta hoon"" aur ""Main chahta hoon ki main jaaoon"" — ek upvakya waali aur do upvakya waali sanrachna ki tuln"
+HINDI_001599,HINDI,uncertain,Latin,uncertain,0.45,"Hindi complementizer ""कि"" aur English ""that"" — complement clause की position aur optional deletion के rules compare कीजि"
+HINDI_001609,HINDI,mixed,Latin,hinglish,0.55,"Hindi ke ""Ram Shyam se lamba hai"" aur English ""Ram is taller than Shyam"" mein tulnatmak sanrachna ka antar batayiye."
+HINDI_001625,HINDI,mixed,Latin,hinglish,0.55,"""Tumne mera kaam bigaad diya"" aur ""Lagta hai kuch gadbad ho gayi"" — dosh lagane ke in dono tareekon ki tulna kijiye."
+HINDI_001629,HINDI,mixed,Latin,hinglish,0.55,"""Khaana bahut swadisht tha"" aur ""Aaj to pet bhar gaya, mann nahi bhara"" — prashansa ke in dono roopon ki tulna kijiye."
+HINDI_001634,HINDI,mixed,Latin,hinglish,0.55,"""Mujhe nahi chahiye"" aur ""Nahi, rehne dijiye, shukriya"" — prastaav thukraane ke in dono tareekon ki tulna kijiye."
+HINDI_001645,HINDI,mixed,Latin,hinglish,0.55,"""Kya haal hai?"" aur ""Sab kushal-mangal?"" — haal-chaal poochhne ke in dono tareekon mein register ki tulna kijiye."
+HINDI_001662,HINDI,mixed,Latin,hinglish,0.55,"""Haan, theek hai"" aur ""Haan-haan, bilkul!"" — sahmati ke in dono roopon mein utsaah aur anichchha ke sanketon ki tulna ki"
+HINDI_001674,HINDI,mixed,Latin,hinglish,0.55,"Der se aane waale se ""Aap bahut late aaye"" kehna aur ""Sab aapka hi intezaar kar rahe the"" kehna — dono pratikriyaon ki t"
+HINDI_001677,HINDI,mixed,Latin,hinglish,0.55,"""Mere paas time nahi hai"" aur ""Is hafte to mushkil hai, agle hafte dekhein?"" — dono inkaar mein bhavishya ki sambhavna k"
+HINDI_001722,HINDI,mixed,Latin,hinglish,0.55,"'Aalochna' aur 'Ninda' mein kya difference hai, especially jab hum kisi creative work ka review kar rahe hon?"
+HINDI_001758,HINDI,mixed,Latin,hinglish,0.55,"""Ram aur Shyam aaye"" (sanyukt vakya) aur ""Ram ne kaha ki Shyam aaya hai"" (mishra vakya) — in dono vakya-sanrachnaon mein"
+HINDI_001759,HINDI,mixed,Latin,hinglish,0.55,"""Kitab mez par rakhi hai"" (stative resultative) aur ""Kitab mez par rakhi ja rahi hai"" (passive progressive) — in dono sa"
+HINDI_001782,HINDI,mixed,Latin,hinglish,0.55,"""Usne email bhej diya"" aur ""Usne email bhej diya hai"" mein simple past aur present perfect ke grammar aspect mein kya co"
+HINDI_001797,HINDI,mixed,Latin,hinglish,0.55,"""Main yeh kitab padh sakta hoon"" aur ""Mujhse yeh kitab padhi ja sakti hai""—in dono vakyon ki vachya sanrachna aur prayog"
+HINDI_001799,HINDI,mixed,Latin,hinglish,0.55,"""Jo ladka wahan khada hai, woh mera bhai hai"" aur ""Wahan khada ladka mera bhai hai""—in dono vakyon ki sanrachna (mishra "
+HINDI_001800,HINDI,mixed,Latin,hinglish,0.55,"""Usne chai pi li"" aur ""Usne chai pi""—in dono vakyon mein ranjak kriya 'lena' ke judne se vyakaranik aur arthgat kya badl"
+HINDI_001801,HINDI,mixed,Latin,hinglish,0.55,"""Mujhe Hindi aati hai"" aur ""Main Hindi jaanta hoon""—in dono sentences ke grammatical subject, verb agreement, aur usage "
+HINDI_001802,HINDI,mixed,Latin,hinglish,0.55,"""Gate khul gaya"" (inchoative/intransitive) aur ""Gate khola gaya"" (passive)—in dono Hindi structures ke grammatical diffe"
+HINDI_001845,HINDI,mixed,Latin,hinglish,0.55,"Vakya 1: ""Woh ghar gaya."" aur Vakya 2: ""Woh ghar chala gaya."" In dono vakyon ke arth mein kya sukshma antar hai?"
+HINDI_001857,HINDI,mixed,Latin,hinglish,0.55,"Vakya 1: ""Usne mujhse kaha."" aur Vakya 2: ""Usne mujhe bataya."" In dono kriyaon ke arth mein soochana dene ke tareeke ka "
+HINDI_001862,HINDI,mixed,Latin,hinglish,0.55,"Sentence 1: ""Yeh feature sirf pro users ke liye hai."" aur Sentence 2: ""Yeh feature pro users ke liye hi hai."" Dono sente"
+HINDI_001864,HINDI,mixed,Latin,hinglish,0.55,"Sentence 1: ""Mujhe lagta hai ki woh aayega."" aur Sentence 2: ""Mujhe vishwas hai ki woh aayega."" Epistemic certainty ke l"
+HINDI_001866,HINDI,mixed,Latin,hinglish,0.55,"Sentence 1: ""Usne galti se file delete ki."" aur Sentence 2: ""Usse galti se file delete ho gayi."" Agentivity aur intentio"
+HINDI_001868,HINDI,mixed,Latin,hinglish,0.55,"Sentence 1: ""Woh abhi tak office mein hai."" aur Sentence 2: ""Woh abhi bhi office mein hai."" 'Abhi tak' aur 'abhi bhi' ke"
+HINDI_001925,HINDI,mixed,Latin,hinglish,0.55,Hindi ke 'Usne seb khaya' aur English ke 'He ate an apple' ki vakya-sanrachna mein padkram aur kriya anviti ke mukhya an
+HINDI_001934,HINDI,mixed,Latin,hinglish,0.55,Hindi ki postpositional structure ('मेज़ के ऊपर') aur English ki prepositional structure ('on the table') ke head-direct
+HINDI_001977,HINDI,mixed,Latin,hinglish,0.55,Asahmati jatane ke liye 'Yeh bilkul galat hai' kehne aur 'Shayad is par ek baar phir socha ja sakta hai' kehne ke prabha
+HINDI_001993,HINDI,mixed,Latin,hinglish,0.55,Disagreement express karte samay 'Yeh bilkul galat hai' aur 'Shayad is angle se bhi dekha ja sakta hai' ke pragmatic imp
+HINDI_001997,HINDI,mixed,Latin,hinglish,0.55,Argument ke dauran 'Aap galat samajh rahe hain' aur 'Shayad main theek se explain nahi kar paya' ke beech face-saving st
+HINDI_001998,HINDI,mixed,Latin,hinglish,0.55,Formal meeting mein 'Kripya shant rahein' aur friends ke beech 'Chup ho jao yaar' ke register aur appropriateness mein k
+HINDI_002015,HINDI,mixed,Latin,hinglish,0.55,‘Nipun’ ke do Hindi paryayvachi bataiye.
+HINDI_002019,HINDI,mixed,Latin,hinglish,0.55,‘deadline’ ke liye sandarbh-anukul Hindi shabd chunne ka ek udaharan dijiye.
+HINDI_002060,HINDI,mixed,Latin,hinglish,0.55,‘Prasangik’ word ka exact sense kya hota hai jab kisi baat ko topic se related kaha jaye?
+HINDI_002101,HINDI,mixed,Latin,hinglish,0.55,Hindi mein relative clause ko aam taur par kis tarah ke shabdon se shuru kiya jaata hai?
+HINDI_002137,HINDI,mixed,Latin,hinglish,0.55,‘Positive’ shabd feedback aur test result mein alag meaning kyun leta hai?
+HINDI_002147,HINDI,mixed,Latin,hinglish,0.55,"‘Fine’ ka meaning penalty, quality aur health ke context mein alag kaise hota hai?"
+HINDI_002148,HINDI,mixed,Latin,hinglish,0.55,"‘Open’ ka meaning meeting, door aur attitude ke context mein kaise badalta hai?"
+HINDI_002162,HINDI,mixed,Latin,hinglish,0.55,‘Light’ ka Hindi sentence mein ‘halka’ aur ‘roshni’ wala sense kaise distinguish hoga?
+HINDI_002230,HINDI,uncertain,Latin,uncertain,0.45,vakya sima aura virama men mukhya ghataka kauna-kauna se hote hain? eka hindi udaharana sahita samajhaie।
+HINDI_002352,HINDI,mixed,Latin,hinglish,0.55,'Vishwaas' shabd ke do paryayvachi shabd kya hain?
+HINDI_002442,HINDI,mixed,Latin,hinglish,0.55,"Hindi mein bhaavvachak sangya banane ke liye kaun-kaun se pratyay jode jaate hain? ""-ta"", ""-pan"" aur ""-aahat"" ke do-do u"
+HINDI_002493,HINDI,mixed,Latin,hinglish,0.55,"""Daal"" (khaane ki daal) aur ""daal"" (ped ki shaakha) kya ek hi shabd ke do arth hain ya do alag shabd? Samnamta ke aadhar"
+HINDI_002514,HINDI,mixed,Latin,hinglish,0.55,"""Aankh lagna"", ""aankh churaana"" aur ""aankh dikhana"" — in teeno muhavron ke arth batayiye."
+HINDI_002574,HINDI,mixed,Latin,hinglish,0.55,"Hindi mein prashnvaachak shabd ""kya"" ke do sanrachnatmak prayog kaun se hain — haan/na prashn-chinh aur vastu-vaachak pr"
+HINDI_002589,HINDI,mixed,Latin,hinglish,0.55,"Sanyukt vakya mein do swatantra upvakyon ke beech kartaa ka lop kab sambhav hai? ""Ram aaya aur chala gaya"" ka vishleshan"
+HINDI_002619,HINDI,uncertain,Latin,uncertain,0.45,Brown aur Levinson की politeness theory के main concepts — positive politeness aur negative politeness — को Hindi conver
+HINDI_002629,HINDI,mixed,Latin,hinglish,0.55,"Hindi mein ""arre"" aur ""are yaar"" jaise vismayadibodhak shabdon ke vyavaharik kaarya kya hain?"
+HINDI_002719,HINDI,mixed,Latin,hinglish,0.55,'Bhranti' shabd ka arth batate hue iske do samanarthi shabd likhiye.
+HINDI_002741,HINDI,mixed,Latin,hinglish,0.55,Hindi vocabulary mein 'tatsam' words ka kya matlab hota hai aur 'agni' is category mein kyun aata hai?
+HINDI_002743,HINDI,mixed,Latin,hinglish,0.55,Hindi idiom 'aasteen ka saamp' kis type ke person ya behavior ko describe karne ke liye use hota hai?
+HINDI_002760,HINDI,mixed,Latin,hinglish,0.55,"Hindi vyakaran mein 'nipat' (particles) ki kya paribhasha hai? Pramukh nipat shabdon jaise 'hi', 'bhi', 'to', aur 'tak' "
+HINDI_002777,HINDI,mixed,Latin,hinglish,0.55,"Hindi ke anekarthak ya avikari shabd jaise 'bhi', 'hi', 'to', aur 'tak' nipat ke roop mein vakya ke kis hisse ke baad aa"
+HINDI_002781,HINDI,mixed,Latin,hinglish,0.55,"Hindi grammar mein jab sentence ka subject plural aur feminine ho par uske saath 'ko' lag jaye, toh verb agreement ka ru"
+HINDI_002845,HINDI,mixed,Latin,hinglish,0.55,'Phal' shabd ke do alag-alag arth batayein—ek vanaspati se juda aur doosra parinam se juda.
+HINDI_002849,HINDI,mixed,Latin,hinglish,0.55,'Sona' shabd ke do samrupi bhinnarthak (homonymous) arth kya hain?
+HINDI_002852,HINDI,mixed,Latin,hinglish,0.55,'Bhaag' shabd ke do alag-alag arth—ek hissa aur doosra kismat—kya anekarthakta ke udaharan hain?
+HINDI_002856,HINDI,mixed,Latin,hinglish,0.55,'Guru' shabd ke do bhinn arth (shikshak aur bhari) spasht kijiye.
+HINDI_002861,HINDI,mixed,Latin,hinglish,0.55,'Aam' shabd Hindi mein polysemy ya homonymy ka example hai jab iska meaning 'mango' aur 'common/ordinary' dono hota hai?
+HINDI_002867,HINDI,mixed,Latin,hinglish,0.55,'मत' shabd ke do distinct meanings ('opinion/vote' aur 'negation particle') ke beech kya semantic difference hai?
+HINDI_002919,HINDI,mixed,Latin,hinglish,0.55,Hindi vakya mein 'apna' nijavachak sarvanam kis sangya padbandh ki or sanket karta hai?
+HINDI_002923,HINDI,mixed,Latin,hinglish,0.55,"Hindi vakya mein nipat ('hi', 'bhi', 'to') kis ghatak ke theek baad lagkar us par bal dete hain?"
+HINDI_002928,HINDI,mixed,Latin,hinglish,0.55,Hindi relative clauses mein correlative strategy ('jo... vo') kaise kaam karti hai aur iske teen main positions kya hain
+HINDI_002930,HINDI,mixed,Latin,hinglish,0.55,Hindi mein wh-in-situ phenomenon kya hai aur question words sentence ke kis position mein base-generated hote hain?
+HINDI_002932,HINDI,mixed,Latin,hinglish,0.55,Hindi verb phrase mein auxiliary verbs (aspectual aur tense auxiliaries) ka linear order kya hota hai?
+HINDI_002933,HINDI,mixed,Latin,hinglish,0.55,Hindi mein 'ki' complementizer clause ko main clause ke right side mein extrapose karne ka syntactic rule kya hai?
+HINDI_002934,HINDI,mixed,Latin,hinglish,0.55,Hindi noun phrase mein genitive modifier ('ka/ke/ki') aur adjective ke beech standard constituent order kya hota hai?
+HINDI_002935,HINDI,mixed,Latin,hinglish,0.55,Hindi mein scrambling (free word order) kis had tak allowed hai aur kaun-se phrases island constraints dikhate hain?
+HINDI_002976,HINDI,mixed,Latin,hinglish,0.55,"Kisi ke ghar jaane par 'are, takalluf ki kya zaroorat thi' kehne ke peeche kaun sa vyavaharik uddeshya chhipa hota hai?"
+HINDI_003016,HINDI,mixed,Latin,hinglish,0.55,Kisi product ki quality batane ke liye ‘bharosemand’ shabd ka natural vakya likhein.
+HINDI_003034,HINDI,mixed,Latin,hinglish,0.55,Customer ko delay batate hue ‘khed’ shabd ka vinamra prayog karein.
+HINDI_003037,HINDI,mixed,Latin,hinglish,0.55,Kisi team member ko ‘samanvay’ shabd ka arth samjhate hue practical sentence likhein.
+HINDI_003053,HINDI,mixed,Latin,hinglish,0.55,Customer support reply mein ‘asुविधा’ ke liye khed aur ‘pareshani’ ke liye maafi—kaunsa Hindi phrase zyada professional 
+HINDI_003054,HINDI,mixed,Latin,hinglish,0.55,"Resume mein ‘kaam kiya’ ke bajay ‘sanchalit’, ‘sahayog kiya’ ya ‘viksit kiya’ jaise verbs ka selection kaise karein?"
+HINDI_003057,HINDI,mixed,Latin,hinglish,0.55,"Kisi meeting minutes mein ‘sujhav’, ‘prastav’ aur ‘nirnay’ ko alag headings dena meaning clarity ke liye kyun zaroori ha"
+HINDI_003095,HINDI,mixed,Latin,hinglish,0.55,Customer ko Hindi mein batayein ki unka order bhej diya gaya hai; karmavaachya aur kaal ka sahi prayog karein.
+HINDI_003098,HINDI,mixed,Latin,hinglish,0.55,"Meeting invitation mein “tum aa sakte ho” ko professional, sammanjanak Hindi mein badaliye aur kriya ka roop samjhaiye."
+HINDI_003100,HINDI,mixed,Latin,hinglish,0.55,Ek Hindi product description mein vastu ke ling-vachan ke anuroop do visheshan aur ek kriya ka sahi samjhauta dikhayein.
+HINDI_003115,HINDI,mixed,Latin,hinglish,0.55,"Phone par appointment badalne ke liye Hindi mein do vaakya banayein, jinmein sambhaavna aur vinamr anurodh ho."
+HINDI_003116,HINDI,mixed,Latin,hinglish,0.55,Ek delivery update likhein jismein vastu bheji ja chuki hai aur tracking abhi chal rahi hai; dono kriya-paksh dikhayein.
+HINDI_003118,HINDI,mixed,Latin,hinglish,0.55,Ek office memo mein do departments ke kaam ka sambandh “jabki” ya “lekin” se spasht karein.
+HINDI_003129,HINDI,mixed,Latin,hinglish,0.55,‘No signal’ phone display par network aur device ke meaning ko distinguish karein.
+HINDI_003130,HINDI,mixed,Latin,hinglish,0.55,‘File is read-only’ ka editing capability ke context mein Hindi meaning batayein.
+HINDI_003132,HINDI,mixed,Latin,hinglish,0.55,‘Priority seating’ sign ka practical meaning aur eligible users ka scope batayein.
+HINDI_003134,HINDI,uncertain,Latin,uncertain,0.45,‘One item per customer’ retail rule ka quantity restriction explain karein.
+HINDI_003135,HINDI,mixed,Latin,hinglish,0.55,‘Delivery attempted’ status ka exact implication kya hai—parcel delivered hai ya nahi?
+HINDI_003137,HINDI,mixed,Latin,hinglish,0.55,‘Payment due within 7 days’ ka deadline meaning aur ambiguity batayein.
+HINDI_003142,HINDI,mixed,Latin,hinglish,0.55,‘Service resumes shortly’ notice mein shortly ka uncertain time meaning kya hai?
+HINDI_003151,HINDI,mixed,Latin,hinglish,0.55,‘Do not fold’ document instruction ka semantic scope kya hai?
+HINDI_003157,HINDI,mixed,Latin,hinglish,0.55,‘Valid only on weekdays’ offer ki date condition Hindi mein samjhaiye.
+HINDI_003163,HINDI,mixed,Latin,hinglish,0.55,‘Terms apply’ promotion mein terms ka semantic scope customer ko kaise samjhayega?
+HINDI_003171,HINDI,mixed,Latin,hinglish,0.55,‘The road is closed ahead’ ko driver ke perspective se interpret karein.
+HINDI_003173,HINDI,mixed,Latin,hinglish,0.55,‘No return after opening’ product policy mein kis action ko prohibit karta hai?
+HINDI_003176,HINDI,mixed,Latin,hinglish,0.55,‘Please keep the aisle clear’ ka real-world instruction meaning kya hai?
+HINDI_003178,HINDI,mixed,Latin,hinglish,0.55,Public notice ‘Yahan parking mana hai’ ka exact practical meaning aur scope batayein.
+HINDI_003184,HINDI,mixed,Latin,hinglish,0.55,‘Entry by appointment only’ ka access rule Hindi mein explain karein.
+HINDI_003229,HINDI,uncertain,Latin,uncertain,0.45,kisi hindi bhasha-shiksharthi ko 'bachche aura shikshka sabhagara men pahunche' men vakya sima aura virama samajhane ke 
+HINDI_003233,HINDI,uncertain,Latin,uncertain,0.45,hindi parser ke lie parasargiya padabndha pahachanane vala eka sarala niyama prastavita karen aura udaharana se janchen।
+HINDI_003235,HINDI,uncertain,Latin,uncertain,0.45,hindi parser ke lie karma-kriya anviti pahachanane vala eka sarala niyama prastavita karen aura udaharana se janchen।
+HINDI_003237,HINDI,uncertain,Latin,uncertain,0.45,hindi parser ke lie sapeksh upavakya pahachanane vala eka sarala niyama prastavita karen aura udaharana se janchen।
+HINDI_003238,HINDI,uncertain,Latin,uncertain,0.45,hindi parser ke lie puraka upavakya pahachanane vala eka sarala niyama prastavita karen aura udaharana se janchen।
+HINDI_003239,HINDI,uncertain,Latin,uncertain,0.45,hindi parser ke lie samuchchaya aura snyojana pahachanane vala eka sarala niyama prastavita karen aura udaharana se janc
+HINDI_003240,HINDI,uncertain,Latin,uncertain,0.45,hindi parser ke lie ashrita upavakya pahachanane vala eka sarala niyama prastavita karen aura udaharana se janchen।
+HINDI_003241,HINDI,uncertain,Latin,uncertain,0.45,hindi parser ke lie nishedha snrachana pahachanane vala eka sarala niyama prastavita karen aura udaharana se janchen।
+HINDI_003242,HINDI,uncertain,Latin,uncertain,0.45,hindi parser ke lie prashnavachaka snrachana pahachanane vala eka sarala niyama prastavita karen aura udaharana se janch
+HINDI_003296,HINDI,uncertain,Latin,uncertain,0.45,"isa prasnga ke lie aisa vaikalpika kathana sujhaie jo snvada men baree lena banae rakhe, lekina adhika upayukta lage। ud"
+HINDI_003297,HINDI,mixed,Latin,hinglish,0.55,kisee grahaka-seva ya karyasthala snvada men isa sthiti ke snvada-soochaka avyaya ko pahachanane ka vyavaharika tareeka 
+HINDI_003302,HINDI,uncertain,Latin,uncertain,0.45,"isa prasnga ke lie aisa vaikalpika kathana sujhaie jo sahamati ka snketa banae rakhe, lekina adhika upayukta lage। udaha"
+HINDI_003304,HINDI,mixed,Latin,hinglish,0.55,isa batacheeta ko adhika sammanajanaka ya sndarbhanukoola banane ke lie batacheeta men nihita snketa se snbndhita kya ba
+HINDI_003308,HINDI,uncertain,Latin,uncertain,0.45,"isa prasnga ke lie aisa vaikalpika kathana sujhaie jo vinamra asveekriti banae rakhe, lekina adhika upayukta lage। udaha"
+HINDI_003333,HINDI,mixed,Latin,hinglish,0.55,Hindi mein business email likhte waqt 'madad' ke liye kaun se shabd zyada professional lagenge?
+HINDI_003352,HINDI,mixed,Latin,hinglish,0.55,Hindi presentation mein 'yojana' ke liye kaun se shabd formal sthiti mein behtar lagenge?
+HINDI_003358,HINDI,mixed,Latin,hinglish,0.55,Hindi mein email subject line likhte waqt 'reminder' ke liye kaun se shabd zyada professional lagenge?
+HINDI_003371,HINDI,mixed,Latin,hinglish,0.55,Dost ko shaadi ki badhai dene ke liye 'shubhkaamna' ya 'mangalkaamna' mein se ek shabd chunkar do vaakya likhiye.
+HINDI_003377,HINDI,mixed,Latin,hinglish,0.55,WhatsApp group mein kisi ko 'congratulations' bolne ke liye 'badhai' aur 'shubhkaamnayein' mein se kaun sa word zyada na
+HINDI_003378,HINDI,mixed,Latin,hinglish,0.55,Interview mein apni 'hard-working nature' ko Hindi mein batane ke liye kaun se do shabd upyukt honge? Har shabd ka ek se
+HINDI_003381,HINDI,mixed,Latin,hinglish,0.55,Office email mein 'please find attached' ke liye Hindi mein kaun sa shabd-prayog sahi rahega?
+HINDI_003401,HINDI,mixed,Latin,hinglish,0.55,Is vakya mein vyakaran ki galti kahan hai: 'Ladkiyan school gaya.'
+HINDI_003418,HINDI,mixed,Latin,hinglish,0.55,Hindi ke grammar checker ke liye gender agreement errors detect karne ka logic kaise likha ja sakta hai?
+HINDI_003436,HINDI,mixed,Latin,hinglish,0.55,"Machine translation mein English ""He was beaten by them"" ka Hindi anuvaad karte waqt kaun se vyakaranik nirnay lene padt"
+HINDI_003440,HINDI,mixed,Latin,hinglish,0.55,"Mujhe ek Hindi chatbot ke liye user ke gender ke hisaab se kriya-roop chunne ka logic banana hai (""aap kar sakte hain"" y"
+HINDI_003452,HINDI,mixed,Latin,hinglish,0.55,"Ek Hindi grammar checker ke liye ""hai"" aur ""hain"" ki galti pakadne ke niyam kaise banayein, khaaskar jab kartaa ""aap"" ho"
+HINDI_003465,HINDI,mixed,Latin,hinglish,0.55,"Main Hindi speech-to-text output saaf kar raha hoon jisme ""ne"" aksar chhoot jaata hai, jaise ""Main khana khaya"". Aise va"
+HINDI_003480,HINDI,mixed,Latin,hinglish,0.55,"Dawai ki shishi par likha hai: ""Prayog se pehle achhi tarah hilaayein."" Is nirdesh ka arth kya hai?"
+HINDI_003485,HINDI,mixed,Latin,hinglish,0.55,"Dukaan par likha hai: ""Aaj nakad, kal udhaar."" Is vakya ka asli arth kya hai?"
+HINDI_003488,HINDI,mixed,Latin,hinglish,0.55,"Dost ne pehle message kiya ""Kal milte hain, pakka!"" aur thodi der baad likha ""Dekhte hain yaar."" In dono sandeshon ke ar"
+HINDI_003492,HINDI,mixed,Latin,hinglish,0.55,"Train mein announcement hui: ""Yatri apne saamaan ki suraksha swayam karein."" Is announcement ka yatriyon ke liye kya art"
+HINDI_003497,HINDI,mixed,Latin,hinglish,0.55,"Ek food delivery app par likha hai: ""Delivery 30 minute mein, varna khaana muft."" Kya 31 minute mein aaya khaana muft mi"
+HINDI_003505,HINDI,mixed,Latin,hinglish,0.55,"Library ke board par likha hai: ""Kripya shor na karein, yahan log padh rahe hain."" Is board ke dono hisson ka arth aur u"
+HINDI_003508,HINDI,mixed,Latin,hinglish,0.55,"Boss ne kaha, ""Ye report aaj hi chahiye, chahe kuch bhi ho."" Is vakya ka arth aur uski teevrata batayiye."
+HINDI_003517,HINDI,mixed,Latin,hinglish,0.55,"Gym ke poster par ""No pain, no gain"" ka anuvaad ""Dard nahi to fayda nahi"" likha hai. Kya yeh anuvaad mool arth ko sahi p"
+HINDI_003520,HINDI,mixed,Latin,hinglish,0.55,"Pados ki aunty ne kaha, ""Aapki beti to bahut tez hai."" Kya ""tez"" yahan prashansa hai ya shikayat? Do alag sandarbh banak"
+HINDI_003528,HINDI,mixed,Latin,hinglish,0.55,"School ki notice: ""Vidyarthi kal school uniform mein hi aayein."" ""Hi"" ke arth ke aadhar par is nirdesh ki vyakhya kijiye"
+HINDI_003537,HINDI,mixed,Latin,hinglish,0.55,"Auto waale ne kaha, ""Meter se nahi chalunga, seedha sau rupaye."" Is vakya ka arth kya hai?"
+HINDI_003545,HINDI,mixed,Latin,hinglish,0.55,"Naani ne kaha, ""Beta, jitni chaadar ho utne hi pair phailao."" Is kahawat ka aaj ke ghar ke budget ke sandarbh mein kya a"
+HINDI_003556,HINDI,uncertain,Latin,uncertain,0.45,Main ek Hindi grammar quiz bana raha hoon. Sapeksh upvakya pehchaanne par 5 prashn banaiye jinke saath chaar-chaar vikal
+HINDI_003560,HINDI,mixed,Latin,hinglish,0.55,Ek Hindi customer support script mein vakya bahut lambe hain. Unhe chhote vakyon mein todne ke kaun se sanrachnatmak niy
+HINDI_003573,HINDI,mixed,Latin,hinglish,0.55,"Job application form ke nirdesh ""Agar aap pehle is company mein kaam kar chuke hain to kripya purani employee ID likhein"
+HINDI_003593,HINDI,mixed,Latin,hinglish,0.55,"Recipe ke step ""Pyaaz kaat lo, phir tel garam karke usmein daal do"" ki sanrachna ka vishleshan kijiye — kitne upvakya ha"
+HINDI_003601,HINDI,mixed,Latin,hinglish,0.55,"Ek speech-to-text system ""Main kal aaya tha nahi"" jaisa output deta hai. Nakaar ke galat sthaan ko pehchaan kar sudhaarn"
+HINDI_003608,HINDI,mixed,Latin,hinglish,0.55,"Ek Hindi YouTube teacher ke liye sahsambandhi vakyon par 5 minute ki script likhiye jismein ""jo-wo"", ""jab-tab"" aur ""jitn"
+HINDI_003633,HINDI,mixed,Latin,hinglish,0.55,Aapko apne senior ko batana hai ki unki presentation mein ek aankda galat hai. Yeh baat shishtata se kaise rakhenge?
+HINDI_003641,HINDI,mixed,Latin,hinglish,0.55,"Ek pita ko beti ke career-chunav par chinta hai, par wo uska samarthan bhi karna chahte hain. Is baatcheet ke liye Hindi"
+HINDI_003649,HINDI,mixed,Latin,hinglish,0.55,Teacher ke roop mein class ke shant bachchon ko bolne ke liye protsaahit karne waale Hindi vakya sujhaaiye.
+HINDI_003653,HINDI,mixed,Latin,hinglish,0.55,"Job interview mein salary ke baare mein baat shuru karni ho, to Hindi mein shishta aur aatmavishwaas bhare tareeke se ka"
+HINDI_003661,HINDI,mixed,Latin,hinglish,0.55,"Customer care executive ko call ke ant mein ""Kya main aapki aur kisi tarah madad kar sakta hoon?"" kehna sikhaaya jaata h"
+HINDI_003664,HINDI,mixed,Latin,hinglish,0.55,Ek samaroh mein kisi ne aapse aapki tankhwah poochh li. Is nijee prashn ko shishtata se taalne ke teen tareeke Hindi mei
+HINDI_003698,HINDI,mixed,Latin,hinglish,0.55,Ek vivah nimantran patra mein parivar ke sabhi sadasyon ki or se aamantran dene ke liye parikshit aur mangalik Hindi sha
+HINDI_003700,HINDI,mixed,Latin,hinglish,0.55,Corporate email mein apne senior se meeting reschedule karne ke liye polite aur natural Hindi-English code-mixed vocabul
+HINDI_003701,HINDI,mixed,Latin,hinglish,0.55,"Ek tech startup ke app interface ko Hindi users ke liye localize karte samay 'Password', 'Notification' aur 'Settings' k"
+HINDI_003715,HINDI,mixed,Latin,hinglish,0.55,Kisi aupcharik baithak (formal meeting) mein kisi ke vichar se asahmati jatane ke liye 'tumhari baat galat hai' ki jagah
+HINDI_003720,HINDI,mixed,Latin,hinglish,0.55,Ek professional email mein client ko delay ke liye sorry bolte hue 'kshama' ya 'khed' mein se kiska use karna zyada appr
+HINDI_003722,HINDI,mixed,Latin,hinglish,0.55,Job interview ke end mein interviewer ko unke time ke liye thank you bolne ke liye natural aur formal Hindi mein kaun sa
+HINDI_003735,HINDI,mixed,Latin,hinglish,0.55,"Customer service mein naraz grahak ko shant karne ke liye 'asuvidha', 'khed', aur 'tatpar' jaise shabdon ka prayog kis p"
+HINDI_003742,HINDI,mixed,Latin,hinglish,0.55,Legal notice ya agreement ko aam aadmi ko samjhane ke liye complex kanooni Hindi terms ko simple aur clear words mein ka
+HINDI_003756,HINDI,mixed,Latin,hinglish,0.55,Is vakya ko bhootkaal (past tense) mein badaliye aur zaroori vibhakti chinh ('ne') aur kriya roopon ka sahi prayog kijiy
+HINDI_003757,HINDI,mixed,Latin,hinglish,0.55,"Ek customer service agent ke roop mein ""Apna bill jaldi bharo nahi toh line kat jayegi"" ko vinamra aur aupcharik (polite"
+HINDI_003758,HINDI,mixed,Latin,hinglish,0.55,"Diye gaye do vakyon ko 'kar' (conjunctive participle) ka prayog karke ek saral vakya mein jodiye: ""Usne khana khaya. Usk"
+HINDI_003760,HINDI,mixed,Latin,hinglish,0.55,"Non-native speaker dwara likhe gaye is sentence ko grammatically correct kijiye: ""Kal main bazaar gaya tha aur wahan se "
+HINDI_003761,HINDI,mixed,Latin,hinglish,0.55,"Direct speech ""Rohan ne kaha, 'Main kal apna kaam poora kar loonga'"" ko indirect speech mein convert karte waqt pronouns"
+HINDI_003762,HINDI,mixed,Latin,hinglish,0.55,"Ek formal notice ke liye is sentence ka grammatical correction kijiye: ""Sabhi karmachariyon ko suchit kiya jata hai ki w"
+HINDI_003780,HINDI,mixed,Latin,hinglish,0.55,"""Maine kal evening ko meeting attend kiya tha"" ko Hindi grammar ke gender aur postposition rules ke hisab se correct kij"
+HINDI_003781,HINDI,mixed,Latin,hinglish,0.55,Kisi team update ke liye ek natural Hindi-English code-mixed sentence likhiye jisme 'ne' postposition aur past participl
+HINDI_003782,HINDI,mixed,Latin,hinglish,0.55,"""Tum log jaldi se file bhej dena"" ko slightly more formal aur grammatically polite Hindi-English sentence mein rewrite k"
+HINDI_003796,HINDI,mixed,Latin,hinglish,0.55,"Ek customer care executive ke roop mein ""Tumhara complaint register ho gaya hai"" ko adhik aupcharik aur vyakaranik roop "
+HINDI_003801,HINDI,mixed,Latin,hinglish,0.55,"English sentence ""If I were you, I would not accept this offer"" ko natural aur grammatically accurate Hindi subjunctive "
+HINDI_003843,HINDI,mixed,Latin,hinglish,0.55,"Dukaan par likha notice: ""Yahan udhar maang kar sharminda na karein."" Is kathan ka vyavaharik aur vyangyatmak arth kya h"
+HINDI_003844,HINDI,mixed,Latin,hinglish,0.55,"Dawa ke packet par likha hai: ""Bachchon ki pahunch se door rakhein."" Is nirdesh ka mukhya arth aur uddeshya kya hai?"
+HINDI_003845,HINDI,mixed,Latin,hinglish,0.55,"Bus stop par board: ""Kripya line mein khade hokar apni baari ka intezar karein."" Is suchana ka kya arth hai?"
+HINDI_003846,HINDI,mixed,Latin,hinglish,0.55,"Baatcheet: Dost 1: ""Kya tum kal party mein aa rahe ho?"" Dost 2: ""Dekhte hain, agar kaam jaldi khatam ho gaya toh."" Dost "
+HINDI_003847,HINDI,mixed,Latin,hinglish,0.55,"Parking area ka board: ""Gaadi apni zimmedari par khadi karein."" Is kathan ka gaadi malik ke liye kya arth hai?"
+HINDI_003848,HINDI,mixed,Latin,hinglish,0.55,"Mobile screen par message: ""Battery kam hai, kripya phone charge karein."" Is sandesh ka kya vyavaharik arth hai?"
+HINDI_003850,HINDI,mixed,Latin,hinglish,0.55,"Office ka email: ""Aaj sham 5 baje tak sabhi log apni report jama kar dein."" Is nirdesh ke anusar antim samay seema kya h"
+HINDI_003853,HINDI,mixed,Latin,hinglish,0.55,"Sadak par board: ""Aage school hai, dheere chalein."" Is nirdesh ka driver ke liye kya arth hai?"
+HINDI_003854,HINDI,mixed,Latin,hinglish,0.55,"Packet par likha hai: ""Istemal se pehle achhi tarah hila lein."" Is nirdesh ka upbhokta ke liye kya arth hai?"
+HINDI_003855,HINDI,mixed,Latin,hinglish,0.55,"Cinema hall mein suchana: ""Kripya apne mobile phone silent mode par rakhein."" Is nirdesh ka kya arth aur uddeshya hai?"
+HINDI_003856,HINDI,mixed,Latin,hinglish,0.55,"Bank ka SMS: ""Aapke khate se 5000 rupaye nikale gaye hain."" Is sandesh ka khata dharak ke liye kya arth hai?"
+HINDI_003859,HINDI,mixed,Latin,hinglish,0.55,"E-commerce app par likha hai: ""Cash on Delivery is location par available nahi hai."" Is notice ka user ke payment option"
+HINDI_003860,HINDI,mixed,Latin,hinglish,0.55,"Office Slack message: ""Aaj ki meeting reschedule karke kal subah 10 baje kar di gayi hai."" Is message ka team members ke"
+HINDI_003861,HINDI,mixed,Latin,hinglish,0.55,"Gym ke notice board par likha hai: ""Workout ke baad weights wapas rack mein rakhein."" Is instruction ka kya exact meanin"
+HINDI_003862,HINDI,mixed,Latin,hinglish,0.55,"Food delivery app notification: ""Aapka order restaurant se nikal chuka hai aur 15 minute mein pahunch jayega."" Is messag"
+HINDI_003863,HINDI,mixed,Latin,hinglish,0.55,"Software update prompt: ""Update install karne ke liye system restart hona zaroori hai."" User ko is sentence se kya actio"
+HINDI_003864,HINDI,mixed,Latin,hinglish,0.55,"Customer care chat: ""Aapki complaint register kar li gayi hai, 24 ghante mein samadhan hoga."" Is reply ka customer ke li"
+HINDI_003866,HINDI,mixed,Latin,hinglish,0.55,"Train coach ke andar likha hai: ""Emergency chain bina kisi thos kaaran ke na kheenchein."" Is warning mein 'thos kaaran' "
+HINDI_003867,HINDI,mixed,Latin,hinglish,0.55,"Coworking space ka rule: ""Phone calls ke liye phone booth ka upyog karein taaki baaki logon ko disturbance na ho."" Is ru"
+HINDI_003868,HINDI,mixed,Latin,hinglish,0.55,"Subscription message: ""Free trial khatam hone ke baad automatic payment kat jayega, agar aap cancel nahi karte hain."" Is"
+HINDI_003909,HINDI,mixed,Latin,hinglish,0.55,Dawai ki bottle par likha nirdesh: 'Istemaal karne se pehle bottle ko achhi tarah hilayein.' Is vakya mein kalavachak pa
+HINDI_003910,HINDI,mixed,Latin,hinglish,0.55,Railway announcement: 'Yatriyon se anurodh hai ki ve apna saman swayam sambhal kar rakhein.' Is vakya mein 'ki' se judne
+HINDI_003911,HINDI,mixed,Latin,hinglish,0.55,Bank SMS mein ashuddh vakya: '*Aapke khate mein paanch hazar rupaye jama kar di gayi hai.' Hindi kriya anviti ke niyam s
+HINDI_003912,HINDI,mixed,Latin,hinglish,0.55,Public notice board: 'Yahan gaadi khada karna sakht mana hai.' Is vakya mein karta padbandh ke roop mein prayukt kriyart
+HINDI_003913,HINDI,mixed,Latin,hinglish,0.55,News headline: 'Tez barish ke karan kai ilakon mein bijli ki aapurti baadhit hui.' Is vakya mein karanvachak padbandh au
+HINDI_003916,HINDI,mixed,Latin,hinglish,0.55,"School circular: 'Jo chhatra yatra par jana chahte hain, ve kal tak apna naam likhwa dein.' Is mishra vakya ke dono upva"
+HINDI_003917,HINDI,mixed,Latin,hinglish,0.55,E-commerce message: 'Aapka order radd kar diya gaya hai aur paisa wapas bhej diya jayega.' Dono upvakyon ki karmavachya 
+HINDI_003918,HINDI,mixed,Latin,hinglish,0.55,Office memo: 'Sabhi adhikariyon ko suchit kiya jata hai ki baithak kal subah hogi.' Is vakya mein mukhya upvakya aur aas
+HINDI_003919,HINDI,mixed,Latin,hinglish,0.55,Food packet label: 'Thandi aur sukhi jagah par rakhein tatha seedhi dhoop se bachayein.' Is vakya mein samuchchaybodhak 
+HINDI_003920,HINDI,mixed,Latin,hinglish,0.55,Customer support chat mein ashuddh vakya: '*Maine aapka samasya samajh liya hoon.' Ling aur 'ne' prasarg ki anviti ke aa
+HINDI_003921,HINDI,mixed,Latin,hinglish,0.55,Hospital rule: 'Bina anumati ke andar pravesh karna nishedh hai.' Is vakya mein 'bina anumati ke' kis prakar ka padbandh
+HINDI_003923,HINDI,mixed,Latin,hinglish,0.55,Weather alert: 'Agle do dinon mein taapman girne ki sambhavna hai.' Is vakya mein 'sambhavna hai' vidhey ka karta padban
+HINDI_003924,HINDI,mixed,Latin,hinglish,0.55,Library notice: 'Kitab wapas karne mein deri hone par jurmana lagaya jayega.' Is vakya mein shart/karan batane wale padb
+HINDI_003975,HINDI,mixed,Latin,hinglish,0.55,Customer care chatbot ko Hindi mein gussaye grahakon ko shant karne ke liye kis tarah ke vinamra aur sahanubhootipoorna 
+HINDI_003976,HINDI,mixed,Latin,hinglish,0.55,Office mein apne senior se chhutti maangne ke liye email likhte samay kin aupcharik vakyanshon ka prayog sabse upyukt ho
+HINDI_003978,HINDI,mixed,Latin,hinglish,0.55,Meeting mein colleague ke idea se asahmati jatate hue bhi positive mahaul banaye rakhne ke liye aap Hindi mein apni baat
+HINDI_003979,HINDI,mixed,Latin,hinglish,0.55,E-commerce company ko delivery delay hone par customer ko bhejne wale message mein kis prakar ki maafi aur face-saving b
+HINDI_003983,HINDI,mixed,Latin,hinglish,0.55,Job interview mein salary par baat karte samay candidate ko vinamrata se apni ummeed rakhne ke liye kin vakyon ka upyog 
+HINDI_003986,HINDI,mixed,Latin,hinglish,0.55,Online meeting mein network issue ke karan saamne wale ki awaaz na aane par use vinamrata se dohrane ke liye kaise kehna
+HINDI_003987,HINDI,mixed,Latin,hinglish,0.55,Restaurant mein galat order aane par waiter ko customer se kis prakar ki vinamra maafi aur sudhar ki bhasha bolni chahiy
+HINDI_003988,HINDI,mixed,Latin,hinglish,0.55,Colleague se important file jaldi bhejne ka anurodh karte samay aadesh dene se bachne ke liye email mein kaun se shabd j
+HINDI_003989,HINDI,mixed,Latin,hinglish,0.55,Hotel mein check-in karte samay receptionist dwara mehmaanon ko kin sammanjanak aur aatmiya vakyanshon se sambodhit kiya
+HINDI_003991,HINDI,mixed,Latin,hinglish,0.55,Hindi customer support AI design karte samay angry users ko de-escalate karne ke liye kaun se polite honorifics aur empa
+HINDI_003994,HINDI,mixed,Latin,hinglish,0.55,Team meeting mein colleague ke proposal ko politely reject karne ke liye Hindi mein kaun si face-saving strategies use k
+HINDI_003995,HINDI,mixed,Latin,hinglish,0.55,"English-to-Hindi machine translation system mein 'You' pronoun ko context ke hisab se 'aap', 'tum', ya 'tu' mein map kar"
+HINDI_003996,HINDI,mixed,Latin,hinglish,0.55,E-commerce app mein order delay ka notification bhejte samay customer ko bura na lage iske liye kaisi apologetic aur pol
+HINDI_003997,HINDI,mixed,Latin,hinglish,0.55,Job interview mein salary negotiation karte samay candidate ko Hindi mein apni expectations politely aur professionally 
+HINDI_004055,HINDI,mixed,Latin,hinglish,0.55,"Agar kisi baat ko ‘sankshipt’ kaha jaye, to kya zaroori hai ki woh ‘saral’ bhi ho? Vocabulary ke nazariye se tark dijiye"
+HINDI_004060,HINDI,mixed,Latin,hinglish,0.55,Kisi feedback ko ‘constructive’ kehne aur sirf ‘positive’ kehne mein vocabulary-level distinction kya hai?
+HINDI_004075,HINDI,mixed,Latin,hinglish,0.55,"Agar 'kal' past ya future dono ko refer kar sakta hai, to verb form sentence ka temporal interpretation kaise resolve ka"
+HINDI_004096,HINDI,mixed,Latin,hinglish,0.55,“Woh gaana sunte-sunte so gaya” mein do kriya-roopon ka sambandh aur punarukti-jaisa prayog samjhaiye.
+HINDI_004124,HINDI,mixed,Latin,hinglish,0.55,‘She managed to finish’ kya finish hone ko entail karta hai? Explain karein.
+HINDI_004126,HINDI,mixed,Latin,hinglish,0.55,‘Shayad kal baarish ho’ mein speaker ki certainty ka level samjhaiye.
+HINDI_004132,HINDI,mixed,Latin,hinglish,0.55,‘The report may be wrong’ mein may possibility hai ya permission? Semantic context discuss karein.
+HINDI_004137,HINDI,mixed,Latin,hinglish,0.55,‘Do se zyada bachche aaye’ se minimum count kya nikalta hai?
+HINDI_004140,HINDI,mixed,Latin,hinglish,0.55,‘No student solved every question’ ke possible scope readings Hindi mein samjhaiye.
+HINDI_004156,HINDI,mixed,Latin,hinglish,0.55,‘Again’ ke use se sentence mein kaunsi prior event presuppose hoti hai?
+HINDI_004165,HINDI,mixed,Latin,hinglish,0.55,‘Some but not all users agreed’ ka precise meaning Hindi mein batayein.
+HINDI_004176,HINDI,mixed,Latin,hinglish,0.55,‘Every applicant ne form submit kiya’ ka Hindi meaning aur quantifier scope samjhaiye.
+HINDI_004294,HINDI,mixed,Latin,hinglish,0.55,kya isa prasnga men aupacharikata ka stara kee eka se adhika vyakhyaen snbhava hain? pratyeka ke lie sndarbhagata aadhar
+HINDI_004297,HINDI,mixed,Latin,hinglish,0.55,"yadi isa prasnga men shrota ka snbndha badala jae, to vakta ka aashaya kee vyakhya kaise badala sakatee hai? tarka deeji"
+HINDI_004303,HINDI,mixed,Latin,hinglish,0.55,"yadi isa prasnga men shrota ka snbndha badala jae, to apratyaksha aalochana kee vyakhya kaise badala sakatee hai? tarka "
+HINDI_004308,HINDI,uncertain,Latin,uncertain,0.45,isa paristhiti men vakta ka uddeshya aura chunee gaee bhasha sajha jञana ke beecha tarkika snbndha samajhaie। udaharana:
+HINDI_004333,HINDI,mixed,Latin,hinglish,0.55,"'Bhai-bahan' jaise yugm shabd mein dono shabdon ka kram kyon aisa hota hoga, is par tark kijiye."
+HINDI_004334,HINDI,mixed,Latin,hinglish,0.55,'Kuber' shabd ka arth 'bahut dhani vyakti' kaise ban gaya hoga? Shabd ke arth-vistaar ke aadhar par tark do.
+HINDI_004352,HINDI,mixed,Latin,hinglish,0.55,'Chhota-bada' aur 'ooncha-neecha' jaise shabd-yugmon ka arth sirf do shabdon ka jod kyon nahi hota? Tark do.
+HINDI_004358,HINDI,mixed,Latin,hinglish,0.55,'Technology' ke liye 'taknik' aur 'praudyogiki' dono shabd milte hain; in dono mein vocabulary ke star par kya tark se a
+HINDI_004372,HINDI,mixed,Latin,hinglish,0.55,'Usne sankat ke samay bhi apna sanyam nahi khoya.' Is vaakya se 'sanyam' shabd ka arth kaise anumaan kiya ja sakta hai?
+HINDI_004374,HINDI,mixed,Latin,hinglish,0.55,'Anuraag' ka vilom shabd 'viraag' maana jaata hai. Is aadhar par 'vairaagya' shabd ka arth kaise samjha ja sakta hai?
+HINDI_004377,HINDI,mixed,Latin,hinglish,0.55,"Agar kisi ko 'mehnatkash' kaha jaaye, to uske kaam karne ke tareeke ke baare mein aap kya infer karenge? Word ke meaning"
+HINDI_004384,HINDI,mixed,Latin,hinglish,0.55,"'Swatantrata' aur 'azaadi' dono 'freedom' ke liye use hote hain, to formal writing mein kaun sa word prefer hota hai aur"
+HINDI_004389,HINDI,mixed,Latin,hinglish,0.55,"'Bhojan' aur 'aahar' ek jaise lagte hain, to kaun sa shabd kis sandarbh mein behtar rahega, tark se batao."
+HINDI_004394,HINDI,mixed,Latin,hinglish,0.55,"Agar 'prateeksha' ka matlab intezaar hai, to 'apeksha' ka matlab shabd ki banawat se kaise nikal sakta hai?"
+HINDI_004398,HINDI,mixed,Latin,hinglish,0.55,'Pratiyogita' word 'competition' ke liye hai; 'prati' prefix ke basis par iska logic kaise samjha ja sakta hai?
+HINDI_004404,HINDI,mixed,Latin,hinglish,0.55,Kuch speakers ek akele insaan ke liye bhi 'hum' bolte hain — is case mein verb agreement kaise kaam karta hai?
+HINDI_004418,HINDI,mixed,Latin,hinglish,0.55,'Kya tum kal aaoge?' mein 'kya' ke hone ya na hone se sentence structure par kya effect padta hai?
+HINDI_004434,HINDI,mixed,Latin,hinglish,0.55,"""Wo jaldi aa gaya"" mein ""gaya"" sahayak kriya hai ya mukhya kriya? Is nirnay tak pahunchne ke liye kaun se vyakaranik tar"
+HINDI_004446,HINDI,mixed,Latin,hinglish,0.55,"""Usne kaha tha ki wo aayega, par wo nahi aaya"" — is vakya mein ""aayega"" bhavishyat kaal ka roop hone ke bawajood beete h"
+HINDI_004449,HINDI,mixed,Latin,hinglish,0.55,"""Kitaabein padhi gayin"" aur ""Kitaabon ko padha gaya"" — dono karmvachya vakyon mein kriya ka ling-vachan alag kyon hai? S"
+HINDI_004466,HINDI,mixed,Latin,hinglish,0.55,"""Kal main ghar par nahi tha, isliye tumhara phone nahi utha paya"" — is vakya mein dono upvakyon ka kaal-sambandh kaise t"
+HINDI_004469,HINDI,mixed,Latin,hinglish,0.55,"""Mera aur tumhara ghar paas-paas hai"" — kya yahan ""ghar"" ek hai ya do? Agar do alag ghar hon to vakya vyakaranik roop se"
+HINDI_004476,HINDI,mixed,Latin,hinglish,0.55,"""Ye sawaal hal karna mushkil hai"" — is vakya mein vyakaranik uddeshya ""hal karna"" hai ya ""sawaal""? Kriya aur visheshan k"
+HINDI_004480,HINDI,mixed,Latin,hinglish,0.55,"""Agar tum aate to main khush hota"" — kya is vakya se yeh nishkarsh nikalta hai ki tum nahi aaye? Tark dijiye."
+HINDI_004488,HINDI,mixed,Latin,hinglish,0.55,"""Usne darwaza band kiya, phir khola"" — kya is vakya ke ant mein darwaza khula hai? Kriyaon ke kram ke aadhar par tark ki"
+HINDI_004500,HINDI,mixed,Latin,hinglish,0.55,"""Wo is baar phir se fail ho gaya"" — is vakya se kya poorvamaanyata nikalti hai?"
+HINDI_004517,HINDI,mixed,Latin,hinglish,0.55,"""Class mein har kisi ko ek kitaab pasand aayi"" — kya sabko ek hi kitaab pasand aayi? Dono sambhavit arth batayiye."
+HINDI_004528,HINDI,mixed,Latin,hinglish,0.55,"""Mera dost na sirf doctor hai, balki writer bhi hai"" — is vakya se dost ke baare mein kaun se tathya sunishchit hote hai"
+HINDI_004533,HINDI,mixed,Latin,hinglish,0.55,"""Party mein paanch se kam log aaye"" — kya iska arth ho sakta hai ki koi aaya hi nahi? Parimaan ke arth se tark dijiye."
+HINDI_004537,HINDI,mixed,Latin,hinglish,0.55,"""Wo itna thak gaya tha ki khade-khade so gaya"" — is vakya mein kaaran aur parinaam ka kya sambandh hai?"
+HINDI_004540,HINDI,mixed,Latin,hinglish,0.55,"""Maine socha tha ki tum aaoge"" — is vakya se kya nihitaarth nikalta hai ki tum aaye ya nahi?"
+HINDI_004560,HINDI,mixed,Latin,hinglish,0.55,"""Usne kaha ki main jaunga"" — kya is vakya mein ""main"" vaktaa hai ya ""usne"" waala vyakti? Pratyaksh aur apratyaksh kathan"
+HINDI_004576,HINDI,mixed,Latin,hinglish,0.55,"""Do ladke aur ek ladki aayi"" ko kai log asweekarya maanenge. Kriya ka swabhavik roop kya hoga aur kyon? Sanyukt kartaa k"
+HINDI_004601,HINDI,mixed,Latin,hinglish,0.55,"""Raju ka bhai aur Meena aaye"" — kya Meena bhi Raju se sambandhit hai? Kartaa padbandh ke do sambhavit vibhajan dikhaiye."
+HINDI_004608,HINDI,mixed,Latin,hinglish,0.55,"""Mujhe ghar jaana hai"" mein ""jaana"" ka roop nahi badalta, jabki ""Mujhe roti khaani hai"" mein ""khaani"" ho jaata hai. Is a"
+HINDI_004613,HINDI,mixed,Latin,hinglish,0.55,"""Tum aaoge to main chalunga"" aur ""Main chalunga agar tum aaoge"" — upvakya-kram badalne par ""to"" ki upasthiti kyon badalt"
+HINDI_004616,HINDI,mixed,Latin,hinglish,0.55,"Dost ne kaha, ""Agar time mila to aaunga."" Wo nahi aaya. Kya dost ne vaada toda? Tark dijiye."
+HINDI_004624,HINDI,mixed,Latin,hinglish,0.55,"Grahak ne dukaandaar se kaha, ""Ye shirt mujhe pasand hai, par meri patni ko shayad pasand na aaye."" Is kathan ka vaastav"
+HINDI_004628,HINDI,mixed,Latin,hinglish,0.55,"Mehmaan ne kaha, ""Bas, ab main chalta hoon, bahut der ho gayi."" Mezbaan ne kaha, ""Arre, abhi to aaye ho!"" Is aadaan-prad"
+HINDI_004633,HINDI,mixed,Latin,hinglish,0.55,"Boss ne kaha, ""Mujhe koi jaldi nahi hai, aap aaram se kar lijiye, bas kal tak de dena."" Is kathan ke virodhaabhaas ka vi"
+HINDI_004641,HINDI,mixed,Latin,hinglish,0.55,"Teacher ne kaha, ""Is baar paper aasaan aayega, par tayaari poori karna."" Vidyarthi ko is kathan se kya nishkarsh nikalna"
+HINDI_004644,HINDI,mixed,Latin,hinglish,0.55,"Kisi ne kaha, ""Sach kahoon to mujhe ye idea pasand nahi aaya."" Kya ""Sach kahoon to"" se yeh nihitaarth nikalta hai ki pic"
+HINDI_004649,HINDI,mixed,Latin,hinglish,0.55,"Dost ne shaadi ka nimantran dete hue kaha, ""Aana zaroor, aur haan, gift ki koi zaroorat nahi."" Mehmaan ko is vakya ka ky"
+HINDI_004653,HINDI,mixed,Latin,hinglish,0.55,"Pados ki aunty ne poocha, ""Beta, tumhare papa ab kahan kaam karte hain?"" Jawab mila, ""Abhi to ghar par hi hain."" Is utta"
+HINDI_004656,HINDI,mixed,Latin,hinglish,0.55,"Customer ne staff se kaha, ""Main aapke manager se baat karna chahta hoon."" Is anurodh se staff ke saath hui baatcheet ke"
+HINDI_004661,HINDI,mixed,Latin,hinglish,0.55,"Ek ladke ne kaha, ""Mujhe cricket mein koi khaas interest nahi hai, bas kabhi-kabhi dekh leta hoon."" Phir usne match ki h"
+HINDI_004664,HINDI,mixed,Latin,hinglish,0.55,"Phone par kisi ne kaha, ""Hello, kya main Sharma ji se baat kar sakta hoon?"" Jawab mila, ""Bol raha hoon."" Is uttar ki vya"
+HINDI_004673,HINDI,mixed,Latin,hinglish,0.55,"Rishtedaar ne kaha, ""Tumhari beti to bilkul tum par gayi hai."" Sandarbh ke bina yeh prashansa hai ya aalochna? Dono samb"
+HINDI_004676,HINDI,mixed,Latin,hinglish,0.55,"Bhai ne kaha, ""Main tumhe bata raha hoon, ye kaam mat karna, phir mat kehna ki bataya nahi."" Is kathan mein chetavani au"
+HINDI_004695,HINDI,mixed,Latin,hinglish,0.55,"Agar 'desh' mein 'vi' upsarg lagane se 'videsh' banta hai, to 'yog', 'paksh' aur 'kray' mein 'vi' lagne se arth mein kau"
+HINDI_004702,HINDI,mixed,Latin,hinglish,0.55,"Agar 'darshan' se 'darshaniya' aur 'pooja' se 'poojaniya' banta hai, to '-aniya' suffix root word ke meaning mein kaun-s"
+HINDI_004715,HINDI,mixed,Latin,hinglish,0.55,"Agar kisi vyakti ko 'sahishnu' kaha jata hai, to viprit vicharon ke prati uska drishtikon kaisa hoga? Tark sahit bataiye"
+HINDI_004716,HINDI,mixed,Latin,hinglish,0.55,"In char shabdon mein se kaun sa baaki teenon se alag hai aur kyon: 'Jalaj', 'Pankaj', 'Neeraj', 'Jalad'?"
+HINDI_004717,HINDI,mixed,Latin,hinglish,0.55,"""Unki kavita mein klisht shabdon ki bharmar hai, jisse aam pathak use samajh nahi pata."" Is vakya se 'klisht' shabd ka k"
+HINDI_004721,HINDI,mixed,Latin,hinglish,0.55,"Agar kisi report ko 'bhramak' kaha gaya hai, to kya us par bharosa karke final decision lena sahi hoga? Shabd ke meaning"
+HINDI_004735,HINDI,mixed,Latin,hinglish,0.55,"Agar kisi samasya ko 'asadhya' kaha jaye aur doosri ko 'katin', to upchar ya samadhan ki sambhavnaon mein kya antar hoga"
+HINDI_004755,HINDI,mixed,Latin,hinglish,0.55,"""Mainne kitabein kharidi"" aur ""Mainne kitabein kharidin"" — in dono mein anunasik (nasalization) ka prayog vyakaranik dri"
+HINDI_004756,HINDI,mixed,Latin,hinglish,0.55,Hindi mein 'laana' (to bring) aur 'bolna' (to speak) sakarmak (transitive) kriyayein hone ke bawajood bhootkaal mein apn
+HINDI_004760,HINDI,mixed,Latin,hinglish,0.55,"Jab ek sentence mein do different genders ke nouns 'ya' (or) se jude hon, jaise ""Ek ladka ya ek ladki aayegi"", toh verb "
+HINDI_004779,HINDI,mixed,Latin,hinglish,0.55,"Agar kisi shabd ke aage 'be-', 'na-', ya 'an-' upsarg lagein, toh uske vyakaranik pad-varg aur visheshan ke roop mein ky"
+HINDI_004780,HINDI,mixed,Latin,hinglish,0.55,"Agar kisi Hindi sentence mein English noun 'team' aaye aur verb 'jeetna' ho, toh 'team jeeti' aur 'team jeeta' mein se k"
+HINDI_004781,HINDI,mixed,Latin,hinglish,0.55,"Hindi mein jab hum 'kar sakta hai' aur 'kar paata hai' ke beech choice karte hain, toh ability aur circumstantial possib"
+HINDI_004782,HINDI,mixed,Latin,hinglish,0.55,"Agar sentence mein 'aur' ya 'ya' se do singular nouns jude hon jinme se ek masculine aur ek feminine ho, toh Hindi verb "
+HINDI_004795,HINDI,mixed,Latin,hinglish,0.55,"""Mujhe ghar jana hai"" aur ""Main ghar jana chahta hoon""—in dono vakyon mein karta ke karak chinh badalne ke peeche kya vy"
+HINDI_004796,HINDI,mixed,Latin,hinglish,0.55,"Hindi mein 'ladka' ka bahuvachan 'ladke' hota hai, lekin jab iske baad 'ne' ya 'ko' parasarg lagta hai to yeh 'ladkon' k"
+HINDI_004798,HINDI,mixed,Latin,hinglish,0.55,"Agar kisi vakya mein do bhinn ling ke ekvachan karta 'ya' (athva) yojak se jude hon, to kriya ka ling kiske anusar tay h"
+HINDI_004843,HINDI,mixed,Latin,hinglish,0.55,"Kathan: ""Rahul ne phir se galti ki hai."" Is vakya se Rahul ke pichhle vyavahar ke baare mein kya purvadharana (presuppos"
+HINDI_004844,HINDI,mixed,Latin,hinglish,0.55,"Vakya: ""Sabhi mehman khana nahi khayenge."" Is kathan ke do sambhavit arth (negation scope ke aadhar par) spasht kijiye."
+HINDI_004845,HINDI,mixed,Latin,hinglish,0.55,"Kathan: ""Agar aaj chhutti hoti, toh hum ghumne jaate."" Is vakya se aaj ke din aur ghumne jaane ke baare mein kya do sach"
+HINDI_004846,HINDI,mixed,Latin,hinglish,0.55,"Vakya: ""Usne mujhe chaaku se seb kaat kar diya."" Is vakya mein 'chaaku' aur 'seb' ki arthgat bhumika (semantic roles) ky"
+HINDI_004848,HINDI,mixed,Latin,hinglish,0.55,"Vakya: ""Kamre mein koi nahi hai, bas ek billi baithi hai."" Kya is vakya mein koi arthgat virodhabhas (contradiction) hai"
+HINDI_004849,HINDI,mixed,Latin,hinglish,0.55,"Kathan: ""Woh itna kamzor hai ki ek kadam bhi nahi chal sakta."" Is kathan se kya yeh nishkarsh nikalta hai ki woh daud sa"
+HINDI_004850,HINDI,mixed,Latin,hinglish,0.55,"Vakya: ""Maine usko dekha jab woh bhaag raha tha."" Is vakya ke aadhar par bhaagne ki kriya kab ho rahi thi—dekhne se pehl"
+HINDI_004852,HINDI,mixed,Latin,hinglish,0.55,"Vakya: ""Usne apni car bechne ki koshish ki."" Kya is vakya se yeh entailment nikalta hai ki uski car bik gayi?"
+HINDI_004854,HINDI,mixed,Latin,hinglish,0.55,"Vakya: ""Ramesh ka bhai kal aayega."" Is vakya se Ramesh ke parivar ke baare mein kya presupposition nikalti hai?"
+HINDI_004855,HINDI,mixed,Latin,hinglish,0.55,"Kathan: ""Woh pehle se zyada samajhdar ho gaya hai."" Is kathan mein kaun-si tulnatmak avastha chhipi hui hai?"
+HINDI_004856,HINDI,mixed,Latin,hinglish,0.55,"Vakya: ""Bina ticket yatra karna mana hai."" Is kathan se ticket ke saath yatra karne ke baare mein kya nishkarsh nikalta "
+HINDI_004857,HINDI,mixed,Latin,hinglish,0.55,"Kathan: ""Usne sab kuch kho diya, siwaye apni ummeed ke."" Is vakya ke baad kya uske paas abhi bhi ummeed bachi hai?"
+HINDI_004859,HINDI,mixed,Latin,hinglish,0.55,"Statement: ""Usne abhi tak apna assignment submit nahi kiya hai."" Is sentence mein 'abhi tak' (yet) ka use kis expectatio"
+HINDI_004860,HINDI,mixed,Latin,hinglish,0.55,"Sentence: ""Saare developers ne code review nahi kiya."" Is sentence mein negation scope ke do possible interpretations ky"
+HINDI_004861,HINDI,mixed,Latin,hinglish,0.55,"Statement: ""Agar server crash nahi hua hota, toh data loss nahi hota."" Is counterfactual statement se reality ke baare m"
+HINDI_004862,HINDI,mixed,Latin,hinglish,0.55,"Sentence: ""Sirf Amit hi is bug ko fix kar paya."" Is sentence se team ke baaki members ke baare mein kya logical entailme"
+HINDI_004864,HINDI,mixed,Latin,hinglish,0.55,"Sentence: ""Manager ne intern se report type karwayi."" Is causative construction mein 'Manager' aur 'intern' ke semantic "
+HINDI_004865,HINDI,mixed,Latin,hinglish,0.55,"Statement: ""Kam se kam do clients ne deal cancel kar di hai."" Agar actually char clients ne deal cancel ki ho, toh kya y"
+HINDI_004866,HINDI,mixed,Latin,hinglish,0.55,"Sentence: ""Woh office aa sakta hai, par shayad nahi aayega."" Is sentence ke pehle aur doosre hisse mein 'ability' aur 'e"
+HINDI_004867,HINDI,mixed,Latin,hinglish,0.55,"Statement: ""Usne apna purana phone bech diya, lekin abhi bhi woh ussi phone se call kar raha hai."" Is discourse mein kis"
+HINDI_004868,HINDI,mixed,Latin,hinglish,0.55,"Sentence: ""Har ek file corrupted nahi hai."" Iska exact semantic meaning 'कोई भी file corrupted नहीं है' se kaise alag ha"
+HINDI_004909,HINDI,mixed,Latin,hinglish,0.55,Vakya 'Bacche ne rote hue maa ko dekha' mein 'rote hue' padbandh ke karan kaun-si do sanrachnatmak vyakhyaein sambhav ha
+HINDI_004915,HINDI,mixed,Latin,hinglish,0.55,"Vakya 'Adhyapak ne chhatron ko kahani sunai' mein jab karta aur gaun karm dono ke saath prasarg laga ho, to kriya kis se"
+HINDI_004917,HINDI,mixed,Latin,hinglish,0.55,Vakya 'Chhote ladke aur ladkiyan khel rahe hain' mein 'chhote' visheshan ki vyapti (scope) ko lekar kya sandigdhata ho s
+HINDI_004919,HINDI,mixed,Latin,hinglish,0.55,Vakya 'Ram ne Shyam se patra likhwaya' mein agar 'se' ki jagah 'ko' laga diya jaye to kya vakya vyakaranik roop se sahi 
+HINDI_004924,HINDI,mixed,Latin,hinglish,0.55,Vakya 'Police ko dekhte hi chor bhaag gaya' mein agar dono upvakyon ke karta alag hon to 'dekhte hi' se pehle karta ka r
+HINDI_004926,HINDI,mixed,Latin,hinglish,0.55,Sentence '*लड़का ने आम खाया' ungrammatical kyun hai? Oblique case marking rule ke according iski syntactic error samjhai
+HINDI_004929,HINDI,mixed,Latin,hinglish,0.55,Sentence 'Bache ne rote hue maa ko dekha' mein participial adjunct 'rote hue' ki attachment ambiguity ko syntactic tree 
+HINDI_004934,HINDI,mixed,Latin,hinglish,0.55,"Sentence 'Maa ne bacche ko khana khilwaya' mein double causative structure ke under causer, causee aur theme ke case mar"
+HINDI_004975,HINDI,mixed,Latin,hinglish,0.55,"Agar koi dost baat karte samay achanak 'tum' se 'aap' par aa jaye, toh is badlav ke peeche kaun se vyavaharik karan ho s"
+HINDI_004978,HINDI,mixed,Latin,hinglish,0.55,Meeting mein apni baat rakhne se pehle 'main bas ek chhoti si baat add karna chahta hoon' kehna kis prakar ka mitigation
+HINDI_004983,HINDI,mixed,Latin,hinglish,0.55,Teacher dwara student se 'kya tumhe lagta hai ki yeh jawab sahi hai?' poochhna seedhe galat batane se kis tarah behtar h
+HINDI_004989,HINDI,mixed,Latin,hinglish,0.55,Customer care executive dwara gussaye grahak se 'main aapki pareshani samajh sakta hoon' kehna kis vyavaharik siddhant p
+HINDI_004991,HINDI,mixed,Latin,hinglish,0.55,"Agar ek close friend conversation ke beech mein suddenly 'tum' se 'aap' par switch kare, toh is pragmatic shift ke peech"
+HINDI_004993,HINDI,mixed,Latin,hinglish,0.55,"Workplace mein direct refusal ke bajay 'dekhte hain, schedule check karke batata hoon' kehne se professional relationshi"
+HINDI_004998,HINDI,mixed,Latin,hinglish,0.55,"Gift receive karne par 'are, iski kya zaroorat thi' kehna literal rejection kyon nahi mana jata aur iska cultural logic "
+HINDI_004999,HINDI,mixed,Latin,hinglish,0.55,"Customer support mein angry client ko 'aapki problem bilkul genuine hai, hum abhi dekhte hain' kehne se de-escalation ka"
+HINDI_005000,HINDI,mixed,Latin,hinglish,0.55,Public notice mein 'yahan kachra mat phenko' ke bajay 'kripya safai banaye rakhein' likhne ka pragmatic impact kya hota 

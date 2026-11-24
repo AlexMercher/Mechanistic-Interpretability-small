@@ -1,0 +1,18 @@
+{
+  "total_records": 25000,
+  "unique_prompt_texts": 24174,
+  "duplicate_group_count": 176,
+  "duplicate_record_count": 1002,
+  "duplicate_excess_count": 826,
+  "max_multiplicity": 6,
+  "stored_hash_mismatch_count": 0,
+  "cross_domain_duplicate_group_count": 0,
+  "metadata_divergence_conflict_count": 0,
+  "reconciliation": {
+    "formula": "total_records == unique_prompt_texts + duplicate_excess_count",
+    "total_records": 25000,
+    "unique_prompt_texts_plus_excess": 25000,
+    "reconciles": true
+  },
+  "hash_verification_method": "sha256(prompt_text_utf8), recomputed independently and used as the grouping key; stored prompt_sha256 field is only cross-checked against it, never trusted blindly"
+}
