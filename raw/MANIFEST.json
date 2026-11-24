@@ -1,0 +1,344 @@
+{
+  "domains": {
+    "DNA": {
+      "source": "MI_Dataset_validated/source_originals/DNA_by_category",
+      "file_count": 15,
+      "files": [
+        {
+          "path": "DNA/DNA_BY_CATEGORY/Contextual Understanding/ChatGPT.md",
+          "sha256": "984854e95e85a94ecf998cb27412aa2396f306dfde116d2639ddc97a4e057cdf",
+          "bytes": 129567
+        },
+        {
+          "path": "DNA/DNA_BY_CATEGORY/Contextual Understanding/Claude.md",
+          "sha256": "258e5673f0e487ccd410464c72e77e1d787665251c16bcd3c99c5e518c1d4990",
+          "bytes": 164026
+        },
+        {
+          "path": "DNA/DNA_BY_CATEGORY/Contextual Understanding/Gemini.md",
+          "sha256": "a06888a696516624f497c87bcbdcddc9c83b9bff9f0cfbe22018c963e653f514",
+          "bytes": 175292
+        },
+        {
+          "path": "DNA/DNA_BY_CATEGORY/Contrastive Understanding/ChatGPT.md",
+          "sha256": "4bf217fcb7d8d4673ac8274c5a75d834f83ae29675e17b277034113c61b8b4ea",
+          "bytes": 37627
+        },
+        {
+          "path": "DNA/DNA_BY_CATEGORY/Contrastive Understanding/Claude.md",
+          "sha256": "935a13412c5696fcfead96ed58c7392b584822e5a32384497073a69308edac7a",
+          "bytes": 48591
+        },
+        {
+          "path": "DNA/DNA_BY_CATEGORY/Contrastive Understanding/Gemini.md",
+          "sha256": "c7495c04734372e66ee201cc632cae01b80a7f11d2783d0eec7fbfec43c07f87",
+          "bytes": 40280
+        },
+        {
+          "path": "DNA/DNA_BY_CATEGORY/Factual Knowledge/ChatGPT.md",
+          "sha256": "39484c740f2552bc1225b6c2ee98af9c2d36fea38999489668fe5edf8249230a",
+          "bytes": 98867
+        },
+        {
+          "path": "DNA/DNA_BY_CATEGORY/Factual Knowledge/Claude.md",
+          "sha256": "43927d129244e7701e5d11baf7192432073edfa775f9ae3eccac376bce5865b5",
+          "bytes": 82209
+        },
+        {
+          "path": "DNA/DNA_BY_CATEGORY/Factual Knowledge/Gemini.md",
+          "sha256": "f8cd16bcceb632174d005f8a672066e55457e857a7edc3bd3f84a3df3f5d3e56",
+          "bytes": 128682
+        },
+        {
+          "path": "DNA/DNA_BY_CATEGORY/Real World Applications/ChatGPT.md",
+          "sha256": "8ad4f8597255d79953b1a6a519042c022a4bb47595e635c4eef489213330448c",
+          "bytes": 38404
+        },
+        {
+          "path": "DNA/DNA_BY_CATEGORY/Real World Applications/Claude.md",
+          "sha256": "75e22e944fe457bfb24444f7b7d7dddb5205d035c1ebfec935087f4ab846960f",
+          "bytes": 19192
+        },
+        {
+          "path": "DNA/DNA_BY_CATEGORY/Real World Applications/Gemini.md",
+          "sha256": "440f05d04c612942a62a91ee3a3d4483b8de10eeffeb0773129fc41ebc6d6d34",
+          "bytes": 13961
+        },
+        {
+          "path": "DNA/DNA_BY_CATEGORY/Reasoning/ChatGPT.md",
+          "sha256": "ff7bcfc72f6439b41960c73aa4995ddd940769b28c82baa545780997328d8322",
+          "bytes": 5763
+        },
+        {
+          "path": "DNA/DNA_BY_CATEGORY/Reasoning/Claude.md",
+          "sha256": "b810fbeb4ae9fa7291f79d161a2ee72469c199d2f9b1917621694b5f4a259258",
+          "bytes": 1504
+        },
+        {
+          "path": "DNA/DNA_BY_CATEGORY/Reasoning/Gemini.md",
+          "sha256": "9f9a0dd0ed5b0fc25f4e81a36ccb4b445d7242c0c18778e986c11fc0eb13ca2f",
+          "bytes": 9510
+        }
+      ]
+    },
+    "EMOTIONS": {
+      "source": "MI_Dataset_validated/source_originals/EMOTIONS_by_category",
+      "file_count": 15,
+      "files": [
+        {
+          "path": "EMOTIONS/EMOTIONS_BY_CATEGORY/Contextual Understanding/ChatGPT.md",
+          "sha256": "3953434a18455f7b9d6db5319e5d2ceb2ef727a024d7d2f57f4f1398fa5d5e20",
+          "bytes": 117248
+        },
+        {
+          "path": "EMOTIONS/EMOTIONS_BY_CATEGORY/Contextual Understanding/Claude.md",
+          "sha256": "4ce11559109c5318823dcebc59360b938198054a4f09d94142c540f65480dbd2",
+          "bytes": 85152
+        },
+        {
+          "path": "EMOTIONS/EMOTIONS_BY_CATEGORY/Contextual Understanding/Gemini.md",
+          "sha256": "154b6267a99f13295f5f83ff815ee10050d30a0bec82270c284d58672b29a414",
+          "bytes": 110801
+        },
+        {
+          "path": "EMOTIONS/EMOTIONS_BY_CATEGORY/Contrastive Understanding/ChatGPT.md",
+          "sha256": "4212b8ca8fe36da948ea97afdb8e34c001f119021426bbe72718eea6d741c4ff",
+          "bytes": 114874
+        },
+        {
+          "path": "EMOTIONS/EMOTIONS_BY_CATEGORY/Contrastive Understanding/Claude.md",
+          "sha256": "ae81db58c6de0e5d9cd2423443846697ec6879b4ac1a1d0b9c7eaf1fdecc982f",
+          "bytes": 65993
+        },
+        {
+          "path": "EMOTIONS/EMOTIONS_BY_CATEGORY/Contrastive Understanding/Gemini.md",
+          "sha256": "c0928b9513baf8e199ef61d0670129daf5c80118871de7baa7c38d3af18c1c19",
+          "bytes": 80178
+        },
+        {
+          "path": "EMOTIONS/EMOTIONS_BY_CATEGORY/Factual Knowledge/ChatGPT.md",
+          "sha256": "a78371995614ee7094e003ea89b33df284d6ec0a146dd5c9e815dee35870d071",
+          "bytes": 110513
+        },
+        {
+          "path": "EMOTIONS/EMOTIONS_BY_CATEGORY/Factual Knowledge/Claude.md",
+          "sha256": "218c6bde3224405728eb4f344e3f4fa32b22405dfc2b90cbbce711bd6d3e6275",
+          "bytes": 73546
+        },
+        {
+          "path": "EMOTIONS/EMOTIONS_BY_CATEGORY/Factual Knowledge/Gemini.md",
+          "sha256": "e6fadf77a706d26d519eb42d6423c70bd799ecbcf101cba248ef9a1bb0d759d9",
+          "bytes": 76830
+        },
+        {
+          "path": "EMOTIONS/EMOTIONS_BY_CATEGORY/Real World Applications/ChatGPT.md",
+          "sha256": "10e2686adef062bfa714f742987bba6362fce08fc46b82261b1b5556f30819d7",
+          "bytes": 118255
+        },
+        {
+          "path": "EMOTIONS/EMOTIONS_BY_CATEGORY/Real World Applications/Claude.md",
+          "sha256": "023f813b3994b7ecfecb3ed7c825498cf1175c23a7aa071141ab646157647ef2",
+          "bytes": 73869
+        },
+        {
+          "path": "EMOTIONS/EMOTIONS_BY_CATEGORY/Real World Applications/Gemini.md",
+          "sha256": "f20b0efab8bbe3014b35b369dd6503a022a16e26c00d2161d8918399bf922a7a",
+          "bytes": 87727
+        },
+        {
+          "path": "EMOTIONS/EMOTIONS_BY_CATEGORY/Reasoning/ChatGPT.md",
+          "sha256": "0fd47bb3e0e6b4aa401749a769ce0ef8d9afa3de3af379f4b27988847a4912ad",
+          "bytes": 118696
+        },
+        {
+          "path": "EMOTIONS/EMOTIONS_BY_CATEGORY/Reasoning/Claude.md",
+          "sha256": "7b0076c4078a8e370e3f667075728b13fa3ba67ab8ed3ba9da34aeb609f5c34b",
+          "bytes": 74338
+        },
+        {
+          "path": "EMOTIONS/EMOTIONS_BY_CATEGORY/Reasoning/Gemini.md",
+          "sha256": "a153b48c742910bf42b38db62c61aad4eb06be40cad31594ee67368deea07687",
+          "bytes": 81193
+        }
+      ]
+    },
+    "HINDI": {
+      "source": "MI_Dataset_validated/source_originals/HINDI_by_category",
+      "file_count": 15,
+      "files": [
+        {
+          "path": "HINDI/HINDI_BY_CATEGORY/Contextual Understanding/ChatGPT.md",
+          "sha256": "563787f13fd80af10d03b3c500e0162d4069d989ad04d6ac1e3e5a5c76f87e21",
+          "bytes": 90585
+        },
+        {
+          "path": "HINDI/HINDI_BY_CATEGORY/Contextual Understanding/Claude.md",
+          "sha256": "2d7e70d4c45b9d3b3f43c220a17c9abb14619adf424aec5d678273e76692dc40",
+          "bytes": 109441
+        },
+        {
+          "path": "HINDI/HINDI_BY_CATEGORY/Contextual Understanding/Gemini.md",
+          "sha256": "634e1ac6770ce217fb7c3a2c1a21b1fb2667aee26cd2f88d02ed48b030d02256",
+          "bytes": 101350
+        },
+        {
+          "path": "HINDI/HINDI_BY_CATEGORY/Contrastive Understanding/ChatGPT.md",
+          "sha256": "20465b4848ae0985bc1d838e8f3b177b692b93ec62478f35236bcf5ce92e733f",
+          "bytes": 90611
+        },
+        {
+          "path": "HINDI/HINDI_BY_CATEGORY/Contrastive Understanding/Claude.md",
+          "sha256": "42924075f87db6de3d90110075b91b4d28a8007871b6d6d5ce5a4db8876206c2",
+          "bytes": 96209
+        },
+        {
+          "path": "HINDI/HINDI_BY_CATEGORY/Contrastive Understanding/Gemini.md",
+          "sha256": "3f4807f40767ffae23c1c1ee36de363ba2224d21a209019d039bed847b401845",
+          "bytes": 94823
+        },
+        {
+          "path": "HINDI/HINDI_BY_CATEGORY/Factual Knowledge/ChatGPT.md",
+          "sha256": "0f411b610d5ff6fc611cf9480a582653af5dddb790c4b101cf1614ba958485d7",
+          "bytes": 80742
+        },
+        {
+          "path": "HINDI/HINDI_BY_CATEGORY/Factual Knowledge/Claude.md",
+          "sha256": "5b729b53c85bc6eb73f4509a20b1b49e9eff4612a96a27656310ed068f0c95ce",
+          "bytes": 98374
+        },
+        {
+          "path": "HINDI/HINDI_BY_CATEGORY/Factual Knowledge/Gemini.md",
+          "sha256": "216cca9c87722a507fec589dc19cfb04682292a28658a52478910c27e83f0b65",
+          "bytes": 82598
+        },
+        {
+          "path": "HINDI/HINDI_BY_CATEGORY/Real World Applications/ChatGPT.md",
+          "sha256": "1681882121be4ffb5474ce6edf834cbd382b17dbcaec2da7006ea3449db068d9",
+          "bytes": 96690
+        },
+        {
+          "path": "HINDI/HINDI_BY_CATEGORY/Real World Applications/Claude.md",
+          "sha256": "234b22f39693f83d459669d9ec6f1c6517576a631f2ae34c149666964a0bf87d",
+          "bytes": 123214
+        },
+        {
+          "path": "HINDI/HINDI_BY_CATEGORY/Real World Applications/Gemini.md",
+          "sha256": "5f42da067139aef980ad662914ea6968a02a78087fab91ef66ff11a0b40820bb",
+          "bytes": 112555
+        },
+        {
+          "path": "HINDI/HINDI_BY_CATEGORY/Reasoning/ChatGPT.md",
+          "sha256": "f1b46b0107f2d0fd7a153ce9be004275827ae15ecf516cb6103d49badcc6366f",
+          "bytes": 98898
+        },
+        {
+          "path": "HINDI/HINDI_BY_CATEGORY/Reasoning/Claude.md",
+          "sha256": "2bbcf650b908186ca56e74af7d2c1f83a6a235e800a49d6c651129d8d2f61987",
+          "bytes": 121113
+        },
+        {
+          "path": "HINDI/HINDI_BY_CATEGORY/Reasoning/Gemini.md",
+          "sha256": "4f8aeb53c8a0e47397fa435152b638ee9f02de8c13e90541062880505389f246",
+          "bytes": 112780
+        }
+      ]
+    },
+    "SCIENCE": {
+      "source": "MONISHA_SCIENCE_AND_gANDHI_10000_PROMPTS (1)/SCIENCE_5000_GEMINI",
+      "file_count": 8,
+      "files": [
+        {
+          "path": "SCIENCE/Contextual Understanding/Contextual_Understanding.md",
+          "sha256": "6d1b84103c7221cfaa1a409a33f4cad883df37778c7a625dbe43cbaecb301013",
+          "bytes": 385319
+        },
+        {
+          "path": "SCIENCE/Contrastive Understanding/Contrastive_Understanding.md",
+          "sha256": "b71d4738e362762bf9e9c07a7958744e8ba1a2bcae4bcb95eaf37727c73b8ee5",
+          "bytes": 393952
+        },
+        {
+          "path": "SCIENCE/Factual Knowledge/Factual_Knowledge.md",
+          "sha256": "13f757e57ba3221ec317b4ccae87780debfd8124536f20bfb748b5c0e867f41e",
+          "bytes": 318450
+        },
+        {
+          "path": "SCIENCE/GENERATION_REPORT.md",
+          "sha256": "4e53b230206a714e54a0ac365e029a100a232f258505aa6f165c9ba227a3fbb6",
+          "bytes": 336
+        },
+        {
+          "path": "SCIENCE/README.txt",
+          "sha256": "eb6c8eb696d9c2b715c619dc9a496b291f69c7d6e46022a7fea1e7895ee3db58",
+          "bytes": 310
+        },
+        {
+          "path": "SCIENCE/Real World Applications/Real_World_Applications.md",
+          "sha256": "484f02de3e87bb1f3d175395ec8936fee872dde3008f71ed1349bb51573b5d13",
+          "bytes": 370761
+        },
+        {
+          "path": "SCIENCE/Reasoning/Reasoning.md",
+          "sha256": "e4151bf52d56970d6fb0b655e69f752ef0e66bf920ba62d6018e98fc9ff06574",
+          "bytes": 362761
+        },
+        {
+          "path": "SCIENCE/VALIDATION_REPORT.md",
+          "sha256": "0637e3031971bca2d7e5a1a83f0a05f5714f6b8324bd82d78fd1dcfff948e687",
+          "bytes": 682
+        }
+      ]
+    },
+    "GANDHI": {
+      "source": "MONISHA_SCIENCE_AND_gANDHI_10000_PROMPTS (1)/GANDHI_5000_PROMPTS/GANDHI_5000",
+      "file_count": 9,
+      "files": [
+        {
+          "path": "GANDHI/Contextual Understanding/Contextual_Understanding.md",
+          "sha256": "2ad1c8742229eaeaffb06d06e8b9fc9772bde477d7abfddb58abb5e71d84e811",
+          "bytes": 329998
+        },
+        {
+          "path": "GANDHI/Contrastive Understanding/Contrastive_Understanding.md",
+          "sha256": "99059455a635a15ade309e171d44d6228f156ed78d5e1677b7a3dab568650341",
+          "bytes": 329597
+        },
+        {
+          "path": "GANDHI/Factual Knowledge/Factual_Knowledge.md",
+          "sha256": "f3e69fd41c242d63316d0fc779330036969e9350e3dcfcbc32593c067421cd4f",
+          "bytes": 294704
+        },
+        {
+          "path": "GANDHI/GENERATION_REPORT.md",
+          "sha256": "48efc96db1341cde7af3f5f5cc17d3aeb3ef024dee60fce67413ca2305973e5d",
+          "bytes": 365
+        },
+        {
+          "path": "GANDHI/README.txt",
+          "sha256": "1770d0491ca21520c13938c1471a93485e1448ed614c7e82e7f20af21bb664cb",
+          "bytes": 350
+        },
+        {
+          "path": "GANDHI/Real World Applications/Real_World_Applications.md",
+          "sha256": "65319b61679f929ebaab507343ee800dbbab231e12ab9824d1e6da5e5efc737a",
+          "bytes": 339650
+        },
+        {
+          "path": "GANDHI/Reasoning/Reasoning.md",
+          "sha256": "5b9e99e94e0e5df7497fdcee555e2be4cd2bb6c9cd8f468c569ef92482292b7c",
+          "bytes": 317832
+        },
+        {
+          "path": "GANDHI/REFERENCES.md",
+          "sha256": "867a9d76c5050016780234b314512550b813136f97355fc5297fe5250511972c",
+          "bytes": 969
+        },
+        {
+          "path": "GANDHI/VALIDATION_REPORT.md",
+          "sha256": "cc25408f46c5015a41bf7ea5f2de1e7b923645ab9855dc2507ffd6fe52be92e7",
+          "bytes": 713
+        }
+      ]
+    }
+  }
+}

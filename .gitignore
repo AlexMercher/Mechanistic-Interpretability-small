@@ -1,0 +1,29 @@
+# Never commit these -- see CLAUDE.md
+temp/
+plans/
+
+# Virtual environment (composed once locally, see File_context.md for setup commands)
+.venv/
+venv/
+
+# Model weights: the weights/ folder itself is tracked, large weight files inside are not
+weights/*
+!weights/.gitkeep
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+*.onnx
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+weights/
+CLAUDE.md
+MONISHA_SCIENCE_AND_gANDHI_1000_PROMPTS(1)/
+MONISHA_SCIENCE_AND_gANDHI_1000_PROMPTS(1)/*
