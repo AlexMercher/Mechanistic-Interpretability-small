@@ -1,0 +1,38 @@
+{
+  "method": "exact_rank_based_per_domain_sha256_split",
+  "hash_namespace": "m6_discovery_confirmation",
+  "rounding_rule": "floor(n/2) -> discovery, ceil(n/2) -> confirmation (extra prompt in odd-sized domain groups goes to confirmation)",
+  "per_domain_counts": {
+    "DNA": {
+      "total": 497,
+      "discovery": 248,
+      "confirmation": 249
+    },
+    "EMOTIONS": {
+      "total": 522,
+      "discovery": 261,
+      "confirmation": 261
+    },
+    "GANDHI": {
+      "total": 507,
+      "discovery": 253,
+      "confirmation": 254
+    },
+    "HINDI": {
+      "total": 466,
+      "discovery": 233,
+      "confirmation": 233
+    },
+    "SCIENCE": {
+      "total": 541,
+      "discovery": 270,
+      "confirmation": 271
+    }
+  },
+  "total_validation_prompts": 2533,
+  "total_discovery_prompts": 1265,
+  "total_confirmation_prompts": 1268,
+  "n_validation_tokens_checked_for_inheritance": 97994,
+  "token_inheritance_check_passed": true,
+  "verified_every_prompt_assigned_exactly_once": true
+}

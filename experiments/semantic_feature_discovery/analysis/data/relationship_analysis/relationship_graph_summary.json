@@ -1,0 +1,9 @@
+{
+  "n_nodes": 61,
+  "n_edges": 139,
+  "edge_type_counts": {
+    "co_activation": 64,
+    "cross_domain_connection": 13,
+    "semantic_similarity": 62
+  }
+}

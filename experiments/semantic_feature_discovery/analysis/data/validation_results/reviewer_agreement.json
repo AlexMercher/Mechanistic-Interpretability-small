@@ -1,0 +1,503 @@
+{
+  "n_candidates": 40,
+  "original_exact_match_rate": 0.5,
+  "original_cohens_kappa": 0.3897787948131197,
+  "normalized_exact_match_rate": 0.625,
+  "normalized_cohens_kappa": 0.5241871530531325,
+  "normalization_note": "normalized = rare_candidate and insufficient_evidence merged into one label before computing agreement, since both mean 'too little evidence to judge' and differ only in which exact label the reviewer reached for",
+  "agreements": [
+    {
+      "feature_idx": 553,
+      "primary_classification": "script_or_language_marker",
+      "second_classification": "script_or_language_marker",
+      "primary_confidence": "high",
+      "second_confidence": "high",
+      "exact_match": true
+    },
+    {
+      "feature_idx": 768,
+      "primary_classification": "insufficient_evidence",
+      "second_classification": "insufficient_evidence",
+      "primary_confidence": "unvalidated",
+      "second_confidence": "unvalidated",
+      "exact_match": true
+    },
+    {
+      "feature_idx": 972,
+      "primary_classification": "uninterpretable",
+      "second_classification": "uninterpretable",
+      "primary_confidence": "unvalidated",
+      "second_confidence": "high",
+      "exact_match": true
+    },
+    {
+      "feature_idx": 1093,
+      "primary_classification": "template_driven",
+      "second_classification": "template_driven",
+      "primary_confidence": "low",
+      "second_confidence": "medium",
+      "exact_match": true
+    },
+    {
+      "feature_idx": 1135,
+      "primary_classification": "template_driven",
+      "second_classification": "template_driven",
+      "primary_confidence": "low",
+      "second_confidence": "medium",
+      "exact_match": true
+    },
+    {
+      "feature_idx": 1417,
+      "primary_classification": "template_driven",
+      "second_classification": "template_driven",
+      "primary_confidence": "low",
+      "second_confidence": "low",
+      "exact_match": true
+    },
+    {
+      "feature_idx": 1537,
+      "primary_classification": "insufficient_evidence",
+      "second_classification": "insufficient_evidence",
+      "primary_confidence": "unvalidated",
+      "second_confidence": "unvalidated",
+      "exact_match": true
+    },
+    {
+      "feature_idx": 1598,
+      "primary_classification": "coherent_domain_specific",
+      "second_classification": "coherent_domain_specific",
+      "primary_confidence": "high",
+      "second_confidence": "high",
+      "exact_match": true
+    },
+    {
+      "feature_idx": 1811,
+      "primary_classification": "coherent_domain_specific",
+      "second_classification": "coherent_domain_specific",
+      "primary_confidence": "high",
+      "second_confidence": "high",
+      "exact_match": true
+    },
+    {
+      "feature_idx": 1855,
+      "primary_classification": "polysemantic_or_mixed",
+      "second_classification": "polysemantic_or_mixed",
+      "primary_confidence": "low",
+      "second_confidence": "low",
+      "exact_match": true
+    },
+    {
+      "feature_idx": 1857,
+      "primary_classification": "coherent_domain_specific",
+      "second_classification": "coherent_domain_specific",
+      "primary_confidence": "high",
+      "second_confidence": "high",
+      "exact_match": true
+    },
+    {
+      "feature_idx": 2283,
+      "primary_classification": "coherent_domain_specific",
+      "second_classification": "coherent_domain_specific",
+      "primary_confidence": "medium",
+      "second_confidence": "medium",
+      "exact_match": true
+    },
+    {
+      "feature_idx": 2327,
+      "primary_classification": "insufficient_evidence",
+      "second_classification": "insufficient_evidence",
+      "primary_confidence": "unvalidated",
+      "second_confidence": "unvalidated",
+      "exact_match": true
+    },
+    {
+      "feature_idx": 2728,
+      "primary_classification": "coherent_domain_specific",
+      "second_classification": "coherent_domain_specific",
+      "primary_confidence": "high",
+      "second_confidence": "high",
+      "exact_match": true
+    },
+    {
+      "feature_idx": 2924,
+      "primary_classification": "insufficient_evidence",
+      "second_classification": "insufficient_evidence",
+      "primary_confidence": "unvalidated",
+      "second_confidence": "unvalidated",
+      "exact_match": true
+    },
+    {
+      "feature_idx": 2974,
+      "primary_classification": "coherent_domain_specific",
+      "second_classification": "coherent_domain_specific",
+      "primary_confidence": "medium",
+      "second_confidence": "high",
+      "exact_match": true
+    },
+    {
+      "feature_idx": 3001,
+      "primary_classification": "coherent_domain_specific",
+      "second_classification": "coherent_domain_specific",
+      "primary_confidence": "high",
+      "second_confidence": "high",
+      "exact_match": true
+    },
+    {
+      "feature_idx": 3087,
+      "primary_classification": "insufficient_evidence",
+      "second_classification": "insufficient_evidence",
+      "primary_confidence": "unvalidated",
+      "second_confidence": "unvalidated",
+      "exact_match": true
+    },
+    {
+      "feature_idx": 3252,
+      "primary_classification": "coherent_domain_specific",
+      "second_classification": "coherent_domain_specific",
+      "primary_confidence": "high",
+      "second_confidence": "medium",
+      "exact_match": true
+    },
+    {
+      "feature_idx": 3349,
+      "primary_classification": "coherent_domain_specific",
+      "second_classification": "coherent_domain_specific",
+      "primary_confidence": "high",
+      "second_confidence": "medium",
+      "exact_match": true
+    }
+  ],
+  "disagreements": [
+    {
+      "feature_idx": 95,
+      "primary_classification": "coherent_semantic",
+      "second_classification": "polysemantic_or_mixed",
+      "primary_confidence": "high",
+      "second_confidence": "low",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 309,
+      "primary_classification": "polysemantic_or_mixed",
+      "second_classification": "template_driven",
+      "primary_confidence": "low",
+      "second_confidence": "medium",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 720,
+      "primary_classification": "coherent_domain_specific",
+      "second_classification": "script_or_language_marker",
+      "primary_confidence": "high",
+      "second_confidence": "high",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 834,
+      "primary_classification": "domain_marker",
+      "second_classification": "script_or_language_marker",
+      "primary_confidence": "low",
+      "second_confidence": "medium",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 838,
+      "primary_classification": "coherent_domain_specific",
+      "second_classification": "script_or_language_marker",
+      "primary_confidence": "medium",
+      "second_confidence": "high",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 1324,
+      "primary_classification": "rare_candidate",
+      "second_classification": "insufficient_evidence",
+      "primary_confidence": "unvalidated",
+      "second_confidence": "unvalidated",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 1717,
+      "primary_classification": "rare_candidate",
+      "second_classification": "insufficient_evidence",
+      "primary_confidence": "unvalidated",
+      "second_confidence": "unvalidated",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 1869,
+      "primary_classification": "rare_candidate",
+      "second_classification": "insufficient_evidence",
+      "primary_confidence": "unvalidated",
+      "second_confidence": "unvalidated",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 1876,
+      "primary_classification": "uninterpretable",
+      "second_classification": "polysemantic_or_mixed",
+      "primary_confidence": "low",
+      "second_confidence": "low",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 1974,
+      "primary_classification": "coherent_semantic",
+      "second_classification": "coherent_domain_specific",
+      "primary_confidence": "medium",
+      "second_confidence": "low",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 2154,
+      "primary_classification": "rare_candidate",
+      "second_classification": "insufficient_evidence",
+      "primary_confidence": "unvalidated",
+      "second_confidence": "unvalidated",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 2155,
+      "primary_classification": "rare_candidate",
+      "second_classification": "insufficient_evidence",
+      "primary_confidence": "unvalidated",
+      "second_confidence": "unvalidated",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 2201,
+      "primary_classification": "polysemantic_or_mixed",
+      "second_classification": "coherent_domain_specific",
+      "primary_confidence": "medium",
+      "second_confidence": "high",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 2281,
+      "primary_classification": "template_driven",
+      "second_classification": "coherent_domain_specific",
+      "primary_confidence": "low",
+      "second_confidence": "high",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 2920,
+      "primary_classification": "polysemantic_or_mixed",
+      "second_classification": "coherent_domain_specific",
+      "primary_confidence": "low",
+      "second_confidence": "low",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 2922,
+      "primary_classification": "uninterpretable",
+      "second_classification": "coherent_domain_specific",
+      "primary_confidence": "low",
+      "second_confidence": "high",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 3160,
+      "primary_classification": "polysemantic_or_mixed",
+      "second_classification": "coherent_semantic",
+      "primary_confidence": "low",
+      "second_confidence": "low",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 3316,
+      "primary_classification": "insufficient_evidence",
+      "second_classification": "polysemantic_or_mixed",
+      "primary_confidence": "low",
+      "second_confidence": "low",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 3734,
+      "primary_classification": "template_driven",
+      "second_classification": "coherent_domain_specific",
+      "primary_confidence": "medium",
+      "second_confidence": "high",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 3908,
+      "primary_classification": "polysemantic_or_mixed",
+      "second_classification": "coherent_domain_specific",
+      "primary_confidence": "medium",
+      "second_confidence": "high",
+      "exact_match": false
+    }
+  ],
+  "labeling_convention_disagreements": [
+    {
+      "feature_idx": 1324,
+      "primary_classification": "rare_candidate",
+      "second_classification": "insufficient_evidence",
+      "primary_confidence": "unvalidated",
+      "second_confidence": "unvalidated",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 1717,
+      "primary_classification": "rare_candidate",
+      "second_classification": "insufficient_evidence",
+      "primary_confidence": "unvalidated",
+      "second_confidence": "unvalidated",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 1869,
+      "primary_classification": "rare_candidate",
+      "second_classification": "insufficient_evidence",
+      "primary_confidence": "unvalidated",
+      "second_confidence": "unvalidated",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 2154,
+      "primary_classification": "rare_candidate",
+      "second_classification": "insufficient_evidence",
+      "primary_confidence": "unvalidated",
+      "second_confidence": "unvalidated",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 2155,
+      "primary_classification": "rare_candidate",
+      "second_classification": "insufficient_evidence",
+      "primary_confidence": "unvalidated",
+      "second_confidence": "unvalidated",
+      "exact_match": false
+    }
+  ],
+  "substantive_disagreements": [
+    {
+      "feature_idx": 95,
+      "primary_classification": "coherent_semantic",
+      "second_classification": "polysemantic_or_mixed",
+      "primary_confidence": "high",
+      "second_confidence": "low",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 309,
+      "primary_classification": "polysemantic_or_mixed",
+      "second_classification": "template_driven",
+      "primary_confidence": "low",
+      "second_confidence": "medium",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 720,
+      "primary_classification": "coherent_domain_specific",
+      "second_classification": "script_or_language_marker",
+      "primary_confidence": "high",
+      "second_confidence": "high",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 834,
+      "primary_classification": "domain_marker",
+      "second_classification": "script_or_language_marker",
+      "primary_confidence": "low",
+      "second_confidence": "medium",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 838,
+      "primary_classification": "coherent_domain_specific",
+      "second_classification": "script_or_language_marker",
+      "primary_confidence": "medium",
+      "second_confidence": "high",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 1876,
+      "primary_classification": "uninterpretable",
+      "second_classification": "polysemantic_or_mixed",
+      "primary_confidence": "low",
+      "second_confidence": "low",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 1974,
+      "primary_classification": "coherent_semantic",
+      "second_classification": "coherent_domain_specific",
+      "primary_confidence": "medium",
+      "second_confidence": "low",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 2201,
+      "primary_classification": "polysemantic_or_mixed",
+      "second_classification": "coherent_domain_specific",
+      "primary_confidence": "medium",
+      "second_confidence": "high",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 2281,
+      "primary_classification": "template_driven",
+      "second_classification": "coherent_domain_specific",
+      "primary_confidence": "low",
+      "second_confidence": "high",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 2920,
+      "primary_classification": "polysemantic_or_mixed",
+      "second_classification": "coherent_domain_specific",
+      "primary_confidence": "low",
+      "second_confidence": "low",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 2922,
+      "primary_classification": "uninterpretable",
+      "second_classification": "coherent_domain_specific",
+      "primary_confidence": "low",
+      "second_confidence": "high",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 3160,
+      "primary_classification": "polysemantic_or_mixed",
+      "second_classification": "coherent_semantic",
+      "primary_confidence": "low",
+      "second_confidence": "low",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 3316,
+      "primary_classification": "insufficient_evidence",
+      "second_classification": "polysemantic_or_mixed",
+      "primary_confidence": "low",
+      "second_confidence": "low",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 3734,
+      "primary_classification": "template_driven",
+      "second_classification": "coherent_domain_specific",
+      "primary_confidence": "medium",
+      "second_confidence": "high",
+      "exact_match": false
+    },
+    {
+      "feature_idx": 3908,
+      "primary_classification": "polysemantic_or_mixed",
+      "second_classification": "coherent_domain_specific",
+      "primary_confidence": "medium",
+      "second_confidence": "high",
+      "exact_match": false
+    }
+  ],
+  "systematic_tendency_check": {
+    "n_substantive_disagreements": 15,
+    "second_reviewer_upgrades_to_coherent_domain_specific": 7,
+    "second_reviewer_upgrades_to_any_coherent_label": 7,
+    "second_reviewer_downgrades_from_a_coherent_label": 3,
+    "interpretation": "Among substantive disagreements, the second (Opus) reviewer was net more willing to credit domain-specific/semantic coherence than the primary (Sonnet-batch) reviewer -- more upgrades to a coherent_* label than downgrades from one. Reported as an observed tendency in this specific comparison, not a claim about which reviewer is 'right'."
+  }
+}

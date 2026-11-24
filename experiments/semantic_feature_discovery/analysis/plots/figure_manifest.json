@@ -1,0 +1,239 @@
+[
+  {
+    "category": "feature_distributions",
+    "name": "a1_token_frequency_histogram",
+    "caption": "Token-level firing-frequency histogram across all alive SAE-8192 features (Discovery subset).",
+    "source_files": [
+      "D:\\projects\\Mechanistic-Interpretability-small\\experiments\\semantic_feature_discovery\\analysis\\data\\feature_analysis\\sae_8192_seed0_inventory_discovery.jsonl"
+    ],
+    "n": 8192,
+    "png": "analysis\\plots\\feature_distributions\\a1_token_frequency_histogram.png",
+    "svg": "analysis\\plots\\feature_distributions\\a1_token_frequency_histogram.svg"
+  },
+  {
+    "category": "feature_distributions",
+    "name": "a2_candidate_strata_counts",
+    "caption": "Count of the 121 selected candidates by primary selection stratum.",
+    "source_files": [
+      "D:\\projects\\Mechanistic-Interpretability-small\\experiments\\semantic_feature_discovery\\analysis\\data\\feature_analysis\\candidates.jsonl"
+    ],
+    "n": 121,
+    "png": "analysis\\plots\\feature_distributions\\a2_candidate_strata_counts.png",
+    "svg": "analysis\\plots\\feature_distributions\\a2_candidate_strata_counts.svg"
+  },
+  {
+    "category": "feature_distributions",
+    "name": "a3_token_vs_prompt_frequency_scatter",
+    "caption": "Token-level vs. prompt-level firing frequency for the 121 candidates, colored by stratum.",
+    "source_files": [
+      "D:\\projects\\Mechanistic-Interpretability-small\\experiments\\semantic_feature_discovery\\analysis\\data\\feature_analysis\\candidates.jsonl"
+    ],
+    "n": 121,
+    "png": "analysis\\plots\\feature_distributions\\a3_token_vs_prompt_frequency_scatter.png",
+    "svg": "analysis\\plots\\feature_distributions\\a3_token_vs_prompt_frequency_scatter.svg"
+  },
+  {
+    "category": "semantic_selectivity",
+    "name": "b1_classification_counts",
+    "caption": "Primary-review final classification counts across the 121-candidate cohort.",
+    "source_files": [
+      "D:\\projects\\Mechanistic-Interpretability-small\\experiments\\semantic_feature_discovery\\analysis\\data\\validation_results\\primary_reviews.jsonl"
+    ],
+    "n": 121,
+    "png": "analysis\\plots\\semantic_selectivity\\b1_classification_counts.png",
+    "svg": "analysis\\plots\\semantic_selectivity\\b1_classification_counts.svg"
+  },
+  {
+    "category": "semantic_selectivity",
+    "name": "b2_concentration_vs_entropy_by_class",
+    "caption": "Domain concentration vs. cross-domain entropy for all 121 candidates, colored by final classification.",
+    "source_files": [
+      "D:\\projects\\Mechanistic-Interpretability-small\\experiments\\semantic_feature_discovery\\analysis\\data\\feature_analysis\\candidates.jsonl",
+      "D:\\projects\\Mechanistic-Interpretability-small\\experiments\\semantic_feature_discovery\\analysis\\data\\validation_results\\primary_reviews.jsonl"
+    ],
+    "n": 121,
+    "png": "analysis\\plots\\semantic_selectivity\\b2_concentration_vs_entropy_by_class.png",
+    "svg": "analysis\\plots\\semantic_selectivity\\b2_concentration_vs_entropy_by_class.svg"
+  },
+  {
+    "category": "semantic_selectivity",
+    "name": "b3_confidence_level_counts",
+    "caption": "Primary-review confidence level counts across the 121-candidate cohort.",
+    "source_files": [
+      "D:\\projects\\Mechanistic-Interpretability-small\\experiments\\semantic_feature_discovery\\analysis\\data\\validation_results\\primary_reviews.jsonl"
+    ],
+    "n": 121,
+    "png": "analysis\\plots\\semantic_selectivity\\b3_confidence_level_counts.png",
+    "svg": "analysis\\plots\\semantic_selectivity\\b3_confidence_level_counts.svg"
+  },
+  {
+    "category": "confound_analysis",
+    "name": "c1_template_tier_population",
+    "caption": "Corpus-wide prompt counts by template-detection tier (Tier 1 confirmed / Tier 2 skeleton-fallback / Tier 3 unknown).",
+    "source_files": [
+      "D:\\projects\\Mechanistic-Interpretability-small\\experiments\\semantic_feature_discovery\\configs\\template_clustering_config.json"
+    ],
+    "n": 25000,
+    "png": "analysis\\plots\\confound_analysis\\c1_template_tier_population.png",
+    "svg": "analysis\\plots\\confound_analysis\\c1_template_tier_population.svg"
+  },
+  {
+    "category": "confound_analysis",
+    "name": "c2_template_concentration_by_class",
+    "caption": "Template concentration score distribution by final review classification.",
+    "source_files": [
+      "D:\\projects\\Mechanistic-Interpretability-small\\experiments\\semantic_feature_discovery\\analysis\\data\\feature_analysis\\candidates.jsonl",
+      "D:\\projects\\Mechanistic-Interpretability-small\\experiments\\semantic_feature_discovery\\analysis\\data\\validation_results\\primary_reviews.jsonl"
+    ],
+    "n": 121,
+    "png": "analysis\\plots\\confound_analysis\\c2_template_concentration_by_class.png",
+    "svg": "analysis\\plots\\confound_analysis\\c2_template_concentration_by_class.svg"
+  },
+  {
+    "category": "confound_analysis",
+    "name": "c3_script_language_score",
+    "caption": "Script/language-dependence score per candidate, script_or_language_marker candidates highlighted.",
+    "source_files": [
+      "D:\\projects\\Mechanistic-Interpretability-small\\experiments\\semantic_feature_discovery\\analysis\\data\\feature_analysis\\candidates.jsonl",
+      "D:\\projects\\Mechanistic-Interpretability-small\\experiments\\semantic_feature_discovery\\analysis\\data\\validation_results\\primary_reviews.jsonl"
+    ],
+    "n": 121,
+    "png": "analysis\\plots\\confound_analysis\\c3_script_language_score.png",
+    "svg": "analysis\\plots\\confound_analysis\\c3_script_language_score.svg"
+  },
+  {
+    "category": "confound_analysis",
+    "name": "c4_confound_divergence_flags",
+    "caption": "Count of Discovery-vs-Confirmation divergence flags per confound metric, across all 121 candidates.",
+    "source_files": [
+      "D:\\projects\\Mechanistic-Interpretability-small\\experiments\\semantic_feature_discovery\\analysis\\data\\feature_analysis\\confound_diagnostics.jsonl"
+    ],
+    "n": 121,
+    "png": "analysis\\plots\\confound_analysis\\c4_confound_divergence_flags.png",
+    "svg": "analysis\\plots\\confound_analysis\\c4_confound_divergence_flags.svg"
+  },
+  {
+    "category": "cross_seed_stability",
+    "name": "d1_cross_seed_classification",
+    "caption": "Six-way cross-seed reproducibility classification counts for the full 121-candidate cohort, seed 1 vs. seed 2.",
+    "source_files": [
+      "D:\\projects\\Mechanistic-Interpretability-small\\experiments\\semantic_feature_discovery\\analysis\\data\\validation_results\\cross_seed_capacity_reconciliation.json"
+    ],
+    "n": 121,
+    "png": "analysis\\plots\\cross_seed_stability\\d1_cross_seed_classification.png",
+    "svg": "analysis\\plots\\cross_seed_stability\\d1_cross_seed_classification.svg"
+  },
+  {
+    "category": "cross_seed_stability",
+    "name": "d2_cross_capacity_classification",
+    "caption": "Six-way cross-capacity reproducibility classification counts for the 61 >=medium-confidence candidates, width 4096 vs. 16384.",
+    "source_files": [
+      "D:\\projects\\Mechanistic-Interpretability-small\\experiments\\semantic_feature_discovery\\analysis\\data\\validation_results\\cross_seed_capacity_reconciliation.json"
+    ],
+    "n": 61,
+    "png": "analysis\\plots\\cross_seed_stability\\d2_cross_capacity_classification.png",
+    "svg": "analysis\\plots\\cross_seed_stability\\d2_cross_capacity_classification.svg"
+  },
+  {
+    "category": "cross_seed_stability",
+    "name": "d3_sensitivity_sweep_heatmap",
+    "caption": "Cross-seed reproducibility threshold-sensitivity sweep: reproduced_strong count (seed 1) across 12 cosine x margin combinations.",
+    "source_files": [
+      "D:\\projects\\Mechanistic-Interpretability-small\\experiments\\semantic_feature_discovery\\analysis\\data\\validation_results\\cross_seed_sensitivity_sweep.json"
+    ],
+    "n": 121,
+    "png": "analysis\\plots\\cross_seed_stability\\d3_sensitivity_sweep_heatmap.png",
+    "svg": "analysis\\plots\\cross_seed_stability\\d3_sensitivity_sweep_heatmap.svg"
+  },
+  {
+    "category": "cross_domain_analysis",
+    "name": "e1_single_feature_generalizers",
+    "caption": "Cross-domain entropy for the 61 eligible candidates, with the 5 reviewer-confirmed coherent_semantic generalizers highlighted.",
+    "source_files": [
+      "D:\\projects\\Mechanistic-Interpretability-small\\experiments\\semantic_feature_discovery\\analysis\\data\\relationship_analysis\\cross_domain_analysis.json"
+    ],
+    "n": 61,
+    "png": "analysis\\plots\\cross_domain_analysis\\e1_single_feature_generalizers.png",
+    "svg": "analysis\\plots\\cross_domain_analysis\\e1_single_feature_generalizers.svg"
+  },
+  {
+    "category": "cross_domain_analysis",
+    "name": "e2_top_cross_domain_hypotheses",
+    "caption": "Top 20 M3-seeded two-feature cross-domain hypotheses by evidence-strength score, out of 1107 raw (mostly noisy) intersections.",
+    "source_files": [
+      "D:\\projects\\Mechanistic-Interpretability-small\\experiments\\semantic_feature_discovery\\analysis\\data\\relationship_analysis\\cross_domain_analysis.json"
+    ],
+    "n": 1107,
+    "png": "analysis\\plots\\cross_domain_analysis\\e2_top_cross_domain_hypotheses.png",
+    "svg": "analysis\\plots\\cross_domain_analysis\\e2_top_cross_domain_hypotheses.svg"
+  },
+  {
+    "category": "feature_relationships",
+    "name": "f1_relationship_graph",
+    "caption": "Typed feature-relationship graph: 61 eligible candidates, 139 evidence-backed edges across 3 edge types with activity (co_activation, semantic_similarity, cross_domain_connection).",
+    "source_files": [
+      "D:\\projects\\Mechanistic-Interpretability-small\\experiments\\semantic_feature_discovery\\analysis\\data\\relationship_analysis\\relationship_graph.json"
+    ],
+    "n": 61,
+    "png": "analysis\\plots\\feature_relationships\\f1_relationship_graph.png",
+    "svg": "analysis\\plots\\feature_relationships\\f1_relationship_graph.svg"
+  },
+  {
+    "category": "feature_relationships",
+    "name": "f2_edge_type_counts",
+    "caption": "Edge-type counts in the relationship graph, including the three zero-count edge types as explicit negative findings.",
+    "source_files": [
+      "D:\\projects\\Mechanistic-Interpretability-small\\experiments\\semantic_feature_discovery\\analysis\\data\\relationship_analysis\\relationship_graph_summary.json"
+    ],
+    "n": 139,
+    "png": "analysis\\plots\\feature_relationships\\f2_edge_type_counts.png",
+    "svg": "analysis\\plots\\feature_relationships\\f2_edge_type_counts.svg"
+  },
+  {
+    "category": "feature_relationships",
+    "name": "f3_decoder_vs_activation_disagreements",
+    "caption": "Decoder-direction cosine vs. activation-pattern cosine for all 1,830 eligible-candidate pairs, with the 37 decoder/functional disagreements highlighted.",
+    "source_files": [
+      "D:\\projects\\Mechanistic-Interpretability-small\\experiments\\semantic_feature_discovery\\analysis\\data\\relationship_analysis\\decoder_relationship_analysis.json"
+    ],
+    "n": 1830,
+    "png": "analysis\\plots\\feature_relationships\\f3_decoder_vs_activation_disagreements.png",
+    "svg": "analysis\\plots\\feature_relationships\\f3_decoder_vs_activation_disagreements.svg"
+  },
+  {
+    "category": "model_representation",
+    "name": "g1_representation_funnel",
+    "caption": "Funnel from the full SAE-8192 dictionary through candidate selection, review, and eligibility to reviewer-confirmed coherent features.",
+    "source_files": [
+      "D:\\projects\\Mechanistic-Interpretability-small\\experiments\\semantic_feature_discovery\\analysis\\data\\feature_analysis\\sae_8192_seed0_inventory_discovery.jsonl",
+      "D:\\projects\\Mechanistic-Interpretability-small\\experiments\\semantic_feature_discovery\\analysis\\data\\feature_analysis\\candidates.jsonl",
+      "D:\\projects\\Mechanistic-Interpretability-small\\experiments\\semantic_feature_discovery\\analysis\\data\\validation_results\\primary_reviews.jsonl",
+      "D:\\projects\\Mechanistic-Interpretability-small\\experiments\\semantic_feature_discovery\\analysis\\data\\relationship_analysis\\eligible_candidates.json"
+    ],
+    "n": 8192,
+    "png": "analysis\\plots\\model_representation\\g1_representation_funnel.png",
+    "svg": "analysis\\plots\\model_representation\\g1_representation_funnel.svg"
+  },
+  {
+    "category": "model_representation",
+    "name": "g2_confirmation_only_coverage",
+    "caption": "Confirmation-only feature coverage: Discovery-dead features that fire in the independent Confirmation subset.",
+    "source_files": [
+      "D:\\projects\\Mechanistic-Interpretability-small\\experiments\\semantic_feature_discovery\\analysis\\data\\aggregate_statistics\\confirmation_only_feature_coverage.json"
+    ],
+    "n": 3535,
+    "png": "analysis\\plots\\model_representation\\g2_confirmation_only_coverage.png",
+    "svg": "analysis\\plots\\model_representation\\g2_confirmation_only_coverage.svg"
+  },
+  {
+    "category": "model_representation",
+    "name": "g3_domain_token_baseline",
+    "caption": "Discovery-subset domain-token share baseline used to normalize the domain-concentration score.",
+    "source_files": [
+      "D:\\projects\\Mechanistic-Interpretability-small\\experiments\\semantic_feature_discovery\\analysis\\data\\aggregate_statistics\\discovery_domain_token_baseline.json"
+    ],
+    "n": 49615,
+    "png": "analysis\\plots\\model_representation\\g3_domain_token_baseline.png",
+    "svg": "analysis\\plots\\model_representation\\g3_domain_token_baseline.svg"
+  }
+]

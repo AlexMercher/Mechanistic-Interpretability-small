@@ -1,0 +1,7 @@
+{
+  "n_discovery_dead_features": 3535,
+  "n_confirmation_only_features": 0,
+  "n_dead_in_both_subsets": 3535,
+  "confirmation_only_feature_indices": [],
+  "note": "Rare-feature discovery in this milestone is conditional on firing in the Discovery subset. These confirmation_only_feature_indices fired zero times in Discovery and therefore could not enter the rare_but_active (or any) candidate stratum -- the 121-candidate cohort is a stratified sample of Discovery-visible features, not an exhaustive census of all rare features in the SAE-8192 seed-0 dictionary."
+}

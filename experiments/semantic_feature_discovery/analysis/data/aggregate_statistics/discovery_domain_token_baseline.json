@@ -1,0 +1,19 @@
+{
+  "n_discovery_tokens": 49615,
+  "n_discovery_prompts": 1265,
+  "domain_token_share": {
+    "HINDI": 0.3862944673989721,
+    "SCIENCE": 0.22035674695152677,
+    "EMOTIONS": 0.1629345963922201,
+    "GANDHI": 0.11708152776378111,
+    "DNA": 0.11333266149349995
+  },
+  "language_form_token_share": {
+    "english": 0.6137055326010279,
+    "native_hindi": 0.3112365212133427,
+    "romanized_hindi": 0.0422452887231684,
+    "mixed_multilingual": 0.016204776781215357,
+    "hinglish": 0.015761362491182103,
+    "uncertain": 0.0008465181900634889
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "method_tier1": "connected_components_over_near_duplicate_candidates_csv (SequenceMatcher>=0.72, blocked by (category,subdomain) at source)",
+  "method_tier2": "skeleton_fallback: mask capitalized multi-word spans + digit runs with <SLOT>, exact-match grouping within (domain, category), only for prompts with zero Tier-1 coverage",
+  "method_tier3": "unclustered -- template relationship unknown, never counted as an independent template",
+  "tier1_family_count": 1905,
+  "tier1_prompt_count": 6333,
+  "tier2_family_count": 151,
+  "tier2_prompt_count": 1533,
+  "tier3_prompt_count": 17134,
+  "total_prompts": 25000
+}

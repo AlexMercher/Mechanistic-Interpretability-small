@@ -52,3 +52,18 @@ experiments/sae_capacity_comparison/**/_legacy_overwritten_no_seed_suffix/
 # essential reproducibility artifact (every SAE's input transform depends on it) --
 # unlike model weights, it is small, deterministic, and needed to reproduce results.
 !experiments/sae_capacity_comparison/preprocessing/mu_vector.pt
+
+# Milestone 6 (semantic_feature_discovery): raw per-token/per-prompt activation caches
+# (pickled pandas DataFrames of firing events / activation matrices, ~137MB total) are
+# intermediate compute artifacts, deterministically regeneratable by re-running the
+# extraction scripts against the frozen M4 activations + M5 SAE checkpoints. The
+# artifacts that matter for reproducing this milestone's conclusions -- feature
+# inventory, candidate evidence, review results, relationship graph, figures -- are all
+# JSON/JSONL/PNG/SVG and stay tracked; only these raw pickle caches are excluded.
+*.pkl
+
+# Large embedding matrices (e.g. duplicate_language_embedding's prompt_embeddings.npy,
+# already listed explicitly above): deterministically regeneratable from the frozen
+# embedding model + normalized corpus. Belt-and-suspenders global rule for any other
+# .npy that shows up.
+*.npy

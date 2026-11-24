@@ -1,0 +1,334 @@
+[
+  {
+    "domain": "DNA",
+    "category": "contextual_understanding",
+    "skeleton": "<slot> does ogg1 recognize and excise <slot>-oxoguanine paired with cytosine?",
+    "example_prompts": [
+      {
+        "prompt_id": "DNA_000457",
+        "text": "How does OGG1 recognize and excise 8-oxoguanine paired with cytosine?"
+      },
+      {
+        "prompt_id": "DNA_001292",
+        "text": "How does OGG1 recognize and excise 8-oxoguanine paired with cytosine?"
+      }
+    ]
+  },
+  {
+    "domain": "GANDHI",
+    "category": "contextual_understanding",
+    "skeleton": "<slot> historian examines <slot> through political context. <slot> contextual factors are essential to a careful explanation?",
+    "example_prompts": [
+      {
+        "prompt_id": "GANDHI_000247",
+        "text": "A historian examines Assassination through political context. What contextual factors are essential to a careful explanation?"
+      },
+      {
+        "prompt_id": "GANDHI_000248",
+        "text": "A historian examines Legacy through political context. What contextual factors are essential to a careful explanation?"
+      },
+      {
+        "prompt_id": "GANDHI_000257",
+        "text": "A historian examines Correspondence through political context. What contextual factors are essential to a careful explanation?"
+      },
+      {
+        "prompt_id": "GANDHI_000259",
+        "text": "A historian examines Historiography through political context. What contextual factors are essential to a careful explanation?"
+      }
+    ]
+  },
+  {
+    "domain": "GANDHI",
+    "category": "contextual_understanding",
+    "skeleton": "<slot> historian examines <slot> of <slot> through political context. <slot> contextual factors are essential to a careful explanation?",
+    "example_prompts": [
+      {
+        "prompt_id": "GANDHI_000260",
+        "text": "A historian examines Criticism of Gandhi through political context. What contextual factors are essential to a careful explanation?"
+      },
+      {
+        "prompt_id": "GANDHI_000266",
+        "text": "A historian examines International Day of Non-Violence through political context. What contextual factors are essential to a careful explanation?"
+      }
+    ]
+  },
+  {
+    "domain": "GANDHI",
+    "category": "contextual_understanding",
+    "skeleton": "<slot> historian examines <slot> experiments through political context. <slot> contextual factors are essential to a careful explanation?",
+    "example_prompts": [
+      {
+        "prompt_id": "GANDHI_000264",
+        "text": "A historian examines Personal experiments through political context. What contextual factors are essential to a careful explanation?"
+      },
+      {
+        "prompt_id": "GANDHI_000285",
+        "text": "A historian examines Community experiments through political context. What contextual factors are essential to a careful explanation?"
+      }
+    ]
+  },
+  {
+    "domain": "GANDHI",
+    "category": "contextual_understanding",
+    "skeleton": "<slot> historian examines <slot> strategy through political context. <slot> contextual factors are essential to a careful explanation?",
+    "example_prompts": [
+      {
+        "prompt_id": "GANDHI_000271",
+        "text": "A historian examines Media strategy through political context. What contextual factors are essential to a careful explanation?"
+      },
+      {
+        "prompt_id": "GANDHI_000272",
+        "text": "A historian examines Negotiation strategy through political context. What contextual factors are essential to a careful explanation?"
+      }
+    ]
+  },
+  {
+    "domain": "GANDHI",
+    "category": "contextual_understanding",
+    "skeleton": "<slot> within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible.",
+    "example_prompts": [
+      {
+        "prompt_id": "GANDHI_000305",
+        "text": "Place Kasturba Gandhi within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+      },
+      {
+        "prompt_id": "GANDHI_000311",
+        "text": "Place Natal Indian Congress within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+      },
+      {
+        "prompt_id": "GANDHI_000312",
+        "text": "Place Indian Opinion within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+      },
+      {
+        "prompt_id": "GANDHI_000313",
+        "text": "Place Phoenix Settlement within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+      }
+    ]
+  },
+  {
+    "domain": "GANDHI",
+    "category": "contextual_understanding",
+    "skeleton": "<slot> satyagraha within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible.",
+    "example_prompts": [
+      {
+        "prompt_id": "GANDHI_000316",
+        "text": "Place South African satyagraha within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+      },
+      {
+        "prompt_id": "GANDHI_000386",
+        "text": "Place Individual satyagraha within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+      }
+    ]
+  },
+  {
+    "domain": "GANDHI",
+    "category": "contextual_understanding",
+    "skeleton": "<slot> in <slot> within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible.",
+    "example_prompts": [
+      {
+        "prompt_id": "GANDHI_000340",
+        "text": "Place Satyagraha in South Africa within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+      },
+      {
+        "prompt_id": "GANDHI_000443",
+        "text": "Place Legacy in India within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+      }
+    ]
+  },
+  {
+    "domain": "GANDHI",
+    "category": "contextual_understanding",
+    "skeleton": "<slot> influence within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible.",
+    "example_prompts": [
+      {
+        "prompt_id": "GANDHI_000363",
+        "text": "Place Tolstoy influence within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+      },
+      {
+        "prompt_id": "GANDHI_000364",
+        "text": "Place Ruskin influence within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+      },
+      {
+        "prompt_id": "GANDHI_000400",
+        "text": "Place Global influence within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+      }
+    ]
+  },
+  {
+    "domain": "GANDHI",
+    "category": "contextual_understanding",
+    "skeleton": "<slot> of <slot> within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible.",
+    "example_prompts": [
+      {
+        "prompt_id": "GANDHI_000411",
+        "text": "Place Criticism of Gandhi within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+      },
+      {
+        "prompt_id": "GANDHI_000417",
+        "text": "Place International Day of Non-Violence within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+      }
+    ]
+  },
+  {
+    "domain": "GANDHI",
+    "category": "contextual_understanding",
+    "skeleton": "<slot> experiments within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible.",
+    "example_prompts": [
+      {
+        "prompt_id": "GANDHI_000415",
+        "text": "Place Personal experiments within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+      },
+      {
+        "prompt_id": "GANDHI_000436",
+        "text": "Place Community experiments within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+      }
+    ]
+  },
+  {
+    "domain": "GANDHI",
+    "category": "contextual_understanding",
+    "skeleton": "<slot> strategy within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible.",
+    "example_prompts": [
+      {
+        "prompt_id": "GANDHI_000422",
+        "text": "Place Media strategy within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+      },
+      {
+        "prompt_id": "GANDHI_000423",
+        "text": "Place Negotiation strategy within ethical argument; explain the sequence, actors and constraints that help make the event or idea intelligible."
+      }
+    ]
+  },
+  {
+    "domain": "GANDHI",
+    "category": "contextual_understanding",
+    "skeleton": "<slot> does understanding organizational method change the interpretation of <slot>? <slot> the explanation with historical evidence.",
+    "example_prompts": [
+      {
+        "prompt_id": "GANDHI_000456",
+        "text": "How does understanding organizational method change the interpretation of Kasturba Gandhi? Support the explanation with historical evidence."
+      },
+      {
+        "prompt_id": "GANDHI_000462",
+        "text": "How does understanding organizational method change the interpretation of Natal Indian Congress? Support the explanation with historical evidence."
+      },
+      {
+        "prompt_id": "GANDHI_000463",
+        "text": "How does understanding organizational method change the interpretation of Indian Opinion? Support the explanation with historical evidence."
+      },
+      {
+        "prompt_id": "GANDHI_000464",
+        "text": "How does understanding organizational method change the interpretation of Phoenix Settlement? Support the explanation with historical evidence."
+      }
+    ]
+  },
+  {
+    "domain": "GANDHI",
+    "category": "contextual_understanding",
+    "skeleton": "<slot> does understanding organizational method change the interpretation of <slot> satyagraha? <slot> the explanation with historical evidence.",
+    "example_prompts": [
+      {
+        "prompt_id": "GANDHI_000467",
+        "text": "How does understanding organizational method change the interpretation of South African satyagraha? Support the explanation with historical evidence."
+      },
+      {
+        "prompt_id": "GANDHI_000537",
+        "text": "How does understanding organizational method change the interpretation of Individual satyagraha? Support the explanation with historical evidence."
+      }
+    ]
+  },
+  {
+    "domain": "GANDHI",
+    "category": "contextual_understanding",
+    "skeleton": "<slot> does understanding organizational method change the interpretation of <slot> in <slot>? <slot> the explanation with historical evidence.",
+    "example_prompts": [
+      {
+        "prompt_id": "GANDHI_000491",
+        "text": "How does understanding organizational method change the interpretation of Satyagraha in South Africa? Support the explanation with historical evidence."
+      },
+      {
+        "prompt_id": "GANDHI_000594",
+        "text": "How does understanding organizational method change the interpretation of Legacy in India? Support the explanation with historical evidence."
+      }
+    ]
+  },
+  {
+    "domain": "GANDHI",
+    "category": "contextual_understanding",
+    "skeleton": "<slot> does understanding organizational method change the interpretation of <slot> influence? <slot> the explanation with historical evidence.",
+    "example_prompts": [
+      {
+        "prompt_id": "GANDHI_000514",
+        "text": "How does understanding organizational method change the interpretation of Tolstoy influence? Support the explanation with historical evidence."
+      },
+      {
+        "prompt_id": "GANDHI_000515",
+        "text": "How does understanding organizational method change the interpretation of Ruskin influence? Support the explanation with historical evidence."
+      },
+      {
+        "prompt_id": "GANDHI_000551",
+        "text": "How does understanding organizational method change the interpretation of Global influence? Support the explanation with historical evidence."
+      }
+    ]
+  },
+  {
+    "domain": "GANDHI",
+    "category": "contextual_understanding",
+    "skeleton": "<slot> does understanding organizational method change the interpretation of <slot> ? <slot> the explanation with historical evidence.",
+    "example_prompts": [
+      {
+        "prompt_id": "GANDHI_000526",
+        "text": "How does understanding organizational method change the interpretation of Lahore Congress 1929? Support the explanation with historical evidence."
+      },
+      {
+        "prompt_id": "GANDHI_000534",
+        "text": "How does understanding organizational method change the interpretation of London 1931? Support the explanation with historical evidence."
+      }
+    ]
+  },
+  {
+    "domain": "GANDHI",
+    "category": "contextual_understanding",
+    "skeleton": "<slot> does understanding organizational method change the interpretation of <slot> of <slot>? <slot> the explanation with historical evidence.",
+    "example_prompts": [
+      {
+        "prompt_id": "GANDHI_000562",
+        "text": "How does understanding organizational method change the interpretation of Criticism of Gandhi? Support the explanation with historical evidence."
+      },
+      {
+        "prompt_id": "GANDHI_000568",
+        "text": "How does understanding organizational method change the interpretation of International Day of Non-Violence? Support the explanation with historical evidence."
+      }
+    ]
+  },
+  {
+    "domain": "GANDHI",
+    "category": "contextual_understanding",
+    "skeleton": "<slot> does understanding organizational method change the interpretation of <slot> experiments? <slot> the explanation with historical evidence.",
+    "example_prompts": [
+      {
+        "prompt_id": "GANDHI_000566",
+        "text": "How does understanding organizational method change the interpretation of Personal experiments? Support the explanation with historical evidence."
+      },
+      {
+        "prompt_id": "GANDHI_000587",
+        "text": "How does understanding organizational method change the interpretation of Community experiments? Support the explanation with historical evidence."
+      }
+    ]
+  },
+  {
+    "domain": "GANDHI",
+    "category": "contextual_understanding",
+    "skeleton": "<slot> does understanding organizational method change the interpretation of <slot> strategy? <slot> the explanation with historical evidence.",
+    "example_prompts": [
+      {
+        "prompt_id": "GANDHI_000573",
+        "text": "How does understanding organizational method change the interpretation of Media strategy? Support the explanation with historical evidence."
+      },
+      {
+        "prompt_id": "GANDHI_000574",
+        "text": "How does understanding organizational method change the interpretation of Negotiation strategy? Support the explanation with historical evidence."
+      }
+    ]
+  }
+]

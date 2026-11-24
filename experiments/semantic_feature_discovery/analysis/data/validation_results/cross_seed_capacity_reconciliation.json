@@ -1,0 +1,48 @@
+{
+  "cross_seed_matching": {
+    "denominator": 121,
+    "denominator_definition": "the complete 121-candidate cohort frozen in Phase 1 -- every candidate is matched against the FULL target dictionary for both seed 1 and seed 2",
+    "seed_1": {
+      "reproduced_strong": 60,
+      "numerically_matched_semantically_inconsistent": 26,
+      "possible_split": 0,
+      "possible_merge": 2,
+      "not_reproduced": 8,
+      "insufficient_evidence": 25,
+      "sum_check": 121
+    },
+    "seed_2": {
+      "reproduced_strong": 67,
+      "numerically_matched_semantically_inconsistent": 20,
+      "possible_split": 0,
+      "possible_merge": 0,
+      "not_reproduced": 9,
+      "insufficient_evidence": 25,
+      "sum_check": 121
+    },
+    "note_on_67": "67 is seed 2's reproduced_strong count, OUT OF THE FULL 121-candidate cohort (67/121, not out of any smaller eligible subset). It is not a denominator itself -- it is one cell of the seed_2 row, which sums to 121 across all six classifications.",
+    "insufficient_evidence_identity_check": "the same 25 feature_idx values are classified insufficient_evidence under BOTH seed_1 and seed_2 -- insufficiency is a property of the candidate's own Confirmation-subset firing volume (<5 tokens or <3 prompts), independent of which target seed it is matched against, so it is identical across both matching attempts. Verified programmatically: the two 25-element sets are equal.",
+    "double_counting_check": "each of the 121 candidates receives exactly one classification per seed (6 mutually exclusive categories); no candidate appears in more than one cell per seed."
+  },
+  "cross_capacity_matching": {
+    "denominator": 61,
+    "denominator_definition": "NOT the full 121-candidate cohort. Restricted, per the approved Phase 3 plan, to candidates whose PRIMARY REVIEW reached >= medium confidence (61 of the 121 candidates qualify: 26 high + 35 medium). This is a materially different, smaller, and differently-defined population than the cross-seed matching's 121-candidate denominator.",
+    "width_4096": {
+      "reproduced_strong": 35, "numerically_matched_semantically_inconsistent": 24,
+      "possible_split": 0, "possible_merge": 1, "not_reproduced": 1, "insufficient_evidence": 0,
+      "sum_check": 61
+    },
+    "width_16384": {
+      "reproduced_strong": 49, "numerically_matched_semantically_inconsistent": 11,
+      "possible_split": 0, "possible_merge": 0, "not_reproduced": 1, "insufficient_evidence": 0,
+      "sum_check": 61
+    },
+    "why_zero_insufficient_evidence_here": "the >=medium-confidence filter already excludes every candidate that would have hit the minimum-evidence floor (confidence assignment during review already penalized/flagged thin Confirmation evidence) -- so by construction none of these 61 fall below the <5-token/<3-prompt threshold again here. This is a consequence of the confidence-based filter, not a separate finding.",
+    "explicit_warning": "cross-capacity's 61-candidate denominator and cross-seed's 121-candidate denominator must never be combined, averaged, or compared cell-for-cell as if they were the same population. The superficial numeric closeness of cross-seed seed_2's reproduced_strong count (67, out of 121) and cross-capacity's eligible-candidate count (61, out of 121) is coincidental and was a source of confusion in the Phase 3 report -- corrected here."
+  },
+  "full_121_accounting": {
+    "method": "every one of the 121 candidates is accounted for in BOTH the cross-seed table (which covers all 121) and, separately, in a binary medium+/below-medium split that determines cross-capacity eligibility (61 eligible, 60 not eligible for the cross-capacity check specifically, but still fully classified in cross-seed).",
+    "below_medium_confidence_count": 60,
+    "below_medium_confidence_definition": "121 total - 61 (>=medium) = 60 candidates at low or unvalidated confidence, NOT cross-capacity-checked, but fully present and classified in the cross-seed 121-row tables above."
+  }
+}

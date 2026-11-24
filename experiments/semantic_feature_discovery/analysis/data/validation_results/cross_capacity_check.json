@@ -1,0 +1,2666 @@
+{
+  "min_confidence": "medium",
+  "eligible_candidates": [
+    95,
+    553,
+    720,
+    838,
+    1598,
+    1811,
+    1857,
+    1974,
+    2125,
+    2201,
+    2283,
+    2728,
+    2974,
+    3001,
+    3107,
+    3252,
+    3349,
+    3498,
+    3598,
+    3728,
+    3734,
+    3908,
+    3997,
+    4021,
+    4094,
+    4282,
+    4301,
+    4455,
+    4485,
+    4606,
+    4769,
+    4983,
+    5167,
+    5180,
+    5297,
+    5377,
+    5558,
+    5656,
+    5760,
+    5780,
+    5902,
+    6095,
+    6299,
+    6403,
+    6437,
+    6569,
+    6653,
+    6719,
+    6760,
+    6815,
+    7096,
+    7371,
+    7376,
+    7399,
+    7640,
+    7652,
+    7688,
+    7784,
+    7789,
+    8053,
+    8170
+  ],
+  "results": {
+    "95": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 1997,
+        "above_threshold_targets": [
+          1997,
+          554
+        ],
+        "confirmation_source_firing_tokens": 387,
+        "confirmation_source_firing_prompts": 286,
+        "reverse_check": {
+          "best_source_from_target": 888,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.38934072852134705,
+        "confirmation_top_prompt_jaccard": 0.25806451612903225,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 8197,
+        "above_threshold_targets": [
+          8197,
+          5260,
+          13553
+        ],
+        "confirmation_source_firing_tokens": 387,
+        "confirmation_source_firing_prompts": 286,
+        "reverse_check": {
+          "best_source_from_target": 95,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7960156798362732,
+        "confirmation_top_prompt_jaccard": 0.56,
+        "classification": "reproduced_strong"
+      }
+    },
+    "553": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3776,
+        "above_threshold_targets": [
+          3776
+        ],
+        "confirmation_source_firing_tokens": 1870,
+        "confirmation_source_firing_prompts": 593,
+        "reverse_check": {
+          "best_source_from_target": 553,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9436209201812744,
+        "confirmation_top_prompt_jaccard": 0.7391304347826086,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 10137,
+        "above_threshold_targets": [
+          10137,
+          16367
+        ],
+        "confirmation_source_firing_tokens": 1870,
+        "confirmation_source_firing_prompts": 593,
+        "reverse_check": {
+          "best_source_from_target": 553,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9042454361915588,
+        "confirmation_top_prompt_jaccard": 0.6666666666666666,
+        "classification": "reproduced_strong"
+      }
+    },
+    "720": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 372,
+        "above_threshold_targets": [
+          372,
+          1996,
+          2595,
+          2046,
+          587,
+          2532,
+          1206,
+          142,
+          2275,
+          1110
+        ],
+        "confirmation_source_firing_tokens": 756,
+        "confirmation_source_firing_prompts": 209,
+        "reverse_check": {
+          "best_source_from_target": 720,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9590545892715454,
+        "confirmation_top_prompt_jaccard": 0.7142857142857143,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 227,
+        "above_threshold_targets": [
+          227,
+          16117,
+          14187,
+          11627,
+          7979,
+          17,
+          4769,
+          7659,
+          2461,
+          6442
+        ],
+        "confirmation_source_firing_tokens": 756,
+        "confirmation_source_firing_prompts": 209,
+        "reverse_check": {
+          "best_source_from_target": 720,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9734420776367188,
+        "confirmation_top_prompt_jaccard": 0.8095238095238095,
+        "classification": "reproduced_strong"
+      }
+    },
+    "838": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 2204,
+        "above_threshold_targets": [
+          2204,
+          2698,
+          1065,
+          3362,
+          611,
+          3924
+        ],
+        "confirmation_source_firing_tokens": 1729,
+        "confirmation_source_firing_prompts": 323,
+        "reverse_check": {
+          "best_source_from_target": 5949,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.5586273670196533,
+        "confirmation_top_prompt_jaccard": 0.041666666666666664,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 6518,
+        "above_threshold_targets": [
+          6518,
+          12589,
+          7427,
+          395
+        ],
+        "confirmation_source_firing_tokens": 1729,
+        "confirmation_source_firing_prompts": 323,
+        "reverse_check": {
+          "best_source_from_target": 6271,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.5074208378791809,
+        "confirmation_top_prompt_jaccard": 0.2857142857142857,
+        "classification": "numerically_matched_semantically_inconsistent"
+      }
+    },
+    "1598": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 1985,
+        "above_threshold_targets": [
+          1985,
+          2031,
+          2639,
+          2392,
+          2250,
+          1347,
+          3173,
+          1826,
+          2391,
+          1502,
+          3123
+        ],
+        "confirmation_source_firing_tokens": 755,
+        "confirmation_source_firing_prompts": 262,
+        "reverse_check": {
+          "best_source_from_target": 1802,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.598542332649231,
+        "confirmation_top_prompt_jaccard": 0.2608695652173913,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 15327,
+        "above_threshold_targets": [
+          15327,
+          12811,
+          16272,
+          1174,
+          8465,
+          8293,
+          16190,
+          4771,
+          6002,
+          12018,
+          6161
+        ],
+        "confirmation_source_firing_tokens": 755,
+        "confirmation_source_firing_prompts": 262,
+        "reverse_check": {
+          "best_source_from_target": 1598,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8582456707954407,
+        "confirmation_top_prompt_jaccard": 0.65,
+        "classification": "reproduced_strong"
+      }
+    },
+    "1811": {
+      "width_4096": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 1460,
+        "above_threshold_targets": [
+          1460,
+          2052,
+          4060,
+          575,
+          457
+        ],
+        "confirmation_source_firing_tokens": 2110,
+        "confirmation_source_firing_prompts": 482,
+        "reverse_check": {
+          "best_source_from_target": 1811,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.5995005369186401,
+        "confirmation_top_prompt_jaccard": 0.25,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 15234,
+        "above_threshold_targets": [
+          15234,
+          11145,
+          3383,
+          5074,
+          5816
+        ],
+        "confirmation_source_firing_tokens": 2110,
+        "confirmation_source_firing_prompts": 482,
+        "reverse_check": {
+          "best_source_from_target": 1811,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7727005481719971,
+        "confirmation_top_prompt_jaccard": 0.29411764705882354,
+        "classification": "reproduced_strong"
+      }
+    },
+    "1857": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 1502,
+        "above_threshold_targets": [
+          1502,
+          2143,
+          3169,
+          2206
+        ],
+        "confirmation_source_firing_tokens": 589,
+        "confirmation_source_firing_prompts": 186,
+        "reverse_check": {
+          "best_source_from_target": 1857,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9164371490478516,
+        "confirmation_top_prompt_jaccard": 0.3888888888888889,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 12018,
+        "above_threshold_targets": [
+          12018,
+          1665,
+          607,
+          8192
+        ],
+        "confirmation_source_firing_tokens": 589,
+        "confirmation_source_firing_prompts": 186,
+        "reverse_check": {
+          "best_source_from_target": 1857,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9550037384033203,
+        "confirmation_top_prompt_jaccard": 0.5294117647058824,
+        "classification": "reproduced_strong"
+      }
+    },
+    "1974": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 1521,
+        "above_threshold_targets": [
+          1521
+        ],
+        "confirmation_source_firing_tokens": 123,
+        "confirmation_source_firing_prompts": 113,
+        "reverse_check": {
+          "best_source_from_target": 5881,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.24468061327934265,
+        "confirmation_top_prompt_jaccard": 0.08823529411764706,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "width_16384": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 1821,
+        "above_threshold_targets": [
+          1821,
+          5584
+        ],
+        "confirmation_source_firing_tokens": 123,
+        "confirmation_source_firing_prompts": 113,
+        "reverse_check": {
+          "best_source_from_target": 1974,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.3898230493068695,
+        "confirmation_top_prompt_jaccard": 0.02857142857142857,
+        "classification": "reproduced_strong"
+      }
+    },
+    "2125": {
+      "width_4096": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 1284,
+        "above_threshold_targets": [
+          1284,
+          1062,
+          3397,
+          611
+        ],
+        "confirmation_source_firing_tokens": 1994,
+        "confirmation_source_firing_prompts": 539,
+        "reverse_check": {
+          "best_source_from_target": 4816,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.33865463733673096,
+        "confirmation_top_prompt_jaccard": 0.06896551724137931,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 10475,
+        "above_threshold_targets": [
+          10475,
+          11961,
+          6804,
+          7183,
+          11249,
+          6518
+        ],
+        "confirmation_source_firing_tokens": 1994,
+        "confirmation_source_firing_prompts": 539,
+        "reverse_check": {
+          "best_source_from_target": 2125,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.6224321126937866,
+        "confirmation_top_prompt_jaccard": 0.2692307692307692,
+        "classification": "reproduced_strong"
+      }
+    },
+    "2201": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 819,
+        "above_threshold_targets": [
+          819,
+          1323,
+          2422
+        ],
+        "confirmation_source_firing_tokens": 348,
+        "confirmation_source_firing_prompts": 230,
+        "reverse_check": {
+          "best_source_from_target": 2201,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7522827386856079,
+        "confirmation_top_prompt_jaccard": 0.5454545454545454,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 11629,
+        "above_threshold_targets": [
+          11629,
+          3134,
+          5666,
+          6353
+        ],
+        "confirmation_source_firing_tokens": 348,
+        "confirmation_source_firing_prompts": 230,
+        "reverse_check": {
+          "best_source_from_target": 2201,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7128210067749023,
+        "confirmation_top_prompt_jaccard": 0.5,
+        "classification": "reproduced_strong"
+      }
+    },
+    "2283": {
+      "width_4096": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 2031,
+        "above_threshold_targets": [
+          2031,
+          3698
+        ],
+        "confirmation_source_firing_tokens": 122,
+        "confirmation_source_firing_prompts": 84,
+        "reverse_check": {
+          "best_source_from_target": 650,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.42044496536254883,
+        "confirmation_top_prompt_jaccard": 0.14814814814814814,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 8293,
+        "above_threshold_targets": [
+          8293,
+          16032
+        ],
+        "confirmation_source_firing_tokens": 122,
+        "confirmation_source_firing_prompts": 84,
+        "reverse_check": {
+          "best_source_from_target": 2283,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.651045560836792,
+        "confirmation_top_prompt_jaccard": 0.19230769230769232,
+        "classification": "reproduced_strong"
+      }
+    },
+    "2728": {
+      "width_4096": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 4004,
+        "above_threshold_targets": [
+          4004,
+          2399,
+          547,
+          1825,
+          3534,
+          426,
+          2912,
+          279,
+          1315,
+          3170
+        ],
+        "confirmation_source_firing_tokens": 2489,
+        "confirmation_source_firing_prompts": 278,
+        "reverse_check": {
+          "best_source_from_target": 7365,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.3507849872112274,
+        "confirmation_top_prompt_jaccard": 0.13043478260869565,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 4105,
+        "above_threshold_targets": [
+          4105,
+          2775,
+          8702,
+          7863,
+          1328,
+          4736,
+          4347,
+          1518,
+          5553,
+          14973
+        ],
+        "confirmation_source_firing_tokens": 2489,
+        "confirmation_source_firing_prompts": 278,
+        "reverse_check": {
+          "best_source_from_target": 2728,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7313718795776367,
+        "confirmation_top_prompt_jaccard": 0.5714285714285714,
+        "classification": "reproduced_strong"
+      }
+    },
+    "2974": {
+      "width_4096": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 3905,
+        "above_threshold_targets": [
+          3905,
+          941,
+          347,
+          426,
+          3315,
+          3323,
+          3181,
+          687,
+          2153
+        ],
+        "confirmation_source_firing_tokens": 2245,
+        "confirmation_source_firing_prompts": 284,
+        "reverse_check": {
+          "best_source_from_target": 1993,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.461166113615036,
+        "confirmation_top_prompt_jaccard": 0.25,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 7548,
+        "above_threshold_targets": [
+          7548,
+          18,
+          3705,
+          5261,
+          745,
+          4105,
+          5953,
+          14391,
+          14004,
+          13476
+        ],
+        "confirmation_source_firing_tokens": 2245,
+        "confirmation_source_firing_prompts": 284,
+        "reverse_check": {
+          "best_source_from_target": 2974,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9033384323120117,
+        "confirmation_top_prompt_jaccard": 0.5333333333333333,
+        "classification": "reproduced_strong"
+      }
+    },
+    "3001": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 538,
+        "above_threshold_targets": [
+          538,
+          2028,
+          2540,
+          1218,
+          233,
+          3684,
+          1604,
+          3797
+        ],
+        "confirmation_source_firing_tokens": 566,
+        "confirmation_source_firing_prompts": 226,
+        "reverse_check": {
+          "best_source_from_target": 3001,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.602057695388794,
+        "confirmation_top_prompt_jaccard": 0.20833333333333334,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 5375,
+        "above_threshold_targets": [
+          5375,
+          13868,
+          10701,
+          649,
+          180
+        ],
+        "confirmation_source_firing_tokens": 566,
+        "confirmation_source_firing_prompts": 226,
+        "reverse_check": {
+          "best_source_from_target": 3001,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8954628705978394,
+        "confirmation_top_prompt_jaccard": 0.7857142857142857,
+        "classification": "reproduced_strong"
+      }
+    },
+    "3107": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 2595,
+        "above_threshold_targets": [
+          2595,
+          215,
+          372,
+          142,
+          3125,
+          1996
+        ],
+        "confirmation_source_firing_tokens": 398,
+        "confirmation_source_firing_prompts": 156,
+        "reverse_check": {
+          "best_source_from_target": 3107,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9782698750495911,
+        "confirmation_top_prompt_jaccard": 0.7391304347826086,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 14187,
+        "above_threshold_targets": [
+          14187,
+          267,
+          227,
+          16117,
+          2461,
+          9145,
+          12906,
+          14525,
+          4532
+        ],
+        "confirmation_source_firing_tokens": 398,
+        "confirmation_source_firing_prompts": 156,
+        "reverse_check": {
+          "best_source_from_target": 3107,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9915996193885803,
+        "confirmation_top_prompt_jaccard": 0.8181818181818182,
+        "classification": "reproduced_strong"
+      }
+    },
+    "3252": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 1419,
+        "above_threshold_targets": [
+          1419
+        ],
+        "confirmation_source_firing_tokens": 167,
+        "confirmation_source_firing_prompts": 146,
+        "reverse_check": {
+          "best_source_from_target": 4660,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.8105456829071045,
+        "confirmation_top_prompt_jaccard": 0.48,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 12242,
+        "above_threshold_targets": [
+          12242
+        ],
+        "confirmation_source_firing_tokens": 167,
+        "confirmation_source_firing_prompts": 146,
+        "reverse_check": {
+          "best_source_from_target": 4660,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.8874344825744629,
+        "confirmation_top_prompt_jaccard": 0.4444444444444444,
+        "classification": "numerically_matched_semantically_inconsistent"
+      }
+    },
+    "3349": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 2149,
+        "above_threshold_targets": [
+          2149
+        ],
+        "confirmation_source_firing_tokens": 151,
+        "confirmation_source_firing_prompts": 130,
+        "reverse_check": {
+          "best_source_from_target": 5570,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.7982678413391113,
+        "confirmation_top_prompt_jaccard": 0.14285714285714285,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 14699,
+        "above_threshold_targets": [
+          14699,
+          8249
+        ],
+        "confirmation_source_firing_tokens": 151,
+        "confirmation_source_firing_prompts": 130,
+        "reverse_check": {
+          "best_source_from_target": 3349,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8671501874923706,
+        "confirmation_top_prompt_jaccard": 0.13636363636363635,
+        "classification": "reproduced_strong"
+      }
+    },
+    "3498": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 956,
+        "above_threshold_targets": [
+          956,
+          2159,
+          3057,
+          3678
+        ],
+        "confirmation_source_firing_tokens": 1961,
+        "confirmation_source_firing_prompts": 344,
+        "reverse_check": {
+          "best_source_from_target": 3498,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.706612229347229,
+        "confirmation_top_prompt_jaccard": 0.3333333333333333,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 14503,
+        "above_threshold_targets": [
+          14503,
+          8263,
+          12907,
+          4602,
+          13068,
+          6797
+        ],
+        "confirmation_source_firing_tokens": 1961,
+        "confirmation_source_firing_prompts": 344,
+        "reverse_check": {
+          "best_source_from_target": 3498,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7797976136207581,
+        "confirmation_top_prompt_jaccard": 0.2962962962962963,
+        "classification": "reproduced_strong"
+      }
+    },
+    "3598": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 564,
+        "above_threshold_targets": [
+          564,
+          2442
+        ],
+        "confirmation_source_firing_tokens": 94,
+        "confirmation_source_firing_prompts": 73,
+        "reverse_check": {
+          "best_source_from_target": 5043,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.528480052947998,
+        "confirmation_top_prompt_jaccard": 0.07692307692307693,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 5101,
+        "above_threshold_targets": [
+          5101,
+          16344
+        ],
+        "confirmation_source_firing_tokens": 94,
+        "confirmation_source_firing_prompts": 73,
+        "reverse_check": {
+          "best_source_from_target": 3598,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9535229206085205,
+        "confirmation_top_prompt_jaccard": 0.5263157894736842,
+        "classification": "reproduced_strong"
+      }
+    },
+    "3728": {
+      "width_4096": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 917,
+        "above_threshold_targets": [
+          917,
+          3306,
+          1423,
+          958,
+          3515,
+          711,
+          72,
+          1024,
+          2033,
+          3152,
+          10,
+          2211
+        ],
+        "confirmation_source_firing_tokens": 403,
+        "confirmation_source_firing_prompts": 322,
+        "reverse_check": {
+          "best_source_from_target": 3728,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8269779682159424,
+        "confirmation_top_prompt_jaccard": 0.6666666666666666,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 10831,
+        "above_threshold_targets": [
+          10831,
+          3145,
+          6566,
+          11393,
+          3151,
+          319,
+          16368,
+          1627,
+          12346,
+          6037,
+          3342,
+          6775,
+          14943,
+          15887,
+          4396,
+          9327,
+          7584,
+          15930,
+          14949,
+          8283,
+          15423,
+          7102
+        ],
+        "confirmation_source_firing_tokens": 403,
+        "confirmation_source_firing_prompts": 322,
+        "reverse_check": {
+          "best_source_from_target": 3728,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.976376473903656,
+        "confirmation_top_prompt_jaccard": 1.0,
+        "classification": "reproduced_strong"
+      }
+    },
+    "3734": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3765,
+        "above_threshold_targets": [
+          3765,
+          89,
+          2184,
+          3897
+        ],
+        "confirmation_source_firing_tokens": 601,
+        "confirmation_source_firing_prompts": 426,
+        "reverse_check": {
+          "best_source_from_target": 3734,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9881694316864014,
+        "confirmation_top_prompt_jaccard": 0.8181818181818182,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 8372,
+        "above_threshold_targets": [
+          8372,
+          13901,
+          5619,
+          14345,
+          8287
+        ],
+        "confirmation_source_firing_tokens": 601,
+        "confirmation_source_firing_prompts": 426,
+        "reverse_check": {
+          "best_source_from_target": 3734,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9962711334228516,
+        "confirmation_top_prompt_jaccard": 0.6666666666666666,
+        "classification": "reproduced_strong"
+      }
+    },
+    "3908": {
+      "width_4096": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 1599,
+        "above_threshold_targets": [
+          1599,
+          964
+        ],
+        "confirmation_source_firing_tokens": 2056,
+        "confirmation_source_firing_prompts": 735,
+        "reverse_check": {
+          "best_source_from_target": 4596,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.26448899507522583,
+        "confirmation_top_prompt_jaccard": 0.24,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "width_16384": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 14872,
+        "above_threshold_targets": [
+          14872,
+          11596,
+          4322,
+          16086
+        ],
+        "confirmation_source_firing_tokens": 2056,
+        "confirmation_source_firing_prompts": 735,
+        "reverse_check": {
+          "best_source_from_target": 10,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.2942025065422058,
+        "confirmation_top_prompt_jaccard": 0.15384615384615385,
+        "classification": "numerically_matched_semantically_inconsistent"
+      }
+    },
+    "3997": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 347,
+        "above_threshold_targets": [
+          347,
+          794,
+          426,
+          1438,
+          3253
+        ],
+        "confirmation_source_firing_tokens": 1780,
+        "confirmation_source_firing_prompts": 326,
+        "reverse_check": {
+          "best_source_from_target": 3997,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7071167826652527,
+        "confirmation_top_prompt_jaccard": 0.35714285714285715,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 12951,
+        "above_threshold_targets": [
+          12951,
+          14357,
+          7863,
+          7548,
+          5623
+        ],
+        "confirmation_source_firing_tokens": 1780,
+        "confirmation_source_firing_prompts": 326,
+        "reverse_check": {
+          "best_source_from_target": 3997,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7066717147827148,
+        "confirmation_top_prompt_jaccard": 0.4,
+        "classification": "reproduced_strong"
+      }
+    },
+    "4021": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3586,
+        "above_threshold_targets": [
+          3586
+        ],
+        "confirmation_source_firing_tokens": 150,
+        "confirmation_source_firing_prompts": 88,
+        "reverse_check": {
+          "best_source_from_target": 4021,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.3805631399154663,
+        "confirmation_top_prompt_jaccard": 0.13793103448275862,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 14151,
+        "above_threshold_targets": [
+          14151
+        ],
+        "confirmation_source_firing_tokens": 150,
+        "confirmation_source_firing_prompts": 88,
+        "reverse_check": {
+          "best_source_from_target": 3176,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.3900744318962097,
+        "confirmation_top_prompt_jaccard": 0.21739130434782608,
+        "classification": "numerically_matched_semantically_inconsistent"
+      }
+    },
+    "4094": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 426,
+        "above_threshold_targets": [
+          426,
+          3181,
+          252,
+          2340,
+          2346
+        ],
+        "confirmation_source_firing_tokens": 2090,
+        "confirmation_source_firing_prompts": 330,
+        "reverse_check": {
+          "best_source_from_target": 4094,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8870425820350647,
+        "confirmation_top_prompt_jaccard": 0.8125,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 18,
+        "above_threshold_targets": [
+          18,
+          14391,
+          11521,
+          11905,
+          7548,
+          7863
+        ],
+        "confirmation_source_firing_tokens": 2090,
+        "confirmation_source_firing_prompts": 330,
+        "reverse_check": {
+          "best_source_from_target": 4094,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9366868734359741,
+        "confirmation_top_prompt_jaccard": 0.7647058823529411,
+        "classification": "reproduced_strong"
+      }
+    },
+    "4282": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 600,
+        "above_threshold_targets": [
+          600,
+          3597
+        ],
+        "confirmation_source_firing_tokens": 359,
+        "confirmation_source_firing_prompts": 195,
+        "reverse_check": {
+          "best_source_from_target": 4282,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9363633990287781,
+        "confirmation_top_prompt_jaccard": 0.9,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 2322,
+        "above_threshold_targets": [
+          2322,
+          11064,
+          2208,
+          1209,
+          9588,
+          15529
+        ],
+        "confirmation_source_firing_tokens": 359,
+        "confirmation_source_firing_prompts": 195,
+        "reverse_check": {
+          "best_source_from_target": 4282,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9178093075752258,
+        "confirmation_top_prompt_jaccard": 0.6428571428571429,
+        "classification": "reproduced_strong"
+      }
+    },
+    "4301": {
+      "width_4096": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 728,
+        "above_threshold_targets": [
+          728,
+          900,
+          3174
+        ],
+        "confirmation_source_firing_tokens": 278,
+        "confirmation_source_firing_prompts": 147,
+        "reverse_check": {
+          "best_source_from_target": 4334,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.2954518496990204,
+        "confirmation_top_prompt_jaccard": 0.0625,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "width_16384": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 9008,
+        "above_threshold_targets": [
+          9008,
+          9149,
+          11313,
+          15379,
+          574,
+          12451,
+          2709
+        ],
+        "confirmation_source_firing_tokens": 278,
+        "confirmation_source_firing_prompts": 147,
+        "reverse_check": {
+          "best_source_from_target": 4301,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8580070734024048,
+        "confirmation_top_prompt_jaccard": 0.2,
+        "classification": "reproduced_strong"
+      }
+    },
+    "4455": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 84,
+        "above_threshold_targets": [
+          84
+        ],
+        "confirmation_source_firing_tokens": 102,
+        "confirmation_source_firing_prompts": 72,
+        "reverse_check": {
+          "best_source_from_target": 4455,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7975820302963257,
+        "confirmation_top_prompt_jaccard": 0.47058823529411764,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 15529,
+        "above_threshold_targets": [
+          15529
+        ],
+        "confirmation_source_firing_tokens": 102,
+        "confirmation_source_firing_prompts": 72,
+        "reverse_check": {
+          "best_source_from_target": 4769,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.5884943008422852,
+        "confirmation_top_prompt_jaccard": 0.3181818181818182,
+        "classification": "numerically_matched_semantically_inconsistent"
+      }
+    },
+    "4485": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3601,
+        "above_threshold_targets": [
+          3601,
+          2801,
+          3444,
+          1177,
+          1064,
+          3055,
+          2568
+        ],
+        "confirmation_source_firing_tokens": 1753,
+        "confirmation_source_firing_prompts": 342,
+        "reverse_check": {
+          "best_source_from_target": 4485,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.682861328125,
+        "confirmation_top_prompt_jaccard": 0.29411764705882354,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 13001,
+        "above_threshold_targets": [
+          13001,
+          9060,
+          12789,
+          14229,
+          5353,
+          7052,
+          16045
+        ],
+        "confirmation_source_firing_tokens": 1753,
+        "confirmation_source_firing_prompts": 342,
+        "reverse_check": {
+          "best_source_from_target": 4349,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.3902319371700287,
+        "confirmation_top_prompt_jaccard": 0.11764705882352941,
+        "classification": "numerically_matched_semantically_inconsistent"
+      }
+    },
+    "4606": {
+      "width_4096": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 928,
+        "above_threshold_targets": [
+          928,
+          2648,
+          2143
+        ],
+        "confirmation_source_firing_tokens": 766,
+        "confirmation_source_firing_prompts": 246,
+        "reverse_check": {
+          "best_source_from_target": 6437,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.3838436007499695,
+        "confirmation_top_prompt_jaccard": 0.21052631578947367,
+        "classification": "numerically_matched_semantically_inconsistent",
+        "possible_merge_partners": [
+          6437
+        ]
+      },
+      "width_16384": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 3461,
+        "above_threshold_targets": [
+          3461,
+          8028,
+          180,
+          15245,
+          9239
+        ],
+        "confirmation_source_firing_tokens": 766,
+        "confirmation_source_firing_prompts": 246,
+        "reverse_check": {
+          "best_source_from_target": 4606,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.5555916428565979,
+        "confirmation_top_prompt_jaccard": 0.3333333333333333,
+        "classification": "reproduced_strong"
+      }
+    },
+    "4769": {
+      "width_4096": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 3302,
+        "above_threshold_targets": [
+          3302,
+          84,
+          2269,
+          1768,
+          3797
+        ],
+        "confirmation_source_firing_tokens": 490,
+        "confirmation_source_firing_prompts": 235,
+        "reverse_check": {
+          "best_source_from_target": 3996,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.707675039768219,
+        "confirmation_top_prompt_jaccard": 0.47368421052631576,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "width_16384": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 3162,
+        "above_threshold_targets": [
+          3162,
+          15529,
+          649,
+          9149,
+          11064,
+          5375,
+          6002,
+          15096
+        ],
+        "confirmation_source_firing_tokens": 490,
+        "confirmation_source_firing_prompts": 235,
+        "reverse_check": {
+          "best_source_from_target": 3996,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.7208086252212524,
+        "confirmation_top_prompt_jaccard": 0.47368421052631576,
+        "classification": "numerically_matched_semantically_inconsistent"
+      }
+    },
+    "4983": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3684,
+        "above_threshold_targets": [
+          3684,
+          2648,
+          357,
+          1674
+        ],
+        "confirmation_source_firing_tokens": 1482,
+        "confirmation_source_firing_prompts": 379,
+        "reverse_check": {
+          "best_source_from_target": 4983,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8489234447479248,
+        "confirmation_top_prompt_jaccard": 0.5789473684210527,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 829,
+        "above_threshold_targets": [
+          829,
+          180,
+          15947,
+          10426,
+          7044,
+          9239,
+          4317,
+          1665,
+          10966
+        ],
+        "confirmation_source_firing_tokens": 1482,
+        "confirmation_source_firing_prompts": 379,
+        "reverse_check": {
+          "best_source_from_target": 4983,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.757706344127655,
+        "confirmation_top_prompt_jaccard": 0.16666666666666666,
+        "classification": "reproduced_strong"
+      }
+    },
+    "5167": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 2648,
+        "above_threshold_targets": [
+          2648,
+          1218,
+          4046,
+          2317,
+          34,
+          1674,
+          1502
+        ],
+        "confirmation_source_firing_tokens": 916,
+        "confirmation_source_firing_prompts": 275,
+        "reverse_check": {
+          "best_source_from_target": 858,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.5019108057022095,
+        "confirmation_top_prompt_jaccard": 0.20833333333333334,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 2413,
+        "above_threshold_targets": [
+          2413,
+          4317,
+          829,
+          2284,
+          1665,
+          488
+        ],
+        "confirmation_source_firing_tokens": 916,
+        "confirmation_source_firing_prompts": 275,
+        "reverse_check": {
+          "best_source_from_target": 5167,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.5536173582077026,
+        "confirmation_top_prompt_jaccard": 0.22727272727272727,
+        "classification": "reproduced_strong"
+      }
+    },
+    "5180": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 1881,
+        "above_threshold_targets": [
+          1881,
+          3442,
+          3509,
+          1284
+        ],
+        "confirmation_source_firing_tokens": 2270,
+        "confirmation_source_firing_prompts": 582,
+        "reverse_check": {
+          "best_source_from_target": 5180,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.6247168779373169,
+        "confirmation_top_prompt_jaccard": 0.13636363636363635,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 6556,
+        "above_threshold_targets": [
+          6556,
+          12988,
+          7183
+        ],
+        "confirmation_source_firing_tokens": 2270,
+        "confirmation_source_firing_prompts": 582,
+        "reverse_check": {
+          "best_source_from_target": 5180,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7013819813728333,
+        "confirmation_top_prompt_jaccard": 0.13636363636363635,
+        "classification": "reproduced_strong"
+      }
+    },
+    "5297": {
+      "width_4096": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 3705,
+        "above_threshold_targets": [
+          3705,
+          2982,
+          4019
+        ],
+        "confirmation_source_firing_tokens": 2194,
+        "confirmation_source_firing_prompts": 486,
+        "reverse_check": {
+          "best_source_from_target": 1250,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.6151697635650635,
+        "confirmation_top_prompt_jaccard": 0.06896551724137931,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 306,
+        "above_threshold_targets": [
+          306,
+          15263,
+          3317
+        ],
+        "confirmation_source_firing_tokens": 2194,
+        "confirmation_source_firing_prompts": 486,
+        "reverse_check": {
+          "best_source_from_target": 5297,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9600669145584106,
+        "confirmation_top_prompt_jaccard": 0.65,
+        "classification": "reproduced_strong"
+      }
+    },
+    "5377": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 882,
+        "above_threshold_targets": [
+          882,
+          2742,
+          4074,
+          364,
+          1888,
+          3623,
+          3385,
+          1567,
+          583
+        ],
+        "confirmation_source_firing_tokens": 2021,
+        "confirmation_source_firing_prompts": 325,
+        "reverse_check": {
+          "best_source_from_target": 5377,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9482733011245728,
+        "confirmation_top_prompt_jaccard": 0.8235294117647058,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 2496,
+        "above_threshold_targets": [
+          2496,
+          14253,
+          3463,
+          10497,
+          2963,
+          10837,
+          4927,
+          9719,
+          14357,
+          1015,
+          8506,
+          2468,
+          12317
+        ],
+        "confirmation_source_firing_tokens": 2021,
+        "confirmation_source_firing_prompts": 325,
+        "reverse_check": {
+          "best_source_from_target": 5377,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9600517153739929,
+        "confirmation_top_prompt_jaccard": 0.7647058823529411,
+        "classification": "reproduced_strong"
+      }
+    },
+    "5558": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3231,
+        "above_threshold_targets": [
+          3231,
+          1904
+        ],
+        "confirmation_source_firing_tokens": 2443,
+        "confirmation_source_firing_prompts": 667,
+        "reverse_check": {
+          "best_source_from_target": 5558,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9288603663444519,
+        "confirmation_top_prompt_jaccard": 0.5,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 2012,
+        "above_threshold_targets": [
+          2012,
+          8098
+        ],
+        "confirmation_source_firing_tokens": 2443,
+        "confirmation_source_firing_prompts": 667,
+        "reverse_check": {
+          "best_source_from_target": 5558,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8497633934020996,
+        "confirmation_top_prompt_jaccard": 0.5384615384615384,
+        "classification": "reproduced_strong"
+      }
+    },
+    "5656": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 1693,
+        "above_threshold_targets": [
+          1693,
+          4048,
+          68,
+          736,
+          3391,
+          3810
+        ],
+        "confirmation_source_firing_tokens": 829,
+        "confirmation_source_firing_prompts": 571,
+        "reverse_check": {
+          "best_source_from_target": 5656,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.993240237236023,
+        "confirmation_top_prompt_jaccard": 0.6666666666666666,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 9262,
+        "above_threshold_targets": [
+          9262,
+          15895,
+          7340,
+          15954,
+          2945,
+          111,
+          5154
+        ],
+        "confirmation_source_firing_tokens": 829,
+        "confirmation_source_firing_prompts": 571,
+        "reverse_check": {
+          "best_source_from_target": 5656,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9943225383758545,
+        "confirmation_top_prompt_jaccard": 0.5384615384615384,
+        "classification": "reproduced_strong"
+      }
+    },
+    "5760": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 1026,
+        "above_threshold_targets": [
+          1026,
+          286
+        ],
+        "confirmation_source_firing_tokens": 293,
+        "confirmation_source_firing_prompts": 221,
+        "reverse_check": {
+          "best_source_from_target": 5760,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9677867889404297,
+        "confirmation_top_prompt_jaccard": 0.4230769230769231,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 15208,
+        "above_threshold_targets": [
+          15208
+        ],
+        "confirmation_source_firing_tokens": 293,
+        "confirmation_source_firing_prompts": 221,
+        "reverse_check": {
+          "best_source_from_target": 5760,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.969598114490509,
+        "confirmation_top_prompt_jaccard": 0.5,
+        "classification": "reproduced_strong"
+      }
+    },
+    "5780": {
+      "width_4096": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 2198,
+        "above_threshold_targets": [
+          2198,
+          2559
+        ],
+        "confirmation_source_firing_tokens": 42,
+        "confirmation_source_firing_prompts": 34,
+        "reverse_check": {
+          "best_source_from_target": 6782,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.4473874568939209,
+        "confirmation_top_prompt_jaccard": 0.5625,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 15842,
+        "above_threshold_targets": [
+          15842,
+          8626
+        ],
+        "confirmation_source_firing_tokens": 42,
+        "confirmation_source_firing_prompts": 34,
+        "reverse_check": {
+          "best_source_from_target": 941,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.5969821214675903,
+        "confirmation_top_prompt_jaccard": 0.2962962962962963,
+        "classification": "numerically_matched_semantically_inconsistent"
+      }
+    },
+    "5902": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 1578,
+        "above_threshold_targets": [
+          1578,
+          274,
+          3811,
+          2109,
+          3160,
+          4083
+        ],
+        "confirmation_source_firing_tokens": 248,
+        "confirmation_source_firing_prompts": 192,
+        "reverse_check": {
+          "best_source_from_target": 5902,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9929100275039673,
+        "confirmation_top_prompt_jaccard": 0.8181818181818182,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 10175,
+        "above_threshold_targets": [
+          10175,
+          193,
+          8764,
+          5683,
+          13144,
+          10584,
+          15964
+        ],
+        "confirmation_source_firing_tokens": 248,
+        "confirmation_source_firing_prompts": 192,
+        "reverse_check": {
+          "best_source_from_target": 5902,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9972772598266602,
+        "confirmation_top_prompt_jaccard": 0.8181818181818182,
+        "classification": "reproduced_strong"
+      }
+    },
+    "6095": {
+      "width_4096": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 280,
+        "above_threshold_targets": [
+          280,
+          598,
+          1701,
+          1996,
+          2138,
+          372
+        ],
+        "confirmation_source_firing_tokens": 316,
+        "confirmation_source_firing_prompts": 125,
+        "reverse_check": {
+          "best_source_from_target": 1718,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.15093648433685303,
+        "confirmation_top_prompt_jaccard": 0.06060606060606061,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 1550,
+        "above_threshold_targets": [
+          1550,
+          16117,
+          227
+        ],
+        "confirmation_source_firing_tokens": 316,
+        "confirmation_source_firing_prompts": 125,
+        "reverse_check": {
+          "best_source_from_target": 6095,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7697389125823975,
+        "confirmation_top_prompt_jaccard": 0.6666666666666666,
+        "classification": "reproduced_strong"
+      }
+    },
+    "6299": {
+      "width_4096": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 3218,
+        "above_threshold_targets": [
+          3218,
+          4074,
+          1888,
+          2742,
+          2601,
+          2684,
+          3526,
+          2788,
+          3623,
+          2104,
+          2062,
+          1697
+        ],
+        "confirmation_source_firing_tokens": 1918,
+        "confirmation_source_firing_prompts": 292,
+        "reverse_check": {
+          "best_source_from_target": 1328,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.5417643785476685,
+        "confirmation_top_prompt_jaccard": 0.1,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "width_16384": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 7502,
+        "above_threshold_targets": [
+          7502,
+          6606,
+          2963,
+          1359,
+          14253,
+          10268,
+          5989,
+          11627,
+          11543,
+          4882,
+          4927,
+          16339
+        ],
+        "confirmation_source_firing_tokens": 1918,
+        "confirmation_source_firing_prompts": 292,
+        "reverse_check": {
+          "best_source_from_target": 2052,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.5860573053359985,
+        "confirmation_top_prompt_jaccard": 0.02702702702702703,
+        "classification": "numerically_matched_semantically_inconsistent"
+      }
+    },
+    "6403": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 401,
+        "above_threshold_targets": [
+          401,
+          2138,
+          3201,
+          1996,
+          2062,
+          1149,
+          280,
+          3866,
+          372,
+          2046,
+          1257,
+          2595
+        ],
+        "confirmation_source_firing_tokens": 1277,
+        "confirmation_source_firing_prompts": 186,
+        "reverse_check": {
+          "best_source_from_target": 6403,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8908802270889282,
+        "confirmation_top_prompt_jaccard": 0.21739130434782608,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 7263,
+        "above_threshold_targets": [
+          7263,
+          14525,
+          6114,
+          13310,
+          16117,
+          4532,
+          13964,
+          1550,
+          1359,
+          227,
+          7658,
+          4447,
+          3944
+        ],
+        "confirmation_source_firing_tokens": 1277,
+        "confirmation_source_firing_prompts": 186,
+        "reverse_check": {
+          "best_source_from_target": 6403,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.6477310061454773,
+        "confirmation_top_prompt_jaccard": 0.2,
+        "classification": "reproduced_strong"
+      }
+    },
+    "6437": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 928,
+        "above_threshold_targets": [
+          928,
+          1800,
+          1785,
+          3506,
+          132
+        ],
+        "confirmation_source_firing_tokens": 924,
+        "confirmation_source_firing_prompts": 290,
+        "reverse_check": {
+          "best_source_from_target": 6437,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8729634881019592,
+        "confirmation_top_prompt_jaccard": 0.9230769230769231,
+        "classification": "possible_merge",
+        "possible_merge_partners": [
+          4606
+        ]
+      },
+      "width_16384": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 14717,
+        "above_threshold_targets": [
+          14717,
+          4343,
+          3461,
+          7628,
+          6578,
+          11562,
+          15947,
+          2781,
+          14618
+        ],
+        "confirmation_source_firing_tokens": 924,
+        "confirmation_source_firing_prompts": 290,
+        "reverse_check": {
+          "best_source_from_target": 6437,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.6697800159454346,
+        "confirmation_top_prompt_jaccard": 0.6470588235294118,
+        "classification": "reproduced_strong"
+      }
+    },
+    "6569": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 2138,
+        "above_threshold_targets": [
+          2138,
+          2046,
+          372,
+          1257,
+          227,
+          401,
+          2104
+        ],
+        "confirmation_source_firing_tokens": 941,
+        "confirmation_source_firing_prompts": 263,
+        "reverse_check": {
+          "best_source_from_target": 6569,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8153202533721924,
+        "confirmation_top_prompt_jaccard": 0.3333333333333333,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 13310,
+        "above_threshold_targets": [
+          13310,
+          3613,
+          5397,
+          4922,
+          227,
+          9249,
+          1550,
+          7263,
+          15510,
+          9555,
+          2601
+        ],
+        "confirmation_source_firing_tokens": 941,
+        "confirmation_source_firing_prompts": 263,
+        "reverse_check": {
+          "best_source_from_target": 6569,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8278257846832275,
+        "confirmation_top_prompt_jaccard": 0.3333333333333333,
+        "classification": "reproduced_strong"
+      }
+    },
+    "6653": {
+      "width_4096": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 328,
+        "above_threshold_targets": [
+          328,
+          1546,
+          750
+        ],
+        "confirmation_source_firing_tokens": 1917,
+        "confirmation_source_firing_prompts": 493,
+        "reverse_check": {
+          "best_source_from_target": 6653,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.29891541600227356,
+        "confirmation_top_prompt_jaccard": 0.08333333333333333,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "width_16384": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 4623,
+        "above_threshold_targets": [
+          4623,
+          14903,
+          1427
+        ],
+        "confirmation_source_firing_tokens": 1917,
+        "confirmation_source_firing_prompts": 493,
+        "reverse_check": {
+          "best_source_from_target": 834,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.25458502769470215,
+        "confirmation_top_prompt_jaccard": 0.1111111111111111,
+        "classification": "numerically_matched_semantically_inconsistent"
+      }
+    },
+    "6719": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 2653,
+        "above_threshold_targets": [
+          2653,
+          2985,
+          3784,
+          2624,
+          2111,
+          3427,
+          679,
+          1111,
+          2570,
+          4055,
+          1689,
+          1821,
+          3381,
+          3712,
+          1358,
+          3129
+        ],
+        "confirmation_source_firing_tokens": 1926,
+        "confirmation_source_firing_prompts": 638,
+        "reverse_check": {
+          "best_source_from_target": 6719,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9592615962028503,
+        "confirmation_top_prompt_jaccard": 0.44,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 15857,
+        "above_threshold_targets": [
+          15857,
+          2134,
+          6054,
+          447,
+          13585,
+          1022,
+          4484,
+          4608,
+          9390,
+          4289,
+          14432,
+          4191,
+          5498,
+          10515,
+          15550,
+          6129
+        ],
+        "confirmation_source_firing_tokens": 1926,
+        "confirmation_source_firing_prompts": 638,
+        "reverse_check": {
+          "best_source_from_target": 6719,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9745329022407532,
+        "confirmation_top_prompt_jaccard": 0.7894736842105263,
+        "classification": "reproduced_strong"
+      }
+    },
+    "6760": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3866,
+        "above_threshold_targets": [
+          3866,
+          1996,
+          2062,
+          3201,
+          372,
+          401,
+          280,
+          2341,
+          3125,
+          3891,
+          3011,
+          2595
+        ],
+        "confirmation_source_firing_tokens": 1111,
+        "confirmation_source_firing_prompts": 207,
+        "reverse_check": {
+          "best_source_from_target": 6760,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7452830076217651,
+        "confirmation_top_prompt_jaccard": 0.2631578947368421,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 7658,
+        "above_threshold_targets": [
+          7658,
+          16117,
+          4447,
+          14525,
+          13506,
+          7738,
+          227,
+          16284,
+          4862,
+          3944,
+          6114,
+          4532,
+          12628,
+          1359,
+          6481
+        ],
+        "confirmation_source_firing_tokens": 1111,
+        "confirmation_source_firing_prompts": 207,
+        "reverse_check": {
+          "best_source_from_target": 6760,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7042022347450256,
+        "confirmation_top_prompt_jaccard": 0.2692307692307692,
+        "classification": "reproduced_strong"
+      }
+    },
+    "6815": {
+      "width_4096": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 3220,
+        "above_threshold_targets": [
+          3220,
+          4089,
+          296
+        ],
+        "confirmation_source_firing_tokens": 296,
+        "confirmation_source_firing_prompts": 249,
+        "reverse_check": {
+          "best_source_from_target": 6815,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.6024562120437622,
+        "confirmation_top_prompt_jaccard": 0.3333333333333333,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 10625,
+        "above_threshold_targets": [
+          10625
+        ],
+        "confirmation_source_firing_tokens": 296,
+        "confirmation_source_firing_prompts": 249,
+        "reverse_check": {
+          "best_source_from_target": 6815,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9676139950752258,
+        "confirmation_top_prompt_jaccard": 0.6111111111111112,
+        "classification": "reproduced_strong"
+      }
+    },
+    "7096": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 2047,
+        "above_threshold_targets": [
+          2047,
+          3152,
+          834,
+          1340
+        ],
+        "confirmation_source_firing_tokens": 340,
+        "confirmation_source_firing_prompts": 249,
+        "reverse_check": {
+          "best_source_from_target": 7096,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9820394515991211,
+        "confirmation_top_prompt_jaccard": 1.0,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 12435,
+        "above_threshold_targets": [
+          12435,
+          443,
+          14949,
+          10745,
+          14659,
+          15423,
+          5033
+        ],
+        "confirmation_source_firing_tokens": 340,
+        "confirmation_source_firing_prompts": 249,
+        "reverse_check": {
+          "best_source_from_target": 7096,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.990429162979126,
+        "confirmation_top_prompt_jaccard": 0.9047619047619048,
+        "classification": "reproduced_strong"
+      }
+    },
+    "7371": {
+      "width_4096": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 547,
+        "above_threshold_targets": [
+          547,
+          3170,
+          956,
+          426,
+          1315,
+          2071,
+          2153
+        ],
+        "confirmation_source_firing_tokens": 1920,
+        "confirmation_source_firing_prompts": 336,
+        "reverse_check": {
+          "best_source_from_target": 5566,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.42234328389167786,
+        "confirmation_top_prompt_jaccard": 0.11538461538461539,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 1518,
+        "above_threshold_targets": [
+          1518,
+          4347,
+          4105,
+          14503,
+          2027,
+          3348,
+          16269,
+          4769
+        ],
+        "confirmation_source_firing_tokens": 1920,
+        "confirmation_source_firing_prompts": 336,
+        "reverse_check": {
+          "best_source_from_target": 7371,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8238762021064758,
+        "confirmation_top_prompt_jaccard": 0.5,
+        "classification": "reproduced_strong"
+      }
+    },
+    "7376": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3547,
+        "above_threshold_targets": [
+          3547,
+          2012,
+          1221,
+          3097
+        ],
+        "confirmation_source_firing_tokens": 298,
+        "confirmation_source_firing_prompts": 134,
+        "reverse_check": {
+          "best_source_from_target": 550,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.5723052024841309,
+        "confirmation_top_prompt_jaccard": 0.5882352941176471,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 13426,
+        "above_threshold_targets": [
+          13426,
+          6475,
+          6674,
+          14224,
+          4735,
+          2129,
+          15551
+        ],
+        "confirmation_source_firing_tokens": 298,
+        "confirmation_source_firing_prompts": 134,
+        "reverse_check": {
+          "best_source_from_target": 7376,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.6342213153839111,
+        "confirmation_top_prompt_jaccard": 0.5294117647058824,
+        "classification": "reproduced_strong"
+      }
+    },
+    "7399": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3681,
+        "above_threshold_targets": [
+          3681,
+          2913,
+          3749,
+          1972
+        ],
+        "confirmation_source_firing_tokens": 2051,
+        "confirmation_source_firing_prompts": 671,
+        "reverse_check": {
+          "best_source_from_target": 7399,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8682166934013367,
+        "confirmation_top_prompt_jaccard": 0.4444444444444444,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 1454,
+        "above_threshold_targets": [
+          1454,
+          13359,
+          14394
+        ],
+        "confirmation_source_firing_tokens": 2051,
+        "confirmation_source_firing_prompts": 671,
+        "reverse_check": {
+          "best_source_from_target": 7399,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9053391218185425,
+        "confirmation_top_prompt_jaccard": 0.35714285714285715,
+        "classification": "reproduced_strong"
+      }
+    },
+    "7640": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 2540,
+        "above_threshold_targets": [
+          2540
+        ],
+        "confirmation_source_firing_tokens": 415,
+        "confirmation_source_firing_prompts": 285,
+        "reverse_check": {
+          "best_source_from_target": 7640,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8268985152244568,
+        "confirmation_top_prompt_jaccard": 0.42857142857142855,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3040,
+        "above_threshold_targets": [
+          3040
+        ],
+        "confirmation_source_firing_tokens": 415,
+        "confirmation_source_firing_prompts": 285,
+        "reverse_check": {
+          "best_source_from_target": 7640,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.961946964263916,
+        "confirmation_top_prompt_jaccard": 0.6875,
+        "classification": "reproduced_strong"
+      }
+    },
+    "7652": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 34,
+        "above_threshold_targets": [
+          34,
+          2028,
+          1794
+        ],
+        "confirmation_source_firing_tokens": 395,
+        "confirmation_source_firing_prompts": 272,
+        "reverse_check": {
+          "best_source_from_target": 7652,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.4923097491264343,
+        "confirmation_top_prompt_jaccard": 0.45,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 4386,
+        "above_threshold_targets": [
+          4386,
+          12598,
+          7617,
+          12504,
+          2871
+        ],
+        "confirmation_source_firing_tokens": 395,
+        "confirmation_source_firing_prompts": 272,
+        "reverse_check": {
+          "best_source_from_target": 7652,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.6267303824424744,
+        "confirmation_top_prompt_jaccard": 0.2962962962962963,
+        "classification": "reproduced_strong"
+      }
+    },
+    "7688": {
+      "width_4096": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 83,
+        "confirmation_source_firing_prompts": 74,
+        "classification": "not_reproduced"
+      },
+      "width_16384": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 83,
+        "confirmation_source_firing_prompts": 74,
+        "classification": "not_reproduced"
+      }
+    },
+    "7784": {
+      "width_4096": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 309,
+        "above_threshold_targets": [
+          309,
+          2596,
+          2447,
+          600,
+          1260,
+          121
+        ],
+        "confirmation_source_firing_tokens": 393,
+        "confirmation_source_firing_prompts": 152,
+        "reverse_check": {
+          "best_source_from_target": 3240,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.47530195116996765,
+        "confirmation_top_prompt_jaccard": 0.21428571428571427,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 2208,
+        "above_threshold_targets": [
+          2208,
+          2131,
+          11064,
+          7300
+        ],
+        "confirmation_source_firing_tokens": 393,
+        "confirmation_source_firing_prompts": 152,
+        "reverse_check": {
+          "best_source_from_target": 7784,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8761888146400452,
+        "confirmation_top_prompt_jaccard": 0.4166666666666667,
+        "classification": "reproduced_strong"
+      }
+    },
+    "7789": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 2991,
+        "above_threshold_targets": [
+          2991,
+          3164,
+          1105,
+          1802,
+          1378
+        ],
+        "confirmation_source_firing_tokens": 829,
+        "confirmation_source_firing_prompts": 572,
+        "reverse_check": {
+          "best_source_from_target": 7789,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9936850666999817,
+        "confirmation_top_prompt_jaccard": 0.9047619047619048,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 7437,
+        "above_threshold_targets": [
+          7437,
+          3955,
+          15369,
+          12737,
+          12303,
+          10765,
+          14372
+        ],
+        "confirmation_source_firing_tokens": 829,
+        "confirmation_source_firing_prompts": 572,
+        "reverse_check": {
+          "best_source_from_target": 7789,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9883288741111755,
+        "confirmation_top_prompt_jaccard": 0.9047619047619048,
+        "classification": "reproduced_strong"
+      }
+    },
+    "8053": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 2774,
+        "above_threshold_targets": [
+          2774,
+          773
+        ],
+        "confirmation_source_firing_tokens": 2205,
+        "confirmation_source_firing_prompts": 614,
+        "reverse_check": {
+          "best_source_from_target": 8053,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.856636643409729,
+        "confirmation_top_prompt_jaccard": 0.36363636363636365,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 15175,
+        "above_threshold_targets": [
+          15175,
+          6232
+        ],
+        "confirmation_source_firing_tokens": 2205,
+        "confirmation_source_firing_prompts": 614,
+        "reverse_check": {
+          "best_source_from_target": 8053,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8550898432731628,
+        "confirmation_top_prompt_jaccard": 0.3684210526315789,
+        "classification": "reproduced_strong"
+      }
+    },
+    "8170": {
+      "width_4096": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 2114,
+        "above_threshold_targets": [
+          2114
+        ],
+        "confirmation_source_firing_tokens": 21,
+        "confirmation_source_firing_prompts": 18,
+        "reverse_check": {
+          "best_source_from_target": 8170,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.6924515962600708,
+        "confirmation_top_prompt_jaccard": 0.029411764705882353,
+        "classification": "reproduced_strong"
+      },
+      "width_16384": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 5611,
+        "above_threshold_targets": [
+          5611
+        ],
+        "confirmation_source_firing_tokens": 21,
+        "confirmation_source_firing_prompts": 18,
+        "reverse_check": {
+          "best_source_from_target": 6658,
+          "reverse_confirms_this_candidate": false
+        },
+        "confirmation_activation_pattern_cosine": 0.40548956394195557,
+        "confirmation_top_prompt_jaccard": 0.03333333333333333,
+        "classification": "numerically_matched_semantically_inconsistent"
+      }
+    }
+  }
+}

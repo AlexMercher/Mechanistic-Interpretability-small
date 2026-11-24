@@ -1,0 +1,51 @@
+{
+  "frozen_before_selection": true,
+  "note": "All formulas and thresholds below are frozen before select_candidates.py is run. Never tuned after inspecting which features get selected.",
+  "activation_frequency": {
+    "token_level": "n_firing_tokens / n_discovery_tokens (both counts from the Discovery subset only)",
+    "prompt_level": "n_unique_firing_prompts / n_discovery_prompts (both counts from the Discovery subset only)",
+    "quota_ranking_basis": "token_level_frequency; prompt_level_frequency reported alongside as a secondary descriptive statistic, never used to rank"
+  },
+  "domain_normalized_concentration": {
+    "formula": "concentration(f) = max_d ( p_d(f) / b_d )",
+    "p_d_definition": "p_d(f) = (f's firing tokens in domain d) / (f's total firing tokens), computed only over domains where f fires at least once",
+    "b_d_definition": "b_d = (Discovery-subset tokens in domain d) / (total Discovery-subset tokens) -- the Discovery subset's own baseline domain share, NOT Milestone 4's full-dataset share",
+    "interpretation": "1.0 = no concentration beyond base rate; higher = more domain-selective in its most-favored domain",
+    "quota": "strong_domain_concentration stratum ranks by this score, descending"
+  },
+  "cross_domain_entropy": {
+    "formula": "H(f) = -sum_d p_d(f) * log2(p_d(f)), with convention 0*log2(0):=0 so non-firing domains contribute zero but are included in the domain set (not omitted)",
+    "normalized_score": "H(f) / log2(5)  (0 = fires in exactly one domain, 1 = perfectly uniform across all 5)",
+    "eligibility_floor": "only features with token_level_frequency >= rare_feature_floor (see below) are eligible for the cross_domain_broadly_distributed stratum, so a 2-token feature spread across 2 domains cannot rank as 'broadly distributed'",
+    "rare_feature_floor_token_level_frequency": 0.001,
+    "quota": "cross_domain_broadly_distributed stratum ranks by normalized_score, descending, among eligible features"
+  },
+  "preliminary_cross_seed_reproducibility_screen": {
+    "subset_used": "discovery_only -- this preliminary screen never touches Confirmation-subset data",
+    "decoder_cosine_threshold": 0.3,
+    "margin_threshold": 0.1,
+    "margin_definition": "top1_cosine - top2_cosine against the complete target-seed dictionary",
+    "activation_pattern_sample": "first 8192 Discovery-subset tokens in activation_row_index order (matches M5's ACTIVATION_SAMPLE_N=8192 convention)",
+    "activation_pattern_cosine_threshold": 0.3,
+    "reproducible_stratum_rule": "passes decoder_cosine_threshold+margin_threshold against BOTH seed 1 and seed 2 dictionaries, AND passes activation_pattern_cosine_threshold against both",
+    "non_reproducible_control_rule": "frequency-matched to the reproducible stratum (same token-level-frequency decile) but fails at least one of the above checks against at least one seed",
+    "heuristic_disclaimer": "0.3 cosine / 0.1 margin are numerical-matching heuristics, not established semantic-reproducibility criteria -- see the final B.2 matching step's sensitivity analysis (Phase 3), which is not re-run for this preliminary screen since this screen only affects stratum membership, not any validated conclusion"
+  },
+  "deterministic_tie_breaking": {
+    "rule": "ties in any quota ranking broken by ascending feature_idx (lowest index wins)",
+    "applies_to": "every stratum in the quota table"
+  },
+  "quota_table": [
+    {"stratum": "high_frequency", "count": 15, "rule": "top by token_level_frequency, excluding features with token_level_frequency > 0.90"},
+    {"stratum": "always_on_near_ubiquitous", "count_max": 5, "rule": "token_level_frequency > 0.90"},
+    {"stratum": "medium_frequency", "count": 15, "rule": "token_level_frequency in the 40th-60th percentile of the nonzero-frequency population"},
+    {"stratum": "rare_but_active", "count": 20, "rule": "bottom decile of nonzero token_level_frequency, including true singletons (n_firing_tokens==1)"},
+    {"stratum": "strong_domain_concentration", "count": 15, "rule": "top domain_normalized_concentration score, excluding dead features"},
+    {"stratum": "cross_domain_broadly_distributed", "count": 15, "rule": "top normalized cross-domain entropy score among features above the rare-feature floor"},
+    {"stratum": "suspicious_template_concentration", "count": 10, "rule": "top share of a feature's firing-token activation mass falling in a single Tier-1 (confirmed near-duplicate) template family, among features with >=3 firing tokens"},
+    {"stratum": "script_language_dependence", "count": 10, "rule": "top overlap with native_hindi/romanized_hindi language_form firing share, normalized by that language_form's own corpus-wide prevalence, plus explicit contrast cases (HINDI-domain-heavy but low native_hindi share)"},
+    {"stratum": "cross_seed_prescreened_reproducible", "count": 10, "rule": "passes the preliminary_cross_seed_reproducibility_screen's reproducible_stratum_rule, ranked by combined decoder+activation-pattern match strength"},
+    {"stratum": "cross_seed_prescreened_nonreproducible_control", "count": 10, "rule": "frequency-matched per non_reproducible_control_rule above"}
+  ],
+  "primary_stratum_assignment": "first-matching row in the quota_table order above; a candidate selected by multiple rules keeps all secondary-stratum memberships in candidates.jsonl but is assigned exactly one primary_stratum for B.5 second-reviewer sampling purposes"
+}

@@ -1,0 +1,2512 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "feature_idx": 95,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_semantic",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on the literal lexeme 'physical'/'physically' used in its material/bodily/tangible sense (e.g. 'physical presence', 'physically bridge', 'physical separation', 'physical pacing', 'physical danger', 'physical rehabilitation'), including the recurring subdomain label 'Physical chemistry' in SCIENCE prompts. It is a lexical-semantic feature for this one word sense, not a domain or topic feature.",
+      "primary_stratum": "medium_frequency",
+      "id": 95
+    },
+    {
+      "feature_idx": 553,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "script_or_language_marker",
+      "confidence": "high",
+      "candidate_interpretation": "A broad Hindi-language/script marker. Fires on a huge, heterogeneous range of Hindi-domain content (grammar, syntax, pragmatics, semantics, vocabulary) with no consistent shared topic or meaning across top examples; decisive evidence comes from the same_script_unrelated_semantics counterexamples, which fire on essentially unrelated Hindi content regardless of topic.",
+      "primary_stratum": "cross_seed_prescreened_reproducible",
+      "id": 553
+    },
+    {
+      "feature_idx": 720,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on Hindi prompts that ask the model to distinguish the nuance/register/usage difference between two near-synonymous Hindi words or phrases (e.g. 'Anurodh' vs 'Prarthana', 'Maafi' vs 'kshama', 'Krodh' vs 'rosh', 'विवाद' vs 'संवाद', formal vs informal address forms). This is a genuine semantic task-type ('near-synonym/register distinction query'), heavily but not exclusively concentrated in HINDI.",
+      "primary_stratum": "script_language_dependence",
+      "id": 720
+    },
+    {
+      "feature_idx": 838,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on Hindi prompts involving context-dependent/pragmatic meaning -- deixis ('यहाँ'/'वहाँ'), word meaning that shifts with context ('अस्थायी', 'बड़ा होना'), politeness/reassurance formulas, and case-marker effects on sentence structure. A plausible domain-specific concept around 'meaning depends on context' in Hindi pragmatics/semantics, but support is thinner and partly undermined by a near-duplicate prompt dominating the Confirmation top band.",
+      "primary_stratum": "cross_seed_prescreened_reproducible",
+      "id": 838
+    },
+    {
+      "feature_idx": 1598,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on tokens within questions about specific molecular DNA-repair/replication mechanisms (named proteins/complexes acting on DNA lesions, recombination, or replication forks), e.g. RAD51/PALB2/BRCA2 strand invasion, UvrC incision, XRCC4-ligase IV NHEJ, PARP1/XRCC1 recruitment.",
+      "primary_stratum": "strong_domain_concentration",
+      "id": 1598
+    },
+    {
+      "feature_idx": 1811,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on constructions that contrastively differentiate two closely related, near-synonymous emotional/psychological states or concepts (e.g. distinguishing grief from depression, how frustration differs from disappointment, comparing envy with jealousy), concentrated in EMOTIONS but generalizing to similar comparison constructions in other domains.",
+      "primary_stratum": "cross_seed_prescreened_reproducible",
+      "id": 1811
+    },
+    {
+      "feature_idx": 1857,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on tokens within DNA molecular-mechanism questions about specific protein complexes/enzymes acting in DNA repair, replication, or chromatin/transcription regulation (e.g. PRDM9 at recombination hotspots, XRCC4/XLF/PAXX-ligase IV NHEJ, BRD4 bromodomain recognition, PARP1/XRCC1, GEN1/MUS81-EME1 Holliday junction resolution).",
+      "primary_stratum": "strong_domain_concentration",
+      "id": 1857
+    },
+    {
+      "feature_idx": 1974,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_semantic",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on tokens within prompts that juxtapose or comparatively evaluate two distinct named entities/concepts (e.g. Nehru vs documentary evidence, 'Criticism of Gandhi alongside Smuts negotiations', 'Compare Ahimsa and International encounters'), most strongly on GANDHI historical-comparison templates but spread fairly evenly across all 5 domains.",
+      "primary_stratum": "cross_domain_broadly_distributed",
+      "id": 1974
+    },
+    {
+      "feature_idx": 2125,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "template_driven",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on boilerplate connector phrasing from synthetic SCIENCE question templates ('Reason through X using [Subdomain]. Specify the assumptions, intermediate steps, and evidence needed...', 'Compare A and B with respect to mechanism, observable outcomes...', 'Distinguish A from B by identifying how each predicts an outcome...'), i.e. captures the templated scaffolding of the SCIENCE dataset's synthetic prompts rather than scientific content itself.",
+      "primary_stratum": "cross_seed_prescreened_reproducible",
+      "id": 2125
+    },
+    {
+      "feature_idx": 2201,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "polysemantic_or_mixed",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on tokens within DNA mechanism questions, particularly ones using explicit comparison/distinction phrasing about molecular pathways or factors (e.g. how bicyclomycin inhibits Rho-dependent termination, how EXO1-dependent and EXO1-independent pathways differ, how alternative end joining differs from classical NHEJ), concentrated in DNA Transcription_Translation/Mutations_Repair/Replication subdomains with moderate spread to HINDI/EMOTIONS/SCIENCE.",
+      "primary_stratum": "medium_frequency",
+      "id": 2201
+    },
+    {
+      "feature_idx": 2283,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on DNA-domain questions about the physical/enzymatic process of nucleic-acid synthesis and polymerase chemistry (primer removal, exonuclease proofreading, translesion synthesis, polymerase mechanics), concentrated in Replication, Mutations_Repair and Transcription_Translation subdomains and largely silent outside DNA.",
+      "primary_stratum": "strong_domain_concentration",
+      "id": 2283
+    },
+    {
+      "feature_idx": 2728,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on Hindi-domain prompts that are themselves meta-linguistic analysis of Hindi syntax/grammar -- clause embedding and complementation, case-marker (karak) assignment, voice (passive/causative) alternation, and relative/correlative clause structure -- typically at late token positions (76-156) within long analytic sentences.",
+      "primary_stratum": "high_frequency",
+      "id": 2728
+    },
+    {
+      "feature_idx": 2974,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on Hindi-domain meta-linguistic analysis of grammatical structure -- auxiliary-verb aspect/modality, subject-verb agreement, case-particle (karak) semantics, and passive-voice construction -- typically at late token positions (65-123) within long analytic sentences; closely resembles, and likely overlaps with, features 2728 and 3107 in this batch.",
+      "primary_stratum": "high_frequency",
+      "id": 2974
+    },
+    {
+      "feature_idx": 3001,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires specifically on DNA-domain content about base-pair geometry and pairing chemistry -- Watson-Crick/wobble/mismatched base pairing, base-pair step parameters (twist, roll, slide, propeller twist, buckle), and the structural/replication-fidelity consequences of base pairing.",
+      "primary_stratum": "strong_domain_concentration",
+      "id": 3001
+    },
+    {
+      "feature_idx": 3107,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on Hindi-domain prompts that are themselves meta-linguistic analysis questions about Hindi grammar, syntax, semantics, or pragmatics (verb agreement, tense/aspect, postposition choice, obligation-marker gradation, clause structure), largely within HINDI domain.",
+      "primary_stratum": "script_language_dependence",
+      "id": 3107
+    },
+    {
+      "feature_idx": 3252,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires specifically on the referent 'South Africa' within Gandhi-studies comparison and historical-chronology templates — i.e., Gandhi's South African period (Satyagraha in South Africa, South African imprisonment, South Africa arrival, Satyagraha in South Africa vs India).",
+      "primary_stratum": "cross_domain_broadly_distributed",
+      "id": 3252
+    },
+    {
+      "feature_idx": 3349,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires overwhelmingly and very strongly on the specific referent 'Bhagavad Gita' (activation 0.5-2.5, far above all other content), with a much weaker secondary background activation (~0.15-0.26) on generic Gandhi-studies comparison/historical-chronology templates regardless of topic.",
+      "primary_stratum": "cross_domain_broadly_distributed",
+      "id": 3349
+    },
+    {
+      "feature_idx": 3498,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on Hindi-language questions that pose an explicit meaning/grammatical-difference comparison between two closely related Hindi words, verb forms, or sentence constructions (e.g., 'X aur Y shabdon/vakyon mein kya antar hai'), tracking the semantic content of 'comparing two near-synonymous or near-equivalent Hindi forms' rather than Hindi script alone.",
+      "primary_stratum": "high_frequency",
+      "id": 3498
+    },
+    {
+      "feature_idx": 3598,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "template_driven",
+      "confidence": "high",
+      "candidate_interpretation": "Fires at very high, saturating activation (~2.0-2.1) specifically on one fixed sentence template: 'Consider this emotional regulation situation: [person] feels [emotion] ... Reason through likely consequences of different responses and the trade-offs involved. Make the reasoning explicit and distinguish immediate relief from longer-term effects' — regardless of which emotion fills the slot. A much weaker, non-specific background activation (~0.05-0.2) appears elsewhere in EMOTIONS and other domains.",
+      "primary_stratum": "suspicious_template_concentration",
+      "id": 3598
+    },
+    {
+      "feature_idx": 3728,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "template_driven",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires at near-ceiling, saturating activation (~1.9-2.2) specifically on two fixed template-clause endings: '...focusing on the shared scientific basis and the key distinction that determines their behavior' (SCIENCE 'Contrast A with B' template) and '...focusing on organizational method' (GANDHI 'Describe the central factual elements of X' template) — regardless of the specific topic filling the template.",
+      "primary_stratum": "medium_frequency",
+      "id": 3728
+    },
+    {
+      "feature_idx": 3734,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "template_driven",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires at high, fairly uniform activation (~2.3-2.4) specifically on GANDHI prompts ending in the fixed clause '...for/regarding historical chronology', spanning dozens of distinct Gandhi subtopics (Nonviolence under repression, Salt law, Ashram rules, London 1931, Ahimsa, Kochrab Ashram, etc.).",
+      "primary_stratum": "cross_domain_broadly_distributed",
+      "id": 3734
+    },
+    {
+      "feature_idx": 3908,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "polysemantic_or_mixed",
+      "confidence": "medium",
+      "candidate_interpretation": "Tracks how emotional expression/interpretation depends on audience and public-vs-private social context — e.g., expressing gratitude/anger/affection publicly vs privately, being embarrassed/praised in front of others, misreading a quiet or muted reaction because of an audience.",
+      "primary_stratum": "cross_seed_prescreened_nonreproducible_control",
+      "id": 3908
+    },
+    {
+      "feature_idx": 3997,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on Hindi grammar-terminology questions that ask about formal classification/distinction within Hindi grammar (voice, compound vs simple verbs, sandhi vs samas, direct-object marking, causative formation) — a 'Hindi metalinguistic grammar-category' query marker.",
+      "primary_stratum": "cross_seed_prescreened_nonreproducible_control",
+      "id": 3997
+    },
+    {
+      "feature_idx": 4021,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on DNA-damage/repair biochemistry questions specifically involving modified or chemically altered bases — oxidative damage (8-oxoguanine, MUTYH glycosylase), alkylation (methylguanine, alkyladenine glycosylase), bulky/crosslinked adducts (cisplatin, NER) and related base-chemistry repair mechanisms.",
+      "primary_stratum": "strong_domain_concentration",
+      "id": 4021
+    },
+    {
+      "feature_idx": 4094,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on Hindi syntax/grammar-analysis questions specifically about case-marking (कारक), agreement, and sentence-structure roles — e.g., how case markers affect sentence structure, gender/number agreement, passive/causative constructions, relative-clause structure.",
+      "primary_stratum": "cross_seed_prescreened_reproducible",
+      "id": 4094
+    },
+    {
+      "feature_idx": 4282,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on tokens referring to DNA strand-end chemistry/directionality: 5'-to-3' polarity, primer/exonuclease termini, phosphodiester-linkage orientation, telomeric/3'-OH ends, and related strand-polarity biochemistry.",
+      "primary_stratum": "strong_domain_concentration",
+      "id": 4282
+    },
+    {
+      "feature_idx": 4301,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on Hindi-language (and Hindi-English code-switched) pragmatics/register content: politeness strategies, indirect refusal, formality level, and word-choice-for-register questions, with some generalization to English communication-register content in EMOTIONS.",
+      "primary_stratum": "medium_frequency",
+      "id": 4301
+    },
+    {
+      "feature_idx": 4455,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on the concept of single-stranded DNA (ssDNA) -- template strands, SSB/RPA-coated ssDNA, ssDNA hairpins/bubbles, and related single-strand-specific biochemistry -- within the DNA domain.",
+      "primary_stratum": "strong_domain_concentration",
+      "id": 4455
+    },
+    {
+      "feature_idx": 4485,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_semantic",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on diplomatic/formal-register communication content: polite refusal, condolence, customer-service apology, and other high-stakes tactful phrasing, primarily instantiated in Hindi Pragmatics/Vocabulary prompts but generalizing substantially to English EMOTIONS communication-tone prompts.",
+      "primary_stratum": "cross_seed_prescreened_reproducible",
+      "id": 4485
+    },
+    {
+      "feature_idx": 4606,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on tokens naming a specific protein/molecular domain, motif, or complex at the start of a 'What is the role/function of X' style DNA transcription-translation or replication question (e.g. 'bromodomain', 'carboxy-terminal domain', 'fingers domain', the named rRNA nucleotides, 'cap-binding complex').",
+      "primary_stratum": "strong_domain_concentration",
+      "id": 4606
+    },
+    {
+      "feature_idx": 4769,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on DNA single-strand/double-strand structural and mechanistic concepts: single-stranded DNA exposure (SSB/RPA-coated ssDNA, ssDNA hairpins), double-strand breaks, strand polarity/invasion, and related strand-level DNA structural biochemistry.",
+      "primary_stratum": "strong_domain_concentration",
+      "id": 4769
+    },
+    {
+      "feature_idx": 4983,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on DNA molecular-mechanism descriptions involving a named protein/complex binding, recruiting, or regulating another DNA/RNA component (e.g. 'RPA in flap processing', 'tau subunit ... bridge the DnaB helicase', 'nuclear receptors bind response elements', 'PALB2 physically bridge BRCA1 and BRCA2') -- a broad 'protein-DNA/protein-protein mechanistic interaction' pattern within DNA biology.",
+      "primary_stratum": "strong_domain_concentration",
+      "id": 4983
+    },
+    {
+      "feature_idx": 5167,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on mentions of multi-subunit molecular machines / complexes in DNA biology (e.g. eIF3, RNA polymerase II core, CMG helicase, clamp loaders, POLE, 40S ribosomal subunit scanning) -- specifically around the naming/description of a named macromolecular complex and its mechanistic role, concentrated in Transcription_Translation and Replication subdomains.",
+      "primary_stratum": "strong_domain_concentration",
+      "id": 5167
+    },
+    {
+      "feature_idx": 5180,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on physics/physical-science causal-mechanism reasoning prompts -- i.e. text describing a physical system or phenomenon (projectile motion, induction, turbulence, thermal expansion, orbital motion, corrosion) phrased as 'trace the causal chain', 'explain the mechanism', 'reason through X using <subfield>' -- concentrated in SCIENCE subdomains Mechanics/Electromagnetism/Fluid mechanics/Thermodynamics/Optics/Astrophysics/Electrochemistry.",
+      "primary_stratum": "high_frequency",
+      "id": 5180
+    },
+    {
+      "feature_idx": 5297,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "script_or_language_marker",
+      "confidence": "high",
+      "candidate_interpretation": "Hindi-script/language marker -- fires broadly across Hindi-language text regardless of topic (grammar, syntax, semantics, pragmatics, vocabulary), not on a specific semantic concept.",
+      "primary_stratum": "high_frequency",
+      "id": 5297
+    },
+    {
+      "feature_idx": 5377,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "polysemantic_or_mixed",
+      "confidence": "medium",
+      "candidate_interpretation": "Primarily tracks Hindi lexical-semantic contrast/definition prompts (e.g. distinguishing near-synonym word pairs like 'अपेक्षा/उपेक्षा', 'सम्मान/आदर', 'क्षणिक/स्थायी'), heavily concentrated in HINDI Semantics/Vocabulary/Grammar subdomains, but with substantial leakage onto unrelated Hindi-script content.",
+      "primary_stratum": "cross_seed_prescreened_reproducible",
+      "id": 5377
+    },
+    {
+      "feature_idx": 5558,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on genomics/sequencing-methodology questions within DNA biology -- GWAS design, ChIP-seq, whole-genome sequencing QC, metagenomics, synteny analysis, pangenomes, recombination maps -- concentrated in the Inheritance_Genomics subdomain.",
+      "primary_stratum": "high_frequency",
+      "id": 5558
+    },
+    {
+      "feature_idx": 5656,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "template_driven",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on the fixed collocation 'organizational method' appearing at a specific token position within several recurring GANDHI prompt templates ('Construct a causal explanation linking X and organizational method...', 'Develop a public-facing exhibit... around X and organizational method...', 'How does understanding organizational method change the interpretation of X?'), where X (the historical topic) varies freely -- a template/phrase-position trigger rather than a concept about the varying topics themselves.",
+      "primary_stratum": "cross_domain_broadly_distributed",
+      "id": 5656
+    },
+    {
+      "feature_idx": 5760,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "template_driven",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on the fixed phrase 'in relation to ethical argument' at a specific early token position within the recurring GANDHI template 'Assess competing explanations of X in relation to ethical argument; identify what evidence would strengthen each,' where X (the historical topic) varies freely -- a template/phrase trigger, not a concept about the topics themselves.",
+      "primary_stratum": "cross_domain_broadly_distributed",
+      "id": 5760
+    },
+    {
+      "feature_idx": 5780,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "template_driven",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires at a fixed early token position (position 4) on the recurring question-opener 'What is the role of ...' within DNA-domain prompts, regardless of which specific molecular entity or mechanism follows -- a syntactic template-position trigger rather than a concept about DNA content.",
+      "primary_stratum": "strong_domain_concentration",
+      "id": 5780
+    },
+    {
+      "feature_idx": 5902,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "template_driven",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires at a fixed token position (position 7) on the recurring phrase 'Design a classroom, museum or public-history activity that uses [X] to teach [historical chronology/public response]...' which is heavily used in the GANDHI domain with X (the historical topic) varying freely -- a template/phrase-position trigger, not a concept about the varying topics.",
+      "primary_stratum": "cross_domain_broadly_distributed",
+      "id": 5902
+    },
+    {
+      "feature_idx": 6095,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on prompts that explicitly ask the model to identify or explain a fine-grained distinction, relationship, or contrast between two closely related linguistic/conceptual items (e.g. two near-synonyms, two grammatical constructions, two pragmatic registers), predominantly phrased in Hindi/Hinglish, with a smaller but consistent secondary presence in EMOTIONS, SCIENCE, DNA and GANDHI prompts that have the same 'compare/distinguish X and Y' structure.",
+      "primary_stratum": "script_language_dependence",
+      "id": 6095
+    },
+    {
+      "feature_idx": 6299,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on Hindi prompts asking about implicit, non-literal, or entailed meaning -- e.g. whether a sentence entails something not stated, what an idiom or culturally-loaded phrase really means, how reported speech or honorific/pronoun choice shifts meaning -- spanning Grammar, Syntax, Semantics, Vocabulary and Pragmatics subdomains.",
+      "primary_stratum": "cross_seed_prescreened_reproducible",
+      "id": 6299
+    },
+    {
+      "feature_idx": 6403,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "script_or_language_marker",
+      "confidence": "high",
+      "candidate_interpretation": "Fires specifically on Hindi content written in Romanized/Latin script ('Hinglish' transliteration, e.g. 'Udhar diye paise...', 'Agar wo aaye to...', 'Gupta Sahab') and fires much more weakly on semantically similar content written in Devanagari script, indicating the feature detects the Roman-script rendering of Hindi rather than Hindi-the-language per se.",
+      "primary_stratum": "script_language_dependence",
+      "id": 6403
+    },
+    {
+      "feature_idx": 6437,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires specifically on questions about transcription initiation and promoter-level gene regulation mechanics in DNA molecular biology -- promoter structure/consensus sequences, open/closed promoter complexes, general transcription factor and RNA polymerase assembly at promoters, enhancer/promoter regulatory elements, and related initiation-factor mechanisms.",
+      "primary_stratum": "strong_domain_concentration",
+      "id": 6437
+    },
+    {
+      "feature_idx": 6569,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on Hindi prompts that ask for the precise sense, nuance, or figurative/contextual meaning of a word, idiom, or phrase -- synonym-pair distinctions ('Sakriya' vs 'kriyaashil'), idiom meaning ('Ek hi thaili ke chatte-batte'), semantic-role analysis, and contextual disambiguation ('paanch minute' literal vs approximate) -- spanning Semantics, Vocabulary, Pragmatics, Syntax and Grammar subdomains.",
+      "primary_stratum": "script_language_dependence",
+      "id": 6569
+    },
+    {
+      "feature_idx": 6653,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "polysemantic_or_mixed",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on prompts that require interpreting an ambiguous or implicit communicative/emotional cue -- the EMOTIONS-domain cluster uses a templated 'ambiguous emotional signal' framing (e.g. quieter-than-expected response to praise, mixed cues at a gathering), while the HINDI cluster involves pragmatics/idiom prompts requiring inference beyond literal wording (indirect address terms, deixis, practical meaning of indirect speech). Both share a theme of 'meaning that must be inferred rather than read off literally.'",
+      "primary_stratum": "cross_seed_prescreened_nonreproducible_control",
+      "id": 6653
+    },
+    {
+      "feature_idx": 6719,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on tokens within Hindi-domain prompts that engage in explicit meta-linguistic comparison/distinction-making — contrasting two Hindi words, grammatical forms, or pragmatic strategies (tense/aspect pairs, synonym pairs, indirect-speech strategies, presupposition). Concentrated in HINDI (66% of firings) across Grammar/Syntax/Semantics/Pragmatics/Vocabulary subdomains, with a much weaker generic floor in other domains.",
+      "primary_stratum": "cross_seed_prescreened_reproducible",
+      "id": 6719
+    },
+    {
+      "feature_idx": 6760,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "script_or_language_marker",
+      "confidence": "high",
+      "candidate_interpretation": "A script/transliteration marker: fires on Hindi-language content specifically rendered in Romanized/Latin script (not Devanagari), regardless of topic (pragmatics, grammar, vocabulary, semantics all represented). Within HINDI domain only (~94% of firings).",
+      "primary_stratum": "script_language_dependence",
+      "id": 6760
+    },
+    {
+      "feature_idx": 6815,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "domain_marker",
+      "confidence": "medium",
+      "candidate_interpretation": "A lexical/topic-name marker for astronomy- and sky-science-adjacent SCIENCE subdomain labels: fires very strongly (1.5-2.0) whenever the literal subdomain name 'Astrophysics' appears in a prompt (regardless of carrier template), and more weakly (0.2-0.3) for semantically adjacent subdomain names 'Atmospheric science' and 'Planetary science'. A much weaker, likely unrelated floor (~0.05-0.3) fires occasionally in other domains.",
+      "primary_stratum": "cross_domain_broadly_distributed",
+      "id": 6815
+    },
+    {
+      "feature_idx": 7096,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "A theory-of-mind / empathic-reasoning feature: fires strongly and consistently on the 'Task:' clause of EMOTIONS 'Scenario: ... Task: [interpret/reason about/compare perspectives on] ... Do not infer a person's internal state with certainty...' templates, i.e. prompts that ask the model to reason about another person's emotional state from ambiguous social cues while holding uncertainty.",
+      "primary_stratum": "medium_frequency",
+      "id": 7096
+    },
+    {
+      "feature_idx": 7371,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "A Hindi grammatical/case-marking meta-linguistic analysis feature: fires at late token positions (49-153, i.e. near the end of longer analytical questions) on Hindi prompts specifically discussing case markers (karak/parsarg), postpositions, verb-agreement, and tense/aspect distinctions. Heavily concentrated in HINDI (~90%).",
+      "primary_stratum": "high_frequency",
+      "id": 7371
+    },
+    {
+      "feature_idx": 7376,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "An indirect-speech-act / pragmatic-intent detector: fires on Hindi prompts presenting a quoted utterance in a social scenario (parent-child, teacher-student, workplace) followed by a question about the speaker's real/indirect/practical intent or implied meaning, as distinct from the literal words.",
+      "primary_stratum": "medium_frequency",
+      "id": 7376
+    },
+    {
+      "feature_idx": 7399,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_semantic",
+      "confidence": "medium",
+      "candidate_interpretation": "A cross-domain pragmatic/communicative-intent-inference feature: fires on prompts (in both HINDI Pragmatics and EMOTIONS Emotional_Recognition/Expression_Communication subdomains) that ask the model to infer a speaker's/communicator's underlying intent, ambiguity, or implied meaning behind an utterance or message, independent of language.",
+      "primary_stratum": "high_frequency",
+      "id": 7399
+    },
+    {
+      "feature_idx": 7640,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_semantic",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on the literal token 'mismatch' (and morphological forms: mismatched, mismatches) in contexts describing a discrepancy, primarily DNA base-pairing mismatch / mismatch-repair biology, and generalizes to non-DNA domains when the same lexical item 'mismatch' appears (e.g., an EMOTIONS prompt reasoning about a vocal/emotional 'mismatch').",
+      "primary_stratum": "medium_frequency",
+      "id": 7640
+    },
+    {
+      "feature_idx": 7652,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Detects descriptions of the DNA sugar-phosphate backbone and its chemical/structural properties (phosphodiester linkage, backbone torsion, counterions neutralizing backbone charge, backbone covalent stability) -- a genuine DNA-structure sub-concept -- with a weaker, more template-bound secondary activation on a generic 'characterize X in domain D' science-topic sentence frame.",
+      "primary_stratum": "medium_frequency",
+      "id": 7652
+    },
+    {
+      "feature_idx": 7688,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "template_driven",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on two distinct slot-filling template skeletons regardless of the semantic content filling the slot: (a) GANDHI 'What conclusion about X and participant experience is best supported by the references? Explain the reasoning and uncertainty.' and (b) SCIENCE 'What is the defining mechanism or principle underlying X, and what key observable feature follows from it?' -- i.e. a template-position marker, not a concept about Gandhi/Tagore/Science topics themselves.",
+      "primary_stratum": "cross_domain_broadly_distributed",
+      "id": 7688
+    },
+    {
+      "feature_idx": 7784,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on descriptions of specific chemical modifications and chemical groups on DNA/RNA nucleotides and backbone (methylation events, hydroxyl/deoxyribose chemistry, phosphodiester/glycosidic bond chemistry, chemical adducts like cyclobutane pyrimidine dimers, 5-methylcytosine, AP-lyase elimination chemistry) -- a DNA-domain-specific biochemistry concept distinct from DNA biology/genetics more generally.",
+      "primary_stratum": "strong_domain_concentration",
+      "id": 7784
+    },
+    {
+      "feature_idx": 7789,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "polysemantic_or_mixed",
+      "confidence": "medium",
+      "candidate_interpretation": "Dominant high-activation behavior is driven by the literal recurring boilerplate phrase 'participant experience' injected into a large family of distinct GANDHI-domain synthetic question templates (Analyze X in the context of participant experience..., What conclusion about X and participant experience..., Identify the common historical problem linking X and Y...participant experience...); separately, the feature also carries a broad, much weaker, non-specific background activation across all five domains (44.8% of all prompts fire at some level), suggesting a secondary generic/positional component layered under the phrase-specific spike.",
+      "primary_stratum": "cross_domain_broadly_distributed",
+      "id": 7789
+    },
+    {
+      "feature_idx": 8053,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "domain_marker",
+      "confidence": "medium",
+      "candidate_interpretation": "A very high-frequency, broad feature that fires across a wide range of core molecular-biology/mechanistic-explanation sentences, concentrated in DNA (replication, transcription, translation basics: base pairing, primase, deoxyribose, RNA polymerase priming, stop codons, leading/lagging strand synthesis) and substantially bleeding into SCIENCE-domain mechanistic-explanation prompts, with lower-level activity in EMOTIONS/HINDI/GANDHI -- more consistent with a broad 'molecular/scientific mechanism exposition' topic-and-register marker than one precise, narrow semantic concept.",
+      "primary_stratum": "high_frequency",
+      "id": 8053
+    },
+    {
+      "feature_idx": 8170,
+      "dictionary_width": 8192,
+      "seed": 0,
+      "final_classification": "template_driven",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires specifically on the fixed closing clause of one recurring EMOTIONS-regulation template ('...Reason through likely consequences of different responses and the trade-offs involved. Make the reasoning explicit and distinguish immediate relief from longer-term effects.') regardless of which emotion/scenario fills the template, plus weaker activation on syntactically similar closing clauses in unrelated SCIENCE reasoning templates ('Reason through X using Y. Specify the assumptions...') -- a template/clause-position marker, not an emotion-regulation concept.",
+      "primary_stratum": "suspicious_template_concentration",
+      "id": 8170
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.4541236350657515,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 553,
+      "target": 838
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.5013464345450136,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 553,
+      "target": 2728
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.473743966682636,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 553,
+      "target": 2974
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.3641479045156495,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 553,
+      "target": 3997
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.4133580862219317,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 553,
+      "target": 4094
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.48562642197338235,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 553,
+      "target": 5297
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.4972787527645844,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 553,
+      "target": 5377
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.5612217237219999,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 553,
+      "target": 6299
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.5759994842799018,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 553,
+      "target": 6719
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.539255285598917,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 553,
+      "target": 7371
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.3085938911096314,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 553,
+      "target": 7376
+    },
+    {
+      "edge_type": "cross_domain_connection",
+      "confidence": "low_hypothesis_only",
+      "evidence": {
+        "concept_a": "EMOTIONS_Basic_Complex_Emotions_kmeans_0",
+        "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+        "rate_a": 1.0,
+        "rate_b": 1.0,
+        "m3_relationship_type": "thematically_related"
+      },
+      "provenance": "cross_domain_analysis.py (M3-seeded, Confirmation subset)",
+      "note": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "source": 553,
+      "target": 1811
+    },
+    {
+      "edge_type": "cross_domain_connection",
+      "confidence": "low_hypothesis_only",
+      "evidence": {
+        "concept_a": "EMOTIONS_Emotional_Expression_Communication_kmeans_2",
+        "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+        "rate_a": 0.9428571428571428,
+        "rate_b": 1.0,
+        "m3_relationship_type": "closely_related"
+      },
+      "provenance": "cross_domain_analysis.py (M3-seeded, Confirmation subset)",
+      "note": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "source": 553,
+      "target": 3908
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 3,
+        "n_prompts": 29,
+        "pearson": 0.5380861163139343,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 720,
+      "target": 3107
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 3,
+        "n_prompts": 29,
+        "pearson": 0.40019258856773376,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 720,
+      "target": 6095
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 1,
+        "n_prompts": 42,
+        "pearson": -0.4045722484588623,
+        "n_qualifying_domains": 2
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 720,
+      "target": 6299
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 3,
+        "n_prompts": 29,
+        "pearson": 0.733080267906189,
+        "n_qualifying_domains": 2
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 720,
+      "target": 6569
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.4315707912237638,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 720,
+      "target": 5297
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.8784069043678092,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 720,
+      "target": 6403
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.8792929546914843,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 720,
+      "target": 6760
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "EMOTIONS",
+        "level": 2,
+        "n_prompts": 54,
+        "pearson": 0.5668541789054871,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 838,
+      "target": 2974
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "EMOTIONS",
+        "level": 2,
+        "n_prompts": 54,
+        "pearson": 0.6720525622367859,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 838,
+      "target": 3997
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 2,
+        "n_prompts": 22,
+        "pearson": 0.3139229118824005,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 838,
+      "target": 6299
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 2,
+        "n_prompts": 22,
+        "pearson": 0.6249052286148071,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 838,
+      "target": 6719
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 1,
+        "n_prompts": 42,
+        "pearson": 0.37333953380584717,
+        "n_qualifying_domains": 2
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 838,
+      "target": 7371
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 2,
+        "n_prompts": 22,
+        "pearson": 0.4016236662864685,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 838,
+      "target": 7399
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.4984389240328609,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 838,
+      "target": 2728
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.43242463142661614,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 838,
+      "target": 4094
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.5254157671038198,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 838,
+      "target": 5297
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.5423477846426299,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 838,
+      "target": 5377
+    },
+    {
+      "edge_type": "cross_domain_connection",
+      "confidence": "low_hypothesis_only",
+      "evidence": {
+        "concept_a": "EMOTIONS_Basic_Complex_Emotions_kmeans_0",
+        "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+        "rate_a": 1.0,
+        "rate_b": 1.0,
+        "m3_relationship_type": "thematically_related"
+      },
+      "provenance": "cross_domain_analysis.py (M3-seeded, Confirmation subset)",
+      "note": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "source": 838,
+      "target": 1811
+    },
+    {
+      "edge_type": "cross_domain_connection",
+      "confidence": "low_hypothesis_only",
+      "evidence": {
+        "concept_a": "EMOTIONS_Emotional_Expression_Communication_kmeans_2",
+        "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+        "rate_a": 0.9428571428571428,
+        "rate_b": 1.0,
+        "m3_relationship_type": "closely_related"
+      },
+      "provenance": "cross_domain_analysis.py (M3-seeded, Confirmation subset)",
+      "note": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "source": 838,
+      "target": 3908
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "DNA",
+        "level": 2,
+        "n_prompts": 30,
+        "pearson": 0.6006872653961182,
+        "n_qualifying_domains": 3
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 1598,
+      "target": 1857
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "DNA",
+        "level": 1,
+        "n_prompts": 219,
+        "pearson": 0.3264940083026886,
+        "n_qualifying_domains": 2
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 1598,
+      "target": 2283
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 2,
+        "n_prompts": 22,
+        "pearson": 0.3384770154953003,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 1598,
+      "target": 4606
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "DNA",
+        "level": 2,
+        "n_prompts": 30,
+        "pearson": 0.37398767471313477,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 1598,
+      "target": 4769
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 1,
+        "n_prompts": 117,
+        "pearson": 0.38079774379730225,
+        "n_qualifying_domains": 3
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 1598,
+      "target": 4983
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "DNA",
+        "level": 2,
+        "n_prompts": 30,
+        "pearson": 0.5375306606292725,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 1598,
+      "target": 5167
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 1,
+        "n_prompts": 23,
+        "pearson": 0.7203734517097473,
+        "n_qualifying_domains": 4
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 1598,
+      "target": 7640
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.38287378577542647,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 1811,
+      "target": 3908
+    },
+    {
+      "edge_type": "cross_domain_connection",
+      "confidence": "low_hypothesis_only",
+      "evidence": {
+        "concept_a": "EMOTIONS_Basic_Complex_Emotions_kmeans_0",
+        "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+        "rate_a": 1.0,
+        "rate_b": 1.0,
+        "m3_relationship_type": "thematically_related"
+      },
+      "provenance": "cross_domain_analysis.py (M3-seeded, Confirmation subset)",
+      "note": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "source": 1811,
+      "target": 2728
+    },
+    {
+      "edge_type": "cross_domain_connection",
+      "confidence": "low_hypothesis_only",
+      "evidence": {
+        "concept_a": "EMOTIONS_Basic_Complex_Emotions_kmeans_0",
+        "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+        "rate_a": 1.0,
+        "rate_b": 1.0,
+        "m3_relationship_type": "thematically_related"
+      },
+      "provenance": "cross_domain_analysis.py (M3-seeded, Confirmation subset)",
+      "note": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "source": 1811,
+      "target": 5297
+    },
+    {
+      "edge_type": "cross_domain_connection",
+      "confidence": "low_hypothesis_only",
+      "evidence": {
+        "concept_a": "EMOTIONS_Basic_Complex_Emotions_kmeans_0",
+        "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+        "rate_a": 1.0,
+        "rate_b": 1.0,
+        "m3_relationship_type": "thematically_related"
+      },
+      "provenance": "cross_domain_analysis.py (M3-seeded, Confirmation subset)",
+      "note": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "source": 1811,
+      "target": 6299
+    },
+    {
+      "edge_type": "cross_domain_connection",
+      "confidence": "low_hypothesis_only",
+      "evidence": {
+        "concept_a": "EMOTIONS_Basic_Complex_Emotions_kmeans_0",
+        "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+        "rate_a": 1.0,
+        "rate_b": 1.0,
+        "m3_relationship_type": "thematically_related"
+      },
+      "provenance": "cross_domain_analysis.py (M3-seeded, Confirmation subset)",
+      "note": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "source": 1811,
+      "target": 7371
+    },
+    {
+      "edge_type": "cross_domain_connection",
+      "confidence": "low_hypothesis_only",
+      "evidence": {
+        "concept_a": "EMOTIONS_Basic_Complex_Emotions_kmeans_0",
+        "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+        "rate_a": 1.0,
+        "rate_b": 1.0,
+        "m3_relationship_type": "thematically_related"
+      },
+      "provenance": "cross_domain_analysis.py (M3-seeded, Confirmation subset)",
+      "note": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "source": 1811,
+      "target": 7399
+    },
+    {
+      "edge_type": "cross_domain_connection",
+      "confidence": "low_hypothesis_only",
+      "evidence": {
+        "concept_a": "EMOTIONS_Basic_Complex_Emotions_kmeans_0",
+        "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+        "rate_a": 1.0,
+        "rate_b": 0.96,
+        "m3_relationship_type": "thematically_related"
+      },
+      "provenance": "cross_domain_analysis.py (M3-seeded, Confirmation subset)",
+      "note": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "source": 1811,
+      "target": 4485
+    },
+    {
+      "edge_type": "cross_domain_connection",
+      "confidence": "low_hypothesis_only",
+      "evidence": {
+        "concept_a": "EMOTIONS_Basic_Complex_Emotions_kmeans_0",
+        "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+        "rate_a": 1.0,
+        "rate_b": 0.96,
+        "m3_relationship_type": "thematically_related"
+      },
+      "provenance": "cross_domain_analysis.py (M3-seeded, Confirmation subset)",
+      "note": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "source": 1811,
+      "target": 6719
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "DNA",
+        "level": 1,
+        "n_prompts": 219,
+        "pearson": 0.3204016089439392,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 1857,
+      "target": 4282
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "DNA",
+        "level": 1,
+        "n_prompts": 219,
+        "pearson": 0.37656140327453613,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 1857,
+      "target": 4606
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 1,
+        "n_prompts": 23,
+        "pearson": 0.6465893983840942,
+        "n_qualifying_domains": 3
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 1857,
+      "target": 4983
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "DNA",
+        "level": 2,
+        "n_prompts": 30,
+        "pearson": 0.6214684844017029,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 1857,
+      "target": 5167
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.3705905362881417,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 1857,
+      "target": 2201
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 1,
+        "n_prompts": 23,
+        "pearson": 0.4957973062992096,
+        "n_qualifying_domains": 6
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 2728,
+      "target": 2974
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 1,
+        "n_prompts": 42,
+        "pearson": 0.4502488076686859,
+        "n_qualifying_domains": 2
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 2728,
+      "target": 3498
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "EMOTIONS",
+        "level": 2,
+        "n_prompts": 54,
+        "pearson": 0.3977472186088562,
+        "n_qualifying_domains": 2
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 2728,
+      "target": 3997
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 2,
+        "n_prompts": 22,
+        "pearson": 0.5706369876861572,
+        "n_qualifying_domains": 5
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 2728,
+      "target": 4094
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 2,
+        "n_prompts": 22,
+        "pearson": 0.4265456795692444,
+        "n_qualifying_domains": 6
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 2728,
+      "target": 7371
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 2,
+        "n_prompts": 22,
+        "pearson": 0.40122053027153015,
+        "n_qualifying_domains": 3
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 2728,
+      "target": 7399
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.55190063987619,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 2728,
+      "target": 5297
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.5878711471404158,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 2728,
+      "target": 5377
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.6671823874171992,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 2728,
+      "target": 6299
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.5751665766970688,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 2728,
+      "target": 6719
+    },
+    {
+      "edge_type": "cross_domain_connection",
+      "confidence": "low_hypothesis_only",
+      "evidence": {
+        "concept_a": "EMOTIONS_Emotional_Expression_Communication_kmeans_2",
+        "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+        "rate_a": 0.9428571428571428,
+        "rate_b": 1.0,
+        "m3_relationship_type": "closely_related"
+      },
+      "provenance": "cross_domain_analysis.py (M3-seeded, Confirmation subset)",
+      "note": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "source": 2728,
+      "target": 3908
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "EMOTIONS",
+        "level": 2,
+        "n_prompts": 54,
+        "pearson": 0.46866685152053833,
+        "n_qualifying_domains": 3
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 2974,
+      "target": 3498
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 3,
+        "n_prompts": 29,
+        "pearson": 0.5272516012191772,
+        "n_qualifying_domains": 4
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 2974,
+      "target": 3997
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "DNA",
+        "level": 2,
+        "n_prompts": 30,
+        "pearson": 0.908617377281189,
+        "n_qualifying_domains": 7
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 2974,
+      "target": 4094
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 3,
+        "n_prompts": 29,
+        "pearson": 0.30124759674072266,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 2974,
+      "target": 6299
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 3,
+        "n_prompts": 29,
+        "pearson": 0.37667983770370483,
+        "n_qualifying_domains": 2
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 2974,
+      "target": 6719
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "DNA",
+        "level": 2,
+        "n_prompts": 30,
+        "pearson": 0.8832526206970215,
+        "n_qualifying_domains": 2
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 2974,
+      "target": 7371
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.4807261832644959,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 2974,
+      "target": 5297
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.6079724464489399,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 2974,
+      "target": 5377
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 3,
+        "n_prompts": 29,
+        "pearson": 0.3379906117916107,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 3107,
+      "target": 6569
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.38168329331977346,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 3107,
+      "target": 5297
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.48173986178668343,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 3107,
+      "target": 6095
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.7363173279517284,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 3107,
+      "target": 6403
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.7234076271308213,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 3107,
+      "target": 6760
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 1,
+        "n_prompts": 117,
+        "pearson": -0.3125724494457245,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 3498,
+      "target": 6299
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 1,
+        "n_prompts": 23,
+        "pearson": 0.6254275441169739,
+        "n_qualifying_domains": 4
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 3498,
+      "target": 6719
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "DNA",
+        "level": 2,
+        "n_prompts": 30,
+        "pearson": 0.5847756862640381,
+        "n_qualifying_domains": 4
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 3498,
+      "target": 7371
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.317335721115123,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 3498,
+      "target": 5297
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.4799300130466024,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 3498,
+      "target": 5377
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.8155882699064774,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 3598,
+      "target": 8170
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.30833039507577564,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 3734,
+      "target": 5902
+    },
+    {
+      "edge_type": "cross_domain_connection",
+      "confidence": "low_hypothesis_only",
+      "evidence": {
+        "concept_a": "EMOTIONS_Emotional_Expression_Communication_kmeans_2",
+        "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+        "rate_a": 0.9428571428571428,
+        "rate_b": 1.0,
+        "m3_relationship_type": "closely_related"
+      },
+      "provenance": "cross_domain_analysis.py (M3-seeded, Confirmation subset)",
+      "note": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "source": 3908,
+      "target": 5297
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 2,
+        "n_prompts": 22,
+        "pearson": -0.4264323115348816,
+        "n_qualifying_domains": 2
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 3997,
+      "target": 6299
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 1,
+        "n_prompts": 23,
+        "pearson": -0.4735186994075775,
+        "n_qualifying_domains": 2
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 3997,
+      "target": 6719
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 3,
+        "n_prompts": 29,
+        "pearson": 0.4097653925418854,
+        "n_qualifying_domains": 3
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 3997,
+      "target": 7371
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.326952709900483,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 3997,
+      "target": 4094
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.347366733229535,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 3997,
+      "target": 5297
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.39579657333787926,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 3997,
+      "target": 5377
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "DNA",
+        "level": 1,
+        "n_prompts": 219,
+        "pearson": 0.3890560269355774,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 4021,
+      "target": 7784
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 3,
+        "n_prompts": 29,
+        "pearson": 0.4683217704296112,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 4094,
+      "target": 6299
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "DNA",
+        "level": 2,
+        "n_prompts": 30,
+        "pearson": 0.4395958185195923,
+        "n_qualifying_domains": 2
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 4094,
+      "target": 6719
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "DNA",
+        "level": 2,
+        "n_prompts": 30,
+        "pearson": 0.9118790626525879,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 4094,
+      "target": 7371
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.4654916376705656,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 4094,
+      "target": 5297
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.5439440379354762,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 4094,
+      "target": 5377
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "DNA",
+        "level": 2,
+        "n_prompts": 30,
+        "pearson": 0.5308659672737122,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 4282,
+      "target": 4606
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "DNA",
+        "level": 1,
+        "n_prompts": 219,
+        "pearson": 0.32565635442733765,
+        "n_qualifying_domains": 2
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 4282,
+      "target": 7784
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "DNA",
+        "level": 2,
+        "n_prompts": 30,
+        "pearson": 0.38366490602493286,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 4301,
+      "target": 6719
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "DNA",
+        "level": 1,
+        "n_prompts": 219,
+        "pearson": 0.8301649689674377,
+        "n_qualifying_domains": 2
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 4455,
+      "target": 4769
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 2,
+        "n_prompts": 22,
+        "pearson": 0.5840075612068176,
+        "n_qualifying_domains": 3
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 4485,
+      "target": 7371
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 1,
+        "n_prompts": 42,
+        "pearson": 0.7474448084831238,
+        "n_qualifying_domains": 5
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 4606,
+      "target": 4983
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "DNA",
+        "level": 2,
+        "n_prompts": 30,
+        "pearson": 0.48514100909233093,
+        "n_qualifying_domains": 5
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 4606,
+      "target": 5167
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.3970095682814767,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 4606,
+      "target": 6437
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "DNA",
+        "level": 2,
+        "n_prompts": 30,
+        "pearson": 0.5914202928543091,
+        "n_qualifying_domains": 3
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 4983,
+      "target": 5167
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "SCIENCE",
+        "level": 2,
+        "n_prompts": 77,
+        "pearson": 0.3683491051197052,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 4983,
+      "target": 6437
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "SCIENCE",
+        "level": 2,
+        "n_prompts": 77,
+        "pearson": 0.3189307749271393,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 5167,
+      "target": 6437
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.5197106980345608,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 5297,
+      "target": 5377
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.30667585254190777,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 5297,
+      "target": 6095
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.645757468754502,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 5297,
+      "target": 6299
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.49619361857440725,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 5297,
+      "target": 6403
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.44646257617876606,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 5297,
+      "target": 6569
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.596278872983994,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 5297,
+      "target": 6719
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.4799286628559107,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 5297,
+      "target": 6760
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.5588700093582369,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 5297,
+      "target": 7371
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.3624045121085264,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 5297,
+      "target": 7376
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.3514922291920939,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 5297,
+      "target": 7399
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.7519608787775162,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 5377,
+      "target": 6299
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.6408043545229771,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 5377,
+      "target": 6719
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.6128002004431068,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 5377,
+      "target": 7371
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.3201584511614618,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 5377,
+      "target": 7399
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 3,
+        "n_prompts": 29,
+        "pearson": 0.5759986042976379,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 6095,
+      "target": 6569
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.6194114327204666,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 6095,
+      "target": 6403
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.6718962661973239,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 6095,
+      "target": 6760
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 1,
+        "n_prompts": 23,
+        "pearson": 0.4171436131000519,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 6299,
+      "target": 6719
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "DNA",
+        "level": 1,
+        "n_prompts": 219,
+        "pearson": 0.30159685015678406,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 6299,
+      "target": 7371
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "SCIENCE",
+        "level": 2,
+        "n_prompts": 77,
+        "pearson": 0.3456572890281677,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 6299,
+      "target": 7399
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.32360242951974283,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 6299,
+      "target": 6653
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.3321419906858212,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 6299,
+      "target": 6760
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.4240060183017453,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 6299,
+      "target": 7376
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.9122352646053558,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 6403,
+      "target": 6569
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.8948637046221054,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 6403,
+      "target": 6760
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.8512348458653763,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 6569,
+      "target": 6760
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.30554276588955853,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 6653,
+      "target": 6719
+    },
+    {
+      "edge_type": "co_activation",
+      "confidence": "low",
+      "evidence": {
+        "pooled_confirmation_prompt_pearson": 0.3405365325735585,
+        "n": 1268
+      },
+      "provenance": "coactivation_analysis.py (pooled, Confirmation subset)",
+      "note": "Statistical co-activation above the screening threshold; no claim about why (shared template/domain/script confound is plausible and not ruled out) -- see confound-controlled breakdown in coactivation_analysis.json for this pair.",
+      "source": 6653,
+      "target": 7376
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 3,
+        "n_prompts": 29,
+        "pearson": 0.3817857503890991,
+        "n_qualifying_domains": 2
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 6719,
+      "target": 7371
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 2,
+        "n_prompts": 22,
+        "pearson": 0.3177323043346405,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 6719,
+      "target": 7376
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 2,
+        "n_prompts": 22,
+        "pearson": 0.38414132595062256,
+        "n_qualifying_domains": 2
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 6719,
+      "target": 7399
+    },
+    {
+      "edge_type": "semantic_similarity",
+      "confidence": "low_to_medium",
+      "evidence": {
+        "domain": "HINDI",
+        "level": 2,
+        "n_prompts": 22,
+        "pearson": 0.5383296012878418,
+        "n_qualifying_domains": 1
+      },
+      "provenance": "coactivation_analysis.py (Confirmation subset, controlled)",
+      "note": "Both candidates independently reviewed as coherent; their Confirmation-subset, confound-controlled prompt-level activations correlate in at least one domain stratum. Correlational evidence only -- not a causal or 'same concept' claim.",
+      "source": 7371,
+      "target": 7399
+    }
+  ]
+}

@@ -1,0 +1,3398 @@
+{
+  "cosine_threshold": 0.5,
+  "margin_threshold": 0.1,
+  "results": {
+    "95": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 2369,
+        "above_threshold_targets": [
+          2369
+        ],
+        "confirmation_source_firing_tokens": 387,
+        "confirmation_source_firing_prompts": 286,
+        "reverse_check": {
+          "best_source_from_target": 95,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.6712358593940735,
+        "confirmation_top_prompt_jaccard": 0.56,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 387,
+        "confirmation_source_firing_prompts": 286,
+        "classification": "not_reproduced"
+      }
+    },
+    "309": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 7180,
+        "above_threshold_targets": [
+          7180
+        ],
+        "confirmation_source_firing_tokens": 318,
+        "confirmation_source_firing_prompts": 264,
+        "reverse_check": {
+          "best_source_from_target": 309,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9165675640106201,
+        "confirmation_top_prompt_jaccard": 0.5384615384615384,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 6123,
+        "above_threshold_targets": [
+          6123
+        ],
+        "confirmation_source_firing_tokens": 318,
+        "confirmation_source_firing_prompts": 264,
+        "reverse_check": {
+          "best_source_from_target": 309,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9088733792304993,
+        "confirmation_top_prompt_jaccard": 0.21212121212121213,
+        "classification": "reproduced_strong"
+      }
+    },
+    "553": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 37,
+        "above_threshold_targets": [
+          37
+        ],
+        "confirmation_source_firing_tokens": 1870,
+        "confirmation_source_firing_prompts": 593,
+        "reverse_check": {
+          "best_source_from_target": 553,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.47982552647590637,
+        "confirmation_top_prompt_jaccard": 0.14285714285714285,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 2398,
+        "above_threshold_targets": [
+          2398,
+          2866
+        ],
+        "confirmation_source_firing_tokens": 1870,
+        "confirmation_source_firing_prompts": 593,
+        "reverse_check": {
+          "best_source_from_target": 553,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7509906888008118,
+        "confirmation_top_prompt_jaccard": 0.2903225806451613,
+        "classification": "reproduced_strong"
+      }
+    },
+    "720": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3988,
+        "above_threshold_targets": [
+          3988,
+          7684
+        ],
+        "confirmation_source_firing_tokens": 756,
+        "confirmation_source_firing_prompts": 209,
+        "reverse_check": {
+          "best_source_from_target": 720,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8857533931732178,
+        "confirmation_top_prompt_jaccard": 0.7619047619047619,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 7747,
+        "above_threshold_targets": [
+          7747,
+          7455
+        ],
+        "confirmation_source_firing_tokens": 756,
+        "confirmation_source_firing_prompts": 209,
+        "reverse_check": {
+          "best_source_from_target": 720,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8700443506240845,
+        "confirmation_top_prompt_jaccard": 0.7619047619047619,
+        "classification": "reproduced_strong"
+      }
+    },
+    "768": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 1,
+        "confirmation_source_firing_prompts": 1,
+        "classification": "insufficient_evidence"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 1,
+        "confirmation_source_firing_prompts": 1,
+        "classification": "insufficient_evidence"
+      }
+    },
+    "834": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 5676,
+        "above_threshold_targets": [
+          5676
+        ],
+        "confirmation_source_firing_tokens": 1883,
+        "confirmation_source_firing_prompts": 398,
+        "reverse_check": {
+          "best_source_from_target": 834,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.3650476932525635,
+        "confirmation_top_prompt_jaccard": 0.07407407407407407,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 1883,
+        "confirmation_source_firing_prompts": 398,
+        "classification": "not_reproduced"
+      }
+    },
+    "838": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 2070,
+        "above_threshold_targets": [
+          2070
+        ],
+        "confirmation_source_firing_tokens": 1729,
+        "confirmation_source_firing_prompts": 323,
+        "reverse_check": {
+          "best_source_from_target": 6562,
+          "reverse_confirms_this_candidate": false
+        },
+        "note": "Provisional match corrected: target 2070's true best reverse match in the full source dictionary is feature 6562, not candidate 838.",
+        "confirmation_activation_pattern_cosine": 0.37570443749427795,
+        "confirmation_top_prompt_jaccard": 0.05555555555555555,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 7136,
+        "above_threshold_targets": [
+          7136,
+          1381
+        ],
+        "confirmation_source_firing_tokens": 1729,
+        "confirmation_source_firing_prompts": 323,
+        "reverse_check": {
+          "best_source_from_target": 838,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.6833191514015198,
+        "confirmation_top_prompt_jaccard": 0.18181818181818182,
+        "classification": "reproduced_strong"
+      }
+    },
+    "972": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 1736,
+        "above_threshold_targets": [
+          1736
+        ],
+        "confirmation_source_firing_tokens": 47111,
+        "confirmation_source_firing_prompts": 1268,
+        "reverse_check": {
+          "best_source_from_target": 972,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9999268054962158,
+        "confirmation_top_prompt_jaccard": 0.1724137931034483,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 5902,
+        "above_threshold_targets": [
+          5902
+        ],
+        "confirmation_source_firing_tokens": 47111,
+        "confirmation_source_firing_prompts": 1268,
+        "reverse_check": {
+          "best_source_from_target": 972,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9999456405639648,
+        "confirmation_top_prompt_jaccard": 0.09375,
+        "classification": "reproduced_strong"
+      }
+    },
+    "1093": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 605,
+        "above_threshold_targets": [
+          605
+        ],
+        "confirmation_source_firing_tokens": 115,
+        "confirmation_source_firing_prompts": 57,
+        "reverse_check": {
+          "best_source_from_target": 1093,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.836174726486206,
+        "confirmation_top_prompt_jaccard": 1.0,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 1162,
+        "above_threshold_targets": [
+          1162
+        ],
+        "confirmation_source_firing_tokens": 115,
+        "confirmation_source_firing_prompts": 57,
+        "reverse_check": {
+          "best_source_from_target": 1093,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.947785496711731,
+        "confirmation_top_prompt_jaccard": 0.4444444444444444,
+        "classification": "reproduced_strong"
+      }
+    },
+    "1135": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 171,
+        "confirmation_source_firing_prompts": 91,
+        "classification": "not_reproduced"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 1399,
+        "above_threshold_targets": [
+          1399
+        ],
+        "confirmation_source_firing_tokens": 171,
+        "confirmation_source_firing_prompts": 91,
+        "reverse_check": {
+          "best_source_from_target": 6081,
+          "reverse_confirms_this_candidate": false
+        },
+        "note": "Provisional match corrected: target 1399's true best reverse match in the full source dictionary is feature 6081, not candidate 1135.",
+        "confirmation_activation_pattern_cosine": 0.6849653124809265,
+        "confirmation_top_prompt_jaccard": 1.0,
+        "classification": "numerically_matched_semantically_inconsistent"
+      }
+    },
+    "1324": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 1,
+        "confirmation_source_firing_prompts": 1,
+        "classification": "insufficient_evidence"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 1,
+        "confirmation_source_firing_prompts": 1,
+        "classification": "insufficient_evidence"
+      }
+    },
+    "1417": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 43,
+        "confirmation_source_firing_prompts": 32,
+        "classification": "not_reproduced"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 43,
+        "confirmation_source_firing_prompts": 32,
+        "classification": "not_reproduced"
+      }
+    },
+    "1492": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 7216,
+        "above_threshold_targets": [
+          7216
+        ],
+        "confirmation_source_firing_tokens": 46,
+        "confirmation_source_firing_prompts": 33,
+        "reverse_check": {
+          "best_source_from_target": 1492,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8710421919822693,
+        "confirmation_top_prompt_jaccard": 0.2222222222222222,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 46,
+        "confirmation_source_firing_prompts": 33,
+        "classification": "not_reproduced"
+      }
+    },
+    "1537": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      }
+    },
+    "1598": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 7692,
+        "above_threshold_targets": [
+          7692,
+          3179
+        ],
+        "confirmation_source_firing_tokens": 755,
+        "confirmation_source_firing_prompts": 262,
+        "reverse_check": {
+          "best_source_from_target": 6024,
+          "reverse_confirms_this_candidate": false
+        },
+        "note": "Provisional match corrected: target 7692's true best reverse match in the full source dictionary is feature 6024, not candidate 1598.",
+        "confirmation_activation_pattern_cosine": 0.48052018880844116,
+        "confirmation_top_prompt_jaccard": 0.1111111111111111,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 763,
+        "above_threshold_targets": [
+          763,
+          2918
+        ],
+        "confirmation_source_firing_tokens": 755,
+        "confirmation_source_firing_prompts": 262,
+        "reverse_check": {
+          "best_source_from_target": 1598,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.6288506984710693,
+        "confirmation_top_prompt_jaccard": 0.45,
+        "classification": "reproduced_strong"
+      }
+    },
+    "1717": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      }
+    },
+    "1811": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 1644,
+        "above_threshold_targets": [
+          1644
+        ],
+        "confirmation_source_firing_tokens": 2110,
+        "confirmation_source_firing_prompts": 482,
+        "reverse_check": {
+          "best_source_from_target": 1811,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8574330806732178,
+        "confirmation_top_prompt_jaccard": 0.4666666666666667,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 1257,
+        "above_threshold_targets": [
+          1257,
+          7155
+        ],
+        "confirmation_source_firing_tokens": 2110,
+        "confirmation_source_firing_prompts": 482,
+        "reverse_check": {
+          "best_source_from_target": 1811,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7795078754425049,
+        "confirmation_top_prompt_jaccard": 0.4117647058823529,
+        "classification": "reproduced_strong"
+      }
+    },
+    "1855": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 309,
+        "confirmation_source_firing_prompts": 246,
+        "classification": "not_reproduced"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 309,
+        "confirmation_source_firing_prompts": 246,
+        "classification": "not_reproduced"
+      }
+    },
+    "1857": {
+      "seed_1": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 2944,
+        "above_threshold_targets": [
+          2944,
+          1581,
+          7497
+        ],
+        "confirmation_source_firing_tokens": 589,
+        "confirmation_source_firing_prompts": 186,
+        "reverse_check": {
+          "best_source_from_target": 1857,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7246598601341248,
+        "confirmation_top_prompt_jaccard": 0.38095238095238093,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3871,
+        "above_threshold_targets": [
+          3871,
+          763
+        ],
+        "confirmation_source_firing_tokens": 589,
+        "confirmation_source_firing_prompts": 186,
+        "reverse_check": {
+          "best_source_from_target": 1857,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8471222519874573,
+        "confirmation_top_prompt_jaccard": 0.3888888888888889,
+        "classification": "reproduced_strong"
+      }
+    },
+    "1869": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 1,
+        "confirmation_source_firing_prompts": 1,
+        "classification": "insufficient_evidence"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 1,
+        "confirmation_source_firing_prompts": 1,
+        "classification": "insufficient_evidence"
+      }
+    },
+    "1876": {
+      "seed_1": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 6986,
+        "above_threshold_targets": [
+          6986,
+          6352,
+          624
+        ],
+        "confirmation_source_firing_tokens": 2709,
+        "confirmation_source_firing_prompts": 867,
+        "reverse_check": {
+          "best_source_from_target": 1876,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.5814256072044373,
+        "confirmation_top_prompt_jaccard": 0.27586206896551724,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 4151,
+        "above_threshold_targets": [
+          4151,
+          6164,
+          2301
+        ],
+        "confirmation_source_firing_tokens": 2709,
+        "confirmation_source_firing_prompts": 867,
+        "reverse_check": {
+          "best_source_from_target": 1876,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.6347554922103882,
+        "confirmation_top_prompt_jaccard": 0.26666666666666666,
+        "classification": "reproduced_strong"
+      }
+    },
+    "1974": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 123,
+        "confirmation_source_firing_prompts": 113,
+        "classification": "not_reproduced"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 123,
+        "confirmation_source_firing_prompts": 113,
+        "classification": "not_reproduced"
+      }
+    },
+    "2125": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 6148,
+        "above_threshold_targets": [
+          6148
+        ],
+        "confirmation_source_firing_tokens": 1994,
+        "confirmation_source_firing_prompts": 539,
+        "reverse_check": {
+          "best_source_from_target": 2125,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.6855672001838684,
+        "confirmation_top_prompt_jaccard": 0.16,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 6676,
+        "above_threshold_targets": [
+          6676,
+          5872
+        ],
+        "confirmation_source_firing_tokens": 1994,
+        "confirmation_source_firing_prompts": 539,
+        "reverse_check": {
+          "best_source_from_target": 2125,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.5351014137268066,
+        "confirmation_top_prompt_jaccard": 0.16666666666666666,
+        "classification": "reproduced_strong"
+      }
+    },
+    "2154": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      }
+    },
+    "2155": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      }
+    },
+    "2201": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 6570,
+        "above_threshold_targets": [
+          6570
+        ],
+        "confirmation_source_firing_tokens": 348,
+        "confirmation_source_firing_prompts": 230,
+        "reverse_check": {
+          "best_source_from_target": 2201,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9421507120132446,
+        "confirmation_top_prompt_jaccard": 0.8947368421052632,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3878,
+        "above_threshold_targets": [
+          3878
+        ],
+        "confirmation_source_firing_tokens": 348,
+        "confirmation_source_firing_prompts": 230,
+        "reverse_check": {
+          "best_source_from_target": 2201,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.5867990255355835,
+        "confirmation_top_prompt_jaccard": 0.3333333333333333,
+        "classification": "reproduced_strong"
+      }
+    },
+    "2268": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 8,
+        "confirmation_source_firing_prompts": 8,
+        "classification": "not_reproduced"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 8,
+        "confirmation_source_firing_prompts": 8,
+        "classification": "not_reproduced"
+      }
+    },
+    "2281": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 4782,
+        "above_threshold_targets": [
+          4782,
+          4391
+        ],
+        "confirmation_source_firing_tokens": 2062,
+        "confirmation_source_firing_prompts": 869,
+        "reverse_check": {
+          "best_source_from_target": 2281,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8075177073478699,
+        "confirmation_top_prompt_jaccard": 0.75,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 8187,
+        "above_threshold_targets": [
+          8187,
+          7760,
+          6036,
+          969
+        ],
+        "confirmation_source_firing_tokens": 2062,
+        "confirmation_source_firing_prompts": 869,
+        "reverse_check": {
+          "best_source_from_target": 2281,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.5459034442901611,
+        "confirmation_top_prompt_jaccard": 0.5789473684210527,
+        "classification": "reproduced_strong"
+      }
+    },
+    "2283": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 122,
+        "confirmation_source_firing_prompts": 84,
+        "classification": "not_reproduced"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 122,
+        "confirmation_source_firing_prompts": 84,
+        "classification": "not_reproduced"
+      }
+    },
+    "2327": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      }
+    },
+    "2335": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 1,
+        "confirmation_source_firing_prompts": 1,
+        "classification": "insufficient_evidence"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 1,
+        "confirmation_source_firing_prompts": 1,
+        "classification": "insufficient_evidence"
+      }
+    },
+    "2728": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 1070,
+        "above_threshold_targets": [
+          1070,
+          1378
+        ],
+        "confirmation_source_firing_tokens": 2489,
+        "confirmation_source_firing_prompts": 278,
+        "reverse_check": {
+          "best_source_from_target": 2728,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.5172679424285889,
+        "confirmation_top_prompt_jaccard": 0.2222222222222222,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 4892,
+        "above_threshold_targets": [
+          4892,
+          5908,
+          3667
+        ],
+        "confirmation_source_firing_tokens": 2489,
+        "confirmation_source_firing_prompts": 278,
+        "reverse_check": {
+          "best_source_from_target": 2728,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.4996839463710785,
+        "confirmation_top_prompt_jaccard": 0.047619047619047616,
+        "classification": "reproduced_strong"
+      }
+    },
+    "2880": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      }
+    },
+    "2907": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 2484,
+        "above_threshold_targets": [
+          2484
+        ],
+        "confirmation_source_firing_tokens": 100,
+        "confirmation_source_firing_prompts": 62,
+        "reverse_check": {
+          "best_source_from_target": 2907,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8742457628250122,
+        "confirmation_top_prompt_jaccard": 0.9285714285714286,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 7339,
+        "above_threshold_targets": [
+          7339,
+          5990
+        ],
+        "confirmation_source_firing_tokens": 100,
+        "confirmation_source_firing_prompts": 62,
+        "reverse_check": {
+          "best_source_from_target": 13,
+          "reverse_confirms_this_candidate": false
+        },
+        "note": "Provisional match corrected: target 7339's true best reverse match in the full source dictionary is feature 13, not candidate 2907.",
+        "confirmation_activation_pattern_cosine": 0.6906774044036865,
+        "confirmation_top_prompt_jaccard": 0.8571428571428571,
+        "classification": "numerically_matched_semantically_inconsistent"
+      }
+    },
+    "2920": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 334,
+        "confirmation_source_firing_prompts": 224,
+        "classification": "not_reproduced"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 334,
+        "confirmation_source_firing_prompts": 224,
+        "classification": "not_reproduced"
+      }
+    },
+    "2922": {
+      "seed_1": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 7369,
+        "above_threshold_targets": [
+          7369,
+          7840
+        ],
+        "confirmation_source_firing_tokens": 2330,
+        "confirmation_source_firing_prompts": 952,
+        "reverse_check": {
+          "best_source_from_target": 1349,
+          "reverse_confirms_this_candidate": false
+        },
+        "note": "Provisional match corrected: target 7369's true best reverse match in the full source dictionary is feature 1349, not candidate 2922.",
+        "confirmation_activation_pattern_cosine": 0.5073823928833008,
+        "confirmation_top_prompt_jaccard": 0.05263157894736842,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 7338,
+        "above_threshold_targets": [
+          7338,
+          6302
+        ],
+        "confirmation_source_firing_tokens": 2330,
+        "confirmation_source_firing_prompts": 952,
+        "reverse_check": {
+          "best_source_from_target": 2922,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.6229432225227356,
+        "confirmation_top_prompt_jaccard": 0.08823529411764706,
+        "classification": "reproduced_strong"
+      }
+    },
+    "2924": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      }
+    },
+    "2974": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3514,
+        "above_threshold_targets": [
+          3514,
+          3751,
+          6034
+        ],
+        "confirmation_source_firing_tokens": 2245,
+        "confirmation_source_firing_prompts": 284,
+        "reverse_check": {
+          "best_source_from_target": 2974,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8254188895225525,
+        "confirmation_top_prompt_jaccard": 0.4666666666666667,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 5908,
+        "above_threshold_targets": [
+          5908,
+          4805,
+          395
+        ],
+        "confirmation_source_firing_tokens": 2245,
+        "confirmation_source_firing_prompts": 284,
+        "reverse_check": {
+          "best_source_from_target": 2974,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.6216768026351929,
+        "confirmation_top_prompt_jaccard": 0.23529411764705882,
+        "classification": "reproduced_strong"
+      }
+    },
+    "3001": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 2302,
+        "above_threshold_targets": [
+          2302
+        ],
+        "confirmation_source_firing_tokens": 566,
+        "confirmation_source_firing_prompts": 226,
+        "reverse_check": {
+          "best_source_from_target": 3001,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9486297965049744,
+        "confirmation_top_prompt_jaccard": 0.8571428571428571,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 1391,
+        "above_threshold_targets": [
+          1391
+        ],
+        "confirmation_source_firing_tokens": 566,
+        "confirmation_source_firing_prompts": 226,
+        "reverse_check": {
+          "best_source_from_target": 3001,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9596554636955261,
+        "confirmation_top_prompt_jaccard": 0.7857142857142857,
+        "classification": "reproduced_strong"
+      }
+    },
+    "3087": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      }
+    },
+    "3107": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 4210,
+        "above_threshold_targets": [
+          4210,
+          3647
+        ],
+        "confirmation_source_firing_tokens": 398,
+        "confirmation_source_firing_prompts": 156,
+        "reverse_check": {
+          "best_source_from_target": 3107,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9931342005729675,
+        "confirmation_top_prompt_jaccard": 0.7391304347826086,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 153,
+        "above_threshold_targets": [
+          153
+        ],
+        "confirmation_source_firing_tokens": 398,
+        "confirmation_source_firing_prompts": 156,
+        "reverse_check": {
+          "best_source_from_target": 3107,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9926319718360901,
+        "confirmation_top_prompt_jaccard": 0.8181818181818182,
+        "classification": "reproduced_strong"
+      }
+    },
+    "3149": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      }
+    },
+    "3160": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 2264,
+        "confirmation_source_firing_prompts": 733,
+        "classification": "not_reproduced"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 2264,
+        "confirmation_source_firing_prompts": 733,
+        "classification": "not_reproduced"
+      }
+    },
+    "3252": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 167,
+        "confirmation_source_firing_prompts": 146,
+        "classification": "not_reproduced"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 167,
+        "confirmation_source_firing_prompts": 146,
+        "classification": "not_reproduced"
+      }
+    },
+    "3316": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 101,
+        "confirmation_source_firing_prompts": 84,
+        "classification": "not_reproduced"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 101,
+        "confirmation_source_firing_prompts": 84,
+        "classification": "not_reproduced"
+      }
+    },
+    "3349": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 6169,
+        "above_threshold_targets": [
+          6169
+        ],
+        "confirmation_source_firing_tokens": 151,
+        "confirmation_source_firing_prompts": 130,
+        "reverse_check": {
+          "best_source_from_target": 3349,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9041310548782349,
+        "confirmation_top_prompt_jaccard": 0.25,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 7263,
+        "above_threshold_targets": [
+          7263,
+          2408
+        ],
+        "confirmation_source_firing_tokens": 151,
+        "confirmation_source_firing_prompts": 130,
+        "reverse_check": {
+          "best_source_from_target": 3349,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.902714729309082,
+        "confirmation_top_prompt_jaccard": 0.10344827586206896,
+        "classification": "reproduced_strong"
+      }
+    },
+    "3498": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3637,
+        "above_threshold_targets": [
+          3637,
+          2477
+        ],
+        "confirmation_source_firing_tokens": 1961,
+        "confirmation_source_firing_prompts": 344,
+        "reverse_check": {
+          "best_source_from_target": 3498,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.6960110664367676,
+        "confirmation_top_prompt_jaccard": 0.19230769230769232,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3553,
+        "above_threshold_targets": [
+          3553
+        ],
+        "confirmation_source_firing_tokens": 1961,
+        "confirmation_source_firing_prompts": 344,
+        "reverse_check": {
+          "best_source_from_target": 3498,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7461965680122375,
+        "confirmation_top_prompt_jaccard": 0.25,
+        "classification": "reproduced_strong"
+      }
+    },
+    "3592": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      }
+    },
+    "3598": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3328,
+        "above_threshold_targets": [
+          3328,
+          5756
+        ],
+        "confirmation_source_firing_tokens": 94,
+        "confirmation_source_firing_prompts": 73,
+        "reverse_check": {
+          "best_source_from_target": 3598,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7809230089187622,
+        "confirmation_top_prompt_jaccard": 0.32,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 7721,
+        "above_threshold_targets": [
+          7721
+        ],
+        "confirmation_source_firing_tokens": 94,
+        "confirmation_source_firing_prompts": 73,
+        "reverse_check": {
+          "best_source_from_target": 3598,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8926163911819458,
+        "confirmation_top_prompt_jaccard": 0.5789473684210527,
+        "classification": "reproduced_strong"
+      }
+    },
+    "3728": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3628,
+        "above_threshold_targets": [
+          3628,
+          6767,
+          5874
+        ],
+        "confirmation_source_firing_tokens": 403,
+        "confirmation_source_firing_prompts": 322,
+        "reverse_check": {
+          "best_source_from_target": 3728,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9282857179641724,
+        "confirmation_top_prompt_jaccard": 0.8181818181818182,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 288,
+        "above_threshold_targets": [
+          288,
+          5449
+        ],
+        "confirmation_source_firing_tokens": 403,
+        "confirmation_source_firing_prompts": 322,
+        "reverse_check": {
+          "best_source_from_target": 3728,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8233734369277954,
+        "confirmation_top_prompt_jaccard": 0.9047619047619048,
+        "classification": "reproduced_strong"
+      }
+    },
+    "3734": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 5507,
+        "above_threshold_targets": [
+          5507
+        ],
+        "confirmation_source_firing_tokens": 601,
+        "confirmation_source_firing_prompts": 426,
+        "reverse_check": {
+          "best_source_from_target": 3734,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.995379626750946,
+        "confirmation_top_prompt_jaccard": 0.8181818181818182,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 2220,
+        "above_threshold_targets": [
+          2220
+        ],
+        "confirmation_source_firing_tokens": 601,
+        "confirmation_source_firing_prompts": 426,
+        "reverse_check": {
+          "best_source_from_target": 3734,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9966146945953369,
+        "confirmation_top_prompt_jaccard": 0.8181818181818182,
+        "classification": "reproduced_strong"
+      }
+    },
+    "3908": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 2056,
+        "confirmation_source_firing_prompts": 735,
+        "classification": "not_reproduced"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 2056,
+        "confirmation_source_firing_prompts": 735,
+        "classification": "not_reproduced"
+      }
+    },
+    "3997": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3879,
+        "above_threshold_targets": [
+          3879
+        ],
+        "confirmation_source_firing_tokens": 1780,
+        "confirmation_source_firing_prompts": 326,
+        "reverse_check": {
+          "best_source_from_target": 172,
+          "reverse_confirms_this_candidate": false
+        },
+        "note": "Provisional match corrected: target 3879's true best reverse match in the full source dictionary is feature 172, not candidate 3997.",
+        "confirmation_activation_pattern_cosine": 0.5562317371368408,
+        "confirmation_top_prompt_jaccard": 0.13636363636363635,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 7663,
+        "above_threshold_targets": [
+          7663
+        ],
+        "confirmation_source_firing_tokens": 1780,
+        "confirmation_source_firing_prompts": 326,
+        "reverse_check": {
+          "best_source_from_target": 3997,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8467068672180176,
+        "confirmation_top_prompt_jaccard": 0.35714285714285715,
+        "classification": "reproduced_strong"
+      }
+    },
+    "4021": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 150,
+        "confirmation_source_firing_prompts": 88,
+        "classification": "not_reproduced"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 150,
+        "confirmation_source_firing_prompts": 88,
+        "classification": "not_reproduced"
+      }
+    },
+    "4094": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3735,
+        "above_threshold_targets": [
+          3735,
+          3789
+        ],
+        "confirmation_source_firing_tokens": 2090,
+        "confirmation_source_firing_prompts": 330,
+        "reverse_check": {
+          "best_source_from_target": 4094,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9459261894226074,
+        "confirmation_top_prompt_jaccard": 0.75,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3503,
+        "above_threshold_targets": [
+          3503
+        ],
+        "confirmation_source_firing_tokens": 2090,
+        "confirmation_source_firing_prompts": 330,
+        "reverse_check": {
+          "best_source_from_target": 4094,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.6850142478942871,
+        "confirmation_top_prompt_jaccard": 0.23809523809523808,
+        "classification": "reproduced_strong"
+      }
+    },
+    "4109": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 4768,
+        "above_threshold_targets": [
+          4768
+        ],
+        "confirmation_source_firing_tokens": 1875,
+        "confirmation_source_firing_prompts": 831,
+        "reverse_check": {
+          "best_source_from_target": 4109,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.44033583998680115,
+        "confirmation_top_prompt_jaccard": 0.15625,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 7707,
+        "above_threshold_targets": [
+          7707
+        ],
+        "confirmation_source_firing_tokens": 1875,
+        "confirmation_source_firing_prompts": 831,
+        "reverse_check": {
+          "best_source_from_target": 4109,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.45467835664749146,
+        "confirmation_top_prompt_jaccard": 0.02702702702702703,
+        "classification": "reproduced_strong"
+      }
+    },
+    "4282": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 6243,
+        "above_threshold_targets": [
+          6243,
+          2908
+        ],
+        "confirmation_source_firing_tokens": 359,
+        "confirmation_source_firing_prompts": 195,
+        "reverse_check": {
+          "best_source_from_target": 4282,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.907041609287262,
+        "confirmation_top_prompt_jaccard": 1.0,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 2528,
+        "above_threshold_targets": [
+          2528,
+          4061
+        ],
+        "confirmation_source_firing_tokens": 359,
+        "confirmation_source_firing_prompts": 195,
+        "reverse_check": {
+          "best_source_from_target": 4282,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9254002571105957,
+        "confirmation_top_prompt_jaccard": 0.6923076923076923,
+        "classification": "reproduced_strong"
+      }
+    },
+    "4301": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 278,
+        "confirmation_source_firing_prompts": 147,
+        "classification": "not_reproduced"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 2056,
+        "above_threshold_targets": [
+          2056
+        ],
+        "confirmation_source_firing_tokens": 278,
+        "confirmation_source_firing_prompts": 147,
+        "reverse_check": {
+          "best_source_from_target": 4301,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.376780241727829,
+        "confirmation_top_prompt_jaccard": 0.125,
+        "classification": "reproduced_strong"
+      }
+    },
+    "4455": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 2458,
+        "above_threshold_targets": [
+          2458
+        ],
+        "confirmation_source_firing_tokens": 102,
+        "confirmation_source_firing_prompts": 72,
+        "reverse_check": {
+          "best_source_from_target": 4455,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8767750263214111,
+        "confirmation_top_prompt_jaccard": 0.5333333333333333,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3231,
+        "above_threshold_targets": [
+          3231
+        ],
+        "confirmation_source_firing_tokens": 102,
+        "confirmation_source_firing_prompts": 72,
+        "reverse_check": {
+          "best_source_from_target": 4455,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7691513299942017,
+        "confirmation_top_prompt_jaccard": 0.42105263157894735,
+        "classification": "reproduced_strong"
+      }
+    },
+    "4467": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 394,
+        "confirmation_source_firing_prompts": 278,
+        "classification": "not_reproduced"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 394,
+        "confirmation_source_firing_prompts": 278,
+        "classification": "not_reproduced"
+      }
+    },
+    "4485": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 474,
+        "above_threshold_targets": [
+          474,
+          5438
+        ],
+        "confirmation_source_firing_tokens": 1753,
+        "confirmation_source_firing_prompts": 342,
+        "reverse_check": {
+          "best_source_from_target": 4485,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7124322652816772,
+        "confirmation_top_prompt_jaccard": 0.3125,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 8015,
+        "above_threshold_targets": [
+          8015,
+          2365
+        ],
+        "confirmation_source_firing_tokens": 1753,
+        "confirmation_source_firing_prompts": 342,
+        "reverse_check": {
+          "best_source_from_target": 4485,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.6896080374717712,
+        "confirmation_top_prompt_jaccard": 0.46153846153846156,
+        "classification": "reproduced_strong"
+      }
+    },
+    "4589": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      }
+    },
+    "4606": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 766,
+        "confirmation_source_firing_prompts": 246,
+        "classification": "not_reproduced"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3627,
+        "above_threshold_targets": [
+          3627
+        ],
+        "confirmation_source_firing_tokens": 766,
+        "confirmation_source_firing_prompts": 246,
+        "reverse_check": {
+          "best_source_from_target": 6762,
+          "reverse_confirms_this_candidate": false
+        },
+        "note": "Provisional match corrected: target 3627's true best reverse match in the full source dictionary is feature 6762, not candidate 4606.",
+        "confirmation_activation_pattern_cosine": 0.5136094689369202,
+        "confirmation_top_prompt_jaccard": 0.14285714285714285,
+        "classification": "numerically_matched_semantically_inconsistent"
+      }
+    },
+    "4657": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 360,
+        "confirmation_source_firing_prompts": 261,
+        "classification": "not_reproduced"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 360,
+        "confirmation_source_firing_prompts": 261,
+        "classification": "not_reproduced"
+      }
+    },
+    "4693": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 378,
+        "confirmation_source_firing_prompts": 243,
+        "classification": "not_reproduced"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 378,
+        "confirmation_source_firing_prompts": 243,
+        "classification": "not_reproduced"
+      }
+    },
+    "4769": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 175,
+        "above_threshold_targets": [
+          175,
+          3097,
+          2458
+        ],
+        "confirmation_source_firing_tokens": 490,
+        "confirmation_source_firing_prompts": 235,
+        "reverse_check": {
+          "best_source_from_target": 3996,
+          "reverse_confirms_this_candidate": false
+        },
+        "note": "Provisional match corrected: target 175's true best reverse match in the full source dictionary is feature 3996, not candidate 4769.",
+        "confirmation_activation_pattern_cosine": 0.7167010307312012,
+        "confirmation_top_prompt_jaccard": 0.42105263157894735,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3305,
+        "above_threshold_targets": [
+          3305,
+          4523,
+          1884
+        ],
+        "confirmation_source_firing_tokens": 490,
+        "confirmation_source_firing_prompts": 235,
+        "reverse_check": {
+          "best_source_from_target": 3996,
+          "reverse_confirms_this_candidate": false
+        },
+        "note": "Provisional match corrected: target 3305's true best reverse match in the full source dictionary is feature 3996, not candidate 4769.",
+        "confirmation_activation_pattern_cosine": 0.7500159740447998,
+        "confirmation_top_prompt_jaccard": 0.6875,
+        "classification": "numerically_matched_semantically_inconsistent"
+      }
+    },
+    "4816": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 2402,
+        "confirmation_source_firing_prompts": 804,
+        "classification": "not_reproduced"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 2676,
+        "above_threshold_targets": [
+          2676
+        ],
+        "confirmation_source_firing_tokens": 2402,
+        "confirmation_source_firing_prompts": 804,
+        "reverse_check": {
+          "best_source_from_target": 4816,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.31874728202819824,
+        "confirmation_top_prompt_jaccard": 0.06666666666666667,
+        "classification": "reproduced_strong"
+      }
+    },
+    "4915": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 1,
+        "confirmation_source_firing_prompts": 1,
+        "classification": "insufficient_evidence"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 1,
+        "confirmation_source_firing_prompts": 1,
+        "classification": "insufficient_evidence"
+      }
+    },
+    "4946": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 4237,
+        "above_threshold_targets": [
+          4237
+        ],
+        "confirmation_source_firing_tokens": 339,
+        "confirmation_source_firing_prompts": 184,
+        "reverse_check": {
+          "best_source_from_target": 4946,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8948745131492615,
+        "confirmation_top_prompt_jaccard": 0.2777777777777778,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 499,
+        "above_threshold_targets": [
+          499
+        ],
+        "confirmation_source_firing_tokens": 339,
+        "confirmation_source_firing_prompts": 184,
+        "reverse_check": {
+          "best_source_from_target": 4946,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.938428521156311,
+        "confirmation_top_prompt_jaccard": 0.47058823529411764,
+        "classification": "reproduced_strong"
+      }
+    },
+    "4983": {
+      "seed_1": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 218,
+        "above_threshold_targets": [
+          218,
+          1098,
+          432
+        ],
+        "confirmation_source_firing_tokens": 1482,
+        "confirmation_source_firing_prompts": 379,
+        "reverse_check": {
+          "best_source_from_target": 4461,
+          "reverse_confirms_this_candidate": false
+        },
+        "note": "Provisional match corrected: target 218's true best reverse match in the full source dictionary is feature 4461, not candidate 4983.",
+        "confirmation_activation_pattern_cosine": 0.6602048873901367,
+        "confirmation_top_prompt_jaccard": 0.19230769230769232,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3505,
+        "above_threshold_targets": [
+          3505,
+          2237
+        ],
+        "confirmation_source_firing_tokens": 1482,
+        "confirmation_source_firing_prompts": 379,
+        "reverse_check": {
+          "best_source_from_target": 4983,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8604142665863037,
+        "confirmation_top_prompt_jaccard": 0.47619047619047616,
+        "classification": "reproduced_strong"
+      }
+    },
+    "5167": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 432,
+        "above_threshold_targets": [
+          432
+        ],
+        "confirmation_source_firing_tokens": 916,
+        "confirmation_source_firing_prompts": 275,
+        "reverse_check": {
+          "best_source_from_target": 5167,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7063202261924744,
+        "confirmation_top_prompt_jaccard": 0.4,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 2237,
+        "above_threshold_targets": [
+          2237
+        ],
+        "confirmation_source_firing_tokens": 916,
+        "confirmation_source_firing_prompts": 275,
+        "reverse_check": {
+          "best_source_from_target": 5167,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.6796880960464478,
+        "confirmation_top_prompt_jaccard": 0.2857142857142857,
+        "classification": "reproduced_strong"
+      }
+    },
+    "5180": {
+      "seed_1": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 3762,
+        "above_threshold_targets": [
+          3762,
+          6442
+        ],
+        "confirmation_source_firing_tokens": 2270,
+        "confirmation_source_firing_prompts": 582,
+        "reverse_check": {
+          "best_source_from_target": 5180,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.5499354004859924,
+        "confirmation_top_prompt_jaccard": 0.11538461538461539,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 4876,
+        "above_threshold_targets": [
+          4876,
+          2943,
+          8002
+        ],
+        "confirmation_source_firing_tokens": 2270,
+        "confirmation_source_firing_prompts": 582,
+        "reverse_check": {
+          "best_source_from_target": 5180,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.49055320024490356,
+        "confirmation_top_prompt_jaccard": 0.3333333333333333,
+        "classification": "reproduced_strong"
+      }
+    },
+    "5207": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      }
+    },
+    "5211": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      }
+    },
+    "5215": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 5481,
+        "above_threshold_targets": [
+          5481
+        ],
+        "confirmation_source_firing_tokens": 21,
+        "confirmation_source_firing_prompts": 21,
+        "reverse_check": {
+          "best_source_from_target": 5215,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9451037049293518,
+        "confirmation_top_prompt_jaccard": 0.14285714285714285,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 21,
+        "confirmation_source_firing_prompts": 21,
+        "classification": "not_reproduced"
+      }
+    },
+    "5297": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3332,
+        "above_threshold_targets": [
+          3332
+        ],
+        "confirmation_source_firing_tokens": 2194,
+        "confirmation_source_firing_prompts": 486,
+        "reverse_check": {
+          "best_source_from_target": 5297,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7901416420936584,
+        "confirmation_top_prompt_jaccard": 0.23076923076923078,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 1225,
+        "above_threshold_targets": [
+          1225,
+          4151
+        ],
+        "confirmation_source_firing_tokens": 2194,
+        "confirmation_source_firing_prompts": 486,
+        "reverse_check": {
+          "best_source_from_target": 5297,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.5978855490684509,
+        "confirmation_top_prompt_jaccard": 0.0967741935483871,
+        "classification": "reproduced_strong"
+      }
+    },
+    "5377": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3146,
+        "above_threshold_targets": [
+          3146,
+          6337
+        ],
+        "confirmation_source_firing_tokens": 2021,
+        "confirmation_source_firing_prompts": 325,
+        "reverse_check": {
+          "best_source_from_target": 5377,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9237627983093262,
+        "confirmation_top_prompt_jaccard": 0.34782608695652173,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 512,
+        "above_threshold_targets": [
+          512
+        ],
+        "confirmation_source_firing_tokens": 2021,
+        "confirmation_source_firing_prompts": 325,
+        "reverse_check": {
+          "best_source_from_target": 5377,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.971625030040741,
+        "confirmation_top_prompt_jaccard": 0.6111111111111112,
+        "classification": "reproduced_strong"
+      }
+    },
+    "5526": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 2208,
+        "confirmation_source_firing_prompts": 775,
+        "classification": "not_reproduced"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 2208,
+        "confirmation_source_firing_prompts": 775,
+        "classification": "not_reproduced"
+      }
+    },
+    "5558": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 1121,
+        "above_threshold_targets": [
+          1121
+        ],
+        "confirmation_source_firing_tokens": 2443,
+        "confirmation_source_firing_prompts": 667,
+        "reverse_check": {
+          "best_source_from_target": 5558,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.824314534664154,
+        "confirmation_top_prompt_jaccard": 0.5,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 7590,
+        "above_threshold_targets": [
+          7590
+        ],
+        "confirmation_source_firing_tokens": 2443,
+        "confirmation_source_firing_prompts": 667,
+        "reverse_check": {
+          "best_source_from_target": 5558,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.854171872138977,
+        "confirmation_top_prompt_jaccard": 0.4166666666666667,
+        "classification": "reproduced_strong"
+      }
+    },
+    "5580": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 633,
+        "above_threshold_targets": [
+          633,
+          7956
+        ],
+        "confirmation_source_firing_tokens": 2042,
+        "confirmation_source_firing_prompts": 529,
+        "reverse_check": {
+          "best_source_from_target": 3566,
+          "reverse_confirms_this_candidate": false
+        },
+        "note": "Provisional match corrected: target 633's true best reverse match in the full source dictionary is feature 3566, not candidate 5580.",
+        "confirmation_activation_pattern_cosine": 0.6071732640266418,
+        "confirmation_top_prompt_jaccard": 0.0967741935483871,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "seed_2": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 3757,
+        "above_threshold_targets": [
+          3757,
+          2603,
+          5942
+        ],
+        "confirmation_source_firing_tokens": 2042,
+        "confirmation_source_firing_prompts": 529,
+        "reverse_check": {
+          "best_source_from_target": 3566,
+          "reverse_confirms_this_candidate": false
+        },
+        "note": "Provisional match corrected: target 3757's true best reverse match in the full source dictionary is feature 3566, not candidate 5580.",
+        "confirmation_activation_pattern_cosine": 0.5365452170372009,
+        "confirmation_top_prompt_jaccard": 0.03225806451612903,
+        "classification": "numerically_matched_semantically_inconsistent"
+      }
+    },
+    "5656": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 933,
+        "above_threshold_targets": [
+          933
+        ],
+        "confirmation_source_firing_tokens": 829,
+        "confirmation_source_firing_prompts": 571,
+        "reverse_check": {
+          "best_source_from_target": 5656,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9958631992340088,
+        "confirmation_top_prompt_jaccard": 0.6666666666666666,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 8053,
+        "above_threshold_targets": [
+          8053
+        ],
+        "confirmation_source_firing_tokens": 829,
+        "confirmation_source_firing_prompts": 571,
+        "reverse_check": {
+          "best_source_from_target": 5656,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9916390776634216,
+        "confirmation_top_prompt_jaccard": 0.7391304347826086,
+        "classification": "reproduced_strong"
+      }
+    },
+    "5760": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 110,
+        "above_threshold_targets": [
+          110
+        ],
+        "confirmation_source_firing_tokens": 293,
+        "confirmation_source_firing_prompts": 221,
+        "reverse_check": {
+          "best_source_from_target": 5760,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.981002688407898,
+        "confirmation_top_prompt_jaccard": 0.48,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 6532,
+        "above_threshold_targets": [
+          6532
+        ],
+        "confirmation_source_firing_tokens": 293,
+        "confirmation_source_firing_prompts": 221,
+        "reverse_check": {
+          "best_source_from_target": 5760,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9801905155181885,
+        "confirmation_top_prompt_jaccard": 0.48,
+        "classification": "reproduced_strong"
+      }
+    },
+    "5780": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 42,
+        "confirmation_source_firing_prompts": 34,
+        "classification": "not_reproduced"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 42,
+        "confirmation_source_firing_prompts": 34,
+        "classification": "not_reproduced"
+      }
+    },
+    "5902": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 5064,
+        "above_threshold_targets": [
+          5064
+        ],
+        "confirmation_source_firing_tokens": 248,
+        "confirmation_source_firing_prompts": 192,
+        "reverse_check": {
+          "best_source_from_target": 5902,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.998114824295044,
+        "confirmation_top_prompt_jaccard": 0.9047619047619048,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 6203,
+        "above_threshold_targets": [
+          6203
+        ],
+        "confirmation_source_firing_tokens": 248,
+        "confirmation_source_firing_prompts": 192,
+        "reverse_check": {
+          "best_source_from_target": 5902,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9970803260803223,
+        "confirmation_top_prompt_jaccard": 0.8181818181818182,
+        "classification": "reproduced_strong"
+      }
+    },
+    "5955": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      }
+    },
+    "6095": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 4351,
+        "above_threshold_targets": [
+          4351
+        ],
+        "confirmation_source_firing_tokens": 316,
+        "confirmation_source_firing_prompts": 125,
+        "reverse_check": {
+          "best_source_from_target": 6095,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7281075716018677,
+        "confirmation_top_prompt_jaccard": 0.3333333333333333,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 7602,
+        "above_threshold_targets": [
+          7602,
+          7431
+        ],
+        "confirmation_source_firing_tokens": 316,
+        "confirmation_source_firing_prompts": 125,
+        "reverse_check": {
+          "best_source_from_target": 6095,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.5312377214431763,
+        "confirmation_top_prompt_jaccard": 0.12903225806451613,
+        "classification": "reproduced_strong"
+      }
+    },
+    "6128": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 149,
+        "confirmation_source_firing_prompts": 131,
+        "classification": "not_reproduced"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 149,
+        "confirmation_source_firing_prompts": 131,
+        "classification": "not_reproduced"
+      }
+    },
+    "6184": {
+      "seed_1": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 4496,
+        "above_threshold_targets": [
+          4496,
+          7975,
+          6746
+        ],
+        "confirmation_source_firing_tokens": 2039,
+        "confirmation_source_firing_prompts": 378,
+        "reverse_check": {
+          "best_source_from_target": 8039,
+          "reverse_confirms_this_candidate": false
+        },
+        "note": "Provisional match corrected: target 4496's true best reverse match in the full source dictionary is feature 8039, not candidate 6184.",
+        "confirmation_activation_pattern_cosine": 0.5586966872215271,
+        "confirmation_top_prompt_jaccard": 0.2222222222222222,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "seed_2": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 7316,
+        "above_threshold_targets": [
+          7316,
+          3303
+        ],
+        "confirmation_source_firing_tokens": 2039,
+        "confirmation_source_firing_prompts": 378,
+        "reverse_check": {
+          "best_source_from_target": 6184,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7057288289070129,
+        "confirmation_top_prompt_jaccard": 0.16666666666666666,
+        "classification": "reproduced_strong"
+      }
+    },
+    "6211": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 42,
+        "confirmation_source_firing_prompts": 34,
+        "classification": "not_reproduced"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 42,
+        "confirmation_source_firing_prompts": 34,
+        "classification": "not_reproduced"
+      }
+    },
+    "6271": {
+      "seed_1": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 2380,
+        "above_threshold_targets": [
+          2380,
+          1955,
+          6148
+        ],
+        "confirmation_source_firing_tokens": 3017,
+        "confirmation_source_firing_prompts": 619,
+        "reverse_check": {
+          "best_source_from_target": 6271,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.48066651821136475,
+        "confirmation_top_prompt_jaccard": 0.027777777777777776,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 6847,
+        "above_threshold_targets": [
+          6847,
+          6676
+        ],
+        "confirmation_source_firing_tokens": 3017,
+        "confirmation_source_firing_prompts": 619,
+        "reverse_check": {
+          "best_source_from_target": 6271,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.5262705683708191,
+        "confirmation_top_prompt_jaccard": 0.058823529411764705,
+        "classification": "reproduced_strong"
+      }
+    },
+    "6299": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 6416,
+        "above_threshold_targets": [
+          6416
+        ],
+        "confirmation_source_firing_tokens": 1918,
+        "confirmation_source_firing_prompts": 292,
+        "reverse_check": {
+          "best_source_from_target": 6299,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9631307125091553,
+        "confirmation_top_prompt_jaccard": 0.6086956521739131,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 7592,
+        "above_threshold_targets": [
+          7592,
+          7011
+        ],
+        "confirmation_source_firing_tokens": 1918,
+        "confirmation_source_firing_prompts": 292,
+        "reverse_check": {
+          "best_source_from_target": 6299,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9119427800178528,
+        "confirmation_top_prompt_jaccard": 0.3103448275862069,
+        "classification": "reproduced_strong"
+      }
+    },
+    "6403": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 4839,
+        "above_threshold_targets": [
+          4839,
+          935,
+          1296
+        ],
+        "confirmation_source_firing_tokens": 1277,
+        "confirmation_source_firing_prompts": 186,
+        "reverse_check": {
+          "best_source_from_target": 6403,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8646859526634216,
+        "confirmation_top_prompt_jaccard": 0.25925925925925924,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 8088,
+        "above_threshold_targets": [
+          8088,
+          1422,
+          2240,
+          21,
+          2780
+        ],
+        "confirmation_source_firing_tokens": 1277,
+        "confirmation_source_firing_prompts": 186,
+        "reverse_check": {
+          "best_source_from_target": 6403,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.777812123298645,
+        "confirmation_top_prompt_jaccard": 0.19230769230769232,
+        "classification": "reproduced_strong"
+      }
+    },
+    "6437": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3298,
+        "above_threshold_targets": [
+          3298
+        ],
+        "confirmation_source_firing_tokens": 924,
+        "confirmation_source_firing_prompts": 290,
+        "reverse_check": {
+          "best_source_from_target": 6437,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9475953578948975,
+        "confirmation_top_prompt_jaccard": 1.0,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 6465,
+        "above_threshold_targets": [
+          6465
+        ],
+        "confirmation_source_firing_tokens": 924,
+        "confirmation_source_firing_prompts": 290,
+        "reverse_check": {
+          "best_source_from_target": 6437,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7920597791671753,
+        "confirmation_top_prompt_jaccard": 0.5882352941176471,
+        "classification": "reproduced_strong"
+      }
+    },
+    "6438": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      }
+    },
+    "6476": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 4686,
+        "above_threshold_targets": [
+          4686
+        ],
+        "confirmation_source_firing_tokens": 1787,
+        "confirmation_source_firing_prompts": 842,
+        "reverse_check": {
+          "best_source_from_target": 956,
+          "reverse_confirms_this_candidate": false
+        },
+        "note": "Provisional match corrected: target 4686's true best reverse match in the full source dictionary is feature 956, not candidate 6476.",
+        "confirmation_activation_pattern_cosine": 0.41323548555374146,
+        "confirmation_top_prompt_jaccard": 0.0,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 6164,
+        "above_threshold_targets": [
+          6164
+        ],
+        "confirmation_source_firing_tokens": 1787,
+        "confirmation_source_firing_prompts": 842,
+        "reverse_check": {
+          "best_source_from_target": 6407,
+          "reverse_confirms_this_candidate": false
+        },
+        "note": "Provisional match corrected: target 6164's true best reverse match in the full source dictionary is feature 6407, not candidate 6476.",
+        "confirmation_activation_pattern_cosine": 0.3886854648590088,
+        "confirmation_top_prompt_jaccard": 0.0,
+        "classification": "numerically_matched_semantically_inconsistent"
+      }
+    },
+    "6529": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      }
+    },
+    "6569": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 1296,
+        "above_threshold_targets": [
+          1296,
+          6393
+        ],
+        "confirmation_source_firing_tokens": 941,
+        "confirmation_source_firing_prompts": 263,
+        "reverse_check": {
+          "best_source_from_target": 6569,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8610001802444458,
+        "confirmation_top_prompt_jaccard": 0.3076923076923077,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 21,
+        "above_threshold_targets": [
+          21
+        ],
+        "confirmation_source_firing_tokens": 941,
+        "confirmation_source_firing_prompts": 263,
+        "reverse_check": {
+          "best_source_from_target": 6569,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8426803350448608,
+        "confirmation_top_prompt_jaccard": 0.2962962962962963,
+        "classification": "reproduced_strong"
+      }
+    },
+    "6653": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 1917,
+        "confirmation_source_firing_prompts": 493,
+        "classification": "not_reproduced"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 1917,
+        "confirmation_source_firing_prompts": 493,
+        "classification": "not_reproduced"
+      }
+    },
+    "6693": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 899,
+        "above_threshold_targets": [
+          899,
+          6858
+        ],
+        "confirmation_source_firing_tokens": 1268,
+        "confirmation_source_firing_prompts": 1268,
+        "reverse_check": {
+          "best_source_from_target": 6693,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9999997615814209,
+        "confirmation_top_prompt_jaccard": 0.8181818181818182,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 1476,
+        "above_threshold_targets": [
+          1476,
+          3846
+        ],
+        "confirmation_source_firing_tokens": 1268,
+        "confirmation_source_firing_prompts": 1268,
+        "reverse_check": {
+          "best_source_from_target": 6693,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 1.0,
+        "confirmation_top_prompt_jaccard": 0.8181818181818182,
+        "classification": "reproduced_strong"
+      }
+    },
+    "6719": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 742,
+        "above_threshold_targets": [
+          742
+        ],
+        "confirmation_source_firing_tokens": 1926,
+        "confirmation_source_firing_prompts": 638,
+        "reverse_check": {
+          "best_source_from_target": 6719,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9730827212333679,
+        "confirmation_top_prompt_jaccard": 0.6666666666666666,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3309,
+        "above_threshold_targets": [
+          3309,
+          1513
+        ],
+        "confirmation_source_firing_tokens": 1926,
+        "confirmation_source_firing_prompts": 638,
+        "reverse_check": {
+          "best_source_from_target": 6719,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9726478457450867,
+        "confirmation_top_prompt_jaccard": 0.6086956521739131,
+        "classification": "reproduced_strong"
+      }
+    },
+    "6760": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 5299,
+        "above_threshold_targets": [
+          5299,
+          1770
+        ],
+        "confirmation_source_firing_tokens": 1111,
+        "confirmation_source_firing_prompts": 207,
+        "reverse_check": {
+          "best_source_from_target": 6760,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7556810975074768,
+        "confirmation_top_prompt_jaccard": 0.2857142857142857,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 8191,
+        "above_threshold_targets": [
+          8191,
+          2780,
+          2582
+        ],
+        "confirmation_source_firing_tokens": 1111,
+        "confirmation_source_firing_prompts": 207,
+        "reverse_check": {
+          "best_source_from_target": 6760,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7457547187805176,
+        "confirmation_top_prompt_jaccard": 0.2,
+        "classification": "reproduced_strong"
+      }
+    },
+    "6794": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 118,
+        "confirmation_source_firing_prompts": 92,
+        "classification": "not_reproduced"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 118,
+        "confirmation_source_firing_prompts": 92,
+        "classification": "not_reproduced"
+      }
+    },
+    "6815": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 7843,
+        "above_threshold_targets": [
+          7843
+        ],
+        "confirmation_source_firing_tokens": 296,
+        "confirmation_source_firing_prompts": 249,
+        "reverse_check": {
+          "best_source_from_target": 6815,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.959672749042511,
+        "confirmation_top_prompt_jaccard": 0.6875,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 5152,
+        "above_threshold_targets": [
+          5152
+        ],
+        "confirmation_source_firing_tokens": 296,
+        "confirmation_source_firing_prompts": 249,
+        "reverse_check": {
+          "best_source_from_target": 6815,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9628058671951294,
+        "confirmation_top_prompt_jaccard": 0.8125,
+        "classification": "reproduced_strong"
+      }
+    },
+    "7096": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 6697,
+        "above_threshold_targets": [
+          6697
+        ],
+        "confirmation_source_firing_tokens": 340,
+        "confirmation_source_firing_prompts": 249,
+        "reverse_check": {
+          "best_source_from_target": 7096,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9957122802734375,
+        "confirmation_top_prompt_jaccard": 1.0,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 8138,
+        "above_threshold_targets": [
+          8138
+        ],
+        "confirmation_source_firing_tokens": 340,
+        "confirmation_source_firing_prompts": 249,
+        "reverse_check": {
+          "best_source_from_target": 7096,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.995860755443573,
+        "confirmation_top_prompt_jaccard": 1.0,
+        "classification": "reproduced_strong"
+      }
+    },
+    "7174": {
+      "seed_1": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 1101,
+        "above_threshold_targets": [
+          1101,
+          1810,
+          3146,
+          6677
+        ],
+        "confirmation_source_firing_tokens": 2231,
+        "confirmation_source_firing_prompts": 572,
+        "reverse_check": {
+          "best_source_from_target": 6432,
+          "reverse_confirms_this_candidate": false
+        },
+        "note": "Provisional match corrected: target 1101's true best reverse match in the full source dictionary is feature 6432, not candidate 7174.",
+        "confirmation_activation_pattern_cosine": 0.4569832384586334,
+        "confirmation_top_prompt_jaccard": 0.25925925925925924,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 5001,
+        "above_threshold_targets": [
+          5001
+        ],
+        "confirmation_source_firing_tokens": 2231,
+        "confirmation_source_firing_prompts": 572,
+        "reverse_check": {
+          "best_source_from_target": 7174,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7720892429351807,
+        "confirmation_top_prompt_jaccard": 0.3333333333333333,
+        "classification": "reproduced_strong"
+      }
+    },
+    "7210": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 1349,
+        "above_threshold_targets": [
+          1349
+        ],
+        "confirmation_source_firing_tokens": 7727,
+        "confirmation_source_firing_prompts": 1043,
+        "reverse_check": {
+          "best_source_from_target": 7210,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8990293145179749,
+        "confirmation_top_prompt_jaccard": 0.9375,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 444,
+        "above_threshold_targets": [
+          444
+        ],
+        "confirmation_source_firing_tokens": 7727,
+        "confirmation_source_firing_prompts": 1043,
+        "reverse_check": {
+          "best_source_from_target": 7210,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9586305618286133,
+        "confirmation_top_prompt_jaccard": 1.0,
+        "classification": "reproduced_strong"
+      }
+    },
+    "7365": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 1955,
+        "above_threshold_targets": [
+          1955
+        ],
+        "confirmation_source_firing_tokens": 1760,
+        "confirmation_source_firing_prompts": 410,
+        "reverse_check": {
+          "best_source_from_target": 7365,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.6597292423248291,
+        "confirmation_top_prompt_jaccard": 0.19230769230769232,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 1760,
+        "confirmation_source_firing_prompts": 410,
+        "classification": "not_reproduced"
+      }
+    },
+    "7371": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 1920,
+        "confirmation_source_firing_prompts": 336,
+        "classification": "not_reproduced"
+      },
+      "seed_2": {
+        "decoder_match_status": "ambiguous_match",
+        "best_target": 3711,
+        "above_threshold_targets": [
+          3711,
+          3558
+        ],
+        "confirmation_source_firing_tokens": 1920,
+        "confirmation_source_firing_prompts": 336,
+        "reverse_check": {
+          "best_source_from_target": 7371,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.5904848575592041,
+        "confirmation_top_prompt_jaccard": 0.24,
+        "classification": "reproduced_strong"
+      }
+    },
+    "7376": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 8163,
+        "above_threshold_targets": [
+          8163
+        ],
+        "confirmation_source_firing_tokens": 298,
+        "confirmation_source_firing_prompts": 134,
+        "reverse_check": {
+          "best_source_from_target": 7376,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.5303908586502075,
+        "confirmation_top_prompt_jaccard": 0.0,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3099,
+        "above_threshold_targets": [
+          3099,
+          736
+        ],
+        "confirmation_source_firing_tokens": 298,
+        "confirmation_source_firing_prompts": 134,
+        "reverse_check": {
+          "best_source_from_target": 7376,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7823276519775391,
+        "confirmation_top_prompt_jaccard": 0.2962962962962963,
+        "classification": "reproduced_strong"
+      }
+    },
+    "7399": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 6840,
+        "above_threshold_targets": [
+          6840
+        ],
+        "confirmation_source_firing_tokens": 2051,
+        "confirmation_source_firing_prompts": 671,
+        "reverse_check": {
+          "best_source_from_target": 7399,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8889173269271851,
+        "confirmation_top_prompt_jaccard": 0.5,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 5597,
+        "above_threshold_targets": [
+          5597,
+          2137
+        ],
+        "confirmation_source_firing_tokens": 2051,
+        "confirmation_source_firing_prompts": 671,
+        "reverse_check": {
+          "best_source_from_target": 7399,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.911970317363739,
+        "confirmation_top_prompt_jaccard": 0.52,
+        "classification": "reproduced_strong"
+      }
+    },
+    "7439": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 1,
+        "confirmation_source_firing_prompts": 1,
+        "classification": "insufficient_evidence"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 1,
+        "confirmation_source_firing_prompts": 1,
+        "classification": "insufficient_evidence"
+      }
+    },
+    "7572": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      }
+    },
+    "7640": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 6205,
+        "above_threshold_targets": [
+          6205,
+          4845
+        ],
+        "confirmation_source_firing_tokens": 415,
+        "confirmation_source_firing_prompts": 285,
+        "reverse_check": {
+          "best_source_from_target": 7640,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8336973190307617,
+        "confirmation_top_prompt_jaccard": 0.47368421052631576,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3853,
+        "above_threshold_targets": [
+          3853
+        ],
+        "confirmation_source_firing_tokens": 415,
+        "confirmation_source_firing_prompts": 285,
+        "reverse_check": {
+          "best_source_from_target": 7640,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7806289196014404,
+        "confirmation_top_prompt_jaccard": 0.38095238095238093,
+        "classification": "reproduced_strong"
+      }
+    },
+    "7652": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 623,
+        "above_threshold_targets": [
+          623
+        ],
+        "confirmation_source_firing_tokens": 395,
+        "confirmation_source_firing_prompts": 272,
+        "reverse_check": {
+          "best_source_from_target": 7652,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9674386978149414,
+        "confirmation_top_prompt_jaccard": 0.5,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 4228,
+        "above_threshold_targets": [
+          4228
+        ],
+        "confirmation_source_firing_tokens": 395,
+        "confirmation_source_firing_prompts": 272,
+        "reverse_check": {
+          "best_source_from_target": 7652,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.8619068264961243,
+        "confirmation_top_prompt_jaccard": 0.5263157894736842,
+        "classification": "reproduced_strong"
+      }
+    },
+    "7688": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 83,
+        "confirmation_source_firing_prompts": 74,
+        "classification": "not_reproduced"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 83,
+        "confirmation_source_firing_prompts": 74,
+        "classification": "not_reproduced"
+      }
+    },
+    "7784": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 7902,
+        "above_threshold_targets": [
+          7902
+        ],
+        "confirmation_source_firing_tokens": 393,
+        "confirmation_source_firing_prompts": 152,
+        "reverse_check": {
+          "best_source_from_target": 3240,
+          "reverse_confirms_this_candidate": false
+        },
+        "note": "Provisional match corrected: target 7902's true best reverse match in the full source dictionary is feature 3240, not candidate 7784.",
+        "confirmation_activation_pattern_cosine": 0.4842489957809448,
+        "confirmation_top_prompt_jaccard": 0.13333333333333333,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 4314,
+        "above_threshold_targets": [
+          4314
+        ],
+        "confirmation_source_firing_tokens": 393,
+        "confirmation_source_firing_prompts": 152,
+        "reverse_check": {
+          "best_source_from_target": 7784,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9137462377548218,
+        "confirmation_top_prompt_jaccard": 0.5454545454545454,
+        "classification": "reproduced_strong"
+      }
+    },
+    "7789": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 4333,
+        "above_threshold_targets": [
+          4333
+        ],
+        "confirmation_source_firing_tokens": 829,
+        "confirmation_source_firing_prompts": 572,
+        "reverse_check": {
+          "best_source_from_target": 7789,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.9959618449211121,
+        "confirmation_top_prompt_jaccard": 0.9047619047619048,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 3768,
+        "above_threshold_targets": [
+          3768
+        ],
+        "confirmation_source_firing_tokens": 829,
+        "confirmation_source_firing_prompts": 572,
+        "reverse_check": {
+          "best_source_from_target": 7789,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.996178150177002,
+        "confirmation_top_prompt_jaccard": 1.0,
+        "classification": "reproduced_strong"
+      }
+    },
+    "7848": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      }
+    },
+    "7954": {
+      "seed_1": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 0,
+        "confirmation_source_firing_prompts": 0,
+        "classification": "insufficient_evidence"
+      }
+    },
+    "8053": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 5231,
+        "above_threshold_targets": [
+          5231
+        ],
+        "confirmation_source_firing_tokens": 2205,
+        "confirmation_source_firing_prompts": 614,
+        "reverse_check": {
+          "best_source_from_target": 6610,
+          "reverse_confirms_this_candidate": false
+        },
+        "note": "Provisional match corrected: target 5231's true best reverse match in the full source dictionary is feature 6610, not candidate 8053.",
+        "confirmation_activation_pattern_cosine": 0.30006924271583557,
+        "confirmation_top_prompt_jaccard": 0.0,
+        "classification": "numerically_matched_semantically_inconsistent"
+      },
+      "seed_2": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 567,
+        "above_threshold_targets": [
+          567
+        ],
+        "confirmation_source_firing_tokens": 2205,
+        "confirmation_source_firing_prompts": 614,
+        "reverse_check": {
+          "best_source_from_target": 8053,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7104742527008057,
+        "confirmation_top_prompt_jaccard": 0.14285714285714285,
+        "classification": "reproduced_strong"
+      }
+    },
+    "8170": {
+      "seed_1": {
+        "decoder_match_status": "single_clear_match",
+        "best_target": 1878,
+        "above_threshold_targets": [
+          1878
+        ],
+        "confirmation_source_firing_tokens": 21,
+        "confirmation_source_firing_prompts": 18,
+        "reverse_check": {
+          "best_source_from_target": 8170,
+          "reverse_confirms_this_candidate": true
+        },
+        "confirmation_activation_pattern_cosine": 0.7396299839019775,
+        "confirmation_top_prompt_jaccard": 0.06060606060606061,
+        "classification": "reproduced_strong"
+      },
+      "seed_2": {
+        "decoder_match_status": "unmatched",
+        "best_target": null,
+        "above_threshold_targets": [],
+        "confirmation_source_firing_tokens": 21,
+        "confirmation_source_firing_prompts": 18,
+        "classification": "not_reproduced"
+      }
+    }
+  }
+}

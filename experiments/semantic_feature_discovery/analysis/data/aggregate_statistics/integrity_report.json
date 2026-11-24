@@ -1,0 +1,162 @@
+{
+  "n_checks": 31,
+  "n_passed": 31,
+  "n_failed": 0,
+  "checks": [
+    {
+      "name": "candidates_count",
+      "passed": true,
+      "detail": "candidates.jsonl has 121 rows, 121 unique feature_idx"
+    },
+    {
+      "name": "primary_reviews_cover_all_candidates",
+      "passed": true,
+      "detail": "primary_reviews.jsonl covers 121 features; missing=[], extra=[]"
+    },
+    {
+      "name": "confound_diagnostics_cover_all_candidates",
+      "passed": true,
+      "detail": "confound_diagnostics.jsonl covers 121 features"
+    },
+    {
+      "name": "counterexamples_cover_all_candidates",
+      "passed": true,
+      "detail": "counterexamples.jsonl covers 121 features"
+    },
+    {
+      "name": "cross_seed_seed_1_sums_to_121",
+      "passed": true,
+      "detail": "seed_1 six-way classification sums to 121 (recorded sum_check=121)"
+    },
+    {
+      "name": "cross_seed_seed_2_sums_to_121",
+      "passed": true,
+      "detail": "seed_2 six-way classification sums to 121 (recorded sum_check=121)"
+    },
+    {
+      "name": "cross_seed_denominator_is_121",
+      "passed": true,
+      "detail": "denominator=121"
+    },
+    {
+      "name": "cross_capacity_width_4096_sums_to_61",
+      "passed": true,
+      "detail": "width_4096 six-way classification sums to 61 (recorded sum_check=61)"
+    },
+    {
+      "name": "cross_capacity_width_16384_sums_to_61",
+      "passed": true,
+      "detail": "width_16384 six-way classification sums to 61 (recorded sum_check=61)"
+    },
+    {
+      "name": "cross_capacity_denominator_is_61_not_121",
+      "passed": true,
+      "detail": "denominator=61 (must be the >=medium-confidence subset, not the full 121)"
+    },
+    {
+      "name": "cross_seed_raw_results_cover_all_121",
+      "passed": true,
+      "detail": "cross_seed_reproducibility.json results cover 121 features"
+    },
+    {
+      "name": "insufficient_evidence_identical_across_seeds",
+      "passed": true,
+      "detail": "seed_1 insufficient_evidence set == seed_2 set: True; |set|=25"
+    },
+    {
+      "name": "eligible_candidates_is_exactly_medium_plus_high",
+      "passed": true,
+      "detail": "eligible_candidates.json has 61 features; recomputed >=medium set from primary_reviews.jsonl has 61; equal=True"
+    },
+    {
+      "name": "graph_has_61_nodes_matching_eligible",
+      "passed": true,
+      "detail": "graph has 61 nodes; matches eligible_candidates set: True"
+    },
+    {
+      "name": "graph_has_139_edges",
+      "passed": true,
+      "detail": "graph has 139 edges"
+    },
+    {
+      "name": "graph_edges_endpoints_valid",
+      "passed": true,
+      "detail": "0 edges reference a non-node endpoint"
+    },
+    {
+      "name": "graph_edges_types_valid",
+      "passed": true,
+      "detail": "0 edges have an unrecognized edge_type"
+    },
+    {
+      "name": "graph_edges_have_required_fields",
+      "passed": true,
+      "detail": "0 edges missing evidence/confidence/provenance"
+    },
+    {
+      "name": "graph_summary_matches_recount",
+      "passed": true,
+      "detail": "recounted edge types {'co_activation': 64, 'cross_domain_connection': 13, 'semantic_similarity': 62} vs summary file {'co_activation': 64, 'cross_domain_connection': 13, 'semantic_similarity': 62}"
+    },
+    {
+      "name": "all_figures_reference_existing_source_files",
+      "passed": true,
+      "detail": "0 missing source references: []"
+    },
+    {
+      "name": "all_figure_output_files_exist",
+      "passed": true,
+      "detail": "0 missing output files: []"
+    },
+    {
+      "name": "figure_manifest_has_21_entries",
+      "passed": true,
+      "detail": "manifest has 21 entries"
+    },
+    {
+      "name": "split_assignment_has_no_duplicate_prompt_ids",
+      "passed": true,
+      "detail": "2533 rows, 2533 unique prompt_ids"
+    },
+    {
+      "name": "split_assignment_only_two_subsets",
+      "passed": true,
+      "detail": "subset values observed: {'discovery', 'confirmation'}"
+    },
+    {
+      "name": "split_counts_match_config",
+      "passed": true,
+      "detail": "recounted discovery=1265, confirmation=1268 (expected 1265/1268 per split_config)"
+    },
+    {
+      "name": "split_config_records_same_counts",
+      "passed": true,
+      "detail": "split_config total_discovery_prompts/total_confirmation_prompts = 1265/1268"
+    },
+    {
+      "name": "discovery_evidence_contains_only_discovery_prompts",
+      "passed": true,
+      "detail": "0 Discovery-evidence examples reference a non-Discovery prompt_id"
+    },
+    {
+      "name": "confirmation_evidence_contains_only_confirmation_prompts",
+      "passed": true,
+      "detail": "0 Confirmation-evidence examples reference a non-Confirmation prompt_id"
+    },
+    {
+      "name": "counterexamples_contain_only_confirmation_prompts",
+      "passed": true,
+      "detail": "0 counterexample prompt_ids are not in the Confirmation subset (seed queries may legitimately come from Discovery, but returned evidence must be Confirmation-only)"
+    },
+    {
+      "name": "frozen_milestone_dirs_unmodified",
+      "passed": true,
+      "detail": "git status --porcelain on frozen dirs: (clean)"
+    },
+    {
+      "name": "all_required_phase1_5_outputs_exist",
+      "passed": true,
+      "detail": "missing: []"
+    }
+  ]
+}

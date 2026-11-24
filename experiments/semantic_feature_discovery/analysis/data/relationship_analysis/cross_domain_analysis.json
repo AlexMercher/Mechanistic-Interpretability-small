@@ -1,0 +1,896 @@
+{
+  "eligible_candidates": [
+    95,
+    553,
+    720,
+    838,
+    1598,
+    1811,
+    1857,
+    1974,
+    2125,
+    2201,
+    2283,
+    2728,
+    2974,
+    3001,
+    3107,
+    3252,
+    3349,
+    3498,
+    3598,
+    3728,
+    3734,
+    3908,
+    3997,
+    4021,
+    4094,
+    4282,
+    4301,
+    4455,
+    4485,
+    4606,
+    4769,
+    4983,
+    5167,
+    5180,
+    5297,
+    5377,
+    5558,
+    5656,
+    5760,
+    5780,
+    5902,
+    6095,
+    6299,
+    6403,
+    6437,
+    6569,
+    6653,
+    6719,
+    6760,
+    6815,
+    7096,
+    7371,
+    7376,
+    7399,
+    7640,
+    7652,
+    7688,
+    7784,
+    7789,
+    8053,
+    8170
+  ],
+  "single_feature_cross_domain_generalizers_coherent_semantic": [
+    {
+      "feature_idx": 1974,
+      "cross_domain_entropy_norm_discovery": 0.9962755177446376,
+      "final_classification": "coherent_semantic",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on tokens within prompts that juxtapose or comparatively evaluate two distinct named entities/concepts (e.g. Nehru vs documentary evidence, 'Criticism of Gandhi alongside Smuts negotiations', 'Compare Ahimsa and International encounters'), most strongly on GANDHI historical-comparison templates but spread fairly evenly across all 5 domains."
+    },
+    {
+      "feature_idx": 95,
+      "cross_domain_entropy_norm_discovery": 0.9350243596124994,
+      "final_classification": "coherent_semantic",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on the literal lexeme 'physical'/'physically' used in its material/bodily/tangible sense (e.g. 'physical presence', 'physically bridge', 'physical separation', 'physical pacing', 'physical danger', 'physical rehabilitation'), including the recurring subdomain label 'Physical chemistry' in SCIENCE prompts. It is a lexical-semantic feature for this one word sense, not a domain or topic feature."
+    },
+    {
+      "feature_idx": 7640,
+      "cross_domain_entropy_norm_discovery": 0.811039897015289,
+      "final_classification": "coherent_semantic",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on the literal token 'mismatch' (and morphological forms: mismatched, mismatches) in contexts describing a discrepancy, primarily DNA base-pairing mismatch / mismatch-repair biology, and generalizes to non-DNA domains when the same lexical item 'mismatch' appears (e.g., an EMOTIONS prompt reasoning about a vocal/emotional 'mismatch')."
+    },
+    {
+      "feature_idx": 7399,
+      "cross_domain_entropy_norm_discovery": 0.6658021405997827,
+      "final_classification": "coherent_semantic",
+      "confidence": "medium",
+      "candidate_interpretation": "A cross-domain pragmatic/communicative-intent-inference feature: fires on prompts (in both HINDI Pragmatics and EMOTIONS Emotional_Recognition/Expression_Communication subdomains) that ask the model to infer a speaker's/communicator's underlying intent, ambiguity, or implied meaning behind an utterance or message, independent of language."
+    },
+    {
+      "feature_idx": 4485,
+      "cross_domain_entropy_norm_discovery": 0.420296800544021,
+      "final_classification": "coherent_semantic",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on diplomatic/formal-register communication content: polite refusal, condolence, customer-service apology, and other high-stakes tactful phrasing, primarily instantiated in Hindi Pragmatics/Vocabulary prompts but generalizing substantially to English EMOTIONS communication-tone prompts."
+    }
+  ],
+  "single_feature_all_candidates_by_cross_domain_entropy": [
+    {
+      "feature_idx": 1974,
+      "cross_domain_entropy_norm_discovery": 0.9962755177446376,
+      "final_classification": "coherent_semantic",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on tokens within prompts that juxtapose or comparatively evaluate two distinct named entities/concepts (e.g. Nehru vs documentary evidence, 'Criticism of Gandhi alongside Smuts negotiations', 'Compare Ahimsa and International encounters'), most strongly on GANDHI historical-comparison templates but spread fairly evenly across all 5 domains."
+    },
+    {
+      "feature_idx": 3252,
+      "cross_domain_entropy_norm_discovery": 0.9945158439218028,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires specifically on the referent 'South Africa' within Gandhi-studies comparison and historical-chronology templates — i.e., Gandhi's South African period (Satyagraha in South Africa, South African imprisonment, South Africa arrival, Satyagraha in South Africa vs India)."
+    },
+    {
+      "feature_idx": 5760,
+      "cross_domain_entropy_norm_discovery": 0.9936811745037268,
+      "final_classification": "template_driven",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on the fixed phrase 'in relation to ethical argument' at a specific early token position within the recurring GANDHI template 'Assess competing explanations of X in relation to ethical argument; identify what evidence would strengthen each,' where X (the historical topic) varies freely -- a template/phrase trigger, not a concept about the topics themselves."
+    },
+    {
+      "feature_idx": 3734,
+      "cross_domain_entropy_norm_discovery": 0.993452315440255,
+      "final_classification": "template_driven",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires at high, fairly uniform activation (~2.3-2.4) specifically on GANDHI prompts ending in the fixed clause '...for/regarding historical chronology', spanning dozens of distinct Gandhi subtopics (Nonviolence under repression, Salt law, Ashram rules, London 1931, Ahimsa, Kochrab Ashram, etc.)."
+    },
+    {
+      "feature_idx": 5902,
+      "cross_domain_entropy_norm_discovery": 0.9923050064139196,
+      "final_classification": "template_driven",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires at a fixed token position (position 7) on the recurring phrase 'Design a classroom, museum or public-history activity that uses [X] to teach [historical chronology/public response]...' which is heavily used in the GANDHI domain with X (the historical topic) varying freely -- a template/phrase-position trigger, not a concept about the varying topics."
+    },
+    {
+      "feature_idx": 6815,
+      "cross_domain_entropy_norm_discovery": 0.9922469067037578,
+      "final_classification": "domain_marker",
+      "confidence": "medium",
+      "candidate_interpretation": "A lexical/topic-name marker for astronomy- and sky-science-adjacent SCIENCE subdomain labels: fires very strongly (1.5-2.0) whenever the literal subdomain name 'Astrophysics' appears in a prompt (regardless of carrier template), and more weakly (0.2-0.3) for semantically adjacent subdomain names 'Atmospheric science' and 'Planetary science'. A much weaker, likely unrelated floor (~0.05-0.3) fires occasionally in other domains."
+    },
+    {
+      "feature_idx": 7688,
+      "cross_domain_entropy_norm_discovery": 0.9919388951603433,
+      "final_classification": "template_driven",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on two distinct slot-filling template skeletons regardless of the semantic content filling the slot: (a) GANDHI 'What conclusion about X and participant experience is best supported by the references? Explain the reasoning and uncertainty.' and (b) SCIENCE 'What is the defining mechanism or principle underlying X, and what key observable feature follows from it?' -- i.e. a template-position marker, not a concept about Gandhi/Tagore/Science topics themselves."
+    },
+    {
+      "feature_idx": 7789,
+      "cross_domain_entropy_norm_discovery": 0.9910881775101642,
+      "final_classification": "polysemantic_or_mixed",
+      "confidence": "medium",
+      "candidate_interpretation": "Dominant high-activation behavior is driven by the literal recurring boilerplate phrase 'participant experience' injected into a large family of distinct GANDHI-domain synthetic question templates (Analyze X in the context of participant experience..., What conclusion about X and participant experience..., Identify the common historical problem linking X and Y...participant experience...); separately, the feature also carries a broad, much weaker, non-specific background activation across all five domains (44.8% of all prompts fire at some level), suggesting a secondary generic/positional component layered under the phrase-specific spike."
+    },
+    {
+      "feature_idx": 3349,
+      "cross_domain_entropy_norm_discovery": 0.9902973275411301,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires overwhelmingly and very strongly on the specific referent 'Bhagavad Gita' (activation 0.5-2.5, far above all other content), with a much weaker secondary background activation (~0.15-0.26) on generic Gandhi-studies comparison/historical-chronology templates regardless of topic."
+    },
+    {
+      "feature_idx": 5656,
+      "cross_domain_entropy_norm_discovery": 0.9893103612105202,
+      "final_classification": "template_driven",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on the fixed collocation 'organizational method' appearing at a specific token position within several recurring GANDHI prompt templates ('Construct a causal explanation linking X and organizational method...', 'Develop a public-facing exhibit... around X and organizational method...', 'How does understanding organizational method change the interpretation of X?'), where X (the historical topic) varies freely -- a template/phrase-position trigger rather than a concept about the varying topics themselves."
+    },
+    {
+      "feature_idx": 95,
+      "cross_domain_entropy_norm_discovery": 0.9350243596124994,
+      "final_classification": "coherent_semantic",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on the literal lexeme 'physical'/'physically' used in its material/bodily/tangible sense (e.g. 'physical presence', 'physically bridge', 'physical separation', 'physical pacing', 'physical danger', 'physical rehabilitation'), including the recurring subdomain label 'Physical chemistry' in SCIENCE prompts. It is a lexical-semantic feature for this one word sense, not a domain or topic feature."
+    },
+    {
+      "feature_idx": 3728,
+      "cross_domain_entropy_norm_discovery": 0.9316939782954412,
+      "final_classification": "template_driven",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires at near-ceiling, saturating activation (~1.9-2.2) specifically on two fixed template-clause endings: '...focusing on the shared scientific basis and the key distinction that determines their behavior' (SCIENCE 'Contrast A with B' template) and '...focusing on organizational method' (GANDHI 'Describe the central factual elements of X' template) — regardless of the specific topic filling the template."
+    },
+    {
+      "feature_idx": 7652,
+      "cross_domain_entropy_norm_discovery": 0.8739974329967047,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Detects descriptions of the DNA sugar-phosphate backbone and its chemical/structural properties (phosphodiester linkage, backbone torsion, counterions neutralizing backbone charge, backbone covalent stability) -- a genuine DNA-structure sub-concept -- with a weaker, more template-bound secondary activation on a generic 'characterize X in domain D' science-topic sentence frame."
+    },
+    {
+      "feature_idx": 3908,
+      "cross_domain_entropy_norm_discovery": 0.857203522715539,
+      "final_classification": "polysemantic_or_mixed",
+      "confidence": "medium",
+      "candidate_interpretation": "Tracks how emotional expression/interpretation depends on audience and public-vs-private social context — e.g., expressing gratitude/anger/affection publicly vs privately, being embarrassed/praised in front of others, misreading a quiet or muted reaction because of an audience."
+    },
+    {
+      "feature_idx": 5558,
+      "cross_domain_entropy_norm_discovery": 0.8330619949525481,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on genomics/sequencing-methodology questions within DNA biology -- GWAS design, ChIP-seq, whole-genome sequencing QC, metagenomics, synteny analysis, pangenomes, recombination maps -- concentrated in the Inheritance_Genomics subdomain."
+    },
+    {
+      "feature_idx": 7640,
+      "cross_domain_entropy_norm_discovery": 0.811039897015289,
+      "final_classification": "coherent_semantic",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on the literal token 'mismatch' (and morphological forms: mismatched, mismatches) in contexts describing a discrepancy, primarily DNA base-pairing mismatch / mismatch-repair biology, and generalizes to non-DNA domains when the same lexical item 'mismatch' appears (e.g., an EMOTIONS prompt reasoning about a vocal/emotional 'mismatch')."
+    },
+    {
+      "feature_idx": 2125,
+      "cross_domain_entropy_norm_discovery": 0.8047795424002108,
+      "final_classification": "template_driven",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on boilerplate connector phrasing from synthetic SCIENCE question templates ('Reason through X using [Subdomain]. Specify the assumptions, intermediate steps, and evidence needed...', 'Compare A and B with respect to mechanism, observable outcomes...', 'Distinguish A from B by identifying how each predicts an outcome...'), i.e. captures the templated scaffolding of the SCIENCE dataset's synthetic prompts rather than scientific content itself."
+    },
+    {
+      "feature_idx": 7096,
+      "cross_domain_entropy_norm_discovery": 0.7965907275675445,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "A theory-of-mind / empathic-reasoning feature: fires strongly and consistently on the 'Task:' clause of EMOTIONS 'Scenario: ... Task: [interpret/reason about/compare perspectives on] ... Do not infer a person's internal state with certainty...' templates, i.e. prompts that ask the model to reason about another person's emotional state from ambiguous social cues while holding uncertainty."
+    },
+    {
+      "feature_idx": 8053,
+      "cross_domain_entropy_norm_discovery": 0.7938559100500924,
+      "final_classification": "domain_marker",
+      "confidence": "medium",
+      "candidate_interpretation": "A very high-frequency, broad feature that fires across a wide range of core molecular-biology/mechanistic-explanation sentences, concentrated in DNA (replication, transcription, translation basics: base pairing, primase, deoxyribose, RNA polymerase priming, stop codons, leading/lagging strand synthesis) and substantially bleeding into SCIENCE-domain mechanistic-explanation prompts, with lower-level activity in EMOTIONS/HINDI/GANDHI -- more consistent with a broad 'molecular/scientific mechanism exposition' topic-and-register marker than one precise, narrow semantic concept."
+    },
+    {
+      "feature_idx": 2201,
+      "cross_domain_entropy_norm_discovery": 0.7357860185255481,
+      "final_classification": "polysemantic_or_mixed",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on tokens within DNA mechanism questions, particularly ones using explicit comparison/distinction phrasing about molecular pathways or factors (e.g. how bicyclomycin inhibits Rho-dependent termination, how EXO1-dependent and EXO1-independent pathways differ, how alternative end joining differs from classical NHEJ), concentrated in DNA Transcription_Translation/Mutations_Repair/Replication subdomains with moderate spread to HINDI/EMOTIONS/SCIENCE."
+    },
+    {
+      "feature_idx": 8170,
+      "cross_domain_entropy_norm_discovery": 0.7156953305825235,
+      "final_classification": "template_driven",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires specifically on the fixed closing clause of one recurring EMOTIONS-regulation template ('...Reason through likely consequences of different responses and the trade-offs involved. Make the reasoning explicit and distinguish immediate relief from longer-term effects.') regardless of which emotion/scenario fills the template, plus weaker activation on syntactically similar closing clauses in unrelated SCIENCE reasoning templates ('Reason through X using Y. Specify the assumptions...') -- a template/clause-position marker, not an emotion-regulation concept."
+    },
+    {
+      "feature_idx": 6653,
+      "cross_domain_entropy_norm_discovery": 0.7113944848820339,
+      "final_classification": "polysemantic_or_mixed",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on prompts that require interpreting an ambiguous or implicit communicative/emotional cue -- the EMOTIONS-domain cluster uses a templated 'ambiguous emotional signal' framing (e.g. quieter-than-expected response to praise, mixed cues at a gathering), while the HINDI cluster involves pragmatics/idiom prompts requiring inference beyond literal wording (indirect address terms, deixis, practical meaning of indirect speech). Both share a theme of 'meaning that must be inferred rather than read off literally.'"
+    },
+    {
+      "feature_idx": 5180,
+      "cross_domain_entropy_norm_discovery": 0.6916716133217687,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on physics/physical-science causal-mechanism reasoning prompts -- i.e. text describing a physical system or phenomenon (projectile motion, induction, turbulence, thermal expansion, orbital motion, corrosion) phrased as 'trace the causal chain', 'explain the mechanism', 'reason through X using <subfield>' -- concentrated in SCIENCE subdomains Mechanics/Electromagnetism/Fluid mechanics/Thermodynamics/Optics/Astrophysics/Electrochemistry."
+    },
+    {
+      "feature_idx": 6719,
+      "cross_domain_entropy_norm_discovery": 0.6741742939636226,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on tokens within Hindi-domain prompts that engage in explicit meta-linguistic comparison/distinction-making — contrasting two Hindi words, grammatical forms, or pragmatic strategies (tense/aspect pairs, synonym pairs, indirect-speech strategies, presupposition). Concentrated in HINDI (66% of firings) across Grammar/Syntax/Semantics/Pragmatics/Vocabulary subdomains, with a much weaker generic floor in other domains."
+    },
+    {
+      "feature_idx": 7399,
+      "cross_domain_entropy_norm_discovery": 0.6658021405997827,
+      "final_classification": "coherent_semantic",
+      "confidence": "medium",
+      "candidate_interpretation": "A cross-domain pragmatic/communicative-intent-inference feature: fires on prompts (in both HINDI Pragmatics and EMOTIONS Emotional_Recognition/Expression_Communication subdomains) that ask the model to infer a speaker's/communicator's underlying intent, ambiguity, or implied meaning behind an utterance or message, independent of language."
+    },
+    {
+      "feature_idx": 553,
+      "cross_domain_entropy_norm_discovery": 0.6232803829276269,
+      "final_classification": "script_or_language_marker",
+      "confidence": "high",
+      "candidate_interpretation": "A broad Hindi-language/script marker. Fires on a huge, heterogeneous range of Hindi-domain content (grammar, syntax, pragmatics, semantics, vocabulary) with no consistent shared topic or meaning across top examples; decisive evidence comes from the same_script_unrelated_semantics counterexamples, which fire on essentially unrelated Hindi content regardless of topic."
+    },
+    {
+      "feature_idx": 1811,
+      "cross_domain_entropy_norm_discovery": 0.5743347776636901,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on constructions that contrastively differentiate two closely related, near-synonymous emotional/psychological states or concepts (e.g. distinguishing grief from depression, how frustration differs from disappointment, comparing envy with jealousy), concentrated in EMOTIONS but generalizing to similar comparison constructions in other domains."
+    },
+    {
+      "feature_idx": 3598,
+      "cross_domain_entropy_norm_discovery": 0.562275319792673,
+      "final_classification": "template_driven",
+      "confidence": "high",
+      "candidate_interpretation": "Fires at very high, saturating activation (~2.0-2.1) specifically on one fixed sentence template: 'Consider this emotional regulation situation: [person] feels [emotion] ... Reason through likely consequences of different responses and the trade-offs involved. Make the reasoning explicit and distinguish immediate relief from longer-term effects' — regardless of which emotion fills the slot. A much weaker, non-specific background activation (~0.05-0.2) appears elsewhere in EMOTIONS and other domains."
+    },
+    {
+      "feature_idx": 3498,
+      "cross_domain_entropy_norm_discovery": 0.490671971745309,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on Hindi-language questions that pose an explicit meaning/grammatical-difference comparison between two closely related Hindi words, verb forms, or sentence constructions (e.g., 'X aur Y shabdon/vakyon mein kya antar hai'), tracking the semantic content of 'comparing two near-synonymous or near-equivalent Hindi forms' rather than Hindi script alone."
+    },
+    {
+      "feature_idx": 4282,
+      "cross_domain_entropy_norm_discovery": 0.48675814552567487,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on tokens referring to DNA strand-end chemistry/directionality: 5'-to-3' polarity, primer/exonuclease termini, phosphodiester-linkage orientation, telomeric/3'-OH ends, and related strand-polarity biochemistry."
+    },
+    {
+      "feature_idx": 2283,
+      "cross_domain_entropy_norm_discovery": 0.47182597803528714,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on DNA-domain questions about the physical/enzymatic process of nucleic-acid synthesis and polymerase chemistry (primer removal, exonuclease proofreading, translesion synthesis, polymerase mechanics), concentrated in Replication, Mutations_Repair and Transcription_Translation subdomains and largely silent outside DNA."
+    },
+    {
+      "feature_idx": 4769,
+      "cross_domain_entropy_norm_discovery": 0.4665897053548412,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on DNA single-strand/double-strand structural and mechanistic concepts: single-stranded DNA exposure (SSB/RPA-coated ssDNA, ssDNA hairpins), double-strand breaks, strand polarity/invasion, and related strand-level DNA structural biochemistry."
+    },
+    {
+      "feature_idx": 6437,
+      "cross_domain_entropy_norm_discovery": 0.45907239041438164,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires specifically on questions about transcription initiation and promoter-level gene regulation mechanics in DNA molecular biology -- promoter structure/consensus sequences, open/closed promoter complexes, general transcription factor and RNA polymerase assembly at promoters, enhancer/promoter regulatory elements, and related initiation-factor mechanisms."
+    },
+    {
+      "feature_idx": 1857,
+      "cross_domain_entropy_norm_discovery": 0.4531810305856866,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on tokens within DNA molecular-mechanism questions about specific protein complexes/enzymes acting in DNA repair, replication, or chromatin/transcription regulation (e.g. PRDM9 at recombination hotspots, XRCC4/XLF/PAXX-ligase IV NHEJ, BRD4 bromodomain recognition, PARP1/XRCC1, GEN1/MUS81-EME1 Holliday junction resolution)."
+    },
+    {
+      "feature_idx": 3001,
+      "cross_domain_entropy_norm_discovery": 0.45269991299283463,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires specifically on DNA-domain content about base-pair geometry and pairing chemistry -- Watson-Crick/wobble/mismatched base pairing, base-pair step parameters (twist, roll, slide, propeller twist, buckle), and the structural/replication-fidelity consequences of base pairing."
+    },
+    {
+      "feature_idx": 4455,
+      "cross_domain_entropy_norm_discovery": 0.44880911762981107,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on the concept of single-stranded DNA (ssDNA) -- template strands, SSB/RPA-coated ssDNA, ssDNA hairpins/bubbles, and related single-strand-specific biochemistry -- within the DNA domain."
+    },
+    {
+      "feature_idx": 4021,
+      "cross_domain_entropy_norm_discovery": 0.4439944145665029,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on DNA-damage/repair biochemistry questions specifically involving modified or chemically altered bases — oxidative damage (8-oxoguanine, MUTYH glycosylase), alkylation (methylguanine, alkyladenine glycosylase), bulky/crosslinked adducts (cisplatin, NER) and related base-chemistry repair mechanisms."
+    },
+    {
+      "feature_idx": 4606,
+      "cross_domain_entropy_norm_discovery": 0.4429811019518823,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on tokens naming a specific protein/molecular domain, motif, or complex at the start of a 'What is the role/function of X' style DNA transcription-translation or replication question (e.g. 'bromodomain', 'carboxy-terminal domain', 'fingers domain', the named rRNA nucleotides, 'cap-binding complex')."
+    },
+    {
+      "feature_idx": 5297,
+      "cross_domain_entropy_norm_discovery": 0.4400795094461859,
+      "final_classification": "script_or_language_marker",
+      "confidence": "high",
+      "candidate_interpretation": "Hindi-script/language marker -- fires broadly across Hindi-language text regardless of topic (grammar, syntax, semantics, pragmatics, vocabulary), not on a specific semantic concept."
+    },
+    {
+      "feature_idx": 6569,
+      "cross_domain_entropy_norm_discovery": 0.4252460750635231,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on Hindi prompts that ask for the precise sense, nuance, or figurative/contextual meaning of a word, idiom, or phrase -- synonym-pair distinctions ('Sakriya' vs 'kriyaashil'), idiom meaning ('Ek hi thaili ke chatte-batte'), semantic-role analysis, and contextual disambiguation ('paanch minute' literal vs approximate) -- spanning Semantics, Vocabulary, Pragmatics, Syntax and Grammar subdomains."
+    },
+    {
+      "feature_idx": 4983,
+      "cross_domain_entropy_norm_discovery": 0.4205522862526964,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on DNA molecular-mechanism descriptions involving a named protein/complex binding, recruiting, or regulating another DNA/RNA component (e.g. 'RPA in flap processing', 'tau subunit ... bridge the DnaB helicase', 'nuclear receptors bind response elements', 'PALB2 physically bridge BRCA1 and BRCA2') -- a broad 'protein-DNA/protein-protein mechanistic interaction' pattern within DNA biology."
+    },
+    {
+      "feature_idx": 4485,
+      "cross_domain_entropy_norm_discovery": 0.420296800544021,
+      "final_classification": "coherent_semantic",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on diplomatic/formal-register communication content: polite refusal, condolence, customer-service apology, and other high-stakes tactful phrasing, primarily instantiated in Hindi Pragmatics/Vocabulary prompts but generalizing substantially to English EMOTIONS communication-tone prompts."
+    },
+    {
+      "feature_idx": 7376,
+      "cross_domain_entropy_norm_discovery": 0.40646414002024234,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "An indirect-speech-act / pragmatic-intent detector: fires on Hindi prompts presenting a quoted utterance in a social scenario (parent-child, teacher-student, workplace) followed by a question about the speaker's real/indirect/practical intent or implied meaning, as distinct from the literal words."
+    },
+    {
+      "feature_idx": 5167,
+      "cross_domain_entropy_norm_discovery": 0.3562527786033644,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on mentions of multi-subunit molecular machines / complexes in DNA biology (e.g. eIF3, RNA polymerase II core, CMG helicase, clamp loaders, POLE, 40S ribosomal subunit scanning) -- specifically around the naming/description of a named macromolecular complex and its mechanistic role, concentrated in Transcription_Translation and Replication subdomains."
+    },
+    {
+      "feature_idx": 4094,
+      "cross_domain_entropy_norm_discovery": 0.35072589665189274,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on Hindi syntax/grammar-analysis questions specifically about case-marking (कारक), agreement, and sentence-structure roles — e.g., how case markers affect sentence structure, gender/number agreement, passive/causative constructions, relative-clause structure."
+    },
+    {
+      "feature_idx": 4301,
+      "cross_domain_entropy_norm_discovery": 0.3450362604772668,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on Hindi-language (and Hindi-English code-switched) pragmatics/register content: politeness strategies, indirect refusal, formality level, and word-choice-for-register questions, with some generalization to English communication-register content in EMOTIONS."
+    },
+    {
+      "feature_idx": 6095,
+      "cross_domain_entropy_norm_discovery": 0.33768258563369097,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on prompts that explicitly ask the model to identify or explain a fine-grained distinction, relationship, or contrast between two closely related linguistic/conceptual items (e.g. two near-synonyms, two grammatical constructions, two pragmatic registers), predominantly phrased in Hindi/Hinglish, with a smaller but consistent secondary presence in EMOTIONS, SCIENCE, DNA and GANDHI prompts that have the same 'compare/distinguish X and Y' structure."
+    },
+    {
+      "feature_idx": 1598,
+      "cross_domain_entropy_norm_discovery": 0.30903075535038904,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on tokens within questions about specific molecular DNA-repair/replication mechanisms (named proteins/complexes acting on DNA lesions, recombination, or replication forks), e.g. RAD51/PALB2/BRCA2 strand invasion, UvrC incision, XRCC4-ligase IV NHEJ, PARP1/XRCC1 recruitment."
+    },
+    {
+      "feature_idx": 3997,
+      "cross_domain_entropy_norm_discovery": 0.30505037605749485,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on Hindi grammar-terminology questions that ask about formal classification/distinction within Hindi grammar (voice, compound vs simple verbs, sandhi vs samas, direct-object marking, causative formation) — a 'Hindi metalinguistic grammar-category' query marker."
+    },
+    {
+      "feature_idx": 7784,
+      "cross_domain_entropy_norm_discovery": 0.2807056675468233,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on descriptions of specific chemical modifications and chemical groups on DNA/RNA nucleotides and backbone (methylation events, hydroxyl/deoxyribose chemistry, phosphodiester/glycosidic bond chemistry, chemical adducts like cyclobutane pyrimidine dimers, 5-methylcytosine, AP-lyase elimination chemistry) -- a DNA-domain-specific biochemistry concept distinct from DNA biology/genetics more generally."
+    },
+    {
+      "feature_idx": 7371,
+      "cross_domain_entropy_norm_discovery": 0.2767132311481778,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "A Hindi grammatical/case-marking meta-linguistic analysis feature: fires at late token positions (49-153, i.e. near the end of longer analytical questions) on Hindi prompts specifically discussing case markers (karak/parsarg), postpositions, verb-agreement, and tense/aspect distinctions. Heavily concentrated in HINDI (~90%)."
+    },
+    {
+      "feature_idx": 838,
+      "cross_domain_entropy_norm_discovery": 0.25740631875537373,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on Hindi prompts involving context-dependent/pragmatic meaning -- deixis ('यहाँ'/'वहाँ'), word meaning that shifts with context ('अस्थायी', 'बड़ा होना'), politeness/reassurance formulas, and case-marker effects on sentence structure. A plausible domain-specific concept around 'meaning depends on context' in Hindi pragmatics/semantics, but support is thinner and partly undermined by a near-duplicate prompt dominating the Confirmation top band."
+    },
+    {
+      "feature_idx": 720,
+      "cross_domain_entropy_norm_discovery": 0.2222741787705456,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on Hindi prompts that ask the model to distinguish the nuance/register/usage difference between two near-synonymous Hindi words or phrases (e.g. 'Anurodh' vs 'Prarthana', 'Maafi' vs 'kshama', 'Krodh' vs 'rosh', 'विवाद' vs 'संवाद', formal vs informal address forms). This is a genuine semantic task-type ('near-synonym/register distinction query'), heavily but not exclusively concentrated in HINDI."
+    },
+    {
+      "feature_idx": 2974,
+      "cross_domain_entropy_norm_discovery": 0.2130024489931338,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on Hindi-domain meta-linguistic analysis of grammatical structure -- auxiliary-verb aspect/modality, subject-verb agreement, case-particle (karak) semantics, and passive-voice construction -- typically at late token positions (65-123) within long analytic sentences; closely resembles, and likely overlaps with, features 2728 and 3107 in this batch."
+    },
+    {
+      "feature_idx": 2728,
+      "cross_domain_entropy_norm_discovery": 0.1992491829810602,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "high",
+      "candidate_interpretation": "Fires on Hindi-domain prompts that are themselves meta-linguistic analysis of Hindi syntax/grammar -- clause embedding and complementation, case-marker (karak) assignment, voice (passive/causative) alternation, and relative/correlative clause structure -- typically at late token positions (76-156) within long analytic sentences."
+    },
+    {
+      "feature_idx": 6760,
+      "cross_domain_entropy_norm_discovery": 0.19552926692799835,
+      "final_classification": "script_or_language_marker",
+      "confidence": "high",
+      "candidate_interpretation": "A script/transliteration marker: fires on Hindi-language content specifically rendered in Romanized/Latin script (not Devanagari), regardless of topic (pragmatics, grammar, vocabulary, semantics all represented). Within HINDI domain only (~94% of firings)."
+    },
+    {
+      "feature_idx": 5377,
+      "cross_domain_entropy_norm_discovery": 0.1942482078470771,
+      "final_classification": "polysemantic_or_mixed",
+      "confidence": "medium",
+      "candidate_interpretation": "Primarily tracks Hindi lexical-semantic contrast/definition prompts (e.g. distinguishing near-synonym word pairs like 'अपेक्षा/उपेक्षा', 'सम्मान/आदर', 'क्षणिक/स्थायी'), heavily concentrated in HINDI Semantics/Vocabulary/Grammar subdomains, but with substantial leakage onto unrelated Hindi-script content."
+    },
+    {
+      "feature_idx": 3107,
+      "cross_domain_entropy_norm_discovery": 0.18908862628020853,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on Hindi-domain prompts that are themselves meta-linguistic analysis questions about Hindi grammar, syntax, semantics, or pragmatics (verb agreement, tense/aspect, postposition choice, obligation-marker gradation, clause structure), largely within HINDI domain."
+    },
+    {
+      "feature_idx": 6403,
+      "cross_domain_entropy_norm_discovery": 0.13800571861390404,
+      "final_classification": "script_or_language_marker",
+      "confidence": "high",
+      "candidate_interpretation": "Fires specifically on Hindi content written in Romanized/Latin script ('Hinglish' transliteration, e.g. 'Udhar diye paise...', 'Agar wo aaye to...', 'Gupta Sahab') and fires much more weakly on semantically similar content written in Devanagari script, indicating the feature detects the Roman-script rendering of Hindi rather than Hindi-the-language per se."
+    },
+    {
+      "feature_idx": 6299,
+      "cross_domain_entropy_norm_discovery": 0.1244248897381481,
+      "final_classification": "coherent_domain_specific",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires on Hindi prompts asking about implicit, non-literal, or entailed meaning -- e.g. whether a sentence entails something not stated, what an idiom or culturally-loaded phrase really means, how reported speech or honorific/pronoun choice shifts meaning -- spanning Grammar, Syntax, Semantics, Vocabulary and Pragmatics subdomains."
+    },
+    {
+      "feature_idx": 5780,
+      "cross_domain_entropy_norm_discovery": 0.08244581528416363,
+      "final_classification": "template_driven",
+      "confidence": "medium",
+      "candidate_interpretation": "Fires at a fixed early token position (position 4) on the recurring question-opener 'What is the role of ...' within DNA-domain prompts, regardless of which specific molecular entity or mechanism follows -- a syntactic template-position trigger rather than a concept about DNA content."
+    }
+  ],
+  "m3_seeded_two_feature_hypotheses_total_raw_count": 1107,
+  "m3_seeded_two_feature_hypotheses_top_ranked": [
+    {
+      "feature_a": 1811,
+      "feature_a_domain": "EMOTIONS",
+      "concept_a": "EMOTIONS_Basic_Complex_Emotions_kmeans_0",
+      "feature_a_firing_rate_on_concept_a_confirmation": 1.0,
+      "n_concept_a_confirmation_prompts": 33,
+      "feature_b": 553,
+      "feature_b_domain": "HINDI",
+      "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+      "feature_b_firing_rate_on_concept_b_confirmation": 1.0,
+      "n_concept_b_confirmation_prompts": 25,
+      "m3_relationship_type": "thematically_related",
+      "m3_confidence": 0.3,
+      "m3_evidence_excerpt": "Cluster A is abstract emotion-concept reasoning (appraisal, co-occurring emotions); cluster B is Hindi pragmatics of politeness and implied meaning. Only a weak thematic tie through emotionally-laden ",
+      "confidence": "low_hypothesis_only",
+      "caveat": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "evidence_strength_score": 3.258096538021482
+    },
+    {
+      "feature_a": 1811,
+      "feature_a_domain": "EMOTIONS",
+      "concept_a": "EMOTIONS_Basic_Complex_Emotions_kmeans_0",
+      "feature_a_firing_rate_on_concept_a_confirmation": 1.0,
+      "n_concept_a_confirmation_prompts": 33,
+      "feature_b": 838,
+      "feature_b_domain": "HINDI",
+      "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+      "feature_b_firing_rate_on_concept_b_confirmation": 1.0,
+      "n_concept_b_confirmation_prompts": 25,
+      "m3_relationship_type": "thematically_related",
+      "m3_confidence": 0.3,
+      "m3_evidence_excerpt": "Cluster A is abstract emotion-concept reasoning (appraisal, co-occurring emotions); cluster B is Hindi pragmatics of politeness and implied meaning. Only a weak thematic tie through emotionally-laden ",
+      "confidence": "low_hypothesis_only",
+      "caveat": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "evidence_strength_score": 3.258096538021482
+    },
+    {
+      "feature_a": 1811,
+      "feature_a_domain": "EMOTIONS",
+      "concept_a": "EMOTIONS_Basic_Complex_Emotions_kmeans_0",
+      "feature_a_firing_rate_on_concept_a_confirmation": 1.0,
+      "n_concept_a_confirmation_prompts": 33,
+      "feature_b": 2728,
+      "feature_b_domain": "HINDI",
+      "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+      "feature_b_firing_rate_on_concept_b_confirmation": 1.0,
+      "n_concept_b_confirmation_prompts": 25,
+      "m3_relationship_type": "thematically_related",
+      "m3_confidence": 0.3,
+      "m3_evidence_excerpt": "Cluster A is abstract emotion-concept reasoning (appraisal, co-occurring emotions); cluster B is Hindi pragmatics of politeness and implied meaning. Only a weak thematic tie through emotionally-laden ",
+      "confidence": "low_hypothesis_only",
+      "caveat": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "evidence_strength_score": 3.258096538021482
+    },
+    {
+      "feature_a": 1811,
+      "feature_a_domain": "EMOTIONS",
+      "concept_a": "EMOTIONS_Basic_Complex_Emotions_kmeans_0",
+      "feature_a_firing_rate_on_concept_a_confirmation": 1.0,
+      "n_concept_a_confirmation_prompts": 33,
+      "feature_b": 5297,
+      "feature_b_domain": "HINDI",
+      "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+      "feature_b_firing_rate_on_concept_b_confirmation": 1.0,
+      "n_concept_b_confirmation_prompts": 25,
+      "m3_relationship_type": "thematically_related",
+      "m3_confidence": 0.3,
+      "m3_evidence_excerpt": "Cluster A is abstract emotion-concept reasoning (appraisal, co-occurring emotions); cluster B is Hindi pragmatics of politeness and implied meaning. Only a weak thematic tie through emotionally-laden ",
+      "confidence": "low_hypothesis_only",
+      "caveat": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "evidence_strength_score": 3.258096538021482
+    },
+    {
+      "feature_a": 1811,
+      "feature_a_domain": "EMOTIONS",
+      "concept_a": "EMOTIONS_Basic_Complex_Emotions_kmeans_0",
+      "feature_a_firing_rate_on_concept_a_confirmation": 1.0,
+      "n_concept_a_confirmation_prompts": 33,
+      "feature_b": 6299,
+      "feature_b_domain": "HINDI",
+      "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+      "feature_b_firing_rate_on_concept_b_confirmation": 1.0,
+      "n_concept_b_confirmation_prompts": 25,
+      "m3_relationship_type": "thematically_related",
+      "m3_confidence": 0.3,
+      "m3_evidence_excerpt": "Cluster A is abstract emotion-concept reasoning (appraisal, co-occurring emotions); cluster B is Hindi pragmatics of politeness and implied meaning. Only a weak thematic tie through emotionally-laden ",
+      "confidence": "low_hypothesis_only",
+      "caveat": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "evidence_strength_score": 3.258096538021482
+    },
+    {
+      "feature_a": 1811,
+      "feature_a_domain": "EMOTIONS",
+      "concept_a": "EMOTIONS_Basic_Complex_Emotions_kmeans_0",
+      "feature_a_firing_rate_on_concept_a_confirmation": 1.0,
+      "n_concept_a_confirmation_prompts": 33,
+      "feature_b": 7371,
+      "feature_b_domain": "HINDI",
+      "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+      "feature_b_firing_rate_on_concept_b_confirmation": 1.0,
+      "n_concept_b_confirmation_prompts": 25,
+      "m3_relationship_type": "thematically_related",
+      "m3_confidence": 0.3,
+      "m3_evidence_excerpt": "Cluster A is abstract emotion-concept reasoning (appraisal, co-occurring emotions); cluster B is Hindi pragmatics of politeness and implied meaning. Only a weak thematic tie through emotionally-laden ",
+      "confidence": "low_hypothesis_only",
+      "caveat": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "evidence_strength_score": 3.258096538021482
+    },
+    {
+      "feature_a": 1811,
+      "feature_a_domain": "EMOTIONS",
+      "concept_a": "EMOTIONS_Basic_Complex_Emotions_kmeans_0",
+      "feature_a_firing_rate_on_concept_a_confirmation": 1.0,
+      "n_concept_a_confirmation_prompts": 33,
+      "feature_b": 7399,
+      "feature_b_domain": "HINDI",
+      "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+      "feature_b_firing_rate_on_concept_b_confirmation": 1.0,
+      "n_concept_b_confirmation_prompts": 25,
+      "m3_relationship_type": "thematically_related",
+      "m3_confidence": 0.3,
+      "m3_evidence_excerpt": "Cluster A is abstract emotion-concept reasoning (appraisal, co-occurring emotions); cluster B is Hindi pragmatics of politeness and implied meaning. Only a weak thematic tie through emotionally-laden ",
+      "confidence": "low_hypothesis_only",
+      "caveat": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "evidence_strength_score": 3.258096538021482
+    },
+    {
+      "feature_a": 1811,
+      "feature_a_domain": "EMOTIONS",
+      "concept_a": "EMOTIONS_Basic_Complex_Emotions_kmeans_1",
+      "feature_a_firing_rate_on_concept_a_confirmation": 0.9736842105263158,
+      "n_concept_a_confirmation_prompts": 38,
+      "feature_b": 553,
+      "feature_b_domain": "HINDI",
+      "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+      "feature_b_firing_rate_on_concept_b_confirmation": 1.0,
+      "n_concept_b_confirmation_prompts": 25,
+      "m3_relationship_type": "thematically_related",
+      "m3_confidence": 0.3,
+      "m3_evidence_excerpt": "Cluster A is emotion theory (appraisal theories, relief vs joy, duration of surprise); cluster B is Hindi conversational pragmatics. The connection is only a loose emotion/social-interaction theme; th",
+      "confidence": "low_hypothesis_only",
+      "caveat": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "evidence_strength_score": 3.1723571554419694
+    },
+    {
+      "feature_a": 1811,
+      "feature_a_domain": "EMOTIONS",
+      "concept_a": "EMOTIONS_Basic_Complex_Emotions_kmeans_1",
+      "feature_a_firing_rate_on_concept_a_confirmation": 0.9736842105263158,
+      "n_concept_a_confirmation_prompts": 38,
+      "feature_b": 838,
+      "feature_b_domain": "HINDI",
+      "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+      "feature_b_firing_rate_on_concept_b_confirmation": 1.0,
+      "n_concept_b_confirmation_prompts": 25,
+      "m3_relationship_type": "thematically_related",
+      "m3_confidence": 0.3,
+      "m3_evidence_excerpt": "Cluster A is emotion theory (appraisal theories, relief vs joy, duration of surprise); cluster B is Hindi conversational pragmatics. The connection is only a loose emotion/social-interaction theme; th",
+      "confidence": "low_hypothesis_only",
+      "caveat": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "evidence_strength_score": 3.1723571554419694
+    },
+    {
+      "feature_a": 1811,
+      "feature_a_domain": "EMOTIONS",
+      "concept_a": "EMOTIONS_Basic_Complex_Emotions_kmeans_1",
+      "feature_a_firing_rate_on_concept_a_confirmation": 0.9736842105263158,
+      "n_concept_a_confirmation_prompts": 38,
+      "feature_b": 2728,
+      "feature_b_domain": "HINDI",
+      "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+      "feature_b_firing_rate_on_concept_b_confirmation": 1.0,
+      "n_concept_b_confirmation_prompts": 25,
+      "m3_relationship_type": "thematically_related",
+      "m3_confidence": 0.3,
+      "m3_evidence_excerpt": "Cluster A is emotion theory (appraisal theories, relief vs joy, duration of surprise); cluster B is Hindi conversational pragmatics. The connection is only a loose emotion/social-interaction theme; th",
+      "confidence": "low_hypothesis_only",
+      "caveat": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "evidence_strength_score": 3.1723571554419694
+    },
+    {
+      "feature_a": 1811,
+      "feature_a_domain": "EMOTIONS",
+      "concept_a": "EMOTIONS_Basic_Complex_Emotions_kmeans_1",
+      "feature_a_firing_rate_on_concept_a_confirmation": 0.9736842105263158,
+      "n_concept_a_confirmation_prompts": 38,
+      "feature_b": 5297,
+      "feature_b_domain": "HINDI",
+      "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+      "feature_b_firing_rate_on_concept_b_confirmation": 1.0,
+      "n_concept_b_confirmation_prompts": 25,
+      "m3_relationship_type": "thematically_related",
+      "m3_confidence": 0.3,
+      "m3_evidence_excerpt": "Cluster A is emotion theory (appraisal theories, relief vs joy, duration of surprise); cluster B is Hindi conversational pragmatics. The connection is only a loose emotion/social-interaction theme; th",
+      "confidence": "low_hypothesis_only",
+      "caveat": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "evidence_strength_score": 3.1723571554419694
+    },
+    {
+      "feature_a": 1811,
+      "feature_a_domain": "EMOTIONS",
+      "concept_a": "EMOTIONS_Basic_Complex_Emotions_kmeans_1",
+      "feature_a_firing_rate_on_concept_a_confirmation": 0.9736842105263158,
+      "n_concept_a_confirmation_prompts": 38,
+      "feature_b": 6299,
+      "feature_b_domain": "HINDI",
+      "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+      "feature_b_firing_rate_on_concept_b_confirmation": 1.0,
+      "n_concept_b_confirmation_prompts": 25,
+      "m3_relationship_type": "thematically_related",
+      "m3_confidence": 0.3,
+      "m3_evidence_excerpt": "Cluster A is emotion theory (appraisal theories, relief vs joy, duration of surprise); cluster B is Hindi conversational pragmatics. The connection is only a loose emotion/social-interaction theme; th",
+      "confidence": "low_hypothesis_only",
+      "caveat": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "evidence_strength_score": 3.1723571554419694
+    },
+    {
+      "feature_a": 1811,
+      "feature_a_domain": "EMOTIONS",
+      "concept_a": "EMOTIONS_Basic_Complex_Emotions_kmeans_1",
+      "feature_a_firing_rate_on_concept_a_confirmation": 0.9736842105263158,
+      "n_concept_a_confirmation_prompts": 38,
+      "feature_b": 7371,
+      "feature_b_domain": "HINDI",
+      "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+      "feature_b_firing_rate_on_concept_b_confirmation": 1.0,
+      "n_concept_b_confirmation_prompts": 25,
+      "m3_relationship_type": "thematically_related",
+      "m3_confidence": 0.3,
+      "m3_evidence_excerpt": "Cluster A is emotion theory (appraisal theories, relief vs joy, duration of surprise); cluster B is Hindi conversational pragmatics. The connection is only a loose emotion/social-interaction theme; th",
+      "confidence": "low_hypothesis_only",
+      "caveat": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "evidence_strength_score": 3.1723571554419694
+    },
+    {
+      "feature_a": 1811,
+      "feature_a_domain": "EMOTIONS",
+      "concept_a": "EMOTIONS_Basic_Complex_Emotions_kmeans_1",
+      "feature_a_firing_rate_on_concept_a_confirmation": 0.9736842105263158,
+      "n_concept_a_confirmation_prompts": 38,
+      "feature_b": 7399,
+      "feature_b_domain": "HINDI",
+      "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+      "feature_b_firing_rate_on_concept_b_confirmation": 1.0,
+      "n_concept_b_confirmation_prompts": 25,
+      "m3_relationship_type": "thematically_related",
+      "m3_confidence": 0.3,
+      "m3_evidence_excerpt": "Cluster A is emotion theory (appraisal theories, relief vs joy, duration of surprise); cluster B is Hindi conversational pragmatics. The connection is only a loose emotion/social-interaction theme; th",
+      "confidence": "low_hypothesis_only",
+      "caveat": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "evidence_strength_score": 3.1723571554419694
+    },
+    {
+      "feature_a": 1811,
+      "feature_a_domain": "EMOTIONS",
+      "concept_a": "EMOTIONS_Basic_Complex_Emotions_kmeans_0",
+      "feature_a_firing_rate_on_concept_a_confirmation": 1.0,
+      "n_concept_a_confirmation_prompts": 33,
+      "feature_b": 4485,
+      "feature_b_domain": "HINDI",
+      "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+      "feature_b_firing_rate_on_concept_b_confirmation": 0.96,
+      "n_concept_b_confirmation_prompts": 25,
+      "m3_relationship_type": "thematically_related",
+      "m3_confidence": 0.3,
+      "m3_evidence_excerpt": "Cluster A is abstract emotion-concept reasoning (appraisal, co-occurring emotions); cluster B is Hindi pragmatics of politeness and implied meaning. Only a weak thematic tie through emotionally-laden ",
+      "confidence": "low_hypothesis_only",
+      "caveat": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "evidence_strength_score": 3.127772676500623
+    },
+    {
+      "feature_a": 1811,
+      "feature_a_domain": "EMOTIONS",
+      "concept_a": "EMOTIONS_Basic_Complex_Emotions_kmeans_0",
+      "feature_a_firing_rate_on_concept_a_confirmation": 1.0,
+      "n_concept_a_confirmation_prompts": 33,
+      "feature_b": 6719,
+      "feature_b_domain": "HINDI",
+      "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+      "feature_b_firing_rate_on_concept_b_confirmation": 0.96,
+      "n_concept_b_confirmation_prompts": 25,
+      "m3_relationship_type": "thematically_related",
+      "m3_confidence": 0.3,
+      "m3_evidence_excerpt": "Cluster A is abstract emotion-concept reasoning (appraisal, co-occurring emotions); cluster B is Hindi pragmatics of politeness and implied meaning. Only a weak thematic tie through emotionally-laden ",
+      "confidence": "low_hypothesis_only",
+      "caveat": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "evidence_strength_score": 3.127772676500623
+    },
+    {
+      "feature_a": 3908,
+      "feature_a_domain": "EMOTIONS",
+      "concept_a": "EMOTIONS_Emotional_Expression_Communication_kmeans_2",
+      "feature_a_firing_rate_on_concept_a_confirmation": 0.9428571428571428,
+      "n_concept_a_confirmation_prompts": 35,
+      "feature_b": 553,
+      "feature_b_domain": "HINDI",
+      "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+      "feature_b_firing_rate_on_concept_b_confirmation": 1.0,
+      "n_concept_b_confirmation_prompts": 25,
+      "m3_relationship_type": "closely_related",
+      "m3_confidence": 0.6,
+      "m3_evidence_excerpt": "Cluster A is about expressing emotion appropriately (mixed emotions in a speech, sincerity dilution from emoji overuse, warmth/formality of greeting rituals); cluster B is Hindi pragmatics of politene",
+      "confidence": "low_hypothesis_only",
+      "caveat": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "evidence_strength_score": 3.071919592991683
+    },
+    {
+      "feature_a": 3908,
+      "feature_a_domain": "EMOTIONS",
+      "concept_a": "EMOTIONS_Emotional_Expression_Communication_kmeans_2",
+      "feature_a_firing_rate_on_concept_a_confirmation": 0.9428571428571428,
+      "n_concept_a_confirmation_prompts": 35,
+      "feature_b": 838,
+      "feature_b_domain": "HINDI",
+      "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+      "feature_b_firing_rate_on_concept_b_confirmation": 1.0,
+      "n_concept_b_confirmation_prompts": 25,
+      "m3_relationship_type": "closely_related",
+      "m3_confidence": 0.6,
+      "m3_evidence_excerpt": "Cluster A is about expressing emotion appropriately (mixed emotions in a speech, sincerity dilution from emoji overuse, warmth/formality of greeting rituals); cluster B is Hindi pragmatics of politene",
+      "confidence": "low_hypothesis_only",
+      "caveat": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "evidence_strength_score": 3.071919592991683
+    },
+    {
+      "feature_a": 3908,
+      "feature_a_domain": "EMOTIONS",
+      "concept_a": "EMOTIONS_Emotional_Expression_Communication_kmeans_2",
+      "feature_a_firing_rate_on_concept_a_confirmation": 0.9428571428571428,
+      "n_concept_a_confirmation_prompts": 35,
+      "feature_b": 2728,
+      "feature_b_domain": "HINDI",
+      "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+      "feature_b_firing_rate_on_concept_b_confirmation": 1.0,
+      "n_concept_b_confirmation_prompts": 25,
+      "m3_relationship_type": "closely_related",
+      "m3_confidence": 0.6,
+      "m3_evidence_excerpt": "Cluster A is about expressing emotion appropriately (mixed emotions in a speech, sincerity dilution from emoji overuse, warmth/formality of greeting rituals); cluster B is Hindi pragmatics of politene",
+      "confidence": "low_hypothesis_only",
+      "caveat": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "evidence_strength_score": 3.071919592991683
+    },
+    {
+      "feature_a": 3908,
+      "feature_a_domain": "EMOTIONS",
+      "concept_a": "EMOTIONS_Emotional_Expression_Communication_kmeans_2",
+      "feature_a_firing_rate_on_concept_a_confirmation": 0.9428571428571428,
+      "n_concept_a_confirmation_prompts": 35,
+      "feature_b": 5297,
+      "feature_b_domain": "HINDI",
+      "concept_b": "HINDI_Pragmatics_hdbscan_-1",
+      "feature_b_firing_rate_on_concept_b_confirmation": 1.0,
+      "n_concept_b_confirmation_prompts": 25,
+      "m3_relationship_type": "closely_related",
+      "m3_confidence": 0.6,
+      "m3_evidence_excerpt": "Cluster A is about expressing emotion appropriately (mixed emotions in a speech, sincerity dilution from emoji overuse, warmth/formality of greeting rituals); cluster B is Hindi pragmatics of politene",
+      "confidence": "low_hypothesis_only",
+      "caveat": "This is NOT evidence the two features represent the same concept -- it only shows each feature fires at above-floor rate on its OWN domain's half of an M3-reviewed cross-domain concept pair. No claim of shared representation or causal link is made.",
+      "evidence_strength_score": 3.071919592991683
+    }
+  ],
+  "raw_count_caveat": "1107 raw (feature_a, feature_b, concept_pair) intersections passed the lenient 5% per-feature firing-rate floor -- this large count reflects how permissive that floor is combined with ~26 concept pairs x many domain-matched candidates on each side, NOT 1107 genuine discoveries. Only the top 20, ranked by combined evidence strength (rate_a x rate_b x log(min concept-prompt count)), are reported as candidate hypotheses; even these are explicitly labeled low-confidence, hypothesis-only.",
+  "methodology_note": "(a) and (b) are different kinds of evidence and must not be merged: (a) is about ONE feature firing across multiple domains; (b) is about TWO DIFFERENT features, each domain-specific, potentially covering 'parallel' content in an M3-reviewed concept pair -- a weak, hypothesis-only signal, never upgraded to a validated relationship without further causal evidence."
+}
